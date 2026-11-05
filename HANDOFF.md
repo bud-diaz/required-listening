@@ -91,8 +91,8 @@ Drafts only appear in development builds; production builds show them as "Coming
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
-- 2026-11-05: Linked the EAS iOS development-build profile, added ESLint, and passed lint, type,
-  test, Expo diagnostics, and iOS JS-bundle export. Pending commit hash.
+- 2026-11-05 `284bc16`: Linked the EAS iOS development-build profile, added ESLint, and passed lint, type,
+  test, Expo diagnostics, and iOS JS-bundle export.
 - 2026-11-05: Added this HANDOFF.md.
 - 2026-11-05 `2dcb0cc`: Phase 1 prototype: Expo app, content schema, Chief Keef draft unit,
   lanes, provider links, local storage, tests, PDF draft extractor.
