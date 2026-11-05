@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "review": { "status": "draft", "reviewedAt": null, "reviewedBy": null },
+  "intro": "Music doesn't get passed down by rules. It gets passed down by choice — and by someone deciding that a song was worth carrying forward. A crate is just a collection of songs that mean something to you. There's no right answer here. The goal is to start listening like someone who cares about what they're hearing.",
+  "minSongs": 3,
+  "maxSongs": 5,
+  "whyOptions": [
+    { "id": "move", "label": "It makes me want to move" },
+    { "id": "calm", "label": "It makes me feel calm" },
+    { "id": "confident", "label": "It makes me feel confident" },
+    { "id": "cool", "label": "It sounds cool" },
+    { "id": "just-like-it", "label": "I don't know why yet, I just like it" }
+  ],
+  "momentOptions": [
+    { "id": "car-ride", "label": "Car ride" },
+    { "id": "clean-up", "label": "Cleaning up" },
+    { "id": "bedtime", "label": "Before bed" },
+    { "id": "party", "label": "Party" },
+    { "id": "sad", "label": "When I'm sad" },
+    { "id": "happy", "label": "When I'm happy" },
+    { "id": "anytime", "label": "Anytime" }
+  ],
+  "shareTips": [
+    "Play one song from your crate for someone else.",
+    "Tell them one thing about it: what you like, how it makes you feel, or what it reminds you of.",
+    "They don't have to agree. That's the point."
+  ],
+  "closing": [
+    "This crate isn't meant to stay the same. Come back to it every year. Rebuild it as tastes change, voices deepen, and new questions show up.",
+    "There's no finish line here. Just an open crate passed from hand to hand, year after year.",
+    "Keep it open. Keep listening. Keep adding to it."
+  ]
+}

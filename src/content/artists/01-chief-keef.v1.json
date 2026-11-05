@@ -1,0 +1,493 @@
+{
+  "schemaVersion": 1,
+  "id": "chief-keef",
+  "number": 1,
+  "displayName": "Chief Keef",
+  "monogram": "CK",
+  "whyItMatters": "Chief Keef still matters because he broke the rules and everybody kept the pieces. His sound wasn't polished, his lyrics weren't polite, and the industry didn't know what to do with him, but the kids did. He helped drag hip-hop into the internet age where raw emotion, regional slang, and DIY visuals mattered more than radio approval. You can draw a straight line from his music to today's rap flows, aesthetics, and attitudes. Even if he ain't chart-chasing anymore, the culture still talking in his accent.",
+  "passedDown": {
+    "trackId": "love-sosa",
+    "blurb": "This is the ignition switch. Raw, loud, unpolished, and impossible to ignore. Even if a kid don't understand the words yet, they feel the energy. This record didn't just make noise, it rewired the sound of rap."
+  },
+  "youngerListener": {
+    "trackIds": ["love-sosa-instrumental", "earned-it", "everyday", "citgo-instrumental"],
+    "note": "Still gets the vibe without the violence. Check the version before you press play: an instrumental has no words at all, and a \"clean\" edit depends on the version your music service serves."
+  },
+  "overview": {
+    "summary": [
+      "the drill originator",
+      "the Gen Z influence blueprint",
+      "the kid who turned his block into international culture",
+      "the dude who rewired rap's sound, flows, attitude, and visual language before he could even drink"
+    ],
+    "closing": "Sosa is a cultural earthquake, not just music."
+  },
+  "learnOutcomes": [
+    "what drill is (musically + socially)",
+    "how environment shapes art",
+    "how youth culture reshapes the industry",
+    "minimalism, chanting, and melody in rap",
+    "the Chicago sound ecosystem",
+    "what \"impact beyond charts\" actually looks like"
+  ],
+  "tracks": [
+    {
+      "id": "love-sosa",
+      "title": "Love Sosa",
+      "artist": "Chief Keef",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language", "violence", "weapons"],
+      "caregiverNote": "The album version is explicit. Younger listeners get the instrumental.",
+      "needsManualReview": true
+    },
+    {
+      "id": "love-sosa-instrumental",
+      "title": "Love Sosa (Instrumental)",
+      "artist": "Chief Keef",
+      "type": "instrumental",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "instrumental",
+      "contentFlags": [],
+      "searchQuery": "Love Sosa instrumental Young Chop",
+      "sourceNotes": "Guide lists '\"Love Sosa\" instrumental'. No official instrumental release confirmed yet; search link only.",
+      "needsManualReview": true
+    },
+    {
+      "id": "earned-it",
+      "title": "Earned It",
+      "artist": "Chief Keef",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "Guide calls for the clean version. Confirm a clean edit exists on your service before playing.",
+      "sourceNotes": "Guide lists '\"Earned It\" (clean)'. Release and clean edit need verification.",
+      "needsManualReview": true
+    },
+    {
+      "id": "everyday",
+      "title": "Everyday",
+      "artist": "Chief Keef",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "Guide calls for the clean version. Confirm a clean edit exists on your service before playing.",
+      "sourceNotes": "Guide lists '\"Everyday\" (clean)' and, in Lesson 1, as the 'melodic era intro'.",
+      "needsManualReview": true
+    },
+    {
+      "id": "citgo-instrumental",
+      "title": "Citgo (Instrumental)",
+      "artist": "Chief Keef",
+      "type": "instrumental",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "instrumental",
+      "contentFlags": [],
+      "searchQuery": "Citgo Chief Keef instrumental",
+      "sourceNotes": "Guide lists '\"Citgo\" instrumental'. Official instrumental not confirmed; search link only.",
+      "needsManualReview": true
+    },
+    {
+      "id": "john-madden",
+      "title": "John Madden",
+      "artist": "Chief Keef",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": ["explicit-language", "violence"],
+      "caregiverNote": "Guide says \"clean if needed\". Preview the version first.",
+      "needsManualReview": true
+    },
+    {
+      "id": "i-dont-like",
+      "title": "I Don't Like",
+      "artist": "Chief Keef",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language", "violence"],
+      "sourceNotes": "Lesson 4 lists this as \"Don't Like\". Both refer to this record; the Kanye West remix is a separate release (see Lesson 3).",
+      "needsManualReview": true
+    },
+    {
+      "id": "hate-bein-sober",
+      "title": "Hate Bein' Sober",
+      "artist": "Chief Keef",
+      "type": "song",
+      "minLane": "full",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language", "substances"],
+      "caregiverNote": "The song is about substance use. Pair it with the Lesson 4 themes (pressure, numbness).",
+      "needsManualReview": true
+    },
+    {
+      "id": "kay-kay",
+      "title": "Kay Kay",
+      "artist": "Chief Keef",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": ["explicit-language"],
+      "needsManualReview": true
+    },
+    {
+      "id": "kobe",
+      "title": "Kobe",
+      "artist": "Chief Keef",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": ["explicit-language"],
+      "sourceNotes": "Final Project offers 'Kobe' as a later melodic track.",
+      "needsManualReview": true
+    },
+    {
+      "id": "kobe-instrumental",
+      "title": "Kobe (Instrumental)",
+      "artist": "Chief Keef",
+      "type": "instrumental",
+      "minLane": "younger",
+      "youngerListener": false,
+      "cleanVersionStatus": "instrumental",
+      "contentFlags": [],
+      "searchQuery": "Kobe Chief Keef instrumental",
+      "sourceNotes": "Official instrumental not confirmed; search link only.",
+      "needsManualReview": true
+    },
+    {
+      "id": "finally-rich",
+      "title": "Finally Rich",
+      "artist": "Chief Keef",
+      "type": "album",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language", "violence", "substances"],
+      "caregiverNote": "A clean edition may exist on some services. Pick tracks rather than playing the album straight through.",
+      "needsManualReview": true
+    },
+    {
+      "id": "bang-2",
+      "title": "Bang 2",
+      "artist": "Chief Keef",
+      "type": "mixtape",
+      "minLane": "full",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language", "violence"],
+      "needsManualReview": true
+    },
+    {
+      "id": "almighty-so",
+      "title": "Almighty So",
+      "artist": "Chief Keef",
+      "type": "mixtape",
+      "minLane": "full",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language", "violence"],
+      "needsManualReview": true
+    },
+    {
+      "id": "thot-breaker",
+      "title": "Thot Breaker",
+      "artist": "Chief Keef",
+      "type": "album",
+      "minLane": "full",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language", "sexual-content"],
+      "caregiverNote": "The guide's \"melodic pivot\". The title and lyrics are adult; the Final Project also offers \"Kobe\" as the later track.",
+      "needsManualReview": true
+    },
+    {
+      "id": "dedication",
+      "title": "Dedication",
+      "artist": "Chief Keef",
+      "type": "mixtape",
+      "minLane": "full",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language"],
+      "needsManualReview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ck-01-chicago",
+      "number": 1,
+      "title": "Chicago, 2011–2013, Survival Music",
+      "body": [
+        { "type": "callout", "text": "Don't sanitize it; teach the truth gently." },
+        {
+          "type": "list",
+          "label": "Chicago conditions (then):",
+          "items": [
+            "hyper-policing",
+            "systemic neglect",
+            "gang fragmentation",
+            "digital-age street culture",
+            "kids raising kids",
+            "poverty + lack of resources"
+          ]
+        },
+        { "type": "text", "text": "Explain to your kid: Drill ain't about \"glorifying violence.\" It's documenting an environment adults ignored." }
+      ],
+      "listen": ["john-madden", "everyday"],
+      "notice": { "text": "Listen past the volume. Is the voice angry, scared, tired, proud, or something else?", "source": "adapted" },
+      "talk": { "text": "What emotions do you hear behind the aggression?", "source": "guide" },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "This lesson names violence and poverty directly. Read it yourself first and decide how much your kid is ready for.",
+      "contentFlags": ["violence", "mature-themes"]
+    },
+    {
+      "id": "ck-02-the-sound",
+      "number": 2,
+      "title": "The Sound: What Makes Drill Drill",
+      "body": [
+        {
+          "type": "list",
+          "label": "Drill =",
+          "items": [
+            "dark, minor-key synths",
+            "heavy 808 slides",
+            "triplet hi-hats",
+            "aggressive ad-libs",
+            "simple repetitive hooks",
+            "chant-style delivery",
+            "emphasis on energy > bars"
+          ]
+        },
+        { "type": "callout", "text": "Sosa literally INVENTED the \"menacing lullaby\" aesthetic." }
+      ],
+      "listen": ["love-sosa", "i-dont-like"],
+      "notice": { "text": "Find the 808: the deep bass note that slides up or down. Hum it when you hear it.", "source": "adapted" },
+      "talk": { "text": "Sometimes innovation is about FEEL, not complexity. What does this beat make you feel before anybody starts rapping?", "source": "adapted" },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": ["explicit-language"]
+    },
+    {
+      "id": "ck-03-breakout",
+      "number": 3,
+      "title": "The Breakout: \"I Don't Like\" & Viral Power",
+      "body": [
+        { "type": "text", "text": "This is where TikTok got its entire blueprint." },
+        {
+          "type": "list",
+          "label": "Key notes:",
+          "items": [
+            "one of the first true viral rap explosions",
+            "Kanye remix → national spotlight",
+            "YouTube → distribution",
+            "teens → cultural engine",
+            "authenticity → brand"
+          ]
+        },
+        { "type": "callout", "text": "This was the beginning of youth-led online rap culture." }
+      ],
+      "listen": ["i-dont-like"],
+      "notice": { "text": "Count how many times the hook repeats. Simple and repeatable is what spreads.", "source": "adapted" },
+      "talk": { "text": "Why do you think kids, not radio, made this song blow up?", "source": "adapted" },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": ["explicit-language"]
+    },
+    {
+      "id": "ck-04-finally-rich",
+      "number": 4,
+      "title": "Finally Rich (The Blueprint Album)",
+      "body": [
+        { "type": "callout", "text": "A REQUIRED album for modern rap literacy." },
+        {
+          "type": "list",
+          "label": "Themes:",
+          "items": ["survival", "loyalty", "trauma", "pressure", "rebellion", "celebration", "neighborhood pride", "numbness"]
+        },
+        { "type": "text", "text": "This album influenced every rapper of the next decade." }
+      ],
+      "listen": ["finally-rich", "hate-bein-sober", "love-sosa", "i-dont-like", "kay-kay"],
+      "notice": { "text": "Pick one theme from the list and listen for it. Did you find it in the words, the beat, or the voice?", "source": "adapted" },
+      "talk": { "text": "Celebration and numbness are both on this list. How can one album feel both?", "source": "adapted" },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Themes include trauma and numbness, and \"Hate Bein' Sober\" is about substance use (shown in the Full Guide lane only).",
+      "contentFlags": ["trauma", "substances", "explicit-language"]
+    },
+    {
+      "id": "ck-05-the-flow",
+      "number": 5,
+      "title": "The Flow: Melodic Chanting + Controlled Chaos",
+      "body": [
+        {
+          "type": "list",
+          "label": "Sosa's flow innovations:",
+          "items": [
+            "monotone chanting",
+            "dragging syllables",
+            "yelling as rhythm",
+            "ad-lib conversation",
+            "short phrases",
+            "hypnotic repetition"
+          ]
+        },
+        { "type": "callout", "text": "Modern rap literally talks like him." }
+      ],
+      "listen": ["love-sosa"],
+      "notice": { "text": "Listen for lines that stick in your head even though they're barely sung.", "source": "adapted" },
+      "talk": { "text": "Which line was the catchiest? Why do you think it stuck?", "source": "adapted" },
+      "activity": { "text": "Play \"Love Sosa\" and have your kid identify which lines feel \"catchy\" even WITHOUT melody.", "source": "guide" },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": ["explicit-language"]
+    },
+    {
+      "id": "ck-06-aesthetic",
+      "number": 6,
+      "title": "The Drill Aesthetic: Videos, Fashion, Energy",
+      "body": [
+        {
+          "type": "list",
+          "label": "Chief Keef invented:",
+          "items": [
+            "shirt-off-in-the-living-room rap videos",
+            "gang-in-the-background energy",
+            "camera shaking as style",
+            "performance as raw vibe",
+            "suburban teens cosplaying Chicago",
+            "drill fashion (True Religion jeans, designer belts, dreads era)"
+          ]
+        }
+      ],
+      "listen": [],
+      "notice": { "text": "If you watch a video together, look at the setting: where is it filmed, and who's in the frame?", "source": "adapted" },
+      "talk": { "text": "Image shapes genre almost as much as music. What does the look tell you before the song even starts?", "source": "adapted" },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "The guide doesn't name specific videos. Many from this era show weapons; pick one yourself before watching together.",
+      "contentFlags": ["violence", "weapons"]
+    },
+    {
+      "id": "ck-07-production",
+      "number": 7,
+      "title": "Production Revolution: Young Chop & the Chicago Sound",
+      "body": [
+        {
+          "type": "list",
+          "label": "Young Chop:",
+          "items": ["built the sonic language", "sliding 808s", "frantic hats", "airy synth pads", "big-room drums"]
+        },
+        { "type": "text", "text": "Explain: Drill started as a SOUND before it became a subculture." }
+      ],
+      "listen": ["love-sosa-instrumental", "kobe-instrumental"],
+      "notice": { "text": "With no words in the way, name every sound you hear: bass, drums, the high ticking hats, the floaty synths.", "source": "adapted" },
+      "talk": { "text": "If this beat were a movie scene, what would be happening?", "source": "adapted" },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ck-08-independence",
+      "number": 8,
+      "title": "Independence & Influence: Sosa After the Labels",
+      "body": [
+        {
+          "type": "list",
+          "label": "Teach the truth:",
+          "items": [
+            "left Interscope young",
+            "built GBE's independent model",
+            "moved to LA",
+            "dropped tons of mixtapes",
+            "produced his own music",
+            "became a recluse but cult-legend"
+          ]
+        },
+        { "type": "callout", "text": "He influenced rap WHILE being anti-industry." }
+      ],
+      "listen": ["bang-2", "almighty-so", "thot-breaker", "dedication"],
+      "notice": { "text": "Compare the start of an early tape to a later one. Is he rapping, singing, or something in between?", "source": "adapted" },
+      "talk": { "text": "Can you still be important if you stop doing what the big companies want?", "source": "adapted" },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "All four projects are explicit. Pick one track to sample rather than playing a whole tape.",
+      "contentFlags": ["explicit-language"]
+    },
+    {
+      "id": "ck-09-influence-tree",
+      "number": 9,
+      "title": "The Influence Tree: Sosa is the Father of a Generation",
+      "body": [
+        { "type": "callout", "text": "Chief Keef didn't become the future. He MADE it." }
+      ],
+      "listen": [],
+      "notice": { "text": "Pick one name from the tree and listen for something they borrowed: a chant, a slide, a mood.", "source": "adapted" },
+      "talk": { "text": "Which of these artists do you already know? Can you hear Sosa in them now?", "source": "adapted" },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": [],
+      "influence": {
+        "direct": [
+          { "name": "Lil Uzi Vert", "note": "melodic chaos" },
+          { "name": "Playboi Carti", "note": "vibe > bars" },
+          { "name": "Trippie Redd", "note": "aggressive melodies" },
+          { "name": "21 Savage", "note": "deadpan menace" },
+          { "name": "Polo G", "note": "emotional drill" },
+          { "name": "G Herbo", "note": "storytelling drill" },
+          { "name": "Lil Durk", "note": "melodic drill" },
+          { "name": "King Von", "note": "narrative drill" }
+        ],
+        "cultural": ["NYC Drill", "UK Drill hybrids", "SoundCloud wave", "\"mumble rap\" stereotypes", "rage rap culture"]
+      }
+    },
+    {
+      "id": "ck-10-legacy",
+      "number": 10,
+      "title": "Legacy: Youth Culture as Cultural Power",
+      "body": [
+        {
+          "type": "list",
+          "label": "Chief Keef represents:",
+          "items": [
+            "youth ownership of sound",
+            "rejecting polish",
+            "DIY ethos",
+            "authenticity",
+            "culture shaping the industry, not the other way around",
+            "the internet as music infrastructure"
+          ]
+        }
+      ],
+      "listen": ["love-sosa"],
+      "notice": { "text": "Listen once more to the passed-down track. What do you hear now that you didn't on day one?", "source": "adapted" },
+      "talk": { "text": "Adults didn't understand Sosa. But the youth did, and that's why he changed everything. What music do you love that grown-ups don't get?", "source": "adapted" },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Chief Keef helped create drill music through raw storytelling, hypnotic delivery, and internet-driven youth culture. Compare ONE early track ('I Don't Like' or 'Love Sosa') with ONE later melodic track ('Kobe' or 'Thot Breaker'). Identify TWO modern rappers whose style clearly traces back to Chief Keef.",
+    "earlyOptions": ["i-dont-like", "love-sosa"],
+    "laterOptions": ["kobe", "thot-breaker"],
+    "influencedCount": 2
+  },
+  "contentFlags": ["explicit-language", "violence", "weapons", "substances", "mature-themes"],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Drafted from docs/Required_Listening_11-5.pdf, Unit 1. In the PDF, Lesson 9 is the Influence Tree and Lesson 10 is Legacy. Body text is the guide's wording with list bullets repaired. Every Notice prompt and any Talk prompt marked \"adapted\" was written for the app from the lesson's own content and needs author sign-off.",
+  "review": { "status": "draft", "reviewedAt": null, "reviewedBy": null }
+}
