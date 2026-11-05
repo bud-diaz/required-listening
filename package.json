@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "content:audit": "vitest run tests/content-schema.test.ts",
-    "extract:draft": "node scripts/extract-pdf.mjs"
+    "extract:draft": "node scripts/extract-pdf.mjs",
+    "lint": "expo lint"
   },
   "dependencies": {
     "@expo/metro-runtime": "~58.0.17",
@@ -32,6 +33,8 @@
   },
   "devDependencies": {
     "@types/react": "~19.3.0",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~58.0.4",
     "typescript": "~6.0.3",
     "vitest": "^5.1.0"
   }

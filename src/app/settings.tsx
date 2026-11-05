@@ -63,7 +63,7 @@ export default function SettingsScreen() {
 
       <Rule />
       <View style={{ gap: space.sm }}>
-        <Kicker>Your family's data</Kicker>
+        <Kicker>Your family’s data</Kicker>
         <Text style={[type.small, { color: colors.ink }]}>
           Everything is stored only on this device: settings, crate, saved thoughts and progress. Nothing is uploaded.
         </Text>
@@ -71,7 +71,7 @@ export default function SettingsScreen() {
         {confirming ? (
           <Card tone="gold">
             <Text style={[type.body, { color: colors.ink, fontWeight: '700' }]}>
-              Delete everything on this device? This can't be undone.
+              Delete everything on this device? This can’t be undone.
             </Text>
             <Button label="Yes, delete everything" variant="danger" onPress={onDelete} />
             <Button label="Cancel" variant="ghost" onPress={() => setConfirming(false)} />

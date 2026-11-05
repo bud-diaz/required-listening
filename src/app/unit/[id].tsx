@@ -31,7 +31,7 @@ export default function UnitScreen() {
   if (!unit) {
     return (
       <Screen>
-        <Body>This unit isn't available yet.</Body>
+        <Body>This unit isn’t available yet.</Body>
       </Screen>
     );
   }
@@ -61,7 +61,7 @@ export default function UnitScreen() {
           <Text style={[type.h1, { color: colors.paper }]}>“{passed.track.title}”</Text>
           {passed.isSubstitute ? (
             <Text style={[type.small, { color: colors.goldSoft }]}>
-              On the Younger Listener lane we start with this version. The guide's pick is “
+              On the Younger Listener lane we start with this version. The guide’s pick is “
               {unit.tracks.find((t) => t.id === unit.passedDown.trackId)?.title}”.
             </Text>
           ) : null}
@@ -98,7 +98,7 @@ export default function UnitScreen() {
         {unit.overview.summary.map((s) => (
           <Text key={s} style={[type.h2, { color: colors.ink, fontWeight: '700' }]}>{s}</Text>
         ))}
-        <Kicker color={colors.muted}>Your kid gon' learn</Kicker>
+        <Kicker color={colors.muted}>Your kid gon’ learn</Kicker>
         {unit.learnOutcomes.map((o) => (
           <Body key={o}>— {o}</Body>
         ))}

@@ -25,6 +25,20 @@
       "favicon": "./assets/favicon.png",
       "output": "single"
     },
-    "plugins": ["expo-router", "expo-sqlite"]
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "29bd2171-ae38-4f5e-b974-cb451d0339ab"
+      }
+    },
+    "owner": "bud-diaz"
   }
 }

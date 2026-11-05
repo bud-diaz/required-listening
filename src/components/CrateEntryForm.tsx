@@ -84,7 +84,7 @@ export function CrateEntryForm({ lane, initialTrackId, onSaved }: Props) {
         ) : (
           <View style={{ gap: space.sm }}>
             <Body style={{ color: colors.muted, fontSize: 14 }}>
-              From your parents' music, or something you found on your own. There are no wrong answers.
+              From your parents’ music, or something you found on your own. There are no wrong answers.
             </Body>
             <TextInput value={title} onChangeText={setTitle} placeholder="Song title" accessibilityLabel="Song title" style={styles.input} placeholderTextColor={colors.muted} />
             <TextInput value={artist} onChangeText={setArtist} placeholder="Who made it" accessibilityLabel="Artist" style={styles.input} placeholderTextColor={colors.muted} />
@@ -94,7 +94,7 @@ export function CrateEntryForm({ lane, initialTrackId, onSaved }: Props) {
 
       <View style={{ gap: space.sm }}>
         <Kicker>Step 2 · Why this one?</Kicker>
-        <Text style={[type.small, { color: colors.muted }]}>It's okay to pick more than one.</Text>
+        <Text style={[type.small, { color: colors.muted }]}>It’s okay to pick more than one.</Text>
         <View style={styles.wrap}>
           {crateActivity.whyOptions.map((o) => (
             <Chip key={o.id} label={o.label} selected={why.includes(o.id)} onPress={() => toggleWhy(o.id)} />

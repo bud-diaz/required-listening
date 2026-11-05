@@ -45,7 +45,7 @@ export default function Welcome() {
 
       <View style={{ gap: space.sm }}>
         <Kicker color={colors.muted}>For grown-ups · 1 minute setup</Kicker>
-        <Text style={[type.h2, { color: colors.ink }]}>Who's listening?</Text>
+        <Text style={[type.h2, { color: colors.ink }]}>Who’s listening?</Text>
         <Text style={[type.small, { color: colors.muted }]}>
           A nickname only. No real names, birthdays or emails. Everything stays on this device.
         </Text>
@@ -78,7 +78,7 @@ export default function Welcome() {
       <View style={{ gap: space.sm }}>
         <Text style={[type.h2, { color: colors.ink }]}>Where do you listen?</Text>
         <Text style={[type.small, { color: colors.muted }]}>
-          The app doesn't play music. It opens a search in the services you allow here.
+          The app doesn’t play music. It opens a search in the services you allow here.
         </Text>
         <View style={styles.wrap}>
           {PROVIDERS.map((p) => (
@@ -92,7 +92,7 @@ export default function Welcome() {
         <Text style={[type.small, { color: colors.ink }]}>
           This guide assumes adult discretion and encourages context over censorship. Some artists and songs deal with
           violence, trauma, substances and adult behavior. Labels and lanes help you choose, but no label promises a
-          record is right for every kid. Preview first when you're not sure.
+          record is right for every kid. Preview first when you’re not sure.
         </Text>
         <Chip label={ack ? 'Got it ✓' : 'Got it'} selected={ack} onPress={() => setAck(!ack)} />
       </Card>

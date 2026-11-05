@@ -17,7 +17,7 @@ export default function LessonScreen() {
   if (!unit || !lesson) {
     return (
       <Screen>
-        <Body>This lesson isn't available on your listening lane.</Body>
+        <Body>This lesson isn’t available on your listening lane.</Body>
       </Screen>
     );
   }

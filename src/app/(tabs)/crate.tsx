@@ -21,7 +21,7 @@ export default function Crate() {
     <Screen>
       <View style={{ gap: space.xs }}>
         <Kicker>Build your own crate</Kicker>
-        <Text style={[type.h1, { color: colors.ink }]}>{nickname}'s Crate</Text>
+        <Text style={[type.h1, { color: colors.ink }]}>{nickname}’s Crate</Text>
         <Body style={{ color: colors.muted, fontSize: 15 }}>{crateActivity.intro}</Body>
       </View>
 
@@ -53,7 +53,7 @@ export default function Crate() {
       <Button label="+ Add a song" onPress={() => router.push('/crate/add')} />
       {crate.length >= MAX_CRATE_SIZE_HINT ? (
         <Text style={[type.small, { color: colors.muted }]}>
-          That's a full crate. You can always swap songs. Crates change over time.
+          That’s a full crate. You can always swap songs. Crates change over time.
         </Text>
       ) : null}
 
