@@ -10,8 +10,25 @@ Plan of record: [`docs/APP_PLAN.md`](docs/APP_PLAN.md) · Source guide: `docs/Re
 
 ## Current state
 
-**Phase:** Phase 1 (one-unit interactive prototype), EAS-linked and ready for a device-specific iOS development build; waiting on phone connection and content review.
+**Phase:** Phase 1 (one-unit interactive prototype). A signed iOS development build exists and is staged for install; waiting on phone connection and content review.
 Phase 0 (product, rights and safety decisions) is still open and needs the author.
+
+**Signed build ready to install**
+- Device "CJ's iPhone 2" (UDID `00008110-000974400A23A01E`) is already registered on the Apple
+  team (6PA43G2WVX, Rolling Woods Media, LLC — same team/credentials used for the `/4lake` project;
+  `xtool auth status` and EAS both authenticate against it).
+- `expo-dev-client` was added as a dependency so the EAS `development` profile's dev client works.
+- EAS build `849aa32e-564a-4ed7-95ce-7311e07a2208` (`eas build --platform ios --profile development
+  --non-interactive --wait`) finished successfully and is downloaded at
+  `/tmp/claude-1000/-home-bud-required-listening/c0392c8c-3414-4827-a2fe-f0765402e6ee/scratchpad/build/RequiredListening-dev.ipa`
+  (25 MB) — note this path is a session scratchpad, not stored in the repo; re-download from
+  https://expo.dev/accounts/bud-diaz/projects/required-listening/builds/849aa32e-564a-4ed7-95ce-7311e07a2208
+  if it's gone.
+- Once the phone is connected over USB and trusted, install with:
+  `xtool install --usb --udid 00008110-000974400A23A01E <path-to-ipa>`
+- `app.json`, `package.json`, and `package-lock.json` have uncommitted changes (adding
+  `expo-dev-client` and `ITSAppUsesNonExemptEncryption`) that this build was made from — commit
+  them once reviewed.
 
 **What works**
 - Expo SDK 58 + Expo Router app; routes in `src/app/`.
@@ -66,16 +83,15 @@ Drafts only appear in development builds; production builds show them as "Coming
 
 ## Next step
 
-**Connect the iPhone so its UDID can be provisioned, then install the development build with xtool.**
+**Connect the iPhone — device registration and the signed build are already done.**
 
-1. Connect, unlock, and trust the iPhone. Confirm it is visible with `xtool devices --usb --no-wait` (or the
-   equivalent `xtool` device-listing command available on this host), then register it through
-   `npx eas-cli@latest device:create`. This is required before EAS can sign an internal iOS build
-   for that phone.
-2. Create the signed artifact with `npx eas-cli@latest build --platform ios --profile development
-   --wait`, download the resulting `.ipa`, and install it with `xtool install --usb --udid <UDID>
-   <path-to-ipa>`. `xtool` is the installer here; this Expo app's signed native build is produced
-   by EAS, not by xtool's Swift-package build flow.
+1. Connect, unlock, and trust the iPhone. Confirm it is visible with `xtool devices --usb --no-wait`.
+2. Install the already-built `.ipa` (see Current state above for the path/rebuild link) with
+   `xtool install --usb --udid 00008110-000974400A23A01E <path-to-ipa>`. `xtool` is the installer
+   here; this Expo app's signed native build is produced by EAS, not by xtool's Swift-package
+   build flow. If the `.ipa` is no longer on disk, re-run `npx eas-cli@latest build --platform ios
+   --profile development --non-interactive --wait` to rebuild it — device credentials are already
+   provisioned, so no re-registration is needed.
 3. On-device, verify onboarding, SQLite persistence after force-quit/relaunch, a provider search
    hand-off, and the destructive-data confirmation.
 4. Then the author reviews Unit 1: read `src/content/artists/01-chief-keef.v1.json`. Edit or approve each `"adapted"` prompt
@@ -91,6 +107,10 @@ Drafts only appear in development builds; production builds show them as "Coming
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-05 (uncommitted): Added `expo-dev-client`, built and downloaded a signed iOS development
+  `.ipa` via EAS (build `849aa32e-564a-4ed7-95ce-7311e07a2208`) using the already-registered
+  "CJ's iPhone 2" device on the Rolling Woods Media, LLC Apple team — staged for `xtool install`
+  once the phone reconnects.
 - 2026-11-05 `284bc16`: Linked the EAS iOS development-build profile, added ESLint, and passed lint, type,
   test, Expo diagnostics, and iOS JS-bundle export.
 - 2026-11-05: Added this HANDOFF.md.
