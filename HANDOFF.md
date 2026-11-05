@@ -10,25 +10,24 @@ Plan of record: [`docs/APP_PLAN.md`](docs/APP_PLAN.md) · Source guide: `docs/Re
 
 ## Current state
 
-**Phase:** Phase 1 (one-unit interactive prototype). A signed iOS development build exists and is staged for install; waiting on phone connection and content review.
+**Phase:** Phase 1 (one-unit interactive prototype). Installed and verified on a real iPhone; next up is content review.
 Phase 0 (product, rights and safety decisions) is still open and needs the author.
 
-**Signed build ready to install**
-- Device "CJ's iPhone 2" (UDID `00008110-000974400A23A01E`) is already registered on the Apple
-  team (6PA43G2WVX, Rolling Woods Media, LLC — same team/credentials used for the `/4lake` project;
+**Signed build installed and verified on-device**
+- Device "CJ's iPhone 2" (UDID `00008110-000974400A23A01E`) is registered on the Apple team
+  (6PA43G2WVX, Rolling Woods Media, LLC — same team/credentials used for the `/4lake` project;
   `xtool auth status` and EAS both authenticate against it).
 - `expo-dev-client` was added as a dependency so the EAS `development` profile's dev client works.
+  Committed in `a9bc012` along with `ITSAppUsesNonExemptEncryption`.
 - EAS build `849aa32e-564a-4ed7-95ce-7311e07a2208` (`eas build --platform ios --profile development
-  --non-interactive --wait`) finished successfully and is downloaded at
-  `/tmp/claude-1000/-home-bud-required-listening/c0392c8c-3414-4827-a2fe-f0765402e6ee/scratchpad/build/RequiredListening-dev.ipa`
-  (25 MB) — note this path is a session scratchpad, not stored in the repo; re-download from
-  https://expo.dev/accounts/bud-diaz/projects/required-listening/builds/849aa32e-564a-4ed7-95ce-7311e07a2208
-  if it's gone.
-- Once the phone is connected over USB and trusted, install with:
-  `xtool install --usb --udid 00008110-000974400A23A01E <path-to-ipa>`
-- `app.json`, `package.json`, and `package-lock.json` have uncommitted changes (adding
-  `expo-dev-client` and `ITSAppUsesNonExemptEncryption`) that this build was made from — commit
-  them once reviewed.
+  --non-interactive --wait`) and installed via `xtool install --usb --udid
+  00008110-000974400A23A01E <path-to-ipa>`. Rebuild with the same `eas build` command if a fresh
+  `.ipa` is needed — device credentials are already provisioned, no re-registration required.
+- Dev client connects to Metro (`npx expo start --dev-client`) via manual LAN URL entry
+  (`<host-LAN-IP>:8081`) when Bonjour auto-discovery hides the server.
+- On-device walkthrough (2026-11-05): onboarding, a lesson's Listen step, and the provider-link
+  hand-off (confirmation sheet → "Open <Provider>" → search opens in the external app) all
+  confirmed working by the author.
 
 **What works**
 - Expo SDK 58 + Expo Router app; routes in `src/app/`.
@@ -64,8 +63,10 @@ Drafts only appear in development builds; production builds show them as "Coming
 - `npx expo export --platform ios`: pass; generated a 3.4 MB Hermes iOS bundle (1,308 modules).
 - Web walkthrough (Playwright, iPhone 13 size): setup, lesson, reflection, crate, provider link,
   reload persistence, lane-blocked deep link, production draft gate: all pass, no console errors
-- **Not yet run:** a real iOS/Android device or simulator. No signed `.ipa` exists yet: an iOS
-  internal-development build must provision the specific phone's UDID first.
+- Real device (iPhone, dev client via EAS build `849aa32e-564a-4ed7-95ce-7311e07a2208`): onboarding,
+  a lesson's Listen step, and the provider-link hand-off confirmed working by the author
+  (2026-11-05). SQLite force-quit/relaunch persistence and the destructive-data confirmation were
+  not explicitly called out as tested — worth a quick re-check before content review wraps up.
 
 **Open decisions (need the author)**
 1. Public byline: the PDF says "C. Roberts"; the plan says show none until confirmed. Set
@@ -83,22 +84,15 @@ Drafts only appear in development builds; production builds show them as "Coming
 
 ## Next step
 
-**Connect the iPhone — device registration and the signed build are already done.**
+**Build and install are done and verified. Content review is the remaining blocker.**
 
-1. Connect, unlock, and trust the iPhone. Confirm it is visible with `xtool devices --usb --no-wait`.
-2. Install the already-built `.ipa` (see Current state above for the path/rebuild link) with
-   `xtool install --usb --udid 00008110-000974400A23A01E <path-to-ipa>`. `xtool` is the installer
-   here; this Expo app's signed native build is produced by EAS, not by xtool's Swift-package
-   build flow. If the `.ipa` is no longer on disk, re-run `npx eas-cli@latest build --platform ios
-   --profile development --non-interactive --wait` to rebuild it — device credentials are already
-   provisioned, so no re-registration is needed.
-3. On-device, verify onboarding, SQLite persistence after force-quit/relaunch, a provider search
-   hand-off, and the destructive-data confirmation.
-4. Then the author reviews Unit 1: read `src/content/artists/01-chief-keef.v1.json`. Edit or approve each `"adapted"` prompt
+1. (Optional, quick) On-device, double check SQLite persistence after a force-quit/relaunch and
+   the destructive-data confirmation in Settings — not explicitly exercised yet.
+2. The author reviews Unit 1: read `src/content/artists/01-chief-keef.v1.json`. Edit or approve each `"adapted"` prompt
    (switch `source` to `"guide"` once it's your wording), confirm each track, then set
    `review` to `{"status": "approved", "reviewedAt": "<date>", "reviewedBy": "<name>"}`.
    `npm test` will refuse the approval while anything is still unreviewed.
-5. Then convert Unit 2 (Rihanna) from `drafts/02-rihanna.txt` the same way. Add it to `RAW_UNITS` in
+3. Then convert Unit 2 (Rihanna) from `drafts/02-rihanna.txt` the same way. Add it to `RAW_UNITS` in
    `src/content/index.ts` and set `available: true` in the catalog.
 
 ---
@@ -107,10 +101,11 @@ Drafts only appear in development builds; production builds show them as "Coming
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
-- 2026-11-05 (uncommitted): Added `expo-dev-client`, built and downloaded a signed iOS development
-  `.ipa` via EAS (build `849aa32e-564a-4ed7-95ce-7311e07a2208`) using the already-registered
-  "CJ's iPhone 2" device on the Rolling Woods Media, LLC Apple team — staged for `xtool install`
-  once the phone reconnects.
+- 2026-11-05 (uncommitted): Installed the dev build on "CJ's iPhone 2" via `xtool install` and
+  verified onboarding, a lesson's Listen step, and the provider-link hand-off on-device.
+- 2026-11-05 `a9bc012`: Added `expo-dev-client`, built a signed iOS development `.ipa` via EAS
+  (build `849aa32e-564a-4ed7-95ce-7311e07a2208`) using the already-registered "CJ's iPhone 2"
+  device on the Rolling Woods Media, LLC Apple team.
 - 2026-11-05 `284bc16`: Linked the EAS iOS development-build profile, added ESLint, and passed lint, type,
   test, Expo diagnostics, and iOS JS-bundle export.
 - 2026-11-05: Added this HANDOFF.md.
