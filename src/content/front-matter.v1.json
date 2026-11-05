@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "review": { "status": "draft", "reviewedAt": null, "reviewedBy": null },
+  "sections": [
+    {
+      "id": "dedication",
+      "heading": "To my son,",
+      "blocks": [
+        { "type": "text", "text": "I put this guide together for us. A lil roadmap through the artists who raised me, inspired me, and pushed me to dig deeper into the sounds that came before my time. I started building this when you were three, already playing these voices around you, letting the melodies settle in your world before you even knew the names." },
+        { "type": "text", "text": "By the time you're old enough to read this, you'll already have your own taste, your own gems, your own sonic universe. I hope my love for Hip-Hop and R&B helped spark that curiosity." },
+        { "type": "text", "text": "And because I ain't never been a gatekeeper, I'm sharing this with any parent who wants their kids to grow up knowing real music and the impact it carries." }
+      ]
+    },
+    {
+      "id": "note",
+      "heading": "A Note on This Guide",
+      "blocks": [
+        { "type": "text", "text": "This guide wasn't built to chase what's new. It was built to pass down what lasted." },
+        { "type": "text", "text": "The goal is simple: preserve the songs that still move people, even after the moment, the rollout, or the spotlight has faded. Some of the artists in this volume are less active now. Some are no longer with us. That doesn't weaken the music. If anything, it clarifies what the music actually was — something that could survive being passed down." },
+        { "type": "text", "text": "Music is subjective. Always has been. This guide isn't the official law of Hip-Hop and R&B, and it isn't trying to be. It's one perspective, shaped by lived experience, cultural memory, and an intentional focus on songs that proved they could outlast their moment. Disagreeing is allowed. Arguing is part of the culture. The only real rule here is to listen with curiosity." },
+        { "type": "text", "text": "We also pause here to acknowledge the passings of Takeoff and Mac Miller, two artists whose work continues to resonate well beyond their time. Their absence is felt. Their music is still active, still influential, still alive in the spaces where people press play. This guide treats their contributions with respect — not nostalgia — and recognizes that impact doesn't end when output does." },
+        { "type": "text", "text": "Think of this not as a syllabus carved in stone, but as a crate left open. Take what speaks to you. Question what doesn't. Add your own records when the time feels right. That's how this music has always moved forward." }
+      ]
+    },
+    {
+      "id": "intro",
+      "heading": "Intro",
+      "blocks": [
+        { "type": "text", "text": "This guide is meant to be used, not studied in silence. There are no quizzes, no right answers, and no expectation that a child understand everything right away. The purpose is exposure. Play the songs. Let them sit in the background. Let kids ask questions. Let them ignore it sometimes. Music works on its own timeline." },
+        { "type": "text", "text": "Each artist section is built around a single passed-down track and a short explanation of why that music still matters. For younger kids, the song is enough. Movement, melody, repetition, and feeling do the teaching long before words do. The end of each section includes more toddler-friendly bangers for a little variety. For older kids, the short readings offer conversation starters, not conclusions. If a child disagrees, that's not a problem. That's the lesson working." },
+        { "type": "text", "text": "Adults using this guide don't need to be experts. You don't have to explain eras, sales numbers, or cultural debates unless a child asks. The best use of this guide is casual and consistent. Play the music in the car. Put it on during clean-up. Let it run while drawing, building, or winding down. Over time, familiarity turns into curiosity." },
+        { "type": "text", "text": "Some songs may raise questions about language, emotion, or behavior. Use those moments to talk, not to lecture. This guide assumes adult discretion and encourages context over censorship. Skipping a song, pausing a track, or revisiting it later is part of the process. There is no penalty for adjusting the pace." },
+        { "type": "text", "text": "Most importantly, this guide invites participation. Encourage kids to name what they like, what they don't, and what makes them feel something. Let them compare sounds. Let them pick favorites. Eventually, let them add their own songs to the crate. That act of choosing is where cultural literacy actually begins." },
+        { "type": "callout", "text": "This guide doesn't aim to define Hip-Hop and R&B for the next generation. It simply opens the door and plays the music loud enough for them to walk in when they're ready." }
+      ]
+    },
+    {
+      "id": "not-archiving-careers",
+      "heading": "We're not archiving careers.",
+      "blocks": [
+        { "type": "text", "text": "We're passing down bangers like family recipes. Somebody might be inactive. Cool. The song still alive. Somebody fell off. So what. The record didn't." },
+        { "type": "text", "text": "Kids don't care about Billboard timelines or thinkpieces. They care if it knocks." },
+        { "type": "text", "text": "A kid hearing \"Crank That,\" \"Irreplaceable,\" or \"In Da Club\" don't need context. The body understands first. History comes later." },
+        { "type": "callout", "text": "That's real education." },
+        {
+          "type": "list",
+          "items": [
+            "Soulja Boy, Bow Wow: first internet-native bangers. Period.",
+            "Chief Keef, Migos: whole flows and cultures spawned off them.",
+            "50 Cent, Beyoncé, Chris Brown, Rihanna: timeless pop dominance. You still hear these at cookouts, weddings, Target, everywhere.",
+            "Frank Ocean, Mac Miller: emotional bangers. Quieter, but they age like wine."
+          ]
+        },
+        { "type": "text", "text": "Lowkey, an artist being less active is a feature, not a bug. It removes hype bias. It forces the music to stand on its own. It turns songs into reference points, not distractions." }
+      ]
+    }
+  ]
+}

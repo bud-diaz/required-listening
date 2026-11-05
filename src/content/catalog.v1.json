@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "title": "Required Listening",
+  "subtitle": "The Art of Passing Down the Bangers",
+  "byline": null,
+  "units": [
+    { "id": "chief-keef", "number": 1, "displayName": "Chief Keef", "monogram": "CK", "available": true },
+    { "id": "rihanna", "number": 2, "displayName": "Rihanna", "monogram": "RI", "available": false },
+    { "id": "migos", "number": 3, "displayName": "Migos", "monogram": "MG", "available": false },
+    { "id": "mac-miller", "number": 4, "displayName": "Mac Miller", "monogram": "MM", "available": false },
+    { "id": "frank-ocean", "number": 5, "displayName": "Frank Ocean", "monogram": "FO", "available": false },
+    { "id": "soulja-boy", "number": 6, "displayName": "Soulja Boy", "monogram": "SB", "available": false },
+    { "id": "bow-wow", "number": 7, "displayName": "Bow Wow", "monogram": "BW", "available": false },
+    { "id": "chris-brown", "number": 8, "displayName": "Chris Brown", "monogram": "CB", "available": false },
+    { "id": "50-cent", "number": 9, "displayName": "50 Cent", "monogram": "50", "available": false },
+    { "id": "beyonce", "number": 10, "displayName": "Beyoncé", "monogram": "B", "available": false }
+  ]
+}
