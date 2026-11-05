@@ -4,7 +4,8 @@ A parent-led iOS/Android companion for *Required Listening: The Art of Passing D
 (`docs/Required_Listening_11-5.pdf`). It guides a family through **Listen → Notice → Talk → Add to Crate**,
 one lesson at a time. It is not a music player: it opens a search in the music services the caregiver allows.
 
-See [`docs/APP_PLAN.md`](docs/APP_PLAN.md) for the full plan. This repo currently holds the **Phase 1
+See [`docs/APP_PLAN.md`](docs/APP_PLAN.md) for the full plan and [`HANDOFF.md`](HANDOFF.md) for where
+things stand and what to do next. This repo currently holds the **Phase 1
 one-unit prototype** (Unit 1, Chief Keef).
 
 ## Run it
