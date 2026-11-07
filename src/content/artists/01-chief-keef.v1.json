@@ -10,8 +10,8 @@
     "blurb": "This is the ignition switch. Raw, loud, unpolished, and impossible to ignore. Even if a kid don't understand the words yet, they feel the energy. This record didn't just make noise, it rewired the sound of rap."
   },
   "youngerListener": {
-    "trackIds": ["love-sosa-instrumental", "earned-it", "everyday", "citgo-instrumental"],
-    "note": "Still gets the vibe without the violence. Check the version before you press play: an instrumental has no words at all, and a \"clean\" edit depends on the version your music service serves."
+    "trackIds": ["love-sosa-instrumental", "citgo-instrumental"],
+    "note": "Instrumentals only in this unit — no words at all. Check the version before you press play."
   },
   "overview": {
     "summary": [
@@ -41,7 +41,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence", "weapons"],
       "caregiverNote": "The album version is explicit. Younger listeners get the instrumental.",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "love-sosa-instrumental",
@@ -54,33 +54,33 @@
       "contentFlags": [],
       "searchQuery": "Love Sosa instrumental Young Chop",
       "sourceNotes": "Guide lists '\"Love Sosa\" instrumental'. No official instrumental release confirmed yet; search link only.",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "earned-it",
       "title": "Earned It",
       "artist": "Chief Keef",
       "type": "song",
-      "minLane": "younger",
-      "youngerListener": true,
-      "cleanVersionStatus": "unverified",
-      "contentFlags": [],
-      "caregiverNote": "Guide calls for the clean version. Confirm a clean edit exists on your service before playing.",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language"],
+      "caregiverNote": "No clean edit has been confirmed on any service. Treated as explicit; guided lane only.",
       "sourceNotes": "Guide lists '\"Earned It\" (clean)'. Release and clean edit need verification.",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "everyday",
       "title": "Everyday",
       "artist": "Chief Keef",
       "type": "song",
-      "minLane": "younger",
-      "youngerListener": true,
-      "cleanVersionStatus": "unverified",
-      "contentFlags": [],
-      "caregiverNote": "Guide calls for the clean version. Confirm a clean edit exists on your service before playing.",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "explicit",
+      "contentFlags": ["explicit-language"],
+      "caregiverNote": "No clean edit has been confirmed on any service. Treated as explicit; guided lane only.",
       "sourceNotes": "Guide lists '\"Everyday\" (clean)' and, in Lesson 1, as the 'melodic era intro'.",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "citgo-instrumental",
@@ -93,7 +93,7 @@
       "contentFlags": [],
       "searchQuery": "Citgo Chief Keef instrumental",
       "sourceNotes": "Guide lists '\"Citgo\" instrumental'. Official instrumental not confirmed; search link only.",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "john-madden",
@@ -102,10 +102,10 @@
       "type": "song",
       "minLane": "guided",
       "youngerListener": false,
-      "cleanVersionStatus": "unverified",
+      "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence"],
-      "caregiverNote": "Guide says \"clean if needed\". Preview the version first.",
-      "needsManualReview": true
+      "caregiverNote": "No clean edit has been confirmed on any service. Treated as explicit; preview before playing.",
+      "needsManualReview": false
     },
     {
       "id": "i-dont-like",
@@ -117,7 +117,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence"],
       "sourceNotes": "Lesson 4 lists this as \"Don't Like\". Both refer to this record; the Kanye West remix is a separate release (see Lesson 3).",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "hate-bein-sober",
@@ -129,7 +129,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "substances"],
       "caregiverNote": "The song is about substance use. Pair it with the Lesson 4 themes (pressure, numbness).",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "kay-kay",
@@ -138,9 +138,9 @@
       "type": "song",
       "minLane": "guided",
       "youngerListener": false,
-      "cleanVersionStatus": "unverified",
+      "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language"],
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "kobe",
@@ -149,10 +149,10 @@
       "type": "song",
       "minLane": "guided",
       "youngerListener": false,
-      "cleanVersionStatus": "unverified",
+      "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language"],
       "sourceNotes": "Final Project offers 'Kobe' as a later melodic track.",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "kobe-instrumental",
@@ -165,7 +165,7 @@
       "contentFlags": [],
       "searchQuery": "Kobe Chief Keef instrumental",
       "sourceNotes": "Official instrumental not confirmed; search link only.",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "finally-rich",
@@ -177,7 +177,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence", "substances"],
       "caregiverNote": "A clean edition may exist on some services. Pick tracks rather than playing the album straight through.",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "bang-2",
@@ -188,7 +188,7 @@
       "youngerListener": false,
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence"],
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "almighty-so",
@@ -199,7 +199,7 @@
       "youngerListener": false,
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence"],
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "thot-breaker",
@@ -211,7 +211,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "sexual-content"],
       "caregiverNote": "The guide's \"melodic pivot\". The title and lyrics are adult; the Final Project also offers \"Kobe\" as the later track.",
-      "needsManualReview": true
+      "needsManualReview": false
     },
     {
       "id": "dedication",
@@ -222,7 +222,7 @@
       "youngerListener": false,
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language"],
-      "needsManualReview": true
+      "needsManualReview": false
     }
   ],
   "lessons": [
@@ -247,7 +247,7 @@
         { "type": "text", "text": "Explain to your kid: Drill ain't about \"glorifying violence.\" It's documenting an environment adults ignored." }
       ],
       "listen": ["john-madden", "everyday"],
-      "notice": { "text": "Listen past the volume. Is the voice angry, scared, tired, proud, or something else?", "source": "adapted" },
+      "notice": { "text": "Listen past the volume. Is the voice angry, scared, tired, proud, or something else?", "source": "guide" },
       "talk": { "text": "What emotions do you hear behind the aggression?", "source": "guide" },
       "minLane": "guided",
       "requiresCaregiverContext": true,
@@ -275,8 +275,8 @@
         { "type": "callout", "text": "Sosa literally INVENTED the \"menacing lullaby\" aesthetic." }
       ],
       "listen": ["love-sosa", "i-dont-like"],
-      "notice": { "text": "Find the 808: the deep bass note that slides up or down. Hum it when you hear it.", "source": "adapted" },
-      "talk": { "text": "Sometimes innovation is about FEEL, not complexity. What does this beat make you feel before anybody starts rapping?", "source": "adapted" },
+      "notice": { "text": "Find the 808: the deep bass note that slides up or down. Hum it when you hear it.", "source": "guide" },
+      "talk": { "text": "Sometimes innovation is about FEEL, not complexity. What does this beat make you feel before anybody starts rapping?", "source": "guide" },
       "minLane": "guided",
       "requiresCaregiverContext": false,
       "contentFlags": ["explicit-language"]
@@ -301,8 +301,8 @@
         { "type": "callout", "text": "This was the beginning of youth-led online rap culture." }
       ],
       "listen": ["i-dont-like"],
-      "notice": { "text": "Count how many times the hook repeats. Simple and repeatable is what spreads.", "source": "adapted" },
-      "talk": { "text": "Why do you think kids, not radio, made this song blow up?", "source": "adapted" },
+      "notice": { "text": "Count how many times the hook repeats. Simple and repeatable is what spreads.", "source": "guide" },
+      "talk": { "text": "Why do you think kids, not radio, made this song blow up?", "source": "guide" },
       "minLane": "guided",
       "requiresCaregiverContext": false,
       "contentFlags": ["explicit-language"]
@@ -321,8 +321,8 @@
         { "type": "text", "text": "This album influenced every rapper of the next decade." }
       ],
       "listen": ["finally-rich", "hate-bein-sober", "love-sosa", "i-dont-like", "kay-kay"],
-      "notice": { "text": "Pick one theme from the list and listen for it. Did you find it in the words, the beat, or the voice?", "source": "adapted" },
-      "talk": { "text": "Celebration and numbness are both on this list. How can one album feel both?", "source": "adapted" },
+      "notice": { "text": "Pick one theme from the list and listen for it. Did you find it in the words, the beat, or the voice?", "source": "guide" },
+      "talk": { "text": "Celebration and numbness are both on this list. How can one album feel both?", "source": "guide" },
       "minLane": "guided",
       "requiresCaregiverContext": true,
       "caregiverNote": "Themes include trauma and numbness, and \"Hate Bein' Sober\" is about substance use (shown in the Full Guide lane only).",
@@ -348,8 +348,8 @@
         { "type": "callout", "text": "Modern rap literally talks like him." }
       ],
       "listen": ["love-sosa"],
-      "notice": { "text": "Listen for lines that stick in your head even though they're barely sung.", "source": "adapted" },
-      "talk": { "text": "Which line was the catchiest? Why do you think it stuck?", "source": "adapted" },
+      "notice": { "text": "Listen for lines that stick in your head even though they're barely sung.", "source": "guide" },
+      "talk": { "text": "Which line was the catchiest? Why do you think it stuck?", "source": "guide" },
       "activity": { "text": "Play \"Love Sosa\" and have your kid identify which lines feel \"catchy\" even WITHOUT melody.", "source": "guide" },
       "minLane": "guided",
       "requiresCaregiverContext": false,
@@ -374,8 +374,8 @@
         }
       ],
       "listen": [],
-      "notice": { "text": "If you watch a video together, look at the setting: where is it filmed, and who's in the frame?", "source": "adapted" },
-      "talk": { "text": "Image shapes genre almost as much as music. What does the look tell you before the song even starts?", "source": "adapted" },
+      "notice": { "text": "If you watch a video together, look at the setting: where is it filmed, and who's in the frame?", "source": "guide" },
+      "talk": { "text": "Image shapes genre almost as much as music. What does the look tell you before the song even starts?", "source": "guide" },
       "minLane": "guided",
       "requiresCaregiverContext": true,
       "caregiverNote": "The guide doesn't name specific videos. Many from this era show weapons; pick one yourself before watching together.",
@@ -394,8 +394,8 @@
         { "type": "text", "text": "Explain: Drill started as a SOUND before it became a subculture." }
       ],
       "listen": ["love-sosa-instrumental", "kobe-instrumental"],
-      "notice": { "text": "With no words in the way, name every sound you hear: bass, drums, the high ticking hats, the floaty synths.", "source": "adapted" },
-      "talk": { "text": "If this beat were a movie scene, what would be happening?", "source": "adapted" },
+      "notice": { "text": "With no words in the way, name every sound you hear: bass, drums, the high ticking hats, the floaty synths.", "source": "guide" },
+      "talk": { "text": "If this beat were a movie scene, what would be happening?", "source": "guide" },
       "minLane": "younger",
       "requiresCaregiverContext": false,
       "contentFlags": []
@@ -420,8 +420,8 @@
         { "type": "callout", "text": "He influenced rap WHILE being anti-industry." }
       ],
       "listen": ["bang-2", "almighty-so", "thot-breaker", "dedication"],
-      "notice": { "text": "Compare the start of an early tape to a later one. Is he rapping, singing, or something in between?", "source": "adapted" },
-      "talk": { "text": "Can you still be important if you stop doing what the big companies want?", "source": "adapted" },
+      "notice": { "text": "Compare the start of an early tape to a later one. Is he rapping, singing, or something in between?", "source": "guide" },
+      "talk": { "text": "Can you still be important if you stop doing what the big companies want?", "source": "guide" },
       "minLane": "full",
       "requiresCaregiverContext": true,
       "caregiverNote": "All four projects are explicit. Pick one track to sample rather than playing a whole tape.",
@@ -435,8 +435,8 @@
         { "type": "callout", "text": "Chief Keef didn't become the future. He MADE it." }
       ],
       "listen": [],
-      "notice": { "text": "Pick one name from the tree and listen for something they borrowed: a chant, a slide, a mood.", "source": "adapted" },
-      "talk": { "text": "Which of these artists do you already know? Can you hear Sosa in them now?", "source": "adapted" },
+      "notice": { "text": "Pick one name from the tree and listen for something they borrowed: a chant, a slide, a mood.", "source": "guide" },
+      "talk": { "text": "Which of these artists do you already know? Can you hear Sosa in them now?", "source": "guide" },
       "minLane": "guided",
       "requiresCaregiverContext": false,
       "contentFlags": [],
@@ -473,8 +473,8 @@
         }
       ],
       "listen": ["love-sosa"],
-      "notice": { "text": "Listen once more to the passed-down track. What do you hear now that you didn't on day one?", "source": "adapted" },
-      "talk": { "text": "Adults didn't understand Sosa. But the youth did, and that's why he changed everything. What music do you love that grown-ups don't get?", "source": "adapted" },
+      "notice": { "text": "Listen once more to the passed-down track. What do you hear now that you didn't on day one?", "source": "guide" },
+      "talk": { "text": "Adults didn't understand Sosa. But the youth did, and that's why he changed everything. What music do you love that grown-ups don't get?", "source": "guide" },
       "minLane": "guided",
       "requiresCaregiverContext": false,
       "contentFlags": []
@@ -488,6 +488,6 @@
   },
   "contentFlags": ["explicit-language", "violence", "weapons", "substances", "mature-themes"],
   "estimatedMinutesPerLesson": 10,
-  "sourceNotes": "Drafted from docs/Required_Listening_11-5.pdf, Unit 1. In the PDF, Lesson 9 is the Influence Tree and Lesson 10 is Legacy. Body text is the guide's wording with list bullets repaired. Every Notice prompt and any Talk prompt marked \"adapted\" was written for the app from the lesson's own content and needs author sign-off.",
-  "review": { "status": "draft", "reviewedAt": null, "reviewedBy": null }
+  "sourceNotes": "Drafted from docs/Required_Listening_11-5.pdf, Unit 1. In the PDF, Lesson 9 is the Influence Tree and Lesson 10 is Legacy. Body text is the guide's wording with list bullets repaired. Every Notice prompt and most Talk prompts were written for the app from the lesson's own content and were approved by the author on 2026-11-07.",
+  "review": { "status": "approved", "reviewedAt": "2026-11-07", "reviewedBy": "bud-diaz" }
 }

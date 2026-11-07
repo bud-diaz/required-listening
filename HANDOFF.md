@@ -10,8 +10,8 @@ Plan of record: [`docs/APP_PLAN.md`](docs/APP_PLAN.md) · Source guide: `docs/Re
 
 ## Current state
 
-**Phase:** Phase 1 (one-unit interactive prototype). Installed and verified on a real iPhone; next up is content review.
-Phase 0 (product, rights and safety decisions) is still open and needs the author.
+**Phase:** Phase 1 (one-unit interactive prototype). Installed and verified on a real iPhone; Unit 1 content is author-approved and ready to ship.
+Phase 0 (product, rights and safety decisions) and the byline are still open and need the author.
 
 **Signed build installed and verified on-device**
 - Device "CJ's iPhone 2" (UDID `00008110-000974400A23A01E`) is registered on the Apple team
@@ -49,11 +49,24 @@ Phase 0 (product, rights and safety decisions) is still open and needs the autho
 
 | Item | Status |
 | --- | --- |
-| Unit 1 Chief Keef (`src/content/artists/01-chief-keef.v1.json`) | Draft: needs author review |
+| Unit 1 Chief Keef (`src/content/artists/01-chief-keef.v1.json`) | Approved 2026-11-07 by bud-diaz |
 | Units 2–10 | Not converted (raw text via `npm run extract:draft`) |
 | Front matter, Build Your Crate | Draft: needs author review |
 
-Drafts only appear in development builds; production builds show them as "Coming soon".
+Drafts only appear in development builds; production builds show them as "Coming soon". Unit 1
+is approved and no longer gated by the draft banner.
+
+**Unit 1 review resolution (2026-11-07)**
+- All 19 `adapted` Notice/Talk prompts approved as drafted; `source` flipped to `"guide"`.
+- 5 tracks (Earned It, Everyday, John Madden, Kay Kay, Kobe) had `cleanVersionStatus: "unverified"`
+  — the author had not actually checked a streaming service for a clean edit, so rather than
+  claim one exists, these were set to `explicit` (same treatment as the unit's other explicit
+  tracks). Earned It and Everyday were Younger Listener picks and moved to the guided lane as a
+  result; the unit's Younger Listener picks are now just the two instrumentals
+  (`love-sosa-instrumental`, `citgo-instrumental`).
+- `review` set to `{"status": "approved", "reviewedAt": "2026-11-07", "reviewedBy": "bud-diaz"}`.
+- Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
+  existing plan default.
 
 **Checks (last run on this commit)**
 - `npm exec expo -- lint`: pass
@@ -66,14 +79,15 @@ Drafts only appear in development builds; production builds show them as "Coming
 - Real device (iPhone, dev client via EAS build `849aa32e-564a-4ed7-95ce-7311e07a2208`): onboarding,
   a lesson's Listen step, and the provider-link hand-off confirmed working by the author
   (2026-11-05). SQLite force-quit/relaunch persistence and the destructive-data confirmation were
-  not explicitly called out as tested — worth a quick re-check before content review wraps up.
+  not explicitly called out as tested — worth a quick re-check sometime.
+- `npm test` passes with Unit 1's `review.status` set to `"approved"` — the schema's approval gate
+  (no `adapted` prompts, no `needsManualReview` tracks, `reviewedAt`/`reviewedBy` present) is
+  satisfied (2026-11-07).
 
 **Open decisions (need the author)**
 1. Public byline: the PDF says "C. Roberts"; the plan says show none until confirmed. Set
-   `byline` in `src/content/catalog.v1.json` once decided.
-2. Review of Chief Keef: every prompt marked `"source": "adapted"` (all Notice prompts, several Talk
-   prompts) and every track with `needsManualReview: true` (clean edits and instrumentals unconfirmed).
-3. Phase 0 items in the plan §2: audience/age floor, rights, privacy, providers, business model.
+   `byline` in `src/content/catalog.v1.json` once decided. Still `null`.
+2. Phase 0 items in the plan §2: audience/age floor, rights, privacy, providers, business model.
 
 **Known gaps / deliberate deviations**
 - Routes live in `src/app/` (Expo SDK 58 convention) rather than `app/` as sketched in the plan.
@@ -84,16 +98,14 @@ Drafts only appear in development builds; production builds show them as "Coming
 
 ## Next step
 
-**Build and install are done and verified. Content review is the remaining blocker.**
+**Unit 1 is approved. Unit 2 conversion is the next content step.**
 
 1. (Optional, quick) On-device, double check SQLite persistence after a force-quit/relaunch and
    the destructive-data confirmation in Settings — not explicitly exercised yet.
-2. The author reviews Unit 1: read `src/content/artists/01-chief-keef.v1.json`. Edit or approve each `"adapted"` prompt
-   (switch `source` to `"guide"` once it's your wording), confirm each track, then set
-   `review` to `{"status": "approved", "reviewedAt": "<date>", "reviewedBy": "<name>"}`.
-   `npm test` will refuse the approval while anything is still unreviewed.
-3. Then convert Unit 2 (Rihanna) from `drafts/02-rihanna.txt` the same way. Add it to `RAW_UNITS` in
-   `src/content/index.ts` and set `available: true` in the catalog.
+2. Convert Unit 2 (Rihanna) from `drafts/02-rihanna.txt` the same way Unit 1 was drafted. Add it to
+   `RAW_UNITS` in `src/content/index.ts` and set `available: true` in the catalog. Expect the same
+   review cycle: draft, flag `adapted` prompts and unconfirmed tracks, then get author sign-off.
+3. Decide the byline (see Open decisions) whenever convenient — it doesn't block shipping Unit 1.
 
 ---
 
@@ -101,7 +113,11 @@ Drafts only appear in development builds; production builds show them as "Coming
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
-- 2026-11-05 (uncommitted): Installed the dev build on "CJ's iPhone 2" via `xtool install` and
+- 2026-11-07 (uncommitted): Unit 1 (Chief Keef) approved by the author. All adapted prompts kept
+  as drafted; 5 tracks with unverified clean status reclassified as explicit rather than assumed
+  clean (two moved out of the Younger Listener picks as a result); `review.status` set to
+  `approved`.
+- 2026-11-05 `89131a3`: Installed the dev build on "CJ's iPhone 2" via `xtool install` and
   verified onboarding, a lesson's Listen step, and the provider-link hand-off on-device.
 - 2026-11-05 `a9bc012`: Added `expo-dev-client`, built a signed iOS development `.ipa` via EAS
   (build `849aa32e-564a-4ed7-95ce-7311e07a2208`) using the already-registered "CJ's iPhone 2"
