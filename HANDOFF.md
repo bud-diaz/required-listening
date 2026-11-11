@@ -113,10 +113,10 @@ is approved and no longer gated by the draft banner.
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
-- 2026-11-07 (uncommitted): Unit 1 (Chief Keef) approved by the author. All adapted prompts kept
-  as drafted; 5 tracks with unverified clean status reclassified as explicit rather than assumed
-  clean (two moved out of the Younger Listener picks as a result); `review.status` set to
-  `approved`.
+- 2026-11-11: Added the interactive-mobile-app implementation plan artifact under `.hermes/plans/`.
+- 2026-11-07: Unit 1 (Chief Keef) approved by the author. All adapted prompts kept as drafted;
+  5 tracks with unverified clean status reclassified as explicit rather than assumed clean (two
+  moved out of the Younger Listener picks as a result); `review.status` set to `approved`.
 - 2026-11-05 `89131a3`: Installed the dev build on "CJ's iPhone 2" via `xtool install` and
   verified onboarding, a lesson's Listen step, and the provider-link hand-off on-device.
 - 2026-11-05 `a9bc012`: Added `expo-dev-client`, built a signed iOS development `.ipa` via EAS
