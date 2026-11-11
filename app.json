@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Required Listening",
+    "name": "Listening Required",
     "slug": "required-listening",
     "scheme": "required-listening",
     "version": "0.1.0",
@@ -17,9 +17,8 @@
     "android": {
       "package": "com.requiredlistening.app",
       "adaptiveIcon": {
-        "backgroundColor": "#111111",
+        "backgroundColor": "#000000",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false

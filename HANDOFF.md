@@ -11,6 +11,7 @@ Plan of record: [`docs/APP_PLAN.md`](docs/APP_PLAN.md) · Source guide: `docs/Re
 ## Current state
 
 **Phase:** Phase 1 (one-unit interactive prototype). Installed and verified on a real iPhone; Unit 1 content is author-approved and ready to ship.
+The app display name is **Listening Required**; the book/curriculum title remains *Required Listening*.
 Phase 0 (product, rights and safety decisions) and the byline are still open and need the author.
 
 **Signed build installed and verified on-device**
@@ -113,6 +114,7 @@ is approved and no longer gated by the draft banner.
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-11: Renamed the app display name to Listening Required and replaced iOS, Android, and web launcher icons with the supplied traffic-sign artwork; the book title remains Required Listening.
 - 2026-11-11: Added the interactive-mobile-app implementation plan artifact under `.hermes/plans/`.
 - 2026-11-07: Unit 1 (Chief Keef) approved by the author. All adapted prompts kept as drafted;
   5 tracks with unverified clean status reclassified as explicit rather than assumed clean (two

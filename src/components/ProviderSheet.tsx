@@ -39,7 +39,7 @@ export function ProviderSheet({ track, onClose }: { track: Track | null; onClose
       <View style={styles.sheet} accessibilityViewIsModal>
         {track ? (
           <>
-            <Kicker>Leaving Required Listening</Kicker>
+            <Kicker>Leaving Listening Required</Kicker>
             <Text style={[type.h2, { color: colors.ink }]}>
               Search for “{track.title}” — {track.artist}
             </Text>
