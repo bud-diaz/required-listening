@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
 import type { Lane, Lesson, Track, Unit } from '../content/schemas';
-import { visibleTracks } from '../content';
+import { getNextLesson, visibleTracks } from '../content';
 import { FEELINGS } from '../domain/crate';
 import { useFamilyStore } from '../stores/family-store';
 import { Blocks, Body, Button, Chip, DraftBanner, Kicker } from '../ui/primitives';
@@ -58,6 +58,7 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
   const tracks = visibleTracks(unit, lesson.listen, lane);
   const eligibleTracks = tracks.filter((track) => track.type === 'song' || track.type === 'instrumental');
   const hiddenCount = lesson.listen.length - tracks.length;
+  const nextLesson = getNextLesson(unit, lesson.id, lane);
   const index = stageToIndex[step];
   const stage = stepStage(step);
 
@@ -107,10 +108,12 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
         </View>
       }
     >
-      {unit.review.status !== 'approved' ? <DraftBanner /> : null}
-
-      {step !== 'briefing' ? (
-        <LessonPlacard activeStage={step} compact />
+      {unit.review.status !== 'approved' ? (
+        <DraftBanner
+          message={unit.lessonReview.status === 'approved'
+            ? 'DRAFT · Lesson content approved. Track versions still need review.'
+            : undefined}
+        />
       ) : null}
 
       <StageTabs step={step} onSelect={selectStep} />
@@ -227,6 +230,17 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
               onPress={() => setExplored(lesson.id, !explored)}
             />
           </SignPanel>
+          {explored && nextLesson ? (
+            <SignButton
+              label="Proceed to next lesson →"
+              variant="yellow"
+              hint={`Opens lesson ${nextLesson.number}: ${nextLesson.title}`}
+              onPress={() => router.replace({
+                pathname: '/lesson/[unitId]/[lessonId]',
+                params: { unitId: unit.id, lessonId: nextLesson.id },
+              })}
+            />
+          ) : null}
           {nav}
         </>
       ) : null}
@@ -238,7 +252,7 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
 
 function StageTabs({ step, onSelect }: { step: LessonStep; onSelect: (step: LessonStep) => void }) {
   return (
-    <View style={[styles.tabs, { borderColor: stages[stepStage(step)].foreground }]} accessibilityRole="tablist">
+    <View style={styles.tabs} accessibilityRole="tablist">
       {LESSON_STEPS.map((item) => {
         const selected = item === step;
         const backgroundColor = stepStage(item) === 'briefing' ? colors.yellow : stages[stepStage(item)].background;

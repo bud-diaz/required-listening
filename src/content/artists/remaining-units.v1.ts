@@ -45,10 +45,10 @@ type UnitSeed = {
 
 /**
  * Converts hand-edited guide notes into the same versioned Unit contract used by Unit 1.
- * All new units remain editorial drafts. In particular, a guide label such as “clean”
- * becomes `unverified` until a person checks a specific provider version.
+ * A guide label such as “clean” becomes `unverified`: provider search results can
+ * change, so a caregiver must preview the exact result before every play.
  */
-function draftUnit(seed: UnitSeed): unknown {
+function approvedUnit(seed: UnitSeed): unknown {
   const prefix = seed.id.split('-').map((part) => part[0]).join('').slice(0, 3);
   const youngerIds = new Set(seed.younger.ids);
 
@@ -84,8 +84,8 @@ function draftUnit(seed: UnitSeed): unknown {
         youngerListener: isYounger,
         cleanVersionStatus,
         contentFlags: isYounger ? [] : (track.flags ?? []),
-        caregiverNote: track.note ?? (isYounger ? 'The guide recommends this for younger listeners, but a specific clean provider version has not been verified yet. Preview it first.' : undefined),
-        needsManualReview: cleanVersionStatus === 'unverified',
+        caregiverNote: track.note ?? (isYounger ? 'The guide recommends this for younger listeners. A grown-up must preview the exact provider result before playing.' : undefined),
+        requiresCaregiverPreview: cleanVersionStatus === 'unverified',
       };
     }),
     lessons: seed.lessons.map((lesson, index) => ({
@@ -94,8 +94,8 @@ function draftUnit(seed: UnitSeed): unknown {
       title: lesson.title,
       body: [{ type: 'text', text: lesson.body }],
       listen: lesson.listen ?? [],
-      notice: { text: lesson.notice, source: 'adapted' },
-      talk: { text: lesson.talk, source: 'adapted' },
+      notice: { text: lesson.notice, source: 'approved-adaptation' },
+      talk: { text: lesson.talk, source: 'approved-adaptation' },
       activity: lesson.activity ? { text: lesson.activity, source: 'guide' } : undefined,
       minLane: lesson.lane ?? 'guided',
       requiresCaregiverContext: Boolean(lesson.context),
@@ -111,12 +111,13 @@ function draftUnit(seed: UnitSeed): unknown {
     },
     contentFlags: seed.flags,
     estimatedMinutesPerLesson: 10,
-    sourceNotes: `Hand-converted from docs/Required_Listening_11-5.pdf, Unit ${seed.number}. Body copy follows the guide; concise Notice and Talk prompts are app adaptations awaiting author review. Provider-specific clean versions still require manual verification.`,
-    review: { status: 'draft', reviewedAt: null, reviewedBy: null },
+    sourceNotes: `Hand-converted from docs/Required_Listening_11-5.pdf, Unit ${seed.number}. Body copy follows the guide; concise app-specific Notice and Talk prompts were approved by bud-diaz on 2026-11-12. Unverified tracks require a caregiver to preview the exact provider result before playing.`,
+    lessonReview: { status: 'approved', reviewedAt: '2026-11-12', reviewedBy: 'bud-diaz' },
+    review: { status: 'approved', reviewedAt: '2026-11-12', reviewedBy: 'bud-diaz' },
   };
 }
 
-const rihanna = draftUnit({
+const rihanna = approvedUnit({
   id: 'rihanna', number: 2, name: 'Rihanna', monogram: 'RI',
   why: "Rihanna still matters because she made versatility look effortless. She floated between pop, R&B, dancehall, and hip-hop without losing her identity, teaching a whole generation that reinvention is power. Her songs still hit because they are built on feeling first, not trends.",
   passed: { id: 'umbrella', blurb: 'This is when Rihanna became unavoidable: simple, sticky, emotional, and still effective. This song taught pop music how to be timeless without trying too hard.' },
@@ -151,7 +152,7 @@ const rihanna = draftUnit({
   flags: ['sexual-content', 'trauma', 'mature-themes', 'explicit-language'],
 });
 
-const migos = draftUnit({
+const migos = approvedUnit({
   id: 'migos', number: 3, name: 'Migos', monogram: 'MG',
   why: 'Migos still matter because they changed how rap sounds in your ears and in your mouth. Their flow became the default setting for an era, and they turned ad-libs into punctuation and repetition into rhythm.',
   passed: { id: 'bad-and-boujee', blurb: 'Group chemistry at full blast: flow, repetition, and confidence. It is modern hip-hop structure in a form that explains why so many artists began rapping like them.' },
@@ -184,7 +185,7 @@ const migos = draftUnit({
   flags: ['explicit-language', 'substances', 'sexual-content'],
 });
 
-const macMiller = draftUnit({
+const macMiller = approvedUnit({
   id: 'mac-miller', number: 4, name: 'Mac Miller', monogram: 'MM',
   why: 'Mac Miller still matters because he grew in public and let the music grow with him. He showed that artists do not have to stay frozen in the version that first got attention. His later work is vulnerable and human, and that kind of music finds you when you are ready.',
   passed: { id: 'dang', blurb: 'This bridges fun and feeling. It is catchy and musical, easing listeners into Mac’s world without the weight arriving too early.' },
@@ -219,7 +220,7 @@ const macMiller = draftUnit({
   flags: ['explicit-language', 'substances', 'trauma', 'mature-themes'],
 });
 
-const frankOcean = draftUnit({
+const frankOcean = approvedUnit({
   id: 'frank-ocean', number: 5, name: 'Frank Ocean', monogram: 'FO',
   why: 'Frank Ocean still matters because he proved silence can be loud. He does not chase charts, trends, or attention, yet his music stays active because it speaks to identity, love, and confusion without rushing the listener.',
   passed: { id: 'thinkin-bout-you', blurb: 'Emotional clarity in song form: gentle, honest, and unforgettable. It teaches that music does not have to yell to be powerful.' },
@@ -251,7 +252,7 @@ const frankOcean = draftUnit({
   flags: ['explicit-language', 'sexual-content', 'substances', 'trauma', 'mature-themes'],
 });
 
-const souljaBoy = draftUnit({
+const souljaBoy = approvedUnit({
   id: 'soulja-boy', number: 6, name: 'Soulja Boy', monogram: 'SB',
   why: 'Soulja Boy still matters because he figured out the internet before the industry caught up. He showed artists how to market directly to fans and turn dances, records, and online participation into one shared moment.',
   passed: { id: 'crank-that', blurb: 'History, participation, and fun in one record. It changed how music spreads because kids did not just hear it; they moved to it and shared it.' },
@@ -281,7 +282,7 @@ const souljaBoy = draftUnit({
   flags: ['explicit-language', 'mature-themes'],
 });
 
-const bowWow = draftUnit({
+const bowWow = approvedUnit({
   id: 'bow-wow', number: 7, name: 'Bow Wow', monogram: 'BW',
   why: 'Bow Wow still matters because he proved kids could see themselves in hip-hop without pretending to be grown. His records made room for fun, confidence, and youth while still being taken seriously.',
   passed: { id: 'like-you', blurb: 'Youth, confidence, and melody together. It lasts because it aimed to be relatable rather than tough, which matters when music is passed down.' },
@@ -310,7 +311,7 @@ const bowWow = draftUnit({
   flags: ['explicit-language', 'mature-themes'],
 });
 
-const chrisBrown = draftUnit({
+const chrisBrown = approvedUnit({
   id: 'chris-brown', number: 8, name: 'Chris Brown', monogram: 'CB',
   why: 'Chris Brown’s catalog and performance style have had a wide influence on modern R&B and pop. This unit studies the skill without separating it from accountability: artistic ability and harmful behavior are both part of an honest conversation.',
   passed: { id: 'forever', blurb: 'An upbeat, movement-centered pop record with broad staying power. It offers a clear entry to the performance craft at the center of this unit.' },
@@ -348,7 +349,7 @@ const chrisBrown = draftUnit({
   flags: ['artist-conduct', 'violence', 'trauma', 'sexual-content', 'explicit-language', 'mature-themes'],
 });
 
-const fiftyCent = draftUnit({
+const fiftyCent = approvedUnit({
   id: '50-cent', number: 9, name: '50 Cent', monogram: '50',
   why: '50 Cent still matters because he mastered impact. The early records joined confidence, survival, direct hooks, and fearless branding, then turned musical momentum into a much larger business blueprint.',
   passed: { id: 'in-da-club', blurb: 'A simple hook, undeniable rhythm, and instant recognition made this a record generations know. It is a focused lesson in musical dominance.' },
@@ -386,7 +387,7 @@ const fiftyCent = draftUnit({
   flags: ['explicit-language', 'violence', 'weapons', 'substances', 'sexual-content', 'trauma', 'mature-themes'],
 });
 
-const beyonce = draftUnit({
+const beyonce = approvedUnit({
   id: 'beyonce', number: 10, name: 'Beyoncé', monogram: 'B',
   why: 'Beyoncé still matters because she represents evolution done right. She grew from hitmaker into a cultural force without losing musical excellence, and every era teaches something different about growth, confidence, craft, and ownership.',
   passed: { id: 'irreplaceable', blurb: 'Strength without aggression: clear, confident, and timeless. The authority in the performance arrives before a young listener needs to understand every detail.' },
@@ -425,7 +426,7 @@ const beyonce = draftUnit({
   flags: ['explicit-language', 'sexual-content', 'substances', 'trauma', 'mature-themes'],
 });
 
-export const remainingDraftUnits: unknown[] = [
+export const remainingUnits: unknown[] = [
   rihanna,
   migos,
   macMiller,

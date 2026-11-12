@@ -70,7 +70,16 @@ export const Track = z.object({
   /** Free-text search query sent to providers. Defaults to `${title} ${artist}`. */
   searchQuery: z.string().optional(),
   sourceNotes: z.string().optional(),
-  needsManualReview: z.boolean(),
+  /** True when a grown-up must preview the exact provider result before playing it. */
+  requiresCaregiverPreview: z.boolean(),
+}).superRefine((track, ctx) => {
+  if (track.requiresCaregiverPreview !== (track.cleanVersionStatus === 'unverified')) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ['requiresCaregiverPreview'],
+      message: 'Unverified tracks require caregiver preview; confirmed statuses must not use that flag.',
+    });
+  }
 });
 export type Track = z.infer<typeof Track>;
 
@@ -87,9 +96,10 @@ export type BodyBlock = z.infer<typeof BodyBlock>;
 
 /**
  * `guide` = wording taken from the PDF. `adapted` = written for the app from the
- * lesson's own content and must be checked by the author before approval.
+ * lesson's own content and awaiting author review. `approved-adaptation` records
+ * that the author approved app-specific wording without losing its provenance.
  */
-export const PromptSource = z.enum(['guide', 'adapted']);
+export const PromptSource = z.enum(['guide', 'adapted', 'approved-adaptation']);
 
 export const Prompt = z.object({
   text: z.string().min(1),
@@ -147,6 +157,7 @@ export const Unit = z.object({
   contentFlags: z.array(ContentFlag),
   estimatedMinutesPerLesson: z.number().int().positive(),
   sourceNotes: z.string(),
+  lessonReview: Review,
   review: Review,
 });
 export type Unit = z.infer<typeof Unit>;

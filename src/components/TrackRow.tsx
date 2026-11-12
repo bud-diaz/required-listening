@@ -19,7 +19,7 @@ function versionLabel(t: Track): string | null {
     case 'explicit':
       return 'Explicit';
     default:
-      return t.youngerListener ? 'Clean version not yet checked' : null;
+      return t.requiresCaregiverPreview ? 'Parent preview required' : null;
   }
 }
 
@@ -29,7 +29,9 @@ export function TrackRow({ track, onListen }: { track: Track; onListen: (t: Trac
     <Pressable
       accessibilityRole="button"
       accessibilityLabel={`Listen to ${track.title} by ${track.artist}`}
-      accessibilityHint="Opens a search in your music app"
+      accessibilityHint={track.requiresCaregiverPreview
+        ? 'Opens search results. A parent must preview the exact version before playing.'
+        : 'Opens search results in your music service.'}
       onPress={() => onListen(track)}
       style={({ pressed }) => [styles.row, pressed && { backgroundColor: colors.goldSoft }]}
     >

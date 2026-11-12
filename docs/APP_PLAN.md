@@ -50,8 +50,8 @@ Preserve the PDF’s editorial visual language: black/white/caramel-gold, bold u
 
 1. **Audience and age floor:** Recommended first audience is caregiver + child ages 8–13. “Younger Listener” should remain caregiver-led because the guide also addresses violence, trauma, adult behavior, and other mature context.
 2. **Author/legal identity:** The cover says `C. Roberts`; Bud created the guide under Pearl N. Schett. Confirm the public byline, copyright holder, privacy-policy entity, and App Store/Google Play seller before release. Until confirmed, show no assumed author metadata in the app.
-3. **Editorial safety policy:** Define content classifications for language, explicit themes, violence, substances, legal history, and artist conduct. “Clean” must refer to a reviewed, provider-specific version—not a blanket safety guarantee.
-4. **Music providers:** Choose supported providers at launch, allowed outbound hosts, and whether a caregiver can set a default service. Start without provider logins.
+3. **Editorial safety policy:** Define content classifications for language, explicit themes, violence, substances, legal history, and artist conduct. “Clean” is never a blanket safety guarantee. Unverified tracks can publish only with a repeated `Parent preview required` warning; the caregiver decides whether the exact, changing search result is appropriate before every play.
+4. **Music providers:** Spotify and Apple Music are the initial defaults. Spotify, Apple Music, YouTube Music, and regular YouTube are separate opt-in choices with exact outbound-host allowlists. Start without provider logins.
 5. **Business model:** Validate the value with a free or paid pilot before adding subscriptions. No ads or behavioral advertising.
 6. **Data posture:** Local-only must remain fully useful. Exact birth dates, child emails, and child public identities are out of scope.
 
@@ -140,7 +140,7 @@ maestro/
 
 Each artist/unit record needs stable IDs, display name, artwork/illustration asset, intro, passed-down track, `sourceNotes`, `reviewedAt`, and `reviewedBy`.
 
-Each track needs title, artist, type (`song`, `album`, `mixtape`, `instrumental`, `video`), provider URLs, allowed-provider validation, `ageBands`, `contentFlags`, caregiver notes, and clean-version verification status. Keep `youngerListener` recommendations separate from the word “clean.”
+Each track needs title, artist, type (`song`, `album`, `mixtape`, `instrumental`, `video`), allowed-provider validation, `ageBands`, `contentFlags`, caregiver notes, clean-version status, and an explicit caregiver-preview flag. Keep `youngerListener` recommendations separate from the word “clean.” Search results are not stored or represented as verified recordings.
 
 Each lesson needs a heading, body blocks, listening selections, one observation prompt, one caregiver discussion prompt, and an optional activity. Final projects and influence references should also be structured.
 
@@ -149,6 +149,7 @@ Each lesson needs a heading, body blocks, listening selections, one observation 
 - Preserve Pearl’s voice; clarify facts without sanding off the cultural point of view.
 - Run a factual pass for dates, names, influence claims, labels, track spelling, and music-service links.
 - Do not bulk-convert the PDF directly into production. `extract-pdf.ts` may create drafts only; every unit is hand-edited and reviewed.
+- An `unverified` track does not block an otherwise approved unit. It must set `requiresCaregiverPreview`, display `Parent preview required`, and repeat the warning before every provider search. Do not remember a caregiver's prior check or claim that a changing search result is clean.
 - The Chris Brown/Rihanna material needs explicit age gating and caregiver framing. The app should maintain the guide’s valuable “art, accountability, and consequences” discussion rather than flattening it.
 - Add `requiresCaregiverContext` to mature content. Unknown review state is a blocked state, not a silent publish.
 
@@ -261,7 +262,7 @@ Each lesson needs a heading, body blocks, listening selections, one observation 
 - **Component:** A lesson renders required sections; caregiver gates permit/block intended units only.
 - **E2E:** Setup → start lesson → outbound-provider confirmation → save reflection → relaunch persistence → caregiver hide/unhide a sensitive unit.
 - **Manual:** iOS and Android, offline use, no music app present, largest Dynamic Type, VoiceOver/TalkBack, and caregiver-control escape attempts.
-- **Editorial:** Every title, artist, clean/explicit designation, link, historical claim, content warning, and final author credit has review evidence.
+- **Editorial:** Every title, artist, explicit designation, historical claim, content warning, and final author credit has review evidence. Every unverified selection remains plainly labeled for caregiver preview at the point of use.
 
 ## 7. Risks and mitigations
 

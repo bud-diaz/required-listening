@@ -5,13 +5,14 @@
  * so the app makes no claim that a specific version is the clean one.
  */
 
-export const PROVIDERS = ['spotify', 'apple-music', 'youtube-music'] as const;
+export const PROVIDERS = ['spotify', 'apple-music', 'youtube-music', 'youtube'] as const;
 export type Provider = (typeof PROVIDERS)[number];
 
 export const PROVIDER_LABELS: Record<Provider, string> = {
   spotify: 'Spotify',
   'apple-music': 'Apple Music',
   'youtube-music': 'YouTube Music',
+  youtube: 'YouTube',
 };
 
 /** Hosts the app is allowed to open. Anything else is refused. */
@@ -19,6 +20,7 @@ export const ALLOWED_HOSTS: Record<Provider, string> = {
   spotify: 'open.spotify.com',
   'apple-music': 'music.apple.com',
   'youtube-music': 'music.youtube.com',
+  youtube: 'www.youtube.com',
 };
 
 export function buildSearchUrl(provider: Provider, query: string): string {
@@ -30,6 +32,8 @@ export function buildSearchUrl(provider: Provider, query: string): string {
       return `https://music.apple.com/us/search?term=${q}`;
     case 'youtube-music':
       return `https://music.youtube.com/search?q=${q}`;
+    case 'youtube':
+      return `https://www.youtube.com/results?search_query=${q}`;
   }
 }
 

@@ -15,6 +15,12 @@ export function ProviderSheet({ track, onClose }: { track: Track | null; onClose
   const providers = useFamilyStore((s) => s.settings?.providers ?? []);
   const [error, setError] = useState<string | null>(null);
 
+  const guidance = track?.requiresCaregiverPreview
+    ? 'Parent preview required. This opens search results, not a verified version. Results can change. Preview the exact result before playing.'
+    : track?.cleanVersionStatus === 'explicit'
+      ? 'This opens search results, not a verified version. The main version has explicit content, so preview the exact result before playing.'
+      : 'This opens search results, not a guaranteed recording. Confirm the exact result before playing.';
+
   const open = async (p: Provider) => {
     if (!track) return;
     const url = buildSearchUrl(p, searchQueryFor(track));
@@ -44,8 +50,7 @@ export function ProviderSheet({ track, onClose }: { track: Track | null; onClose
               Search for “{track.title}” — {track.artist}
             </Text>
             <Text style={[type.small, { color: colors.muted }]}>
-              This opens a search in your music app. Check the version before you press play
-              {track.cleanVersionStatus === 'explicit' ? ': the main version has explicit content.' : '.'}
+              {guidance}
             </Text>
             {track.caregiverNote ? (
               <Text style={[type.small, { color: colors.ink }]}>Note: {track.caregiverNote}</Text>
@@ -54,7 +59,7 @@ export function ProviderSheet({ track, onClose }: { track: Track | null; onClose
               <Text style={[type.small, { color: colors.danger }]}>No music services are turned on. A grown-up can add one in Settings.</Text>
             ) : (
               providers.map((p) => (
-                <Button key={p} label={`Open ${PROVIDER_LABELS[p]}`} onPress={() => open(p)} />
+                <Button key={p} label={`Review on ${PROVIDER_LABELS[p]}`} onPress={() => open(p)} />
               ))
             )}
             {error ? <Text style={[type.small, { color: colors.danger }]} accessibilityRole="alert">{error}</Text> : null}

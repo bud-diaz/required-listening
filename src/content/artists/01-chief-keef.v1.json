@@ -41,7 +41,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence", "weapons"],
       "caregiverNote": "The album version is explicit. Younger listeners get the instrumental.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "love-sosa-instrumental",
@@ -54,7 +54,7 @@
       "contentFlags": [],
       "searchQuery": "Love Sosa instrumental Young Chop",
       "sourceNotes": "Guide lists '\"Love Sosa\" instrumental'. No official instrumental release confirmed yet; search link only.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "earned-it",
@@ -67,7 +67,7 @@
       "contentFlags": ["explicit-language"],
       "caregiverNote": "No clean edit has been confirmed on any service. Treated as explicit; guided lane only.",
       "sourceNotes": "Guide lists '\"Earned It\" (clean)'. Release and clean edit need verification.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "everyday",
@@ -80,7 +80,7 @@
       "contentFlags": ["explicit-language"],
       "caregiverNote": "No clean edit has been confirmed on any service. Treated as explicit; guided lane only.",
       "sourceNotes": "Guide lists '\"Everyday\" (clean)' and, in Lesson 1, as the 'melodic era intro'.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "citgo-instrumental",
@@ -93,7 +93,7 @@
       "contentFlags": [],
       "searchQuery": "Citgo Chief Keef instrumental",
       "sourceNotes": "Guide lists '\"Citgo\" instrumental'. Official instrumental not confirmed; search link only.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "john-madden",
@@ -105,7 +105,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence"],
       "caregiverNote": "No clean edit has been confirmed on any service. Treated as explicit; preview before playing.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "i-dont-like",
@@ -117,7 +117,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence"],
       "sourceNotes": "Lesson 4 lists this as \"Don't Like\". Both refer to this record; the Kanye West remix is a separate release (see Lesson 3).",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "hate-bein-sober",
@@ -129,7 +129,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "substances"],
       "caregiverNote": "The song is about substance use. Pair it with the Lesson 4 themes (pressure, numbness).",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "kay-kay",
@@ -140,7 +140,7 @@
       "youngerListener": false,
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language"],
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "kobe",
@@ -152,7 +152,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language"],
       "sourceNotes": "Final Project offers 'Kobe' as a later melodic track.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "kobe-instrumental",
@@ -165,7 +165,7 @@
       "contentFlags": [],
       "searchQuery": "Kobe Chief Keef instrumental",
       "sourceNotes": "Official instrumental not confirmed; search link only.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "finally-rich",
@@ -177,7 +177,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence", "substances"],
       "caregiverNote": "A clean edition may exist on some services. Pick tracks rather than playing the album straight through.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "bang-2",
@@ -188,7 +188,7 @@
       "youngerListener": false,
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence"],
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "almighty-so",
@@ -199,7 +199,7 @@
       "youngerListener": false,
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "violence"],
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "thot-breaker",
@@ -211,7 +211,7 @@
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language", "sexual-content"],
       "caregiverNote": "The guide's \"melodic pivot\". The title and lyrics are adult; the Final Project also offers \"Kobe\" as the later track.",
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     },
     {
       "id": "dedication",
@@ -222,7 +222,7 @@
       "youngerListener": false,
       "cleanVersionStatus": "explicit",
       "contentFlags": ["explicit-language"],
-      "needsManualReview": false
+      "requiresCaregiverPreview": false
     }
   ],
   "lessons": [
@@ -489,5 +489,6 @@
   "contentFlags": ["explicit-language", "violence", "weapons", "substances", "mature-themes"],
   "estimatedMinutesPerLesson": 10,
   "sourceNotes": "Drafted from docs/Required_Listening_11-5.pdf, Unit 1. In the PDF, Lesson 9 is the Influence Tree and Lesson 10 is Legacy. Body text is the guide's wording with list bullets repaired. Every Notice prompt and most Talk prompts were written for the app from the lesson's own content and were approved by the author on 2026-11-07.",
+  "lessonReview": { "status": "approved", "reviewedAt": "2026-11-07", "reviewedBy": "bud-diaz" },
   "review": { "status": "approved", "reviewedAt": "2026-11-07", "reviewedBy": "bud-diaz" }
 }

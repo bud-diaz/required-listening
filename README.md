@@ -5,8 +5,8 @@ A parent-led iOS/Android companion for *Required Listening: The Art of Passing D
 one lesson at a time. It is not a music player: it opens a search in the music services the caregiver allows.
 
 See [`docs/APP_PLAN.md`](docs/APP_PLAN.md) for the full plan and [`HANDOFF.md`](HANDOFF.md) for where
-things stand and what to do next. This repo currently holds the **Phase 1
-one-unit prototype** (Unit 1, Chief Keef).
+things stand and what to do next. This repo currently holds the structured, approved **10-unit
+curriculum** and its local-first family listening flows.
 
 ## Run it
 
@@ -43,8 +43,11 @@ npm test            # Vitest: content contract, lanes, links, crate persistence
 - Every unit starts as `review.status: "draft"`. **Draft content appears only in development builds**,
   with a DRAFT banner; production builds show the unit as "Coming soon".
 - Prompts marked `"source": "adapted"` were written for the app from the lesson's own content and need
-  the author's sign-off. Tests stop a unit from being approved while any remain, or while any track
-  still has `needsManualReview: true`.
-- "Clean" is never assumed: Younger Listener picks show "Clean version not yet checked" until a
-  specific provider version is verified.
+  the author's sign-off. Approved app-written wording uses `"approved-adaptation"` to preserve its
+  provenance.
+- "Clean" is never assumed. Every `unverified` track must set `requiresCaregiverPreview`, shows
+  “Parent preview required,” and repeats that warning before every provider search. Search results
+  can change, so the app does not remember a prior check or claim that a result is clean.
+- Spotify, Apple Music, YouTube Music, and regular YouTube are separate provider choices with exact
+  HTTPS host allowlists. Spotify and Apple Music remain the onboarding defaults.
 - The byline is `null` until authorship is confirmed (plan §2).

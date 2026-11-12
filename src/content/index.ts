@@ -2,7 +2,7 @@ import catalogJson from './catalog.v1.json';
 import frontMatterJson from './front-matter.v1.json';
 import crateActivityJson from './crate-activity.v1.json';
 import chiefKeefJson from './artists/01-chief-keef.v1.json';
-import { remainingDraftUnits } from './artists/remaining-units.v1';
+import { remainingUnits } from './artists/remaining-units.v1';
 import {
   Catalog,
   CrateActivity,
@@ -16,7 +16,7 @@ import {
 } from './schemas';
 
 /** Structured unit files. Add each newly converted unit here. */
-export const RAW_UNITS: unknown[] = [chiefKeefJson, ...remainingDraftUnits];
+export const RAW_UNITS: unknown[] = [chiefKeefJson, ...remainingUnits];
 
 export const catalog = Catalog.parse(catalogJson);
 export const frontMatter = FrontMatter.parse(frontMatterJson);
@@ -66,6 +66,13 @@ export function visibleTracks(unit: Unit, trackIds: string[], lane: Lane): Track
 export function getLesson(unit: Unit, lessonId: string, lane: Lane): Lesson | undefined {
   const lesson = unit.lessons.find((l) => l.id === lessonId);
   return lesson && laneAllows(lane, lesson.minLane) ? lesson : undefined;
+}
+
+/** The next lesson available on this family's lane, skipping restricted checkpoints. */
+export function getNextLesson(unit: Unit, lessonId: string, lane: Lane): Lesson | undefined {
+  const lessons = visibleLessons(unit, lane);
+  const currentIndex = lessons.findIndex((lesson) => lesson.id === lessonId);
+  return currentIndex >= 0 ? lessons[currentIndex + 1] : undefined;
 }
 
 /** The passed-down track, or the lane-appropriate substitute (the first Younger Listener pick). */

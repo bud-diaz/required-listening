@@ -7,6 +7,7 @@ import {
   crateActivity,
   frontMatter,
   getLesson,
+  getNextLesson,
   isPublishable,
   laneAllows,
   passedDownFor,
@@ -14,6 +15,7 @@ import {
   visibleLessons,
 } from '../src/content';
 import { PROVIDERS, buildSearchUrl, isAllowedUrl, searchQueryFor } from '../src/lib/links';
+import { Settings } from '../src/domain/crate';
 
 describe('content contract', () => {
   it('parses every content file', () => {
@@ -99,15 +101,30 @@ describe('content contract', () => {
         }
       });
 
-      it('flags every unconfirmed track for manual review', () => {
+      it('records author approval for every lesson and app-adapted prompt', () => {
+        expect(unit.lessonReview).toEqual({
+          status: 'approved',
+          reviewedAt: unit.number === 1 ? '2026-11-07' : '2026-11-12',
+          reviewedBy: 'bud-diaz',
+        });
+        const awaitingReview = unit.lessons.flatMap((lesson) =>
+          [lesson.notice, lesson.talk, lesson.activity].filter((prompt) => prompt?.source === 'adapted')
+        );
+        expect(awaitingReview).toEqual([]);
+      });
+
+      it('flags exactly every unverified track for caregiver preview', () => {
         for (const t of unit.tracks) {
-          if (t.cleanVersionStatus === 'unverified') expect(t.needsManualReview, t.id).toBe(true);
+          expect(t.requiresCaregiverPreview, t.id).toBe(t.cleanVersionStatus === 'unverified');
         }
       });
 
-      it('does not ship while it has unreviewed tracks or adapted prompts', () => {
+      it('ships approved lessons while preserving every caregiver-preview warning', () => {
         if (unit.review.status !== 'approved') return;
-        expect(unit.tracks.filter((t) => t.needsManualReview)).toEqual([]);
+        expect(unit.lessonReview.status).toBe('approved');
+        for (const track of unit.tracks.filter((t) => t.cleanVersionStatus === 'unverified')) {
+          expect(track.requiresCaregiverPreview, track.id).toBe(true);
+        }
         const adapted = unit.lessons.flatMap((l) => [l.notice, l.talk, l.activity].filter((p) => p?.source === 'adapted'));
         expect(adapted).toEqual([]);
       });
@@ -141,9 +158,11 @@ describe('review gate', () => {
     expect(isPublishable({ status: 'approved', reviewedAt: '2026-11-05', reviewedBy: 'Author' }, false)).toBe(true);
   });
 
-  it('keeps draft tracks out of the production crate picker', () => {
-    expect(new Set(allTracks('full', false).map(({ unit }) => unit.id))).toEqual(new Set(['chief-keef']));
-    expect(new Set(allTracks('full', true).map(({ unit }) => unit.id))).toEqual(new Set(units.map((unit) => unit.id)));
+  it('publishes every author-approved unit and its tracks in production', () => {
+    const expected = new Set(units.map((unit) => unit.id));
+    expect(units.every((unit) => isPublishable(unit.review, false))).toBe(true);
+    expect(new Set(allTracks('full', false).map(({ unit }) => unit.id))).toEqual(expected);
+    expect(new Set(allTracks('full', true).map(({ unit }) => unit.id))).toEqual(expected);
   });
 });
 
@@ -167,6 +186,12 @@ describe('listening lanes', () => {
     expect(getLesson(ck, 'ck-08-independence', 'guided')).toBeUndefined();
   });
 
+  it('finds the next visible lesson and skips restricted checkpoints', () => {
+    expect(getNextLesson(ck, 'ck-07-production', 'guided')?.id).toBe('ck-09-influence-tree');
+    expect(getNextLesson(ck, 'ck-07-production', 'younger')).toBeUndefined();
+    expect(getNextLesson(ck, 'ck-10-legacy', 'full')).toBeUndefined();
+  });
+
   it('substitutes a Younger Listener pick for an explicit passed-down track', () => {
     expect(passedDownFor(ck, 'guided')).toMatchObject({ isSubstitute: false, track: { id: 'love-sosa' } });
     expect(passedDownFor(ck, 'younger')).toMatchObject({ isSubstitute: true, track: { id: 'love-sosa-instrumental' } });
@@ -185,6 +210,27 @@ describe('provider links', () => {
     const url = buildSearchUrl('spotify', 'Love Sosa Chief Keef');
     expect(isAllowedUrl(url, ['spotify'])).toBe(true);
     expect(isAllowedUrl(url, ['apple-music'])).toBe(false);
+  });
+
+  it('keeps YouTube and YouTube Music as separate allow-listed providers', () => {
+    const youtube = buildSearchUrl('youtube', 'Love Sosa Chief Keef');
+    expect(youtube).toBe('https://www.youtube.com/results?search_query=Love%20Sosa%20Chief%20Keef');
+    expect(isAllowedUrl(youtube, ['youtube'])).toBe(true);
+    expect(isAllowedUrl(youtube, ['youtube-music'])).toBe(false);
+    expect(isAllowedUrl('https://music.youtube.com/search?q=Love%20Sosa', ['youtube'])).toBe(false);
+    expect(isAllowedUrl('https://youtube.com/results?search_query=Love%20Sosa', ['youtube'])).toBe(false);
+    expect(isAllowedUrl('https://www.youtube.com.evil.example/results', ['youtube'])).toBe(false);
+    expect(isAllowedUrl('http://www.youtube.com/results', ['youtube'])).toBe(false);
+  });
+
+  it('accepts regular YouTube as an optional family setting', () => {
+    expect(Settings.safeParse({
+      nickname: 'Listener',
+      avatar: '🎧',
+      lane: 'guided',
+      providers: ['spotify', 'youtube'],
+      onboardedAt: '2026-11-12T00:00:00.000Z',
+    }).success).toBe(true);
   });
 
   it('encodes queries', () => {

@@ -45,7 +45,13 @@ export default function UnitScreen() {
   return (
     <Screen>
       <Stack.Screen options={{ title: unit.displayName }} />
-      {unit.review.status !== 'approved' ? <DraftBanner /> : null}
+      {unit.review.status !== 'approved' ? (
+        <DraftBanner
+          message={unit.lessonReview.status === 'approved'
+            ? 'DRAFT · Lesson content approved. Track versions still need review.'
+            : undefined}
+        />
+      ) : null}
 
       <View style={styles.hero}>
         <RouteBadge unitNumber={unit.number} />

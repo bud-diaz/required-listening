@@ -86,12 +86,14 @@ export function Card({ children, tone = 'paper' }: { children: ReactNode; tone?:
   return <View style={[styles.card, { backgroundColor: bg }]}>{children}</View>;
 }
 
-export function DraftBanner() {
+export function DraftBanner({
+  message = 'DRAFT · Awaiting editorial review. Shown in development builds only.',
+}: {
+  message?: string;
+}) {
   return (
     <View style={styles.draft} accessibilityRole="alert">
-      <Text style={[type.small, { color: colors.draft, fontWeight: '700' }]}>
-        DRAFT · Awaiting editorial review. Shown in development builds only.
-      </Text>
+      <Text style={[type.small, { color: colors.draft, fontWeight: '700' }]}>{message}</Text>
     </View>
   );
 }

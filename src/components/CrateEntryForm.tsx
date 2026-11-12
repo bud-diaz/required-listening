@@ -21,6 +21,7 @@ export function CrateEntryForm({ lane, initialTrackId, onSaved }: Props) {
 
   const [source, setSource] = useState<'guide' | 'own'>('guide');
   const [pickedId, setPickedId] = useState<string | undefined>(initial?.track.id);
+  const [showGuideTracks, setShowGuideTracks] = useState(!initial);
   const [title, setTitle] = useState('');
   const [artist, setArtist] = useState('');
   const [why, setWhy] = useState<string[]>([]);
@@ -66,20 +67,39 @@ export function CrateEntryForm({ lane, initialTrackId, onSaved }: Props) {
         </View>
         {source === 'guide' ? (
           <View style={{ gap: space.xs }}>
-            {guideTracks.map(({ track }) => (
-              <Pressable
-                key={track.id}
-                accessibilityRole="radio"
-                accessibilityState={{ checked: pickedId === track.id }}
-                onPress={() => setPickedId(track.id)}
-                style={[styles.option, pickedId === track.id && styles.optionOn]}
-              >
-                <Text style={[type.body, { fontWeight: '700', color: pickedId === track.id ? colors.paper : colors.ink }]}>
-                  {track.title}
-                </Text>
-                <Text style={[type.small, { color: pickedId === track.id ? colors.goldSoft : colors.muted }]}>{track.artist}</Text>
-              </Pressable>
-            ))}
+            {picked && !showGuideTracks ? (
+              <>
+                <View
+                  accessible
+                  accessibilityLabel={`Selected song: ${picked.track.title} by ${picked.track.artist}`}
+                  style={[styles.option, styles.optionOn]}
+                >
+                  <Text style={[type.body, { fontWeight: '700', color: colors.paper }]}>{picked.track.title}</Text>
+                  <Text style={[type.small, { color: colors.goldSoft }]}>{picked.track.artist}</Text>
+                </View>
+                <Button label="Choose a different guide song" variant="secondary" onPress={() => setShowGuideTracks(true)} />
+              </>
+            ) : (
+              guideTracks.map(({ track }) => (
+                <Pressable
+                  key={track.id}
+                  accessibilityRole="radio"
+                  accessibilityState={{ checked: pickedId === track.id }}
+                  onPress={() => {
+                    setPickedId(track.id);
+                    if (initial) setShowGuideTracks(false);
+                  }}
+                  style={[styles.option, pickedId === track.id && styles.optionOn]}
+                >
+                  <Text
+                    style={[type.body, { fontWeight: '700', color: pickedId === track.id ? colors.paper : colors.ink }]}
+                  >
+                    {track.title}
+                  </Text>
+                  <Text style={[type.small, { color: pickedId === track.id ? colors.goldSoft : colors.muted }]}>{track.artist}</Text>
+                </Pressable>
+              ))
+            )}
           </View>
         ) : (
           <View style={{ gap: space.sm }}>

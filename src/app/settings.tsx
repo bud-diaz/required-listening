@@ -62,7 +62,7 @@ export default function SettingsScreen() {
             <Chip key={p} label={PROVIDER_LABELS[p]} selected={settings.providers.includes(p)} onPress={() => toggleProvider(p)} />
           ))}
         </View>
-        <Text style={[type.small, { color: colors.muted }]}>Keep at least one turned on.</Text>
+        <Text style={[type.small, { color: colors.muted }]}>Searches open outside the app. YouTube and YouTube Music are separate choices. Keep at least one turned on.</Text>
       </View>
 
       <Button label="Edit nickname & avatar" variant="secondary" onPress={() => router.push('/welcome')} />

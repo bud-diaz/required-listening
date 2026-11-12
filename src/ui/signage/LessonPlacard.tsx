@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { colors, geometry, space, TOUCH } from '../theme';
+import { colors, geometry, TOUCH } from '../theme';
 
 export type PlacardStage = 'listen' | 'notice' | 'talk' | 'crate';
 
@@ -16,36 +16,13 @@ export function LessonPlacard({
   onSelectStage,
   disabledStages = [],
   size = 256,
-  compact = false,
 }: {
   activeStage?: PlacardStage;
   visitedStages?: PlacardStage[];
   onSelectStage?: (stage: PlacardStage) => void;
   disabledStages?: PlacardStage[];
   size?: number;
-  compact?: boolean;
 }) {
-  if (compact) {
-    return (
-      <View
-        style={[styles.strip, { borderColor: activeStage === 'notice' ? colors.ink : colors.paper }]}
-        accessible
-        accessibilityLabel={`${activeStage ?? 'No stage'} selected in the lesson placard`}
-      >
-        {(Object.keys(stageInfo) as PlacardStage[]).map((stage) => {
-          const info = stageInfo[stage];
-          const selected = stage === activeStage;
-          return (
-            <View key={stage} style={[styles.stripItem, { backgroundColor: info.color }, selected && styles.stripOn, selected && { borderColor: stage === 'notice' ? colors.ink : colors.paper }]}>
-              <Text style={[styles.stripText, stage === 'notice' && { color: colors.ink }]}>{info.short}</Text>
-              {selected ? <Text style={[styles.selectedMark, stage === 'notice' && { color: colors.ink }]}>●</Text> : null}
-            </View>
-          );
-        })}
-      </View>
-    );
-  }
-
   const stages: PlacardStage[] = ['listen', 'talk', 'notice', 'crate'];
   return (
     <View style={[styles.frame, { width: size, height: size }]}>
@@ -115,9 +92,4 @@ const styles = StyleSheet.create({
   symbol: { color: colors.paper, fontSize: 21, lineHeight: 23, fontWeight: '900' },
   label: { color: colors.paper, fontSize: 11, lineHeight: 14, fontWeight: '900' },
   mark: { position: 'absolute', top: -12, right: -18, color: colors.paper, fontSize: 10 },
-  strip: { flexDirection: 'row', borderWidth: 2, borderColor: colors.ink, borderRadius: 5, overflow: 'hidden' },
-  stripItem: { flex: 1, minHeight: 34, alignItems: 'center', justifyContent: 'center', borderRightWidth: 1, borderColor: colors.ink },
-  stripOn: { borderWidth: 3, borderColor: colors.paper },
-  stripText: { color: colors.paper, fontSize: 9, fontWeight: '900' },
-  selectedMark: { position: 'absolute', right: space.xs, top: 2, color: colors.paper, fontSize: 7 },
 });

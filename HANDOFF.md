@@ -10,7 +10,9 @@ Plan of record: [`docs/APP_PLAN.md`](docs/APP_PLAN.md) · Source guide: `docs/Re
 
 ## Current state
 
-**Phase:** Phase 2 (full-guide conversion). Installed and visually verified on a real iPhone; Unit 1 content is author-approved and ready to ship, and Units 2–10 are complete in-app editorial drafts awaiting author review.
+**Phase:** Phase 2 (full-guide conversion). Installed and visually verified on a real iPhone; lesson
+content and overall publication status for all 10 units are author-approved. Unverified tracks publish
+with a repeated parent-preview requirement instead of blocking their units.
 The app display name is **Listening Required**; the book/curriculum title remains *Required Listening*.
 Phase 0 (product, rights and safety decisions) and the byline are still open and need the author.
 
@@ -43,15 +45,25 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 - Reusable signage components live in `src/ui/signage/`, including the accessible four-way lesson
   placard, route badges, sign panels/buttons, record signs, context notes and stage-safe screens.
 - Setup for grown-ups (nickname, emoji avatar, listening lane, allowed music services, content note).
+  Spotify and Apple Music remain the defaults; YouTube Music and regular YouTube are separate,
+  optional providers.
 - Home with a cross-unit "continue" card and Family Replay; all 10 artists are available in
-  development builds (production continues to block draft units).
+  development and production builds.
 - All 10 unit hubs include a passed-down track, why it matters, content labels, Younger Listener
   picks, overview, learning outcomes, 10 lessons, and final project text.
-- Lesson flow: Read → Listen → Notice → Talk (feelings + saved thought) → Crate (add song, mark explored).
-- My Crate (Build Your Own Crate steps 1–3, duplicate check, private share via share sheet).
+- Lesson flow: Read → Listen → Notice → Talk (feelings + saved thought) → Crate (add song, mark
+  explored), with one persistent five-step navigation strip; the duplicate compact stage strip was
+  removed after on-device review, and the remaining strip uses a consistent black outer border.
+  After a lesson is marked explored, its Crate stage offers a next-lesson button unless it is the
+  last lesson visible on the family's current lane.
+- My Crate (Build Your Own Crate steps 1–3, duplicate check, private share via share sheet). When a
+  lesson supplies a song, the add form shows only that selection and a “Choose a different guide
+  song” action instead of forcing the family to scroll through the full catalog.
 - About tab with the guide's front matter (no byline).
 - Grown-up settings: change lane/providers, export data, delete all.
-- Outbound links open a provider *search* after a confirmation sheet; hosts are allow-listed. No audio.
+- Outbound links open a provider *search* after a confirmation sheet; hosts are exactly allow-listed.
+  Every unverified track is labeled “Parent preview required,” and that warning repeats before every
+  search because results can change. No verification choice is stored and no audio is hosted.
 - Storage: Expo SQLite on iOS/Android; browser storage on the web preview.
 - EAS project `29bd2171-ae38-4f5e-b974-cb451d0339ab` is linked to the `bud-diaz` account. `eas.json`
   defines an internal-distribution iOS development-client profile.
@@ -62,13 +74,20 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 | Item | Status |
 | --- | --- |
 | Unit 1 Chief Keef (`src/content/artists/01-chief-keef.v1.json`) | Approved 2026-11-07 by bud-diaz |
-| Units 2–10 (`src/content/artists/remaining-units.v1.ts`) | Complete app drafts: 90 lessons; author review and provider-specific clean-version verification required |
+| Units 2–10 (`src/content/artists/remaining-units.v1.ts`) | All 90 lessons and overall units approved 2026-11-12 by bud-diaz; unverified tracks require parent preview |
 | Front matter, Build Your Crate | Draft: needs author review |
 
-Draft units only appear in development builds; production builds show Units 2–10 as "Coming soon"
-and omit their tracks from the generic crate picker. Unit 1 is approved and no longer gated by the
-draft banner. Every new Notice/Talk prompt is marked `adapted`; every guide-recommended younger
-pick is `unverified` until a specific provider version is manually checked.
+All 10 units and their lane-appropriate tracks now appear in production. Units 2–10 record lesson
+approval separately from their overall unit review; their app-specific Notice/Talk prompts are marked
+`approved-adaptation`. An `unverified` selection is not represented as clean: it carries
+`requiresCaregiverPreview`, and the app asks a grown-up to preview the exact provider result every time.
+
+**Units 2–10 review resolution (2026-11-12)**
+- bud-diaz reviewed and approved the lesson content across all nine newly converted units.
+- Every app-specific Notice/Talk prompt moved from `adapted` to `approved-adaptation`, preserving
+  provenance without implying that the wording came directly from the PDF.
+- Overall unit status is `approved`. Track-version judgment stays with the caregiver: unverified
+  tracks remain visibly flagged in track rows and again before every outbound provider search.
 
 **Unit 1 review resolution (2026-11-07)**
 - All 19 `adapted` Notice/Talk prompts approved as drafted; `source` flipped to `"guide"`.
@@ -82,16 +101,16 @@ pick is `unverified` until a specific provider version is manually checked.
 - Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
   existing plan default.
 
-**Checks (last run on current worktree after full-guide conversion, 2026-11-11)**
+**Checks (last run on current worktree after YouTube/caregiver-preview implementation, 2026-11-12)**
 - `npm run lint`: pass
 - `npm run typecheck`: pass
-- `npm test` (Vitest): 134/134 pass.
+- `npm test` (Vitest): 147/147 pass.
 - `npx expo install --check`: pass; dependencies are up to date.
 - `npx expo-doctor@latest` (`expo-doctor@1.21.8`): 20/20 checks pass.
-- `npx expo export --platform web --output-dir /tmp/required-listening-full-guide-web`: pass; 923
-  modules bundled after adding all units.
-- `npx expo export --platform ios --output-dir /tmp/required-listening-ios`: pass; generated a
-  3.4 MB Hermes iOS bundle. Rechecked after the dependency alignment with 1,299 modules bundled.
+- `npx expo export --platform web --output-dir /tmp/required-listening-youtube-web`: pass; 923
+  modules bundled.
+- `npx expo export --platform ios --output-dir /tmp/required-listening-youtube-ios`: pass; generated
+  a 3.4 MB Hermes iOS bundle from 1,300 modules.
 - EAS iOS development build `26580b41-dc6d-452d-a184-72e680075f34`: pass; signed with the active
   ad hoc profile and installed successfully on "CJ's iPhone 2" over USB.
 - Headless Chromium mobile renders: onboarding and seeded Home at 390×844; Briefing + interactive
@@ -119,17 +138,14 @@ pick is `unverified` until a specific provider version is manually checked.
 
 ## Next step
 
-**Review the nine newly converted unit drafts, then complete accessibility QA.**
+**Complete accessibility QA and the remaining nonblocking metadata audit.**
 
-1. Review Units 2–10 one at a time in the development build. Confirm body wording, every adapted
-   Notice/Talk prompt, track spelling, safety lanes, and factual claims; then set approved review
-   metadata only after the author signs off.
-2. Verify each guide-recommended younger pick against a specific provider version. Replace
-   `unverified` with `verified-clean` only when the exact version is confirmed; otherwise move it to
-   a more restrictive lane or use an instrumental.
-3. Run VoiceOver, Dynamic Type, provider hand-off, Talk keyboard clearance, crate persistence, and
+1. Run VoiceOver, Dynamic Type, provider hand-off (including separate YouTube and YouTube Music
+   choices), Talk keyboard clearance, crate persistence, and
    destructive-data checks on the registered iPhone.
-4. Decide the byline (see Open decisions) whenever convenient — it doesn't block shipping Unit 1.
+2. Review remaining track spelling, search metadata, and safety lanes. Keep unverified tracks under
+   the caregiver-preview policy; this audit no longer blocks approved units from publishing.
+3. Decide the byline (see Open decisions) whenever convenient — it doesn't block curriculum use.
 
 ---
 
@@ -137,6 +153,20 @@ pick is `unverified` until a specific provider version is manually checked.
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-12: Added regular YouTube as a separate opt-in, exactly allow-listed search provider;
+  published all author-approved units; replaced central track-verification blocking with repeated
+  parent-preview warnings for every unverified selection.
+- 2026-11-12: Recorded bud-diaz's approval of all lesson content in Units 2–10, added distinct
+  approved-adaptation provenance for app-written prompts; the follow-up caregiver-preview policy
+  then cleared those units for production without making unsupported clean-version claims.
+- 2026-11-11: Collapsed the full guide-track catalog on lesson-originated crate forms; the selected
+  song appears immediately with an explicit option to choose a different guide track.
+- 2026-11-11: Added a lane-aware “Proceed to next lesson” action after marking a lesson explored;
+  it skips restricted checkpoints and stays hidden on the final visible lesson.
+- 2026-11-11: Made the remaining five-step lesson navigation strip use a black outer border on
+  every colored stage.
+- 2026-11-11: Removed the duplicate compact lesson-stage strip seen on every non-Briefing screen;
+  the complete Briefing/Listen/Notice/Talk/Crate navigation remains.
 - 2026-11-11: Converted Units 2–10 into structured in-app drafts (90 new lessons), integrated all
   10 units with the Sound Traffic flows, added every-lane coverage, blocked draft tracks from
   production crate search, and expanded content-contract coverage to the full 100-lesson guide.

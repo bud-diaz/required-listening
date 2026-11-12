@@ -93,7 +93,8 @@ export default function Welcome() {
         <Text style={[type.small, { color: colors.ink }]}>
           This guide assumes adult discretion and encourages context over censorship. Some artists and songs deal with
           violence, trauma, substances and adult behavior. Labels and lanes help you choose, but no label promises a
-          record is right for every kid. Preview first when you’re not sure.
+          record is right for every kid. Provider searches are not verified recordings. When a track says “Parent
+          preview required,” a grown-up must preview the exact result before playing it.
         </Text>
         <Chip label={ack ? 'Got it ✓' : 'Got it'} selected={ack} onPress={() => setAck(!ack)} />
       </SignPanel>
