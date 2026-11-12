@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { Unit } from '../src/content/schemas';
 import {
   RAW_UNITS,
+  allTracks,
   catalog,
   crateActivity,
   frontMatter,
@@ -20,6 +21,8 @@ describe('content contract', () => {
     expect(frontMatter.sections.length).toBeGreaterThan(0);
     expect(crateActivity.whyOptions.length).toBeGreaterThan(0);
     expect(units.length).toBe(RAW_UNITS.length);
+    expect(units).toHaveLength(10);
+    expect(units.flatMap((unit) => unit.lessons)).toHaveLength(100);
   });
 
   it('shows no byline until authorship is confirmed', () => {
@@ -29,6 +32,14 @@ describe('content contract', () => {
   it('marks exactly the converted units as available', () => {
     const converted = new Set(units.map((u) => u.id));
     for (const entry of catalog.units) expect(entry.available).toBe(converted.has(entry.id));
+  });
+
+  it('keeps unit, lesson, and track IDs unique across the full guide', () => {
+    expect(new Set(units.map((unit) => unit.id)).size).toBe(10);
+    const lessonIds = units.flatMap((unit) => unit.lessons.map((lesson) => lesson.id));
+    const trackIds = units.flatMap((unit) => unit.tracks.map((track) => track.id));
+    expect(new Set(lessonIds).size).toBe(lessonIds.length);
+    expect(new Set(trackIds).size).toBe(trackIds.length);
   });
 
   for (const unit of units) {
@@ -44,6 +55,12 @@ describe('content contract', () => {
       it('has 10 lessons numbered 1–10 with unique IDs', () => {
         expect(unit.lessons.map((l) => l.number)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
         expect(new Set(unit.lessons.map((l) => l.id)).size).toBe(10);
+      });
+
+      it('offers at least one checkpoint on every listening lane', () => {
+        expect(visibleLessons(unit, 'younger').length).toBeGreaterThan(0);
+        expect(visibleLessons(unit, 'guided').length).toBeGreaterThan(0);
+        expect(visibleLessons(unit, 'full')).toHaveLength(10);
       });
 
       it('has unique track IDs', () => {
@@ -122,6 +139,11 @@ describe('review gate', () => {
     expect(isPublishable(draft, false)).toBe(false);
     expect(isPublishable(draft, true)).toBe(true);
     expect(isPublishable({ status: 'approved', reviewedAt: '2026-11-05', reviewedBy: 'Author' }, false)).toBe(true);
+  });
+
+  it('keeps draft tracks out of the production crate picker', () => {
+    expect(new Set(allTracks('full', false).map(({ unit }) => unit.id))).toEqual(new Set(['chief-keef']));
+    expect(new Set(allTracks('full', true).map(({ unit }) => unit.id))).toEqual(new Set(units.map((unit) => unit.id)));
   });
 });
 

@@ -16,7 +16,7 @@ type Props = {
 /** The guide's Build Your Own Crate steps 1–3: pick a song, why, and when. */
 export function CrateEntryForm({ lane, initialTrackId, onSaved }: Props) {
   const addToCrate = useFamilyStore((s) => s.addToCrate);
-  const guideTracks = useMemo(() => allTracks(lane).filter(({ track }) => track.type !== 'album' && track.type !== 'mixtape'), [lane]);
+  const guideTracks = useMemo(() => allTracks(lane, __DEV__).filter(({ track }) => track.type !== 'album' && track.type !== 'mixtape'), [lane]);
   const initial = guideTracks.find((g) => g.track.id === initialTrackId);
 
   const [source, setSource] = useState<'guide' | 'own'>('guide');

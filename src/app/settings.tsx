@@ -5,6 +5,7 @@ import type { Lane } from '../content/schemas';
 import { PROVIDERS, PROVIDER_LABELS, type Provider } from '../lib/links';
 import { useFamilyStore } from '../stores/family-store';
 import { Button, Card, Chip, Kicker, Rule, Screen } from '../ui/primitives';
+import { RoadDivider, SignPanel } from '../ui/signage';
 import { LANE_INFO } from '../ui/lanes';
 import { colors, space, type } from '../ui/theme';
 
@@ -39,6 +40,11 @@ export default function SettingsScreen() {
 
   return (
     <Screen>
+      <View style={{ gap: space.xs }}>
+        <Kicker color={colors.ink}>Caregiver controls</Kicker>
+        <Text style={[type.display, { color: colors.ink }]}>Settings</Text>
+      </View>
+      <RoadDivider />
       <View style={{ gap: space.sm }}>
         <Kicker>Listening lane</Kicker>
         {(Object.keys(LANE_INFO) as Lane[]).map((l) => (
@@ -69,13 +75,13 @@ export default function SettingsScreen() {
         </Text>
         <Button label="Export a copy" variant="secondary" onPress={onExport} />
         {confirming ? (
-          <Card tone="gold">
+          <SignPanel tone="warning" title="Delete family data">
             <Text style={[type.body, { color: colors.ink, fontWeight: '700' }]}>
               Delete everything on this device? This can’t be undone.
             </Text>
             <Button label="Yes, delete everything" variant="danger" onPress={onDelete} />
             <Button label="Cancel" variant="ghost" onPress={() => setConfirming(false)} />
-          </Card>
+          </SignPanel>
         ) : (
           <Button label="Delete all family data" variant="danger" onPress={() => setConfirming(true)} />
         )}

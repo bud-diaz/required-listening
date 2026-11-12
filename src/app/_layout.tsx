@@ -35,19 +35,19 @@ export default function RootLayout() {
       <StatusBar style="dark" />
       <Stack
         screenOptions={{
-          headerStyle: { backgroundColor: colors.cream },
+          headerStyle: { backgroundColor: colors.yellow },
           headerTintColor: colors.ink,
           headerTitleStyle: { fontWeight: '800' },
           headerShadowVisible: false,
-          contentStyle: { backgroundColor: colors.cream },
+          contentStyle: { backgroundColor: colors.yellow },
           headerBackButtonDisplayMode: 'minimal',
         }}
       >
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="welcome" options={{ headerShown: false }} />
         <Stack.Screen name="unit/[id]" options={{ title: '' }} />
-        <Stack.Screen name="lesson/[unitId]/[lessonId]" options={{ title: '' }} />
-        <Stack.Screen name="crate/add" options={{ title: 'Add to My Crate', presentation: 'modal' }} />
+        <Stack.Screen name="lesson/[unitId]/[lessonId]" options={{ title: '', headerShown: false }} />
+        <Stack.Screen name="crate/add" options={{ title: 'Add to My Crate', presentation: 'modal', headerStyle: { backgroundColor: colors.red }, headerTintColor: colors.paper }} />
         <Stack.Screen name="settings" options={{ title: 'Grown-up settings' }} />
       </Stack>
     </SafeAreaProvider>

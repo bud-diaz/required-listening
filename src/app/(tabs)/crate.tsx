@@ -4,6 +4,7 @@ import { crateActivity } from '../../content';
 import { MAX_CRATE_SIZE_HINT, crateShareText } from '../../domain/crate';
 import { useFamilyStore } from '../../stores/family-store';
 import { Body, Button, Card, Kicker, Screen } from '../../ui/primitives';
+import { RecordSign, RoadDivider, SignPanel } from '../../ui/signage';
 import { colors, space, type } from '../../ui/theme';
 
 const whyLabels = Object.fromEntries(crateActivity.whyOptions.map((o) => [o.id, o.label]));
@@ -20,10 +21,11 @@ export default function Crate() {
   return (
     <Screen>
       <View style={{ gap: space.xs }}>
-        <Kicker>Build your own crate</Kicker>
-        <Text style={[type.h1, { color: colors.ink }]}>{nickname}’s Crate</Text>
-        <Body style={{ color: colors.muted, fontSize: 15 }}>{crateActivity.intro}</Body>
+        <Kicker color={colors.ink}>Build your own crate</Kicker>
+        <Text style={[type.display, { color: colors.ink }]}>{nickname}’s crate</Text>
+        <Body style={{ color: colors.ink, fontSize: 15 }}>{crateActivity.intro}</Body>
       </View>
+      <RoadDivider />
 
       {crate.length === 0 ? (
         <Card tone="gold">
@@ -34,10 +36,9 @@ export default function Crate() {
       ) : (
         <View style={{ gap: space.sm }}>
           {crate.map((e, i) => (
-            <Card key={e.id}>
-              <Text style={[type.kicker, { color: colors.gold }]}>No. {i + 1}</Text>
-              <Text style={[type.h2, { color: colors.ink }]}>{e.title}</Text>
-              <Text style={[type.small, { color: colors.muted }]}>{e.artist}</Text>
+            <SignPanel key={e.id}>
+              <Text style={[type.kicker, { color: colors.ink }]}>RECORD {String(i + 1).padStart(2, '0')}</Text>
+              <RecordSign title={e.title} artist={e.artist} />
               <Text style={[type.small, { color: colors.ink }]}>
                 Why: {e.why.map((w) => whyLabels[w] ?? w).join(', ')}
               </Text>
@@ -45,7 +46,7 @@ export default function Crate() {
               {e.note ? <Text style={[type.small, { color: colors.ink, fontStyle: 'italic' }]}>“{e.note}”</Text> : null}
               <Text style={[type.small, { color: colors.muted }]}>Added {new Date(e.addedAt).toLocaleDateString()}</Text>
               <Button label="Remove" variant="ghost" onPress={() => remove(e.id)} />
-            </Card>
+            </SignPanel>
           ))}
         </View>
       )}

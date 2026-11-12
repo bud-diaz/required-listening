@@ -34,7 +34,7 @@ export function TrackRow({ track, onListen }: { track: Track; onListen: (t: Trac
       style={({ pressed }) => [styles.row, pressed && { backgroundColor: colors.goldSoft }]}
     >
       <View style={styles.disc}>
-        <Text style={styles.discText}>▶</Text>
+        <View style={styles.discLabel} />
       </View>
       <View style={{ flex: 1 }}>
         <Text style={[type.h2, { color: colors.ink, fontSize: 16 }]}>{track.title}</Text>
@@ -43,6 +43,7 @@ export function TrackRow({ track, onListen }: { track: Track; onListen: (t: Trac
           {version ? ` · ${version}` : ''}
         </Text>
       </View>
+      <View style={styles.open}><Text style={styles.openText}>OPEN{`\n`}MUSIC ↗</Text></View>
     </Pressable>
   );
 }
@@ -53,9 +54,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: space.md,
-    paddingVertical: space.sm,
-    paddingHorizontal: space.sm,
-    borderRadius: 6,
+    padding: space.sm,
+    borderRadius: 8,
+    borderWidth: 2,
+    borderColor: colors.ink,
+    backgroundColor: colors.paper,
   },
   disc: {
     width: 40,
@@ -65,5 +68,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  discText: { color: colors.gold, fontSize: 14, marginLeft: 2 },
+  discLabel: { width: 13, height: 13, borderRadius: 7, backgroundColor: colors.yellow, borderWidth: 2, borderColor: colors.paper },
+  open: { minHeight: 48, minWidth: 64, backgroundColor: colors.yellow, borderWidth: 2, borderColor: colors.ink, borderRadius: 6, alignItems: 'center', justifyContent: 'center', paddingHorizontal: space.xs },
+  openText: { color: colors.ink, fontSize: 9, lineHeight: 11, fontWeight: '900', textAlign: 'center' },
 });

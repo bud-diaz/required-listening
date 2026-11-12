@@ -2,6 +2,7 @@ import catalogJson from './catalog.v1.json';
 import frontMatterJson from './front-matter.v1.json';
 import crateActivityJson from './crate-activity.v1.json';
 import chiefKeefJson from './artists/01-chief-keef.v1.json';
+import { remainingDraftUnits } from './artists/remaining-units.v1';
 import {
   Catalog,
   CrateActivity,
@@ -15,7 +16,7 @@ import {
 } from './schemas';
 
 /** Structured unit files. Add each newly converted unit here. */
-export const RAW_UNITS: unknown[] = [chiefKeefJson];
+export const RAW_UNITS: unknown[] = [chiefKeefJson, ...remainingDraftUnits];
 
 export const catalog = Catalog.parse(catalogJson);
 export const frontMatter = FrontMatter.parse(frontMatterJson);
@@ -76,8 +77,8 @@ export function passedDownFor(unit: Unit, lane: Lane): { track: Track; isSubstit
 }
 
 /** Every track in every converted unit, for crate pickers. */
-export function allTracks(lane: Lane): { unit: Unit; track: Track }[] {
-  return units.flatMap((unit) =>
+export function allTracks(lane: Lane, isDev: boolean): { unit: Unit; track: Track }[] {
+  return units.filter((unit) => isPublishable(unit.review, isDev)).flatMap((unit) =>
     unit.tracks.filter((t) => t.type !== 'video' && laneAllows(lane, t.minLane)).map((track) => ({ unit, track }))
   );
 }

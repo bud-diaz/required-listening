@@ -6,7 +6,8 @@ import type { Lane } from '../content/schemas';
 import { AVATARS, Settings } from '../domain/crate';
 import { PROVIDERS, PROVIDER_LABELS, type Provider } from '../lib/links';
 import { useFamilyStore } from '../stores/family-store';
-import { Body, Button, Card, Chip, Kicker, Rule, Screen } from '../ui/primitives';
+import { Body, Button, Card, Chip, Kicker, Screen } from '../ui/primitives';
+import { RoadDivider, SignPanel } from '../ui/signage';
 import { LANE_INFO } from '../ui/lanes';
 import { colors, space, TOUCH, type } from '../ui/theme';
 
@@ -37,11 +38,12 @@ export default function Welcome() {
   return (
     <Screen edges={['top', 'bottom']}>
       <View style={{ gap: space.sm, paddingTop: space.lg }}>
-        <Kicker>{catalog.subtitle}</Kicker>
-        <Text style={[type.display, { color: colors.ink }]}>{catalog.title}</Text>
+        <Kicker color={colors.ink}>The Sound Traffic System</Kicker>
+        <Text style={[type.display, { color: colors.ink }]}>Listening Required</Text>
+        <Text style={[type.kicker, { color: colors.ink }]}>{catalog.subtitle}</Text>
         <Body>Pass down the songs, then let them build their own crate.</Body>
       </View>
-      <Rule />
+      <RoadDivider />
 
       <View style={{ gap: space.sm }}>
         <Kicker color={colors.muted}>For grown-ups · 1 minute setup</Kicker>
@@ -87,15 +89,14 @@ export default function Welcome() {
         </View>
       </View>
 
-      <Card tone="gold">
-        <Kicker color={colors.goldDeep}>Content note</Kicker>
+      <SignPanel tone="yellow" title="Content note">
         <Text style={[type.small, { color: colors.ink }]}>
           This guide assumes adult discretion and encourages context over censorship. Some artists and songs deal with
           violence, trauma, substances and adult behavior. Labels and lanes help you choose, but no label promises a
           record is right for every kid. Preview first when you’re not sure.
         </Text>
         <Chip label={ack ? 'Got it ✓' : 'Got it'} selected={ack} onPress={() => setAck(!ack)} />
-      </Card>
+      </SignPanel>
 
       {error ? (
         <Text accessibilityRole="alert" style={[type.small, { color: colors.danger, fontWeight: '700' }]}>

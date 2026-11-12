@@ -21,6 +21,6 @@ export function Monogram({ text, size = 72, dim = false }: { text: string; size?
 
 const styles = StyleSheet.create({
   disc: { backgroundColor: colors.ink, alignItems: 'center', justifyContent: 'center' },
-  label: { backgroundColor: colors.gold, alignItems: 'center', justifyContent: 'center' },
+  label: { backgroundColor: colors.yellow, alignItems: 'center', justifyContent: 'center' },
   text: { color: colors.ink, fontWeight: '900' },
 });

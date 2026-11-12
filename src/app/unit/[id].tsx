@@ -8,6 +8,7 @@ import { ProviderSheet } from '../../components/ProviderSheet';
 import { TrackRow } from '../../components/TrackRow';
 import { useFamilyStore } from '../../stores/family-store';
 import { Body, Button, Card, CaregiverNote, DraftBanner, Kicker, Rule, Screen } from '../../ui/primitives';
+import { RoadDivider, RouteBadge, SignPanel } from '../../ui/signage';
 import { colors, space, TOUCH, type } from '../../ui/theme';
 
 const FLAG_LABELS: Record<ContentFlag, string> = {
@@ -46,18 +47,18 @@ export default function UnitScreen() {
       <Stack.Screen options={{ title: unit.displayName }} />
       {unit.review.status !== 'approved' ? <DraftBanner /> : null}
 
-      <View style={{ alignItems: 'center', gap: space.sm }}>
+      <View style={styles.hero}>
+        <RouteBadge unitNumber={unit.number} />
         <Monogram text={unit.monogram} size={112} />
-        <Kicker>Unit {unit.number}</Kicker>
         <Text style={[type.display, { color: colors.ink, textAlign: 'center' }]}>{unit.displayName}</Text>
-        <Text style={[type.small, { color: colors.muted }]}>
+        <Text style={[type.small, { color: colors.ink, fontWeight: '700' }]}>
           {lessons.length} lessons · about {unit.estimatedMinutesPerLesson} min each
         </Text>
       </View>
+      <RoadDivider />
 
       {passed ? (
-        <Card tone="ink">
-          <Kicker>Passed down track</Kicker>
+        <SignPanel tone="ink" title="Passed down track">
           <Text style={[type.h1, { color: colors.paper }]}>“{passed.track.title}”</Text>
           {passed.isSubstitute ? (
             <Text style={[type.small, { color: colors.goldSoft }]}>
@@ -66,13 +67,14 @@ export default function UnitScreen() {
             </Text>
           ) : null}
           <Text style={[type.body, { color: colors.paper }]}>{unit.passedDown.blurb}</Text>
-          <Button label="Listen" variant="secondary" onPress={() => setSheetTrack(passed.track)} />
-        </Card>
+          <Button label="Open music search ↗" variant="secondary" onPress={() => setSheetTrack(passed.track)} />
+        </SignPanel>
       ) : null}
 
       <View style={{ gap: space.sm }}>
-        <Kicker>Why {unit.displayName} still matters</Kicker>
-        <Body>{unit.whyItMatters}</Body>
+        <SignPanel title={`Why ${unit.displayName} still matters`}>
+          <Body>{unit.whyItMatters}</Body>
+        </SignPanel>
       </View>
 
       <View style={styles.flags} accessibilityLabel="Content labels">
@@ -106,7 +108,7 @@ export default function UnitScreen() {
 
       <View style={{ gap: space.xs }}>
         <Rule />
-        <Kicker>Lessons</Kicker>
+        <Kicker color={colors.ink}>Route checkpoints</Kicker>
         {lessons.map((l) => {
           const isDone = explored.includes(l.id);
           return (
@@ -117,10 +119,11 @@ export default function UnitScreen() {
               onPress={() => router.push(`/lesson/${unit.id}/${l.id}`)}
               style={({ pressed }) => [styles.lesson, pressed && { backgroundColor: colors.goldSoft }]}
             >
-              <Text style={[styles.num, isDone && { backgroundColor: colors.gold, color: colors.ink }]}>
-                {isDone ? '✓' : l.number}
-              </Text>
+              <View style={[styles.num, isDone && { backgroundColor: colors.yellow }]}>
+                <Text style={styles.numText}>{isDone ? '✓' : String(l.number).padStart(2, '0')}</Text>
+              </View>
               <View style={{ flex: 1 }}>
+                <Text style={[type.kicker, { color: colors.muted, fontSize: 10 }]}>CHECKPOINT {String(l.number).padStart(2, '0')}</Text>
                 <Text style={[type.body, { fontWeight: '700', color: colors.ink }]}>{l.title}</Text>
                 {l.requiresCaregiverContext ? (
                   <Text style={[type.small, { color: colors.goldDeep }]}>Grown-up context</Text>
@@ -149,6 +152,7 @@ export default function UnitScreen() {
 }
 
 const styles = StyleSheet.create({
+  hero: { alignItems: 'center', gap: space.sm },
   flags: { flexDirection: 'row', flexWrap: 'wrap', gap: space.xs },
   flag: {
     ...type.small,
@@ -159,16 +163,16 @@ const styles = StyleSheet.create({
     paddingHorizontal: space.sm,
     paddingVertical: 2,
   },
-  lesson: { flexDirection: 'row', alignItems: 'center', gap: space.md, minHeight: TOUCH + 8, paddingVertical: space.sm, borderRadius: 6 },
+  lesson: { flexDirection: 'row', alignItems: 'center', gap: space.md, minHeight: TOUCH + 8, padding: space.sm, borderRadius: 8, borderWidth: 2, borderColor: colors.ink, backgroundColor: colors.paper, marginBottom: space.sm },
   num: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    backgroundColor: colors.ink,
-    color: colors.paper,
-    textAlign: 'center',
-    lineHeight: 36,
-    fontWeight: '900',
-    overflow: 'hidden',
+    width: 44,
+    height: 44,
+    borderRadius: 7,
+    borderWidth: 2,
+    borderColor: colors.ink,
+    backgroundColor: colors.paper,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
+  numText: { color: colors.ink, fontWeight: '900' },
 });

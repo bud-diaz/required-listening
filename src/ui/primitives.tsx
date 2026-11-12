@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View, type StyleProp, type ViewStyle } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import type { BodyBlock } from '../content/schemas';
-import { colors, space, TOUCH, type } from './theme';
+import { colors, geometry, space, TOUCH, type } from './theme';
 
 export function Screen({ children, edges = ['bottom'] }: { children: ReactNode; edges?: ('top' | 'bottom')[] }) {
   return (
@@ -45,7 +45,7 @@ export function Button({ label, onPress, variant = 'primary', disabled, accessib
       accessibilityState={{ disabled }}
       disabled={disabled}
       onPress={onPress}
-      style={({ pressed }) => [styles.button, v.box, pressed && { opacity: 0.8 }, disabled && { opacity: 0.4 }, style]}
+      style={({ pressed }) => [styles.button, v.box, pressed && styles.buttonPressed, disabled && { opacity: 0.4 }, style]}
     >
       <Text style={[styles.buttonText, v.text]}>{label}</Text>
     </Pressable>
@@ -53,10 +53,10 @@ export function Button({ label, onPress, variant = 'primary', disabled, accessib
 }
 
 const buttonVariants = {
-  primary: { box: { backgroundColor: colors.ink }, text: { color: colors.paper } },
-  secondary: { box: { backgroundColor: colors.paper, borderWidth: 2, borderColor: colors.ink }, text: { color: colors.ink } },
-  ghost: { box: { backgroundColor: 'transparent' }, text: { color: colors.goldDeep } },
-  danger: { box: { backgroundColor: colors.paper, borderWidth: 2, borderColor: colors.danger }, text: { color: colors.danger } },
+  primary: { box: { backgroundColor: colors.ink, borderColor: colors.ink }, text: { color: colors.paper } },
+  secondary: { box: { backgroundColor: colors.paper, borderColor: colors.ink }, text: { color: colors.ink } },
+  ghost: { box: { backgroundColor: 'transparent', borderColor: 'transparent' }, text: { color: colors.ink } },
+  danger: { box: { backgroundColor: colors.paper, borderColor: colors.danger }, text: { color: colors.danger } },
 };
 
 export function Chip({
@@ -76,7 +76,7 @@ export function Chip({
       onPress={onPress}
       style={[styles.chip, selected && styles.chipOn]}
     >
-      <Text style={[styles.chipText, selected && { color: colors.paper }]}>{label}</Text>
+      <Text style={[styles.chipText, selected && { color: colors.ink }]}>{selected ? `✓ ${label}` : label}</Text>
     </Pressable>
   );
 }
@@ -133,31 +133,34 @@ export function Blocks({ blocks }: { blocks: BodyBlock[] }) {
 }
 
 const styles = StyleSheet.create({
-  safe: { flex: 1, backgroundColor: colors.cream },
+  safe: { flex: 1, backgroundColor: colors.yellow },
   scroll: { paddingHorizontal: space.md, paddingVertical: space.lg },
   column: { width: '100%', maxWidth: 640, alignSelf: 'center', gap: space.lg },
-  rule: { height: 1, backgroundColor: colors.rule },
+  rule: { height: 3, backgroundColor: colors.ink },
   button: {
-    minHeight: TOUCH,
+    minHeight: TOUCH + 4,
     paddingHorizontal: space.lg,
-    borderRadius: 4,
+    paddingVertical: space.sm,
+    borderRadius: geometry.radius,
+    borderWidth: geometry.borderHeavy,
     alignItems: 'center',
     justifyContent: 'center',
   },
   buttonText: { fontSize: 15, fontWeight: '800', letterSpacing: 1.2, textTransform: 'uppercase' },
+  buttonPressed: { opacity: 0.82, transform: [{ scale: 0.98 }] },
   chip: {
-    minHeight: 40,
+    minHeight: TOUCH,
     paddingHorizontal: space.md,
-    borderRadius: 20,
-    borderWidth: 1.5,
+    borderRadius: geometry.radius,
+    borderWidth: 2,
     borderColor: colors.ink,
     justifyContent: 'center',
     backgroundColor: colors.paper,
   },
-  chipOn: { backgroundColor: colors.ink },
+  chipOn: { backgroundColor: colors.yellow, borderWidth: 3 },
   chipText: { fontSize: 14, fontWeight: '700', color: colors.ink },
-  card: { padding: space.md, borderRadius: 6, borderWidth: 1, borderColor: colors.rule, gap: space.sm },
+  card: { padding: space.md, borderRadius: geometry.radius, borderWidth: 2, borderColor: colors.ink, gap: space.sm },
   draft: { backgroundColor: colors.draftBg, padding: space.sm, borderRadius: 4 },
-  note: { borderLeftWidth: 4, borderLeftColor: colors.gold, paddingLeft: space.md, paddingVertical: space.xs },
+  note: { backgroundColor: colors.paper, borderWidth: 2, borderColor: colors.ink, borderLeftWidth: 8, padding: space.md, borderRadius: geometry.radius },
   callout: { borderLeftWidth: 4, borderLeftColor: colors.ink, paddingLeft: space.md },
 });
