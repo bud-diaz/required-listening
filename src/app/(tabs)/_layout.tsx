@@ -12,6 +12,7 @@ const icon = (glyph: string) =>
 export default function TabsLayout() {
   const settings = useFamilyStore((s) => s.settings);
   if (!settings) return <Redirect href="/welcome" />;
+  if (!settings.fieldManualCompletedAt) return <Redirect href="/field-manual" />;
 
   return (
     <Tabs

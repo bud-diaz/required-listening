@@ -4,9 +4,9 @@ import { useFamilyStore } from '../src/stores/family-store';
 import {
   CrateEntryDraft,
   FinalProjectResponse,
+  Settings,
   crateShareText,
   isDuplicate,
-  type Settings,
 } from '../src/domain/crate';
 
 const settings: Settings = {
@@ -17,6 +17,11 @@ const settings: Settings = {
   onboardedAt: '2026-11-05T00:00:00.000Z',
 };
 
+const completedSettings: Settings = {
+  ...settings,
+  fieldManualCompletedAt: '2026-11-12T00:00:00.000Z',
+};
+
 const loveSosa = {
   title: 'Love Sosa',
   artist: 'Chief Keef',
@@ -25,6 +30,14 @@ const loveSosa = {
   why: ['move'],
   moment: 'car-ride',
 };
+
+describe('settings validation', () => {
+  it('keeps older onboarding records valid and accepts Field Manual completion', () => {
+    expect(Settings.safeParse(settings).success).toBe(true);
+    expect(Settings.safeParse(completedSettings).success).toBe(true);
+    expect(Settings.safeParse({ ...settings, fieldManualCompletedAt: 123 }).success).toBe(false);
+  });
+});
 
 describe('crate entry validation', () => {
   it('requires a title, an artist, a reason and a moment', () => {
@@ -75,7 +88,7 @@ describe('family store persistence', () => {
 
   it('keeps settings, crate, reflections and progress across a relaunch', async () => {
     const s = useFamilyStore.getState();
-    await s.saveSettings(settings);
+    await s.saveSettings(completedSettings);
     const added = await s.addToCrate(loveSosa);
     expect(added.ok).toBe(true);
     await s.saveReflection({ unitId: 'chief-keef', lessonId: 'ck-02-the-sound', feelings: ['hyped'], text: 'the bass slides' });
@@ -90,7 +103,7 @@ describe('family store persistence', () => {
 
     await relaunch();
     const after = useFamilyStore.getState();
-    expect(after.settings).toEqual(settings);
+    expect(after.settings).toEqual(completedSettings);
     expect(after.crate).toHaveLength(1);
     expect(after.crate[0]).toMatchObject({ title: 'Love Sosa', why: ['move'], moment: 'car-ride' });
     expect(after.reflections[0]).toMatchObject({ lessonId: 'ck-02-the-sound', text: 'the bass slides' });
@@ -155,6 +168,7 @@ describe('family store persistence', () => {
     expect(after.explored).toEqual(['ck-01-chicago']);
     expect(after.unitOverviewAcknowledgements).toEqual([]);
     expect(after.projectResponses).toEqual([]);
+    expect(after.settings?.fieldManualCompletedAt).toBeUndefined();
   });
 
   it('survives corrupted storage', async () => {

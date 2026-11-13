@@ -26,13 +26,20 @@ export default function Welcome() {
     setProviders((cur) => (cur.includes(p) ? cur.filter((x) => x !== p) : [...cur, p]));
 
   const onStart = async () => {
-    const parsed = Settings.safeParse({ nickname, avatar, lane, providers, onboardedAt: new Date().toISOString() });
+    const parsed = Settings.safeParse({
+      nickname,
+      avatar,
+      lane,
+      providers,
+      onboardedAt: existing?.onboardedAt ?? new Date().toISOString(),
+      fieldManualCompletedAt: existing?.fieldManualCompletedAt,
+    });
     if (!parsed.success) {
       setError(!nickname.trim() ? 'Add a nickname for your listener.' : 'Turn on at least one music service.');
       return;
     }
     await saveSettings(parsed.data);
-    router.replace('/');
+    router.replace(parsed.data.fieldManualCompletedAt ? '/' : '/field-manual');
   };
 
   return (

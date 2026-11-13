@@ -47,6 +47,9 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 - Setup for grown-ups (nickname, emoji avatar, listening lane, allowed music services, content note).
   Spotify and Apple Music remain the defaults; YouTube Music and regular YouTube are separate,
   optional providers.
+- Initial setup now flows into a persistent three-page Field Manual gate covering “Intro,” “A Note
+  on This Guide,” and “We're not archiving careers.” Existing installs see it once after updating,
+  completed families skip it thereafter, and protected routes prevent direct-link bypasses.
 - Home with a cross-unit route carousel and Family Replay; the card starts on the first unfinished
   artist and supports horizontal swipes plus accessible previous/next controls across all 10 artists.
 - All 10 unit hubs use a persistent three-step briefing gate: families explicitly check off the
@@ -66,7 +69,8 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 - My Crate (Build Your Own Crate steps 1–3, duplicate check, private share via share sheet). When a
   lesson supplies a song, the add form shows only that selection and a “Choose a different guide
   song” action instead of forcing the family to scroll through the full catalog.
-- About tab with the guide's front matter (no byline).
+- About tab with the guide's front matter (no byline); every Field Manual section is an accessible,
+  independently collapsible accordion that starts closed.
 - Grown-up settings: change lane/providers, export data, delete all.
 - Outbound links open a provider *search* after a confirmation sheet; hosts are exactly allow-listed.
   Every unverified track is labeled “Parent preview required,” and that warning repeats before every
@@ -110,22 +114,23 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 - Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
   existing plan default.
 
-**Checks (last run on current worktree after the gated unit briefing and Final Project, 2026-11-12)**
+**Checks (last run on current worktree after the Field Manual gate and accordions, 2026-11-12)**
 - `npm run lint`: pass
 - `npm run typecheck`: pass
-- `npm test` (Vitest): 152/152 pass.
+- `npm test` (Vitest): 153/153 pass.
 - `npx expo install --check`: pass; dependencies are up to date.
 - `npx expo-doctor@latest` (`expo-doctor@1.21.8`): 20/20 checks pass.
-- `npx expo export --platform web --output-dir /tmp/required-listening-gated-web-final2`: pass; 925
+- `npx expo export --platform web --output-dir /tmp/required-listening-field-manual-web`: pass; 926
   modules bundled.
-- `npx expo export --platform ios --output-dir /tmp/required-listening-gated-ios-final2`: pass;
-  generated a 3.5 MB Hermes iOS bundle from 1,302 modules.
+- `npx expo export --platform ios --output-dir /tmp/required-listening-field-manual-ios`: pass;
+  generated a 3.5 MB Hermes iOS bundle from 1,303 modules.
 - EAS iOS development build `26580b41-dc6d-452d-a184-72e680075f34`: pass; signed with the active
   ad hoc profile and installed successfully on "CJ's iPhone 2" over USB.
 - Headless Chromium mobile renders: onboarding and seeded Home at 390×844; Briefing + interactive
   placard at 390×844 and the 320×720 minimum target; new briefing gate at both target sizes; and the
-  Final Project workspace at 390×844. No horizontal overflow or clipped primary controls in the
-  reviewed captures.
+  Final Project workspace at 390×844. The post-onboarding Field Manual gate was reviewed at 390×844,
+  and the closed accordion list at both 390×844 and 320×720. No horizontal overflow or clipped
+  primary controls in the reviewed captures.
 - Programmatic contrast check: the intended body/heading pairings pass WCAG AA (ink on yellow 12.58,
   ink on orange 8.39, paper on blue 6.23, paper on green 5.51, paper on red 4.80).
 - Last real-device check remains 2026-11-05 (pre-redesign): onboarding, a lesson's Listen step, and
@@ -151,8 +156,8 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 **Complete accessibility QA and the remaining nonblocking metadata audit.**
 
 1. Run VoiceOver, Dynamic Type, provider hand-off (including separate YouTube and YouTube Music
-   choices), Home route swiping, the new briefing gate/Final Project flow, Talk keyboard clearance,
-   persistence, and destructive-data checks on the registered iPhone.
+   choices), Home route swiping, the Field Manual and unit briefing gates, Final Project flow, Talk
+   keyboard clearance, persistence, and destructive-data checks on the registered iPhone.
 2. Review remaining track spelling, search metadata, and safety lanes. Keep unverified tracks under
    the caregiver-preview policy; this audit no longer blocks approved units from publishing.
 3. Decide the byline (see Open decisions) whenever convenient — it doesn't block curriculum use.
@@ -163,6 +168,8 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-12: Added a persistent three-page Field Manual gate after onboarding with protected-route
+  enforcement, and converted every About section into an accessible closed-by-default accordion.
 - 2026-11-12: Added a persistent three-page unit briefing gate, strict locked-lesson redirects,
   lane-aware route completion actions, an optional saved Final Project workspace, and next-route
   navigation; aligned Expo's three required SDK 58 patch versions and expanded coverage to 152 tests.

@@ -11,6 +11,7 @@ export default function RootLayout() {
   const status = useFamilyStore((s) => s.status);
   const error = useFamilyStore((s) => s.error);
   const init = useFamilyStore((s) => s.init);
+  const settings = useFamilyStore((s) => s.settings);
 
   useEffect(() => {
     if (status === 'idle') void init(createRepository());
@@ -43,13 +44,21 @@ export default function RootLayout() {
           headerBackButtonDisplayMode: 'minimal',
         }}
       >
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="welcome" options={{ headerShown: false }} />
-        <Stack.Screen name="unit/[id]" options={{ title: '' }} />
-        <Stack.Screen name="lesson/[unitId]/[lessonId]" options={{ title: '', headerShown: false }} />
-        <Stack.Screen name="project/[unitId]" options={{ title: 'Final Project' }} />
-        <Stack.Screen name="crate/add" options={{ title: 'Add to My Crate', presentation: 'modal', headerStyle: { backgroundColor: colors.red }, headerTintColor: colors.paper }} />
-        <Stack.Screen name="settings" options={{ title: 'Grown-up settings' }} />
+        <Stack.Protected guard={!!settings && !settings.fieldManualCompletedAt} redirectTo={settings ? '/' : '/welcome'}>
+          <Stack.Screen name="field-manual" options={{ headerShown: false }} />
+        </Stack.Protected>
+        <Stack.Protected
+          guard={!!settings?.fieldManualCompletedAt}
+          redirectTo={settings ? '/field-manual' : '/welcome'}
+        >
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="unit/[id]" options={{ title: '' }} />
+          <Stack.Screen name="lesson/[unitId]/[lessonId]" options={{ title: '', headerShown: false }} />
+          <Stack.Screen name="project/[unitId]" options={{ title: 'Final Project' }} />
+          <Stack.Screen name="crate/add" options={{ title: 'Add to My Crate', presentation: 'modal', headerStyle: { backgroundColor: colors.red }, headerTintColor: colors.paper }} />
+          <Stack.Screen name="settings" options={{ title: 'Grown-up settings' }} />
+        </Stack.Protected>
       </Stack>
     </SafeAreaProvider>
   );

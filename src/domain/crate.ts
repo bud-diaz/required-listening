@@ -58,6 +58,8 @@ export const Settings = z.object({
   lane: Lane,
   providers: z.array(z.enum(PROVIDERS)).min(1),
   onboardedAt: z.string(),
+  /** Set after the family finishes the one-time, three-page Field Manual gate. */
+  fieldManualCompletedAt: z.string().optional(),
 });
 export type Settings = z.infer<typeof Settings>;
 

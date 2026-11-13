@@ -1,10 +1,13 @@
-import { Text, View } from 'react-native';
+import { useState } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { catalog, frontMatter } from '../../content';
 import { Blocks, DraftBanner, Kicker, Screen } from '../../ui/primitives';
 import { RoadDivider, SignPanel } from '../../ui/signage';
 import { colors, space, type } from '../../ui/theme';
 
 export default function About() {
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
+
   return (
     <Screen>
       {frontMatter.review.status !== 'approved' ? <DraftBanner /> : null}
@@ -15,12 +18,38 @@ export default function About() {
         {catalog.byline ? <Text style={[type.kicker, { color: colors.muted }]}>{catalog.byline}</Text> : null}
       </View>
       <RoadDivider />
-      {frontMatter.sections.map((s) => (
-        <SignPanel key={s.id}>
-          <Text style={[type.h1, { color: colors.ink, fontSize: 22 }]}>{s.heading}</Text>
-          <Blocks blocks={s.blocks} />
-        </SignPanel>
-      ))}
+      {frontMatter.sections.map((section) => {
+        const isExpanded = !!expanded[section.id];
+        return (
+          <SignPanel key={section.id}>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel={section.heading}
+              accessibilityHint={isExpanded ? 'Collapses this Field Manual section' : 'Expands this Field Manual section'}
+              accessibilityState={{ expanded: isExpanded }}
+              onPress={() => setExpanded((current) => ({ ...current, [section.id]: !isExpanded }))}
+              style={({ pressed }) => [styles.accordionHeader, pressed && styles.pressed]}
+            >
+              <Text style={[type.h1, styles.heading]}>{section.heading}</Text>
+              <Text aria-hidden style={styles.symbol}>{isExpanded ? '−' : '+'}</Text>
+            </Pressable>
+            {isExpanded ? <Blocks blocks={section.blocks} /> : null}
+          </SignPanel>
+        );
+      })}
     </Screen>
   );
 }
+
+const styles = StyleSheet.create({
+  accordionHeader: {
+    minHeight: 48,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: space.md,
+  },
+  heading: { flex: 1, color: colors.ink, fontSize: 22 },
+  symbol: { color: colors.ink, fontSize: 32, lineHeight: 32, fontWeight: '700' },
+  pressed: { opacity: 0.7 },
+});
