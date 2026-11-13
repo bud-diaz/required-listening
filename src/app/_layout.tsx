@@ -47,6 +47,7 @@ export default function RootLayout() {
         <Stack.Screen name="welcome" options={{ headerShown: false }} />
         <Stack.Screen name="unit/[id]" options={{ title: '' }} />
         <Stack.Screen name="lesson/[unitId]/[lessonId]" options={{ title: '', headerShown: false }} />
+        <Stack.Screen name="project/[unitId]" options={{ title: 'Final Project' }} />
         <Stack.Screen name="crate/add" options={{ title: 'Add to My Crate', presentation: 'modal', headerStyle: { backgroundColor: colors.red }, headerTintColor: colors.paper }} />
         <Stack.Screen name="settings" options={{ title: 'Grown-up settings' }} />
       </Stack>

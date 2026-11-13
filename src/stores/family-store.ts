@@ -1,13 +1,18 @@
 import { create } from 'zustand';
 import {
   createCrateEntry,
+  FinalProjectResponse,
   isDuplicate,
   newId,
+  UnitOverviewAcknowledgement,
   type CrateEntry,
   type CrateEntryDraft,
   type FamilyExport,
+  type FinalProjectResponse as FinalProjectResponseType,
   type Reflection,
   type Settings,
+  type UnitOverviewAcknowledgement as UnitOverviewAcknowledgementType,
+  type UnitOverviewSection,
 } from '../domain/crate';
 import type { FamilyRepository } from '../data/FamilyRepository';
 
@@ -20,6 +25,8 @@ export interface FamilyState {
   crate: CrateEntry[];
   reflections: Reflection[];
   explored: string[];
+  unitOverviewAcknowledgements: UnitOverviewAcknowledgementType[];
+  projectResponses: FinalProjectResponseType[];
 
   init(repo: FamilyRepository): Promise<void>;
   saveSettings(settings: Settings): Promise<void>;
@@ -27,6 +34,8 @@ export interface FamilyState {
   removeFromCrate(id: string): Promise<void>;
   saveReflection(input: Omit<Reflection, 'id' | 'createdAt'>): Promise<Reflection>;
   setExplored(lessonId: string, explored: boolean): Promise<void>;
+  acknowledgeUnitOverview(unitId: string, section: UnitOverviewSection): Promise<UnitOverviewAcknowledgementType>;
+  saveFinalProjectResponse(input: Omit<FinalProjectResponseType, 'updatedAt'>): Promise<FinalProjectResponseType>;
   exportAll(): Promise<FamilyExport>;
   deleteAll(): Promise<void>;
 }
@@ -47,18 +56,22 @@ export const useFamilyStore = create<FamilyState>()((set, get) => ({
   crate: [],
   reflections: [],
   explored: [],
+  unitOverviewAcknowledgements: [],
+  projectResponses: [],
 
   async init(r) {
     repo = r;
     set({ status: 'loading', error: undefined });
     try {
-      const [settings, crate, reflections, explored] = await Promise.all([
+      const [settings, crate, reflections, explored, unitOverviewAcknowledgements, projectResponses] = await Promise.all([
         r.getSettings(),
         r.listCrate(),
         r.listReflections(),
         r.listExplored(),
+        r.listUnitOverviewAcknowledgements(),
+        r.listFinalProjectResponses(),
       ]);
-      set({ status: 'ready', settings, crate, reflections, explored });
+      set({ status: 'ready', settings, crate, reflections, explored, unitOverviewAcknowledgements, projectResponses });
     } catch (e) {
       set({ status: 'error', error: e instanceof Error ? e.message : String(e) });
     }
@@ -95,12 +108,40 @@ export const useFamilyStore = create<FamilyState>()((set, get) => ({
     set({ explored: explored ? [...rest, lessonId] : rest });
   },
 
+  async acknowledgeUnitOverview(unitId, section) {
+    const acknowledgement = UnitOverviewAcknowledgement.parse({
+      unitId,
+      section,
+      acknowledgedAt: new Date().toISOString(),
+    });
+    await requireRepo().addUnitOverviewAcknowledgement(acknowledgement);
+    const rest = get().unitOverviewAcknowledgements.filter(
+      (item) => item.unitId !== unitId || item.section !== section
+    );
+    set({ unitOverviewAcknowledgements: [...rest, acknowledgement] });
+    return acknowledgement;
+  },
+
+  async saveFinalProjectResponse(input) {
+    const response = FinalProjectResponse.parse({ ...input, updatedAt: new Date().toISOString() });
+    await requireRepo().saveFinalProjectResponse(response);
+    set({ projectResponses: [...get().projectResponses.filter((item) => item.unitId !== input.unitId), response] });
+    return response;
+  },
+
   exportAll() {
     return requireRepo().exportAll();
   },
 
   async deleteAll() {
     await requireRepo().deleteAll();
-    set({ settings: null, crate: [], reflections: [], explored: [] });
+    set({
+      settings: null,
+      crate: [],
+      reflections: [],
+      explored: [],
+      unitOverviewAcknowledgements: [],
+      projectResponses: [],
+    });
   },
 }));

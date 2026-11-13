@@ -1,9 +1,23 @@
-import type { CrateEntry, FamilyExport, Reflection, Settings } from '../domain/crate';
+import type {
+  CrateEntry,
+  FamilyExport,
+  FinalProjectResponse,
+  Reflection,
+  Settings,
+  UnitOverviewAcknowledgement,
+} from '../domain/crate';
 import type { FamilyRepository } from './FamilyRepository';
 
 type Snapshot = Omit<FamilyExport, 'exportedAt'>;
 
-const empty = (): Snapshot => ({ settings: null, crate: [], reflections: [], explored: [] });
+const empty = (): Snapshot => ({
+  settings: null,
+  crate: [],
+  reflections: [],
+  explored: [],
+  unitOverviewAcknowledgements: [],
+  projectResponses: [],
+});
 
 export interface SnapshotStorage {
   read(): string | null;
@@ -115,6 +129,31 @@ export class SnapshotRepository implements FamilyRepository {
       const rest = s.explored.filter((id) => id !== lessonId);
       return { ...s, explored: explored ? [...rest, lessonId] : rest };
     });
+  }
+
+  async listUnitOverviewAcknowledgements(): Promise<UnitOverviewAcknowledgement[]> {
+    return this.load().unitOverviewAcknowledgements;
+  }
+  async addUnitOverviewAcknowledgement(acknowledgement: UnitOverviewAcknowledgement): Promise<void> {
+    this.update((s) => ({
+      ...s,
+      unitOverviewAcknowledgements: [
+        ...s.unitOverviewAcknowledgements.filter(
+          (item) => item.unitId !== acknowledgement.unitId || item.section !== acknowledgement.section
+        ),
+        acknowledgement,
+      ],
+    }));
+  }
+
+  async listFinalProjectResponses(): Promise<FinalProjectResponse[]> {
+    return this.load().projectResponses;
+  }
+  async saveFinalProjectResponse(response: FinalProjectResponse): Promise<void> {
+    this.update((s) => ({
+      ...s,
+      projectResponses: [...s.projectResponses.filter((item) => item.unitId !== response.unitId), response],
+    }));
   }
 
   async exportAll(): Promise<FamilyExport> {

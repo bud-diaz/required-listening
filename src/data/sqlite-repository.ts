@@ -1,5 +1,12 @@
 import type { SQLiteDatabase } from 'expo-sqlite';
-import { CrateEntry, Reflection, Settings, type FamilyExport } from '../domain/crate';
+import {
+  CrateEntry,
+  FinalProjectResponse,
+  Reflection,
+  Settings,
+  UnitOverviewAcknowledgement,
+  type FamilyExport,
+} from '../domain/crate';
 import type { FamilyRepository } from './FamilyRepository';
 
 const SCHEMA = `
@@ -17,6 +24,18 @@ CREATE TABLE IF NOT EXISTS reflections (
   json TEXT NOT NULL
 );
 CREATE TABLE IF NOT EXISTS explored (lesson_id TEXT PRIMARY KEY NOT NULL, explored_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS unit_overview_acknowledgements (
+  unit_id TEXT NOT NULL,
+  section_id TEXT NOT NULL,
+  acknowledged_at TEXT NOT NULL,
+  json TEXT NOT NULL,
+  PRIMARY KEY (unit_id, section_id)
+);
+CREATE TABLE IF NOT EXISTS project_responses (
+  unit_id TEXT PRIMARY KEY NOT NULL,
+  updated_at TEXT NOT NULL,
+  json TEXT NOT NULL
+);
 `;
 
 type JsonRow = { json: string };
@@ -110,21 +129,68 @@ export class SQLiteFamilyRepository implements FamilyRepository {
     }
   }
 
+  async listUnitOverviewAcknowledgements(): Promise<UnitOverviewAcknowledgement[]> {
+    await this.ready;
+    const rows = await this.db.getAllAsync<JsonRow>(
+      'SELECT json FROM unit_overview_acknowledgements ORDER BY acknowledged_at'
+    );
+    return rows.map((row) => UnitOverviewAcknowledgement.parse(JSON.parse(row.json)));
+  }
+
+  async addUnitOverviewAcknowledgement(acknowledgement: UnitOverviewAcknowledgement): Promise<void> {
+    await this.ready;
+    const valid = UnitOverviewAcknowledgement.parse(acknowledgement);
+    await this.db.runAsync(
+      'INSERT OR REPLACE INTO unit_overview_acknowledgements (unit_id, section_id, acknowledged_at, json) VALUES (?, ?, ?, ?)',
+      valid.unitId,
+      valid.section,
+      valid.acknowledgedAt,
+      JSON.stringify(valid)
+    );
+  }
+
+  async listFinalProjectResponses(): Promise<FinalProjectResponse[]> {
+    await this.ready;
+    const rows = await this.db.getAllAsync<JsonRow>('SELECT json FROM project_responses ORDER BY updated_at');
+    return rows.map((row) => FinalProjectResponse.parse(JSON.parse(row.json)));
+  }
+
+  async saveFinalProjectResponse(response: FinalProjectResponse): Promise<void> {
+    await this.ready;
+    const valid = FinalProjectResponse.parse(response);
+    await this.db.runAsync(
+      'INSERT OR REPLACE INTO project_responses (unit_id, updated_at, json) VALUES (?, ?, ?)',
+      valid.unitId,
+      valid.updatedAt,
+      JSON.stringify(valid)
+    );
+  }
+
   async exportAll(): Promise<FamilyExport> {
-    const [settings, crate, reflections, explored] = await Promise.all([
+    const [settings, crate, reflections, explored, unitOverviewAcknowledgements, projectResponses] = await Promise.all([
       this.getSettings(),
       this.listCrate(),
       this.listReflections(),
       this.listExplored(),
+      this.listUnitOverviewAcknowledgements(),
+      this.listFinalProjectResponses(),
     ]);
-    return { exportedAt: new Date().toISOString(), settings, crate, reflections, explored };
+    return {
+      exportedAt: new Date().toISOString(),
+      settings,
+      crate,
+      reflections,
+      explored,
+      unitOverviewAcknowledgements,
+      projectResponses,
+    };
   }
 
   async deleteAll(): Promise<void> {
     await this.ready;
     await this.db.withTransactionAsync(async () => {
       await this.db.execAsync(
-        'DELETE FROM settings; DELETE FROM crate_entries; DELETE FROM reflections; DELETE FROM explored;'
+        'DELETE FROM settings; DELETE FROM crate_entries; DELETE FROM reflections; DELETE FROM explored; DELETE FROM unit_overview_acknowledgements; DELETE FROM project_responses;'
       );
     });
   }

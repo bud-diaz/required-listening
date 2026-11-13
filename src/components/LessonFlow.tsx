@@ -2,8 +2,9 @@ import { useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
 import type { Lane, Lesson, Track, Unit } from '../content/schemas';
-import { getNextLesson, visibleTracks } from '../content';
+import { getNextLesson, getNextUnit, visibleTracks } from '../content';
 import { FEELINGS } from '../domain/crate';
+import { isRouteComplete } from '../domain/progress';
 import { useFamilyStore } from '../stores/family-store';
 import { Blocks, Body, Button, Chip, DraftBanner, Kicker } from '../ui/primitives';
 import {
@@ -52,13 +53,16 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
   const [noticed, setNoticed] = useState(false);
 
   const saveReflection = useFamilyStore((s) => s.saveReflection);
-  const explored = useFamilyStore((s) => s.explored.includes(lesson.id));
+  const exploredLessons = useFamilyStore((s) => s.explored);
+  const explored = exploredLessons.includes(lesson.id);
   const setExplored = useFamilyStore((s) => s.setExplored);
 
   const tracks = visibleTracks(unit, lesson.listen, lane);
   const eligibleTracks = tracks.filter((track) => track.type === 'song' || track.type === 'instrumental');
   const hiddenCount = lesson.listen.length - tracks.length;
   const nextLesson = getNextLesson(unit, lesson.id, lane);
+  const nextUnit = getNextUnit(unit.id, __DEV__);
+  const routeComplete = isRouteComplete(unit, lane, exploredLessons);
   const index = stageToIndex[step];
   const stage = stepStage(step);
 
@@ -240,6 +244,21 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
                 params: { unitId: unit.id, lessonId: nextLesson.id },
               })}
             />
+          ) : null}
+          {explored && !nextLesson && routeComplete ? (
+            <SignPanel title="Route explored ✓">
+              <Body>The Final Project is optional. Choose it now, continue to the next route, or come back later.</Body>
+              <SignButton
+                label="Start optional Final Project →"
+                variant="ink"
+                onPress={() => router.push(`/project/${unit.id}`)}
+              />
+              <SignButton
+                label={nextUnit ? `Next Route: ${nextUnit.displayName} →` : 'Return to Route Directory →'}
+                variant="yellow"
+                onPress={() => nextUnit ? router.push(`/unit/${nextUnit.id}`) : router.push('/units')}
+              />
+            </SignPanel>
           ) : null}
           {nav}
         </>

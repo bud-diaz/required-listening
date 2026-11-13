@@ -1,7 +1,13 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 import { SnapshotRepository, memoryStorage, type SnapshotStorage } from '../src/data/snapshot-repository';
 import { useFamilyStore } from '../src/stores/family-store';
-import { CrateEntryDraft, crateShareText, isDuplicate, type Settings } from '../src/domain/crate';
+import {
+  CrateEntryDraft,
+  FinalProjectResponse,
+  crateShareText,
+  isDuplicate,
+  type Settings,
+} from '../src/domain/crate';
 
 const settings: Settings = {
   nickname: 'Lil Listener',
@@ -63,6 +69,8 @@ describe('family store persistence', () => {
     expect(s.status).toBe('ready');
     expect(s.settings).toBeNull();
     expect(s.crate).toEqual([]);
+    expect(s.unitOverviewAcknowledgements).toEqual([]);
+    expect(s.projectResponses).toEqual([]);
   });
 
   it('keeps settings, crate, reflections and progress across a relaunch', async () => {
@@ -72,6 +80,13 @@ describe('family store persistence', () => {
     expect(added.ok).toBe(true);
     await s.saveReflection({ unitId: 'chief-keef', lessonId: 'ck-02-the-sound', feelings: ['hyped'], text: 'the bass slides' });
     await s.setExplored('ck-02-the-sound', true);
+    await s.acknowledgeUnitOverview('chief-keef', 'why');
+    await s.saveFinalProjectResponse({
+      unitId: 'chief-keef',
+      text: 'The sound changed while the influence kept moving.',
+      earlyTrackIds: ['love-sosa'],
+      laterTrackIds: ['kobe'],
+    });
 
     await relaunch();
     const after = useFamilyStore.getState();
@@ -80,6 +95,13 @@ describe('family store persistence', () => {
     expect(after.crate[0]).toMatchObject({ title: 'Love Sosa', why: ['move'], moment: 'car-ride' });
     expect(after.reflections[0]).toMatchObject({ lessonId: 'ck-02-the-sound', text: 'the bass slides' });
     expect(after.explored).toEqual(['ck-02-the-sound']);
+    expect(after.unitOverviewAcknowledgements).toMatchObject([{ unitId: 'chief-keef', section: 'why' }]);
+    expect(after.projectResponses).toMatchObject([{
+      unitId: 'chief-keef',
+      text: 'The sound changed while the influence kept moving.',
+      earlyTrackIds: ['love-sosa'],
+      laterTrackIds: ['kobe'],
+    }]);
   });
 
   it('refuses a duplicate crate entry', async () => {
@@ -104,15 +126,35 @@ describe('family store persistence', () => {
     const s = useFamilyStore.getState();
     await s.saveSettings(settings);
     await s.addToCrate(loveSosa);
+    await s.acknowledgeUnitOverview('chief-keef', 'why');
+    await s.saveFinalProjectResponse({
+      unitId: 'chief-keef',
+      text: 'A private project response.',
+      earlyTrackIds: [],
+      laterTrackIds: [],
+    });
     const exported = await s.exportAll();
     expect(exported.settings?.nickname).toBe('Lil Listener');
     expect(exported.crate).toHaveLength(1);
+    expect(exported.unitOverviewAcknowledgements).toHaveLength(1);
+    expect(exported.projectResponses).toHaveLength(1);
 
     await s.deleteAll();
     await relaunch();
     const after = useFamilyStore.getState();
     expect(after.settings).toBeNull();
     expect(after.crate).toEqual([]);
+    expect(after.unitOverviewAcknowledgements).toEqual([]);
+    expect(after.projectResponses).toEqual([]);
+  });
+
+  it('loads older snapshots without briefing or project fields', async () => {
+    storage.write(JSON.stringify({ settings, crate: [], reflections: [], explored: ['ck-01-chicago'] }));
+    await relaunch();
+    const after = useFamilyStore.getState();
+    expect(after.explored).toEqual(['ck-01-chicago']);
+    expect(after.unitOverviewAcknowledgements).toEqual([]);
+    expect(after.projectResponses).toEqual([]);
   });
 
   it('survives corrupted storage', async () => {
@@ -120,5 +162,19 @@ describe('family store persistence', () => {
     await relaunch();
     expect(useFamilyStore.getState().status).toBe('ready');
     expect(useFamilyStore.getState().crate).toEqual([]);
+  });
+});
+
+describe('Final Project validation', () => {
+  it('requires a response and limits it to 3000 characters', () => {
+    const base = {
+      unitId: 'chief-keef',
+      earlyTrackIds: [],
+      laterTrackIds: [],
+      updatedAt: '2026-11-12T00:00:00.000Z',
+    };
+    expect(FinalProjectResponse.safeParse({ ...base, text: '  ' }).success).toBe(false);
+    expect(FinalProjectResponse.safeParse({ ...base, text: 'x'.repeat(3001) }).success).toBe(false);
+    expect(FinalProjectResponse.safeParse({ ...base, text: 'Our family response' }).success).toBe(true);
   });
 });

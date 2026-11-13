@@ -45,6 +45,13 @@ export function getUnit(id: string, isDev: boolean): Unit | undefined {
   return unit && isPublishable(unit.review, isDev) ? unit : undefined;
 }
 
+/** The next publishable unit in route order. */
+export function getNextUnit(unitId: string, isDev: boolean): Unit | undefined {
+  const currentIndex = units.findIndex((unit) => unit.id === unitId);
+  if (currentIndex < 0) return undefined;
+  return units.slice(currentIndex + 1).find((unit) => isPublishable(unit.review, isDev));
+}
+
 export function getTrack(unit: Unit, trackId: string): Track | undefined {
   return unit.tracks.find((t) => t.id === trackId);
 }

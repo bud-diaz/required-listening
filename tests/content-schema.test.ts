@@ -8,6 +8,7 @@ import {
   frontMatter,
   getLesson,
   getNextLesson,
+  getNextUnit,
   isPublishable,
   laneAllows,
   passedDownFor,
@@ -16,6 +17,11 @@ import {
 } from '../src/content';
 import { PROVIDERS, buildSearchUrl, isAllowedUrl, searchQueryFor } from '../src/lib/links';
 import { Settings } from '../src/domain/crate';
+import {
+  firstIncompleteUnitOverviewSection,
+  isRouteComplete,
+  isUnitOverviewComplete,
+} from '../src/domain/progress';
 
 describe('content contract', () => {
   it('parses every content file', () => {
@@ -195,6 +201,33 @@ describe('listening lanes', () => {
   it('substitutes a Younger Listener pick for an explicit passed-down track', () => {
     expect(passedDownFor(ck, 'guided')).toMatchObject({ isSubstitute: false, track: { id: 'love-sosa' } });
     expect(passedDownFor(ck, 'younger')).toMatchObject({ isSubstitute: true, track: { id: 'love-sosa-instrumental' } });
+  });
+});
+
+describe('unit progression', () => {
+  const chiefKeef = units.find((unit) => unit.id === 'chief-keef')!;
+
+  it('requires all three persistent overview acknowledgements', () => {
+    const first = { unitId: 'chief-keef', section: 'why' as const, acknowledgedAt: '2026-11-12' };
+    const second = { unitId: 'chief-keef', section: 'music' as const, acknowledgedAt: '2026-11-12' };
+    const third = { unitId: 'chief-keef', section: 'briefing' as const, acknowledgedAt: '2026-11-12' };
+    expect(firstIncompleteUnitOverviewSection([], chiefKeef.id)).toBe('why');
+    expect(firstIncompleteUnitOverviewSection([first], chiefKeef.id)).toBe('music');
+    expect(isUnitOverviewComplete([first, second], chiefKeef.id)).toBe(false);
+    expect(isUnitOverviewComplete([first, second, third], chiefKeef.id)).toBe(true);
+  });
+
+  it('completes a route only when every checkpoint visible on the lane is explored', () => {
+    const guidedIds = visibleLessons(chiefKeef, 'guided').map((lesson) => lesson.id);
+    expect(isRouteComplete(chiefKeef, 'guided', guidedIds.slice(0, -1))).toBe(false);
+    expect(isRouteComplete(chiefKeef, 'guided', guidedIds)).toBe(true);
+    expect(isRouteComplete(chiefKeef, 'full', guidedIds)).toBe(false);
+  });
+
+  it('finds the next publishable route and stops after Beyoncé', () => {
+    expect(getNextUnit('chief-keef', false)?.id).toBe('rihanna');
+    expect(getNextUnit('beyonce', false)).toBeUndefined();
+    expect(getNextUnit('missing', false)).toBeUndefined();
   });
 });
 

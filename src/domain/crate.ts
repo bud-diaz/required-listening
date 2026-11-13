@@ -31,6 +31,27 @@ export const Reflection = z.object({
 });
 export type Reflection = z.infer<typeof Reflection>;
 
+export const UNIT_OVERVIEW_SECTIONS = ['why', 'music', 'briefing'] as const;
+export const UnitOverviewSection = z.enum(UNIT_OVERVIEW_SECTIONS);
+export type UnitOverviewSection = z.infer<typeof UnitOverviewSection>;
+
+export const UnitOverviewAcknowledgement = z.object({
+  unitId: z.string().min(1),
+  section: UnitOverviewSection,
+  acknowledgedAt: z.string(),
+});
+export type UnitOverviewAcknowledgement = z.infer<typeof UnitOverviewAcknowledgement>;
+
+/** One private, editable Final Project response per unit. */
+export const FinalProjectResponse = z.object({
+  unitId: z.string().min(1),
+  text: z.string().trim().min(1).max(3000),
+  earlyTrackIds: z.array(z.string()),
+  laterTrackIds: z.array(z.string()),
+  updatedAt: z.string(),
+});
+export type FinalProjectResponse = z.infer<typeof FinalProjectResponse>;
+
 export const Settings = z.object({
   nickname: z.string().trim().min(1).max(24),
   avatar: z.string().min(1),
@@ -46,6 +67,8 @@ export const FamilyExport = z.object({
   crate: z.array(CrateEntry),
   reflections: z.array(Reflection),
   explored: z.array(z.string()),
+  unitOverviewAcknowledgements: z.array(UnitOverviewAcknowledgement),
+  projectResponses: z.array(FinalProjectResponse),
 });
 export type FamilyExport = z.infer<typeof FamilyExport>;
 

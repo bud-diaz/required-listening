@@ -47,15 +47,22 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 - Setup for grown-ups (nickname, emoji avatar, listening lane, allowed music services, content note).
   Spotify and Apple Music remain the defaults; YouTube Music and regular YouTube are separate,
   optional providers.
-- Home with a cross-unit "continue" card and Family Replay; all 10 artists are available in
-  development and production builds.
-- All 10 unit hubs include a passed-down track, why it matters, content labels, Younger Listener
-  picks, overview, learning outcomes, 10 lessons, and final project text.
+- Home with a cross-unit route carousel and Family Replay; the card starts on the first unfinished
+  artist and supports horizontal swipes plus accessible previous/next controls across all 10 artists.
+- All 10 unit hubs use a persistent three-step briefing gate: families explicitly check off the
+  artist/why page, passed-down track + Younger Listener picks, and unit briefing before checkpoints
+  unlock. Locked lesson deep links return to the briefing; unlocked hubs retain review links to all
+  three sections.
 - Lesson flow: Read → Listen → Notice → Talk (feelings + saved thought) → Crate (add song, mark
   explored), with one persistent five-step navigation strip; the duplicate compact stage strip was
   removed after on-device review, and the remaining strip uses a consistent black outer border.
   After a lesson is marked explored, its Crate stage offers a next-lesson button unless it is the
-  last lesson visible on the family's current lane.
+  last lesson visible on the family's current lane. Completing every lane-visible lesson reveals
+  both the optional Final Project and the next-route action; the final route returns to the Artist
+  Directory instead.
+- Each route now has an optional Final Project workspace with one private saved response (up to
+  3,000 characters), optional multi-select early/later track picks, and a next-route action. The
+  workspace remains available only while the route is complete for the family's current lane.
 - My Crate (Build Your Own Crate steps 1–3, duplicate check, private share via share sheet). When a
   lesson supplies a song, the add form shows only that selection and a “Choose a different guide
   song” action instead of forcing the family to scroll through the full catalog.
@@ -64,7 +71,9 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 - Outbound links open a provider *search* after a confirmation sheet; hosts are exactly allow-listed.
   Every unverified track is labeled “Parent preview required,” and that warning repeats before every
   search because results can change. No verification choice is stored and no audio is hosted.
-- Storage: Expo SQLite on iOS/Android; browser storage on the web preview.
+- Storage: Expo SQLite on iOS/Android; browser storage on the web preview. Unit briefing
+  acknowledgements and Final Project responses persist, export, survive older snapshots, and clear
+  with Delete All.
 - EAS project `29bd2171-ae38-4f5e-b974-cb451d0339ab` is linked to the `bud-diaz` account. `eas.json`
   defines an internal-distribution iOS development-client profile.
 - ESLint is configured (`eslint.config.js`); JSX copy and schema type/value declarations lint cleanly.
@@ -101,21 +110,22 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 - Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
   existing plan default.
 
-**Checks (last run on current worktree after YouTube/caregiver-preview implementation, 2026-11-12)**
+**Checks (last run on current worktree after the gated unit briefing and Final Project, 2026-11-12)**
 - `npm run lint`: pass
 - `npm run typecheck`: pass
-- `npm test` (Vitest): 147/147 pass.
+- `npm test` (Vitest): 152/152 pass.
 - `npx expo install --check`: pass; dependencies are up to date.
 - `npx expo-doctor@latest` (`expo-doctor@1.21.8`): 20/20 checks pass.
-- `npx expo export --platform web --output-dir /tmp/required-listening-youtube-web`: pass; 923
+- `npx expo export --platform web --output-dir /tmp/required-listening-gated-web-final2`: pass; 925
   modules bundled.
-- `npx expo export --platform ios --output-dir /tmp/required-listening-youtube-ios`: pass; generated
-  a 3.4 MB Hermes iOS bundle from 1,300 modules.
+- `npx expo export --platform ios --output-dir /tmp/required-listening-gated-ios-final2`: pass;
+  generated a 3.5 MB Hermes iOS bundle from 1,302 modules.
 - EAS iOS development build `26580b41-dc6d-452d-a184-72e680075f34`: pass; signed with the active
   ad hoc profile and installed successfully on "CJ's iPhone 2" over USB.
 - Headless Chromium mobile renders: onboarding and seeded Home at 390×844; Briefing + interactive
-  placard at 390×844 and the 320×720 minimum target. No horizontal overflow or clipped primary
-  controls in the reviewed captures.
+  placard at 390×844 and the 320×720 minimum target; new briefing gate at both target sizes; and the
+  Final Project workspace at 390×844. No horizontal overflow or clipped primary controls in the
+  reviewed captures.
 - Programmatic contrast check: the intended body/heading pairings pass WCAG AA (ink on yellow 12.58,
   ink on orange 8.39, paper on blue 6.23, paper on green 5.51, paper on red 4.80).
 - Last real-device check remains 2026-11-05 (pre-redesign): onboarding, a lesson's Listen step, and
@@ -131,7 +141,7 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 - The concept-only listening focus wheel and conversation-route choices are intentionally omitted;
   the content schema has no approved options for them. Notice uses the allowed unsaved “I noticed
   something” acknowledgement instead of fabricated answers.
-- No caregiver PIN, Final Project workspace, voice notes or annual crate snapshot yet (Phase 2).
+- No caregiver PIN, voice notes or annual crate snapshot yet (Phase 2).
 - No Maestro E2E flow yet; the web walkthrough script is not committed.
 
 ---
@@ -141,8 +151,8 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 **Complete accessibility QA and the remaining nonblocking metadata audit.**
 
 1. Run VoiceOver, Dynamic Type, provider hand-off (including separate YouTube and YouTube Music
-   choices), Talk keyboard clearance, crate persistence, and
-   destructive-data checks on the registered iPhone.
+   choices), Home route swiping, the new briefing gate/Final Project flow, Talk keyboard clearance,
+   persistence, and destructive-data checks on the registered iPhone.
 2. Review remaining track spelling, search metadata, and safety lanes. Keep unverified tracks under
    the caregiver-preview policy; this audit no longer blocks approved units from publishing.
 3. Decide the byline (see Open decisions) whenever convenient — it doesn't block curriculum use.
@@ -153,6 +163,11 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-12: Added a persistent three-page unit briefing gate, strict locked-lesson redirects,
+  lane-aware route completion actions, an optional saved Final Project workspace, and next-route
+  navigation; aligned Expo's three required SDK 58 patch versions and expanded coverage to 152 tests.
+- 2026-11-12: Turned the Home route card into a swipeable 10-artist carousel with per-route
+  progress/actions, accessible previous/next controls, stable card height, and a 320px adaptation.
 - 2026-11-12: Added regular YouTube as a separate opt-in, exactly allow-listed search provider;
   published all author-approved units; replaced central track-verification blocking with repeated
   parent-preview warnings for every unverified selection.

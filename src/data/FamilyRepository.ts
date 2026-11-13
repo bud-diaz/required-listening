@@ -1,4 +1,11 @@
-import type { CrateEntry, FamilyExport, Reflection, Settings } from '../domain/crate';
+import type {
+  CrateEntry,
+  FamilyExport,
+  FinalProjectResponse,
+  Reflection,
+  Settings,
+  UnitOverviewAcknowledgement,
+} from '../domain/crate';
 
 /**
  * Local-first storage for one family. Native builds use Expo SQLite
@@ -19,6 +26,12 @@ export interface FamilyRepository {
 
   listExplored(): Promise<string[]>;
   setExplored(lessonId: string, explored: boolean): Promise<void>;
+
+  listUnitOverviewAcknowledgements(): Promise<UnitOverviewAcknowledgement[]>;
+  addUnitOverviewAcknowledgement(acknowledgement: UnitOverviewAcknowledgement): Promise<void>;
+
+  listFinalProjectResponses(): Promise<FinalProjectResponse[]>;
+  saveFinalProjectResponse(response: FinalProjectResponse): Promise<void>;
 
   exportAll(): Promise<FamilyExport>;
   /** Wipes every family record on this device. */
