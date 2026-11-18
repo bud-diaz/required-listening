@@ -86,6 +86,13 @@ export class LessonPackDownloadError extends Error {
 export function normalizePackDownloadError(error: unknown): LessonPackDownloadError {
   if (error instanceof LessonPackDownloadError) return error;
   const message = error instanceof Error ? error.message : String(error);
+  if (/cannot find native module ['"]Expo(?:Crypto|FileSystem)['"]/i.test(message)) {
+    return new LessonPackDownloadError(
+      'incompatible',
+      'This installed app build is missing lesson-pack verification support. Install the latest native build and retry.',
+      { cause: error }
+    );
+  }
   if (/enospc|no space|disk full|storage|quota/i.test(message)) {
     return new LessonPackDownloadError('storage', 'There is not enough device storage for this pack.', { cause: error });
   }

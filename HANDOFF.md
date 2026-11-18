@@ -22,6 +22,9 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 Lesson Packs Phase 2 is implemented, and Pack 01 — The Soul Foundation is bundled from its five
 requested units. Pack 1 remains development-only until those imported units and the assembled pack
 complete editorial review; no draft pack is exposed in production.
+Native lesson-pack modules are loaded on demand so the previously installed development client can
+still boot and use bundled content; remote pack downloads require a fresh native build containing
+Expo Crypto and Expo FileSystem.
 
 **Signed build installed and verified on-device**
 - Device "CJ's iPhone 2" (UDID `00008110-000974400A23A01E`) is registered on the Apple team
@@ -39,6 +42,9 @@ complete editorial review; no draft pack is exposed in production.
   VoiceOver, Dynamic Type, keyboard-clearance, and destructive-flow checks are still pending.
 - Dev client connects to Metro (`npx expo start --dev-client`) via manual LAN URL entry
   (`<host-LAN-IP>:8081`) when Bonjour auto-discovery hides the server.
+- The currently installed development client predates the Phase 2 `expo-crypto` dependency. A static
+  import originally caused an `ExpoCrypto` startup error; the on-demand import fix lets that client
+  boot from Metro. Rebuild the native client before testing remote pack verification.
 - On-device walkthrough (2026-11-05): onboarding, a lesson's Listen step, and the provider-link
   hand-off (confirmation sheet → "Open <Provider>" → search opens in the external app) all
   confirmed working by the author.
@@ -231,6 +237,9 @@ accessibility QA.**
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-18: Deferred Expo Crypto loading until a remote pack is verified so older development
+  clients no longer crash during route discovery; missing native pack modules now produce an
+  actionable compatibility error while bundled content remains usable.
 - 2026-11-18: Bundled Pack 01 — The Soul Foundation from its five requested catalog units and
   implemented Lesson Packs Phase 2: strict first-party catalog, 24-hour cache, capped temporary
   downloads, SHA-256/app/editorial verification, safe updates, retry/progress/offline/storage UI,

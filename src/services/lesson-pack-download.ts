@@ -1,4 +1,3 @@
-import * as Crypto from 'expo-crypto';
 import { Platform } from 'react-native';
 import {
   MAX_PACK_DOWNLOAD_BYTES,
@@ -20,6 +19,12 @@ function digestToHex(digest: ArrayBuffer): string {
 }
 
 export async function sha256Hex(bytes: Uint8Array): Promise<string> {
+  let Crypto: typeof import('expo-crypto');
+  try {
+    Crypto = await import('expo-crypto');
+  } catch (error) {
+    throw normalizePackDownloadError(error);
+  }
   const digestInput = new Uint8Array(bytes.byteLength);
   digestInput.set(bytes);
   return digestToHex(await Crypto.digest(Crypto.CryptoDigestAlgorithm.SHA256, digestInput.buffer));

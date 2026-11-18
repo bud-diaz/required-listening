@@ -157,6 +157,7 @@ describe('verified first-party downloads', () => {
   it('classifies interrupted downloads as retryable network failures and low storage separately', () => {
     expect(normalizePackDownloadError(new Error('connection reset')).code).toBe('network');
     expect(normalizePackDownloadError(new Error('ENOSPC: no space left on device')).code).toBe('storage');
+    expect(normalizePackDownloadError(new Error("Cannot find native module 'ExpoCrypto'")).code).toBe('incompatible');
   });
 
   it('migrates Phase 1 installed records with download metadata defaults', () => {
