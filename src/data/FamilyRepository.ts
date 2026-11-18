@@ -6,6 +6,7 @@ import type {
   Settings,
   UnitOverviewAcknowledgement,
 } from '../domain/crate';
+import type { InstalledPack, LessonPlanItem } from '../domain/lesson-packs';
 
 /**
  * Local-first storage for one family. Native builds use Expo SQLite
@@ -25,13 +26,20 @@ export interface FamilyRepository {
   removeReflection(id: string): Promise<void>;
 
   listExplored(): Promise<string[]>;
-  setExplored(lessonId: string, explored: boolean): Promise<void>;
+  setExplored(contentKey: string, explored: boolean): Promise<void>;
 
   listUnitOverviewAcknowledgements(): Promise<UnitOverviewAcknowledgement[]>;
   addUnitOverviewAcknowledgement(acknowledgement: UnitOverviewAcknowledgement): Promise<void>;
 
   listFinalProjectResponses(): Promise<FinalProjectResponse[]>;
   saveFinalProjectResponse(response: FinalProjectResponse): Promise<void>;
+
+  listInstalledPacks(): Promise<InstalledPack[]>;
+  saveInstalledPack(pack: InstalledPack): Promise<void>;
+  removeInstalledPack(packId: string): Promise<void>;
+
+  listLessonPlan(): Promise<LessonPlanItem[]>;
+  replaceLessonPlan(items: LessonPlanItem[]): Promise<void>;
 
   exportAll(): Promise<FamilyExport>;
   /** Wipes every family record on this device. */

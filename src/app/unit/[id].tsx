@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Stack, router, useLocalSearchParams } from 'expo-router';
 import { getNextUnit, getUnit, passedDownFor, visibleLessons, visibleTracks } from '../../content';
 import type { ContentFlag, Track } from '../../content/schemas';
+import { coreContentRef, isContentExplored } from '../../domain/content-ref';
 import {
   UNIT_OVERVIEW_SECTIONS,
   type UnitOverviewSection,
@@ -257,7 +258,7 @@ export default function UnitScreen() {
           <View style={{ gap: space.xs }}>
             <Kicker color={colors.ink}>Route checkpoints</Kicker>
             {lessons.map((lesson) => {
-              const isDone = explored.includes(lesson.id);
+              const isDone = isContentExplored(explored, coreContentRef(lesson.id));
               return (
                 <Pressable
                   key={lesson.id}

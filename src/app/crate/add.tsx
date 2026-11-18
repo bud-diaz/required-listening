@@ -7,7 +7,7 @@ import { colors } from '../../ui/theme';
 import { Text } from 'react-native';
 
 export default function AddToCrate() {
-  const { trackId } = useLocalSearchParams<{ trackId?: string; unitId?: string }>();
+  const { trackId, collectionId } = useLocalSearchParams<{ trackId?: string; unitId?: string; collectionId?: string }>();
   const lane = useFamilyStore((s) => s.settings?.lane ?? 'younger');
   const [saved, setSaved] = useState(false);
 
@@ -24,7 +24,12 @@ export default function AddToCrate() {
         <ApprovalStamp visible />
       ) : (
         <SignPanel>
-          <CrateEntryForm lane={lane} initialTrackId={trackId} onSaved={() => setSaved(true)} />
+          <CrateEntryForm
+            lane={lane}
+            initialTrackId={trackId}
+            initialCollectionId={collectionId}
+            onSaved={() => setSaved(true)}
+          />
         </SignPanel>
       )}
     </StageScreen>

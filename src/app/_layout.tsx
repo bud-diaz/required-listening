@@ -56,6 +56,10 @@ export default function RootLayout() {
           <Stack.Screen name="unit/[id]" options={{ title: '' }} />
           <Stack.Screen name="lesson/[unitId]/[lessonId]" options={{ title: '', headerShown: false }} />
           <Stack.Screen name="project/[unitId]" options={{ title: 'Final Project' }} />
+          <Stack.Screen name="packs/index" options={{ title: 'Lesson Packs' }} />
+          <Stack.Screen name="packs/[packId]" options={{ title: 'Lesson Pack' }} />
+          <Stack.Screen name="plan" options={{ title: 'Lesson Plan' }} />
+          <Stack.Screen name="pack-lesson/[packId]/[lessonId]" options={{ title: '', headerShown: false }} />
           <Stack.Screen name="crate/add" options={{ title: 'Add to My Crate', presentation: 'modal', headerStyle: { backgroundColor: colors.red }, headerTintColor: colors.paper }} />
           <Stack.Screen name="settings" options={{ title: 'Grown-up settings' }} />
         </Stack.Protected>

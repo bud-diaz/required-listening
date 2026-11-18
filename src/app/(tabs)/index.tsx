@@ -12,6 +12,7 @@ import {
 import { Link, router } from 'expo-router';
 import { getUnit, units, visibleLessons } from '../../content';
 import { Monogram } from '../../components/Monogram';
+import { coreContentRef, isContentExplored } from '../../domain/content-ref';
 import { isUnitOverviewComplete } from '../../domain/progress';
 import { useFamilyStore } from '../../stores/family-store';
 import { Body, Kicker } from '../../ui/primitives';
@@ -25,6 +26,8 @@ export default function Home() {
   const acknowledgements = useFamilyStore((s) => s.unitOverviewAcknowledgements);
   const crate = useFamilyStore((s) => s.crate);
   const reflections = useFamilyStore((s) => s.reflections);
+  const installedPacks = useFamilyStore((s) => s.installedPacks);
+  const lessonPlan = useFamilyStore((s) => s.lessonPlan);
   const scrollRef = useRef<ScrollViewInstance>(null);
   const routeScrollRef = useRef<ScrollViewInstance>(null);
   const replayY = useRef(0);
@@ -33,7 +36,7 @@ export default function Home() {
   // Current unit: the first converted unit with a lesson still to explore.
   const available = units.map((u) => getUnit(u.id, __DEV__)).filter((u) => !!u);
   const current =
-    available.find((u) => visibleLessons(u, settings.lane).some((l) => !explored.includes(l.id))) ?? available[0];
+    available.find((u) => visibleLessons(u, settings.lane).some((l) => !isContentExplored(explored, coreContentRef(l.id)))) ?? available[0];
   const [startingRouteIndex] = useState(() => Math.max(0, available.findIndex((unit) => unit.id === current?.id)));
   const [activeRouteIndex, setActiveRouteIndex] = useState(startingRouteIndex);
 
@@ -92,8 +95,8 @@ export default function Home() {
             >
               {available.map((unit) => {
                 const lessons = visibleLessons(unit, settings.lane);
-                const done = lessons.filter((lesson) => explored.includes(lesson.id)).length;
-                const next = lessons.find((lesson) => !explored.includes(lesson.id));
+                const done = lessons.filter((lesson) => isContentExplored(explored, coreContentRef(lesson.id))).length;
+                const next = lessons.find((lesson) => !isContentExplored(explored, coreContentRef(lesson.id)));
                 const overviewComplete = isUnitOverviewComplete(acknowledgements, unit.id);
                 return (
                   <View key={unit.id} style={[styles.routePage, { width: carouselWidth }]}>
@@ -114,7 +117,7 @@ export default function Home() {
                         {lessons.map((lesson) => (
                           <View
                             key={lesson.id}
-                            style={[styles.segment, explored.includes(lesson.id) && styles.segmentDone]}
+                            style={[styles.segment, isContentExplored(explored, coreContentRef(lesson.id)) && styles.segmentDone]}
                           />
                         ))}
                       </View>
@@ -167,6 +170,8 @@ export default function Home() {
       )}
 
       <View style={styles.actions}>
+        <SignButton label={`Lesson Plan · ${lessonPlan.length} →`} variant="ink" onPress={() => router.push('/plan')} />
+        <SignButton label={`Lesson packs · ${installedPacks.length} saved →`} variant="paper" onPress={() => router.push('/packs')} />
         <SignButton label="Artist directory →" variant="paper" onPress={() => router.push('/units')} />
         <SignButton label={`My crate · ${crate.length} →`} variant="paper" onPress={() => router.push('/crate')} />
         <SignButton label="Family replay ↓" variant="paper" onPress={() => scrollRef.current?.scrollTo({ y: replayY.current, animated: true })} />

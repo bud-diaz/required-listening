@@ -2,8 +2,10 @@ import { useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { router } from 'expo-router';
 import type { Lane, Lesson, Track, Unit } from '../content/schemas';
-import { getNextLesson, getNextUnit, visibleTracks } from '../content';
+import { getNextLesson, getNextUnit, visibleLessons, visibleTracks } from '../content';
 import { FEELINGS } from '../domain/crate';
+import { CORE_COLLECTION_ID, isContentExplored } from '../domain/content-ref';
+import type { LessonPack } from '../domain/lesson-packs';
 import { isRouteComplete } from '../domain/progress';
 import { useFamilyStore } from '../stores/family-store';
 import { Blocks, Body, Button, Chip, DraftBanner, Kicker } from '../ui/primitives';
@@ -42,8 +44,13 @@ const symbols: Record<LessonStep, string> = {
 
 const stepStage = (step: LessonStep): Stage => (step === 'briefing' ? 'briefing' : step);
 
-/** One lesson as Briefing → Listen → Notice → Talk → Add to Crate. */
-export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson; lane: Lane }) {
+type LessonFlowProps = { lesson: Lesson; lane: Lane } & (
+  | { unit: Unit; pack?: never }
+  | { pack: LessonPack; unit?: never }
+);
+
+/** One core or optional-pack lesson as Briefing → Listen → Notice → Talk → Add to Crate. */
+export function LessonFlow({ unit, pack, lesson, lane }: LessonFlowProps) {
   const [step, setStep] = useState<LessonStep>('briefing');
   const [visited, setVisited] = useState<PlacardStage[]>([]);
   const [sheetTrack, setSheetTrack] = useState<Track | null>(null);
@@ -54,15 +61,21 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
 
   const saveReflection = useFamilyStore((s) => s.saveReflection);
   const exploredLessons = useFamilyStore((s) => s.explored);
-  const explored = exploredLessons.includes(lesson.id);
+  const collectionId = pack?.packId ?? CORE_COLLECTION_ID;
+  const sourceId = pack ? pack.packId : unit!.id;
+  const source = pack ?? unit;
+  const explored = isContentExplored(exploredLessons, { collectionId, lessonId: lesson.id });
   const setExplored = useFamilyStore((s) => s.setExplored);
 
-  const tracks = visibleTracks(unit, lesson.listen, lane);
+  const tracks = visibleTracks(source, lesson.listen, lane);
   const eligibleTracks = tracks.filter((track) => track.type === 'song' || track.type === 'instrumental');
   const hiddenCount = lesson.listen.length - tracks.length;
-  const nextLesson = getNextLesson(unit, lesson.id, lane);
-  const nextUnit = getNextUnit(unit.id, __DEV__);
-  const routeComplete = isRouteComplete(unit, lane, exploredLessons);
+  const nextLesson = getNextLesson(source, lesson.id, lane);
+  const nextUnit = unit ? getNextUnit(unit.id, __DEV__) : undefined;
+  const routeComplete = unit
+    ? isRouteComplete(unit, lane, exploredLessons)
+    : visibleLessons(source, lane)
+        .every((item) => isContentExplored(exploredLessons, { collectionId, lessonId: item.id }));
   const index = stageToIndex[step];
   const stage = stepStage(step);
 
@@ -75,7 +88,13 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
     setFeelings((current) => current.includes(feeling) ? current.filter((item) => item !== feeling) : [...current, feeling]);
 
   const onSave = async () => {
-    await saveReflection({ unitId: unit.id, lessonId: lesson.id, feelings, text: text.trim() || undefined });
+    await saveReflection({
+      unitId: sourceId,
+      lessonId: lesson.id,
+      collectionId,
+      feelings,
+      text: text.trim() || undefined,
+    });
     setSaved(true);
   };
 
@@ -107,14 +126,21 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
           <Pressable accessibilityRole="button" accessibilityLabel="Back to unit" onPress={() => router.back()} style={styles.back}>
             <Text style={[styles.backText, { color: stages[stage].foreground }]}>←</Text>
           </Pressable>
-          <RouteBadge unitNumber={unit.number} lessonNumber={lesson.number} compact />
+          {unit ? (
+            <RouteBadge unitNumber={unit.number} lessonNumber={lesson.number} compact />
+          ) : (
+            <View style={styles.packBadge} accessibilityLabel={`Lesson pack, lesson ${lesson.number}`}>
+              <Text style={styles.packBadgeTop}>PACK</Text>
+              <Text style={styles.packBadgeNumber}>{String(lesson.number).padStart(2, '0')}</Text>
+            </View>
+          )}
           {step === 'briefing' ? <View style={styles.positionSpacer} /> : <Text style={styles.position}>{index} OF 4</Text>}
         </View>
       }
     >
-      {unit.review.status !== 'approved' ? (
+      {source.review.status !== 'approved' ? (
         <DraftBanner
-          message={unit.lessonReview.status === 'approved'
+          message={unit?.lessonReview.status === 'approved'
             ? 'DRAFT · Lesson content approved. Track versions still need review.'
             : undefined}
         />
@@ -219,19 +245,19 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
             {eligibleTracks.map((track) => (
               <View key={track.id} style={{ gap: space.sm }}>
                 <RecordSign title={track.title} artist={track.artist} metadata={track.type === 'instrumental' ? 'Instrumental · no vocals' : 'Song'} />
-                <SignButton label={`Add ${track.title} →`} variant="paper" onPress={() => router.push({ pathname: '/crate/add', params: { trackId: track.id, unitId: unit.id } })} />
+                <SignButton label={`Add ${track.title} →`} variant="paper" onPress={() => router.push({ pathname: '/crate/add', params: { trackId: track.id, unitId: sourceId, collectionId } })} />
               </View>
             ))}
             {eligibleTracks.length === 0 ? <SignPanel><Body>No eligible song is listed for this lesson. You can still add a different song.</Body></SignPanel> : null}
           </View>
-          <SignButton label="Add a different song" variant="yellow" onPress={() => router.push({ pathname: '/crate/add', params: { unitId: unit.id } })} />
+          <SignButton label="Add a different song" variant="yellow" onPress={() => router.push({ pathname: '/crate/add', params: { unitId: sourceId, collectionId } })} />
           <SignPanel title="Your progress">
             <Body>Explored is something your family marks. It is separate from opening music or adding a song.</Body>
             <Button
               label={explored ? 'Explored ✓ (tap to undo)' : 'Mark lesson explored'}
               variant={explored ? 'secondary' : 'primary'}
               accessibilityHint="Progress is something you mark yourselves. The app can't tell what you played."
-              onPress={() => setExplored(lesson.id, !explored)}
+              onPress={() => setExplored({ collectionId, lessonId: lesson.id }, !explored)}
             />
           </SignPanel>
           {explored && nextLesson ? (
@@ -239,13 +265,18 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
               label="Proceed to next lesson →"
               variant="yellow"
               hint={`Opens lesson ${nextLesson.number}: ${nextLesson.title}`}
-              onPress={() => router.replace({
-                pathname: '/lesson/[unitId]/[lessonId]',
-                params: { unitId: unit.id, lessonId: nextLesson.id },
-              })}
+              onPress={() => unit
+                ? router.replace({
+                    pathname: '/lesson/[unitId]/[lessonId]',
+                    params: { unitId: unit.id, lessonId: nextLesson.id },
+                  })
+                : router.replace({
+                    pathname: '/pack-lesson/[packId]/[lessonId]',
+                    params: { packId: pack.packId, lessonId: nextLesson.id },
+                  })}
             />
           ) : null}
-          {explored && !nextLesson && routeComplete ? (
+          {unit && explored && !nextLesson && routeComplete ? (
             <SignPanel title="Route explored ✓">
               <Body>The Final Project is optional. Choose it now, continue to the next route, or come back later.</Body>
               <SignButton
@@ -258,6 +289,12 @@ export function LessonFlow({ unit, lesson, lane }: { unit: Unit; lesson: Lesson;
                 variant="yellow"
                 onPress={() => nextUnit ? router.push(`/unit/${nextUnit.id}`) : router.push('/units')}
               />
+            </SignPanel>
+          ) : null}
+          {pack && explored && !nextLesson && routeComplete ? (
+            <SignPanel title="Pack explored ✓">
+              <Body>This pack is complete on your current listening lane. You can revisit it any time.</Body>
+              <SignButton label="Return to Lesson Plan →" variant="yellow" onPress={() => router.replace('/plan')} />
             </SignPanel>
           ) : null}
           {nav}
@@ -299,6 +336,9 @@ const styles = StyleSheet.create({
   backText: { fontSize: 34, lineHeight: 38, fontWeight: '700' },
   position: { color: colors.ink, backgroundColor: colors.paper, borderWidth: 2, borderColor: colors.ink, borderRadius: 4, paddingHorizontal: space.sm, paddingVertical: 4, fontSize: 11, fontWeight: '900' },
   positionSpacer: { width: 48 },
+  packBadge: { minWidth: 64, borderWidth: 3, borderColor: colors.ink, borderRadius: 6, backgroundColor: colors.yellow, alignItems: 'center', paddingHorizontal: 8, paddingVertical: 3 },
+  packBadgeTop: { color: colors.ink, fontSize: 9, lineHeight: 11, fontWeight: '900' },
+  packBadgeNumber: { color: colors.ink, fontSize: 22, lineHeight: 24, fontWeight: '900' },
   headingSymbol: { color: colors.ink, fontSize: 30, lineHeight: 34, fontWeight: '900' },
   tabs: { flexDirection: 'row', borderWidth: 2, borderColor: colors.ink, borderRadius: 7, overflow: 'hidden', backgroundColor: colors.paper },
   tab: { flex: 1, minHeight: 48, alignItems: 'center', justifyContent: 'center', borderRightWidth: 1, borderColor: colors.ink, paddingHorizontal: 2 },

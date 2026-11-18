@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
-import { allTracks, crateActivity } from '../content';
+import { allTracks, crateActivity, laneAllows } from '../content';
 import type { Lane } from '../content/schemas';
+import { CORE_COLLECTION_ID } from '../domain/content-ref';
 import { CrateEntryDraft, type CrateEntry } from '../domain/crate';
 import { useFamilyStore } from '../stores/family-store';
 import { Body, Button, Chip, Kicker } from '../ui/primitives';
@@ -10,17 +11,33 @@ import { colors, space, TOUCH, type } from '../ui/theme';
 type Props = {
   lane: Lane;
   initialTrackId?: string;
+  initialCollectionId?: string;
   onSaved: (entry: CrateEntry) => void;
 };
 
 /** The guide's Build Your Own Crate steps 1–3: pick a song, why, and when. */
-export function CrateEntryForm({ lane, initialTrackId, onSaved }: Props) {
+export function CrateEntryForm({ lane, initialTrackId, initialCollectionId = CORE_COLLECTION_ID, onSaved }: Props) {
   const addToCrate = useFamilyStore((s) => s.addToCrate);
-  const guideTracks = useMemo(() => allTracks(lane, __DEV__).filter(({ track }) => track.type !== 'album' && track.type !== 'mixtape'), [lane]);
-  const initial = guideTracks.find((g) => g.track.id === initialTrackId);
+  const installedPacks = useFamilyStore((s) => s.installedPacks);
+  const guideTracks = useMemo(() => {
+    const core = allTracks(lane, __DEV__)
+      .filter(({ track }) => track.type !== 'album' && track.type !== 'mixtape')
+      .map(({ unit, track }) => ({ collectionId: CORE_COLLECTION_ID, sourceId: unit.id, track }));
+    const packs = installedPacks.flatMap(({ manifest }) =>
+      manifest.tracks
+        .filter((track) => track.type !== 'album' && track.type !== 'mixtape' && laneAllows(lane, track.minLane))
+        .map((track) => ({ collectionId: manifest.packId, sourceId: manifest.packId, track }))
+    );
+    return [...core, ...packs];
+  }, [installedPacks, lane]);
+  const initial = guideTracks.find((item) =>
+    item.track.id === initialTrackId && item.collectionId === initialCollectionId
+  );
 
   const [source, setSource] = useState<'guide' | 'own'>('guide');
-  const [pickedId, setPickedId] = useState<string | undefined>(initial?.track.id);
+  const [pickedId, setPickedId] = useState<string | undefined>(
+    initial ? `${initial.collectionId}:${initial.track.id}` : undefined
+  );
   const [showGuideTracks, setShowGuideTracks] = useState(!initial);
   const [title, setTitle] = useState('');
   const [artist, setArtist] = useState('');
@@ -29,7 +46,7 @@ export function CrateEntryForm({ lane, initialTrackId, onSaved }: Props) {
   const [note, setNote] = useState('');
   const [error, setError] = useState<string | null>(null);
 
-  const picked = guideTracks.find((g) => g.track.id === pickedId);
+  const picked = guideTracks.find((item) => `${item.collectionId}:${item.track.id}` === pickedId);
 
   const toggleWhy = (id: string) => setWhy((cur) => (cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id]));
 
@@ -38,7 +55,8 @@ export function CrateEntryForm({ lane, initialTrackId, onSaved }: Props) {
       title: source === 'guide' ? picked?.track.title ?? '' : title,
       artist: source === 'guide' ? picked?.track.artist ?? '' : artist,
       trackId: source === 'guide' ? picked?.track.id : undefined,
-      unitId: source === 'guide' ? picked?.unit.id : undefined,
+      unitId: source === 'guide' ? picked?.sourceId : undefined,
+      collectionId: source === 'guide' ? picked?.collectionId : undefined,
       why,
       moment,
       note: note.trim() || undefined,
@@ -80,25 +98,28 @@ export function CrateEntryForm({ lane, initialTrackId, onSaved }: Props) {
                 <Button label="Choose a different guide song" variant="secondary" onPress={() => setShowGuideTracks(true)} />
               </>
             ) : (
-              guideTracks.map(({ track }) => (
-                <Pressable
-                  key={track.id}
-                  accessibilityRole="radio"
-                  accessibilityState={{ checked: pickedId === track.id }}
-                  onPress={() => {
-                    setPickedId(track.id);
-                    if (initial) setShowGuideTracks(false);
-                  }}
-                  style={[styles.option, pickedId === track.id && styles.optionOn]}
-                >
-                  <Text
-                    style={[type.body, { fontWeight: '700', color: pickedId === track.id ? colors.paper : colors.ink }]}
+              guideTracks.map(({ track, collectionId }) => {
+                const optionId = `${collectionId}:${track.id}`;
+                return (
+                  <Pressable
+                    key={optionId}
+                    accessibilityRole="radio"
+                    accessibilityState={{ checked: pickedId === optionId }}
+                    onPress={() => {
+                      setPickedId(optionId);
+                      if (initial) setShowGuideTracks(false);
+                    }}
+                    style={[styles.option, pickedId === optionId && styles.optionOn]}
                   >
-                    {track.title}
-                  </Text>
-                  <Text style={[type.small, { color: pickedId === track.id ? colors.goldSoft : colors.muted }]}>{track.artist}</Text>
-                </Pressable>
-              ))
+                    <Text
+                      style={[type.body, { fontWeight: '700', color: pickedId === optionId ? colors.paper : colors.ink }]}
+                    >
+                      {track.title}
+                    </Text>
+                    <Text style={[type.small, { color: pickedId === optionId ? colors.goldSoft : colors.muted }]}>{track.artist}</Text>
+                  </Pressable>
+                );
+              })
             )}
           </View>
         ) : (

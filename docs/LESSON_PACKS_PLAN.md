@@ -1,5 +1,19 @@
 # Lesson Packs Plan
 
+## Implementation status (2026-11-18)
+
+Phase 1 is implemented. The app now has namespaced content references, a strict pack manifest,
+native SQLite and web-snapshot persistence, installed-pack management, an ordered Lesson Plan,
+pack-aware progress/reflections/crate provenance, export/Delete All coverage, and pack lessons running
+through the existing five-stage lesson flow. A clearly labeled draft demo pack is bundled only in
+development builds so the complete flow can be exercised offline without publishing unapproved
+editorial content.
+
+Phase 2 remains intentionally unimplemented until Paperweight has an approved pack and catalog host.
+The bundled catalog already sits behind a `LessonPackCatalog` interface; the next adapter can add the
+allow-listed HTTPS catalog, temporary downloads, SHA-256 verification, compatibility checks, retry
+states, and atomic updates described below without changing the screen or repository contracts.
+
 ## Recommendation
 
 Start with **curated, first-party, text-only packs** published by Paperweight. A pack is an immutable,
@@ -142,6 +156,8 @@ not need to duplicate the entire downloaded pack payload.
 - Reuse the current lesson flow and caregiver-preview rules.
 
 Exit: the entire flow works offline with one fixture pack and survives app restarts.
+
+**Status: complete.** The fixture is development-only and remains visibly marked draft.
 
 ### Phase 2 — first-party downloads
 

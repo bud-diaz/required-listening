@@ -6,6 +6,8 @@ import type {
   Settings,
   UnitOverviewAcknowledgement,
 } from '../domain/crate';
+import { normalizeContentKey } from '../domain/content-ref';
+import { InstalledPack, LessonPlanItem, normalizeLessonPlan } from '../domain/lesson-packs';
 import type { FamilyRepository } from './FamilyRepository';
 
 type Snapshot = Omit<FamilyExport, 'exportedAt'>;
@@ -17,6 +19,8 @@ const empty = (): Snapshot => ({
   explored: [],
   unitOverviewAcknowledgements: [],
   projectResponses: [],
+  installedPacks: [],
+  lessonPlan: [],
 });
 
 export interface SnapshotStorage {
@@ -84,7 +88,21 @@ export class SnapshotRepository implements FamilyRepository {
     const raw = this.storage.read();
     if (!raw) return empty();
     try {
-      return { ...empty(), ...(JSON.parse(raw) as Partial<Snapshot>) };
+      const parsed = { ...empty(), ...(JSON.parse(raw) as Partial<Snapshot>) };
+      return {
+        ...parsed,
+        explored: [...new Set(parsed.explored.map(normalizeContentKey))],
+        installedPacks: parsed.installedPacks.flatMap((pack) => {
+          const result = InstalledPack.safeParse(pack);
+          return result.success ? [result.data] : [];
+        }),
+        lessonPlan: normalizeLessonPlan(
+          parsed.lessonPlan.flatMap((item) => {
+            const result = LessonPlanItem.safeParse(item);
+            return result.success ? [result.data] : [];
+          })
+        ),
+      };
     } catch {
       return empty();
     }
@@ -124,10 +142,11 @@ export class SnapshotRepository implements FamilyRepository {
   async listExplored(): Promise<string[]> {
     return this.load().explored;
   }
-  async setExplored(lessonId: string, explored: boolean): Promise<void> {
+  async setExplored(contentKey: string, explored: boolean): Promise<void> {
     this.update((s) => {
-      const rest = s.explored.filter((id) => id !== lessonId);
-      return { ...s, explored: explored ? [...rest, lessonId] : rest };
+      const key = normalizeContentKey(contentKey);
+      const rest = s.explored.filter((id) => normalizeContentKey(id) !== key);
+      return { ...s, explored: explored ? [...rest, key] : rest };
     });
   }
 
@@ -154,6 +173,32 @@ export class SnapshotRepository implements FamilyRepository {
       ...s,
       projectResponses: [...s.projectResponses.filter((item) => item.unitId !== response.unitId), response],
     }));
+  }
+
+  async listInstalledPacks(): Promise<InstalledPack[]> {
+    return this.load().installedPacks;
+  }
+  async saveInstalledPack(pack: InstalledPack): Promise<void> {
+    const valid = InstalledPack.parse(pack);
+    this.update((s) => ({
+      ...s,
+      installedPacks: [...s.installedPacks.filter((item) => item.packId !== valid.packId), valid],
+    }));
+  }
+  async removeInstalledPack(packId: string): Promise<void> {
+    this.update((s) => ({
+      ...s,
+      installedPacks: s.installedPacks.filter((item) => item.packId !== packId),
+      lessonPlan: normalizeLessonPlan(s.lessonPlan.filter((item) => item.content.collectionId !== packId)),
+    }));
+  }
+
+  async listLessonPlan(): Promise<LessonPlanItem[]> {
+    return this.load().lessonPlan;
+  }
+  async replaceLessonPlan(items: LessonPlanItem[]): Promise<void> {
+    const valid = normalizeLessonPlan(items.map((item) => LessonPlanItem.parse(item)));
+    this.update((s) => ({ ...s, lessonPlan: valid }));
   }
 
   async exportAll(): Promise<FamilyExport> {

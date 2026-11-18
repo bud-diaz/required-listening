@@ -1,6 +1,8 @@
 import { z } from 'zod';
 import { Lane } from '../content/schemas';
 import { PROVIDERS } from '../lib/links';
+import { CORE_COLLECTION_ID } from './content-ref';
+import { InstalledPack, LessonPlanItem } from './lesson-packs';
 
 /** A song a child chose for their crate (the guide's "Build Your Own Crate"). */
 export const CrateEntry = z.object({
@@ -10,6 +12,8 @@ export const CrateEntry = z.object({
   /** Set when the song came from the guide. */
   trackId: z.string().optional(),
   unitId: z.string().optional(),
+  /** Core guide or lesson-pack provenance. Missing values from old records are core. */
+  collectionId: z.string().min(1).optional(),
   why: z.array(z.string()).min(1, 'Pick at least one reason'),
   moment: z.string().min(1, 'Pick when you would play it'),
   note: z.string().max(500).optional(),
@@ -25,6 +29,8 @@ export const Reflection = z.object({
   id: z.string().min(1),
   unitId: z.string(),
   lessonId: z.string(),
+  /** Core guide or lesson-pack provenance. Missing values from old records are core. */
+  collectionId: z.string().min(1).optional(),
   feelings: z.array(z.string()),
   text: z.string().max(1000).optional(),
   createdAt: z.string(),
@@ -71,6 +77,8 @@ export const FamilyExport = z.object({
   explored: z.array(z.string()),
   unitOverviewAcknowledgements: z.array(UnitOverviewAcknowledgement),
   projectResponses: z.array(FinalProjectResponse),
+  installedPacks: z.array(InstalledPack),
+  lessonPlan: z.array(LessonPlanItem),
 });
 export type FamilyExport = z.infer<typeof FamilyExport>;
 
@@ -88,15 +96,24 @@ export function newId(prefix: string): string {
 
 export function createCrateEntry(draft: CrateEntryDraft, now = new Date()): CrateEntry {
   const parsed = CrateEntryDraft.parse(draft);
-  return CrateEntry.parse({ ...parsed, id: newId('crate'), addedAt: now.toISOString() });
+  return CrateEntry.parse({
+    ...parsed,
+    collectionId: parsed.trackId ? parsed.collectionId ?? CORE_COLLECTION_ID : undefined,
+    id: newId('crate'),
+    addedAt: now.toISOString(),
+  });
 }
 
 /** Has this song already been added? Matches by guide track, otherwise by title + artist. */
-export function isDuplicate(crate: CrateEntry[], draft: Pick<CrateEntry, 'title' | 'artist' | 'trackId'>): boolean {
+export function isDuplicate(
+  crate: CrateEntry[],
+  draft: Pick<CrateEntry, 'title' | 'artist' | 'trackId'> & { collectionId?: string }
+): boolean {
   const norm = (s: string) => s.trim().toLowerCase();
   return crate.some((e) =>
     draft.trackId && e.trackId
-      ? e.trackId === draft.trackId
+      ? e.trackId === draft.trackId &&
+        (e.collectionId ?? CORE_COLLECTION_ID) === (draft.collectionId ?? CORE_COLLECTION_ID)
       : norm(e.title) === norm(draft.title) && norm(e.artist) === norm(draft.artist)
   );
 }

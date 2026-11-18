@@ -18,6 +18,9 @@ import {
 import { PROVIDERS, buildSearchUrl, isAllowedUrl, searchQueryFor } from '../src/lib/links';
 import { ABOUT_LINKS } from '../src/lib/about-links';
 import { Settings } from '../src/domain/crate';
+import { availableLessonPacks } from '../src/content/packs';
+import { demoFamilyAnthemsPack } from '../src/content/packs/demo-family-anthems.v1';
+import { LessonPack } from '../src/domain/lesson-packs';
 import {
   firstIncompleteUnitOverviewSection,
   isRouteComplete,
@@ -179,6 +182,19 @@ describe('review gate', () => {
     expect(isPublishable(draft, false)).toBe(false);
     expect(isPublishable(draft, true)).toBe(true);
     expect(isPublishable({ status: 'approved', reviewedAt: '2026-11-05', reviewedBy: 'Author' }, false)).toBe(true);
+  });
+
+  it('keeps the draft demo pack in development and out of production', () => {
+    expect(availableLessonPacks(true).map((pack) => pack.packId)).toContain(demoFamilyAnthemsPack.packId);
+    expect(availableLessonPacks(false)).toEqual([]);
+  });
+
+  it('rejects pack lessons that reference a missing track', () => {
+    const invalid = {
+      ...demoFamilyAnthemsPack,
+      lessons: [{ ...demoFamilyAnthemsPack.lessons[0], listen: ['missing-track'] }],
+    };
+    expect(LessonPack.safeParse(invalid).success).toBe(false);
   });
 
   it('publishes every author-approved unit and its tracks in production', () => {

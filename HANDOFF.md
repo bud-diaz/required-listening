@@ -83,11 +83,17 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 - Storage: Expo SQLite on iOS/Android; browser storage on the web preview. Unit briefing
   acknowledgements and Final Project responses persist, export, survive older snapshots, and clear
   with Delete All.
+- Lesson Packs Phase 1 is implemented end to end: a development-only draft fixture can be downloaded,
+  added whole or lesson-by-lesson to an ordered Lesson Plan, reordered, opened in the existing
+  five-stage lesson flow, removed, exported, and cleared with Delete All. Pack progress, reflections,
+  and crate provenance use namespaced content references; existing bare lesson progress migrates to
+  `core-v1` without losing completion. Production builds expose no pack until approved content is
+  added. The catalog is behind an adapter for the future verified network download layer.
 - EAS project `29bd2171-ae38-4f5e-b974-cb451d0339ab` is linked to the `bud-diaz` account. `eas.json`
   defines an internal-distribution iOS development-client profile.
 - ESLint is configured (`eslint.config.js`); JSX copy and schema type/value declarations lint cleanly.
-- A future lesson-pack architecture and phased rollout is documented in `docs/LESSON_PACKS_PLAN.md`;
-  no pack download or Lesson Plan runtime code has been added yet.
+- The lesson-pack architecture, completed local vertical slice, and remaining verified-download work
+  are documented in `docs/LESSON_PACKS_PLAN.md`.
 
 **Content status**
 
@@ -121,15 +127,17 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 - Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
   existing plan default.
 
-**Checks (last run on current worktree after the About icon-button refinement, 2026-11-18)**
+**Checks (last run on current lesson-pack worktree, 2026-11-18)**
 - `npm run lint`: pass
-- `npm run typecheck`: pass
-- `npm test` (Vitest): 155/155 pass.
+- `npx tsc --noEmit`: pass
+- `npm test` (Vitest): 159/159 pass.
 - `npx expo install --check`: pass against the local SDK compatibility map; network validation was
   unavailable in the sandbox, and dependencies are reported up to date.
 - `npx expo config --type public`: pass; new launcher, adaptive, monochrome and favicon paths resolve.
 - `npx expo export --platform web --output-dir /tmp/required-listening-about-icon-buttons-web`: pass;
   928 modules bundled, including the copied Paperweight brand-mark asset.
+- `npx expo export --platform web --output-dir /tmp/required-listening-lesson-packs-web-final`: pass;
+  936 modules bundled, including the new pack, plan, and pack-lesson routes.
 - `npx expo-doctor@latest` (`expo-doctor@1.21.8`): 20/20 checks pass.
 - `npx expo export --platform web --output-dir /tmp/required-listening-field-manual-web`: pass; 926
   modules bundled.
@@ -173,8 +181,9 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 2. Review remaining track spelling, search metadata, and safety lanes. Keep unverified tracks under
    the caregiver-preview policy; this audit no longer blocks approved units from publishing.
 3. Decide the byline (see Open decisions) whenever convenient — it doesn't block curriculum use.
-4. If lesson packs move forward, settle the five product choices in `docs/LESSON_PACKS_PLAN.md`, then
-   build Phase 1 with a bundled fixture before adding network downloads.
+4. Before Lesson Packs Phase 2, choose the Paperweight catalog/CDN host and approve the first real
+   pack; then add the allow-listed download, SHA-256 verification, retry/update states, and atomic
+   replacement pipeline described in `docs/LESSON_PACKS_PLAN.md`.
 
 ---
 
@@ -182,6 +191,9 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-18: Implemented Lesson Packs Phase 1 with namespaced progress migration, offline pack
+  installation, an ordered persistent Lesson Plan, pack-aware lesson/crate/reflection flows,
+  export/Delete All coverage, development-only fixture content, routes, and tests.
 - 2026-11-18: Moved Get the Guide after the About accordions, replaced link copy with side-by-side
   Paperweight-logo and book-icon buttons, and added a three-slot placeholder row.
 - 2026-11-18: Replaced app/adaptive/web icons with the supplied Listening Required railroad sign,

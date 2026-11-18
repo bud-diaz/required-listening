@@ -8,6 +8,8 @@ import {
   crateShareText,
   isDuplicate,
 } from '../src/domain/crate';
+import { contentKey } from '../src/domain/content-ref';
+import { demoFamilyAnthemsPack } from '../src/content/packs/demo-family-anthems.v1';
 
 const settings: Settings = {
   nickname: 'Lil Listener',
@@ -107,7 +109,7 @@ describe('family store persistence', () => {
     expect(after.crate).toHaveLength(1);
     expect(after.crate[0]).toMatchObject({ title: 'Love Sosa', why: ['move'], moment: 'car-ride' });
     expect(after.reflections[0]).toMatchObject({ lessonId: 'ck-02-the-sound', text: 'the bass slides' });
-    expect(after.explored).toEqual(['ck-02-the-sound']);
+    expect(after.explored).toEqual(['core-v1:ck-02-the-sound']);
     expect(after.unitOverviewAcknowledgements).toMatchObject([{ unitId: 'chief-keef', section: 'why' }]);
     expect(after.projectResponses).toMatchObject([{
       unitId: 'chief-keef',
@@ -122,6 +124,41 @@ describe('family store persistence', () => {
     const again = await useFamilyStore.getState().addToCrate({ ...loveSosa, why: ['cool'] });
     expect(again).toEqual({ ok: false, reason: 'duplicate' });
     expect(useFamilyStore.getState().crate).toHaveLength(1);
+  });
+
+  it('installs a pack and keeps an ordered, de-duplicated Lesson Plan', async () => {
+    const s = useFamilyStore.getState();
+    await s.installPack(demoFamilyAnthemsPack);
+    expect(await s.addPackToLessonPlan(demoFamilyAnthemsPack.packId)).toBe(3);
+    expect(await s.addPackToLessonPlan(demoFamilyAnthemsPack.packId)).toBe(0);
+
+    const lastId = useFamilyStore.getState().lessonPlan[2].id;
+    await s.moveLessonPlanItem(lastId, -1);
+    await relaunch();
+
+    const after = useFamilyStore.getState();
+    expect(after.installedPacks).toHaveLength(1);
+    expect(after.lessonPlan.map((item) => item.content.lessonId)).toEqual([
+      'pick-a-family-anthem',
+      'pass-one-forward',
+      'compare-two-generations',
+    ]);
+    expect(after.lessonPlan.map((item) => item.position)).toEqual([0, 1, 2]);
+  });
+
+  it('removes pack files and plan items without erasing namespaced progress', async () => {
+    const s = useFamilyStore.getState();
+    await s.installPack(demoFamilyAnthemsPack);
+    await s.addPackToLessonPlan(demoFamilyAnthemsPack.packId);
+    const ref = { collectionId: demoFamilyAnthemsPack.packId, lessonId: 'pick-a-family-anthem' };
+    await s.setExplored(ref, true);
+    await s.removePack(demoFamilyAnthemsPack.packId);
+    await relaunch();
+
+    const after = useFamilyStore.getState();
+    expect(after.installedPacks).toEqual([]);
+    expect(after.lessonPlan).toEqual([]);
+    expect(after.explored).toContain(contentKey(ref));
   });
 
   it('removes a crate entry and un-marks a lesson', async () => {
@@ -146,11 +183,15 @@ describe('family store persistence', () => {
       earlyTrackIds: [],
       laterTrackIds: [],
     });
+    await s.installPack(demoFamilyAnthemsPack);
+    await s.addPackToLessonPlan(demoFamilyAnthemsPack.packId, ['pick-a-family-anthem']);
     const exported = await s.exportAll();
     expect(exported.settings?.nickname).toBe('Lil Listener');
     expect(exported.crate).toHaveLength(1);
     expect(exported.unitOverviewAcknowledgements).toHaveLength(1);
     expect(exported.projectResponses).toHaveLength(1);
+    expect(exported.installedPacks).toHaveLength(1);
+    expect(exported.lessonPlan).toHaveLength(1);
 
     await s.deleteAll();
     await relaunch();
@@ -159,15 +200,19 @@ describe('family store persistence', () => {
     expect(after.crate).toEqual([]);
     expect(after.unitOverviewAcknowledgements).toEqual([]);
     expect(after.projectResponses).toEqual([]);
+    expect(after.installedPacks).toEqual([]);
+    expect(after.lessonPlan).toEqual([]);
   });
 
   it('loads older snapshots without briefing or project fields', async () => {
     storage.write(JSON.stringify({ settings, crate: [], reflections: [], explored: ['ck-01-chicago'] }));
     await relaunch();
     const after = useFamilyStore.getState();
-    expect(after.explored).toEqual(['ck-01-chicago']);
+    expect(after.explored).toEqual(['core-v1:ck-01-chicago']);
     expect(after.unitOverviewAcknowledgements).toEqual([]);
     expect(after.projectResponses).toEqual([]);
+    expect(after.installedPacks).toEqual([]);
+    expect(after.lessonPlan).toEqual([]);
     expect(after.settings?.fieldManualCompletedAt).toBeUndefined();
   });
 

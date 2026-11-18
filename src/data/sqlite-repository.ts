@@ -7,6 +7,8 @@ import {
   UnitOverviewAcknowledgement,
   type FamilyExport,
 } from '../domain/crate';
+import { normalizeContentKey } from '../domain/content-ref';
+import { InstalledPack, LessonPlanItem, normalizeLessonPlan } from '../domain/lesson-packs';
 import type { FamilyRepository } from './FamilyRepository';
 
 const SCHEMA = `
@@ -34,6 +36,19 @@ CREATE TABLE IF NOT EXISTS unit_overview_acknowledgements (
 CREATE TABLE IF NOT EXISTS project_responses (
   unit_id TEXT PRIMARY KEY NOT NULL,
   updated_at TEXT NOT NULL,
+  json TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS installed_packs (
+  pack_id TEXT PRIMARY KEY NOT NULL,
+  version INTEGER NOT NULL,
+  updated_at TEXT NOT NULL,
+  json TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS lesson_plan_items (
+  id TEXT PRIMARY KEY NOT NULL,
+  position INTEGER NOT NULL,
+  collection_id TEXT NOT NULL,
+  lesson_id TEXT NOT NULL,
   json TEXT NOT NULL
 );
 `;
@@ -113,19 +128,24 @@ export class SQLiteFamilyRepository implements FamilyRepository {
   async listExplored(): Promise<string[]> {
     await this.ready;
     const rows = await this.db.getAllAsync<{ lesson_id: string }>('SELECT lesson_id FROM explored ORDER BY explored_at');
-    return rows.map((r) => r.lesson_id);
+    return [...new Set(rows.map((r) => normalizeContentKey(r.lesson_id)))];
   }
 
-  async setExplored(lessonId: string, explored: boolean): Promise<void> {
+  async setExplored(contentKey: string, explored: boolean): Promise<void> {
     await this.ready;
+    const key = normalizeContentKey(contentKey);
+    const legacyCoreId = key.startsWith('core-v1:') ? key.slice('core-v1:'.length) : key;
     if (explored) {
-      await this.db.runAsync(
-        'INSERT OR IGNORE INTO explored (lesson_id, explored_at) VALUES (?, ?)',
-        lessonId,
-        new Date().toISOString()
-      );
+      await this.db.withTransactionAsync(async () => {
+        if (legacyCoreId !== key) await this.db.runAsync('DELETE FROM explored WHERE lesson_id = ?', legacyCoreId);
+        await this.db.runAsync(
+          'INSERT OR IGNORE INTO explored (lesson_id, explored_at) VALUES (?, ?)',
+          key,
+          new Date().toISOString()
+        );
+      });
     } else {
-      await this.db.runAsync('DELETE FROM explored WHERE lesson_id = ?', lessonId);
+      await this.db.runAsync('DELETE FROM explored WHERE lesson_id IN (?, ?)', key, legacyCoreId);
     }
   }
 
@@ -166,14 +186,83 @@ export class SQLiteFamilyRepository implements FamilyRepository {
     );
   }
 
+  async listInstalledPacks(): Promise<InstalledPack[]> {
+    await this.ready;
+    const rows = await this.db.getAllAsync<JsonRow>('SELECT json FROM installed_packs ORDER BY updated_at DESC');
+    return rows.flatMap((row) => {
+      const result = InstalledPack.safeParse(JSON.parse(row.json));
+      return result.success ? [result.data] : [];
+    });
+  }
+
+  async saveInstalledPack(pack: InstalledPack): Promise<void> {
+    await this.ready;
+    const valid = InstalledPack.parse(pack);
+    await this.db.runAsync(
+      'INSERT OR REPLACE INTO installed_packs (pack_id, version, updated_at, json) VALUES (?, ?, ?, ?)',
+      valid.packId,
+      valid.version,
+      valid.updatedAt,
+      JSON.stringify(valid)
+    );
+  }
+
+  async removeInstalledPack(packId: string): Promise<void> {
+    await this.ready;
+    await this.db.withTransactionAsync(async () => {
+      await this.db.runAsync('DELETE FROM installed_packs WHERE pack_id = ?', packId);
+      await this.db.runAsync('DELETE FROM lesson_plan_items WHERE collection_id = ?', packId);
+    });
+  }
+
+  async listLessonPlan(): Promise<LessonPlanItem[]> {
+    await this.ready;
+    const rows = await this.db.getAllAsync<JsonRow>('SELECT json FROM lesson_plan_items ORDER BY position');
+    return normalizeLessonPlan(
+      rows.flatMap((row) => {
+        const result = LessonPlanItem.safeParse(JSON.parse(row.json));
+        return result.success ? [result.data] : [];
+      })
+    );
+  }
+
+  async replaceLessonPlan(items: LessonPlanItem[]): Promise<void> {
+    await this.ready;
+    const valid = normalizeLessonPlan(items.map((item) => LessonPlanItem.parse(item)));
+    await this.db.withTransactionAsync(async () => {
+      await this.db.execAsync('DELETE FROM lesson_plan_items');
+      for (const item of valid) {
+        await this.db.runAsync(
+          'INSERT INTO lesson_plan_items (id, position, collection_id, lesson_id, json) VALUES (?, ?, ?, ?, ?)',
+          item.id,
+          item.position,
+          item.content.collectionId,
+          item.content.lessonId,
+          JSON.stringify(item)
+        );
+      }
+    });
+  }
+
   async exportAll(): Promise<FamilyExport> {
-    const [settings, crate, reflections, explored, unitOverviewAcknowledgements, projectResponses] = await Promise.all([
+    const [
+      settings,
+      crate,
+      reflections,
+      explored,
+      unitOverviewAcknowledgements,
+      projectResponses,
+      installedPacks,
+      lessonPlan,
+    ] = await Promise.all([
       this.getSettings(),
       this.listCrate(),
       this.listReflections(),
       this.listExplored(),
       this.listUnitOverviewAcknowledgements(),
       this.listFinalProjectResponses(),
+      this.listInstalledPacks(),
+      this.listLessonPlan(),
     ]);
     return {
       exportedAt: new Date().toISOString(),
@@ -183,6 +272,8 @@ export class SQLiteFamilyRepository implements FamilyRepository {
       explored,
       unitOverviewAcknowledgements,
       projectResponses,
+      installedPacks,
+      lessonPlan,
     };
   }
 
@@ -190,7 +281,7 @@ export class SQLiteFamilyRepository implements FamilyRepository {
     await this.ready;
     await this.db.withTransactionAsync(async () => {
       await this.db.execAsync(
-        'DELETE FROM settings; DELETE FROM crate_entries; DELETE FROM reflections; DELETE FROM explored; DELETE FROM unit_overview_acknowledgements; DELETE FROM project_responses;'
+        'DELETE FROM settings; DELETE FROM crate_entries; DELETE FROM reflections; DELETE FROM explored; DELETE FROM unit_overview_acknowledgements; DELETE FROM project_responses; DELETE FROM installed_packs; DELETE FROM lesson_plan_items;'
       );
     });
   }

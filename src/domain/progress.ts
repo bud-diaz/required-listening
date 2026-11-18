@@ -1,5 +1,6 @@
 import { visibleLessons } from '../content';
 import type { Lane, Unit } from '../content/schemas';
+import { CORE_COLLECTION_ID, isContentExplored } from './content-ref';
 import {
   UNIT_OVERVIEW_SECTIONS,
   type UnitOverviewAcknowledgement,
@@ -33,7 +34,14 @@ export function firstIncompleteUnitOverviewSection(
 }
 
 /** Completion follows the family's current lane and requires every visible checkpoint. */
-export function isRouteComplete(unit: Unit, lane: Lane, explored: readonly string[]): boolean {
+export function isRouteComplete(
+  unit: Unit,
+  lane: Lane,
+  explored: readonly string[],
+  collectionId = CORE_COLLECTION_ID
+): boolean {
   const lessons = visibleLessons(unit, lane);
-  return lessons.length > 0 && lessons.every((lesson) => explored.includes(lesson.id));
+  return lessons.length > 0 && lessons.every((lesson) =>
+    isContentExplored(explored, { collectionId, lessonId: lesson.id })
+  );
 }

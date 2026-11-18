@@ -2,6 +2,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { router } from 'expo-router';
 import { catalog, getUnit, visibleLessons } from '../../content';
 import { Monogram } from '../../components/Monogram';
+import { coreContentRef, isContentExplored } from '../../domain/content-ref';
 import { useFamilyStore } from '../../stores/family-store';
 import { Kicker, Screen } from '../../ui/primitives';
 import { RoadDivider, RouteBadge } from '../../ui/signage';
@@ -23,7 +24,7 @@ export default function Units() {
         {catalog.units.map((entry) => {
           const unit = entry.available ? getUnit(entry.id, __DEV__) : undefined;
           const lessons = unit ? visibleLessons(unit, lane) : [];
-          const done = lessons.filter((l) => explored.includes(l.id)).length;
+          const done = lessons.filter((l) => isContentExplored(explored, coreContentRef(l.id))).length;
           return (
             <Pressable
               key={entry.id}

@@ -52,17 +52,17 @@ export function getNextUnit(unitId: string, isDev: boolean): Unit | undefined {
   return units.slice(currentIndex + 1).find((unit) => isPublishable(unit.review, isDev));
 }
 
-export function getTrack(unit: Unit, trackId: string): Track | undefined {
-  return unit.tracks.find((t) => t.id === trackId);
+export function getTrack(source: Pick<Unit, 'tracks'>, trackId: string): Track | undefined {
+  return source.tracks.find((t) => t.id === trackId);
 }
 
-export function visibleLessons(unit: Unit, lane: Lane): Lesson[] {
-  return unit.lessons.filter((l) => laneAllows(lane, l.minLane));
+export function visibleLessons(source: Pick<Unit, 'lessons'>, lane: Lane): Lesson[] {
+  return source.lessons.filter((l) => laneAllows(lane, l.minLane));
 }
 
-export function visibleTracks(unit: Unit, trackIds: string[], lane: Lane): Track[] {
+export function visibleTracks(source: Pick<Unit, 'tracks'>, trackIds: string[], lane: Lane): Track[] {
   return trackIds
-    .map((id) => getTrack(unit, id))
+    .map((id) => getTrack(source, id))
     .filter((t): t is Track => !!t && laneAllows(lane, t.minLane));
 }
 
@@ -76,8 +76,8 @@ export function getLesson(unit: Unit, lessonId: string, lane: Lane): Lesson | un
 }
 
 /** The next lesson available on this family's lane, skipping restricted checkpoints. */
-export function getNextLesson(unit: Unit, lessonId: string, lane: Lane): Lesson | undefined {
-  const lessons = visibleLessons(unit, lane);
+export function getNextLesson(source: Pick<Unit, 'lessons'>, lessonId: string, lane: Lane): Lesson | undefined {
+  const lessons = visibleLessons(source, lane);
   const currentIndex = lessons.findIndex((lesson) => lesson.id === lessonId);
   return currentIndex >= 0 ? lessons[currentIndex + 1] : undefined;
 }
