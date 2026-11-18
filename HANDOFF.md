@@ -42,6 +42,8 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
   20 project checks.
 - Sound Traffic System visual identity across Home, route directory, unit hub, lesson stages, crate,
   onboarding, settings and About. Briefing is yellow; Listen blue; Notice orange; Talk green; Crate red.
+- Launcher, Android adaptive/themed, and web favicon assets now use the supplied yellow-and-black
+  Listening Required railroad sign; the original 1254px source is preserved under `docs/`.
 - Reusable signage components live in `src/ui/signage/`, including the accessible four-way lesson
   placard, route badges, sign panels/buttons, record signs, context notes and stage-safe screens.
 - Setup for grown-ups (nickname, emoji avatar, listening lane, allowed music services, content note).
@@ -70,7 +72,10 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
   lesson supplies a song, the add form shows only that selection and a “Choose a different guide
   song” action instead of forcing the family to scroll through the full catalog.
 - About tab with the guide's front matter (no byline); every Field Manual section is an accessible,
-  independently collapsible accordion that starts closed.
+  independently collapsible accordion that starts closed. Sections follow Intro → A Note on This
+  Guide → We're not archiving careers → To my son. The Get the Guide panel follows the accordions;
+  its side-by-side Paperweight-logo and book-icon buttons link to the Paperweight Required Listening
+  page and requested Amazon search, with three disabled plus-button placeholders beneath them.
 - Grown-up settings: change lane/providers, export data, delete all.
 - Outbound links open a provider *search* after a confirmation sheet; hosts are exactly allow-listed.
   Every unverified track is labeled “Parent preview required,” and that warning repeats before every
@@ -81,6 +86,8 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 - EAS project `29bd2171-ae38-4f5e-b974-cb451d0339ab` is linked to the `bud-diaz` account. `eas.json`
   defines an internal-distribution iOS development-client profile.
 - ESLint is configured (`eslint.config.js`); JSX copy and schema type/value declarations lint cleanly.
+- A future lesson-pack architecture and phased rollout is documented in `docs/LESSON_PACKS_PLAN.md`;
+  no pack download or Lesson Plan runtime code has been added yet.
 
 **Content status**
 
@@ -114,11 +121,15 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 - Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
   existing plan default.
 
-**Checks (last run on current worktree after the Field Manual gate and accordions, 2026-11-12)**
+**Checks (last run on current worktree after the About icon-button refinement, 2026-11-18)**
 - `npm run lint`: pass
 - `npm run typecheck`: pass
-- `npm test` (Vitest): 153/153 pass.
-- `npx expo install --check`: pass; dependencies are up to date.
+- `npm test` (Vitest): 155/155 pass.
+- `npx expo install --check`: pass against the local SDK compatibility map; network validation was
+  unavailable in the sandbox, and dependencies are reported up to date.
+- `npx expo config --type public`: pass; new launcher, adaptive, monochrome and favicon paths resolve.
+- `npx expo export --platform web --output-dir /tmp/required-listening-about-icon-buttons-web`: pass;
+  928 modules bundled, including the copied Paperweight brand-mark asset.
 - `npx expo-doctor@latest` (`expo-doctor@1.21.8`): 20/20 checks pass.
 - `npx expo export --platform web --output-dir /tmp/required-listening-field-manual-web`: pass; 926
   modules bundled.
@@ -157,10 +168,13 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 1. Run VoiceOver, Dynamic Type, provider hand-off (including separate YouTube and YouTube Music
    choices), Home route swiping, the Field Manual and unit briefing gates, Final Project flow, Talk
-   keyboard clearance, persistence, and destructive-data checks on the registered iPhone.
+   keyboard clearance, persistence, destructive-data checks, and the About icon-button rows at the
+   320px minimum width on the registered iPhone.
 2. Review remaining track spelling, search metadata, and safety lanes. Keep unverified tracks under
    the caregiver-preview policy; this audit no longer blocks approved units from publishing.
 3. Decide the byline (see Open decisions) whenever convenient — it doesn't block curriculum use.
+4. If lesson packs move forward, settle the five product choices in `docs/LESSON_PACKS_PLAN.md`, then
+   build Phase 1 with a bundled fixture before adding network downloads.
 
 ---
 
@@ -168,6 +182,11 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-18: Moved Get the Guide after the About accordions, replaced link copy with side-by-side
+  Paperweight-logo and book-icon buttons, and added a three-slot placeholder row.
+- 2026-11-18: Replaced app/adaptive/web icons with the supplied Listening Required railroad sign,
+  reordered About front matter, added Paperweight and Amazon buttons, and documented a local-first
+  lesson-pack and Lesson Plan architecture.
 - 2026-11-12: Added a persistent three-page Field Manual gate after onboarding with protected-route
   enforcement, and converted every About section into an accessible closed-by-default accordion.
 - 2026-11-12: Added a persistent three-page unit briefing gate, strict locked-lesson redirects,

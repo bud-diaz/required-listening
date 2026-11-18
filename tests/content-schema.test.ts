@@ -16,6 +16,7 @@ import {
   visibleLessons,
 } from '../src/content';
 import { PROVIDERS, buildSearchUrl, isAllowedUrl, searchQueryFor } from '../src/lib/links';
+import { ABOUT_LINKS } from '../src/lib/about-links';
 import { Settings } from '../src/domain/crate';
 import {
   firstIncompleteUnitOverviewSection,
@@ -35,6 +36,22 @@ describe('content contract', () => {
 
   it('shows no byline until authorship is confirmed', () => {
     expect(catalog.byline).toBeNull();
+  });
+
+  it('keeps the About accordions in the editorial order', () => {
+    expect(frontMatter.sections.map((section) => section.id)).toEqual([
+      'intro',
+      'note',
+      'not-archiving-careers',
+      'dedication',
+    ]);
+  });
+
+  it('keeps the requested About links', () => {
+    expect(ABOUT_LINKS.map((link) => link.url)).toEqual([
+      'https://paperweighthq.com/required-listening',
+      'https://www.amazon.com/s?k=required+listening+the+art+of+passing+down+the+bangers&crid=CG0V2O57539K&sprefix=required+listening+the+art+of+passing+down+the+bangers%2Caps%2C139&ref=nb_sb_noss',
+    ]);
   });
 
   it('marks exactly the converted units as available', () => {
