@@ -14,6 +14,10 @@ The bundled catalog already sits behind a `LessonPackCatalog` interface; the nex
 allow-listed HTTPS catalog, temporary downloads, SHA-256 verification, compatibility checks, retry
 states, and atomic updates described below without changing the screen or repository contracts.
 
+All new pack content must begin with
+[`docs/content-templates/lesson-pack.v1.template.json`](content-templates/lesson-pack.v1.template.json)
+and follow the checklist in [`docs/content-templates/README.md`](content-templates/README.md).
+
 ## Recommendation
 
 Start with **curated, first-party, text-only packs** published by Paperweight. A pack is an immutable,

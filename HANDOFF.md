@@ -89,6 +89,11 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
   and crate provenance use namespaced content references; existing bare lesson progress migrates to
   `core-v1` without losing completion. Production builds expose no pack until approved content is
   added. The catalog is behind an adapter for the future verified network download layer.
+- Canonical copy-ready content templates live in `docs/content-templates/` for standalone lesson
+  blocks, 10-lesson core units, and flexible lesson packs. Their README is the required authoring and
+  review checklist. Tests parse every template against the live strict schemas, which now reject
+  undeclared fields, unsafe younger-lane tracks, missing caregiver context, duplicate IDs, broken
+  references, misnumbered lessons, and approval records that still contain adapted draft prompts.
 - EAS project `29bd2171-ae38-4f5e-b974-cb451d0339ab` is linked to the `bud-diaz` account. `eas.json`
   defines an internal-distribution iOS development-client profile.
 - ESLint is configured (`eslint.config.js`); JSX copy and schema type/value declarations lint cleanly.
@@ -127,10 +132,10 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 - Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
   existing plan default.
 
-**Checks (last run on current lesson-pack worktree, 2026-11-18)**
+**Checks (last run on current content-template worktree, 2026-11-18)**
 - `npm run lint`: pass
 - `npx tsc --noEmit`: pass
-- `npm test` (Vitest): 159/159 pass.
+- `npm test` (Vitest): 164/164 pass.
 - `npx expo install --check`: pass against the local SDK compatibility map; network validation was
   unavailable in the sandbox, and dependencies are reported up to date.
 - `npx expo config --type public`: pass; new launcher, adaptive, monochrome and favicon paths resolve.
@@ -191,6 +196,9 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-18: Added mandatory lesson, core-unit, and lesson-pack authoring templates with a review
+  checklist; tightened the live schemas and tests to enforce safety, references, numbering,
+  provenance, review state, and strict declared fields.
 - 2026-11-18: Implemented Lesson Packs Phase 1 with namespaced progress migration, offline pack
   installation, an ordered persistent Lesson Plan, pack-aware lesson/crate/reflection flows,
   export/Delete All coverage, development-only fixture content, routes, and tests.

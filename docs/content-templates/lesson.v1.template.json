@@ -1,0 +1,49 @@
+{
+  "id": "replace-lesson-id",
+  "number": 1,
+  "title": "Replace with lesson title",
+  "body": [
+    {
+      "type": "text",
+      "text": "Replace with concise context grounded in the approved source material."
+    },
+    {
+      "type": "callout",
+      "text": "Replace with the one idea the family should carry into the listening step."
+    },
+    {
+      "type": "list",
+      "label": "Listen for",
+      "items": [
+        "Replace with one concrete listening cue",
+        "Replace with a second concrete listening cue"
+      ]
+    }
+  ],
+  "listen": ["replace-track-id"],
+  "notice": {
+    "text": "Replace with one concise sound, culture, or feeling cue.",
+    "source": "adapted"
+  },
+  "talk": {
+    "text": "Replace with one open caregiver discussion prompt.",
+    "source": "adapted"
+  },
+  "activity": {
+    "text": "Replace with an optional family activity, or remove the activity field.",
+    "source": "adapted"
+  },
+  "minLane": "guided",
+  "requiresCaregiverContext": true,
+  "caregiverNote": "Replace with the specific context a grown-up should preview or explain.",
+  "contentFlags": ["mature-themes"],
+  "influence": {
+    "direct": [
+      {
+        "name": "Replace with a direct influence",
+        "note": "Replace with the documented connection."
+      }
+    ],
+    "cultural": ["Replace with one documented cultural influence"]
+  }
+}

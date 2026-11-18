@@ -42,6 +42,7 @@ export const Review = z
     reviewedAt: z.string().nullable(),
     reviewedBy: z.string().nullable(),
   })
+  .strict()
   .refine((r) => r.status !== 'approved' || (r.reviewedAt && r.reviewedBy), {
     message: 'Approved content needs reviewedAt and reviewedBy',
   });
@@ -72,7 +73,7 @@ export const Track = z.object({
   sourceNotes: z.string().optional(),
   /** True when a grown-up must preview the exact provider result before playing it. */
   requiresCaregiverPreview: z.boolean(),
-}).superRefine((track, ctx) => {
+}).strict().superRefine((track, ctx) => {
   if (track.requiresCaregiverPreview !== (track.cleanVersionStatus === 'unverified')) {
     ctx.addIssue({
       code: z.ZodIssueCode.custom,
@@ -80,17 +81,31 @@ export const Track = z.object({
       message: 'Unverified tracks require caregiver preview; confirmed statuses must not use that flag.',
     });
   }
+  if (track.youngerListener && track.minLane !== 'younger') {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ['minLane'],
+      message: 'Younger Listener picks must be available on the younger lane.',
+    });
+  }
+  if (track.minLane === 'younger' && (track.contentFlags.length > 0 || track.cleanVersionStatus === 'explicit')) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ['contentFlags'],
+      message: 'Tracks on the younger lane cannot be explicit or carry content flags.',
+    });
+  }
 });
 export type Track = z.infer<typeof Track>;
 
 export const BodyBlock = z.discriminatedUnion('type', [
-  z.object({ type: z.literal('text'), text: z.string().min(1) }),
-  z.object({ type: z.literal('callout'), text: z.string().min(1) }),
+  z.object({ type: z.literal('text'), text: z.string().min(1) }).strict(),
+  z.object({ type: z.literal('callout'), text: z.string().min(1) }).strict(),
   z.object({
     type: z.literal('list'),
     label: z.string().optional(),
     items: z.array(z.string().min(1)).min(1),
-  }),
+  }).strict(),
 ]);
 export type BodyBlock = z.infer<typeof BodyBlock>;
 
@@ -104,13 +119,13 @@ export const PromptSource = z.enum(['guide', 'adapted', 'approved-adaptation']);
 export const Prompt = z.object({
   text: z.string().min(1),
   source: PromptSource,
-});
+}).strict();
 export type Prompt = z.infer<typeof Prompt>;
 
 export const Influence = z.object({
-  direct: z.array(z.object({ name: z.string(), note: z.string().optional(), unitId: id.optional() })),
+  direct: z.array(z.object({ name: z.string(), note: z.string().optional(), unitId: id.optional() }).strict()),
   cultural: z.array(z.string()),
-});
+}).strict();
 
 export const Lesson = z.object({
   id,
@@ -129,6 +144,14 @@ export const Lesson = z.object({
   caregiverNote: z.string().optional(),
   contentFlags: z.array(ContentFlag),
   influence: Influence.optional(),
+}).strict().superRefine((lesson, ctx) => {
+  if (lesson.requiresCaregiverContext && !lesson.caregiverNote?.trim()) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ['caregiverNote'],
+      message: 'Lessons requiring caregiver context must include a caregiver note.',
+    });
+  }
 });
 export type Lesson = z.infer<typeof Lesson>;
 
@@ -137,29 +160,95 @@ export const FinalProject = z.object({
   earlyOptions: z.array(id).min(1),
   laterOptions: z.array(id).min(1),
   influencedCount: z.number().int().min(1),
-});
+}).strict();
 
-export const Unit = z.object({
-  schemaVersion: z.literal(1),
-  id,
-  number: z.number().int().min(1).max(10),
-  displayName: z.string().min(1),
-  /** Two-letter monogram used instead of artist photos (no image rights needed). */
-  monogram: z.string().min(1).max(3),
-  whyItMatters: z.string().min(1),
-  passedDown: z.object({ trackId: id, blurb: z.string().min(1) }),
-  youngerListener: z.object({ trackIds: z.array(id).min(1), note: z.string() }),
-  overview: z.object({ summary: z.array(z.string()).min(1), closing: z.string() }),
-  learnOutcomes: z.array(z.string()).min(1),
-  tracks: z.array(Track).min(1),
-  lessons: z.array(Lesson).length(10),
-  finalProject: FinalProject,
-  contentFlags: z.array(ContentFlag),
-  estimatedMinutesPerLesson: z.number().int().positive(),
-  sourceNotes: z.string(),
-  lessonReview: Review,
-  review: Review,
-});
+export const Unit = z
+  .object({
+    schemaVersion: z.literal(1),
+    id,
+    number: z.number().int().min(1).max(10),
+    displayName: z.string().min(1),
+    /** Two-letter monogram used instead of artist photos (no image rights needed). */
+    monogram: z.string().min(1).max(3),
+    whyItMatters: z.string().min(1),
+    passedDown: z.object({ trackId: id, blurb: z.string().min(1) }).strict(),
+    youngerListener: z.object({ trackIds: z.array(id).min(1), note: z.string() }).strict(),
+    overview: z.object({ summary: z.array(z.string().min(1)).min(1), closing: z.string().min(1) }).strict(),
+    learnOutcomes: z.array(z.string().min(1)).min(1),
+    tracks: z.array(Track).min(1),
+    lessons: z.array(Lesson).length(10),
+    finalProject: FinalProject,
+    contentFlags: z.array(ContentFlag),
+    estimatedMinutesPerLesson: z.number().int().positive(),
+    sourceNotes: z.string().min(1),
+    lessonReview: Review,
+    review: Review,
+  })
+  .strict()
+  .superRefine((unit, ctx) => {
+    const trackIds = new Set(unit.tracks.map((track) => track.id));
+    const lessonIds = new Set(unit.lessons.map((lesson) => lesson.id));
+    if (trackIds.size !== unit.tracks.length) {
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['tracks'], message: 'Track IDs must be unique.' });
+    }
+    if (lessonIds.size !== unit.lessons.length) {
+      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['lessons'], message: 'Lesson IDs must be unique.' });
+    }
+    const expectedNumbers = unit.lessons.map((_, index) => index + 1);
+    if (unit.lessons.some((lesson, index) => lesson.number !== expectedNumbers[index])) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ['lessons'],
+        message: 'Core unit lessons must be ordered and numbered 1 through 10.',
+      });
+    }
+    if (unit.review.status === 'approved' && unit.lessonReview.status !== 'approved') {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ['lessonReview', 'status'],
+        message: 'A production-approved unit must also have approved lesson content.',
+      });
+    }
+    const requireTrack = (trackId: string, path: (string | number)[]) => {
+      if (!trackIds.has(trackId)) {
+        ctx.addIssue({ code: z.ZodIssueCode.custom, path, message: `Unknown track ID: ${trackId}` });
+      }
+    };
+    requireTrack(unit.passedDown.trackId, ['passedDown', 'trackId']);
+    unit.youngerListener.trackIds.forEach((trackId, index) => {
+      requireTrack(trackId, ['youngerListener', 'trackIds', index]);
+      const track = unit.tracks.find((item) => item.id === trackId);
+      if (track && (!track.youngerListener || track.minLane !== 'younger')) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['youngerListener', 'trackIds', index],
+          message: 'Younger Listener references must point to tracks marked for the younger lane.',
+        });
+      }
+    });
+    unit.lessons.forEach((lesson, lessonIndex) => {
+      lesson.listen.forEach((trackId, trackIndex) =>
+        requireTrack(trackId, ['lessons', lessonIndex, 'listen', trackIndex])
+      );
+      if (unit.lessonReview.status === 'approved') {
+        [lesson.notice, lesson.talk, lesson.activity].forEach((prompt, promptIndex) => {
+          if (prompt?.source === 'adapted') {
+            ctx.addIssue({
+              code: z.ZodIssueCode.custom,
+              path: ['lessons', lessonIndex, ['notice', 'talk', 'activity'][promptIndex], 'source'],
+              message: 'Approved lesson sets cannot contain unapproved adapted prompts.',
+            });
+          }
+        });
+      }
+    });
+    unit.finalProject.earlyOptions.forEach((trackId, index) =>
+      requireTrack(trackId, ['finalProject', 'earlyOptions', index])
+    );
+    unit.finalProject.laterOptions.forEach((trackId, index) =>
+      requireTrack(trackId, ['finalProject', 'laterOptions', index])
+    );
+  });
 export type Unit = z.infer<typeof Unit>;
 
 export const CatalogEntry = z.object({

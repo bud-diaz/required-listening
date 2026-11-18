@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "packId": "replace-pack-id",
+  "version": 1,
+  "title": "Replace with pack title",
+  "summary": "Replace with a short description of what the family will learn and do.",
+  "publisher": "Paperweight",
+  "publishedAt": "2026-01-01T00:00:00.000Z",
+  "minAppVersion": "0.1.0",
+  "downloadBytes": 0,
+  "contentFlags": [],
+  "estimatedMinutesPerLesson": 10,
+  "tracks": [
+    {
+      "id": "replace-pack-track-01",
+      "title": "Replace with track title",
+      "artist": "Replace with artist name",
+      "type": "instrumental",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "instrumental",
+      "contentFlags": [],
+      "searchQuery": "Replace with track and artist search terms",
+      "sourceNotes": "Replace with editorial source and version notes.",
+      "requiresCaregiverPreview": false
+    }
+  ],
+  "lessons": [
+    {
+      "id": "replace-pack-lesson-01",
+      "number": 1,
+      "title": "Replace with first pack lesson",
+      "body": [
+        {
+          "type": "text",
+          "text": "Replace with the lesson context."
+        }
+      ],
+      "listen": ["replace-pack-track-01"],
+      "notice": {
+        "text": "Replace with one listening cue.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Replace with one family discussion prompt.",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Replace with an optional activity, or remove this field.",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "replace-pack-lesson-02",
+      "number": 2,
+      "title": "Replace with second pack lesson",
+      "body": [
+        {
+          "type": "text",
+          "text": "Replace with the lesson context."
+        }
+      ],
+      "listen": ["replace-pack-track-01"],
+      "notice": {
+        "text": "Replace with one listening cue.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Replace with one family discussion prompt.",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "developmentOnly": true
+}

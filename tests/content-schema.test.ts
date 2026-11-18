@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { Unit } from '../src/content/schemas';
+import { Lesson, Track, Unit } from '../src/content/schemas';
 import {
   RAW_UNITS,
   allTracks,
@@ -21,6 +21,9 @@ import { Settings } from '../src/domain/crate';
 import { availableLessonPacks } from '../src/content/packs';
 import { demoFamilyAnthemsPack } from '../src/content/packs/demo-family-anthems.v1';
 import { LessonPack } from '../src/domain/lesson-packs';
+import lessonTemplate from '../docs/content-templates/lesson.v1.template.json';
+import unitTemplate from '../docs/content-templates/unit.v1.template.json';
+import packTemplate from '../docs/content-templates/lesson-pack.v1.template.json';
 import {
   firstIncompleteUnitOverviewSection,
   isRouteComplete,
@@ -28,6 +31,18 @@ import {
 } from '../src/domain/progress';
 
 describe('content contract', () => {
+  it('keeps every authoring template synchronized with the live schemas', () => {
+    expect(Lesson.safeParse(lessonTemplate).success).toBe(true);
+    expect(Unit.safeParse(unitTemplate).success).toBe(true);
+    expect(LessonPack.safeParse(packTemplate).success).toBe(true);
+  });
+
+  it('rejects undeclared template fields instead of silently dropping them', () => {
+    expect(Lesson.safeParse({ ...lessonTemplate, unexpectedField: true }).success).toBe(false);
+    expect(Unit.safeParse({ ...unitTemplate, unexpectedField: true }).success).toBe(false);
+    expect(LessonPack.safeParse({ ...packTemplate, unexpectedField: true }).success).toBe(false);
+  });
+
   it('parses every content file', () => {
     expect(catalog.units).toHaveLength(10);
     expect(frontMatter.sections.length).toBeGreaterThan(0);
@@ -173,6 +188,43 @@ describe('schema guards', () => {
   it('rejects non-kebab IDs', () => {
     const bad = { ...(RAW_UNITS[0] as object), id: 'Chief Keef' };
     expect(Unit.safeParse(bad).success).toBe(false);
+  });
+
+  it('rejects misnumbered units and broken track references', () => {
+    const misnumbered = structuredClone(unitTemplate);
+    misnumbered.lessons[1].number = 7;
+    expect(Unit.safeParse(misnumbered).success).toBe(false);
+
+    const missingTrack = structuredClone(unitTemplate);
+    missingTrack.lessons[0].listen = ['missing-track'];
+    expect(Unit.safeParse(missingTrack).success).toBe(false);
+  });
+
+  it('rejects unsafe younger-lane tracks and missing caregiver context', () => {
+    const unsafeTrack = {
+      ...unitTemplate.tracks[1],
+      type: 'song',
+      cleanVersionStatus: 'explicit',
+      contentFlags: ['explicit-language'],
+    };
+    expect(Track.safeParse(unsafeTrack).success).toBe(false);
+
+    const missingContext = { ...lessonTemplate, caregiverNote: undefined };
+    expect(Lesson.safeParse(missingContext).success).toBe(false);
+  });
+
+  it('requires approved content to finish adapted-prompt review', () => {
+    const approvedUnit = {
+      ...structuredClone(unitTemplate),
+      lessonReview: { status: 'approved', reviewedAt: '2026-11-18', reviewedBy: 'editor' },
+    };
+    expect(Unit.safeParse(approvedUnit).success).toBe(false);
+
+    const approvedPack = {
+      ...structuredClone(packTemplate),
+      review: { status: 'approved', reviewedAt: '2026-11-18', reviewedBy: 'editor' },
+    };
+    expect(LessonPack.safeParse(approvedPack).success).toBe(false);
   });
 });
 

@@ -6,7 +6,7 @@ const packId = z
   .string()
   .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Pack IDs must be lowercase kebab-case');
 
-export const PackLesson = Lesson.extend({
+export const PackLesson = Lesson.safeExtend({
   number: z.number().int().min(1).max(50),
 });
 export type PackLesson = z.infer<typeof PackLesson>;
@@ -20,7 +20,7 @@ export const LessonPack = z
     summary: z.string().min(1),
     publisher: z.string().min(1),
     publishedAt: z.string(),
-    minAppVersion: z.string().min(1),
+    minAppVersion: z.string().regex(/^\d+\.\d+\.\d+$/, 'Minimum app version must use major.minor.patch.'),
     downloadBytes: z.number().int().nonnegative(),
     contentFlags: z.array(ContentFlag),
     estimatedMinutesPerLesson: z.number().int().positive(),
@@ -45,6 +45,13 @@ export const LessonPack = z
         });
       }
       lessonIds.add(lesson.id);
+      if (lesson.number !== index + 1) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['lessons', index, 'number'],
+          message: 'Pack lessons must be ordered and numbered consecutively from 1.',
+        });
+      }
       for (const id of lesson.listen) {
         if (!trackIds.has(id)) {
           ctx.addIssue({
@@ -53,6 +60,19 @@ export const LessonPack = z
             message: `Unknown track ID: ${id}`,
           });
         }
+      }
+      if (pack.review.status === 'approved') {
+        const prompts = [lesson.notice, lesson.talk, lesson.activity];
+        const names = ['notice', 'talk', 'activity'] as const;
+        prompts.forEach((prompt, promptIndex) => {
+          if (prompt?.source === 'adapted') {
+            ctx.addIssue({
+              code: z.ZodIssueCode.custom,
+              path: ['lessons', index, names[promptIndex], 'source'],
+              message: 'Approved packs cannot contain unapproved adapted prompts.',
+            });
+          }
+        });
       }
     }
   });

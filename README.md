@@ -30,6 +30,7 @@ npm test            # Vitest: content contract, lanes, links, crate persistence
 | Path | What |
 | --- | --- |
 | `src/content/*.v1.json`, `src/content/artists/` | Curriculum as versioned, reviewable data. Screens never hard-code guide text. |
+| `docs/content-templates/` | Mandatory copy-ready lesson, core-unit, and lesson-pack authoring templates. |
 | `src/content/schemas.ts` | Zod content contract: tracks, lessons, content flags, lanes, review status. |
 | `src/content/index.ts` | Loading, the review gate, and listening-lane filtering (also applied to deep links). |
 | `src/lib/links.ts` | Provider search URLs and the allowed-host check. |

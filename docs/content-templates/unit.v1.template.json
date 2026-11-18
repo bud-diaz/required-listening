@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "replace-artist-id",
+  "number": 1,
+  "displayName": "Replace with artist name",
+  "monogram": "RA",
+  "whyItMatters": "Replace with the approved explanation of why this artist belongs in the guide.",
+  "passedDown": {
+    "trackId": "replace-passed-down-track",
+    "blurb": "Replace with the family-facing reason this selection is being passed down."
+  },
+  "youngerListener": {
+    "trackIds": ["replace-younger-track"],
+    "note": "Replace with guidance for the Younger Listener selection."
+  },
+  "overview": {
+    "summary": [
+      "Replace with the first approved route summary paragraph.",
+      "Replace with the second approved route summary paragraph."
+    ],
+    "closing": "Replace with the thought that leads the family into the lessons."
+  },
+  "learnOutcomes": [
+    "Replace with one concrete learning outcome",
+    "Replace with a second concrete learning outcome"
+  ],
+  "tracks": [
+    {
+      "id": "replace-passed-down-track",
+      "title": "Replace with passed-down track title",
+      "artist": "Replace with artist name",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": ["mature-themes"],
+      "caregiverNote": "Preview the exact provider result and prepare the listed context before playing.",
+      "searchQuery": "Replace with passed-down track and artist search terms",
+      "sourceNotes": "Replace with editorial source, release, and version notes.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "replace-younger-track",
+      "title": "Replace with Younger Listener selection",
+      "artist": "Replace with artist name",
+      "type": "instrumental",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "instrumental",
+      "contentFlags": [],
+      "searchQuery": "Replace with instrumental and artist search terms",
+      "sourceNotes": "Replace with editorial source and version notes.",
+      "requiresCaregiverPreview": false
+    }
+  ],
+  "lessons": [
+    {
+      "id": "replace-artist-lesson-01",
+      "number": 1,
+      "title": "Replace with lesson 1 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 1 context." }],
+      "listen": ["replace-younger-track"],
+      "notice": { "text": "Replace with lesson 1 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 1 discussion prompt.", "source": "adapted" },
+      "activity": { "text": "Replace with lesson 1 activity, or remove this field.", "source": "adapted" },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "replace-artist-lesson-02",
+      "number": 2,
+      "title": "Replace with lesson 2 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 2 context." }],
+      "listen": ["replace-passed-down-track"],
+      "notice": { "text": "Replace with lesson 2 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 2 discussion prompt.", "source": "adapted" },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Replace with the specific context a grown-up should prepare for lesson 2.",
+      "contentFlags": ["mature-themes"]
+    },
+    {
+      "id": "replace-artist-lesson-03",
+      "number": 3,
+      "title": "Replace with lesson 3 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 3 context." }],
+      "listen": ["replace-passed-down-track"],
+      "notice": { "text": "Replace with lesson 3 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 3 discussion prompt.", "source": "adapted" },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Replace with the specific context a grown-up should prepare for lesson 3.",
+      "contentFlags": ["mature-themes"]
+    },
+    {
+      "id": "replace-artist-lesson-04",
+      "number": 4,
+      "title": "Replace with lesson 4 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 4 context." }],
+      "listen": ["replace-younger-track"],
+      "notice": { "text": "Replace with lesson 4 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 4 discussion prompt.", "source": "adapted" },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "replace-artist-lesson-05",
+      "number": 5,
+      "title": "Replace with lesson 5 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 5 context." }],
+      "listen": ["replace-passed-down-track"],
+      "notice": { "text": "Replace with lesson 5 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 5 discussion prompt.", "source": "adapted" },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Replace with the specific context a grown-up should prepare for lesson 5.",
+      "contentFlags": ["mature-themes"]
+    },
+    {
+      "id": "replace-artist-lesson-06",
+      "number": 6,
+      "title": "Replace with lesson 6 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 6 context." }],
+      "listen": ["replace-passed-down-track"],
+      "notice": { "text": "Replace with lesson 6 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 6 discussion prompt.", "source": "adapted" },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Replace with the specific context a grown-up should prepare for lesson 6.",
+      "contentFlags": ["mature-themes"]
+    },
+    {
+      "id": "replace-artist-lesson-07",
+      "number": 7,
+      "title": "Replace with lesson 7 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 7 context." }],
+      "listen": ["replace-younger-track"],
+      "notice": { "text": "Replace with lesson 7 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 7 discussion prompt.", "source": "adapted" },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "replace-artist-lesson-08",
+      "number": 8,
+      "title": "Replace with lesson 8 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 8 context." }],
+      "listen": ["replace-passed-down-track"],
+      "notice": { "text": "Replace with lesson 8 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 8 discussion prompt.", "source": "adapted" },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Replace with the specific context a grown-up should prepare for lesson 8.",
+      "contentFlags": ["mature-themes"]
+    },
+    {
+      "id": "replace-artist-lesson-09",
+      "number": 9,
+      "title": "Replace with lesson 9 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 9 context." }],
+      "listen": ["replace-passed-down-track"],
+      "notice": { "text": "Replace with lesson 9 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 9 discussion prompt.", "source": "adapted" },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Replace with the specific context a grown-up should prepare for lesson 9.",
+      "contentFlags": ["mature-themes"]
+    },
+    {
+      "id": "replace-artist-lesson-10",
+      "number": 10,
+      "title": "Replace with lesson 10 title",
+      "body": [{ "type": "text", "text": "Replace with lesson 10 context." }],
+      "listen": ["replace-younger-track"],
+      "notice": { "text": "Replace with lesson 10 listening cue.", "source": "adapted" },
+      "talk": { "text": "Replace with lesson 10 discussion prompt.", "source": "adapted" },
+      "activity": { "text": "Replace with a closing activity, or remove this field.", "source": "adapted" },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": [],
+      "influence": {
+        "direct": [{ "name": "Replace with a direct influence", "note": "Replace with the documented connection." }],
+        "cultural": ["Replace with a documented cultural influence"]
+      }
+    }
+  ],
+  "finalProject": {
+    "prompt": "Replace with the optional final project prompt.",
+    "earlyOptions": ["replace-passed-down-track"],
+    "laterOptions": ["replace-younger-track"],
+    "influencedCount": 1
+  },
+  "contentFlags": ["mature-themes"],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Replace with the guide pages, editorial sources, and outstanding verification notes.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}
