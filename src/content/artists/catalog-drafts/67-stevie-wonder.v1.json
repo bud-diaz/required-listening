@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 1,
+  "id": "stevie-wonder",
+  "number": 67,
+  "displayName": "Stevie Wonder",
+  "monogram": "SW",
+  "whyItMatters": "Stevie Wonder matters because the source catalog identifies this route with The greatest all-around musician in modern Black music, A prodigy who mastered piano, drums, harmonica by childhood, A studio scientist who redefined synthesizers, A songwriter whose melodies last centuries.",
+  "passedDown": {
+    "trackId": "stevie-wonder-fingertips-pt-2",
+    "blurb": "Start with “Fingertips Pt. 2” and use the unit's checkpoints to hear how Stevie Wonder's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "stevie-wonder-you-are-the-sunshine-of-my-life",
+      "stevie-wonder-sir-duke",
+      "stevie-wonder-isn-t-she-lovely",
+      "stevie-wonder-signed-sealed-delivered-i-m-yours"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The greatest all-around musician in modern Black music",
+      "A prodigy who mastered piano, drums, harmonica by childhood",
+      "A studio scientist who redefined synthesizers",
+      "A songwriter whose melodies last centuries",
+      "A political voice",
+      "A futurist",
+      "A rolling timeline of R&B, pop, funk, and jazz innovation",
+      "A sampling goldmine for hip-hop"
+    ],
+    "closing": "Stevie is curriculum core material."
+  },
+  "learnOutcomes": [
+    "Song structure",
+    "Advanced harmony",
+    "Time signatures",
+    "Groove",
+    "Social commentary",
+    "Musical empathy",
+    "How Black artists changed technology itself"
+  ],
+  "tracks": [
+    {
+      "id": "stevie-wonder-fingertips-pt-2",
+      "title": "Fingertips Pt. 2",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Fingertips Pt. 2 Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-i-was-made-to-love-her",
+      "title": "I Was Made to Love Her",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Was Made to Love Her Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-for-once-in-my-life",
+      "title": "For Once in My Life",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "For Once in My Life Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-superwoman-where-were-you-when-i-needed-you",
+      "title": "Superwoman (Where Were You When I Needed You)",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Superwoman (Where Were You When I Needed You) Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-love-having-you-around",
+      "title": "Love Having You Around",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Love Having You Around Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-superstition",
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Superstition Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-you-are-the-sunshine-of-my-life",
+      "title": "You Are the Sunshine of My Life",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "You Are the Sunshine of My Life Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-i-believe-when-i-fall-in-love",
+      "title": "I Believe (When I Fall in Love…)",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Believe (When I Fall in Love…) Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-superstition-2",
+      "title": "Superstition.",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Superstition. Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-living-for-the-city",
+      "title": "Living for the City",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Living for the City Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-higher-ground",
+      "title": "Higher Ground",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Higher Ground Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-golden-lady",
+      "title": "Golden Lady",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Golden Lady Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-creepin",
+      "title": "Creepin’",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Creepin’ Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-they-won-t-go-when-i-go",
+      "title": "They Won’t Go When I Go",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "They Won’t Go When I Go Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-as",
+      "title": "As",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "As Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-i-wish",
+      "title": "I Wish",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Wish Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-sir-duke",
+      "title": "Sir Duke",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Sir Duke Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-knocks-me-off-my-feet",
+      "title": "Knocks Me Off My Feet",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Knocks Me Off My Feet Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-love-s-in-need-of-love-today",
+      "title": "Love’s in Need of Love Today",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Love’s in Need of Love Today Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-isn-t-she-lovely",
+      "title": "Isn’t She Lovely",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Isn’t She Lovely Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "stevie-wonder-signed-sealed-delivered-i-m-yours",
+      "title": "Signed, Sealed, Delivered I’m Yours",
+      "artist": "Stevie Wonder",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Signed, Sealed, Delivered I’m Yours Stevie Wonder",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 854-867. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "stevie-wonder-lesson-01-origins-blind-prodigy-detroit-and-motown-trai",
+      "number": 1,
+      "title": "Origins — Blind Prodigy, Detroit, & Motown Training",
+      "body": [
+        {
+          "type": "text",
+          "text": "Training Goals: Teach the foundation of genius. “How does a kid control a crowd like that?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born premature → blindness from birth",
+            "Detroit church + musical household",
+            "Self-taught on multiple instruments by age 8",
+            "Signed to Motown at 11",
+            "“Little Stevie Wonder” era → child prodigy on harmonica & drums",
+            "Mentorship from Berry Gordy, Marvin Gaye, Smokey Robinson",
+            "“Fingertips Pt. 2” (live)"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-fingertips-pt-2"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Fingertips Pt. 2” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does a kid control a crowd like that?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "stevie-wonder-lesson-02-the-teenage-artist-voice-developing-identity",
+      "number": 2,
+      "title": "The Teenage Artist — Voice Developing, Identity Forming",
+      "body": [
+        {
+          "type": "text",
+          "text": "Identity Forming Goals: Understand his transition from prodigy to artist. Lesson: “Even geniuses need YEARS of practice.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Puberty shifted his voice → deeper tone",
+            "Motown putting him in different styles (pop, R&B, standards)",
+            "His desire for independence growing",
+            "Learning songwriting, production, arranging",
+            "Becoming an instrumental powerhouse",
+            "“I Was Made to Love Her”",
+            "“For Once in My Life”"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-sir-duke",
+        "stevie-wonder-isn-t-she-lovely"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Sir Duke” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Stevie Wonder after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "stevie-wonder-lesson-03-the-classic-period-begins-music-of-my-mind",
+      "number": 3,
+      "title": "The Classic Period Begins — Music of My Mind",
+      "body": [
+        {
+          "type": "text",
+          "text": "Mind Goals: Teach the moment Stevie seized artistic control. Break down how “Superwoman” is TWO songs woven into one."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "1971 contract renegotiation — Stevie gained FULL artistic control",
+            "He begins playing most instruments himself",
+            "Introduced synthesizers in R&B/pop context",
+            "Mature spirituality, love, introspection",
+            "Part of what we call “Stevie’s Classic Period”",
+            "“Superwoman (Where Were You When I Needed You)”",
+            "“Love Having You Around”"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-superwoman-where-were-you-when-i-needed-you",
+        "stevie-wonder-love-having-you-around"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Superwoman (Where Were You When I Needed You)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Stevie Wonder after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down how “Superwoman” is TWO songs woven into one.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "stevie-wonder-lesson-04-talking-book-emotion-groove-and-innovation",
+      "number": 4,
+      "title": "Talking Book — Emotion, Groove, & Innovation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Innovation Goals: Teach how Stevie rewrote pop and R&B. Have your son listen to just the CLAVINET on “Superstition.” Teach him how one instrument can carry a whole vibe."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Fusion of synths, clavinet, funk rhythm",
+            "Love songs as emotional lessons",
+            "Accessible complexity",
+            "The birth of his “message + groove” formula",
+            "“Superstition” (funk masterclass)",
+            "“You Are the Sunshine of My Life”",
+            "“I Believe (When I Fall in Love…)”"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-superstition",
+        "stevie-wonder-you-are-the-sunshine-of-my-life",
+        "stevie-wonder-i-believe-when-i-fall-in-love",
+        "stevie-wonder-superstition-2"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Superstition” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Stevie Wonder after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son listen to just the CLAVINET on “Superstition.” Teach him how one instrument can carry a whole vibe.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "stevie-wonder-lesson-05-innervisions-social-commentary-and-album-as-l",
+      "number": 5,
+      "title": "Innervisions — Social Commentary & Album as Literature",
+      "body": [
+        {
+          "type": "text",
+          "text": "as Literature Goals: Teach political-songwriting. Break down “Living for the City” like a STORY — characters, plot, conflict, theme. Your son gon’ learn literary analysis."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Drug abuse (“Too High”)",
+            "Black poverty & survival (“Living for the City”)",
+            "Corruption (“He’s Misstra Know-It-All”)",
+            "Spiritual questioning (“Higher Ground”)",
+            "The album as a narrative experience",
+            "“Living for the City” (storytelling masterpiece)",
+            "“Higher Ground”",
+            "“Golden Lady”"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-living-for-the-city",
+        "stevie-wonder-higher-ground",
+        "stevie-wonder-golden-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Living for the City” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Stevie Wonder after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Living for the City” like a STORY — characters, plot, conflict, theme. Your son gon’ learn literary analysis.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, substances, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "stevie-wonder-lesson-06-fulfillingness-first-finale-spirituality-and",
+      "number": 6,
+      "title": "Fulfillingness' First Finale — Spirituality & Restraint",
+      "body": [
+        {
+          "type": "text",
+          "text": "Restraint Goals: Teach emotional depth. “How can soft music still feel powerful?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Softer, more intimate tone",
+            "Themes of faith, sadness, maturity",
+            "Stevie processing life changes",
+            "Minimalist production compared to earlier work",
+            "“Creepin’”",
+            "“They Won’t Go When I Go”"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-creepin",
+        "stevie-wonder-they-won-t-go-when-i-go"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Creepin’” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How can soft music still feel powerful?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "stevie-wonder-lesson-07-songs-in-the-key-of-life-the-magnum-opus",
+      "number": 7,
+      "title": "Songs in the Key of Life — The Magnum Opus",
+      "body": [
+        {
+          "type": "text",
+          "text": "Opus Goals: Teach the greatest album EVER made. Every track is essential, but focus on: Explain why this album shows “what a life sounds like.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "2-LP + EP masterpiece",
+            "Musical encyclopedia of Black sound",
+            "Funk (“I Wish”)",
+            "Soul (“As”)",
+            "Jazz fusion (“Contusion”)",
+            "Pop (“Isn’t She Lovely”)",
+            "Global influences (“Ngiculela – Es Una Historia”)",
+            "Philosophy, spirituality, joy, childhood, society",
+            "“As”",
+            "“I Wish”",
+            "“Sir Duke”",
+            "“Knocks Me Off My Feet”",
+            "“Love’s in Need of Love Today”"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-as",
+        "stevie-wonder-i-wish",
+        "stevie-wonder-sir-duke",
+        "stevie-wonder-knocks-me-off-my-feet",
+        "stevie-wonder-love-s-in-need-of-love-today"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “As” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Stevie Wonder after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain why this album shows “what a life sounds like.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "stevie-wonder-lesson-08-stevie-and-technology-synth-pioneer",
+      "number": 8,
+      "title": "Stevie & Technology — Synth Pioneer",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach music tech history. Let your son identify each synth tone in “Superstition” vs “Boogie On Reggae Woman.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "TONTO synthesizer system",
+            "Stevie using synths to replace horn sections",
+            "Early electronic R&B",
+            "The bridge between funk → electro → hip-hop",
+            "His sound shaping 80s pop, 90s R&B, and modern Afrobeats"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-fingertips-pt-2"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Fingertips Pt. 2” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Stevie Wonder after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Let your son identify each synth tone in “Superstition” vs “Boogie On Reggae Woman.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "stevie-wonder-lesson-09-stevie-and-hip-hop-the-godfather-sample-pool",
+      "number": 9,
+      "title": "Stevie & Hip-Hop — The Godfather Sample Pool",
+      "body": [
+        {
+          "type": "text",
+          "text": "Pool Goals: Show why rappers LOVE Stevie. Key samples: Discuss how hip-hop keeps Stevie’s stories alive for new generations."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Pastime Paradise” → Coolio “Gangsta’s Paradise”",
+            "“Living for the City” → Scarface",
+            "“Rocket Love” → Drake & Travis Scott",
+            "“Creepin’” → J. Cole",
+            "“That Girl” → A Tribe Called Quest",
+            "“As” → Mary J. Blige",
+            "“Visions” → Kanye vibes all over 808s"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-fingertips-pt-2"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Fingertips Pt. 2” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Stevie Wonder after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, violence, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "stevie-wonder-lesson-10-post-classic-work-activism-and-legacy-stevie",
+      "number": 10,
+      "title": "Post-Classic Work, Activism, & Legacy + Stevie’s Musical Tools",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach the whole person. Stevie shaped the entire landscape. Lesson 11: Stevie’s Musical Tools Introduce technical literacy: Your son will be learning MUSIC, not just Stevie."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Fought hard for MLK Day to become a national holiday",
+            "Political awareness",
+            "Love & unity themes",
+            "Later albums: Hotter Than July, In Square Circle",
+            "Influence on:",
+            "Alicia Keys",
+            "Beyonce",
+            "Frank Ocean",
+            "Anderson .Paak",
+            "D’Angelo",
+            "Bruno Mars",
+            "EVERYBODY",
+            "polychords",
+            "unexpected key changes",
+            "circular chord progressions",
+            "rhythmic syncopation",
+            "harmonica phrasing",
+            "multi-instrumentation"
+          ]
+        }
+      ],
+      "listen": [
+        "stevie-wonder-fingertips-pt-2"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Fingertips Pt. 2” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Stevie Wonder after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Stevie Wonder shaped modern Black music across composition, technology, social commentary, and vocal performance using TWO classic-period albums and ONE influence analysis.",
+    "earlyOptions": [
+      "stevie-wonder-fingertips-pt-2"
+    ],
+    "laterOptions": [
+      "stevie-wonder-love-s-in-need-of-love-today"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "mature-themes",
+    "violence",
+    "substances",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 65, pages 854-867. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

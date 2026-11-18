@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "id": "the-weeknd",
+  "number": 13,
+  "displayName": "The Weeknd",
+  "monogram": "WE",
+  "whyItMatters": "The Weeknd matters because the source catalog identifies this route with pioneer of alt-R&B, master of atmosphere, mood, and cinematic sound, storyteller of lust, addiction, heartbreak, ego, and self-hate, vocal descendant of Michael Jackson with DARKER emotional palette.",
+  "passedDown": {
+    "trackId": "the-weeknd-the-morning",
+    "blurb": "Start with “The Morning” and use the unit's checkpoints to hear how The Weeknd's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "the-weeknd-die-for-you",
+      "the-weeknd-i-feel-it-coming",
+      "the-weeknd-blinding-lights",
+      "the-weeknd-save-your-tears",
+      "the-weeknd-out-of-time"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "pioneer of alt-R&B",
+      "master of atmosphere, mood, and cinematic sound",
+      "storyteller of lust, addiction, heartbreak, ego, and self-hate",
+      "vocal descendant of Michael Jackson with DARKER emotional palette",
+      "genre shapeshifter (R&B → trap → pop → 80s synthwave → industrial)",
+      "marketing genius (mystery, no interviews, iconic visuals)",
+      "one of the most successful artists of the 21st century",
+      "vocal control"
+    ],
+    "closing": "This is a serious lesson in artistic evolution."
+  },
+  "learnOutcomes": [
+    "vocal control",
+    "aesthetic consistency",
+    "darkness as narrative tool",
+    "concept album construction",
+    "pop writing",
+    "boundary-pushing creativity",
+    "emotional honesty and self-awareness"
+  ],
+  "tracks": [
+    {
+      "id": "the-weeknd-the-morning",
+      "title": "The Morning",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "The Morning The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-high-for-this",
+      "title": "High for This",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "High for This The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-wicked-games",
+      "title": "Wicked Games",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Wicked Games The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-the-party-and-the-after-party",
+      "title": "The Party & the After Party",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "The Party & the After Party The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-kiss-land",
+      "title": "Kiss Land",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Kiss Land The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-adaptation",
+      "title": "Adaptation",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Adaptation The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-belong-to-the-world",
+      "title": "Belong to the World",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Belong to the World The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-the-hills",
+      "title": "The Hills",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Hills The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-earned-it",
+      "title": "Earned It",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Earned It The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-often",
+      "title": "Often",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Often The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-starboy",
+      "title": "Starboy",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Starboy The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-reminder",
+      "title": "Reminder",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Reminder The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-die-for-you",
+      "title": "Die For You",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Die For You The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-i-feel-it-coming",
+      "title": "I Feel It Coming",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Feel It Coming The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-blinding-lights",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Blinding Lights The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-save-your-tears",
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Save Your Tears The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-after-hours",
+      "title": "After Hours",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "After Hours The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-take-my-breath",
+      "title": "Take My Breath",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Take My Breath The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-out-of-time",
+      "title": "Out of Time",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Out of Time The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-gasoline",
+      "title": "Gasoline",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Gasoline The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-call-out-my-name",
+      "title": "Call Out My Name",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Call Out My Name The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "the-weeknd-lesson-01-origins-toronto-shadows-ethiopian-roots-inter",
+      "number": 1,
+      "title": "Origins — Toronto Shadows, Ethiopian Roots, Internet Anonymity",
+      "body": [
+        {
+          "type": "text",
+          "text": "Roots, Internet Anonymity Goals: Explain his foundation. “What does this SOUND like emotionally? Cold? Lonely? Dreamy?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Abel Tesfaye, Ethiopian parents, raised in Scarborough",
+            "Dropped out of high school → homeless phase",
+            "Early life = drugs, partying, escapism",
+            "Uploaded music anonymously to YouTube (2010)",
+            "No interviews, no face, no identity = NEW MYSTERY",
+            "Drake co-sign defined early buzz",
+            "Toronto’s dark, icy sound shaped him",
+            "“The Morning”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-the-morning"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Morning” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-02-house-of-balloons-the-birth-of-dark-r-and-b",
+      "number": 2,
+      "title": "House of Balloons — The Birth of Dark R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach atmosphere & vulnerability. This mixtape launched a WHOLE subgenre. Traits: Describe the FEEL of the production — foggy, blurry, detached."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "reverb-heavy vocals",
+            "drug-laced lyrics",
+            "sadness wrapped in beauty",
+            "indie samples + R&B vocals",
+            "shadowy production",
+            "emotionally numb storytelling",
+            "“High for This”",
+            "“Wicked Games”",
+            "“The Party & the After Party”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-high-for-this",
+        "the-weeknd-wicked-games",
+        "the-weeknd-the-party-and-the-after-party"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “High for This” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Describe the FEEL of the production — foggy, blurry, detached.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-03-the-trilogy-era-mood-over-melody",
+      "number": 3,
+      "title": "The Trilogy Era — Mood Over Melody",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach world-building. House of Balloons Thursday Echoes of Silence Themes: Break down his vocal tools: “How can someone sound confident AND broken?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "addiction",
+            "heartbreak",
+            "emotional dissociation",
+            "toxic relationships",
+            "introspection",
+            "ego vs vulnerability",
+            "whisper falsetto",
+            "layered harmonies",
+            "breathy delivery",
+            "pain disguised as detachment"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-the-morning"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Morning” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How can someone sound confident AND broken?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, trauma, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-04-kiss-land-tour-life-isolation",
+      "number": 4,
+      "title": "Kiss Land — Tour Life Isolation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach concept albums. Themes: Connect real life → art. This album is the “culture shock” diary."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fame loneliness",
+            "emotional numbness",
+            "touring depression",
+            "hypersexuality masking trauma",
+            "isolation in foreign countries",
+            "“Kiss Land”",
+            "“Adaptation”",
+            "“Belong to the World”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-kiss-land",
+        "the-weeknd-adaptation",
+        "the-weeknd-belong-to-the-world"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Kiss Land” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Connect real life → art. This album is the “culture shock” diary.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, trauma, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-05-beauty-behind-the-madness-the-pop-takeover",
+      "number": 5,
+      "title": "Beauty Behind the Madness — The Pop Takeover",
+      "body": [
+        {
+          "type": "text",
+          "text": "Takeover Goals: Teach crossover mastery. This is the album that turned him into a global superstar WITHOUT losing darkness. Teach your son: “You can stay weird AND still go mainstream.” Compare “The Hills” and “Earned It” → two TOTALLY different sides of him."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Can’t Feel My Face”",
+            "“The Hills”",
+            "“Earned It”",
+            "“Often”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-save-your-tears",
+        "the-weeknd-blinding-lights"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Save Your Tears” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare “The Hills” and “Earned It” → two TOTALLY different sides of him.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-weeknd-lesson-06-starboy-reinvention-and-persona-building",
+      "number": 6,
+      "title": "Starboy — Reinvention & Persona Building",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach character creation. Features: “What is the Starboy persona representing?” Answer:"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Daft Punk collaboration (HUGE pivot)",
+            "neon-futuristic aesthetic",
+            "alter ego “Starboy”",
+            "darker ego themes (materialism vs emptiness)",
+            "“Starboy”",
+            "“Reminder”",
+            "“Die For You”",
+            "“I Feel It Coming”",
+            "fame",
+            "ego",
+            "image",
+            "the mask he wears"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-starboy",
+        "the-weeknd-reminder",
+        "the-weeknd-die-for-you",
+        "the-weeknd-i-feel-it-coming"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Starboy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What is the Starboy persona representing?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-weeknd-lesson-07-after-hours-80s-synthwave-cinema",
+      "number": 7,
+      "title": "After Hours — 80s Synthwave Cinema",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach maximal pop + visual storytelling. This era = Sound: Have your son connect: Teach the concept of aesthetic commitment."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "red suit",
+            "bruised face",
+            "neon lights",
+            "horror film imagery",
+            "heartbreak → descent into madness",
+            "80s synth-pop",
+            "Miami Vice aesthetics",
+            "cinematic strings",
+            "pounding bass",
+            "“Blinding Lights”",
+            "“Save Your Tears”",
+            "“After Hours”",
+            "Visuals",
+            "Cinematic references",
+            "Song themes"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-blinding-lights",
+        "the-weeknd-save-your-tears",
+        "the-weeknd-after-hours"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Blinding Lights” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son connect: ● Visuals",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-weeknd-lesson-08-dawn-fm-mortality-purification-and-radio-purg",
+      "number": 8,
+      "title": "Dawn FM — Mortality, Purification & Radio Purgatory",
+      "body": [
+        {
+          "type": "text",
+          "text": "Purgatory Goals: Teach conceptual boldness. Themes: Jim Carrey narrates the “radio station of the afterlife.” “What is he trying to purge here?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "purgatory",
+            "enlightenment",
+            "death",
+            "forgiveness",
+            "rebirth",
+            "healing",
+            "disco/electronic sound palette",
+            "“Take My Breath”",
+            "“Out of Time”",
+            "“Gasoline”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-take-my-breath",
+        "the-weeknd-out-of-time",
+        "the-weeknd-gasoline"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take My Breath” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What is he trying to purge here?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-09-the-weeknd-as-vocalist-modern-mj-dna",
+      "number": 9,
+      "title": "The Weeknd as Vocalist — Modern MJ DNA",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal analysis. Traits: “How does he express sadness with TONE instead of WORDS?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "pure falsetto",
+            "emotional whine tone",
+            "breathy whisper singing",
+            "angelic upper register",
+            "MJ-inspired phrasing",
+            "controlled vibrato",
+            "layered harmonies like a choir of… himself",
+            "“Die For You”",
+            "“Call Out My Name”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-die-for-you",
+        "the-weeknd-call-out-my-name"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Die For You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does he express sadness with TONE instead of WORDS?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-weeknd-lesson-10-the-weeknd-s-influence-tree",
+      "number": 10,
+      "title": "The Weeknd’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his HUGE cultural impact. Direct Influence (Alt-R&B Descendants): Pop Influence: Sonic Influence: Play Brent Faiyaz → compare to early Weeknd."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Bryson Tiller",
+            "Tory Lanez (R&B side)",
+            "Black Atlass",
+            "Brent Faiyaz",
+            "PARTYNEXTDOOR",
+            "6LACK",
+            "dvsn",
+            "Majid Jordan",
+            "Post Malone",
+            "Dua Lipa (80s revival)",
+            "The Kid LAROI",
+            "Troye Sivan",
+            "Trap&B wave",
+            "Sad boy R&B",
+            "atmospheric R&B",
+            "modern pop synth revival"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-the-morning"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Morning” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Brent Faiyaz → compare to early Weeknd.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how The Weeknd transformed R&B by blending atmospheric production, emotional vulnerability, and genre reinvention. Compare ONE early track (Wicked Games) with ONE later track (Blinding Lights) and identify TWO modern artists influenced by his sound.",
+    "earlyOptions": [
+      "the-weeknd-the-morning"
+    ],
+    "laterOptions": [
+      "the-weeknd-call-out-my-name"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "substances",
+    "mature-themes",
+    "trauma",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 6, pages 70-82. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

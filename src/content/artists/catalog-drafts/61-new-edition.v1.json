@@ -1,0 +1,679 @@
+{
+  "schemaVersion": 1,
+  "id": "new-edition",
+  "number": 61,
+  "displayName": "New Edition",
+  "monogram": "NE",
+  "whyItMatters": "New Edition matters because the source catalog identifies this route with the blueprint for modern R&B boy bands, the Jackson 5 for the 80s, performance-driven, choreo-heavy, harmony masters, the origin of THREE major solo acts.",
+  "passedDown": {
+    "trackId": "new-edition-is-this-the-end",
+    "blurb": "Start with “Is This the End” and use the unit's checkpoints to hear how New Edition's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "new-edition-new-edition-instrumental-listening-option"
+    ],
+    "note": "The source did not provide a named younger-listener section; use the caregiver-selected instrumental search and preview the result."
+  },
+  "overview": {
+    "summary": [
+      "the blueprint for modern R&B boy bands",
+      "the Jackson 5 for the 80s",
+      "performance-driven, choreo-heavy, harmony masters",
+      "the origin of THREE major solo acts",
+      "fashion + youth culture pioneers",
+      "survivors of industry exploitation",
+      "Black teenage stardom done RIGHT & WRONG",
+      "group structure"
+    ],
+    "closing": "Let’s break down the WHOLE tree."
+  },
+  "learnOutcomes": [
+    "group structure",
+    "vocal roles",
+    "era transitions",
+    "how “the sound of youth” evolves",
+    "group breakups + reunions",
+    "musical branching",
+    "influence on multiple generations"
+  ],
+  "tracks": [
+    {
+      "id": "new-edition-is-this-the-end",
+      "title": "Is This the End",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Is This the End New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-popcorn-love",
+      "title": "Popcorn Love",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Popcorn Love New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-cool-it-now",
+      "title": "Cool It Now",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Cool It Now New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-mr-telephone-man",
+      "title": "Mr. Telephone Man",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Mr. Telephone Man New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-if-it-isn-t-love",
+      "title": "If It Isn’t Love",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "If It Isn’t Love New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-you-re-not-my-kind-of-girl",
+      "title": "You’re Not My Kind of Girl",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "You’re Not My Kind of Girl New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-my-prerogative",
+      "title": "My Prerogative",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "My Prerogative New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-every-little-step",
+      "title": "Every Little Step",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Every Little Step New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-sensitivity",
+      "title": "Sensitivity",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Sensitivity New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-stone-cold-gentleman",
+      "title": "Stone Cold Gentleman",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Stone Cold Gentleman New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-my-my-my",
+      "title": "My, My, My",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "My, My, My New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-rub-you-the-right-way",
+      "title": "Rub You the Right Way",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Rub You the Right Way New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-poison",
+      "title": "Poison",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Poison New Edition",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 773-785. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "new-edition-new-edition-instrumental-listening-option",
+      "title": "New Edition instrumental listening option",
+      "artist": "New Edition",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source did not name a Younger Listener selection. A grown-up must choose and preview an instrumental provider result before playing.",
+      "searchQuery": "New Edition instrumental",
+      "sourceNotes": "Adapted fallback because the source unit did not include a named Younger Listener selection.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "new-edition-lesson-01-origins-boston-teens-candy-girl-and-the-jacks",
+      "number": 1,
+      "title": "Origins — Boston Teens, Candy Girl, and the Jackson 5 Formula",
+      "body": [
+        {
+          "type": "text",
+          "text": "Jackson 5 Formula Goals: Show how genius starts young. — using THEIR formula) “How does this sound like Jackson 5’s grandkids?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Roxbury, Boston roots",
+            "formed as kids by Brooke Payne",
+            "concept: “New Edition” = new edition of Jackson 5",
+            "early hits produced by Maurice Starr (same guy who later created New Kids on the Block",
+            "“Candy Girl”",
+            "“Is This the End”",
+            "“Popcorn Love”"
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-new-edition-instrumental-listening-option"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “New Edition instrumental listening option” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does this sound like Jackson 5’s grandkids?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "new-edition-lesson-02-group-dynamics-roles-and-choreo",
+      "number": 2,
+      "title": "Group Dynamics — Roles & Choreo",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach teamwork + vocal identity. Members: Later addition: “Which voice feels like the leader?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Ralph Tresvant — lead vocalist (smooth tone)",
+            "Bobby Brown — energetic showman (raw edge)",
+            "Ricky Bell — versatile glue voice",
+            "Michael Bivins — rap-delivery talk singer, business mind",
+            "Ronnie DeVoe — dancer, hype man",
+            "Johnny Gill — powerhouse adult R&B voice",
+            "how groups balance personalities",
+            "how choreography defines “boy band energy”",
+            "“Cool It Now”",
+            "“Mr. Telephone Man”"
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-cool-it-now",
+        "new-edition-mr-telephone-man"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Cool It Now” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Which voice feels like the leader?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "new-edition-lesson-03-industry-struggle-exploitation-money-loss-ind",
+      "number": 3,
+      "title": "Industry Struggle — Exploitation, Money Loss, Independence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Loss, Independence Goals: Teach media literacy. New Edition: Lesson: Talent without proper business = exploitation. Great moment to teach your son about ownership."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sold millions",
+            "got paid PENNIES",
+            "toured nonstop",
+            "struggled financially",
+            "fought for control over music & image"
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-is-this-the-end"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Is This the End” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of New Edition after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "new-edition-lesson-04-heart-break-era-maturity-jimmy-jam-and-terry",
+      "number": 4,
+      "title": "Heart Break Era — Maturity + Jimmy Jam & Terry Lewis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Terry Lewis Goals: Teach R&B evolution. With Johnny Gill added, NE evolved into a mature R&B powerhouse. Break down the vocals on “Can You Stand the Rain” → a PERFECT R&B harmony class."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Can You Stand the Rain”",
+            "“If It Isn’t Love”",
+            "“You’re Not My Kind of Girl”",
+            "Jam & Lewis production style (Minneapolis Sound lineage)",
+            "complex harmonies",
+            "emotional depth",
+            "polished choreography"
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-if-it-isn-t-love",
+        "new-edition-you-re-not-my-kind-of-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “If It Isn’t Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of New Edition after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the vocals on “Can You Stand the Rain” → a PERFECT R&B harmony class.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "new-edition-lesson-05-bobby-brown-solo-the-king-of-new-jack-swing",
+      "number": 5,
+      "title": "Bobby Brown Solo — The King of New Jack Swing",
+      "body": [
+        {
+          "type": "text",
+          "text": "Swing Goals: Teach genre innovation + attitude. Bobby Brown left → reinvented himself. Themes: Lesson: This is the birth of modern male R&B swagger. Bobby made being “bad” marketable."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“My Prerogative”",
+            "“Every Little Step”",
+            "“Don’t Be Cruel”",
+            "independence",
+            "rebellion",
+            "swagger",
+            "hip-hop-infused R&B"
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-my-prerogative",
+        "new-edition-every-little-step"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “My Prerogative” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of New Edition after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "new-edition-lesson-06-ralph-tresvant-solo-smooth-adult-contemporary",
+      "number": 6,
+      "title": "Ralph Tresvant Solo — Smooth Adult Contemporary R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Contemporary R&B Goals: Teach vocal texture + emotional storytelling. Ralph = Teaches your son: Not every star is loud — some lead with softness."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Sensitivity”",
+            "“Stone Cold Gentleman”",
+            "emotional vulnerability",
+            "smoothness",
+            "gentleman persona"
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-sensitivity",
+        "new-edition-stone-cold-gentleman"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Sensitivity” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of New Edition after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "new-edition-lesson-07-johnny-gill-solo-the-powerhouse-vocalist",
+      "number": 7,
+      "title": "Johnny Gill Solo — The Powerhouse Vocalist",
+      "body": [
+        {
+          "type": "text",
+          "text": "Vocalist Goals: Teach vocal strength and ballad craft. Johnny = Your son will hear how technique + soul combine."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“My, My, My”",
+            "“Rub You the Right Way”",
+            "gospel-trained voice",
+            "powerhouse belts",
+            "adult sensuality",
+            "deep, masculine tone"
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-my-my-my",
+        "new-edition-rub-you-the-right-way"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “My, My, My” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of New Edition after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "new-edition-lesson-08-bell-biv-devoe-fusion-of-r-and-b-hip-hop",
+      "number": 8,
+      "title": "Bell Biv DeVoe — Fusion of R&B + Hip-Hop",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach innovation + street style. Michael Bivins, Ricky Bell, Ronnie DeVoe. Contrast BBD’s energy with early NE → show artistic evolution."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Poison”",
+            "“Do Me!”",
+            "“When Will I See You Smile Again?”",
+            "hip-hop beats with R&B harmonies",
+            "street fashion",
+            "New Jack Swing evolution",
+            "the “cool but edgy” male group prototype"
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-poison"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Poison” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "When Will I See You Smile Again?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Contrast BBD’s energy with early NE → show artistic evolution.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "new-edition-lesson-09-the-ne-family-tree-and-interconnected-careers",
+      "number": 9,
+      "title": "The NE FAMILY TREE & Interconnected Careers",
+      "body": [
+        {
+          "type": "text",
+          "text": "Careers Goals: Show how ONE group created an entire R&B generation. Breakdown: New Edition → Bobby Brown → King of New Jack Swing → Ralph Tresvant → Smooth solo → Johnny Gill → Vocal powerhouse → Bell Biv DeVoe → Hip-hop/R&B fusion kings → All reunite multiple times Business branches Creation, 702 Teach your son: A group ain’t just a group — it’s a dynasty."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Michael Bivins founded Biv10 Records → discovered Boyz II Men, Another Bad",
+            "Bobby Brown mentors younger performers",
+            "NE influence on Usher, Chris Brown, N*SYNC, New Kids, B2K, etc."
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-is-this-the-end"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Is This the End” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of New Edition after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "new-edition-lesson-10-new-edition-s-cultural-influence-tree",
+      "number": 10,
+      "title": "New Edition’s Cultural Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show their MASSIVE impact. DIRECT Influence: SOUND Influence: VISUAL Influence: Show your son NE → then NSYNC → then B2K. Have him spot: He’ll see: Every boy band is NE’s grandbaby."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Boyz II Men (literally produced by Michael Bivins)",
+            "Jodeci (competition era, style shift)",
+            "*NSYNC",
+            "Backstreet Boys",
+            "B2K",
+            "Pretty Ricky",
+            "Mindless Behavior",
+            "Jacquees (vocal lineage)",
+            "Usher (dance + teen idol path)",
+            "Chris Brown (choreo + swagger)",
+            "New Jack Swing",
+            "choreographed R&B groups",
+            "teen-prodigy male stardom",
+            "matching outfits",
+            "synchronized routines",
+            "music videos with storylines",
+            "“Heartbreak hotel” ballad shots",
+            "choreo patterns",
+            "group structure",
+            "vocal role copying"
+          ]
+        }
+      ],
+      "listen": [
+        "new-edition-is-this-the-end"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Is This the End” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of New Edition after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Show your son NE → then NSYNC → then B2K. Have him spot:",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how New Edition created the blueprint for modern R&B boy bands through harmonies, choreography, and group dynamics. Compare ONE early song (‘Candy Girl’ or ‘Cool It Now’) with ONE Jam & Lewis-era song (‘Can You Stand the Rain’ or ‘If It Isn’t Love’) and identify THREE artists or groups influenced directly by New Edition or its solo branches.",
+    "earlyOptions": [
+      "new-edition-is-this-the-end"
+    ],
+    "laterOptions": [
+      "new-edition-poison"
+    ],
+    "influencedCount": 3
+  },
+  "contentFlags": [
+    "trauma",
+    "mature-themes",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 59, pages 773-785. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

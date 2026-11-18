@@ -1,0 +1,953 @@
+{
+  "schemaVersion": 1,
+  "id": "kendrick-lamar",
+  "number": 32,
+  "displayName": "Kendrick Lamar",
+  "monogram": "KL",
+  "whyItMatters": "Kendrick Lamar matters because the source catalog identifies this route with A Pulitzer-winning storyteller, A master of voice, perspective, and character, A Compton historian, A generational conscience.",
+  "passedDown": {
+    "trackId": "kendrick-lamar-kendrick-lamar-hiiipower",
+    "blurb": "Start with “Kendrick Lamar (HiiiPoWeR)” and use the unit's checkpoints to hear how Kendrick Lamar's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "kendrick-lamar-alright",
+      "kendrick-lamar-love",
+      "kendrick-lamar-pray-for-me",
+      "kendrick-lamar-loyalty"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "A Pulitzer-winning storyteller",
+      "A master of voice, perspective, and character",
+      "A Compton historian",
+      "A generational conscience",
+      "A flow inventor",
+      "A thematic architect (religion, trauma, addiction, survival, love)",
+      "The West Coast’s literary heir to Tupac, Baldwin, and August Wilson",
+      "A musician who blends jazz, funk, soul, trap, African rhythms, and spoken word"
+    ],
+    "closing": "This is a Black Studies + English Lit + Rap Technique course in one."
+  },
+  "learnOutcomes": [
+    "reading comprehension",
+    "narrative analysis",
+    "socio-political awareness",
+    "emotional intelligence",
+    "poetic devices",
+    "moral complexity",
+    "West Coast history",
+    "the evolution of Black masculinity"
+  ],
+  "tracks": [
+    {
+      "id": "kendrick-lamar-kendrick-lamar-hiiipower",
+      "title": "Kendrick Lamar (HiiiPoWeR)",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Kendrick Lamar (HiiiPoWeR) Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-hiiipower",
+      "title": "HiiiPoWeR",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "HiiiPoWeR Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-a-d-h-d",
+      "title": "A.D.H.D",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "A.D.H.D Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-keisha-s-song",
+      "title": "Keisha’s Song",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Keisha’s Song Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-backseat-freestyle",
+      "title": "Backseat Freestyle",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Backseat Freestyle Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-sing-about-me-i-m-dying-of-thirst",
+      "title": "Sing About Me, I’m Dying of Thirst",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Sing About Me, I’m Dying of Thirst Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-money-trees",
+      "title": "Money Trees",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Money Trees Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-the-art-of-peer-pressure",
+      "title": "The Art of Peer Pressure",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "The Art of Peer Pressure Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-swimming-pools",
+      "title": "Swimming Pools",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Swimming Pools Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-alright",
+      "title": "Alright",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Alright Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-king-kunta",
+      "title": "King Kunta",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "King Kunta Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-the-blacker-the-berry",
+      "title": "The Blacker the Berry",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "The Blacker the Berry Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-dna",
+      "title": "DNA.",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "DNA. Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-feel",
+      "title": "FEEL.",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "FEEL. Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-love",
+      "title": "LOVE.",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "LOVE. Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-fear",
+      "title": "FEAR.",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "FEAR. Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-duckworth",
+      "title": "DUCKWORTH.",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "DUCKWORTH. Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-father-time",
+      "title": "Father Time",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "trauma",
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Father Time Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-n95",
+      "title": "N95",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "trauma",
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "N95 Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-auntie-diaries",
+      "title": "Auntie Diaries",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "trauma",
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Auntie Diaries Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-mother-i-sober",
+      "title": "Mother I Sober",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "trauma",
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Mother I Sober Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-pray-for-me",
+      "title": "Pray for Me",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Pray for Me Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kendrick-lamar-loyalty",
+      "title": "LOYALTY.",
+      "artist": "Kendrick Lamar",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "LOYALTY. Kendrick Lamar",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 349-362. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "kendrick-lamar-lesson-01-origins-compton-faith-and-early-genius",
+      "number": 1,
+      "title": "Origins — Compton, Faith, & Early Genius",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show how place shapes art. “How can someone be from a violent place but speak softly and think deeply?” Kendrick = contradiction embodied."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in Compton",
+            "Grew up between gang culture & deep spirituality",
+            "Absorbed Tupac & Snoop from birth",
+            "Quiet kid → observer",
+            "Started as K-Dot (mixtape fire)",
+            "Found identity through storytelling",
+            "Top Dawg Entertainment (TDE) as the perfect incubator",
+            "“Kendrick Lamar (HiiiPoWeR)”"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-kendrick-lamar-hiiipower"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Kendrick Lamar (HiiiPoWeR)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How can someone be from a violent place but speak softly and think deeply?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kendrick-lamar-lesson-02-section-80-the-seeds-of-a-prophet",
+      "number": 2,
+      "title": "Section.80 — The Seeds of a Prophet",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach early social commentary. Themes: Analyze “Keisha’s Song” like a short story. Characters → conflict → social context."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "crack era trauma",
+            "Reaganomics",
+            "millennial struggles",
+            "Black womanhood (“Keisha’s Song”, “Tammy’s Song”)",
+            "survivor’s guilt",
+            "systemic cycles",
+            "empowerment",
+            "“HiiiPoWeR”",
+            "“A.D.H.D”",
+            "“Keisha’s Song”"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-hiiipower",
+        "kendrick-lamar-a-d-h-d",
+        "kendrick-lamar-keisha-s-song"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “HiiiPoWeR” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Kendrick Lamar after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Analyze “Keisha’s Song” like a short story. Characters → conflict → social context.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, trauma, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kendrick-lamar-lesson-03-flow-study-kendrick-s-voice-shapeshifting",
+      "number": 3,
+      "title": "Flow Study — Kendrick’s Voice Shapeshifting",
+      "body": [
+        {
+          "type": "text",
+          "text": "Shapeshifting Goals: Teach rap as acting. Kendrick uses: This teaches: “Voice is an instrument, not just a sound.” “How many characters can you hear?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "multiple voices",
+            "high-pitched panic voice",
+            "calm preacher voice",
+            "angry demon voice",
+            "drunken slur",
+            "monotone detachment",
+            "conversational baritone",
+            "“u”",
+            "“For Free?”",
+            "“Backseat Freestyle”"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-backseat-freestyle"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Backseat Freestyle” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "For Free?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, substances, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kendrick-lamar-lesson-04-good-kid-m-a-a-d-city-a-hood-epic",
+      "number": 4,
+      "title": "good kid, m.A.A.d city — A Hood Epic",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach cohesive narrative. This is a COMING-OF-AGE film as an album. Break the album into scenes → teach narrative arcs."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "peer pressure",
+            "violence",
+            "teenage desire",
+            "prayer",
+            "fear",
+            "survival",
+            "generational trauma",
+            "loyalty",
+            "God",
+            "transformation",
+            "“Sing About Me, I’m Dying of Thirst”",
+            "“Money Trees”",
+            "“The Art of Peer Pressure”",
+            "“Swimming Pools”"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-sing-about-me-i-m-dying-of-thirst",
+        "kendrick-lamar-money-trees",
+        "kendrick-lamar-the-art-of-peer-pressure",
+        "kendrick-lamar-swimming-pools"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Sing About Me, I’m Dying of Thirst” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Kendrick Lamar after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break the album into scenes → teach narrative arcs.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, trauma, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kendrick-lamar-lesson-05-to-pimp-a-butterfly-black-excellence-trauma-a",
+      "number": 5,
+      "title": "To Pimp a Butterfly — Black Excellence, Trauma, & Chainbreaking",
+      "body": [
+        {
+          "type": "text",
+          "text": "Trauma, & Chainbreaking Goals: Teach Black history + jazz + funk + political theory. This album = “Why does pain sound beautiful here?” Teach him that Black music = survival art."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "jazz-funk-soul revolution",
+            "a treatise on racism",
+            "depression",
+            "survivor’s guilt",
+            "self-hatred",
+            "self-love",
+            "ancestral connection",
+            "capitalist critique",
+            "spiritual warfare",
+            "Black pride",
+            "“Alright”",
+            "“u”",
+            "“King Kunta”",
+            "“The Blacker the Berry”",
+            "“How Much a Dollar Cost”"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-alright",
+        "kendrick-lamar-king-kunta",
+        "kendrick-lamar-the-blacker-the-berry"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Alright” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does pain sound beautiful here?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kendrick-lamar-lesson-06-poetic-devices-kendrick-as-a-literary-writer",
+      "number": 6,
+      "title": "Poetic Devices — Kendrick as a Literary Writer",
+      "body": [
+        {
+          "type": "text",
+          "text": "Writer Goals: Build advanced English skills. Kendrick uses: Highlight literary devices in “Duckworth.” That song is a MASTERPIECE of destiny storytelling."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "extended metaphors",
+            "symbolism",
+            "double entendre",
+            "alliteration",
+            "non-linear time",
+            "unreliable narrator",
+            "biblical structure",
+            "African diasporic tradition",
+            "recurring motifs (water, light, fire, God, mirrors, fate)"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-love",
+        "kendrick-lamar-alright"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “LOVE.” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Kendrick Lamar after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Highlight literary devices in “Duckworth.” That song is a MASTERPIECE of destiny storytelling.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "kendrick-lamar-lesson-07-damn-morality-and-human-duality",
+      "number": 7,
+      "title": "DAMN. — Morality & Human Duality",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach personal reflection + modular album design. Themes: Explain the palindrome structure: “How does Kendrick fight himself on this album?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fear",
+            "loyalty",
+            "pride",
+            "lust",
+            "DNA/fate",
+            "spiritual tests",
+            "mortality",
+            "choice vs destiny",
+            "DAMN plays forward AND backward as two separate journeys.",
+            "“DNA.”",
+            "“FEEL.”",
+            "“LOVE.”",
+            "“FEAR.”",
+            "“DUCKWORTH.”"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-dna",
+        "kendrick-lamar-feel",
+        "kendrick-lamar-love",
+        "kendrick-lamar-fear",
+        "kendrick-lamar-duckworth"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “DNA.” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Kendrick fight himself on this album?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kendrick-lamar-lesson-08-mr-morale-and-the-big-steppers-therapy-honest",
+      "number": 8,
+      "title": "Mr. Morale & The Big Steppers — Therapy, Honesty & Healing",
+      "body": [
+        {
+          "type": "text",
+          "text": "Honesty & Healing Goals: Teach vulnerability & emotional maturity. Themes: Men can talk about trauma. Men can cry. Men can heal."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "therapy",
+            "accountability",
+            "childhood trauma",
+            "father wounds",
+            "relationship cycles",
+            "generational curses",
+            "social critique",
+            "healing journeys",
+            "forgiveness",
+            "self-ownership",
+            "“Father Time”",
+            "“N95”",
+            "“Auntie Diaries”",
+            "“Mother I Sober”"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-father-time",
+        "kendrick-lamar-n95",
+        "kendrick-lamar-auntie-diaries",
+        "kendrick-lamar-mother-i-sober"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Father Time” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Kendrick Lamar after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, substances, trauma, artist-conduct, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "trauma",
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kendrick-lamar-lesson-09-kendrick-the-performer-stagecraft-and-energy",
+      "number": 9,
+      "title": "Kendrick the Performer — Stagecraft & Energy Rituals",
+      "body": [
+        {
+          "type": "text",
+          "text": "Energy Rituals Goals: Teach performance as ritual. Explain: Show him: Art becomes ritual."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "choreographed minimalism",
+            "symbolic props (crown of thorns)",
+            "group movement",
+            "storytelling through lighting",
+            "meditative pacing",
+            "voice control live",
+            "altered arrangements",
+            "dancer integration",
+            "Kendrick’s Grammy performances",
+            "“Alright” BET Awards performance",
+            "The Big Steppers tour visuals"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-kendrick-lamar-hiiipower"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Kendrick Lamar (HiiiPoWeR)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Kendrick Lamar after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "kendrick-lamar-lesson-10-kendrick-s-influence-tree",
+      "number": 10,
+      "title": "Kendrick’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show Kendrick’s monstrous cultural footprint. Artists influenced by Kendrick: “Which part of Kendrick do these artists carry forward?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "JID",
+            "Cordae",
+            "Isaiah Rashad",
+            "Saba",
+            "Mick Jenkins",
+            "Smino",
+            "Baby Keem (family + influence)",
+            "Chance the Rapper",
+            "EarthGang",
+            "Denzel Curry",
+            "Joey Bada$$",
+            "Rapsody",
+            "Little Simz",
+            "Every rapper who cares about storytelling today"
+          ]
+        }
+      ],
+      "listen": [
+        "kendrick-lamar-kendrick-lamar-hiiipower"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Kendrick Lamar (HiiiPoWeR)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Which part of Kendrick do these artists carry forward?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Kendrick Lamar blends narrative storytelling, spiritual exploration, and musical experimentation to shape modern hip-hop. Compare ONE track from good kid, m.A.A.d city and ONE track from To Pimp a Butterfly, and identify ONE modern artist most influenced by Kendrick.",
+    "earlyOptions": [
+      "kendrick-lamar-kendrick-lamar-hiiipower"
+    ],
+    "laterOptions": [
+      "kendrick-lamar-mother-i-sober"
+    ],
+    "influencedCount": 1
+  },
+  "contentFlags": [
+    "violence",
+    "mature-themes",
+    "substances",
+    "trauma",
+    "explicit-language",
+    "sexual-content",
+    "artist-conduct"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 27, pages 349-362. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

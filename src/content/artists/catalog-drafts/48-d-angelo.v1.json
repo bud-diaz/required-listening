@@ -1,0 +1,755 @@
+{
+  "schemaVersion": 1,
+  "id": "d-angelo",
+  "number": 48,
+  "displayName": "D'Angelo",
+  "monogram": "DA",
+  "whyItMatters": "D'Angelo matters because the source catalog identifies this route with The dark chocolate heartbeat of neo-soul, The Prince + Marvin + Hendrix + church baby lovechild, The Soulquarian engine with Questlove, Dilla, Pino, and James Poyser, A master of groove, pocket, whisper-singing, and harmonic depth.",
+  "passedDown": {
+    "trackId": "d-angelo-brown-sugar",
+    "blurb": "Start with “Brown Sugar” and use the unit's checkpoints to hear how D'Angelo's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "d-angelo-cruisin",
+      "d-angelo-send-it-on",
+      "d-angelo-spanish-joint",
+      "d-angelo-really-love",
+      "d-angelo-untitled"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The dark chocolate heartbeat of neo-soul",
+      "The Prince + Marvin + Hendrix + church baby lovechild",
+      "The Soulquarian engine with Questlove, Dilla, Pino, and James Poyser",
+      "A master of groove, pocket, whisper-singing, and harmonic depth",
+      "A perfectionist recluse whose absence became mythology",
+      "The blueprint for half the alt-R&B sound your son gon’ grow up with"
+    ],
+    "closing": "This curriculum is spiritual."
+  },
+  "learnOutcomes": [
+    "The dark chocolate heartbeat of neo-soul",
+    "The Prince + Marvin + Hendrix + church baby lovechild",
+    "The Soulquarian engine with Questlove, Dilla, Pino, and James Poyser",
+    "A master of groove, pocket, whisper-singing, and harmonic depth",
+    "A perfectionist recluse whose absence became mythology",
+    "The blueprint for half the alt-R&B sound your son gon’ grow up with",
+    "Rhythm FEEL",
+    "Pocket + groove"
+  ],
+  "tracks": [
+    {
+      "id": "d-angelo-cruisin",
+      "title": "Cruisin’",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Cruisin’ D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-brown-sugar",
+      "title": "Brown Sugar",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Brown Sugar D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-lady",
+      "title": "Lady",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Lady D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-me-and-those-dreamin-eyes-of-mine",
+      "title": "Me and Those Dreamin’ Eyes of Mine",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Me and Those Dreamin’ Eyes of Mine D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-swing",
+      "title": "swing",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "swing D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-untitled-how-does-it-feel",
+      "title": "Untitled (How Does It Feel)",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes",
+        "sexual-content"
+      ],
+      "searchQuery": "Untitled (How Does It Feel) D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-devil-s-pie",
+      "title": "Devil’s Pie",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Devil’s Pie D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-send-it-on",
+      "title": "Send It On",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Send It On D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-one-mo-gin",
+      "title": "One Mo’ Gin",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "One Mo’ Gin D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-spanish-joint",
+      "title": "Spanish Joint",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Spanish Joint D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-the-root",
+      "title": "The Root",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "The Root D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-really-love",
+      "title": "Really Love",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Really Love D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-the-charade",
+      "title": "The Charade",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Charade D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-sugah-daddy",
+      "title": "Sugah Daddy",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Sugah Daddy D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-ain-t-that-easy",
+      "title": "Ain’t That Easy",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Ain’t That Easy D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "d-angelo-untitled",
+      "title": "Untitled",
+      "artist": "D'Angelo",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Untitled D'Angelo",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 573-587. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "d-angelo-lesson-01-roots-church-richmond-and-black-musicianship",
+      "number": 1,
+      "title": "Roots — Church, Richmond, & Black Musicianship",
+      "body": [
+        {
+          "type": "text",
+          "text": "Musicianship Goals: Ground the legend in his environment. reincarnation Listen: “What makes this feel warm instead of loud?” Tone > power lesson."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Richmond, VA → heavy church upbringing",
+            "Piano as first language",
+            "Influences: Marvin Gaye, Prince, Stevie Wonder, The Isley Brothers",
+            "Early demo tapes that had grown producers thinking he was some 40-year-old Marvin",
+            "Why his EAR was different from day one",
+            "“Cruisin’” (cover)"
+          ]
+        }
+      ],
+      "listen": [
+        "d-angelo-untitled",
+        "d-angelo-spanish-joint"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Untitled” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes this feel warm instead of loud?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "d-angelo-lesson-02-brown-sugar-the-neo-soul-launchpad",
+      "number": 2,
+      "title": "Brown Sugar — The Neo-Soul Launchpad",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show the birth of a movement. Ask your son: “Which instruments do you hear clearly?” Teach layering + instrument recognition."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Entire album recorded at 21",
+            "Hip-hop-influenced soul (live + sampled energy)",
+            "Thick bass grooves",
+            "Smoky whisper vocals",
+            "Romantic but blunt songwriting",
+            "D’Angelo becoming the FACE of neo-soul along with Erykah, Maxwell, Lauryn",
+            "“Brown Sugar”",
+            "“Lady”",
+            "“Me and Those Dreamin’ Eyes of Mine”",
+            "“Cruisin’”"
+          ]
+        }
+      ],
+      "listen": [
+        "d-angelo-brown-sugar",
+        "d-angelo-lady",
+        "d-angelo-me-and-those-dreamin-eyes-of-mine",
+        "d-angelo-cruisin"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brown Sugar” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Which instruments do you hear clearly?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask your son: “Which instruments do you hear clearly?” Teach layering + instrument recognition.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "d-angelo-lesson-03-the-soulquarian-formula-j-dilla-questlove-pin",
+      "number": 3,
+      "title": "The Soulquarian Formula — J Dilla, Questlove, Pino Palladino",
+      "body": [
+        {
+          "type": "text",
+          "text": "Questlove, Pino Palladino Goals: Teach rhythm science. This is a major lesson. “Why does it sound like they playing around the beat instead of ON it?” That’s feel."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Dilla’s “drunk” drum programming",
+            "Questlove learning to play behind the beat on purpose",
+            "Pino Palladino using bass like it’s breathing",
+            "Loose timing → perfect vibe",
+            "Imperfection = groove",
+            "The “swing” that defined 2000s soul & hip-hop",
+            "“Untitled (How Does It Feel)” (LIVE band)",
+            "“Devil’s Pie” (Dilla grit)"
+          ]
+        }
+      ],
+      "listen": [
+        "d-angelo-swing",
+        "d-angelo-untitled-how-does-it-feel",
+        "d-angelo-devil-s-pie"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “swing” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does it sound like they playing around the beat instead of ON it?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "d-angelo-lesson-04-voodoo-the-masterpiece",
+      "number": 4,
+      "title": "Voodoo — The MASTERPIECE",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Deep-dive the most important soul album of the last 25 years. Break “Untitled” into: Your son gon’ get music theory without even knowing."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Analog recording → warmth",
+            "Layered vocals like a church choir in his throat",
+            "Funk, soul, gospel, jazz, hip-hop fusion",
+            "Ecstatic rhythm",
+            "Afrocentric themes",
+            "Vulnerability + erotic spirituality",
+            "How this album changed R&B FOREVER",
+            "“Send It On”",
+            "“One Mo’ Gin”",
+            "“Spanish Joint”",
+            "“The Root”",
+            "“Untitled (How Does It Feel)”",
+            "verse dynamics",
+            "build-up",
+            "vocal restraint",
+            "climax (the notes, not the video vibes lol)",
+            "minimalism as power"
+          ]
+        }
+      ],
+      "listen": [
+        "d-angelo-send-it-on",
+        "d-angelo-one-mo-gin",
+        "d-angelo-spanish-joint",
+        "d-angelo-the-root",
+        "d-angelo-untitled-how-does-it-feel"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Send It On” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of D'Angelo after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break “Untitled” into: ● verse dynamics",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "d-angelo-lesson-05-vocal-style-whisper-singing-and-harmony-stack",
+      "number": 5,
+      "title": "Vocal Style — Whisper-Singing & Harmony Stacking",
+      "body": [
+        {
+          "type": "text",
+          "text": "Stacking Goals: Show him a whole different vocal philosophy. Have your son hum a note softly, then stack it up an octave. Teach harmony fundamentals early."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "D’Angelo rarely belts",
+            "He breathes notes",
+            "Multi-stack harmonies (8–20 layers sometimes)",
+            "Intimacy over power",
+            "Harmonies influenced by gospel chord clusters",
+            "The “ghost note” vocal technique",
+            "Raspy falsetto use"
+          ]
+        }
+      ],
+      "listen": [
+        "d-angelo-brown-sugar"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brown Sugar” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of D'Angelo after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Exercise: Have your son hum a note softly, then stack it up an octave. Teach harmony fundamentals early.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "d-angelo-lesson-06-the-disappearance-fame-pressure-and-rebirth",
+      "number": 6,
+      "title": "The Disappearance — Fame, Pressure & Rebirth",
+      "body": [
+        {
+          "type": "text",
+          "text": "Rebirth Goals: Teach human fragility behind greatness. Discuss gently (when he’s old enough): “Talent is a blessing, but people are still human.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Post-Voodoo pressure",
+            "Media sexualization after “Untitled”",
+            "Substance struggles",
+            "Creative burnout",
+            "Perfectionism as prison",
+            "The silent decade + mythology building",
+            "Why genius often comes with heavy cost"
+          ]
+        }
+      ],
+      "listen": [
+        "d-angelo-brown-sugar"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brown Sugar” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of D'Angelo after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, substances, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "d-angelo-lesson-07-black-messiah-liberation-protest-and-funk-res",
+      "number": 7,
+      "title": "Black Messiah — Liberation, Protest, & Funk Resurgence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Resurgence Goals: Show his political awakening. “The Charade” → lyrical activism. Have him identify the political message."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Release triggered by Ferguson protests",
+            "Black rage, freedom, self-determination",
+            "James Brown + Funkadelic influence",
+            "Afro-diasporic rhythm",
+            "Smeared vocals with purpose",
+            "Angular basslines",
+            "A raw, live band feel",
+            "“Really Love”",
+            "“The Charade”",
+            "“Sugah Daddy”",
+            "“Ain’t That Easy”"
+          ]
+        }
+      ],
+      "listen": [
+        "d-angelo-really-love",
+        "d-angelo-the-charade",
+        "d-angelo-sugah-daddy",
+        "d-angelo-ain-t-that-easy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Really Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of D'Angelo after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "d-angelo-lesson-08-d-angelo-and-hip-hop",
+      "number": 8,
+      "title": "D’Angelo & Hip-Hop",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Connect him to rap lineage. Compare “Devil’s Pie” to modern trap-soul. Show how gritty soul turned into 2010s moody R&B."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Worked with:",
+            "J Dilla",
+            "Q-Tip",
+            "Common",
+            "Method Man & Redman (“Left & Right”)",
+            "Black Milk",
+            "Raphael Saadiq",
+            "R&B with hip-hop’s ATTITUDE",
+            "Soul grooves that rappers study to understand pocket"
+          ]
+        }
+      ],
+      "listen": [
+        "d-angelo-devil-s-pie"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Devil’s Pie” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of D'Angelo after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare “Devil’s Pie” to modern trap-soul. Show how gritty soul turned into 2010s moody R&B.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "d-angelo-lesson-09-d-angelo-s-influence-tree",
+      "number": 9,
+      "title": "D’Angelo’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map the entire next generation. Influenced by D’Angelo: Pick a modern R&B song — listen for: That’s D’Angelo DNA."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Bruno Mars",
+            "Anderson .Paak",
+            "Frank Ocean",
+            "Miguel",
+            "Daniel Caesar",
+            "SZA",
+            "H.E.R.",
+            "Brent Faiyaz",
+            "Giveon",
+            "Lucky Daye",
+            "SiR",
+            "Solange",
+            "BJ the Chicago Kid",
+            "The Internet",
+            "Neo-soul revivalists",
+            "Every alt-R&B act your son will hear in 2035 lol",
+            "soft vocals",
+            "thick groove",
+            "jazz chords",
+            "stacked harmonies",
+            "behind-the-beat feel"
+          ]
+        }
+      ],
+      "listen": [
+        "d-angelo-brown-sugar"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brown Sugar” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of D'Angelo after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Pick a modern R&B song — listen for: ● soft vocals",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "d-angelo-lesson-10-why-d-angelo-matters-final-analysis",
+      "number": 10,
+      "title": "Why D’Angelo Matters — Final Analysis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Give your son the big picture. Evaluate: 1. Vocal tone 2. Instrumentation 3. Rhythm feel 4. Cultural impact 5. Social commentary 6. Soulquarian history 7. Artistic integrity 8. Boundaries & privacy 9. Reinvention 10. Influence on modern R&B Make him articulate how D’Angelo shaped MUSIC, not just genre."
+        }
+      ],
+      "listen": [
+        "d-angelo-brown-sugar"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brown Sugar” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of D'Angelo after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how D’Angelo reshaped neo-soul, rhythm, and modern R&B using ONE album (Voodoo), ONE influence connection, and ONE vocal analysis.",
+    "earlyOptions": [
+      "d-angelo-brown-sugar"
+    ],
+    "laterOptions": [
+      "d-angelo-ain-t-that-easy"
+    ],
+    "influencedCount": 1
+  },
+  "contentFlags": [
+    "substances",
+    "mature-themes",
+    "sexual-content",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 44, pages 573-587. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "schemaVersion": 1,
+  "id": "erykah-badu",
+  "number": 49,
+  "displayName": "Erykah Badu",
+  "monogram": "EB",
+  "whyItMatters": "Erykah Badu matters because the source catalog identifies this route with The blueprint of neo-soul, Jazz phrasing inside hip-hop drums, A master of mood, mystique & spiritual aesthetics, A cultural icon whose presence is as influential as her music.",
+  "passedDown": {
+    "trackId": "erykah-badu-otherside-of-the-game",
+    "blurb": "Start with “Otherside of the Game” and use the unit's checkpoints to hear how Erykah Badu's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "erykah-badu-appletree",
+      "erykah-badu-on-and-on",
+      "erykah-badu-bag-lady",
+      "erykah-badu-honey",
+      "erykah-badu-love-of-my-life"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The blueprint of neo-soul",
+      "Jazz phrasing inside hip-hop drums",
+      "A master of mood, mystique & spiritual aesthetics",
+      "A cultural icon whose presence is as influential as her music",
+      "A visual and sonic stylist",
+      "A storyteller rooted in Black Southern tradition"
+    ],
+    "closing": "Your son will learn:"
+  },
+  "learnOutcomes": [
+    "The blueprint of neo-soul",
+    "Jazz phrasing inside hip-hop drums",
+    "A master of mood, mystique & spiritual aesthetics",
+    "A cultural icon whose presence is as influential as her music",
+    "A visual and sonic stylist",
+    "A storyteller rooted in Black Southern tradition",
+    "How genre-blending works",
+    "The power of vocal tone"
+  ],
+  "tracks": [
+    {
+      "id": "erykah-badu-appletree",
+      "title": "Appletree",
+      "artist": "Erykah Badu",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Appletree Erykah Badu",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 588-600. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "erykah-badu-on-and-on",
+      "title": "On & On",
+      "artist": "Erykah Badu",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "On & On Erykah Badu",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 588-600. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "erykah-badu-otherside-of-the-game",
+      "title": "Otherside of the Game",
+      "artist": "Erykah Badu",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Otherside of the Game Erykah Badu",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 588-600. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "erykah-badu-next-lifetime",
+      "title": "Next Lifetime",
+      "artist": "Erykah Badu",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Next Lifetime Erykah Badu",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 588-600. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "erykah-badu-bag-lady",
+      "title": "Bag Lady",
+      "artist": "Erykah Badu",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Bag Lady Erykah Badu",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 588-600. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "erykah-badu-didn-t-cha-know",
+      "title": "Didn’t Cha Know",
+      "artist": "Erykah Badu",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Didn’t Cha Know Erykah Badu",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 588-600. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "erykah-badu-green-eyes",
+      "title": "Green Eyes",
+      "artist": "Erykah Badu",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Green Eyes Erykah Badu",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 588-600. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "erykah-badu-honey",
+      "title": "Honey",
+      "artist": "Erykah Badu",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Honey Erykah Badu",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 588-600. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "erykah-badu-love-of-my-life",
+      "title": "Love of My Life",
+      "artist": "Erykah Badu",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Love of My Life Erykah Badu",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 588-600. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "erykah-badu-lesson-01-who-is-erykah-badu-roots-jazz-theatre-and-tex",
+      "number": 1,
+      "title": "Who Is Erykah Badu? — Roots, Jazz, Theatre, & Texas Soul",
+      "body": [
+        {
+          "type": "text",
+          "text": "Theatre, & Texas Soul Goals: Show her origins & how they shaped neo-soul. Listen: “What does her tone remind you of — singing or speaking?” Helps him identify vocal texture."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Dallas roots (South Dallas, Black arts scene)",
+            "Theatre background → stage presence",
+            "Jazz lineage (Billie Holiday influence)",
+            "Hip-hop influences (Dilla, Roots crew)",
+            "The 90s Black creativity wave that birthed D’Angelo, Jill Scott, Maxwell",
+            "“Appletree”"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-bag-lady",
+        "erykah-badu-appletree"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bag Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does her tone remind you of — singing or speaking?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "erykah-badu-lesson-02-baduizm-the-neo-soul-genesis-moment",
+      "number": 2,
+      "title": "Baduizm — The Neo-Soul Genesis Moment",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Explain why this album changed the game. Have him analyze the STORY in “Otherside of the Game.” Teach empathy, complexity, and narrative nuance."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Warm, analog production",
+            "Jazz chords + hip-hop drums",
+            "Conversational songwriting",
+            "Erykah blending poetry and melody",
+            "Afrocentric styling & headwrap era",
+            "Why critics called her the new Billie Holiday (but she’s her own lane)",
+            "“On & On”",
+            "“Otherside of the Game”",
+            "“Next Lifetime”"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-on-and-on",
+        "erykah-badu-otherside-of-the-game",
+        "erykah-badu-next-lifetime"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “On & On” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Erykah Badu after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have him analyze the STORY in “Otherside of the Game.” Teach empathy, complexity, and narrative nuance.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "erykah-badu-lesson-03-mama-s-gun-the-raw-emotional-badu",
+      "number": 3,
+      "title": "Mama’s Gun — The Raw, Emotional Badu",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vulnerability in art. Break “Green Eyes” into its 3 movements. Teach how a song can be multiple emotions in one body."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Recorded with The Soulquarians (Dilla, ?uestlove, Pino, D’Angelo)",
+            "Less polished, more personal",
+            "Stream-of-consciousness lyric writing",
+            "Funk, blues, and soul fusion",
+            "Erykah addressing:",
+            "heartbreak",
+            "motherhood",
+            "depression",
+            "community",
+            "sexuality",
+            "“Bag Lady”",
+            "“Didn’t Cha Know”",
+            "“Green Eyes” (a MASTERPIECE)"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-bag-lady",
+        "erykah-badu-didn-t-cha-know",
+        "erykah-badu-green-eyes"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bag Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Erykah Badu after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break “Green Eyes” into its 3 movements. Teach how a song can be multiple emotions in one body.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, sexual-content, trauma, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "erykah-badu-lesson-04-vocal-technique-tone-texture-and-under-singin",
+      "number": 4,
+      "title": "Vocal Technique — Tone, Texture & Under-Singing",
+      "body": [
+        {
+          "type": "text",
+          "text": "Under-Singing Goals: Teach the difference between “belting” and “color.” Have him imitate Erykah’s phrasing, not the notes. Helps understand expression > volume."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Erykah rarely belts — she paints with tone",
+            "Jazz phrasing",
+            "Scoops, riffs, and micro-melody dips",
+            "Whisper-singing as intentional",
+            "Vocal improvisation like a trumpet player",
+            "Her unique “talk-sing” delivery"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-otherside-of-the-game"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Otherside of the Game” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Erykah Badu after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Exercise: Have him imitate Erykah’s phrasing, not the notes. Helps understand expression > volume.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "erykah-badu-lesson-05-erykah-dilla-the-roots-the-soulquarian-sound",
+      "number": 5,
+      "title": "Erykah + Dilla + The Roots — The Soulquarian Sound",
+      "body": [
+        {
+          "type": "text",
+          "text": "Soulquarian Sound Goals: Explain how production shaped the movement. “Why does this beat feel like walking in slow motion?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Dilla’s off-beat drums",
+            "?uestlove’s pocket",
+            "Live instrumentation",
+            "Warm basslines",
+            "Loose, jam-session energy",
+            "How Badu uses SPACE — leaving room to breathe",
+            "“Didn’t Cha Know” (Dilla-produced)"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-didn-t-cha-know"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Didn’t Cha Know” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does this beat feel like walking in slow motion?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "erykah-badu-lesson-06-new-amerykah-pt-1-and-2-the-psychedelic-polit",
+      "number": 6,
+      "title": "New Amerykah Pt. 1 & 2 — The Psychedelic, Political Badu",
+      "body": [
+        {
+          "type": "text",
+          "text": "Political Badu Goals: Teach art as social commentary. This is your son’s introduction to: Break down “The Healer.” Teach how minimalism creates power."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“The Healer” → hip-hop as global religion",
+            "“Master Teacher” → “I stay woke” (the ORIGINAL line)",
+            "“Window Seat” → vulnerability, conspiracy, self-revelation",
+            "“Soldier” → Black struggle & survival",
+            "“Honey” → playful funk aesthetic",
+            "Black futurism",
+            "Conscious music",
+            "Cultural commentary",
+            "Layered songwriting"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-otherside-of-the-game"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Otherside of the Game” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Erykah Badu after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “The Healer.” Teach how minimalism creates power.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "erykah-badu-lesson-07-visual-identity-afrofuturism-spirituality-and",
+      "number": 7,
+      "title": "Visual Identity — Afrofuturism, Spirituality, & Symbolism",
+      "body": [
+        {
+          "type": "text",
+          "text": "Symbolism Goals: Connect aesthetic to sound. Watch Together: “What emotions do these visuals give you?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Headwrap era → Afrocentric identity",
+            "Earthy color palette",
+            "Spiritual motifs (tarot, incense, numerology)",
+            "Futuristic imagery mixed with ancestral vibes",
+            "Her stage presence: calm, mystical, humorous",
+            "The intentional weirdness",
+            "“Window Seat”",
+            "“Bag Lady”",
+            "“Honey”",
+            "“Next Lifetime”"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-otherside-of-the-game"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Otherside of the Game” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What emotions do these visuals give you?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "erykah-badu-lesson-08-erykah-and-hip-hop-the-mc-spirit-in-a-singer",
+      "number": 8,
+      "title": "Erykah & Hip-Hop — The MC Spirit in a Singer’s Body",
+      "body": [
+        {
+          "type": "text",
+          "text": "Singer’s Body Goals: Teach cross-genre influence. “Love of My Life” — a whole history of hip-hop in one song."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Erykah’s rhyme patterns",
+            "Flow structure similar to rapping",
+            "Her collaborations with:",
+            "Common",
+            "Roots",
+            "OutKast",
+            "J Dilla",
+            "Jay Electronica",
+            "How R&B can have rap DNA",
+            "Why half the backpack rappers loved her"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-otherside-of-the-game"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Otherside of the Game” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Erykah Badu after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "erykah-badu-lesson-09-badu-the-healer-doula-comedian-cultural-aunti",
+      "number": 9,
+      "title": "Badu the Healer, Doula, Comedian, Cultural Auntie",
+      "body": [
+        {
+          "type": "text",
+          "text": "Auntie Goals: Teach multidimensional artistry. Discussion: “What does it mean to be an artist who also cares for community?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Erykah as a doula (birth work)",
+            "Erykah as a comedic actress",
+            "Erykah’s IG Lives + incense biz",
+            "How she navigates fame with grounded spirituality",
+            "How to keep boundaries while being authentic",
+            "“Baduizm” as a lifestyle, not album"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-otherside-of-the-game"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Otherside of the Game” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does it mean to be an artist who also cares for community?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "erykah-badu-lesson-10-erykah-s-influence-tree",
+      "number": 10,
+      "title": "Erykah’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map her legacy. She influenced: Pick one modern artist and trace the Erykah elements in their music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Ari Lennox",
+            "SZA",
+            "Solange",
+            "H.E.R.",
+            "Jhene Aiko",
+            "Noname",
+            "Little Simz",
+            "Tierra Whack",
+            "FKA Twigs",
+            "Tyler, The Creator (aesthetic influence)",
+            "Janelle Monáe (Afrofuturism lineage)"
+          ]
+        }
+      ],
+      "listen": [
+        "erykah-badu-otherside-of-the-game"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Otherside of the Game” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Erykah Badu after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Pick one modern artist and trace the Erykah elements in their music.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Erykah Badu shaped neo-soul, Black aesthetics, and hip-hop through storytelling, visual identity, and sonic innovation.",
+    "earlyOptions": [
+      "erykah-badu-otherside-of-the-game"
+    ],
+    "laterOptions": [
+      "erykah-badu-green-eyes"
+    ],
+    "influencedCount": 1
+  },
+  "contentFlags": [
+    "violence",
+    "weapons",
+    "sexual-content",
+    "trauma",
+    "mature-themes",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 45, pages 588-600. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "id": "frankie-beverly-maze",
+  "number": 44,
+  "displayName": "Frankie Beverly & Maze",
+  "monogram": "FB",
+  "whyItMatters": "Frankie Beverly & Maze matters because the source catalog identifies this route with one of the greatest live bands in Black American history, champions of joy, positivity, love, and Black resilience, creators of the most recognizable “vibe signature” in soul music, the soundtrack to barbecues, block parties, family reunions, HBCU homecomings, steady.",
+  "passedDown": {
+    "trackId": "frankie-beverly-maze-while-i-m-alone",
+    "blurb": "Start with “While I’m Alone” and use the unit's checkpoints to hear how Frankie Beverly & Maze's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "frankie-beverly-maze-we-are-one",
+      "frankie-beverly-maze-joy-and-pain",
+      "frankie-beverly-maze-before-i-let-go",
+      "frankie-beverly-maze-golden-time-of-day-2",
+      "frankie-beverly-maze-happy-feelin-s"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest live bands in Black American history",
+      "champions of joy, positivity, love, and Black resilience",
+      "creators of the most recognizable “vibe signature” in soul music",
+      "the soundtrack to barbecues, block parties, family reunions, HBCU homecomings, steady",
+      "kings of groove, harmony, and spiritual warmth",
+      "what it means when music unites generations",
+      "band dynamics",
+      "instrumentation"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "what it means when music unites generations",
+    "band dynamics",
+    "instrumentation",
+    "Black community rituals tied to sound",
+    "emotional literacy through groove"
+  ],
+  "tracks": [
+    {
+      "id": "frankie-beverly-maze-while-i-m-alone",
+      "title": "While I’m Alone",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "While I’m Alone Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-laid-back-girl",
+      "title": "Laid Back Girl",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Laid Back Girl Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-we-are-one",
+      "title": "We Are One",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "We Are One Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-joy-and-pain",
+      "title": "Joy & Pain",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Joy & Pain Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-before-i-let-go",
+      "title": "Before I Let Go",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Before I Let Go Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-golden-time-of-day",
+      "title": "Golden Time of Day.",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Golden Time of Day. Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-golden-time-of-day-2",
+      "title": "Golden Time of Day",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Golden Time of Day Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-happy-feelin-s",
+      "title": "Happy Feelin’s",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Happy Feelin’s Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "frankie-beverly-maze-lesson-01-origins-philadelphia-roots-the-raw-soul-era",
+      "number": 1,
+      "title": "Origins — Philadelphia Roots, The Raw Soul Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Era Goals: Teach the foundation of the groove. “What emotions sit in Frankie’s voice? Peace? Honesty? Warmth?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Frankie Beverly started as Raw Soul in Philly",
+            "moved to the Bay Area",
+            "Marvin Gaye personally co-signed and took them on tour",
+            "Gaye helped rename them Maze",
+            "heavy influence from gospel, funk, jazz, & Philly soul",
+            "“While I’m Alone”"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-before-i-let-go",
+        "frankie-beverly-maze-we-are-one"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Before I Let Go” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-02-the-maze-sound-groove-over-flash",
+      "number": 2,
+      "title": "The Maze Sound — Groove Over Flash",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach arrangement + band chemistry. The Maze formula: Teach your son: Maze is how you make music that breathes. Everybody relaxed, everybody locked in. Have him notice how NOTHING rushes."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "steady mid-tempo groove",
+            "clean guitar licks",
+            "buttery basslines",
+            "warm organ/keys",
+            "gentle but tight drums",
+            "horns that accent, never overwhelm",
+            "Frankie’s smoky tenor sitting right on top the pocket",
+            "“Laid Back Girl”",
+            "“We Are One”"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-laid-back-girl",
+        "frankie-beverly-maze-we-are-one"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Laid Back Girl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-03-frankie-beverly-s-voice-the-warm-soul-narrato",
+      "number": 3,
+      "title": "Frankie Beverly’s Voice — The Warm Soul Narrator",
+      "body": [
+        {
+          "type": "text",
+          "text": "Narrator Goals: Teach vocal character. Frankie’s voice is: “How does he sound like he’s talking TO you, not performing AT you?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "raspy but tender",
+            "soulful without oversinging",
+            "conversational",
+            "honest",
+            "grown",
+            "instantly recognizable",
+            "“Joy & Pain”"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-joy-and-pain"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Joy & Pain” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does he sound like he’s talking TO you, not performing AT you?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-04-black-joy-as-resistance-the-themes",
+      "number": 4,
+      "title": "Black Joy as Resistance — The Themes",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach cultural context. Maze themes: Explain that this ain’t just a song — it’s a philosophy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "love",
+            "unity",
+            "community",
+            "perseverance",
+            "celebration",
+            "healing after struggle",
+            "emotional honesty",
+            "grown maturity",
+            "“We Are One”"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-we-are-one"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “We Are One” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-05-the-live-experience-a-cultural-rite-of-passag",
+      "number": 5,
+      "title": "The Live Experience — A Cultural Rite of Passage",
+      "body": [
+        {
+          "type": "text",
+          "text": "Passage Goals: Teach performance impact. Maze live shows: Teach your son: Some artists you listen to. Some artists you EXPERIENCE. Maze is experience."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "white outfits (tradition!)",
+            "extended grooves",
+            "crowd singalongs",
+            "multigenerational audiences",
+            "dancing aunties",
+            "two-stepping uncles",
+            "pure positivity",
+            "zero gimmicks, ALL music"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-while-i-m-alone"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “While I’m Alone” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-06-black-family-tradition-the-cookout-canon",
+      "number": 6,
+      "title": "Black Family Tradition — The Cookout Canon",
+      "body": [
+        {
+          "type": "text",
+          "text": "Canon Goals: Teach cultural heritage. Maze songs = Then Beyoncé’s cover → show the lineage. Explain: This song is literally cultural glue."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "played at weddings",
+            "played at barbecues",
+            "played at anniversaries",
+            "played when the grill hits its peak",
+            "played when the whole family forms a dance line",
+            "played when auntie yell “THIS MY SONG!”",
+            "“Before I Let Go” (original Maze version — REQUIRED)"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-before-i-let-go"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Before I Let Go” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-07-instrumentation-how-maze-built-their-signatur",
+      "number": 7,
+      "title": "Instrumentation — How Maze Built Their Signature Groove",
+      "body": [
+        {
+          "type": "text",
+          "text": "Signature Groove Goals: Teach musical layers. Key components: Play “Golden Time of Day.” Have your son pick out 3 instruments by ear."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "rubbery bass grooves",
+            "pocket-perfect drumming",
+            "twinkling keys",
+            "warm Rhodes piano",
+            "light funk guitar scratches",
+            "occasional congas/percussion",
+            "lush background vocals"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-golden-time-of-day"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Golden Time of Day.” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “Golden Time of Day.” Have your son pick out 3 instruments by ear.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-08-the-message-spiritual-r-and-b-without-preachi",
+      "number": 8,
+      "title": "The Message — Spiritual R&B Without Preaching",
+      "body": [
+        {
+          "type": "text",
+          "text": "Preaching Goals: Teach subtlety + emotional depth. Frankie sings about: He never yells the message. He embodies it. This unit teaches emotional regulation & gratitude through music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "inner peace",
+            "connecting with others",
+            "highs + lows as part of life (“Joy & Pain”)",
+            "gratitude",
+            "Black resilience",
+            "the sacredness of good times"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-while-i-m-alone"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “While I’m Alone” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-09-frankie-beverly-and-maze-influence-tree",
+      "number": 9,
+      "title": "Frankie Beverly & Maze Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show their wide generational impact. DIRECT Influence: CULTURAL Influence: Play Beyoncé’s “Before I Let Go” → original Maze version. Explain how cultural songs get passed down."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Beyoncé (covering “Before I Let Go”)",
+            "Charlie Wilson",
+            "Sade (groove + calm sophistication)",
+            "Kem",
+            "Anthony Hamilton",
+            "Dwele",
+            "Raphael Saadiq (production DNA)",
+            "Frankie Beverly is a blueprint for neo-soul band energy",
+            "modern R&B band sound",
+            "Black family gatherings",
+            "grown Black romance",
+            "stepper culture",
+            "live instrumentation revival",
+            "feel-good festival music",
+            "the “summer cookout playlist” genre"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-before-i-let-go"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Before I Let Go” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Beyoncé’s “Before I Let Go” → original Maze version. Explain how cultural songs get passed down.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-10-the-legacy-joy-as-a-lifelong-act",
+      "number": 10,
+      "title": "The Legacy — Joy as a Lifelong Act",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach why Maze matters beyond charts. Maze didn’t chase trends. Didn’t chase radio. Didn’t chase drama. They chased VIBE, COMMUNITY, LOVE, TOGETHERNESS. Teach your son: Sometimes the biggest impact ain’t fame — it’s the feeling you leave behind in people’s lives. Maze = generational memory."
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-while-i-m-alone"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “While I’m Alone” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Frankie Beverly & Maze shaped Black cultural tradition through live instrumentation, community-centered themes, and timeless grooves. Compare ONE early track (‘Joy & Pain’ or ‘Before I Let Go’) with ONE mid-career track (‘Golden Time of Day’ or ‘We Are One’). Identify TWO modern artists or bands who reflect the Maze influence in warmth, groove, or community impact.",
+    "earlyOptions": [
+      "frankie-beverly-maze-while-i-m-alone"
+    ],
+    "laterOptions": [
+      "frankie-beverly-maze-golden-time-of-day"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "trauma",
+    "mature-themes",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 40, pages 521-533. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 1,
+  "id": "n-w-a",
+  "number": 62,
+  "displayName": "N.W.A.",
+  "monogram": "NW",
+  "whyItMatters": "Toddler-Friendly New Edition Kid-friendly picks with positive vibes: Safe, upbeat, melodic. N.W.A =",
+  "passedDown": {
+    "trackId": "n-w-a-straight-outta-compton",
+    "blurb": "Start with “Straight Outta Compton” and use the unit's checkpoints to hear how N.W.A.'s technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "n-w-a-express-yourself"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "“Candy Girl”",
+      "“Cool It Now”",
+      "“If It Isn’t Love”",
+      "“Before I Let You Go” (Blackstreet-ish but gentle)",
+      "“Sensitivity”",
+      "“Every Little Step (clean)”",
+      "pioneers of West Coast gangsta rap",
+      "cultural disruptors"
+    ],
+    "closing": "This unit is heavy — but ESSENTIAL."
+  },
+  "learnOutcomes": [
+    "that hip-hop is testimony",
+    "how environment shapes art",
+    "how institutions respond to Black truth",
+    "the difference between glorification vs documentation",
+    "the beginning of rap business empires"
+  ],
+  "tracks": [
+    {
+      "id": "n-w-a-straight-outta-compton",
+      "title": "Straight Outta Compton",
+      "artist": "N.W.A.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Straight Outta Compton N.W.A.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 786-799. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "n-w-a-f-tha-police",
+      "title": "F*** Tha Police",
+      "artist": "N.W.A.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "F*** Tha Police N.W.A.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 786-799. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "n-w-a-alright",
+      "title": "Alright",
+      "artist": "N.W.A.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "Alright N.W.A.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 786-799. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "n-w-a-express-yourself",
+      "title": "Express Yourself",
+      "artist": "N.W.A.",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Express Yourself N.W.A.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 786-799. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "n-w-a-lesson-01-origins-compton-in-the-1980s-environment-poli",
+      "number": 1,
+      "title": "Origins — Compton in the 1980s = Environment, Policy, Survival",
+      "body": [
+        {
+          "type": "text",
+          "text": "Environment, Policy, Survival Goals: Give political and social context. Explain: N.W.A didn’t invent violence — they REPORTED it. “What are they describing: entertainment or environment?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Reaganomics",
+            "LAPD brutality (esp. under Chief Daryl Gates)",
+            "crack epidemic",
+            "redlining",
+            "gang violence",
+            "unemployment",
+            "media ignoring Black communities",
+            "“Straight Outta Compton”"
+          ]
+        }
+      ],
+      "listen": [
+        "n-w-a-straight-outta-compton"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Straight Outta Compton” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What are they describing: entertainment or environment?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, substances, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "n-w-a-lesson-02-group-members-101-roles-and-strengths",
+      "number": 2,
+      "title": "Group Members 101 — Roles & Strengths",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Explain team dynamics. Ice Cube — the pen, the narrator, the political critic. Wrote MOST of the early lyrics. Dr. Dre — the producer, the architect, the engineer. Built the West Coast sound. Eazy-E — the businessman, the star, the street credibility, the charismatic voice. Started Ruthless Records. MC Ren — underrated lyrical monster. DJ Yella — producer, engineer, Dre collaborator. Teach your son: Great movements require many talents."
+        }
+      ],
+      "listen": [
+        "n-w-a-express-yourself"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Express Yourself” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of N.W.A. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "n-w-a-lesson-03-the-sound-west-coast-street-funk",
+      "number": 3,
+      "title": "The Sound — West Coast Street Funk",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach production evolution. Dr. Dre’s early N.W.A production: Songs: Lesson: West Coast rap begins HERE."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sparse drum machine beats",
+            "funky basslines",
+            "sinister synths",
+            "louder-than-life 808 kicks",
+            "raw mixing",
+            "ride-or-die energy",
+            "“Straight Outta Compton”",
+            "“Gangsta Gangsta”",
+            "“Dopeman”"
+          ]
+        }
+      ],
+      "listen": [
+        "n-w-a-straight-outta-compton"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Straight Outta Compton” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of N.W.A. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "n-w-a-lesson-04-straight-outta-compton-the-album-that-shook-a",
+      "number": 4,
+      "title": "Straight Outta Compton — The Album That Shook America",
+      "body": [
+        {
+          "type": "text",
+          "text": "Shook America Goals: Teach cultural shock waves. Key Songs: “Why would the GOVERNMENT respond to a rap album?” Teach him: Truth makes institutions uncomfortable."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "explicit lyrics",
+            "unfiltered depiction of police brutality",
+            "unapologetic street reporting",
+            "the most controversial rap album of its time",
+            "FBI sending them a warning letter (!!)",
+            "“F*** Tha Police”",
+            "“Express Yourself”",
+            "“Straight Outta Compton”"
+          ]
+        }
+      ],
+      "listen": [
+        "n-w-a-straight-outta-compton"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Straight Outta Compton” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why would the GOVERNMENT respond to a rap album?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, artist-conduct, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "n-w-a-lesson-05-ice-cube-leaves-and-drops-amerikkka-s-most-wa",
+      "number": 5,
+      "title": "Ice Cube Leaves — and Drops AmeriKKKa’s Most Wanted",
+      "body": [
+        {
+          "type": "text",
+          "text": "Most Wanted Goals: Show betrayal → independence → artistry. Background: Teach him: Cube becomes one of hip-hop’s greatest writers."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "money issues",
+            "Eazy + Jerry Heller business conflicts",
+            "Ice Cube leaves the group",
+            "writes one of the best rap albums EVER as revenge + storytelling"
+          ]
+        }
+      ],
+      "listen": [
+        "n-w-a-straight-outta-compton"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Straight Outta Compton” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of N.W.A. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "n-w-a-lesson-06-dr-dre-leaves-the-birth-of-death-row-records",
+      "number": 6,
+      "title": "Dr. Dre Leaves — The Birth of Death Row Records",
+      "body": [
+        {
+          "type": "text",
+          "text": "Records Goals: Teach business, power, and legacy. Dre leaves after financial conflict + creative control issues. Creates: N.W.A fracturing created THREE empires: Ice Cube, Dr. Dre, and Eazy-E."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "The Chronic (1992)",
+            "introduces Snoop Dogg",
+            "G-funk era",
+            "dominant West Coast sound for years"
+          ]
+        }
+      ],
+      "listen": [
+        "n-w-a-straight-outta-compton"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Straight Outta Compton” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of N.W.A. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "n-w-a-lesson-07-eazy-e-s-ruthless-records-business-genius",
+      "number": 7,
+      "title": "Eazy-E’s Ruthless Records — Business Genius",
+      "body": [
+        {
+          "type": "text",
+          "text": "Genius Goals: Show marketing & hustle. Eazy: Lesson: Leadership looks different depending on who you are."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "former street dealer",
+            "invests dope money into music",
+            "builds Ruthless Records",
+            "signs N.W.A, Bone Thugs-n-Harmony",
+            "becomes mogul-before-moguls",
+            "tragic passing from AIDS complications → shift in hip-hop’s understanding of health"
+          ]
+        }
+      ],
+      "listen": [
+        "n-w-a-straight-outta-compton"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Straight Outta Compton” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of N.W.A. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "n-w-a-lesson-08-social-impact-why-n-w-a-matters",
+      "number": 8,
+      "title": "Social Impact — Why N.W.A Matters",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach sociopolitical importance. N.W.A cracked open: Teach your son: Hip-hop is journalism when journalism fails us."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "police brutality discourse",
+            "censorship battles",
+            "the Parental Advisory sticker era",
+            "“gangsta rap” as national news",
+            "West Coast spotlight",
+            "art as protest"
+          ]
+        }
+      ],
+      "listen": [
+        "n-w-a-straight-outta-compton"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Straight Outta Compton” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of N.W.A. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, substances, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "n-w-a-lesson-09-influence-tree-everybody-s-dna-has-n-w-a-in-i",
+      "number": 9,
+      "title": "Influence Tree — EVERYBODY’S DNA Has N.W.A In It",
+      "body": [
+        {
+          "type": "text",
+          "text": "N.W.A In It Goals: Show the MASSIVE reach. DIRECT Influence: CULTURAL Influence: “How did the message evolve but stay the same?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Snoop Dogg",
+            "Tupac (Dre era)",
+            "Kendrick Lamar",
+            "Game",
+            "50 Cent (via Dre)",
+            "Eminem (via Dre)",
+            "Ice Cube → influence on political rap",
+            "Bone Thugs (Eazy-E signed them)",
+            "entire G-funk era",
+            "gangsta rap as dominant genre",
+            "rap as political weapon",
+            "rap business empires",
+            "West Coast mainstream golden era",
+            "“F*** Tha Police” → then “Alright” by Kendrick."
+          ]
+        }
+      ],
+      "listen": [
+        "n-w-a-f-tha-police",
+        "n-w-a-alright"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “F*** Tha Police” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How did the message evolve but stay the same?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play: ● “F*** Tha Police” → then “Alright” by Kendrick.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "n-w-a-lesson-10-legacy-the-villains-america-needed",
+      "number": 10,
+      "title": "Legacy — The Villains America Needed",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Explain complexity. N.W.A’s legacy includes: Teach your son: Two things can be true: They were revolutionary AND flawed. That’s how real history works."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "truth-telling",
+            "rebellion",
+            "controversy",
+            "misogyny critiques (important to discuss honestly)",
+            "political bravery",
+            "musical innovation",
+            "launching three megastars"
+          ]
+        }
+      ],
+      "listen": [
+        "n-w-a-straight-outta-compton"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Straight Outta Compton” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of N.W.A. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, artist-conduct, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "artist-conduct",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how N.W.A used truth-telling, political critique, and West Coast production to reshape hip-hop. Compare ONE early track (‘Straight Outta Compton’ or ‘Gangsta Gangsta’) with ONE socially focused track (‘F*** Tha Police’ or ‘Express Yourself’). Identify TWO modern artists whose work clearly traces back to N.W.A’s influence.",
+    "earlyOptions": [
+      "n-w-a-straight-outta-compton"
+    ],
+    "laterOptions": [
+      "n-w-a-alright"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "substances",
+    "mature-themes",
+    "explicit-language",
+    "artist-conduct",
+    "trauma",
+    "weapons"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 60, pages 786-799. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

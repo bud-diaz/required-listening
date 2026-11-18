@@ -1,0 +1,2986 @@
+{
+  "schemaVersion": 1,
+  "packId": "pack-01-soul-foundation",
+  "version": 1,
+  "title": "The Soul Foundation",
+  "theme": "The Roots of Modern R&B",
+  "summary": "These artists helped establish the emotional and musical foundation that modern R&B and hip-hop continue to build upon. Their music emphasizes rich instrumentation, expressive vocals, romance, storytelling, and the connection between gospel, funk, and soul.",
+  "educationalConnections": [
+    "Understanding soul music’s relationship with R&B.",
+    "Recognizing the importance of live instrumentation.",
+    "Exploring how older recordings become hip-hop samples.",
+    "Identifying emotional qualities of vocal performances."
+  ],
+  "centralLesson": "Before hip-hop sampled soul, soul gave hip-hop something to say.",
+  "publisher": "Paperweight",
+  "publishedAt": "2026-11-18T00:00:00.000Z",
+  "minAppVersion": "0.1.0",
+  "downloadBytes": 110424,
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes",
+    "trauma",
+    "explicit-language",
+    "substances",
+    "violence"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "tracks": [
+    {
+      "id": "al-green-tired-of-being-alone",
+      "title": "Tired of Being Alone",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Tired of Being Alone Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-take-me-to-the-river",
+      "title": "Take Me to the River",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Take Me to the River Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-let-s-stay-together",
+      "title": "Let’s Stay Together",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Let’s Stay Together Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-i-m-still-in-love-with-you",
+      "title": "I’m Still in Love with You",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I’m Still in Love with You Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-here-i-am-come-and-take-me",
+      "title": "Here I Am (Come and Take Me)",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Here I Am (Come and Take Me) Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-love-and-happiness",
+      "title": "Love and Happiness",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Love and Happiness Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-call-me-come-back-home",
+      "title": "Call Me (Come Back Home)",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Call Me (Come Back Home) Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-funny-how-time-slips-away",
+      "title": "Funny How Time Slips Away",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Funny How Time Slips Away Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-you-ought-to-be-with-me",
+      "title": "You Ought to Be With Me",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "You Ought to Be With Me Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-everything-s-gonna-be-alright",
+      "title": "Everything’s Gonna Be Alright.",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Everything’s Gonna Be Alright. Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-lifetime",
+      "title": "Lifetime",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Lifetime Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-simply-beautiful",
+      "title": "Simply Beautiful.",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Simply Beautiful. Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-simply-beautiful-2",
+      "title": "Simply Beautiful",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Simply Beautiful Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-i-miss-you",
+      "title": "I Miss You",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Miss You Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-if-you-don-t-know-me-by-now",
+      "title": "If You Don’t Know Me by Now",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "If You Don’t Know Me by Now Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-wake-up-everybody",
+      "title": "Wake Up Everybody",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Wake Up Everybody Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-the-love-i-lost",
+      "title": "The Love I Lost",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Love I Lost Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-close-the-door",
+      "title": "Close the Door",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Close the Door Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-you-can-t-hide-from-yourself",
+      "title": "You Can’t Hide from Yourself",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "You Can’t Hide from Yourself Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-the-whole-town-s-laughing-at-me",
+      "title": "The Whole Town’s Laughing at Me",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "The Whole Town’s Laughing at Me Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-turn-off-the-lights",
+      "title": "Turn Off the Lights",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Turn Off the Lights Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-love-tko",
+      "title": "Love TKO",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Love TKO Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-come-go-with-me",
+      "title": "Come Go with Me",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Come Go with Me Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-and-if-i-had",
+      "title": "And If I Had",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "And If I Had Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-it-don-t-hurt-now",
+      "title": "It Don’t Hurt Now",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "It Don’t Hurt Now Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-teddy-pendergrass-instrumental-listening-option",
+      "title": "Teddy Pendergrass instrumental listening option",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source did not name a Younger Listener selection. A grown-up must choose and preview an instrumental provider result before playing.",
+      "searchQuery": "Teddy Pendergrass instrumental",
+      "sourceNotes": "Adapted fallback because the source unit did not include a named Younger Listener selection.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-that-lady",
+      "title": "That Lady",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "That Lady Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-fight-the-power",
+      "title": "Fight the Power",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Fight the Power Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-live-it-up",
+      "title": "Live It Up",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Live It Up Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-for-the-love-of-you",
+      "title": "For the Love of You",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "For the Love of You Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-between-the-sheets",
+      "title": "Between the Sheets",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Between the Sheets Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-groove-with-you",
+      "title": "Groove With You",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Groove With You Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-voyage-to-atlantis",
+      "title": "Voyage to Atlantis",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Voyage to Atlantis Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-contagious",
+      "title": "Contagious",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Contagious Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-busted",
+      "title": "Busted",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Busted Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-footsteps-in-the-dark",
+      "title": "Footsteps in the Dark",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Footsteps in the Dark Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-harvest-for-the-world",
+      "title": "Harvest for the World",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Harvest for the World Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-while-i-m-alone",
+      "title": "While I’m Alone",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "While I’m Alone Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-laid-back-girl",
+      "title": "Laid Back Girl",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Laid Back Girl Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-we-are-one",
+      "title": "We Are One",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "We Are One Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-joy-and-pain",
+      "title": "Joy & Pain",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Joy & Pain Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-before-i-let-go",
+      "title": "Before I Let Go",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Before I Let Go Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-golden-time-of-day",
+      "title": "Golden Time of Day.",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Golden Time of Day. Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-golden-time-of-day-2",
+      "title": "Golden Time of Day",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Golden Time of Day Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "frankie-beverly-maze-happy-feelin-s",
+      "title": "Happy Feelin’s",
+      "artist": "Frankie Beverly & Maze",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Happy Feelin’s Frankie Beverly & Maze",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 521-533. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-whoever-s-thrilling-you-is-killing-me",
+      "title": "Whoever’s Thrilling You (Is Killing Me)",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Whoever’s Thrilling You (Is Killing Me) Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-i-m-every-woman",
+      "title": "I’m Every Woman",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "I’m Every Woman Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-through-the-fire",
+      "title": "Through the Fire",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Through the Fire Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-ain-t-nobody",
+      "title": "Ain’t Nobody",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Ain’t Nobody Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-love-on-top",
+      "title": "Love On Top",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Love On Top Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-end-of-time",
+      "title": "End of Time",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "End of Time Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-i-know-you-i-live-you",
+      "title": "I Know You, I Live You",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Know You, I Live You Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-everlasting-love",
+      "title": "Everlasting Love",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Everlasting Love Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-love-you-all-my-lifetime",
+      "title": "Love You All My Lifetime",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Love You All My Lifetime Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "al-green-lesson-01-origins-arkansas-roots-church-choir-memphis-s",
+      "number": 1,
+      "title": "Origins — Arkansas Roots, Church Choir, Memphis Sound",
+      "body": [
+        {
+          "type": "text",
+          "text": "Memphis Sound Goals: Teach background + foundation. “What does his voice feel like — warm? close? soft?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in Arkansas, raised in a religious household",
+            "Sang gospel as a kid → vocal control & emotion learned early",
+            "Moved to Grand Rapids, then discovered by Willie Mitchell",
+            "Signed to Hi Records → the “Memphis Sound” becomes his signature",
+            "Guitar + strings + organ = the Al Green formula",
+            "“Tired of Being Alone”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-let-s-stay-together",
+        "al-green-love-and-happiness"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let’s Stay Together” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-02-gospel-influence-the-foundation-of-his-style",
+      "number": 2,
+      "title": "Gospel Influence — The Foundation of His Style",
+      "body": [
+        {
+          "type": "text",
+          "text": "Style Goals: Teach vocal technique. Al Green’s gospel imprint: Explain how he blends church soul with bedroom intimacy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "emotional tremble in his falsetto",
+            "preacher-like phrasing",
+            "call-and-response",
+            "subtle melisma",
+            "spiritual longing embedded in love songs",
+            "moans, sighs, and breath-based emotion",
+            "“Take Me to the River”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-take-me-to-the-river"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Me to the River” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "al-green-lesson-03-the-hi-records-era-the-golden-sound",
+      "number": 3,
+      "title": "The Hi Records Era — The Golden Sound",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach production & arrangement. Willie Mitchell’s production = This is the REAL “quiet storm” foundation. Ask your son what instruments he hears — bass, organ, strings."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "soft drums",
+            "mellow bass",
+            "sweet strings",
+            "subtle horns",
+            "warm Fender amps",
+            "gentle grooves",
+            "space for vocals to shine",
+            "“Let’s Stay Together”",
+            "“I’m Still in Love with You”",
+            "“Here I Am (Come and Take Me)”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-let-s-stay-together",
+        "al-green-i-m-still-in-love-with-you",
+        "al-green-here-i-am-come-and-take-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let’s Stay Together” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Ask your son what instruments he hears — bass, organ, strings.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-04-al-green-the-vocal-technician-whisper-falsett",
+      "number": 4,
+      "title": "Al Green the Vocal Technician — Whisper, Falsetto, Cry",
+      "body": [
+        {
+          "type": "text",
+          "text": "Falsetto, Cry Goals: Teach vocal anatomy in a fun way. Al Green’s voice toolkit: “How does the song build from calm to passionate?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Falsetto float (“Simply Beautiful”)",
+            "Conversational whispers (“Let’s Stay Together”)",
+            "Sudden shouts (“Love and Happiness”)",
+            "Cry-catch tone → voice breaks like he’s emotional",
+            "Soft vibrato",
+            "Breath control that sounds effortless",
+            "“Love and Happiness”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-love-and-happiness"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Love and Happiness” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does the song build from calm to passionate?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-05-let-s-stay-together-the-masterpiece",
+      "number": 5,
+      "title": "Let’s Stay Together — The Masterpiece",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach the construction of a universal love song. Break down: Use “Let’s Stay Together” to teach emotional maturity and commitment."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "lyrics = simple, sincere, grown",
+            "arrangement = warm, patient",
+            "vibe = long-term relationship energy",
+            "vocal = gentle, persuasive, trustworthy",
+            "message = stability in love"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-take-me-to-the-river"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Me to the River” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Use “Let’s Stay Together” to teach emotional maturity and commitment.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-06-i-m-still-in-love-with-you-call-me-the-romant",
+      "number": 6,
+      "title": "I’m Still in Love With You + Call Me — The Romantic Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Romantic Era Goals: Teach consistency + theme exploration. Themes: Lesson: “Love requires softness, not just strength.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "deep love",
+            "forgiveness",
+            "tenderness",
+            "self-reflection",
+            "vulnerability",
+            "soft masculinity",
+            "“Call Me (Come Back Home)”",
+            "“Funny How Time Slips Away”",
+            "“You Ought to Be With Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-call-me-come-back-home",
+        "al-green-funny-how-time-slips-away",
+        "al-green-you-ought-to-be-with-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Call Me (Come Back Home)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-07-the-tragedy-and-the-transformation",
+      "number": 7,
+      "title": "The Tragedy & The Transformation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach resilience + life change. Explain (when he’s older): This teaches your son: People can change their path for healing, not for perfection."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "1974 incident → scalding + trauma",
+            "emotional breakdown",
+            "Al Green becomes a minister",
+            "shifts to gospel music",
+            "performs both sacred and secular music later"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-take-me-to-the-river"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Me to the River” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "al-green-lesson-08-al-green-s-gospel-era-renewal-and-spiritual-s",
+      "number": 8,
+      "title": "Al Green’s Gospel Era — Renewal & Spiritual Soul",
+      "body": [
+        {
+          "type": "text",
+          "text": "Spiritual Soul Goals: Show evolution. Albums like: Compare “Let’s Stay Together” with “Everything’s Gonna Be Alright.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "The Lord Will Make a Way",
+            "Higher Plane",
+            "He Is the Light",
+            "soulful worship",
+            "the same voice, different purpose",
+            "emotional delivery becomes sacred, not romantic",
+            "artistry turns inward"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-let-s-stay-together",
+        "al-green-everything-s-gonna-be-alright"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let’s Stay Together” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare “Let’s Stay Together” with “Everything’s Gonna Be Alright.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-09-al-green-s-influence-tree",
+      "number": 9,
+      "title": "Al Green’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map legacy. Direct influence: Production influence: Play Maxwell “Lifetime” → then Al Green “Simply Beautiful.” Let your son hear the lineage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "D’Angelo",
+            "Maxwell",
+            "Prince (falsetto + sensuality)",
+            "Usher",
+            "Anthony Hamilton",
+            "John Legend",
+            "Leon Bridges",
+            "The Weeknd (emotional falsetto + vulnerability)",
+            "Charlie Wilson (romantic phrasing lineage)",
+            "Hi Records sound → Neo-soul warmth",
+            "90s quiet-storm revival",
+            "modern R&B soft-percussion style"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-lifetime",
+        "al-green-simply-beautiful"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lifetime” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Maxwell “Lifetime” → then Al Green “Simply Beautiful.” Let your son hear the lineage.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "al-green-lesson-10-themes-love-patience-tenderness-faith",
+      "number": 10,
+      "title": "Themes — Love, Patience, Tenderness, Faith",
+      "body": [
+        {
+          "type": "text",
+          "text": "Faith Goals: Teach emotional language. Al Green centered: This unit helps your son learn: being gentle is powerful."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "softness",
+            "patience",
+            "devotion",
+            "heartbreak without bitterness",
+            "intimacy as emotional dialogue",
+            "spiritual hope"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-take-me-to-the-river"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Me to the River” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-01-origins-philly-roots-church-training-and-earl",
+      "number": 11,
+      "title": "Origins – Philly Roots, Church Training & Early Life",
+      "body": [
+        {
+          "type": "text",
+          "text": "Early Life Goals: Show the foundation. “How does this feel different from modern R&B?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in Philadelphia",
+            "Sang in church → foundation of BELTING power",
+            "Originally a DRUMMER before becoming a lead singer",
+            "Joined Harold Melvin & the Blue Notes in early 70s",
+            "Gamble & Huff = powerhouse producers behind Philly International Records",
+            "“I Miss You” (Blue Notes)"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-teddy-pendergrass-instrumental-listening-option"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Teddy Pendergrass instrumental listening option” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does this feel different from modern R&B?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-pendergrass-lesson-02-teddy-with-harold-melvin-and-the-blue-notes-t",
+      "number": 12,
+      "title": "Teddy with Harold Melvin & the Blue Notes | The Breakthrough Voice",
+      "body": [
+        {
+          "type": "text",
+          "text": "The Breakthrough Voice Goals: Teach group dynamics + lead vocals. Teddy became the STAR of the group because: Explain how Teddy made “begging” COOL and POWERFUL."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "deep, commanding baritone",
+            "emotional delivery",
+            "preacher-like intensity",
+            "ability to cry, beg, shout, whisper — all with soul",
+            "“If You Don’t Know Me by Now”",
+            "“Wake Up Everybody”",
+            "“The Love I Lost”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-if-you-don-t-know-me-by-now",
+        "teddy-pendergrass-wake-up-everybody",
+        "teddy-pendergrass-the-love-i-lost"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “If You Don’t Know Me by Now” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain how Teddy made “begging” COOL and POWERFUL.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-pendergrass-lesson-03-vocal-style-the-growl-the-roar-the-whisper",
+      "number": 13,
+      "title": "Vocal Style — The Growl, The Roar, The Whisper",
+      "body": [
+        {
+          "type": "text",
+          "text": "Whisper Goals: Teach vocal technique. Teddy’s voice = “How does he sound soft AND strong?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "deep, smoky baritone",
+            "powerful grit",
+            "passionate shouts",
+            "soft whisper that still feels heavy",
+            "preacher cadence",
+            "unmatched dynamic control",
+            "“Close the Door”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-close-the-door"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Close the Door” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does he sound soft AND strong?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-pendergrass-lesson-04-teddy-pendergrass-self-titled-solo-debut",
+      "number": 14,
+      "title": "Teddy Pendergrass (Self-Titled Solo Debut)",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show the shift to solo superstardom. Themes: Analyze how Teddy combines confidence + emotional vulnerability."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sensuality",
+            "romance",
+            "bold masculinity",
+            "slow-burning passion",
+            "quiet storm foundations",
+            "“You Can’t Hide from Yourself”",
+            "“The Whole Town’s Laughing at Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-you-can-t-hide-from-yourself",
+        "teddy-pendergrass-the-whole-town-s-laughing-at-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Can’t Hide from Yourself” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Analyze how Teddy combines confidence + emotional vulnerability.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-05-teddy-as-the-original-r-and-b-sex-symbol",
+      "number": 15,
+      "title": "Teddy as the Original R&B Sex Symbol",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach performance style + audience connection. Explain: “How does Teddy use his voice to control the room?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "women-only concerts (historic!)",
+            "stage presence: commanding, intimate, playful, seductive",
+            "deep eye contact",
+            "call-and-response mastery",
+            "vocal climaxes timed with musical builds",
+            "“Turn Off the Lights”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-turn-off-the-lights"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Turn Off the Lights” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Teddy use his voice to control the room?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-06-philly-soul-production-gamble-and-huff-s-soun",
+      "number": 16,
+      "title": "Philly Soul Production — Gamble & Huff’s Sound",
+      "body": [
+        {
+          "type": "text",
+          "text": "Sound Goals: Teach musical arrangement. Traits: Your son gon’ learn how arrangements shape emotion."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "lush orchestration",
+            "rich strings",
+            "horn sections",
+            "deep bass",
+            "clean percussion",
+            "dramatic builds",
+            "soulful groove",
+            "“Love TKO”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-love-tko"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Love TKO” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-07-the-car-accident-resilience-and-reinvention",
+      "number": 17,
+      "title": "The Car Accident — Resilience & Reinvention",
+      "body": [
+        {
+          "type": "text",
+          "text": "Reinvention Goals: Teach life lessons + artistic perseverance. Explain: Tracks: Lesson: “Strength ain’t about what happens to you — it’s about what you choose after.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "1982 crash → spinal cord injury → paralysis from chest down",
+            "career could’ve ended",
+            "but Teddy fought back",
+            "returned to stage at Live Aid in 1985 — historic moment",
+            "continued recording with grace, maturity, and quieter strength",
+            "“Joy”",
+            "“Believe in Love”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-i-miss-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Miss You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-pendergrass-lesson-08-teddy-as-blueprint-the-begging-man-and-sensua",
+      "number": 18,
+      "title": "Teddy as Blueprint — The “Begging Man” & Sensual Male Vocalist Lineage",
+      "body": [
+        {
+          "type": "text",
+          "text": "Sensual Male Vocalist Lineage Goals: Show his impact on R&B masculinity. Teddy influenced: Play Tank or Tyrese → then Teddy. “Where do you hear Teddy’s energy?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Keith Sweat",
+            "R. Kelly",
+            "Tyrese",
+            "Tank",
+            "Charlie Wilson",
+            "Jaheim",
+            "Anthony Hamilton",
+            "Ginuwine",
+            "D’Angelo (emotional delivery lineage)",
+            "The Weeknd (dark sensuality, vocal inflections)"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-i-miss-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Miss You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Where do you hear Teddy’s energy?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Tank or Tyrese → then Teddy. Ask:",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-09-teddy-s-emotional-themes-love-regret-sensuali",
+      "number": 19,
+      "title": "Teddy’s Emotional Themes — Love, Regret, Sensuality, Strength",
+      "body": [
+        {
+          "type": "text",
+          "text": "Sensuality, Strength Goals: Teach lyrical depth. Teddy covers: Lesson: “Being emotional don’t make you weak.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "romantic intimacy",
+            "vulnerability",
+            "heartbreak",
+            "regret",
+            "longing",
+            "confidence",
+            "emotional maturity",
+            "“Come Go with Me”",
+            "“And If I Had”",
+            "“It Don’t Hurt Now”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-come-go-with-me",
+        "teddy-pendergrass-and-if-i-had",
+        "teddy-pendergrass-it-don-t-hurt-now"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Come Go with Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-10-legacy-why-teddy-matters-in-modern-music",
+      "number": 20,
+      "title": "Legacy — Why Teddy Matters in Modern Music",
+      "body": [
+        {
+          "type": "text",
+          "text": "Music Goals: Cement his influence for your son. Teddy = Have your son compare: Teddy → Luther Vandross → Tyrese → The Weeknd Look for vocal emotionality & production evolution."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "prototype for modern R&B male star",
+            "foundation of quiet-storm radio format",
+            "helped bridge soul → R&B → contemporary R&B",
+            "voice that STILL hasn’t been recreated",
+            "symbol of perseverance",
+            "masterclass in vocal performance"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-i-miss-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Miss You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son compare: Teddy → Luther Vandross → Tyrese → The Weeknd",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-01-the-roots-the-isley-brothers-begin-1950s-60s",
+      "number": 21,
+      "title": "The Roots — The Isley Brothers Begin (1950s–60s)",
+      "body": [
+        {
+          "type": "text",
+          "text": "(1950s–60s) Goals: Teach how Ron started and how the Isleys shaped early R&B. “Shout!” “Why does this sound like a whole church cookout broke out in the studio?” Teaches energy & call-and-response history."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Ohio origins → gospel → doo-wop",
+            "Brothers O’Kelly, Rudolph, and Ronald",
+            "Early performances with gospel groups",
+            "First hits:",
+            "“Shout!” (1959)",
+            "“Twist & Shout” (1962)",
+            "Ron as a young vocalist with grown-man control"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-for-the-love-of-you",
+        "ronald-isley-groove-with-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “For the Love of You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does this sound like a whole church cookout broke out in the studio?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-02-the-funk-soul-reinvention-1970s",
+      "number": 22,
+      "title": "The Funk-Soul Reinvention (1970s)",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show the transition into a whole new sound world. Let your son compare Ron’s 60s voice vs 70s voice → hear evolution in tone."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "The younger brothers join the band (Ernie, Marvin)",
+            "The birth of funk-rock & soul fusion",
+            "Ron’s voice deepens, smoothens, becomes richer",
+            "The Isleys rivaling Earth, Wind & Fire, and Parliament",
+            "Black family bands as cultural pillars",
+            "“That Lady”",
+            "“Fight the Power”",
+            "“Live It Up”",
+            "“For the Love of You” (SMOOTHNESS MASTERCLASS)"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady",
+        "ronald-isley-fight-the-power",
+        "ronald-isley-live-it-up",
+        "ronald-isley-for-the-love-of-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Let your son compare Ron’s 60s voice vs 70s voice → hear evolution in tone.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-03-quiet-storm-era-late-70s-80s-the-love-song-ki",
+      "number": 23,
+      "title": "Quiet Storm Era (Late 70s–80s) — The Love Song King",
+      "body": [
+        {
+          "type": "text",
+          "text": "Song King Goals: Teach emotional expression + romantic soul. Break down “Between the Sheets” → mood, production, tone, pacing. Tell him this song is the parent of HALF of 90s hip-hop samples."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Ron Isley as the template for bedroom R&B",
+            "Whispery tone + falsetto glides",
+            "The Isleys shifting into grown, sensual music",
+            "The foundations of Quiet Storm radio programming",
+            "Soft, warm, intimate mood creation",
+            "“Between the Sheets”",
+            "“Groove With You”",
+            "“Don’t Say Goodnight”",
+            "“Voyage to Atlantis”"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-between-the-sheets",
+        "ronald-isley-groove-with-you",
+        "ronald-isley-voyage-to-atlantis"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Between the Sheets” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Between the Sheets” → mood, production, tone, pacing. Tell him this song is the parent of HALF of 90s hip-hop samples.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ronald-isley-lesson-04-songwriting-emotion-as-architecture",
+      "number": 24,
+      "title": "Songwriting — Emotion as Architecture",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Train emotional literacy in music. Teach Ron’s writing style: Have your son explain what emotions each Isley track feels like — sad, longing, hopeful, seductive, spiritual. It builds emotional mapping skills."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Simple phrases",
+            "Deep feeling",
+            "Intuition over complexity",
+            "Letting harmony guide the emotion",
+            "Writing for the moment, not the charts"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Exercise: Have your son explain what emotions each Isley track feels like — sad, longing, hopeful, seductive, spiritual.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-05-hip-hop-samples-how-ron-isley-became-a-godfat",
+      "number": 25,
+      "title": "Hip-Hop Samples — How Ron Isley Became a Godfather to a New Generation",
+      "body": [
+        {
+          "type": "text",
+          "text": "a Godfather to a New Generation Goals: Show how old-school R&B anchors modern hip-hop. Teach key samples: Discuss how hip-hop kept the Isley legacy ALIVE in the 90s/2000s. Match the original to the sample. It trains ear recognition."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Between the Sheets” → Biggie (“Big Poppa”), Aaliyah, Da Brat",
+            "“Footsteps in the Dark” → Ice Cube (“It Was a Good Day”)",
+            "“Voyage to Atlantis” → Bone Thugs-N-Harmony, Drake live references",
+            "“For the Love of You” → Thundercat, countless covers"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Match the original to the sample. It trains ear recognition.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ronald-isley-lesson-06-mr-biggs-era-ron-s-reinvention-through-r-kell",
+      "number": 26,
+      "title": "Mr. Biggs Era — Ron’s Reinvention Through R. Kelly Collaborations",
+      "body": [
+        {
+          "type": "text",
+          "text": "R. Kelly Collaborations Goals: Teach reinvention, myth-making, and character work. older) Analyze the “story song” structure — verses as scenes, not just lyrics."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "The “Mr. Biggs” persona — smooth OG, fedora, suit, story-driven songs",
+            "The soap-opera musical style",
+            "The shift from crooner → CHARACTER actor in music",
+            "The iconic narrative tracks (though you’ll clarify R. Kelly’s role ethically when your son is",
+            "“Contagious”",
+            "“Down Low (Ron Isley parts)”",
+            "“Busted”"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-contagious",
+        "ronald-isley-busted"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Contagious” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Analyze the “story song” structure — verses as scenes, not just lyrics.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-07-ron-s-voice-technical-mastery-without-flashin",
+      "number": 27,
+      "title": "Ron’s Voice — Technical Mastery Without Flashiness",
+      "body": [
+        {
+          "type": "text",
+          "text": "Flashiness Goals: Teach voice science. Teach his vocal signatures: Compare Ron’s tone with: Explain why Ron is the “calm romance” archetype."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "buttery tone",
+            "speaking-singing hybrid",
+            "soft falsetto with no cracks",
+            "slow melisma, never overdone",
+            "breathy intimacy",
+            "conversational phrasing",
+            "emotional clarity",
+            "light vibrato at the end of lines",
+            "Luther Vandross (butter)",
+            "Marvin Gaye (airy passion)",
+            "Charlie Wilson (raspy fire)"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare Ron’s tone with: ● Luther Vandross (butter)",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, sexual-content, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ronald-isley-lesson-08-the-isley-longevity-lesson-evolving-through-6",
+      "number": 28,
+      "title": "The Isley Longevity Lesson — Evolving Through 6 Eras",
+      "body": [
+        {
+          "type": "text",
+          "text": "Through 6 Eras Goals: Teach survival + adaptability. Break down the eras: “How does an artist stay relevant for 60 years without changing who they are?” This teaches flexible identity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "50s: gospel/doowop",
+            "60s: soul/motown-adjacent",
+            "70s: funk & rock",
+            "80s: quiet storm",
+            "90s: hip-hop fusion & Mr. Biggs",
+            "2000s–2020s: features (Snoop, Beyoncé, Kendrick, etc.)"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does an artist stay relevant for 60 years without changing who they are?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-09-modern-influence-ron-isley-s-children",
+      "number": 29,
+      "title": "Modern Influence — Ron Isley’s Children",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his legacy. Influenced by Ron: Pick a modern R&B song. Find the Isley Brothers “DNA” in it."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "D’Angelo",
+            "Maxwell",
+            "Frank Ocean",
+            "Anderson .Paak",
+            "The Weeknd (quiet storm revival)",
+            "Charlie Wilson & JAHEIM owe stylistic nods",
+            "Neo-soul crooners",
+            "R&B slow jam culture",
+            "Hip-hop R&B hybrids"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Pick a modern R&B song. Find the Isley Brothers “DNA” in it.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-10-why-ron-isley-matters-final-analysis",
+      "number": 30,
+      "title": "“Why Ron Isley Matters” — Final Analysis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Big-picture understanding. Have your son evaluate Ron on: 1. Vocal tone 2. Longevity 3. Emotional delivery 4. Evolution across eras 5. Influence on hip-hop 6. Sampling legacy 7. Romantic songwriting 8. Character/performance energy 9. Smoothness as a technique 10. Cultural relevance Then write his conclusion."
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-01-origins-philadelphia-roots-the-raw-soul-era",
+      "number": 31,
+      "title": "Origins — Philadelphia Roots, The Raw Soul Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Era Goals: Teach the foundation of the groove. “What emotions sit in Frankie’s voice? Peace? Honesty? Warmth?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Frankie Beverly started as Raw Soul in Philly",
+            "moved to the Bay Area",
+            "Marvin Gaye personally co-signed and took them on tour",
+            "Gaye helped rename them Maze",
+            "heavy influence from gospel, funk, jazz, & Philly soul",
+            "“While I’m Alone”"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-before-i-let-go",
+        "frankie-beverly-maze-we-are-one"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Before I Let Go” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-02-the-maze-sound-groove-over-flash",
+      "number": 32,
+      "title": "The Maze Sound — Groove Over Flash",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach arrangement + band chemistry. The Maze formula: Teach your son: Maze is how you make music that breathes. Everybody relaxed, everybody locked in. Have him notice how NOTHING rushes."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "steady mid-tempo groove",
+            "clean guitar licks",
+            "buttery basslines",
+            "warm organ/keys",
+            "gentle but tight drums",
+            "horns that accent, never overwhelm",
+            "Frankie’s smoky tenor sitting right on top the pocket",
+            "“Laid Back Girl”",
+            "“We Are One”"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-laid-back-girl",
+        "frankie-beverly-maze-we-are-one"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Laid Back Girl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-03-frankie-beverly-s-voice-the-warm-soul-narrato",
+      "number": 33,
+      "title": "Frankie Beverly’s Voice — The Warm Soul Narrator",
+      "body": [
+        {
+          "type": "text",
+          "text": "Narrator Goals: Teach vocal character. Frankie’s voice is: “How does he sound like he’s talking TO you, not performing AT you?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "raspy but tender",
+            "soulful without oversinging",
+            "conversational",
+            "honest",
+            "grown",
+            "instantly recognizable",
+            "“Joy & Pain”"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-joy-and-pain"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Joy & Pain” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does he sound like he’s talking TO you, not performing AT you?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-04-black-joy-as-resistance-the-themes",
+      "number": 34,
+      "title": "Black Joy as Resistance — The Themes",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach cultural context. Maze themes: Explain that this ain’t just a song — it’s a philosophy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "love",
+            "unity",
+            "community",
+            "perseverance",
+            "celebration",
+            "healing after struggle",
+            "emotional honesty",
+            "grown maturity",
+            "“We Are One”"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-we-are-one"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “We Are One” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-05-the-live-experience-a-cultural-rite-of-passag",
+      "number": 35,
+      "title": "The Live Experience — A Cultural Rite of Passage",
+      "body": [
+        {
+          "type": "text",
+          "text": "Passage Goals: Teach performance impact. Maze live shows: Teach your son: Some artists you listen to. Some artists you EXPERIENCE. Maze is experience."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "white outfits (tradition!)",
+            "extended grooves",
+            "crowd singalongs",
+            "multigenerational audiences",
+            "dancing aunties",
+            "two-stepping uncles",
+            "pure positivity",
+            "zero gimmicks, ALL music"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-while-i-m-alone"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “While I’m Alone” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-06-black-family-tradition-the-cookout-canon",
+      "number": 36,
+      "title": "Black Family Tradition — The Cookout Canon",
+      "body": [
+        {
+          "type": "text",
+          "text": "Canon Goals: Teach cultural heritage. Maze songs = Then Beyoncé’s cover → show the lineage. Explain: This song is literally cultural glue."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "played at weddings",
+            "played at barbecues",
+            "played at anniversaries",
+            "played when the grill hits its peak",
+            "played when the whole family forms a dance line",
+            "played when auntie yell “THIS MY SONG!”",
+            "“Before I Let Go” (original Maze version — REQUIRED)"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-before-i-let-go"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Before I Let Go” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-07-instrumentation-how-maze-built-their-signatur",
+      "number": 37,
+      "title": "Instrumentation — How Maze Built Their Signature Groove",
+      "body": [
+        {
+          "type": "text",
+          "text": "Signature Groove Goals: Teach musical layers. Key components: Play “Golden Time of Day.” Have your son pick out 3 instruments by ear."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "rubbery bass grooves",
+            "pocket-perfect drumming",
+            "twinkling keys",
+            "warm Rhodes piano",
+            "light funk guitar scratches",
+            "occasional congas/percussion",
+            "lush background vocals"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-golden-time-of-day"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Golden Time of Day.” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “Golden Time of Day.” Have your son pick out 3 instruments by ear.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-08-the-message-spiritual-r-and-b-without-preachi",
+      "number": 38,
+      "title": "The Message — Spiritual R&B Without Preaching",
+      "body": [
+        {
+          "type": "text",
+          "text": "Preaching Goals: Teach subtlety + emotional depth. Frankie sings about: He never yells the message. He embodies it. This unit teaches emotional regulation & gratitude through music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "inner peace",
+            "connecting with others",
+            "highs + lows as part of life (“Joy & Pain”)",
+            "gratitude",
+            "Black resilience",
+            "the sacredness of good times"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-while-i-m-alone"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “While I’m Alone” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-09-frankie-beverly-and-maze-influence-tree",
+      "number": 39,
+      "title": "Frankie Beverly & Maze Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show their wide generational impact. DIRECT Influence: CULTURAL Influence: Play Beyoncé’s “Before I Let Go” → original Maze version. Explain how cultural songs get passed down."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Beyoncé (covering “Before I Let Go”)",
+            "Charlie Wilson",
+            "Sade (groove + calm sophistication)",
+            "Kem",
+            "Anthony Hamilton",
+            "Dwele",
+            "Raphael Saadiq (production DNA)",
+            "Frankie Beverly is a blueprint for neo-soul band energy",
+            "modern R&B band sound",
+            "Black family gatherings",
+            "grown Black romance",
+            "stepper culture",
+            "live instrumentation revival",
+            "feel-good festival music",
+            "the “summer cookout playlist” genre"
+          ]
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-before-i-let-go"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Before I Let Go” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Beyoncé’s “Before I Let Go” → original Maze version. Explain how cultural songs get passed down.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "frankie-beverly-maze-lesson-10-the-legacy-joy-as-a-lifelong-act",
+      "number": 40,
+      "title": "The Legacy — Joy as a Lifelong Act",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach why Maze matters beyond charts. Maze didn’t chase trends. Didn’t chase radio. Didn’t chase drama. They chased VIBE, COMMUNITY, LOVE, TOGETHERNESS. Teach your son: Sometimes the biggest impact ain’t fame — it’s the feeling you leave behind in people’s lives. Maze = generational memory."
+        }
+      ],
+      "listen": [
+        "frankie-beverly-maze-while-i-m-alone"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “While I’m Alone” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Frankie Beverly & Maze after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-01-origins-south-side-chicago-panther-roots-and",
+      "number": 41,
+      "title": "Origins — South Side Chicago, Panther Roots, And Natural Gift",
+      "body": [
+        {
+          "type": "text",
+          "text": "Roots, And Natural Gift Goals: Teach her political + cultural grounding. “How does she sound THIS confident this young?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born Yvette Marie Stevens",
+            "grew up in Chicago with a politically active family",
+            "joined the Black Panther Party as a teen",
+            "got nickname “Chaka” from a Yoruba drummer",
+            "deep soul & funk from childhood",
+            "joined Rufus in early 70s as LEAD FORCE",
+            "“Whoever’s Thrilling You (Is Killing Me)” (early Rufus era)"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does she sound THIS confident this young?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "chaka-khan-lesson-02-rufus-ft-chaka-khan-band-synergy-and-funk-edu",
+      "number": 42,
+      "title": "Rufus ft. Chaka Khan — Band Synergy & Funk Education",
+      "body": [
+        {
+          "type": "text",
+          "text": "Funk Education Goals: Teach musicianship + band chemistry. Rufus = Key Songs: Teach your son: A great vocalist + a great band = Legendary chemistry."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "tight funk grooves",
+            "live horns",
+            "complex basslines",
+            "syncopated drums",
+            "full band arrangements",
+            "Chaka’s powerhouse voice as the centerpiece",
+            "“Tell Me Something Good” (written by Stevie Wonder!)",
+            "“Sweet Thing”",
+            "“Ain’t Nobody” (yes, a Rufus track!)"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-ain-t-nobody",
+        "chaka-khan-i-know-you-i-live-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ain’t Nobody” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-03-the-chaka-voice-belting-rasp-fire-emotion",
+      "number": 43,
+      "title": "The Chaka Voice — Belting, Rasp, Fire, Emotion",
+      "body": [
+        {
+          "type": "text",
+          "text": "Emotion Goals: Teach vocal technique and mastery. Chaka’s signature qualities: Have your son notice: “How she can sound SO SOFT one second and SO BIG the next.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "unmatched belting power",
+            "natural rasp texture",
+            "fast vibrato",
+            "jazz-like improvisation",
+            "wide range",
+            "soulful ad-libs",
+            "conversational → explosive transitions",
+            "emotional intensity",
+            "“I’m Every Woman”",
+            "“Through the Fire”",
+            "“Ain’t Nobody”"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-i-m-every-woman",
+        "chaka-khan-through-the-fire",
+        "chaka-khan-ain-t-nobody"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m Every Woman” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-04-solo-career-icon-mode-activated",
+      "number": 44,
+      "title": "Solo Career — Icon Mode Activated",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach genre-blending. Chaka’s solo career mixes: Key Songs: Explain: Chaka didn’t fit ANY box — she built her own lane."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "funk",
+            "R&B",
+            "pop",
+            "disco",
+            "jazz",
+            "adult contemporary",
+            "gospel",
+            "hip-hop (later era)",
+            "“I’m Every Woman”",
+            "“Through the Fire”",
+            "“What Cha’ Gonna Do for Me”",
+            "“Love You All My Lifetime”"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-05-black-feminism-through-voice-and-presence",
+      "number": 45,
+      "title": "Black Feminism Through Voice & Presence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach empowerment. Chaka Khan embodied: Songs like: She showed the world what a powerful Black woman sounds like."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sexual freedom",
+            "independence",
+            "boldness",
+            "vulnerability + strength",
+            "the right to take up space",
+            "the right to be LOUD, POWERFUL, and CENTERED",
+            "“I’m Every Woman”",
+            "“Sweet Thing” (self-possessed love)",
+            "“Ain’t Nobody”"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "chaka-khan-lesson-06-vocal-lineage-from-chaka-to-whitney-to-beyonc",
+      "number": 46,
+      "title": "Vocal Lineage — From Chaka to Whitney to Beyoncé",
+      "body": [
+        {
+          "type": "text",
+          "text": "Beyoncé Goals: Show her influence tree explicitly. Chaka → Whitney Whitney’s debut single was literally a Chaka cover: “I’m Every Woman.” Chaka’s riffs, power, and phrasing hugely influenced Whitney. Whitney → Beyoncé Beyoncé’s runs, belts, and stage dominance show the Chaka lineage. Ask your son what they share: POWER + JOY + FEMININE STRENGTH."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Chaka “I’m Every Woman”",
+            "Whitney “I’m Every Woman”",
+            "Beyoncé “Love On Top” + “End of Time”"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-i-m-every-woman",
+        "chaka-khan-love-on-top",
+        "chaka-khan-end-of-time"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m Every Woman” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "chaka-khan-lesson-07-ain-t-nobody-what-perfection-sounds-like",
+      "number": 47,
+      "title": "Ain’t Nobody — What Perfection Sounds Like",
+      "body": [
+        {
+          "type": "text",
+          "text": "Like Goals: Teach arrangement + groove. “Ain’t Nobody” is basically: Breakdown: Show your son how you can recognize a CLASSIC from the first 2 seconds."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "dance/R&B hybrid",
+            "perfect syncopation",
+            "iconic bassline",
+            "unmistakable synth stabs",
+            "Chaka’s floaty but powerful delivery",
+            "intro alone is instantly recognizable",
+            "groove NEVER lets up",
+            "vocals glide on top like butter"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Show your son how you can recognize a CLASSIC from the first 2 seconds.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-08-jazz-chaka-a-whole-other-universe",
+      "number": 48,
+      "title": "Jazz + Chaka — A Whole Other Universe",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach genre versatility. Chaka performed jazz with: Album: ClassiKhan Shows her: Your son will learn: Great singers can slide between genres effortlessly."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Miles Davis",
+            "Chick Corea",
+            "Freddie Hubbard",
+            "phrasing",
+            "scatting",
+            "jazz timing",
+            "vocal flexibility"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-09-hip-hop-respect-sampling-chaka",
+      "number": 49,
+      "title": "Hip-Hop Respect — Sampling Chaka",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach cross-generational influence. Rappers LOVE Chaka samples: Her voice is so iconic it becomes an instrument for generations."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Kanye West — “Through the Wire” (sampled “Through the Fire”)",
+            "Ashanti — “Ain’t No” interpolation lineage",
+            "LL Cool J",
+            "De La Soul",
+            "Mary J. Blige covers & inspirations"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-10-chaka-khan-s-influence-tree-huge",
+      "number": 50,
+      "title": "Chaka Khan’s Influence Tree (Huge)",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show widespread reach. DIRECT Influence: INDIRECT INFLUENCE: Play Chaka → then Ledisi. Let your son hear the POWER connection."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Whitney Houston",
+            "Beyoncé",
+            "Mary J. Blige",
+            "Alicia Keys",
+            "Mariah Carey (riff influence)",
+            "Jazmine Sullivan",
+            "Ariana Grande (vocal agility lineage)",
+            "Ledisi",
+            "Faith Evans",
+            "Kelly Rowland",
+            "Jennifer Hudson",
+            "neo-soul singers",
+            "R&B powerhouse balladeers",
+            "funk revivalists",
+            "Black feminist aesthetics"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Chaka → then Ledisi. Let your son hear the POWER connection.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "sections": [
+    {
+      "unitId": "al-green",
+      "title": "Al Green",
+      "summary": "Toddler-Friendly Teddy Gentle, soulful picks: Keep the “Turn Off the Lights” era for grown-folk time",
+      "lessonIds": [
+        "al-green-lesson-01-origins-arkansas-roots-church-choir-memphis-s",
+        "al-green-lesson-02-gospel-influence-the-foundation-of-his-style",
+        "al-green-lesson-03-the-hi-records-era-the-golden-sound",
+        "al-green-lesson-04-al-green-the-vocal-technician-whisper-falsett",
+        "al-green-lesson-05-let-s-stay-together-the-masterpiece",
+        "al-green-lesson-06-i-m-still-in-love-with-you-call-me-the-romant",
+        "al-green-lesson-07-the-tragedy-and-the-transformation",
+        "al-green-lesson-08-al-green-s-gospel-era-renewal-and-spiritual-s",
+        "al-green-lesson-09-al-green-s-influence-tree",
+        "al-green-lesson-10-themes-love-patience-tenderness-faith"
+      ]
+    },
+    {
+      "unitId": "teddy-pendergrass",
+      "title": "Teddy Pendergrass",
+      "summary": "Teddy Pendergrass matters because the source catalog identifies this route with one of the greatest soul vocalists ever, lead singer of Harold Melvin & the Blue Notes, pioneer of sensual, masculine R&B, king of the “Begging Man” archetype.",
+      "lessonIds": [
+        "teddy-pendergrass-lesson-01-origins-philly-roots-church-training-and-earl",
+        "teddy-pendergrass-lesson-02-teddy-with-harold-melvin-and-the-blue-notes-t",
+        "teddy-pendergrass-lesson-03-vocal-style-the-growl-the-roar-the-whisper",
+        "teddy-pendergrass-lesson-04-teddy-pendergrass-self-titled-solo-debut",
+        "teddy-pendergrass-lesson-05-teddy-as-the-original-r-and-b-sex-symbol",
+        "teddy-pendergrass-lesson-06-philly-soul-production-gamble-and-huff-s-soun",
+        "teddy-pendergrass-lesson-07-the-car-accident-resilience-and-reinvention",
+        "teddy-pendergrass-lesson-08-teddy-as-blueprint-the-begging-man-and-sensua",
+        "teddy-pendergrass-lesson-09-teddy-s-emotional-themes-love-regret-sensuali",
+        "teddy-pendergrass-lesson-10-legacy-why-teddy-matters-in-modern-music"
+      ]
+    },
+    {
+      "unitId": "ronald-isley",
+      "title": "Ronald Isley",
+      "summary": "Ronald Isley matters because the source catalog identifies this route with One of the greatest male vocalists in Black music, The embodiment of “Black love song” energy, A vocal chameleon who evolved with every era, The centerpiece of The Isley Brothers for 60+ years.",
+      "lessonIds": [
+        "ronald-isley-lesson-01-the-roots-the-isley-brothers-begin-1950s-60s",
+        "ronald-isley-lesson-02-the-funk-soul-reinvention-1970s",
+        "ronald-isley-lesson-03-quiet-storm-era-late-70s-80s-the-love-song-ki",
+        "ronald-isley-lesson-04-songwriting-emotion-as-architecture",
+        "ronald-isley-lesson-05-hip-hop-samples-how-ron-isley-became-a-godfat",
+        "ronald-isley-lesson-06-mr-biggs-era-ron-s-reinvention-through-r-kell",
+        "ronald-isley-lesson-07-ron-s-voice-technical-mastery-without-flashin",
+        "ronald-isley-lesson-08-the-isley-longevity-lesson-evolving-through-6",
+        "ronald-isley-lesson-09-modern-influence-ron-isley-s-children",
+        "ronald-isley-lesson-10-why-ron-isley-matters-final-analysis"
+      ]
+    },
+    {
+      "unitId": "frankie-beverly-maze",
+      "title": "Frankie Beverly & Maze",
+      "summary": "Frankie Beverly & Maze matters because the source catalog identifies this route with one of the greatest live bands in Black American history, champions of joy, positivity, love, and Black resilience, creators of the most recognizable “vibe signature” in soul music, the soundtrack to barbecues, block parties, family reunions, HBCU homecomings, steady.",
+      "lessonIds": [
+        "frankie-beverly-maze-lesson-01-origins-philadelphia-roots-the-raw-soul-era",
+        "frankie-beverly-maze-lesson-02-the-maze-sound-groove-over-flash",
+        "frankie-beverly-maze-lesson-03-frankie-beverly-s-voice-the-warm-soul-narrato",
+        "frankie-beverly-maze-lesson-04-black-joy-as-resistance-the-themes",
+        "frankie-beverly-maze-lesson-05-the-live-experience-a-cultural-rite-of-passag",
+        "frankie-beverly-maze-lesson-06-black-family-tradition-the-cookout-canon",
+        "frankie-beverly-maze-lesson-07-instrumentation-how-maze-built-their-signatur",
+        "frankie-beverly-maze-lesson-08-the-message-spiritual-r-and-b-without-preachi",
+        "frankie-beverly-maze-lesson-09-frankie-beverly-and-maze-influence-tree",
+        "frankie-beverly-maze-lesson-10-the-legacy-joy-as-a-lifelong-act"
+      ]
+    },
+    {
+      "unitId": "chaka-khan",
+      "title": "Chaka Khan",
+      "summary": "Chaka Khan matters because the source catalog identifies this route with one of the greatest singers in music history, queen of funk & soul, lead vocalist of Rufus before going solo, the blueprint for powerful female voices.",
+      "lessonIds": [
+        "chaka-khan-lesson-01-origins-south-side-chicago-panther-roots-and",
+        "chaka-khan-lesson-02-rufus-ft-chaka-khan-band-synergy-and-funk-edu",
+        "chaka-khan-lesson-03-the-chaka-voice-belting-rasp-fire-emotion",
+        "chaka-khan-lesson-04-solo-career-icon-mode-activated",
+        "chaka-khan-lesson-05-black-feminism-through-voice-and-presence",
+        "chaka-khan-lesson-06-vocal-lineage-from-chaka-to-whitney-to-beyonc",
+        "chaka-khan-lesson-07-ain-t-nobody-what-perfection-sounds-like",
+        "chaka-khan-lesson-08-jazz-chaka-a-whole-other-universe",
+        "chaka-khan-lesson-09-hip-hop-respect-sampling-chaka",
+        "chaka-khan-lesson-10-chaka-khan-s-influence-tree-huge"
+      ]
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "developmentOnly": true
+}

@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "id": "young-thug",
+  "number": 14,
+  "displayName": "Young Thug",
+  "monogram": "YT",
+  "whyItMatters": "Young Thug matters because the source catalog identifies this route with Father of the “melodic trap” wave, Flow contortionist, Tone-shapeshifter, Fashion rebel + gender-norm breaker.",
+  "passedDown": {
+    "trackId": "young-thug-stoner",
+    "blurb": "Start with “Stoner” and use the unit's checkpoints to hear how Young Thug's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "young-thug-digits",
+      "young-thug-relationship",
+      "young-thug-you-said",
+      "young-thug-love-me-forever",
+      "young-thug-power"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "Father of the “melodic trap” wave",
+      "Flow contortionist",
+      "Tone-shapeshifter",
+      "Fashion rebel + gender-norm breaker",
+      "Atlanta culture pillar",
+      "Mentor to a whole generation (Gunna, Baby, Keed, YSL)",
+      "Hook architect",
+      "Ad-lib sorcerer"
+    ],
+    "closing": "Thug teaches freedom."
+  },
+  "learnOutcomes": [
+    "vocal experimentation",
+    "melody studies",
+    "stylistic courage",
+    "modern Atlanta lineage",
+    "how new sounds get normalized",
+    "artistic leadership",
+    "originality vs imitation",
+    "Black futurism in music"
+  ],
+  "tracks": [
+    {
+      "id": "young-thug-stoner",
+      "title": "Stoner",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Stoner Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-check",
+      "title": "Check",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Check Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-digits",
+      "title": "Digits",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Digits Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-halftime",
+      "title": "Halftime",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Halftime Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-with-that-feat-duke",
+      "title": "With That (feat. Duke)",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "With That (feat. Duke) Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-never-had-it",
+      "title": "Never Had It",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Never Had It Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-havana",
+      "title": "Havana",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Havana Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-wyclef-jean",
+      "title": "Wyclef Jean",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Wyclef Jean Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-pick-up-the-phone",
+      "title": "Pick Up the Phone",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Pick Up the Phone Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-harambe",
+      "title": "Harambe",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Harambe Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-relationship",
+      "title": "Relationship",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Relationship Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-family-don-t-matter",
+      "title": "Family Don’t Matter",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Family Don’t Matter Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-take-care",
+      "title": "Take Care",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Take Care Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-you-said",
+      "title": "You Said",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "You Said Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-love-me-forever",
+      "title": "Love Me Forever",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Love Me Forever Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-power",
+      "title": "Power",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Power Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "young-thug-lesson-01-origins-sylvan-hills-struggle-and-survival-cr",
+      "number": 1,
+      "title": "Origins — Sylvan Hills, Struggle, & Survival Creativity",
+      "body": [
+        {
+          "type": "text",
+          "text": "Creativity Goals: Show the roots of his eccentric genius. “Why does this feel chaotic AND catchy at the same time?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Jeffery Lamar Williams",
+            "SE Atlanta upbringing",
+            "Large family, rough environment",
+            "Mixtape rise (1017 Thug era)",
+            "Early sound: shrieks, whispers, alien tones",
+            "People laughed at first — then copied everything",
+            "“Stoner”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-relationship",
+        "young-thug-digits"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Relationship” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does this feel chaotic AND catchy at the same time?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "young-thug-lesson-02-flow-mutations-thug-as-a-vocal-instrument",
+      "number": 2,
+      "title": "Flow Mutations — Thug as a Vocal Instrument",
+      "body": [
+        {
+          "type": "text",
+          "text": "Instrument Goals: Teach voice-as-creation-tool. Thug uses: Lesson: “You ain’t gotta sound ‘normal’ to be musical.” “How many versions of his voice can you hear?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "squeaks",
+            "yelps",
+            "croons",
+            "whisper singing",
+            "falsetto glides",
+            "raspy belts",
+            "tongue-rolling",
+            "off-key → on-beat bending",
+            "pockets inside pockets",
+            "jazz-like scatting",
+            "“Check”",
+            "“Digits”",
+            "“Halftime”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-check",
+        "young-thug-digits",
+        "young-thug-halftime"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Check” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How many versions of his voice can you hear?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "young-thug-lesson-03-barter-6-the-weaponizing-of-melody",
+      "number": 3,
+      "title": "Barter 6 — The Weaponizing of Melody",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach the album that made him unavoidable. Themes: Break down the chorus of “Check” → it’s minimalist genius."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "experimental swagger",
+            "sonic layering",
+            "pain behind slurred tones",
+            "coded emotional vulnerability",
+            "melodic trap foundation",
+            "“With That (feat. Duke)”",
+            "“Check”",
+            "“Never Had It”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-with-that-feat-duke",
+        "young-thug-check",
+        "young-thug-never-had-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “With That (feat. Duke)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the chorus of “Check” → it’s minimalist genius.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, violence, weapons, trauma, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-04-thug-as-a-writer-pen-behind-the-scenes",
+      "number": 4,
+      "title": "Thug as a Writer — Pen Behind the Scenes",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach songwriting craft. Thug wrote or co-wrote for: Show your son: “Even experimental artists can write GLOBAL hits.” Discuss contrast."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Camila Cabello (“Havana”)",
+            "Post Malone",
+            "Usher",
+            "Childish Gambino",
+            "Travis Scott",
+            "Future",
+            "“Havana” (then play Thug’s verse)"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-havana"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Havana” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-05-jeffery-fashion-gender-and-artistic-courage",
+      "number": 5,
+      "title": "Jeffery — Fashion, Gender, & Artistic Courage",
+      "body": [
+        {
+          "type": "text",
+          "text": "Courage Goals: Teach expression beyond norms. Explain: “What’s brave about being different in front of millions?” Lesson: Freedom is art."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "the dress on the cover shook the world",
+            "challenged toxic masculinity in rap",
+            "flamboyant, couture-inspired",
+            "album explored persona multiplicity (songs named after inspirations)",
+            "“Wyclef Jean”",
+            "“Pick Up the Phone”",
+            "“Harambe”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-wyclef-jean",
+        "young-thug-pick-up-the-phone",
+        "young-thug-harambe"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Wyclef Jean” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What’s brave about being different in front of millions?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "young-thug-lesson-06-beautiful-thugger-girls-country-r-and-b-and-v",
+      "number": 6,
+      "title": "Beautiful Thugger Girls — Country, R&B & Vocal Mastery",
+      "body": [
+        {
+          "type": "text",
+          "text": "Vocal Mastery Goals: Teach genre-blending. Themes: Discuss how he blends trap drums with country chord progressions."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "romance",
+            "acoustic guitars",
+            "pop melodies",
+            "country twang",
+            "heartbreak",
+            "vocal glide experimentation",
+            "“Relationship”",
+            "“Family Don’t Matter”",
+            "“Take Care”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-relationship",
+        "young-thug-family-don-t-matter",
+        "young-thug-take-care"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Relationship” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Discuss how he blends trap drums with country chord progressions.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-07-thug-as-mentor-ysl-family-trees-and-leadershi",
+      "number": 7,
+      "title": "Thug as Mentor — YSL, Family Trees & Leadership",
+      "body": [
+        {
+          "type": "text",
+          "text": "Leadership Goals: Show his influence system. Thug = big brother figure. “What does it mean to invest in younger talent?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Gunna",
+            "Lil Baby (coached early flow)",
+            "Lil Keed",
+            "HiDoraah",
+            "Strick",
+            "Karlae",
+            "Uzi synergy",
+            "Atlanta collaborative network"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-stoner"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stoner” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does it mean to invest in younger talent?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-08-legal-troubles-and-the-complex-legacy",
+      "number": 8,
+      "title": "Legal Troubles & The Complex Legacy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach nuance + real-world consequences. When older, teach: Lesson: “Talented people can still make dangerous choices. Learn from both.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "YSL RICO case",
+            "blurring of art & reality",
+            "increased scrutiny on rap lyrics",
+            "debates about fairness vs responsibility",
+            "separating art brilliance from complicated life decisions"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-stoner"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stoner” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "young-thug-lesson-09-sound-architecture-how-thug-built-the-2015-20",
+      "number": 9,
+      "title": "Sound Architecture — How Thug Built the 2015–2023 Blueprint",
+      "body": [
+        {
+          "type": "text",
+          "text": "2015–2023 Blueprint Goals: Teach how he shaped the whole era. Thug’s sonic DNA shows up in: Your son gon’ understand: Thug birthed half the new wave. Play Uzi → Carti → Thug. See the lineage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Travis Scott",
+            "Lil Uzi Vert",
+            "Playboi Carti",
+            "Gunna",
+            "Lil Baby",
+            "Don Toliver",
+            "YNW Melly",
+            "Trippie Redd",
+            "YoungBoy (melodic runs)",
+            "Future (mutual influence)"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-stoner"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stoner” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Uzi → Carti → Thug. See the lineage.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-10-thug-s-influence-tree",
+      "number": 10,
+      "title": "Thug’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show depth of his legacy. Direct influence: Sonic descendants: Cultural descendants: Thug = modern Miles Davis energy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Gunna",
+            "Lil Baby",
+            "Lil Keed",
+            "YNW Melly",
+            "Don Toliver",
+            "Trippie Redd",
+            "SahBabii",
+            "Sheck Wes",
+            "Destroy Lonely",
+            "Playboi Carti’s baby talk",
+            "Uzi’s melodic runs",
+            "Travis Scott’s auto-crooning",
+            "Future’s layered harmonies (mutual influence)",
+            "Young artists using gender-fluid fashion",
+            "Experimental vocalists",
+            "Rappers who treat their voice like a synthesizer"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-stoner"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stoner” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Young Thug used vocal experimentation, genre fusion, and fearless self-expression to transform modern trap music. Compare ONE track from Barter 6 with ONE track from Jeffery, and identify TWO modern artists most influenced by Thug.",
+    "earlyOptions": [
+      "young-thug-stoner"
+    ],
+    "laterOptions": [
+      "young-thug-take-care"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "explicit-language",
+    "violence",
+    "weapons",
+    "trauma",
+    "mature-themes"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 8, pages 96-110. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

@@ -17,7 +17,9 @@ export default function Units() {
       <View style={{ gap: space.xs }}>
         <Kicker color={colors.ink}>Choose a route</Kicker>
         <Text style={[type.display, { color: colors.ink }]}>Route directory</Text>
-        <Text style={[type.small, { color: colors.ink }]}>Ten artists. One passed-down track each. Start anywhere.</Text>
+        <Text style={[type.small, { color: colors.ink }]}>
+          {catalog.units.length} artist routes. One passed-down track each. Start anywhere.
+        </Text>
       </View>
       <RoadDivider />
       <View style={styles.grid}>

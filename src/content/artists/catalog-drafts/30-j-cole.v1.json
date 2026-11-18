@@ -1,0 +1,752 @@
+{
+  "schemaVersion": 1,
+  "id": "j-cole",
+  "number": 30,
+  "displayName": "J. Cole",
+  "monogram": "JC",
+  "whyItMatters": "J. Cole matters because the source catalog identifies this route with one of the strongest storytellers of his generation, the “everyman” philosopher of rap, known for honesty, vulnerability, & internal conflicts, album-focused artist.",
+  "passedDown": {
+    "trackId": "j-cole-lights-please",
+    "blurb": "Start with “Lights Please” and use the unit's checkpoints to hear how J. Cole's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "j-cole-apparently",
+      "j-cole-love-yourz",
+      "j-cole-january-28th",
+      "j-cole-crooked-smile",
+      "j-cole-the-show-goes-on"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the strongest storytellers of his generation",
+      "the “everyman” philosopher of rap",
+      "known for honesty, vulnerability, & internal conflicts",
+      "album-focused artist",
+      "Dreamville CEO & mentor",
+      "lyrically technical but emotionally accessible",
+      "Southern hip-hop with a literary mind",
+      "how rap can explore feelings"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "how rap can explore feelings",
+    "how an artist evolves with maturity",
+    "how identity & background shape creative work",
+    "how lyricism works technically"
+  ],
+  "tracks": [
+    {
+      "id": "j-cole-lights-please",
+      "title": "Lights Please",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Lights Please J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-simba",
+      "title": "Simba",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Simba J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-lost-ones",
+      "title": "Lost Ones",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Lost Ones J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-apparently",
+      "title": "Apparently",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Apparently J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-love-yourz",
+      "title": "Love Yourz",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Love Yourz J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-viluminati-early-ideas",
+      "title": "Viluminati (early ideas)",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Viluminati (early ideas) J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-higher",
+      "title": "Higher",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Higher J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-too-deep-for-the-intro",
+      "title": "Too Deep for the Intro",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Too Deep for the Intro J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-wet-dreamz",
+      "title": "Wet Dreamz",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Wet Dreamz J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-03-adolescence",
+      "title": "03’ Adolescence",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "03’ Adolescence J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-love-yourz-2",
+      "title": "Love Yourz,",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Love Yourz, J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-sing-about-me-i-m-dying-of-thirst",
+      "title": "Sing About Me, I’m Dying of Thirst",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Sing About Me, I’m Dying of Thirst J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-january-28th",
+      "title": "January 28th",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "January 28th J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-crooked-smile",
+      "title": "Crooked Smile",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Crooked Smile J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "j-cole-the-show-goes-on",
+      "title": "The Show Goes On",
+      "artist": "J. Cole",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "The Show Goes On J. Cole",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 322-335. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "j-cole-lesson-01-origins-fayetteville-nc-mixed-identity-hustle",
+      "number": 1,
+      "title": "Origins — Fayetteville, NC, Mixed Identity, Hustle & Discipline",
+      "body": [
+        {
+          "type": "text",
+          "text": "Hustle & Discipline Goals: Teach context + personality formation. “What life details do you hear slipping into his flow?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "biracial identity (Black father, white mother)",
+            "small-town upbringing",
+            "early poverty & struggle",
+            "discovered writing early → notebooks full",
+            "obsessed with beats → taught himself production",
+            "moved to NYC for college (St. John’s)",
+            "hustled demos for YEARS",
+            "eventually signed to Jay-Z’s Roc Nation",
+            "“Lights Please”",
+            "“Simba”"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-lights-please",
+        "j-cole-simba"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lights Please” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What life details do you hear slipping into his flow?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "j-cole-lesson-02-the-pen-cole-s-lyrical-style",
+      "number": 2,
+      "title": "The PEN — Cole’s Lyrical Style",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach technical writing. Cole is known for: “How does Cole make you FEEL the story instead of just telling it?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "internal rhymes",
+            "autobiographical bars",
+            "conversational delivery",
+            "introspective tone",
+            "emotionally honest verses",
+            "relatable scenarios",
+            "socially aware storytelling",
+            "“Lost Ones”",
+            "“Apparently”",
+            "“Love Yourz”"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-love-yourz",
+        "j-cole-apparently"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Love Yourz” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Cole make you FEEL the story instead of just telling it?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "j-cole-lesson-03-the-beatmaker-cole-s-production-style",
+      "number": 3,
+      "title": "The Beatmaker — Cole’s Production Style",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach rap production literacy. Cole’s beats often feature: Songs: Lesson: Cole produces FEELINGS as much as beats."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "warm soul samples",
+            "mellow piano loops",
+            "boom-bap drums",
+            "Southern drum bounce",
+            "emotional chord progressions",
+            "minimalism when needed",
+            "“Born Sinner”",
+            "“Power Trip”",
+            "“No Role Modelz”"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-lights-please"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lights Please” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of J. Cole after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "j-cole-lesson-04-the-come-up-the-warm-up-friday-night-lights-m",
+      "number": 4,
+      "title": "The Come Up, The Warm Up, Friday Night Lights — Mixtape Mastery",
+      "body": [
+        {
+          "type": "text",
+          "text": "Lights — Mixtape Mastery Goals: Show how he built a grassroots fanbase. These mixtapes: Explain: Mixtape Cole = raw ambition. Album Cole = maturity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "cult classics",
+            "deeply lyrical",
+            "full of hunger",
+            "storytelling-heavy",
+            "demonstrated growth",
+            "proved he wasn’t an industry plant",
+            "“Lights Please”",
+            "“Viluminati (early ideas)”",
+            "“Higher”",
+            "“Too Deep for the Intro”"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-lights-please",
+        "j-cole-viluminati-early-ideas",
+        "j-cole-higher",
+        "j-cole-too-deep-for-the-intro"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lights Please” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of J. Cole after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "j-cole-lesson-05-2014-forest-hills-drive-cole-s-magnum-opus",
+      "number": 5,
+      "title": "2014 Forest Hills Drive — Cole’s Magnum Opus",
+      "body": [
+        {
+          "type": "text",
+          "text": "Opus Goals: Study a near-perfect rap album. Themes: Teach your son: “Love Yourz” is one of rap’s greatest life lessons. Have him write 3 things he loves about his life."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "childhood",
+            "insecurity",
+            "lust",
+            "dreams",
+            "nostalgia",
+            "home",
+            "fame",
+            "grounding",
+            "“Wet Dreamz” (storytelling)",
+            "“03’ Adolescence” (self-esteem + direction)",
+            "“Love Yourz” (philosophy of gratitude)"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-wet-dreamz",
+        "j-cole-03-adolescence",
+        "j-cole-love-yourz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Wet Dreamz” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of J. Cole after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "j-cole-lesson-06-vulnerability-and-therapy-j-cole-as-emotional",
+      "number": 6,
+      "title": "Vulnerability & Therapy — J. Cole as Emotional Educator",
+      "body": [
+        {
+          "type": "text",
+          "text": "Emotional Educator Goals: Teach emotional intelligence. Songs like: Discuss themes: Lesson: Cole teaches boys they can FEEL without shame."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Apparently”",
+            "“Foldin Clothes”",
+            "“BRACKETS”",
+            "“The Cut Off”",
+            "family",
+            "self-growth",
+            "guilt",
+            "healing",
+            "accountability",
+            "mental health",
+            "habits and change"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-lights-please"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lights Please” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of J. Cole after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, trauma, artist-conduct, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "j-cole-lesson-07-social-commentary-cole-speaking-on-race-pover",
+      "number": 7,
+      "title": "Social Commentary — Cole Speaking on Race, Poverty, Politics",
+      "body": [
+        {
+          "type": "text",
+          "text": "Race, Poverty, Politics Goals: Teach systemic awareness. Songs: Breakdown: Cole uses his platform to tell OTHER people’s stories too."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Be Free” (police brutality)",
+            "“Neighbors” (racial profiling)",
+            "“KOD” (drug culture & coping mechanisms)",
+            "“4 Your Eyez Only” (story of a friend killed by violence)",
+            "empathy",
+            "systemic critique",
+            "narrative perspective",
+            "Black community issues"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-lights-please"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lights Please” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of J. Cole after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, substances, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "j-cole-lesson-08-the-dreamville-ecosystem-leadership-and-colla",
+      "number": 8,
+      "title": "The Dreamville Ecosystem — Leadership & Collaboration",
+      "body": [
+        {
+          "type": "text",
+          "text": "Collaboration Goals: Teach creative community-building. Dreamville members: Dreamville = Explain: A leader brings others with them."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "JID",
+            "EarthGang",
+            "Ari Lennox",
+            "Bas",
+            "Cozz",
+            "Lute",
+            "Omen",
+            "supportive ecosystem",
+            "genre-bending",
+            "embracing weird + Southern + lyrical",
+            "festival culture (Dreamville Fest)",
+            "new generation uplift"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-lights-please"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lights Please” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of J. Cole after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "j-cole-lesson-09-cole-s-evolution-from-hungry-to-humble",
+      "number": 9,
+      "title": "Cole’s Evolution — From Hungry to Humble",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach maturity. Early Cole = Mid-career Cole = Recent Cole = Songs to show evolution: Lesson: Growth looks like peace, not performance."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "chasing validation",
+            "ego & insecurity",
+            "proving himself",
+            "finding peace",
+            "fatherhood",
+            "lowering ego",
+            "focusing on legacy",
+            "sharpening skill out of pure love, not competition",
+            "stepping back, then stepping in strategically (features run era)",
+            "“Middle Child”",
+            "“The Climb Back”",
+            "“Applying Pressure”"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-lights-please"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lights Please” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of J. Cole after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "j-cole-lesson-10-j-cole-s-influence-tree",
+      "number": 10,
+      "title": "J. Cole’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his generational impact. DIRECT Influence: CULTURAL Influence: Play “Love Yourz,” then “Sing About Me, I’m Dying of Thirst” (Kendrick). Have your son compare narrative emotion."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "JID",
+            "Cordae",
+            "Saba",
+            "Joey Bada$$",
+            "EarthGang",
+            "Isaiah Rashad",
+            "Big K.R.I.T. (peer influence)",
+            "Kota the Friend",
+            "Mick Jenkins",
+            "Reason (TDE)",
+            "introspective rap renaissance",
+            "“no features” album wave",
+            "anti-flash artistry",
+            "emotional vulnerability in men",
+            "lyrical & spiritual consciousness",
+            "black hoodie + notebook aesthetic"
+          ]
+        }
+      ],
+      "listen": [
+        "j-cole-love-yourz-2",
+        "j-cole-sing-about-me-i-m-dying-of-thirst"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Love Yourz,” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of J. Cole after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “Love Yourz,” then “Sing About Me, I’m Dying of Thirst” (Kendrick). Have your son compare narrative emotion.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how J. Cole shaped modern hip-hop through introspective storytelling, soulful production, and emotional vulnerability. Compare ONE mixtape-era song (‘Lights Please’ or ‘Too Deep for the Intro’) with ONE album-era song (‘Love Yourz’ or ‘Neighbors’). Identify TWO modern artists who clearly show Cole’s influence.",
+    "earlyOptions": [
+      "j-cole-lights-please"
+    ],
+    "laterOptions": [
+      "j-cole-sing-about-me-i-m-dying-of-thirst"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "mature-themes",
+    "sexual-content",
+    "explicit-language",
+    "trauma",
+    "artist-conduct",
+    "violence",
+    "substances"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 25, pages 322-335. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

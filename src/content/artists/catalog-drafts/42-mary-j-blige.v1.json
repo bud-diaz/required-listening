@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 1,
+  "id": "mary-j-blige",
+  "number": 42,
+  "displayName": "Mary J. Blige",
+  "monogram": "MJ",
+  "whyItMatters": "Mary J. Blige matters because the source catalog identifies this route with The architect of “hip-hop soul”, A vocalist who sings with raw honesty, not perfection, A poet of heartbreak, survival, and self-worth, A fashion + cultural icon.",
+  "passedDown": {
+    "trackId": "mary-j-blige-reminisce",
+    "blurb": "Start with “Reminisce” and use the unit's checkpoints to hear how Mary J. Blige's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "mary-j-blige-real-love",
+      "mary-j-blige-everything",
+      "mary-j-blige-family-affair",
+      "mary-j-blige-be-without-you",
+      "mary-j-blige-just-fine"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The architect of “hip-hop soul”",
+      "A vocalist who sings with raw honesty, not perfection",
+      "A poet of heartbreak, survival, and self-worth",
+      "A fashion + cultural icon",
+      "A mentor figure to generations of women",
+      "A woman who turned abuse, addiction, and trauma into testimony",
+      "The ROOT system of 90s & 2000s R&B",
+      "empathy"
+    ],
+    "closing": "This is a soul education."
+  },
+  "learnOutcomes": [
+    "empathy",
+    "trauma literacy (age-appropriate)",
+    "vocal emotion analysis",
+    "R&B and rap fusion history",
+    "how women shaped hip-hop",
+    "the importance of vulnerability AND backbone"
+  ],
+  "tracks": [
+    {
+      "id": "mary-j-blige-real-love",
+      "title": "Real Love",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Real Love Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-reminisce",
+      "title": "Reminisce",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Reminisce Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-you-remind-me",
+      "title": "You Remind Me",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "You Remind Me Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-sweet-thing",
+      "title": "Sweet Thing",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Sweet Thing Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-mary-jane-all-night-long",
+      "title": "Mary Jane (All Night Long)",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Mary Jane (All Night Long) Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-i-m-goin-down",
+      "title": "I’m Goin’ Down",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "I’m Goin’ Down Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-my-life",
+      "title": "My Life",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "My Life Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-be-happy",
+      "title": "Be Happy",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Be Happy Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-love-is-all-we-need",
+      "title": "Love Is All We Need",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Love Is All We Need Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-not-gon-cry",
+      "title": "Not Gon’ Cry",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Not Gon’ Cry Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-everything",
+      "title": "Everything",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Everything Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-seven-days",
+      "title": "Seven Days",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Seven Days Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-no-more-drama",
+      "title": "No More Drama",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "No More Drama Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-family-affair",
+      "title": "Family Affair",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Family Affair Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-dance-for-me",
+      "title": "Dance for Me",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Dance for Me Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-be-without-you",
+      "title": "Be Without You",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Be Without You Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-just-fine",
+      "title": "Just Fine",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Just Fine Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mary-j-blige-good-morning-gorgeous",
+      "title": "Good Morning Gorgeous",
+      "artist": "Mary J. Blige",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Good Morning Gorgeous Mary J. Blige",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 495-507. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "mary-j-blige-lesson-01-origins-yonkers-pain-church-roots-and-uptown",
+      "number": 1,
+      "title": "Origins — Yonkers Pain, Church Roots, & Uptown Records",
+      "body": [
+        {
+          "type": "text",
+          "text": "Uptown Records Goals: Teach her foundation. truth “What do you hear in her voice besides singing?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in the Bronx, raised in Yonkers",
+            "Church singing roots",
+            "Childhood trauma + abusive environment",
+            "Demo tape leads to Uptown Records",
+            "Puff Daddy (Diddy) crafts her early sound",
+            "Mary enters the game as a regular girl with a broken heart and a voice that bleeds",
+            "“Real Love”"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-real-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Real Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What do you hear in her voice besides singing?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "mary-j-blige-lesson-02-what-s-the-411-the-birth-of-hip-hop-soul",
+      "number": 2,
+      "title": "What’s the 411? — The Birth of Hip-Hop Soul",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show her innovation. This album = Explain how Diddy used hard drums under soul vocals — brand new at the time."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "R&B vocals over hip-hop beats",
+            "street sensibility + feminine vulnerability",
+            "attitude, timbre, grit",
+            "new aesthetic lane opened",
+            "EVERYBODY copied the formula afterward",
+            "“Real Love”",
+            "“Reminisce”",
+            "“You Remind Me”",
+            "“Sweet Thing”"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-family-affair",
+        "mary-j-blige-just-fine"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Family Affair” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mary J. Blige after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain how Diddy used hard drums under soul vocals — brand new at the time.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mary-j-blige-lesson-03-my-life-the-emotional-bible",
+      "number": 3,
+      "title": "My Life — The Emotional Bible",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vulnerability + artistry. This is the Mary album. A masterpiece of pain transformed into beauty. Themes: Break down the lyrics of “My Life.” Teach your son emotional interpretation, not just music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "depression",
+            "addiction",
+            "toxic relationships",
+            "faith",
+            "survival",
+            "hope",
+            "inner child wounds",
+            "catharsis through song",
+            "“Mary Jane (All Night Long)”",
+            "“I’m Goin’ Down”",
+            "“My Life”",
+            "“Be Happy”"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-mary-jane-all-night-long",
+        "mary-j-blige-i-m-goin-down",
+        "mary-j-blige-my-life",
+        "mary-j-blige-be-happy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Mary Jane (All Night Long)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mary J. Blige after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the lyrics of “My Life.” Teach your son emotional interpretation, not just music.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, trauma, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "mary-j-blige-lesson-04-mary-s-voice-imperfect-raspy-true",
+      "number": 4,
+      "title": "Mary’s Voice — Imperfect, Raspy, TRUE",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal emotion vs technique. Mary’s vocal traits: Tell your son: “Mary don’t sing pretty. She sings honest.” Have him compare Mary → Beyoncé vocally to see stylistic differences."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "raspy timbre",
+            "crying tone",
+            "soulful ad-libs",
+            "vocal cracks as expression",
+            "dynamic range from whisper to wail",
+            "“testimony-style” singing",
+            "raw emotional accuracy"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-reminisce"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Reminisce” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mary J. Blige after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "mary-j-blige-lesson-05-fashion-image-and-90s-culture",
+      "number": 5,
+      "title": "Fashion, Image & 90s Culture",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach cultural identity. Mary pioneered: Her look = identity + survival. Show him Mary performances → discuss image choices."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "oversized jackets + thigh-high boots",
+            "honey-blonde hair",
+            "hood glam aesthetics",
+            "feminine strength in hip-hop spaces",
+            "sunglasses-as-armor",
+            "the “around the way girl” icon"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-reminisce"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Reminisce” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mary J. Blige after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Show him Mary performances → discuss image choices.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "mary-j-blige-lesson-06-share-my-world-and-mary-healing-and-growth",
+      "number": 6,
+      "title": "Share My World & Mary — Healing & Growth",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach personal evolution. Themes: “What are the stages of healing in these songs?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "leaving abusive relationships",
+            "emotional clarity",
+            "rediscovery of self",
+            "healthier love",
+            "refined vocals",
+            "polished production",
+            "“Love Is All We Need”",
+            "“Not Gon’ Cry”",
+            "“Everything”",
+            "“Seven Days”"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-love-is-all-we-need",
+        "mary-j-blige-not-gon-cry",
+        "mary-j-blige-everything",
+        "mary-j-blige-seven-days"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Love Is All We Need” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What are the stages of healing in these songs?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask: “What are the stages of healing in these songs?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mary-j-blige-lesson-07-acting-film-and-cultural-power",
+      "number": 7,
+      "title": "Acting, Film, & Cultural Power",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach multidisciplinary artistry. Mary also: Lesson: “Black artists can expand into ANY space.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "starred in Power",
+            "did Mudbound",
+            "Oscar-nominated",
+            "ruled Super Bowl halftime"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-reminisce"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Reminisce” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mary J. Blige after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mary-j-blige-lesson-08-no-more-drama-self-liberation-and-testimony",
+      "number": 8,
+      "title": "No More Drama — Self-Liberation & Testimony",
+      "body": [
+        {
+          "type": "text",
+          "text": "Testimony Goals: Teach catharsis. Themes: Have your son break down the emotion shift from verse to hook in “No More Drama.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“No More Drama”",
+            "“Family Affair”",
+            "“Dance for Me”",
+            "letting go",
+            "rebuilding",
+            "celebrating freedom",
+            "boundaries",
+            "empowerment"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-no-more-drama",
+        "mary-j-blige-family-affair",
+        "mary-j-blige-dance-for-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “No More Drama” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mary J. Blige after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son break down the emotion shift from verse to hook in “No More Drama.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mary-j-blige-lesson-09-the-auntie-era-legacy-stability-and-reinventi",
+      "number": 9,
+      "title": "The “Auntie Era” — Legacy, Stability, & Reinvention",
+      "body": [
+        {
+          "type": "text",
+          "text": "Reinvention Goals: Teach longevity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "albums like The Breakthrough and The London Sessions",
+            "Mary staying relevant for 30+ years",
+            "consistent message: healing, resilience, growth",
+            "her cultural placement as Black women's emotional translator",
+            "“Be Without You”",
+            "“Just Fine”",
+            "“Good Morning Gorgeous”"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-be-without-you",
+        "mary-j-blige-just-fine",
+        "mary-j-blige-good-morning-gorgeous"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Be Without You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mary J. Blige after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mary-j-blige-lesson-10-mary-j-s-influence-tree",
+      "number": 10,
+      "title": "Mary J.’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show her massive impact. Artists influenced by Mary J. Blige: And EVERY singer who mixes: Play Mary → then play Jazmine or Keyshia. “How does Mary’s DNA show up?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Keyshia Cole (direct descendant)",
+            "K. Michelle",
+            "Jazmine Sullivan",
+            "Summer Walker",
+            "SZA (emotional honesty)",
+            "H.E.R.",
+            "Rihanna (early style)",
+            "Beyoncé (learned emotional phrasing)",
+            "Ari Lennox",
+            "Teyana Taylor",
+            "R&B rawness",
+            "hip-hop swag",
+            "emotional honesty"
+          ]
+        }
+      ],
+      "listen": [
+        "mary-j-blige-reminisce"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Reminisce” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Mary’s DNA show up?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Mary → then play Jazmine or Keyshia. Ask:",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Mary J. Blige created the Hip-Hop Soul genre through emotional storytelling, raw vocal delivery, and cultural representation. Compare ONE track from What’s the 411? and ONE track from My Life, and name TWO modern artists influenced by her.",
+    "earlyOptions": [
+      "mary-j-blige-reminisce"
+    ],
+    "laterOptions": [
+      "mary-j-blige-good-morning-gorgeous"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "trauma",
+    "mature-themes",
+    "substances",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 38, pages 495-507. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "schemaVersion": 1,
+  "id": "chaka-khan",
+  "number": 60,
+  "displayName": "Chaka Khan",
+  "monogram": "CK",
+  "whyItMatters": "Chaka Khan matters because the source catalog identifies this route with one of the greatest singers in music history, queen of funk & soul, lead vocalist of Rufus before going solo, the blueprint for powerful female voices.",
+  "passedDown": {
+    "trackId": "chaka-khan-whoever-s-thrilling-you-is-killing-me",
+    "blurb": "Start with “Whoever’s Thrilling You (Is Killing Me)” and use the unit's checkpoints to hear how Chaka Khan's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "chaka-khan-ain-t-nobody",
+      "chaka-khan-i-know-you-i-live-you",
+      "chaka-khan-everlasting-love",
+      "chaka-khan-love-you-all-my-lifetime"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest singers in music history",
+      "queen of funk & soul",
+      "lead vocalist of Rufus before going solo",
+      "the blueprint for powerful female voices",
+      "a style icon",
+      "a Black feminist force",
+      "the “vocal mother” to multiple generations",
+      "how to respect powerhouse women"
+    ],
+    "closing": "Let’s dive."
+  },
+  "learnOutcomes": [
+    "how to respect powerhouse women",
+    "how vocals can lift a band into greatness",
+    "how funk works in an ensemble",
+    "how influence travels through lineage"
+  ],
+  "tracks": [
+    {
+      "id": "chaka-khan-whoever-s-thrilling-you-is-killing-me",
+      "title": "Whoever’s Thrilling You (Is Killing Me)",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Whoever’s Thrilling You (Is Killing Me) Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-i-m-every-woman",
+      "title": "I’m Every Woman",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "I’m Every Woman Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-through-the-fire",
+      "title": "Through the Fire",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Through the Fire Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-ain-t-nobody",
+      "title": "Ain’t Nobody",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Ain’t Nobody Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-love-on-top",
+      "title": "Love On Top",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Love On Top Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-end-of-time",
+      "title": "End of Time",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "End of Time Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-i-know-you-i-live-you",
+      "title": "I Know You, I Live You",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Know You, I Live You Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-everlasting-love",
+      "title": "Everlasting Love",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Everlasting Love Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chaka-khan-love-you-all-my-lifetime",
+      "title": "Love You All My Lifetime",
+      "artist": "Chaka Khan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Love You All My Lifetime Chaka Khan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 760-772. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "chaka-khan-lesson-01-origins-south-side-chicago-panther-roots-and",
+      "number": 1,
+      "title": "Origins — South Side Chicago, Panther Roots, And Natural Gift",
+      "body": [
+        {
+          "type": "text",
+          "text": "Roots, And Natural Gift Goals: Teach her political + cultural grounding. “How does she sound THIS confident this young?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born Yvette Marie Stevens",
+            "grew up in Chicago with a politically active family",
+            "joined the Black Panther Party as a teen",
+            "got nickname “Chaka” from a Yoruba drummer",
+            "deep soul & funk from childhood",
+            "joined Rufus in early 70s as LEAD FORCE",
+            "“Whoever’s Thrilling You (Is Killing Me)” (early Rufus era)"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does she sound THIS confident this young?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "chaka-khan-lesson-02-rufus-ft-chaka-khan-band-synergy-and-funk-edu",
+      "number": 2,
+      "title": "Rufus ft. Chaka Khan — Band Synergy & Funk Education",
+      "body": [
+        {
+          "type": "text",
+          "text": "Funk Education Goals: Teach musicianship + band chemistry. Rufus = Key Songs: Teach your son: A great vocalist + a great band = Legendary chemistry."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "tight funk grooves",
+            "live horns",
+            "complex basslines",
+            "syncopated drums",
+            "full band arrangements",
+            "Chaka’s powerhouse voice as the centerpiece",
+            "“Tell Me Something Good” (written by Stevie Wonder!)",
+            "“Sweet Thing”",
+            "“Ain’t Nobody” (yes, a Rufus track!)"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-ain-t-nobody",
+        "chaka-khan-i-know-you-i-live-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ain’t Nobody” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-03-the-chaka-voice-belting-rasp-fire-emotion",
+      "number": 3,
+      "title": "The Chaka Voice — Belting, Rasp, Fire, Emotion",
+      "body": [
+        {
+          "type": "text",
+          "text": "Emotion Goals: Teach vocal technique and mastery. Chaka’s signature qualities: Have your son notice: “How she can sound SO SOFT one second and SO BIG the next.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "unmatched belting power",
+            "natural rasp texture",
+            "fast vibrato",
+            "jazz-like improvisation",
+            "wide range",
+            "soulful ad-libs",
+            "conversational → explosive transitions",
+            "emotional intensity",
+            "“I’m Every Woman”",
+            "“Through the Fire”",
+            "“Ain’t Nobody”"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-i-m-every-woman",
+        "chaka-khan-through-the-fire",
+        "chaka-khan-ain-t-nobody"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m Every Woman” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-04-solo-career-icon-mode-activated",
+      "number": 4,
+      "title": "Solo Career — Icon Mode Activated",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach genre-blending. Chaka’s solo career mixes: Key Songs: Explain: Chaka didn’t fit ANY box — she built her own lane."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "funk",
+            "R&B",
+            "pop",
+            "disco",
+            "jazz",
+            "adult contemporary",
+            "gospel",
+            "hip-hop (later era)",
+            "“I’m Every Woman”",
+            "“Through the Fire”",
+            "“What Cha’ Gonna Do for Me”",
+            "“Love You All My Lifetime”"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-05-black-feminism-through-voice-and-presence",
+      "number": 5,
+      "title": "Black Feminism Through Voice & Presence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach empowerment. Chaka Khan embodied: Songs like: She showed the world what a powerful Black woman sounds like."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sexual freedom",
+            "independence",
+            "boldness",
+            "vulnerability + strength",
+            "the right to take up space",
+            "the right to be LOUD, POWERFUL, and CENTERED",
+            "“I’m Every Woman”",
+            "“Sweet Thing” (self-possessed love)",
+            "“Ain’t Nobody”"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "chaka-khan-lesson-06-vocal-lineage-from-chaka-to-whitney-to-beyonc",
+      "number": 6,
+      "title": "Vocal Lineage — From Chaka to Whitney to Beyoncé",
+      "body": [
+        {
+          "type": "text",
+          "text": "Beyoncé Goals: Show her influence tree explicitly. Chaka → Whitney Whitney’s debut single was literally a Chaka cover: “I’m Every Woman.” Chaka’s riffs, power, and phrasing hugely influenced Whitney. Whitney → Beyoncé Beyoncé’s runs, belts, and stage dominance show the Chaka lineage. Ask your son what they share: POWER + JOY + FEMININE STRENGTH."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Chaka “I’m Every Woman”",
+            "Whitney “I’m Every Woman”",
+            "Beyoncé “Love On Top” + “End of Time”"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-i-m-every-woman",
+        "chaka-khan-love-on-top",
+        "chaka-khan-end-of-time"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m Every Woman” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "chaka-khan-lesson-07-ain-t-nobody-what-perfection-sounds-like",
+      "number": 7,
+      "title": "Ain’t Nobody — What Perfection Sounds Like",
+      "body": [
+        {
+          "type": "text",
+          "text": "Like Goals: Teach arrangement + groove. “Ain’t Nobody” is basically: Breakdown: Show your son how you can recognize a CLASSIC from the first 2 seconds."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "dance/R&B hybrid",
+            "perfect syncopation",
+            "iconic bassline",
+            "unmistakable synth stabs",
+            "Chaka’s floaty but powerful delivery",
+            "intro alone is instantly recognizable",
+            "groove NEVER lets up",
+            "vocals glide on top like butter"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Show your son how you can recognize a CLASSIC from the first 2 seconds.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-08-jazz-chaka-a-whole-other-universe",
+      "number": 8,
+      "title": "Jazz + Chaka — A Whole Other Universe",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach genre versatility. Chaka performed jazz with: Album: ClassiKhan Shows her: Your son will learn: Great singers can slide between genres effortlessly."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Miles Davis",
+            "Chick Corea",
+            "Freddie Hubbard",
+            "phrasing",
+            "scatting",
+            "jazz timing",
+            "vocal flexibility"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-09-hip-hop-respect-sampling-chaka",
+      "number": 9,
+      "title": "Hip-Hop Respect — Sampling Chaka",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach cross-generational influence. Rappers LOVE Chaka samples: Her voice is so iconic it becomes an instrument for generations."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Kanye West — “Through the Wire” (sampled “Through the Fire”)",
+            "Ashanti — “Ain’t No” interpolation lineage",
+            "LL Cool J",
+            "De La Soul",
+            "Mary J. Blige covers & inspirations"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chaka-khan-lesson-10-chaka-khan-s-influence-tree-huge",
+      "number": 10,
+      "title": "Chaka Khan’s Influence Tree (Huge)",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show widespread reach. DIRECT Influence: INDIRECT INFLUENCE: Play Chaka → then Ledisi. Let your son hear the POWER connection."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Whitney Houston",
+            "Beyoncé",
+            "Mary J. Blige",
+            "Alicia Keys",
+            "Mariah Carey (riff influence)",
+            "Jazmine Sullivan",
+            "Ariana Grande (vocal agility lineage)",
+            "Ledisi",
+            "Faith Evans",
+            "Kelly Rowland",
+            "Jennifer Hudson",
+            "neo-soul singers",
+            "R&B powerhouse balladeers",
+            "funk revivalists",
+            "Black feminist aesthetics"
+          ]
+        }
+      ],
+      "listen": [
+        "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whoever’s Thrilling You (Is Killing Me)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chaka Khan after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Chaka → then Ledisi. Let your son hear the POWER connection.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Chaka Khan redefined R&B and funk through her powerhouse vocals, band chemistry (Rufus), and feminist presence. Compare ONE Rufus track (‘Tell Me Something Good’ or ‘Sweet Thing’) with ONE solo track (‘I’m Every Woman’ or ‘Through the Fire’). Identify TWO modern artists who clearly reflect Chaka’s influence.",
+    "earlyOptions": [
+      "chaka-khan-whoever-s-thrilling-you-is-killing-me"
+    ],
+    "laterOptions": [
+      "chaka-khan-end-of-time"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "mature-themes",
+    "sexual-content",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 58, pages 760-772. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

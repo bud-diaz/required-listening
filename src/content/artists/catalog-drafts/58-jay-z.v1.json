@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "id": "jay-z",
+  "number": 58,
+  "displayName": "Jay-Z",
+  "monogram": "JA",
+  "whyItMatters": "Jay-Z matters because the source catalog identifies this route with One of the greatest rappers EVER, A storyteller who writes like a novelist, A hustler-philosopher with grown-man perspective, A flow pioneer (triplet flow, conversational rhyme, pocket mastery).",
+  "passedDown": {
+    "trackId": "jay-z-dead-presidents-ii",
+    "blurb": "Start with “Dead Presidents II” and use the unit's checkpoints to hear how Jay-Z's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "jay-z-encore",
+      "jay-z-empire-state-of-mind",
+      "jay-z-show-me-what-you-got",
+      "jay-z-hard-knock-life",
+      "jay-z-young-forever"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "One of the greatest rappers EVER",
+      "A storyteller who writes like a novelist",
+      "A hustler-philosopher with grown-man perspective",
+      "A flow pioneer (triplet flow, conversational rhyme, pocket mastery)",
+      "A business mogul who changed the ARTIST → CEO power dynamic",
+      "A husband, father, and grown-up version of the streets",
+      "A cultural mirror for Black capitalism, class mobility, mistakes, self-correction, and",
+      "metaphor layers"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "metaphor layers",
+    "double/triple entendre",
+    "flow evolution",
+    "street economics",
+    "negotiation + ownership",
+    "emotional intelligence",
+    "the difference between “rich” and “wealth”",
+    "legacy-building"
+  ],
+  "tracks": [
+    {
+      "id": "jay-z-dead-presidents-ii",
+      "title": "Dead Presidents II",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Dead Presidents II Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-d-evils",
+      "title": "D’Evils",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "D’Evils Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-feelin-it",
+      "title": "Feelin’ It",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Feelin’ It Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-brooklyn-s-finest",
+      "title": "Brooklyn’s Finest",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Brooklyn’s Finest Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-takeover",
+      "title": "Takeover",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Takeover Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-u-don-t-know",
+      "title": "U Don’t Know",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "U Don’t Know Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-izzo-h-o-v-a",
+      "title": "Izzo (H.O.V.A.)",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Izzo (H.O.V.A.) Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-song-cry",
+      "title": "Song Cry",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Song Cry Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-psa",
+      "title": "PSA",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "PSA Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-encore",
+      "title": "Encore",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Encore Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-99-problems",
+      "title": "99 Problems",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "99 Problems Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-4-44",
+      "title": "4:44",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "4:44 Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-family-feud",
+      "title": "Family Feud",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Family Feud Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-smile",
+      "title": "Smile",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Smile Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-roc-boys",
+      "title": "Roc Boys",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Roc Boys Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-party-life",
+      "title": "Party Life",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Party Life Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-ignorant-sh",
+      "title": "Ignorant Sh**",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Ignorant Sh** Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-empire-state-of-mind",
+      "title": "Empire State of Mind",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Empire State of Mind Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-show-me-what-you-got",
+      "title": "Show Me What You Got",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Show Me What You Got Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-hard-knock-life",
+      "title": "Hard Knock Life",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hard Knock Life Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jay-z-young-forever",
+      "title": "Young Forever",
+      "artist": "Jay-Z",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Young Forever Jay-Z",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 707-719. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "jay-z-lesson-01-origins-marcy-projects-hustling-survival-logi",
+      "number": 1,
+      "title": "Origins — Marcy Projects, Hustling, Survival Logic",
+      "body": [
+        {
+          "type": "text",
+          "text": "Logic Goals: Give context for the worldview. “How does someone sound calm in the middle of a stressful life?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in Marcy Projects (Brooklyn)",
+            "Poverty + violence shaping adolescence",
+            "Drug dealing → strategic thinking",
+            "Rap as escape hatch",
+            "Jaz-O mentor era",
+            "Freestyle reputation",
+            "First rap to have a grown-man calm even when talking about chaos",
+            "“Can’t Knock the Hustle”"
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-dead-presidents-ii"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dead Presidents II” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does someone sound calm in the middle of a stressful life?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, substances, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jay-z-lesson-02-reasonable-doubt-the-crime-film-album",
+      "number": 2,
+      "title": "Reasonable Doubt — The Crime Film Album",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach cinematic storytelling. Explain: Break down the metaphors in “D’Evils.” This is AP English."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Jay writes like a film director",
+            "Noir themes",
+            "Internal conflict",
+            "“I did this, I ain’t proud, but it’s the life” tone",
+            "Mafia influence but grounded in truth",
+            "Cold, sharp metaphors",
+            "Slick flow + deep soul samples",
+            "“Dead Presidents II”",
+            "“D’Evils”",
+            "“Feelin’ It”",
+            "“Can I Live”"
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-encore",
+        "jay-z-empire-state-of-mind"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Encore” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jay-Z after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the metaphors in “D’Evils.” This is AP English.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jay-z-lesson-03-jay-s-flow-workshop-the-pocket-god",
+      "number": 3,
+      "title": "Jay’s Flow Workshop — The Pocket GOD",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach rap technique. Jay’s flow tools: “How can two rappers have totally different voices but fit the SAME pocket?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "conversational delivery",
+            "internal rhyme webs",
+            "triplet patterns (before Migos made it mainstream)",
+            "rhythmic whisper delivery",
+            "perfect breath control",
+            "“lazy flow” illusion (but super precise)",
+            "timing like a jazz musician",
+            "pauses as part of rhythm",
+            "“Brooklyn’s Finest” (w/ Biggie)"
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-brooklyn-s-finest"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brooklyn’s Finest” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How can two rappers have totally different voices but fit the SAME pocket?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jay-z-lesson-04-the-blueprint-elegance-soul-samples-and-legac",
+      "number": 4,
+      "title": "The Blueprint — Elegance, Soul Samples & Legacy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Legacy Goals: Teach the classic album that defined an era. Explain: Have your son analyze “Song Cry” as a breakup poem. Emotional intelligence 101."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "soulful production (Just Blaze, Kanye West)",
+            "Jay at his most confident",
+            "Subtle masculinity",
+            "Classic lines everywhere",
+            "Response to critics + rivals",
+            "One of the best albums in rap history",
+            "“Takeover”",
+            "“U Don’t Know”",
+            "“Izzo (H.O.V.A.)”",
+            "“Song Cry”"
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-takeover",
+        "jay-z-u-don-t-know",
+        "jay-z-izzo-h-o-v-a",
+        "jay-z-song-cry"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Takeover” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jay-Z after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son analyze “Song Cry” as a breakup poem. Emotional intelligence 101.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jay-z-lesson-05-business-acumen-the-ceo-blueprint",
+      "number": 5,
+      "title": "Business Acumen — The CEO Blueprint",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach smart choices + ownership. Jay-Z = rapper AND businessman. Your son needs this for financial literacy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Roc-A-Fella Records",
+            "Rocawear clothing",
+            "Def Jam presidency",
+            "TIDAL ownership push",
+            "D’Ussé",
+            "Ace of Spades",
+            "Nets partial ownership",
+            "Real estate investments",
+            "Long-term wealth strategies",
+            "“Own your masters” movement",
+            "“U Don’t Know” — it’s a whole MBA disguised as a banger."
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-u-don-t-know"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “U Don’t Know” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jay-Z after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jay-z-lesson-06-the-black-album-retirement-album-that-wasn-t",
+      "number": 6,
+      "title": "The Black Album — Retirement Album That Wasn’t",
+      "body": [
+        {
+          "type": "text",
+          "text": "Wasn’t Goals: Show legacy curation. Let your son break down why “PSA” feels like an INTRO and a SERMON at the same time."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Jay stages his retirement",
+            "Combines pop, soul, technical rap",
+            "“Encore” anthem energy",
+            "“99 Problems” mixes rock + rap",
+            "Mature self-reflection",
+            "Album feels like a victory lap + autobiography",
+            "“PSA”",
+            "“Encore”",
+            "“What More Can I Say”",
+            "“99 Problems”"
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-psa",
+        "jay-z-encore",
+        "jay-z-99-problems"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “PSA” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jay-Z after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Let your son break down why “PSA” feels like an INTRO and a SERMON at the same time.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jay-z-lesson-07-jay-beyonce-love-growth-and-accountability",
+      "number": 7,
+      "title": "Jay + Beyoncé — Love, Growth & Accountability",
+      "body": [
+        {
+          "type": "text",
+          "text": "Accountability Goals: Teach adult relationship maturity. Explain: Teach your son: “Men can grow. Accountability is a strength.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Jay’s mistakes → public fallout (infidelity)",
+            "Bey’s Lemonade response",
+            "Jay’s emotional reckoning on 4:44",
+            "Therapy, introspection, vulnerability",
+            "Black love as growth, not perfection",
+            "“4:44”",
+            "“Family Feud”",
+            "“Smile”"
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-4-44",
+        "jay-z-family-feud",
+        "jay-z-smile"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “4:44” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jay-Z after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: artist-conduct, mature-themes.",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jay-z-lesson-08-american-gangster-grown-man-storytelling",
+      "number": 8,
+      "title": "American Gangster — Grown-Man Storytelling",
+      "body": [
+        {
+          "type": "text",
+          "text": "Storytelling Goals: Teach artistic reinvention. Explain: “How does he show maturity without losing edge?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Movie-inspired concept album",
+            "Jay revisits hustler themes with mature perspective",
+            "Elegant production",
+            "Reflective tone instead of glamor",
+            "“Roc Boys”",
+            "“Party Life”",
+            "“Ignorant Sh**”"
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-roc-boys",
+        "jay-z-party-life",
+        "jay-z-ignorant-sh"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Roc Boys” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does he show maturity without losing edge?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jay-z-lesson-09-jay-z-as-mentor-and-cultural-leader",
+      "number": 9,
+      "title": "Jay-Z as Mentor & Cultural Leader",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show how he shaped the industry. Lesson: “Building a legacy means lifting people too.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Co-signs for Rihanna, J. Cole, Kanye",
+            "Deals & negotiations opening doors for younger artists",
+            "Criminal justice reform (REFORM alliance)",
+            "Philanthropy",
+            "Cultural influence (style, language, branding)"
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-dead-presidents-ii"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dead Presidents II” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jay-Z after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jay-z-lesson-10-the-jay-z-influence-tree",
+      "number": 10,
+      "title": "The Jay-Z Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his enormous cultural reach. Artists influenced by Hov: Play any lyrical rapper today → ask “Where do you hear Jay?” He’s the blueprint."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Drake (confidence + conversational bars)",
+            "J. Cole (grown-man storytelling)",
+            "Kendrick Lamar (political clarity & introspection)",
+            "Nipsey Hussle (ownership & vision)",
+            "Rick Ross (luxury rap blueprint)",
+            "Jeezy (street philosophy)",
+            "Lil Baby (clarity + maturity)",
+            "Meek Mill (growth arcs)",
+            "Griselda (business + independence model)"
+          ]
+        }
+      ],
+      "listen": [
+        "jay-z-dead-presidents-ii"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dead Presidents II” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Where do you hear Jay?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play any lyrical rapper today → ask “Where do you hear Jay?” He’s the blueprint.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Jay-Z shaped hip-hop through storytelling, flow innovation, and business leadership. Compare ONE early track (D’Evils) to ONE later track (4:44) and identify TWO modern artists influenced by Jay-Z’s legacy.",
+    "earlyOptions": [
+      "jay-z-dead-presidents-ii"
+    ],
+    "laterOptions": [
+      "jay-z-ignorant-sh"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "substances",
+    "mature-themes",
+    "artist-conduct"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 54, pages 707-719. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

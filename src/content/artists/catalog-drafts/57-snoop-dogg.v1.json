@@ -1,0 +1,643 @@
+{
+  "schemaVersion": 1,
+  "id": "snoop-dogg",
+  "number": 57,
+  "displayName": "Snoop Dogg",
+  "monogram": "SD",
+  "whyItMatters": "Snoop Dogg matters because the source catalog identifies this route with The smoothest flow in rap history, The key voice of the G-Funk era, A cultural icon bigger than just music, Hip-hop’s global ambassador.",
+  "passedDown": {
+    "trackId": "snoop-dogg-deep-cover",
+    "blurb": "Start with “Deep Cover” and use the unit's checkpoints to hear how Snoop Dogg's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "snoop-dogg-beautiful",
+      "snoop-dogg-sensual-seduction",
+      "snoop-dogg-signs",
+      "snoop-dogg-young-wild-and-free"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The smoothest flow in rap history",
+      "The key voice of the G-Funk era",
+      "A cultural icon bigger than just music",
+      "Hip-hop’s global ambassador",
+      "A master of tone, presence, and persona",
+      "A lesson in adaptation, evolution, and branding",
+      "How regional sounds shape artists",
+      "What “laid-back aggression” means"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "How regional sounds shape artists",
+    "What “laid-back aggression” means",
+    "The power of voice in rap",
+    "How to develop a persona that lasts",
+    "How to evolve without losing identity"
+  ],
+  "tracks": [
+    {
+      "id": "snoop-dogg-deep-cover",
+      "title": "Deep Cover",
+      "artist": "Snoop Dogg",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Deep Cover Snoop Dogg",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 694-706. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "snoop-dogg-gin-and-juice",
+      "title": "Gin and Juice",
+      "artist": "Snoop Dogg",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Gin and Juice Snoop Dogg",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 694-706. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "snoop-dogg-still-a-g-thang",
+      "title": "Still a G Thang",
+      "artist": "Snoop Dogg",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Still a G Thang Snoop Dogg",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 694-706. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "snoop-dogg-woof",
+      "title": "Woof!",
+      "artist": "Snoop Dogg",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Woof! Snoop Dogg",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 694-706. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "snoop-dogg-beautiful",
+      "title": "Beautiful",
+      "artist": "Snoop Dogg",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Beautiful Snoop Dogg",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 694-706. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "snoop-dogg-drop-it-like-it-s-hot",
+      "title": "Drop It Like It’s Hot",
+      "artist": "Snoop Dogg",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Drop It Like It’s Hot Snoop Dogg",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 694-706. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "snoop-dogg-sensual-seduction",
+      "title": "Sensual Seduction",
+      "artist": "Snoop Dogg",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Sensual Seduction Snoop Dogg",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 694-706. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "snoop-dogg-signs",
+      "title": "Signs",
+      "artist": "Snoop Dogg",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Signs Snoop Dogg",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 694-706. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "snoop-dogg-young-wild-and-free",
+      "title": "Young, Wild & Free",
+      "artist": "Snoop Dogg",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Young, Wild & Free Snoop Dogg",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 694-706. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "snoop-dogg-lesson-01-early-life-the-dr-dre-co-sign",
+      "number": 1,
+      "title": "Early Life + The Dr. Dre Co-Sign",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Explain how Snoop went from Long Beach to the world. “How does Snoop sound dangerous but chill at the same time?” That’s the magic."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Long Beach realities (gang culture, community, the era)",
+            "Warren G passing Snoop’s tape to Dre",
+            "Why Dre saw Snoop as different",
+            "The birth of G-Funk (Parliament/Funkadelic samples + heavy bass + whistles)",
+            "Snoop’s voice as Dre’s missing ingredient",
+            "“Deep Cover”"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-deep-cover"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Deep Cover” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Snoop sound dangerous but chill at the same time?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, violence, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "snoop-dogg-lesson-02-doggystyle-the-smoothest-debut-in-rap",
+      "number": 2,
+      "title": "Doggystyle — The Smoothest Debut in Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "History Goals: Show Snoop mastering flow at 21. Break down Snoop’s flow on “Gin and Juice.” Teach how LONG his breaths are — that man raps like he taking a walk."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "G-Funk as a movement",
+            "Snoop’s storytelling ability (“Murder Was the Case”)",
+            "Laid-back delivery over aggressive content",
+            "The bounce, the swing, the pocket sitting",
+            "The ICONIC hooks",
+            "“Gin and Juice”",
+            "“Who Am I (What’s My Name?)”",
+            "“Doggy Dogg World”"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-gin-and-juice"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Gin and Juice” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Snoop Dogg after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down Snoop’s flow on “Gin and Juice.” Teach how LONG his breaths are — that man raps like he taking a walk.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "snoop-dogg-lesson-03-flow-mechanics-why-snoop-sounds-effortless",
+      "number": 3,
+      "title": "Flow Mechanics — Why Snoop Sounds Effortless",
+      "body": [
+        {
+          "type": "text",
+          "text": "Effortless Goals: Teach flow with Snoop as the blueprint. Teach these Snoop trademarks: Have your son mimic Snoop’s cadence (clean lines only). It teaches pacing and confidence."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Legato flow (long smooth phrases)",
+            "Conversational tone",
+            "Swing rhythm",
+            "Melodic endings on bars",
+            "Soft aggression",
+            "“Cool uncle storytelling” voice"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-beautiful",
+        "snoop-dogg-signs"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Beautiful” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Snoop Dogg after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son mimic Snoop’s cadence (clean lines only). It teaches pacing and confidence.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "snoop-dogg-lesson-04-west-coast-identity",
+      "number": 4,
+      "title": "West Coast Identity",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show how Snoop = West Coast culture. Compare East Coast vs West Coast flows: Nas vs Snoop. “Why do they feel so different?” This builds regional awareness."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Lowrider aesthetics",
+            "LBC slang",
+            "Chillin’ as an art form",
+            "Laconic delivery as rebellion",
+            "The tension with East Coast rap during the 90s",
+            "How Snoop helped unify the culture post-beef"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-deep-cover"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Deep Cover” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why do they feel so different?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "snoop-dogg-lesson-05-tha-dogg-pound-death-row-and-90s-hip-hop-ecos",
+      "number": 5,
+      "title": "Tha Dogg Pound, Death Row, & 90s Hip-Hop Ecosystem",
+      "body": [
+        {
+          "type": "text",
+          "text": "Ecosystem Goals: Understand the era’s environment. Discuss safety, loyalty, and stress as part of humanizing the lifestyle."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Death Row as a cultural powerhouse",
+            "Working beside Daz, Kurupt, Rage, Dre",
+            "The influence of Suge Knight’s leadership",
+            "The impact of Tupac joining the label",
+            "Snoop's presence during the wildest era of rap politics"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-deep-cover"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Deep Cover” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Snoop Dogg after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, trauma, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "snoop-dogg-lesson-06-doggfather-era-and-reinvention",
+      "number": 6,
+      "title": "“Doggfather” Era & Reinvention",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show Snoop navigating survival and reinvention. “How does moving regions change an artist’s sound?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Leaving Death Row → joining No Limit",
+            "Master P being the first to rebrand Snoop",
+            "How Snoop adapted to Southern beats",
+            "Learning artistic humility & hustle",
+            "“Still a G Thang”",
+            "“Woof!”",
+            "“Down 4 My N*****” (clean, if you share excerpts)"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-still-a-g-thang",
+        "snoop-dogg-woof"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Still a G Thang” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does moving regions change an artist’s sound?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, trauma, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "snoop-dogg-lesson-07-2000s-snoop-pop-culture-superstar",
+      "number": 7,
+      "title": "2000s Snoop — Pop Culture Superstar",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Snoop transitions from rapper → global figure. Show how Snoop switches from gangsta rap → fatherly charm → funk crooner. Versatility lesson."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Pharrell + Snoop synergy (“Beautiful,” “Drop It Like It’s Hot”)",
+            "Snoop’s role in merging hip-hop with mainstream TV",
+            "Acting, hosting, brand endorsements",
+            "Snoop as “hip-hop’s uncle”",
+            "“Beautiful”",
+            "“Drop It Like It’s Hot”",
+            "“Sensual Seduction”",
+            "“Signs”"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-beautiful",
+        "snoop-dogg-drop-it-like-it-s-hot",
+        "snoop-dogg-sensual-seduction",
+        "snoop-dogg-signs"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Beautiful” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Snoop Dogg after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Show how Snoop switches from gangsta rap → fatherly charm → funk crooner. Versatility lesson.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, sexual-content, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "snoop-dogg-lesson-08-branding-longevity-and-reinvention",
+      "number": 8,
+      "title": "Branding, Longevity & Reinvention",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach how Snoop stayed relevant. Discussion: “Why do some artists fade while others like Snoop stay everywhere?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Snoop Lion reggae pivot (teach genre exploration)",
+            "Reality shows",
+            "Kids football league (youth community impact)",
+            "Martha Stewart partnership (cross-audience branding genius)",
+            "Voiceovers, video games, commercials",
+            "Cannabis branding influence"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-deep-cover"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Deep Cover” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why do some artists fade while others like Snoop stay everywhere?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "snoop-dogg-lesson-09-snoop-s-influence-tree",
+      "number": 9,
+      "title": "Snoop’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map Snoop’s impact on multiple generations. Influenced by Snoop: Pick one modern artist and trace their “Snoop DNA.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Wiz Khalifa",
+            "Nate Dogg (mutual influence)",
+            "Anderson .Paak",
+            "Dom Kennedy",
+            "Larry June",
+            "Ty Dolla $ign",
+            "Devin the Dude",
+            "Smooth West Coast rappers",
+            "Laid-back melodic flows in trap & alternative rap"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-deep-cover"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Deep Cover” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Snoop Dogg after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Pick one modern artist and trace their “Snoop DNA.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "snoop-dogg-lesson-10-the-power-of-presence-final-analysis",
+      "number": 10,
+      "title": "“The Power of Presence” — Final Analysis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach intangible artist qualities. Prompt him to evaluate: This teaches your son that presence matters as much as bars."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Snoop’s tone",
+            "Calm confidence",
+            "Charisma",
+            "Delivery",
+            "Cultural impact",
+            "Business longevity",
+            "Reinvention",
+            "Respect across all hip-hop eras",
+            "How Snoop appeals to kids, adults, elders, and international fans"
+          ]
+        }
+      ],
+      "listen": [
+        "snoop-dogg-deep-cover"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Deep Cover” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Snoop Dogg after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain why Snoop Dogg is considered a hip-hop icon using THREE flows, TWO albums, and ONE cultural moment.",
+    "earlyOptions": [
+      "snoop-dogg-deep-cover"
+    ],
+    "laterOptions": [
+      "snoop-dogg-drop-it-like-it-s-hot"
+    ],
+    "influencedCount": 3
+  },
+  "contentFlags": [
+    "explicit-language",
+    "violence",
+    "mature-themes",
+    "trauma",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 53, pages 694-706. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

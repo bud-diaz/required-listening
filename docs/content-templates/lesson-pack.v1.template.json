@@ -3,7 +3,12 @@
   "packId": "replace-pack-id",
   "version": 1,
   "title": "Replace with pack title",
+  "theme": "Replace with the pack's unifying theme",
   "summary": "Replace with a short description of what the family will learn and do.",
+  "educationalConnections": [
+    "Replace with one concrete musical or cultural connection."
+  ],
+  "centralLesson": "Replace with the single idea the whole pack should leave behind.",
   "publisher": "Paperweight",
   "publishedAt": "2026-01-01T00:00:00.000Z",
   "minAppVersion": "0.1.0",
@@ -75,6 +80,17 @@
       "minLane": "younger",
       "requiresCaregiverContext": false,
       "contentFlags": []
+    }
+  ],
+  "sections": [
+    {
+      "unitId": "replace-source-unit-id",
+      "title": "Replace with source unit or section title",
+      "summary": "Replace with a short explanation of this section's role in the pack.",
+      "lessonIds": [
+        "replace-pack-lesson-01",
+        "replace-pack-lesson-02"
+      ]
     }
   ],
   "review": {

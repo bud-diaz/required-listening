@@ -1,0 +1,763 @@
+{
+  "schemaVersion": 1,
+  "id": "wale",
+  "number": 15,
+  "displayName": "Wale",
+  "monogram": "WA",
+  "whyItMatters": "Wale matters because the source catalog identifies this route with One of the most literary rappers of his generation, Master of wordplay, metaphor, and double meaning, Deeply tied to Washington D.C. go-go culture, A pioneer of poetic rap blended with R&B hooks.",
+  "passedDown": {
+    "trackId": "wale-dig-dug-shake-it",
+    "blurb": "Start with “Dig Dug (Shake It)” and use the unit's checkpoints to hear how Wale's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "wale-lotus-flower-bomb",
+      "wale-the-need-to-know",
+      "wale-on-chill",
+      "wale-lovehate-thing",
+      "wale-white-shoes"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "One of the most literary rappers of his generation",
+      "Master of wordplay, metaphor, and double meaning",
+      "Deeply tied to Washington D.C. go-go culture",
+      "A pioneer of poetic rap blended with R&B hooks",
+      "The “hopeless romantic” of hip-hop",
+      "A thinker who wrestles with fame, insecurity, and validation",
+      "Creator of one of the best discography runs of the 2010s",
+      "emotional nuance"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "emotional nuance",
+    "poetic devices",
+    "regional cultural literacy",
+    "masculinity presented with sensitivity",
+    "how to study rap like literature"
+  ],
+  "tracks": [
+    {
+      "id": "wale-dig-dug-shake-it",
+      "title": "Dig Dug (Shake It)",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Dig Dug (Shake It) Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-pretty-girls",
+      "title": "Pretty Girls",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Pretty Girls Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-chillin",
+      "title": "Chillin’",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Chillin’ Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-diary",
+      "title": "Diary",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Diary Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-the-breakup-song",
+      "title": "The Breakup Song",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Breakup Song Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-the-mc",
+      "title": "The MC",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The MC Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-the-friends-n-strangers",
+      "title": "The Friends N Strangers",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Friends N Strangers Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-ambition",
+      "title": "Ambition",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Ambition Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-lotus-flower-bomb",
+      "title": "Lotus Flower Bomb",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Lotus Flower Bomb Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-sabotage",
+      "title": "Sabotage",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Sabotage Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-bad",
+      "title": "Bad",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Bad Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-the-need-to-know",
+      "title": "The Need to Know",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "The Need to Know Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-cosmopolitan-love",
+      "title": "Cosmopolitan Love",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Cosmopolitan Love Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-on-chill",
+      "title": "On Chill",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "On Chill Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-clappers",
+      "title": "Clappers",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Clappers Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-lovehate-thing",
+      "title": "LoveHate Thing",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "LoveHate Thing Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-white-shoes",
+      "title": "White Shoes",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "White Shoes Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "wale-lesson-01-origins-d-c-go-go-and-immigrant-household-roo",
+      "number": 1,
+      "title": "Origins — D.C., Go-Go & Immigrant Household Roots",
+      "body": [
+        {
+          "type": "text",
+          "text": "Household Roots Goals: Teach how region shapes cadences. “What do these drums FEEL like? What city does this sound like?” Go-go = culture."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Nigerian parents → dual identity",
+            "D.C. culture = go-go percussion, bounce, call-and-response",
+            "Athletic background (football)",
+            "Early mixtape grind",
+            "Unique blend: intellectual AND street-adjacent",
+            "His early rise through blogs + poetic singles",
+            "“Dig Dug (Shake It)”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-dig-dug-shake-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dig Dug (Shake It)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-02-the-poet-rapper-wordplay-books-and-metaphors",
+      "number": 2,
+      "title": "The Poet-Rapper — Wordplay, Books & Metaphors",
+      "body": [
+        {
+          "type": "text",
+          "text": "Metaphors Goals: Teach literary rap. Wale uses: Analyze “Ambitious Girl” like a poem. Your son gon’ understand metaphor EARLY."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "extended metaphor (women as seasons, love as war)",
+            "personification",
+            "layered references (sports, anime, Greek mythology, fashion)",
+            "spoken-word cadences",
+            "clever punchlines",
+            "emotional honesty",
+            "intellectualism without snobbery"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-lovehate-thing",
+        "wale-white-shoes"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “LoveHate Thing” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Analyze “Ambitious Girl” like a poem. Your son gon’ understand metaphor EARLY.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wale-lesson-03-attention-deficit-the-underrated-debut",
+      "number": 3,
+      "title": "Attention Deficit — The Underrated Debut",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his early identity formation. Themes: Have him compare “Pretty Girls” (party) to “Diary” (soul) → duality."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "being misunderstood",
+            "playful flows",
+            "go-go influence",
+            "intellectual humor",
+            "chasing dreams vs chasing acceptance",
+            "“Pretty Girls”",
+            "“Chillin’”",
+            "“Diary” (feat. Marsha Ambrosius)"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-pretty-girls",
+        "wale-chillin",
+        "wale-diary"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Pretty Girls” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have him compare “Pretty Girls” (party) to “Diary” (soul) → duality.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wale-lesson-04-more-about-nothing-the-cult-classic",
+      "number": 4,
+      "title": "More About Nothing — The Cult Classic",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach concept albums + humor. Explain: “How does Wale mix sadness with jokes?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "built around Seinfeld samples",
+            "playful skits",
+            "introspective verses",
+            "perfect blend of comedy + wisdom",
+            "fan-beloved, critically important",
+            "“The Breakup Song”",
+            "“The MC”",
+            "“The Friends N Strangers”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-the-breakup-song",
+        "wale-the-mc",
+        "wale-the-friends-n-strangers"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Breakup Song” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Wale mix sadness with jokes?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wale-lesson-05-ambition-the-breakthrough",
+      "number": 5,
+      "title": "Ambition — The Breakthrough",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach hunger + vulnerability. Themes: Break down “Ambition” lyric-by-lyric for motivational messaging."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "self-belief despite industry dismissiveness",
+            "romance",
+            "pressure",
+            "ambition vs exhaustion",
+            "uplifting messages",
+            "“Ambition”",
+            "“Lotus Flower Bomb”",
+            "“Sabotage”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-ambition",
+        "wale-lotus-flower-bomb",
+        "wale-sabotage"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ambition” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Ambition” lyric-by-lyric for motivational messaging.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-06-wale-the-romantic-love-and-black-women-center",
+      "number": 6,
+      "title": "Wale the Romantic — Love & Black Women Centered",
+      "body": [
+        {
+          "type": "text",
+          "text": "Centered Goals: Teach respect + emotional expression. Wale’s love songs are: Lesson: “Romance requires honesty and vulnerability.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "tender",
+            "expressive",
+            "appreciative",
+            "complex",
+            "insecure at times",
+            "grown-man affectionate",
+            "intentionally centering Black women’s beauty & resilience",
+            "“Lotus Flower Bomb”",
+            "“Bad” (both versions)",
+            "“The Need to Know”",
+            "“Cosmopolitan Love”",
+            "“On Chill”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-lotus-flower-bomb",
+        "wale-bad",
+        "wale-the-need-to-know",
+        "wale-cosmopolitan-love",
+        "wale-on-chill"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lotus Flower Bomb” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wale-lesson-07-the-gifted-and-the-album-about-nothing-maturi",
+      "number": 7,
+      "title": "The Gifted & The Album About Nothing Maturity Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach thematic evolution. The Gifted themes: Tracks: The Album About Nothing themes: Tracks: “How does Wale talk about mental health compared to Kendrick or Cole?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Black empowerment",
+            "self-worth",
+            "artistic pride",
+            "cultural consciousness",
+            "self-doubt",
+            "“Bad (Remix)”",
+            "“LoveHate Thing”",
+            "therapy",
+            "anxiety",
+            "insecurity",
+            "fame fatigue",
+            "accountability",
+            "“The White Shoes”",
+            "“The Bloom (AG3)”",
+            "“The Pessimist”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-dig-dug-shake-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dig Dug (Shake It)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Wale talk about mental health compared to Kendrick or Cole?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, artist-conduct, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-08-go-go-fusion-a-whole-cultural-lesson",
+      "number": 8,
+      "title": "Go-Go Fusion — A Whole Cultural Lesson",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach regional sound identity. Explain: Your son will learn how local sounds shape national trends."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Wale proudly incorporates D.C. go-go",
+            "live percussion, heavy conga, call-and-response, crowd energy",
+            "keeps D.C. musical tradition alive in mainstream hip-hop",
+            "“Clappers”",
+            "“Pretty Girls” (w/ Backyard Band)"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-clappers",
+        "wale-pretty-girls"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Clappers” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-09-the-underrated-narrative-pain-perception-and",
+      "number": 9,
+      "title": "The “Underrated” Narrative — Pain, Perception & Persistence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Perception & Persistence Goals: Teach resilience. Explain: Lesson: “You don’t need universal praise to be impactful.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Wale frequently feels overlooked",
+            "struggles with industry validation",
+            "emotional transparency about criticism",
+            "uses pain to fuel creativity",
+            "proves consistency over hype",
+            "one of the strongest discographies of the 2010s"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-dig-dug-shake-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dig Dug (Shake It)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-10-wale-s-influence-tree",
+      "number": 10,
+      "title": "Wale’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his cultural imprint. Artists influenced by Wale: And every rapper who: “How do modern romantic rap songs trace back to Wale?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "GoldLink (D.C. cultural pride)",
+            "Smino (melodic poetry)",
+            "Mick Jenkins (literary style)",
+            "Isaiah Rashad (mellow emotional writing)",
+            "EARTHGANG (playful metaphors)",
+            "Tobi Lou (romantic introspection)",
+            "JID (some cadences)",
+            "blends R&B & poetry",
+            "centers Black women",
+            "uses literature references",
+            "mixes humor with heartache"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-dig-dug-shake-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dig Dug (Shake It)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do modern romantic rap songs trace back to Wale?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask your son: “How do modern romantic rap songs trace back to Wale?”",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Wale blends poetic lyricism, regional go-go influences, and emotional honesty to create his unique musical style. Compare ONE early track (Diary) with ONE later track (On Chill), and identify TWO modern artists influenced by Wale.",
+    "earlyOptions": [
+      "wale-dig-dug-shake-it"
+    ],
+    "laterOptions": [
+      "wale-clappers"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "trauma",
+    "artist-conduct",
+    "violence"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 9, pages 111-123. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

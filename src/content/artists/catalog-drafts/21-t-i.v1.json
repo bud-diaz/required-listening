@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "id": "t-i",
+  "number": 21,
+  "displayName": "T.I.",
+  "monogram": "TI",
+  "whyItMatters": "T.I. matters because the source catalog identifies this route with One of the founding fathers of trap (“Trap Muzik”), A natural storyteller with classic Southern drawl, A flow technician with elite clarity, A hitmaker with mainstream polish.",
+  "passedDown": {
+    "trackId": "t-i-rubber-band-man",
+    "blurb": "Start with “Rubber Band Man” and use the unit's checkpoints to hear how T.I.'s technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "t-i-bring-em-out",
+      "t-i-top-back",
+      "t-i-live-your-life"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "One of the founding fathers of trap (“Trap Muzik”)",
+      "A natural storyteller with classic Southern drawl",
+      "A flow technician with elite clarity",
+      "A hitmaker with mainstream polish",
+      "A cultural leader, fashion influencer, and Atlanta icon",
+      "A man whose career includes triumphs, controversies, reinventions",
+      "A blueprint for Southern entrepreneurial rap",
+      "A mentor + community figure for ATL’s music ecosystem"
+    ],
+    "closing": "Let’s break this unit down."
+  },
+  "learnOutcomes": [
+    "What “trap” meant before it was just a sound",
+    "Regional vocabulary + rhythm",
+    "Flow cadence studies",
+    "Street economics vs survival storytelling",
+    "The evolution of Atlanta hip-hop",
+    "Musical charisma",
+    "Leadership (good and flawed)",
+    "How the South took over the industry"
+  ],
+  "tracks": [
+    {
+      "id": "t-i-rubber-band-man",
+      "title": "Rubber Band Man",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Rubber Band Man T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-let-s-get-away",
+      "title": "Let’s Get Away",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Let’s Get Away T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-be-easy",
+      "title": "Be Easy",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Be Easy T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-i-still-luv-you",
+      "title": "I Still Luv You",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Still Luv You T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-asap",
+      "title": "ASAP",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "ASAP T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-bring-em-out",
+      "title": "Bring Em Out",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Bring Em Out T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-u-don-t-know-me",
+      "title": "U Don’t Know Me",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "U Don’t Know Me T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-motivation",
+      "title": "Motivation",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Motivation T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-top-back",
+      "title": "Top Back",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Top Back T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-front-back",
+      "title": "Front Back",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Front Back T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-live-your-life",
+      "title": "Live Your Life",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Live Your Life T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-dead-and-gone",
+      "title": "Dead and Gone",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Dead and Gone T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-no-matter-what",
+      "title": "No Matter What",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "No Matter What T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-i-be-better-than-me",
+      "title": "Be Better Than Me",
+      "artist": "T.I.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Be Better Than Me T.I.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 203-215. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "t-i-lesson-01-origins-bankhead-pride-hustle-and-early-hunge",
+      "number": 1,
+      "title": "Origins — Bankhead, Pride, Hustle & Early Hunger",
+      "body": [
+        {
+          "type": "text",
+          "text": "Hunger Goals: Give context for the man. “What do you hear about his environment in his voice?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Clifford Harris in Bankhead (Atlanta’s Westside)",
+            "Early hustling background",
+            "Southern drawl + vocabulary shaped his delivery",
+            "Reputation for being sharp-minded even in street life",
+            "Motivation to put Atlanta ON in a new way",
+            "Linked with DJ Toomp (crucial to early sound)",
+            "“Dope Boyz”"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-bring-em-out",
+        "t-i-live-your-life"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bring Em Out” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What do you hear about his environment in his voice?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "t-i-lesson-02-trap-muzik-defining-a-genre",
+      "number": 2,
+      "title": "Trap Muzik — Defining a Genre",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach “trap” as culture, not just beats. Explain: Break down “Rubber Band Man” production and word choice. Your son gon’ learn how street linguistics become global slang."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Trap” = survival, economics, struggle, choices",
+            "Heavy on storytelling",
+            "Real-life consequences",
+            "T.I., Jeezy, and Gucci are the holy trinity ─ but T.I. set the blueprint vocabulary",
+            "“Rubber Band Man”",
+            "“Let’s Get Away”",
+            "“Be Easy”",
+            "“I Still Luv You”"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-rubber-band-man",
+        "t-i-let-s-get-away",
+        "t-i-be-easy",
+        "t-i-i-still-luv-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rubber Band Man” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T.I. after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Rubber Band Man” production and word choice. Your son gon’ learn how street linguistics become global slang.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "t-i-lesson-03-flow-mechanics-t-i-s-clarity-and-precision",
+      "number": 3,
+      "title": "Flow Mechanics — T.I.’s Clarity & Precision",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach rap technique. T.I.’s signature traits: “How does he sound aggressive AND articulate at the same time?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "crisp articulation",
+            "smooth drawl",
+            "mid-tempo pocket mastery",
+            "conversational flow",
+            "confident vocal presence",
+            "smart rhyme schemes",
+            "controlled aggression",
+            "effortless charisma",
+            "“ASAP”"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-asap"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “ASAP” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does he sound aggressive AND articulate at the same time?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "t-i-lesson-04-swagger-rap-era-urban-legend-and-headline-sta",
+      "number": 4,
+      "title": "Swagger Rap Era — Urban Legend & Headline Status",
+      "body": [
+        {
+          "type": "text",
+          "text": "Headline Status Goals: Teach charisma as an instrument. “Urban Legend” = Analyze “U Don’t Know Me” for character work and attitude."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "T.I.’s rise to a mainstream star",
+            "confidence-driven writing",
+            "heavy hooks",
+            "mixtape energy with polished beats",
+            "Tip perfecting his “cool uncle who’ll still press you” persona",
+            "“Bring Em Out”",
+            "“U Don’t Know Me”",
+            "“Motivation”"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-bring-em-out",
+        "t-i-u-don-t-know-me",
+        "t-i-motivation"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bring Em Out” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T.I. after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Analyze “U Don’t Know Me” for character work and attitude.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "t-i-lesson-05-t-i-as-a-mainstream-star-king-and-movie-fame",
+      "number": 5,
+      "title": "T.I. as a MAINSTREAM STAR — King & Movie Fame",
+      "body": [
+        {
+          "type": "text",
+          "text": "Movie Fame Goals: Show how he crossed over. Let your son analyze the FEEL of “What You Know” — it’s cinematic."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "King album era + “ATL” movie role",
+            "Southern dominance on radio",
+            "Mixture of trap + pop-leaning hooks",
+            "T.I. as a cultural ambassador for ATL",
+            "Expansion into movies, fashion, and TV",
+            "“What You Know” (GRAMMY winner, masterpiece)",
+            "“Top Back”",
+            "“Front Back”"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-top-back",
+        "t-i-front-back"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Top Back” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T.I. after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Let your son analyze the FEEL of “What You Know” — it’s cinematic.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "t-i-lesson-06-paper-trail-reinvention-and-pen-and-pad-writi",
+      "number": 6,
+      "title": "Paper Trail — Reinvention & Pen-and-Pad Writing",
+      "body": [
+        {
+          "type": "text",
+          "text": "Writing Goals: Teach discipline and artistic maturity. Explain: This era teaches vulnerability + reflection."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "T.I. started writing lyrics with pen for the first time",
+            "Cleaner flow",
+            "Universal themes",
+            "Mainstream polish",
+            "One of his biggest eras commercially AND artistically",
+            "“Whatever You Like”",
+            "“Live Your Life”",
+            "“Dead and Gone”"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-live-your-life",
+        "t-i-dead-and-gone"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Live Your Life” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T.I. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "t-i-lesson-07-t-i-the-storyteller",
+      "number": 7,
+      "title": "T.I. the Storyteller",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach narrative rap. T.I. storytelling traits: Have your son rewrite the story arc of “No Matter What.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "moral dilemmas",
+            "survival decisions",
+            "street philosophy",
+            "loyalty conflicts",
+            "fatherhood reflections",
+            "guilt",
+            "pride",
+            "leadership",
+            "“No Matter What”",
+            "“Be Better Than Me”",
+            "“Dead and Gone”"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-no-matter-what",
+        "t-i-be-better-than-me",
+        "t-i-dead-and-gone"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “No Matter What” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T.I. after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son rewrite the story arc of “No Matter What.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "t-i-lesson-08-atl-leadership-mentor-connector-and-elder-sta",
+      "number": 8,
+      "title": "ATL LEADERSHIP — Mentor, Connector, and Elder Statesman",
+      "body": [
+        {
+          "type": "text",
+          "text": "Elder Statesman Goals: Teach impact beyond music. Lesson: “Being a leader means carrying pride AND responsibility.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "T.I. helped elevate artists like Travis Scott, Young Dro, B.o.B.",
+            "Role in shaping “Hustle Gang”",
+            "Business ventures",
+            "Social activism (and his complicated missteps)",
+            "ATL community presence"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-rubber-band-man"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rubber Band Man” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T.I. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "t-i-lesson-09-controversies-growth-and-the-human-arc",
+      "number": 9,
+      "title": "Controversies, Growth, & The Human Arc",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach nuance & accountability. Discuss (when older): Teach your son: “You can respect someone’s art while still learning from their mistakes.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "legal issues",
+            "prison time",
+            "public criticism",
+            "some questionable behavior & statements",
+            "attempts at growth",
+            "complex legacy as a person vs artist"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-rubber-band-man"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rubber Band Man” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T.I. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, artist-conduct, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "t-i-lesson-10-the-t-i-influence-tree",
+      "number": 10,
+      "title": "The T.I. Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his legacy. Artists shaped by T.I.: And every trap rapper who uses: Play “What You Know” → then play Roddy Ricch → ask “feel the DNA?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Young Thug (cadence + ATL royalty pipeline)",
+            "JID (articulation)",
+            "21 Savage (cool monotone menace)",
+            "Travis Scott (mentorship + early co-sign)",
+            "Roddy Ricch",
+            "DaBaby (vocal clarity model)",
+            "Dom Kennedy (conversational flow)",
+            "Cordae (pocket control)",
+            "confident talk",
+            "clear bars",
+            "luxury + struggle duality"
+          ]
+        }
+      ],
+      "listen": [
+        "t-i-rubber-band-man"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rubber Band Man” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "feel the DNA?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play “What You Know” → then play Roddy Ricch → ask “feel the DNA?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how T.I. defined the early trap era through storytelling, flow precision, and Southern leadership. Compare ONE early track (Rubber Band Man) with ONE mature track (What You Know) and identify TWO modern artists influenced by him.",
+    "earlyOptions": [
+      "t-i-rubber-band-man"
+    ],
+    "laterOptions": [
+      "t-i-be-better-than-me"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "mature-themes",
+    "explicit-language",
+    "artist-conduct"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 16, pages 203-215. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

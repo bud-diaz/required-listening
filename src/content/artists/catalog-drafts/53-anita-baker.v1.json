@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "id": "anita-baker",
+  "number": 53,
+  "displayName": "Anita Baker",
+  "monogram": "AB",
+  "whyItMatters": "Anita Baker matters because the source catalog identifies this route with one of the greatest contralto voices EVER, queen of the Quiet Storm era, signature 80s/90s soul sound, jazz-meets-soul phrasing.",
+  "passedDown": {
+    "trackId": "anita-baker-let-me-love-you",
+    "blurb": "Start with “Let Me Love You” and use the unit's checkpoints to hear how Anita Baker's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "anita-baker-sweet-love",
+      "anita-baker-no-one-in-the-world",
+      "anita-baker-you-bring-me-joy",
+      "anita-baker-same-ole-love"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest contralto voices EVER",
+      "queen of the Quiet Storm era",
+      "signature 80s/90s soul sound",
+      "jazz-meets-soul phrasing",
+      "emotional depth through restraint, not power",
+      "Grammy-winning legend",
+      "blueprint for modern R&B intimacy",
+      "what tone is"
+    ],
+    "closing": "Let’s slow this one down beautifully."
+  },
+  "learnOutcomes": [
+    "what tone is",
+    "how singers use space",
+    "the emotional maturity of grown R&B",
+    "the lineage from jazz clubs → soul radio",
+    "how to recognize REAL vocal technique"
+  ],
+  "tracks": [
+    {
+      "id": "anita-baker-let-me-love-you",
+      "title": "Let Me Love You",
+      "artist": "Anita Baker",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Let Me Love You Anita Baker",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 641-653. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "anita-baker-sweet-love",
+      "title": "Sweet Love",
+      "artist": "Anita Baker",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Sweet Love Anita Baker",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 641-653. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "anita-baker-caught-up-in-the-rapture",
+      "title": "Caught Up in the Rapture",
+      "artist": "Anita Baker",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Caught Up in the Rapture Anita Baker",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 641-653. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "anita-baker-no-one-in-the-world",
+      "title": "No One in the World",
+      "artist": "Anita Baker",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "No One in the World Anita Baker",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 641-653. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "anita-baker-you-bring-me-joy",
+      "title": "You Bring Me Joy",
+      "artist": "Anita Baker",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "You Bring Me Joy Anita Baker",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 641-653. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "anita-baker-same-ole-love",
+      "title": "Same Ole Love",
+      "artist": "Anita Baker",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Same Ole Love Anita Baker",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 641-653. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "anita-baker-fairy-tales",
+      "title": "Fairy Tales",
+      "artist": "Anita Baker",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Fairy Tales Anita Baker",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 641-653. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "anita-baker-unbreak-my-heart",
+      "title": "Unbreak My Heart.",
+      "artist": "Anita Baker",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Unbreak My Heart. Anita Baker",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 641-653. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "anita-baker-lesson-01-origins-detroit-choir-roots-and-quiet-confide",
+      "number": 1,
+      "title": "Origins — Detroit, Choir Roots, & Quiet Confidence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Confidence Goals: Show her background shaped her subtle strength. “How does she sound grown even when she was young?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "raised in Detroit",
+            "grew up on gospel & jazz",
+            "sang with Chapter 8 before going solo",
+            "career didn’t explode until her 30s (important lesson: timing)",
+            "“Let Me Love You” (Chapter 8 era)"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-sweet-love",
+        "anita-baker-no-one-in-the-world"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Sweet Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does she sound grown even when she was young?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "anita-baker-lesson-02-voice-the-contralto-masterclass",
+      "number": 2,
+      "title": "Voice — The Contralto Masterclass",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal science + artistry. Anita’s voice is: Have your son listen for her low tones — they teach that powerful voices don’t have to be loud."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "warm",
+            "smoky",
+            "low-toned",
+            "intimate",
+            "rich vibrato",
+            "controlled melisma",
+            "velvet texture",
+            "deeply emotional",
+            "“Sweet Love”",
+            "“Caught Up in the Rapture”"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-sweet-love",
+        "anita-baker-caught-up-in-the-rapture"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Sweet Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Anita Baker after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son listen for her low tones — they teach that powerful voices don’t have to be loud.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "anita-baker-lesson-03-the-quiet-storm-sound-mood-based-r-and-b",
+      "number": 3,
+      "title": "The Quiet Storm Sound — Mood-Based R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach arrangement and vibe. Quiet Storm characteristics: Songs: Quiet Storm is mood music — not hype, not loud. It’s for connection and reflection."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "slow tempo",
+            "lush instrumentation",
+            "romantic atmosphere",
+            "soft percussion",
+            "evening/nighttime feel",
+            "emphasis on vocals + emotion",
+            "“Rapture”",
+            "“Been So Long”",
+            "“Mystery”"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-let-me-love-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let Me Love You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Anita Baker after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "anita-baker-lesson-04-album-craft-rapture-1986",
+      "number": 4,
+      "title": "Album Craft — Rapture (1986)",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Study one of R&B’s most perfect albums. Themes: This is R&B excellence — simple, graceful, timeless."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Sweet Love”",
+            "“No One in the World”",
+            "“You Bring Me Joy”",
+            "“Caught Up in the Rapture”",
+            "devotion",
+            "longing",
+            "emotional security",
+            "adult romance"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-sweet-love",
+        "anita-baker-no-one-in-the-world",
+        "anita-baker-you-bring-me-joy",
+        "anita-baker-caught-up-in-the-rapture"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Sweet Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Anita Baker after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "anita-baker-lesson-05-phrasing-anita-s-real-superpower",
+      "number": 5,
+      "title": "Phrasing — Anita’s REAL Superpower",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach how she shapes emotion through delivery. Anita does: Compare any Anita verse with a more pop singer — your son will hear the space, the calm, the intentionality."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "delayed entrances",
+            "anticipatory notes",
+            "sliding phrases",
+            "buttery vowel shaping",
+            "gentle text painting",
+            "jazz-like improvisation"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-let-me-love-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let Me Love You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Anita Baker after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare any Anita verse with a more pop singer — your son will hear the space, the calm, the intentionality.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "anita-baker-lesson-06-emotional-integrity-love-without-drama",
+      "number": 6,
+      "title": "Emotional Integrity — Love Without Drama",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach relational intelligence. Anita’s romance themes: Songs: This is love music that celebrates HEALTHY connection."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "stability",
+            "emotional vulnerability",
+            "trust",
+            "comfort",
+            "lifelong love",
+            "gratitude",
+            "“Giving You the Best That I Got”",
+            "“Good Love”"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-let-me-love-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let Me Love You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Anita Baker after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "anita-baker-lesson-07-arrangement-and-musicianship-jazz-under-the-s",
+      "number": 7,
+      "title": "Arrangement & Musicianship — Jazz Under the Surface",
+      "body": [
+        {
+          "type": "text",
+          "text": "the Surface Goals: Show the sophistication in her music. Her arrangements contain: “What instruments do you hear holding the mood together?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "jazz chord progressions",
+            "Fender Rhodes piano",
+            "warm bass lines",
+            "soft string pads",
+            "brushed drums",
+            "saxophone flourishes",
+            "“Same Ole Love”",
+            "“Fairy Tales”"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-same-ole-love",
+        "anita-baker-fairy-tales"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Same Ole Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What instruments do you hear holding the mood together?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "anita-baker-lesson-08-anita-baker-as-a-black-feminine-archetype",
+      "number": 8,
+      "title": "Anita Baker as a Black Feminine Archetype",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach cultural appreciation. She models: Teach your son: Anita Baker represents a healthy, grown expression of Black womanhood. He needs to see that."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "grace",
+            "maturity",
+            "independence",
+            "vulnerability",
+            "emotional intelligence",
+            "self-respect",
+            "sensuality without provocation"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-let-me-love-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let Me Love You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Anita Baker after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "anita-baker-lesson-09-influence-tree-her-children-and-grandchildren",
+      "number": 9,
+      "title": "Influence Tree — Her Children & Grandchildren in R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Grandchildren in R&B Goals: Show her massive (but quiet) impact. DIRECT Influence: INDIRECT Influence: Play “Sweet Love” → then Toni Braxton “Unbreak My Heart.” Your son will hear the tone lineage IMMEDIATELY."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Toni Braxton (most obvious vocal lineage)",
+            "Sade (shared softness & restraint)",
+            "Tamia",
+            "Deborah Cox",
+            "Ledisi",
+            "Lalah Hathaway",
+            "Jazmine Sullivan (phrasing influence)",
+            "H.E.R. (tonal warmth)",
+            "neo-soul tone",
+            "Quiet Storm radio",
+            "adult contemporary R&B"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-sweet-love",
+        "anita-baker-unbreak-my-heart"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Sweet Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Anita Baker after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “Sweet Love” → then Toni Braxton “Unbreak My Heart.” Your son will hear the tone lineage IMMEDIATELY.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "anita-baker-lesson-10-legacy-the-sound-of-adult-healthy-love",
+      "number": 10,
+      "title": "Legacy — The Sound of Adult, Healthy Love",
+      "body": [
+        {
+          "type": "text",
+          "text": "Love Goals: Summarize her importance. Anita Baker stands for: Anita Baker carved a lane that STILL feels luxurious 30+ years later. She’s the definition of “grown.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "musical class",
+            "vocal mastery",
+            "emotional depth",
+            "love as nourishment",
+            "R&B as a craft",
+            "timelessness",
+            "ageless artistry"
+          ]
+        }
+      ],
+      "listen": [
+        "anita-baker-let-me-love-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let Me Love You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Anita Baker after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Anita Baker shaped R&B through her warm contralto voice, Quiet Storm aesthetic, and jazz-infused phrasing. Compare ONE early track (‘Sweet Love’ or ‘Caught Up in the Rapture’) with ONE later track (‘Giving You the Best That I Got’ or ‘Fairy Tales’). Identify TWO modern artists who carry Anita Baker’s musical influence.",
+    "earlyOptions": [
+      "anita-baker-let-me-love-you"
+    ],
+    "laterOptions": [
+      "anita-baker-unbreak-my-heart"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "trauma",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 49, pages 641-653. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

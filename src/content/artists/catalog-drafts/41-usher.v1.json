@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "id": "usher",
+  "number": 41,
+  "displayName": "Usher",
+  "monogram": "US",
+  "whyItMatters": "Usher matters because the source catalog identifies this route with one of the greatest performers of the last 30 years, the king of 2000s R&B, elite vocalist + elite dancer (rare combo), the Confessions architect.",
+  "passedDown": {
+    "trackId": "usher-think-of-you",
+    "blurb": "Start with “Think of You” and use the unit's checkpoints to hear how Usher's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "usher-yeah",
+      "usher-dj-got-us-fallin-in-love",
+      "usher-you-make-me-wanna",
+      "usher-caught-up"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest performers of the last 30 years",
+      "the king of 2000s R&B",
+      "elite vocalist + elite dancer (rare combo)",
+      "the Confessions architect",
+      "the bridge between New Jack Swing → 90s R&B → 2000s pop-R&B",
+      "a cultural centerpiece of ATL music",
+      "the blueprint for Chris Brown, Trey Songz, Justin Bieber, Ne-Yo, etc.",
+      "stage presence"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "stage presence",
+    "vocal technique",
+    "choreography vocabulary",
+    "narrative R&B",
+    "pop crossover mechanics",
+    "ATL’s influence on global R&B"
+  ],
+  "tracks": [
+    {
+      "id": "usher-think-of-you",
+      "title": "Think of You",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Think of You Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-u-got-it-bad",
+      "title": "U Got It Bad",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "U Got It Bad Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-nice-and-slow",
+      "title": "Nice & Slow",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Nice & Slow Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-there-goes-my-baby",
+      "title": "There Goes My Baby",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "There Goes My Baby Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-u-remind-me",
+      "title": "U Remind Me",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "U Remind Me Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-u-don-t-have-to-call",
+      "title": "U Don’t Have to Call",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "U Don’t Have to Call Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-burn",
+      "title": "Burn",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Burn Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-confessions-pt-ii",
+      "title": "Confessions Pt. II",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Confessions Pt. II Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-superstar",
+      "title": "Superstar",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Superstar Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-yeah",
+      "title": "Yeah!",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Yeah! Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-dj-got-us-fallin-in-love",
+      "title": "DJ Got Us Fallin’ In Love",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "DJ Got Us Fallin’ In Love Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-you-make-me-wanna",
+      "title": "You Make Me Wanna…",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "You Make Me Wanna… Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "usher-caught-up",
+      "title": "Caught Up",
+      "artist": "Usher",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Caught Up Usher",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 482-494. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "usher-lesson-01-origins-chattanooga-to-atlanta-baby-usher-and",
+      "number": 1,
+      "title": "Origins — Chattanooga to Atlanta, Baby Usher, and the LaFace Pipeline",
+      "body": [
+        {
+          "type": "text",
+          "text": "Usher, and the LaFace Pipeline Goals: Show how a superstar is built. “What do you hear in young Usher — confidence or innocence?” Both."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "discovered at 12 at an Atlanta talent show",
+            "L.A. Reid + Babyface took him under wing",
+            "trained in stage presence, media, performance",
+            "first album recorded as a teen",
+            "ATL became his home base & sound base",
+            "“Can U Get Wit It”",
+            "“Think of You”"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-yeah",
+        "usher-dj-got-us-fallin-in-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Yeah!” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What do you hear in young Usher — confidence or innocence?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "usher-lesson-02-voice-the-smooth-tenor-that-can-do-anything",
+      "number": 2,
+      "title": "Voice — The Smooth Tenor That Can DO ANYTHING",
+      "body": [
+        {
+          "type": "text",
+          "text": "ANYTHING Goals: Teach vocal technique. Usher’s signature traits: Have your son count how many riffs he slips into ONE line."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "bright, clean tenor tone",
+            "razor-sharp runs",
+            "tight vibrato",
+            "falsetto control",
+            "breath support (especially while dancing!)",
+            "emotional clarity",
+            "melisma without overdoing it",
+            "“U Got It Bad”",
+            "“Nice & Slow”",
+            "“There Goes My Baby”"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-u-got-it-bad",
+        "usher-nice-and-slow",
+        "usher-there-goes-my-baby"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “U Got It Bad” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Usher after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son count how many riffs he slips into ONE line.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "usher-lesson-03-8701-the-becoming-a-man-era",
+      "number": 3,
+      "title": "8701 — The “Becoming a Man” Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach artistic transition. Album themes: 8701 is when Usher went from teen idol → grown R&B leader."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "emotional honesty",
+            "sensual maturity",
+            "heartbreak",
+            "vulnerability",
+            "upbeat dance R&B",
+            "“U Remind Me”",
+            "“U Got It Bad”",
+            "“U Don’t Have to Call”"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-u-remind-me",
+        "usher-u-got-it-bad",
+        "usher-u-don-t-have-to-call"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “U Remind Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Usher after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "usher-lesson-04-confessions-the-crown-jewel",
+      "number": 4,
+      "title": "CONFESSIONS — The Crown Jewel",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Study one of the top R&B albums EVER. Themes: Teach your son: This album is a masterclass in storytelling + emotional realism."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "guilt",
+            "temptation",
+            "infidelity",
+            "emotional accountability",
+            "desire",
+            "self-examination",
+            "the cost of fame",
+            "Black male vulnerability",
+            "adult relationships",
+            "“Burn”",
+            "“Confessions Pt. II”",
+            "“Superstar”",
+            "“Yeah!” (crossover smash)"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-burn",
+        "usher-confessions-pt-ii",
+        "usher-superstar",
+        "usher-yeah"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Burn” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Usher after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: artist-conduct, mature-themes.",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "usher-lesson-05-performance-and-choreography-the-usher-effect",
+      "number": 5,
+      "title": "Performance & Choreography — The Usher Effect",
+      "body": [
+        {
+          "type": "text",
+          "text": "Effect Goals: Teach stage presence. Usher combines: Show: “How does he dance THAT hard and still sound THIS clean?” Answer: technique + training."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Michael Jackson precision",
+            "ATL swag",
+            "smooth glides",
+            "complex footwork",
+            "charisma",
+            "mic stand tricks",
+            "perfect breath control",
+            "“You Make Me Wanna…” live",
+            "“U Got It Bad” MTV performance",
+            "Vegas residency clips"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-think-of-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Think of You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does he dance THAT hard and still sound THIS clean?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "usher-lesson-06-atlanta-usher-s-true-cultural-influence",
+      "number": 6,
+      "title": "ATLANTA — Usher’s TRUE Cultural Influence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Influence Goals: Show ATL as a music capital. Usher helped push Atlanta into: ATL’s R&B sound comes through Usher before it hits the world."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "R&B dominance",
+            "club culture global reach",
+            "BET-era aesthetics",
+            "producer ecosystem (Jermaine Dupri, Lil Jon, Bryan-Michael Cox)"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-think-of-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Think of You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Usher after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "usher-lesson-07-versatility-pop-r-and-b-edm-adult-soul",
+      "number": 7,
+      "title": "Versatility — Pop, R&B, EDM, Adult Soul",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach reinvention. Usher survived FOUR eras: 1. 90s New Jack lite 2. 2000s R&B domination 3. 2010s pop/EDM (“Climax”— ART) 4. Adult R&B crooner (Vegas era) Songs to show variety: Have your son note how MANY musical worlds one artist can live in."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Yeah!”",
+            "“Climax”",
+            "“Love In This Club”",
+            "“Good Kisser”",
+            "“There Goes My Baby”"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-think-of-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Think of You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Usher after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son note how MANY musical worlds one artist can live in.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "usher-lesson-08-storytelling-in-love-and-relationships",
+      "number": 8,
+      "title": "Storytelling in Love & Relationships",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach relational intelligence. Usher’s lyrical themes: Usher models a grown-up form of masculinity. Feelings are not weakness — they’re connection."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "honesty in love",
+            "accountability",
+            "sensuality with respect",
+            "heartbreak & growth",
+            "emotional transparency"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-think-of-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Think of You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Usher after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, artist-conduct, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "usher-lesson-09-usher-as-mentor-his-legacy-through-others",
+      "number": 9,
+      "title": "Usher as Mentor — His Legacy Through Others",
+      "body": [
+        {
+          "type": "text",
+          "text": "Others Goals: Show how greats create more greats. Usher directly influenced/supported: Also influences:"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Justin Bieber (signed him)",
+            "Chris Brown (vocal + dance lineage)",
+            "Ne-Yo (songwriting + tone)",
+            "Bryson Tiller (trap-soul owes Usher)",
+            "Normani (performance lineage)",
+            "Omarion (dance)",
+            "Trey Songz (vocals)",
+            "The Weeknd (vocal riffs + sex appeal)",
+            "Brent Faiyaz (emotional R&B)",
+            "Giveon (tone + ballad style)"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-think-of-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Think of You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Usher after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "usher-lesson-10-usher-s-long-term-cultural-impact",
+      "number": 10,
+      "title": "Usher’s Long-Term Cultural Impact",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Summarize why he matters. Usher is: Usher is the standard. There are MANY good singers. Few can do EVERYTHING."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "the most complete male R&B performer since MJ",
+            "a bridge between eras",
+            "a vocal craftsman",
+            "a choreographic icon",
+            "a storyteller",
+            "a longevity model",
+            "a global Black superstar who stayed grounded"
+          ]
+        }
+      ],
+      "listen": [
+        "usher-think-of-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Think of You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Usher after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Usher shaped modern R&B through his vocal technique, choreography, and narrative-driven albums. Compare ONE early song (‘Nice & Slow’ or ‘U Got It Bad’) with ONE Confessions era song (‘Burn’ or ‘Superstar’). Identify TWO modern artists who carry Usher’s influence.",
+    "earlyOptions": [
+      "usher-think-of-you"
+    ],
+    "laterOptions": [
+      "usher-superstar"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes",
+    "artist-conduct"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 37, pages 482-494. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

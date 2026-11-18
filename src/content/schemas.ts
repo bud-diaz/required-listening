@@ -166,7 +166,7 @@ export const Unit = z
   .object({
     schemaVersion: z.literal(1),
     id,
-    number: z.number().int().min(1).max(10),
+    number: z.number().int().min(1).max(999),
     displayName: z.string().min(1),
     /** Two-letter monogram used instead of artist photos (no image rights needed). */
     monogram: z.string().min(1).max(3),
@@ -253,7 +253,7 @@ export type Unit = z.infer<typeof Unit>;
 
 export const CatalogEntry = z.object({
   id,
-  number: z.number().int().min(1).max(10),
+  number: z.number().int().min(1).max(999),
   displayName: z.string().min(1),
   monogram: z.string().min(1).max(3),
   /** True when a structured unit file exists in `src/content/artists/`. */
@@ -266,7 +266,19 @@ export const Catalog = z.object({
   subtitle: z.string(),
   /** Null until the public byline is confirmed (see docs/APP_PLAN.md §2). */
   byline: z.string().nullable(),
-  units: z.array(CatalogEntry).length(10),
+  units: z.array(CatalogEntry).min(1),
+}).strict().superRefine((catalog, ctx) => {
+  const ids = new Set(catalog.units.map((unit) => unit.id));
+  const numbers = new Set(catalog.units.map((unit) => unit.number));
+  if (ids.size !== catalog.units.length) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['units'], message: 'Catalog unit IDs must be unique.' });
+  }
+  if (numbers.size !== catalog.units.length) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['units'], message: 'Catalog unit numbers must be unique.' });
+  }
+  if (catalog.units.some((unit, index) => unit.number !== index + 1)) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, path: ['units'], message: 'Catalog units must be ordered consecutively.' });
+  }
 });
 export type Catalog = z.infer<typeof Catalog>;
 

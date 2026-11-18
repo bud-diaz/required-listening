@@ -1,0 +1,871 @@
+{
+  "schemaVersion": 1,
+  "id": "drake",
+  "number": 11,
+  "displayName": "Drake",
+  "monogram": "DR",
+  "whyItMatters": "Drake matters because the source catalog identifies this route with arguably the most influential artist of the 2010s & early 2020s, a rapper who sings, a singer who raps, master of cadence mimicry + stylistic world-building, Toronto ambassador.",
+  "passedDown": {
+    "trackId": "drake-replacement-girl",
+    "blurb": "Start with “Replacement Girl” and use the unit's checkpoints to hear how Drake's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "drake-hold-on-we-re-going-home",
+      "drake-one-dance",
+      "drake-find-your-love",
+      "drake-passionfruit",
+      "drake-god-s-plan",
+      "drake-hotline-bling"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "arguably the most influential artist of the 2010s & early 2020s",
+      "a rapper who sings, a singer who raps",
+      "master of cadence mimicry + stylistic world-building",
+      "Toronto ambassador",
+      "architect of “emotional trap,” “toxic R&B,” and “Instagram caption rap”",
+      "global sound curator",
+      "longevity king",
+      "innovator AND cultural sponge (in ways worth studying carefully)"
+    ],
+    "closing": "This unit is MASSIVE."
+  },
+  "learnOutcomes": [
+    "modern hitmaking",
+    "emotional communication",
+    "rap/pop hybrid craft",
+    "cultural crossover",
+    "marketing + media literacy",
+    "the spectrum of masculinity in art"
+  ],
+  "tracks": [
+    {
+      "id": "drake-replacement-girl",
+      "title": "Replacement Girl",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Replacement Girl Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-best-i-ever-had",
+      "title": "Best I Ever Had",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Best I Ever Had Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-successful",
+      "title": "Successful",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Successful Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-houstatlantavegas",
+      "title": "Houstatlantavegas",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Houstatlantavegas Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-say-what-s-real",
+      "title": "Say What’s Real",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Say What’s Real Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-marvins-room",
+      "title": "Marvins Room",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Marvins Room Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-take-care",
+      "title": "Take Care",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Take Care Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-crew-love",
+      "title": "Crew Love",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Crew Love Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-headlines",
+      "title": "Headlines",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Headlines Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-the-motto",
+      "title": "The Motto",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "The Motto Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-versace-remix",
+      "title": "Versace (Remix)",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Versace (Remix) Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-hyfr",
+      "title": "HYFR",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "HYFR Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-6-god",
+      "title": "6 God",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "6 God Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-nonstop",
+      "title": "Nonstop",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Nonstop Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-lemon-pepper-freestyle",
+      "title": "Lemon Pepper Freestyle",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Lemon Pepper Freestyle Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-tuscan-leather",
+      "title": "Tuscan Leather",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Tuscan Leather Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-worst-behavior",
+      "title": "Worst Behavior",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Worst Behavior Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-hold-on-we-re-going-home",
+      "title": "Hold On, We’re Going Home",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hold On, We’re Going Home Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-started-from-the-bottom",
+      "title": "Started From the Bottom",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Started From the Bottom Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-one-dance",
+      "title": "One Dance",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "One Dance Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-find-your-love",
+      "title": "Find Your Love",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Find Your Love Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-passionfruit",
+      "title": "Passionfruit",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Passionfruit Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-god-s-plan",
+      "title": "God’s Plan",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "God’s Plan Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-hotline-bling",
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hotline Bling Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "drake-lesson-01-origins-degrassi-jewish-black-identity-and-to",
+      "number": 1,
+      "title": "Origins — Degrassi, Jewish/Black Identity & Toronto’s Multicultural Soup",
+      "body": [
+        {
+          "type": "text",
+          "text": "Toronto’s Multicultural Soup Goals: Teach identity complexity. “How do all these cultures show up in his sound?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in Toronto to a Black American father (musician) & Jewish Canadian mother",
+            "Mixed identity influences his perspective in rap",
+            "Early acting career on Degrassi",
+            "Used TV money to fund music",
+            "Toronto’s Caribbean/Afro-diasporic culture shaped his slang, flows, melody choices",
+            "Early collaborations with Trey Songz, Lil Wayne, Bun B",
+            "“Replacement Girl”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-hold-on-we-re-going-home",
+        "drake-one-dance"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hold On, We’re Going Home” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do all these cultures show up in his sound?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-02-so-far-gone-birth-of-the-modern-rap-singer-hy",
+      "number": 2,
+      "title": "So Far Gone — Birth of the Modern Rap-Singer Hybrid",
+      "body": [
+        {
+          "type": "text",
+          "text": "Rap-Singer Hybrid Goals: Teach emotional vulnerability + atmospheric sound. This mixtape = a LANDMARK. Traits: Discuss how Drake made sadness sound cool instead of “weak.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "moody beats",
+            "atmospheric 40-style production",
+            "introspective lyrics",
+            "sing-rap hybrid",
+            "heartbreak themes",
+            "soft-spoken confidence",
+            "“Best I Ever Had”",
+            "“Successful”",
+            "“Houstatlantavegas”",
+            "“Say What’s Real”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-best-i-ever-had",
+        "drake-successful",
+        "drake-houstatlantavegas",
+        "drake-say-what-s-real"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Best I Ever Had” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Discuss how Drake made sadness sound cool instead of “weak.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "drake-lesson-03-noah-40-shebib-the-sound-architect",
+      "number": 3,
+      "title": "Noah “40” Shebib — The Sound Architect",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach production identity. 40 = Tell your son: “Drake + 40 is like Snoop + Dre or Missy + Timbaland — chemistry is everything.” Break down the production space."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "underwater EQ",
+            "low-pass filters",
+            "muted drums",
+            "ambient pads",
+            "melancholy chords",
+            "moody headphone atmospherics",
+            "“Marvins Room”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-marvins-room"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Marvins Room” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-04-take-care-the-modern-r-and-b-rap-bible",
+      "number": 4,
+      "title": "Take Care — The Modern R&B/Rap Bible",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach genre-blending at high level. Themes: Discuss how Drake took influences (The Weeknd, UK bass, Houston chopped & screwed, dancehall, etc.) and blended them into ONE aesthetic."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "love",
+            "loneliness",
+            "toxic tendencies",
+            "fame fatigue",
+            "emotional honesty",
+            "desire + detachment",
+            "vulnerability",
+            "“Take Care”",
+            "“Crew Love”",
+            "“Headlines”",
+            "“The Motto”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-take-care",
+        "drake-crew-love",
+        "drake-headlines",
+        "drake-the-motto"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Care” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "drake-lesson-05-flow-evolution-cadence-mastery",
+      "number": 5,
+      "title": "Flow Evolution — Cadence Mastery",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach rap technique. Drake is: Study flows on: Explain how he adapts flows from regional or underground scenes (Migos triplets, Memphis lingo, UK flows, dancehall phrasing). Teach your son: “Be inspired, don’t steal. Respect the roots.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "a chameleon",
+            "a flow mimic",
+            "a cadence collector",
+            "extremely intentional in delivery",
+            "“Versace (Remix)”",
+            "“HYFR”",
+            "“6 God”",
+            "“Nonstop”",
+            "“Lemon Pepper Freestyle”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-versace-remix",
+        "drake-hyfr",
+        "drake-6-god",
+        "drake-nonstop",
+        "drake-lemon-pepper-freestyle"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Versace (Remix)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain how he adapts flows from regional or underground scenes (Migos triplets, Memphis lingo, UK flows, dancehall phrasing).",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-06-hitmaking-hooks-captions-and-meme-awareness",
+      "number": 6,
+      "title": "Hitmaking — Hooks, Captions & Meme Awareness",
+      "body": [
+        {
+          "type": "text",
+          "text": "Awareness Goals: Teach pop instincts. Drake makes: Examples: “What makes a hook FEEL good?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "simple, sticky hooks",
+            "quotable lines",
+            "meme-ready punchlines",
+            "Instagram caption bars",
+            "rhythmic patterns easy for casual listeners",
+            "“Hotline Bling”",
+            "“Started From the Bottom”",
+            "“One Dance”",
+            "“God’s Plan”",
+            "“In My Feelings”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-replacement-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Replacement Girl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes a hook FEEL good?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask your son: “What makes a hook FEEL good?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-07-nothing-was-the-same-the-confidence-era",
+      "number": 7,
+      "title": "Nothing Was the Same — The Confidence Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Era Goals: Teach self-definition. Key Themes: Break down “Tuscan Leather” — 6 minutes, no hook, he spazzed."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "persona-building",
+            "success",
+            "trust issues",
+            "family",
+            "identity clarification",
+            "“Tuscan Leather”",
+            "“Worst Behavior”",
+            "“Hold On, We’re Going Home”",
+            "“Started From the Bottom”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-tuscan-leather",
+        "drake-worst-behavior",
+        "drake-hold-on-we-re-going-home",
+        "drake-started-from-the-bottom"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tuscan Leather” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Tuscan Leather” — 6 minutes, no hook, he spazzed.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-08-global-influence-dancehall-afrobeats-uk-rap-c",
+      "number": 8,
+      "title": "Global Influence — Dancehall, Afrobeats, UK Rap, Caribbean Flows",
+      "body": [
+        {
+          "type": "text",
+          "text": "Rap, Caribbean Flows Goals: Teach cultural fusion. Drake helped popularize globally: “What’s the difference between appreciation and appropriation?” Important lesson."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "dancehall pop",
+            "UK drill",
+            "Afrobeats crossover",
+            "Caribbean slang in mainstream rap",
+            "UK artists (Skepta, Giggs) introduced to US audience"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-replacement-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Replacement Girl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What’s the difference between appreciation and appropriation?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-09-controversies-ghostwriting-beef-competition-p",
+      "number": 9,
+      "title": "Controversies — Ghostwriting, Beef, Competition, Persona Management",
+      "body": [
+        {
+          "type": "text",
+          "text": "Competition, Persona Management Goals: Teach industry nuance. When older, explain: Lesson: Greatness includes criticism. Learn from BOTH sides."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Quentin Miller ghostwriting allegations",
+            "Meek Mill beef (“Back to Back”)",
+            "Pusha T beef (“Story of Adidon”)",
+            "Accusations of borrowing flows",
+            "Drake as both innovator + opportunist",
+            "Persona vs reality"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-replacement-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Replacement Girl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: artist-conduct, mature-themes.",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "drake-lesson-10-drake-s-influence-tree",
+      "number": 10,
+      "title": "Drake’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his overwhelming impact. DIRECT Influence: INDIRECT: Play early Drake → then play modern melodic artists. “Where do you hear Drake’s fingerprints?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Tory Lanez",
+            "Bryson Tiller",
+            "PartyNextDoor",
+            "The Weeknd (mutual influence)",
+            "Future (synergy, mutual waves)",
+            "Lil Baby",
+            "Gunna",
+            "Yeat",
+            "Swae Lee",
+            "Nav",
+            "Rod Wave",
+            "Toosii",
+            "Giveon (via Toronto R&B lane)",
+            "Every emo-trap artist",
+            "Every rap-singer",
+            "Every TikTok melodic rapper",
+            "Every “caption rapper”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-replacement-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Replacement Girl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Where do you hear Drake’s fingerprints?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play early Drake → then play modern melodic artists. Ask:",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Drake used emotional vulnerability, melodic rap, and global cultural blending to reshape modern music. Compare ONE early track (Best I Ever Had) with ONE later track (God’s Plan) and identify TWO modern artists influenced by Drake’s approach.",
+    "earlyOptions": [
+      "drake-replacement-girl"
+    ],
+    "laterOptions": [
+      "drake-started-from-the-bottom"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "artist-conduct",
+    "violence",
+    "weapons"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 3, pages 27-40. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

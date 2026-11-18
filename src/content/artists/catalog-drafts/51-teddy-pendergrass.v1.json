@@ -1,0 +1,685 @@
+{
+  "schemaVersion": 1,
+  "id": "teddy-pendergrass",
+  "number": 51,
+  "displayName": "Teddy Pendergrass",
+  "monogram": "TP",
+  "whyItMatters": "Teddy Pendergrass matters because the source catalog identifies this route with one of the greatest soul vocalists ever, lead singer of Harold Melvin & the Blue Notes, pioneer of sensual, masculine R&B, king of the “Begging Man” archetype.",
+  "passedDown": {
+    "trackId": "teddy-pendergrass-i-miss-you",
+    "blurb": "Start with “I Miss You” and use the unit's checkpoints to hear how Teddy Pendergrass's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "teddy-pendergrass-teddy-pendergrass-instrumental-listening-option"
+    ],
+    "note": "The source did not provide a named younger-listener section; use the caregiver-selected instrumental search and preview the result."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest soul vocalists ever",
+      "lead singer of Harold Melvin & the Blue Notes",
+      "pioneer of sensual, masculine R&B",
+      "king of the “Begging Man” archetype",
+      "voice like hot honey over gravel",
+      "unmatched stage charisma",
+      "survivor of a life-altering accident → came back STILL a legend",
+      "the roots of modern R&B singers"
+    ],
+    "closing": "This is ESSENTIAL soul education."
+  },
+  "learnOutcomes": [
+    "the roots of modern R&B singers",
+    "how Black male vocalists express passion",
+    "performance as emotional storytelling",
+    "the Philly Soul sound (lush strings + rhythm)",
+    "resilience and reinvention"
+  ],
+  "tracks": [
+    {
+      "id": "teddy-pendergrass-i-miss-you",
+      "title": "I Miss You",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Miss You Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-if-you-don-t-know-me-by-now",
+      "title": "If You Don’t Know Me by Now",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "If You Don’t Know Me by Now Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-wake-up-everybody",
+      "title": "Wake Up Everybody",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Wake Up Everybody Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-the-love-i-lost",
+      "title": "The Love I Lost",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Love I Lost Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-close-the-door",
+      "title": "Close the Door",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Close the Door Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-you-can-t-hide-from-yourself",
+      "title": "You Can’t Hide from Yourself",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "You Can’t Hide from Yourself Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-the-whole-town-s-laughing-at-me",
+      "title": "The Whole Town’s Laughing at Me",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "The Whole Town’s Laughing at Me Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-turn-off-the-lights",
+      "title": "Turn Off the Lights",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Turn Off the Lights Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-love-tko",
+      "title": "Love TKO",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Love TKO Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-come-go-with-me",
+      "title": "Come Go with Me",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Come Go with Me Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-and-if-i-had",
+      "title": "And If I Had",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "And If I Had Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-it-don-t-hurt-now",
+      "title": "It Don’t Hurt Now",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "It Don’t Hurt Now Teddy Pendergrass",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 615-626. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-pendergrass-teddy-pendergrass-instrumental-listening-option",
+      "title": "Teddy Pendergrass instrumental listening option",
+      "artist": "Teddy Pendergrass",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source did not name a Younger Listener selection. A grown-up must choose and preview an instrumental provider result before playing.",
+      "searchQuery": "Teddy Pendergrass instrumental",
+      "sourceNotes": "Adapted fallback because the source unit did not include a named Younger Listener selection.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "teddy-pendergrass-lesson-01-origins-philly-roots-church-training-and-earl",
+      "number": 1,
+      "title": "Origins – Philly Roots, Church Training & Early Life",
+      "body": [
+        {
+          "type": "text",
+          "text": "Early Life Goals: Show the foundation. “How does this feel different from modern R&B?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in Philadelphia",
+            "Sang in church → foundation of BELTING power",
+            "Originally a DRUMMER before becoming a lead singer",
+            "Joined Harold Melvin & the Blue Notes in early 70s",
+            "Gamble & Huff = powerhouse producers behind Philly International Records",
+            "“I Miss You” (Blue Notes)"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-teddy-pendergrass-instrumental-listening-option"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Teddy Pendergrass instrumental listening option” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does this feel different from modern R&B?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-pendergrass-lesson-02-teddy-with-harold-melvin-and-the-blue-notes-t",
+      "number": 2,
+      "title": "Teddy with Harold Melvin & the Blue Notes | The Breakthrough Voice",
+      "body": [
+        {
+          "type": "text",
+          "text": "The Breakthrough Voice Goals: Teach group dynamics + lead vocals. Teddy became the STAR of the group because: Explain how Teddy made “begging” COOL and POWERFUL."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "deep, commanding baritone",
+            "emotional delivery",
+            "preacher-like intensity",
+            "ability to cry, beg, shout, whisper — all with soul",
+            "“If You Don’t Know Me by Now”",
+            "“Wake Up Everybody”",
+            "“The Love I Lost”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-if-you-don-t-know-me-by-now",
+        "teddy-pendergrass-wake-up-everybody",
+        "teddy-pendergrass-the-love-i-lost"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “If You Don’t Know Me by Now” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain how Teddy made “begging” COOL and POWERFUL.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-pendergrass-lesson-03-vocal-style-the-growl-the-roar-the-whisper",
+      "number": 3,
+      "title": "Vocal Style — The Growl, The Roar, The Whisper",
+      "body": [
+        {
+          "type": "text",
+          "text": "Whisper Goals: Teach vocal technique. Teddy’s voice = “How does he sound soft AND strong?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "deep, smoky baritone",
+            "powerful grit",
+            "passionate shouts",
+            "soft whisper that still feels heavy",
+            "preacher cadence",
+            "unmatched dynamic control",
+            "“Close the Door”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-close-the-door"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Close the Door” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does he sound soft AND strong?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-pendergrass-lesson-04-teddy-pendergrass-self-titled-solo-debut",
+      "number": 4,
+      "title": "Teddy Pendergrass (Self-Titled Solo Debut)",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show the shift to solo superstardom. Themes: Analyze how Teddy combines confidence + emotional vulnerability."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sensuality",
+            "romance",
+            "bold masculinity",
+            "slow-burning passion",
+            "quiet storm foundations",
+            "“You Can’t Hide from Yourself”",
+            "“The Whole Town’s Laughing at Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-you-can-t-hide-from-yourself",
+        "teddy-pendergrass-the-whole-town-s-laughing-at-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Can’t Hide from Yourself” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Analyze how Teddy combines confidence + emotional vulnerability.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-05-teddy-as-the-original-r-and-b-sex-symbol",
+      "number": 5,
+      "title": "Teddy as the Original R&B Sex Symbol",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach performance style + audience connection. Explain: “How does Teddy use his voice to control the room?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "women-only concerts (historic!)",
+            "stage presence: commanding, intimate, playful, seductive",
+            "deep eye contact",
+            "call-and-response mastery",
+            "vocal climaxes timed with musical builds",
+            "“Turn Off the Lights”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-turn-off-the-lights"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Turn Off the Lights” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Teddy use his voice to control the room?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-06-philly-soul-production-gamble-and-huff-s-soun",
+      "number": 6,
+      "title": "Philly Soul Production — Gamble & Huff’s Sound",
+      "body": [
+        {
+          "type": "text",
+          "text": "Sound Goals: Teach musical arrangement. Traits: Your son gon’ learn how arrangements shape emotion."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "lush orchestration",
+            "rich strings",
+            "horn sections",
+            "deep bass",
+            "clean percussion",
+            "dramatic builds",
+            "soulful groove",
+            "“Love TKO”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-love-tko"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Love TKO” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-07-the-car-accident-resilience-and-reinvention",
+      "number": 7,
+      "title": "The Car Accident — Resilience & Reinvention",
+      "body": [
+        {
+          "type": "text",
+          "text": "Reinvention Goals: Teach life lessons + artistic perseverance. Explain: Tracks: Lesson: “Strength ain’t about what happens to you — it’s about what you choose after.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "1982 crash → spinal cord injury → paralysis from chest down",
+            "career could’ve ended",
+            "but Teddy fought back",
+            "returned to stage at Live Aid in 1985 — historic moment",
+            "continued recording with grace, maturity, and quieter strength",
+            "“Joy”",
+            "“Believe in Love”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-i-miss-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Miss You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-pendergrass-lesson-08-teddy-as-blueprint-the-begging-man-and-sensua",
+      "number": 8,
+      "title": "Teddy as Blueprint — The “Begging Man” & Sensual Male Vocalist Lineage",
+      "body": [
+        {
+          "type": "text",
+          "text": "Sensual Male Vocalist Lineage Goals: Show his impact on R&B masculinity. Teddy influenced: Play Tank or Tyrese → then Teddy. “Where do you hear Teddy’s energy?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Keith Sweat",
+            "R. Kelly",
+            "Tyrese",
+            "Tank",
+            "Charlie Wilson",
+            "Jaheim",
+            "Anthony Hamilton",
+            "Ginuwine",
+            "D’Angelo (emotional delivery lineage)",
+            "The Weeknd (dark sensuality, vocal inflections)"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-i-miss-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Miss You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Where do you hear Teddy’s energy?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Tank or Tyrese → then Teddy. Ask:",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-09-teddy-s-emotional-themes-love-regret-sensuali",
+      "number": 9,
+      "title": "Teddy’s Emotional Themes — Love, Regret, Sensuality, Strength",
+      "body": [
+        {
+          "type": "text",
+          "text": "Sensuality, Strength Goals: Teach lyrical depth. Teddy covers: Lesson: “Being emotional don’t make you weak.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "romantic intimacy",
+            "vulnerability",
+            "heartbreak",
+            "regret",
+            "longing",
+            "confidence",
+            "emotional maturity",
+            "“Come Go with Me”",
+            "“And If I Had”",
+            "“It Don’t Hurt Now”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-come-go-with-me",
+        "teddy-pendergrass-and-if-i-had",
+        "teddy-pendergrass-it-don-t-hurt-now"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Come Go with Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-pendergrass-lesson-10-legacy-why-teddy-matters-in-modern-music",
+      "number": 10,
+      "title": "Legacy — Why Teddy Matters in Modern Music",
+      "body": [
+        {
+          "type": "text",
+          "text": "Music Goals: Cement his influence for your son. Teddy = Have your son compare: Teddy → Luther Vandross → Tyrese → The Weeknd Look for vocal emotionality & production evolution."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "prototype for modern R&B male star",
+            "foundation of quiet-storm radio format",
+            "helped bridge soul → R&B → contemporary R&B",
+            "voice that STILL hasn’t been recreated",
+            "symbol of perseverance",
+            "masterclass in vocal performance"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-pendergrass-i-miss-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Miss You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Pendergrass after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son compare: Teddy → Luther Vandross → Tyrese → The Weeknd",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Teddy Pendergrass blended powerful vocals, emotional vulnerability, and the Philly Soul sound to become a foundational figure in R&B. Compare ONE track from his Blue Notes era (If You Don’t Know Me by Now) with ONE track from his solo career (Close the Door), and identify TWO modern artists influenced by Teddy.",
+    "earlyOptions": [
+      "teddy-pendergrass-i-miss-you"
+    ],
+    "laterOptions": [
+      "teddy-pendergrass-it-don-t-hurt-now"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 47, pages 615-626. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

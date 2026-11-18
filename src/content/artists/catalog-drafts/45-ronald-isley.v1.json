@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "id": "ronald-isley",
+  "number": 45,
+  "displayName": "Ronald Isley",
+  "monogram": "RI",
+  "whyItMatters": "Ronald Isley matters because the source catalog identifies this route with One of the greatest male vocalists in Black music, The embodiment of “Black love song” energy, A vocal chameleon who evolved with every era, The centerpiece of The Isley Brothers for 60+ years.",
+  "passedDown": {
+    "trackId": "ronald-isley-that-lady",
+    "blurb": "Start with “That Lady” and use the unit's checkpoints to hear how Ronald Isley's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "ronald-isley-for-the-love-of-you",
+      "ronald-isley-between-the-sheets",
+      "ronald-isley-groove-with-you",
+      "ronald-isley-footsteps-in-the-dark",
+      "ronald-isley-harvest-for-the-world"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "One of the greatest male vocalists in Black music",
+      "The embodiment of “Black love song” energy",
+      "A vocal chameleon who evolved with every era",
+      "The centerpiece of The Isley Brothers for 60+ years",
+      "A direct influence on R&B, soul, funk, quiet storm, and hip-hop",
+      "The cool uncle before Snoop, the smooth crooner before Charlie Wilson, the OG romantic",
+      "Vocal texture",
+      "Era evolution"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "Vocal texture",
+    "Era evolution",
+    "Family-band dynamics",
+    "Songwriting through feeling",
+    "Long-term artistry",
+    "How music becomes canon through sampling"
+  ],
+  "tracks": [
+    {
+      "id": "ronald-isley-that-lady",
+      "title": "That Lady",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "That Lady Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-fight-the-power",
+      "title": "Fight the Power",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Fight the Power Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-live-it-up",
+      "title": "Live It Up",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Live It Up Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-for-the-love-of-you",
+      "title": "For the Love of You",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "For the Love of You Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-between-the-sheets",
+      "title": "Between the Sheets",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Between the Sheets Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-groove-with-you",
+      "title": "Groove With You",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Groove With You Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-voyage-to-atlantis",
+      "title": "Voyage to Atlantis",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Voyage to Atlantis Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-contagious",
+      "title": "Contagious",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Contagious Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-busted",
+      "title": "Busted",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Busted Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-footsteps-in-the-dark",
+      "title": "Footsteps in the Dark",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Footsteps in the Dark Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ronald-isley-harvest-for-the-world",
+      "title": "Harvest for the World",
+      "artist": "Ronald Isley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Harvest for the World Ronald Isley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 534-546. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ronald-isley-lesson-01-the-roots-the-isley-brothers-begin-1950s-60s",
+      "number": 1,
+      "title": "The Roots — The Isley Brothers Begin (1950s–60s)",
+      "body": [
+        {
+          "type": "text",
+          "text": "(1950s–60s) Goals: Teach how Ron started and how the Isleys shaped early R&B. “Shout!” “Why does this sound like a whole church cookout broke out in the studio?” Teaches energy & call-and-response history."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Ohio origins → gospel → doo-wop",
+            "Brothers O’Kelly, Rudolph, and Ronald",
+            "Early performances with gospel groups",
+            "First hits:",
+            "“Shout!” (1959)",
+            "“Twist & Shout” (1962)",
+            "Ron as a young vocalist with grown-man control"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-for-the-love-of-you",
+        "ronald-isley-groove-with-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “For the Love of You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does this sound like a whole church cookout broke out in the studio?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-02-the-funk-soul-reinvention-1970s",
+      "number": 2,
+      "title": "The Funk-Soul Reinvention (1970s)",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show the transition into a whole new sound world. Let your son compare Ron’s 60s voice vs 70s voice → hear evolution in tone."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "The younger brothers join the band (Ernie, Marvin)",
+            "The birth of funk-rock & soul fusion",
+            "Ron’s voice deepens, smoothens, becomes richer",
+            "The Isleys rivaling Earth, Wind & Fire, and Parliament",
+            "Black family bands as cultural pillars",
+            "“That Lady”",
+            "“Fight the Power”",
+            "“Live It Up”",
+            "“For the Love of You” (SMOOTHNESS MASTERCLASS)"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady",
+        "ronald-isley-fight-the-power",
+        "ronald-isley-live-it-up",
+        "ronald-isley-for-the-love-of-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Let your son compare Ron’s 60s voice vs 70s voice → hear evolution in tone.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-03-quiet-storm-era-late-70s-80s-the-love-song-ki",
+      "number": 3,
+      "title": "Quiet Storm Era (Late 70s–80s) — The Love Song King",
+      "body": [
+        {
+          "type": "text",
+          "text": "Song King Goals: Teach emotional expression + romantic soul. Break down “Between the Sheets” → mood, production, tone, pacing. Tell him this song is the parent of HALF of 90s hip-hop samples."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Ron Isley as the template for bedroom R&B",
+            "Whispery tone + falsetto glides",
+            "The Isleys shifting into grown, sensual music",
+            "The foundations of Quiet Storm radio programming",
+            "Soft, warm, intimate mood creation",
+            "“Between the Sheets”",
+            "“Groove With You”",
+            "“Don’t Say Goodnight”",
+            "“Voyage to Atlantis”"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-between-the-sheets",
+        "ronald-isley-groove-with-you",
+        "ronald-isley-voyage-to-atlantis"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Between the Sheets” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Between the Sheets” → mood, production, tone, pacing. Tell him this song is the parent of HALF of 90s hip-hop samples.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ronald-isley-lesson-04-songwriting-emotion-as-architecture",
+      "number": 4,
+      "title": "Songwriting — Emotion as Architecture",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Train emotional literacy in music. Teach Ron’s writing style: Have your son explain what emotions each Isley track feels like — sad, longing, hopeful, seductive, spiritual. It builds emotional mapping skills."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Simple phrases",
+            "Deep feeling",
+            "Intuition over complexity",
+            "Letting harmony guide the emotion",
+            "Writing for the moment, not the charts"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Exercise: Have your son explain what emotions each Isley track feels like — sad, longing, hopeful, seductive, spiritual.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-05-hip-hop-samples-how-ron-isley-became-a-godfat",
+      "number": 5,
+      "title": "Hip-Hop Samples — How Ron Isley Became a Godfather to a New Generation",
+      "body": [
+        {
+          "type": "text",
+          "text": "a Godfather to a New Generation Goals: Show how old-school R&B anchors modern hip-hop. Teach key samples: Discuss how hip-hop kept the Isley legacy ALIVE in the 90s/2000s. Match the original to the sample. It trains ear recognition."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Between the Sheets” → Biggie (“Big Poppa”), Aaliyah, Da Brat",
+            "“Footsteps in the Dark” → Ice Cube (“It Was a Good Day”)",
+            "“Voyage to Atlantis” → Bone Thugs-N-Harmony, Drake live references",
+            "“For the Love of You” → Thundercat, countless covers"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Match the original to the sample. It trains ear recognition.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ronald-isley-lesson-06-mr-biggs-era-ron-s-reinvention-through-r-kell",
+      "number": 6,
+      "title": "Mr. Biggs Era — Ron’s Reinvention Through R. Kelly Collaborations",
+      "body": [
+        {
+          "type": "text",
+          "text": "R. Kelly Collaborations Goals: Teach reinvention, myth-making, and character work. older) Analyze the “story song” structure — verses as scenes, not just lyrics."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "The “Mr. Biggs” persona — smooth OG, fedora, suit, story-driven songs",
+            "The soap-opera musical style",
+            "The shift from crooner → CHARACTER actor in music",
+            "The iconic narrative tracks (though you’ll clarify R. Kelly’s role ethically when your son is",
+            "“Contagious”",
+            "“Down Low (Ron Isley parts)”",
+            "“Busted”"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-contagious",
+        "ronald-isley-busted"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Contagious” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Analyze the “story song” structure — verses as scenes, not just lyrics.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-07-ron-s-voice-technical-mastery-without-flashin",
+      "number": 7,
+      "title": "Ron’s Voice — Technical Mastery Without Flashiness",
+      "body": [
+        {
+          "type": "text",
+          "text": "Flashiness Goals: Teach voice science. Teach his vocal signatures: Compare Ron’s tone with: Explain why Ron is the “calm romance” archetype."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "buttery tone",
+            "speaking-singing hybrid",
+            "soft falsetto with no cracks",
+            "slow melisma, never overdone",
+            "breathy intimacy",
+            "conversational phrasing",
+            "emotional clarity",
+            "light vibrato at the end of lines",
+            "Luther Vandross (butter)",
+            "Marvin Gaye (airy passion)",
+            "Charlie Wilson (raspy fire)"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare Ron’s tone with: ● Luther Vandross (butter)",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, sexual-content, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ronald-isley-lesson-08-the-isley-longevity-lesson-evolving-through-6",
+      "number": 8,
+      "title": "The Isley Longevity Lesson — Evolving Through 6 Eras",
+      "body": [
+        {
+          "type": "text",
+          "text": "Through 6 Eras Goals: Teach survival + adaptability. Break down the eras: “How does an artist stay relevant for 60 years without changing who they are?” This teaches flexible identity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "50s: gospel/doowop",
+            "60s: soul/motown-adjacent",
+            "70s: funk & rock",
+            "80s: quiet storm",
+            "90s: hip-hop fusion & Mr. Biggs",
+            "2000s–2020s: features (Snoop, Beyoncé, Kendrick, etc.)"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does an artist stay relevant for 60 years without changing who they are?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-09-modern-influence-ron-isley-s-children",
+      "number": 9,
+      "title": "Modern Influence — Ron Isley’s Children",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his legacy. Influenced by Ron: Pick a modern R&B song. Find the Isley Brothers “DNA” in it."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "D’Angelo",
+            "Maxwell",
+            "Frank Ocean",
+            "Anderson .Paak",
+            "The Weeknd (quiet storm revival)",
+            "Charlie Wilson & JAHEIM owe stylistic nods",
+            "Neo-soul crooners",
+            "R&B slow jam culture",
+            "Hip-hop R&B hybrids"
+          ]
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Pick a modern R&B song. Find the Isley Brothers “DNA” in it.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ronald-isley-lesson-10-why-ron-isley-matters-final-analysis",
+      "number": 10,
+      "title": "“Why Ron Isley Matters” — Final Analysis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Big-picture understanding. Have your son evaluate Ron on: 1. Vocal tone 2. Longevity 3. Emotional delivery 4. Evolution across eras 5. Influence on hip-hop 6. Sampling legacy 7. Romantic songwriting 8. Character/performance energy 9. Smoothness as a technique 10. Cultural relevance Then write his conclusion."
+        }
+      ],
+      "listen": [
+        "ronald-isley-that-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ronald Isley after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Ronald Isley shaped R&B across SIX decades and how his voice influenced hip-hop, soul, and modern R&B.",
+    "earlyOptions": [
+      "ronald-isley-that-lady"
+    ],
+    "laterOptions": [
+      "ronald-isley-busted"
+    ],
+    "influencedCount": 1
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes",
+    "explicit-language",
+    "substances"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 41, pages 534-546. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

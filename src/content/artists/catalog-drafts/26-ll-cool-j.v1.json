@@ -1,0 +1,575 @@
+{
+  "schemaVersion": 1,
+  "id": "ll-cool-j",
+  "number": 26,
+  "displayName": "LL Cool J",
+  "monogram": "LC",
+  "whyItMatters": "LL Cool J matters because the source catalog identifies this route with one of hip-hop’s first superstars, Def Jam’s original franchise player, the FIRST rapper with mass sex appeal, master of hard bars + soft love songs.",
+  "passedDown": {
+    "trackId": "ll-cool-j-i-can-t-live-without-my-radio",
+    "blurb": "Start with “I Can’t Live Without My Radio” and use the unit's checkpoints to hear how LL Cool J's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "ll-cool-j-mama-said-knock-you-out",
+      "ll-cool-j-around-the-way-girl",
+      "ll-cool-j-hey-lover",
+      "ll-cool-j-loungin-remix"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of hip-hop’s first superstars",
+      "Def Jam’s original franchise player",
+      "the FIRST rapper with mass sex appeal",
+      "master of hard bars + soft love songs",
+      "longevity king (1985 → 2020s)",
+      "actor, TV host, author — a brand before branding was common",
+      "rap’s golden age fundamentals",
+      "performance energy"
+    ],
+    "closing": "LL is hip-hop’s FIRST megastar with mainstream polish."
+  },
+  "learnOutcomes": [
+    "rap’s golden age fundamentals",
+    "performance energy",
+    "emotional range",
+    "pop-rap crossover",
+    "hip-hop history",
+    "reinventing yourself through eras"
+  ],
+  "tracks": [
+    {
+      "id": "ll-cool-j-i-can-t-live-without-my-radio",
+      "title": "I Can’t Live Without My Radio",
+      "artist": "LL Cool J",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Can’t Live Without My Radio LL Cool J",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 269-281. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ll-cool-j-rock-the-bells",
+      "title": "Rock the Bells",
+      "artist": "LL Cool J",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Rock the Bells LL Cool J",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 269-281. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ll-cool-j-mama-said-knock-you-out",
+      "title": "Mama Said Knock You Out",
+      "artist": "LL Cool J",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Mama Said Knock You Out LL Cool J",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 269-281. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ll-cool-j-the-boomin-system",
+      "title": "The Boomin’ System",
+      "artist": "LL Cool J",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Boomin’ System LL Cool J",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 269-281. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ll-cool-j-around-the-way-girl",
+      "title": "Around the Way Girl",
+      "artist": "LL Cool J",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Around the Way Girl LL Cool J",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 269-281. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ll-cool-j-hey-lover",
+      "title": "Hey Lover",
+      "artist": "LL Cool J",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hey Lover LL Cool J",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 269-281. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ll-cool-j-loungin-remix",
+      "title": "Loungin’ (remix)",
+      "artist": "LL Cool J",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Loungin’ (remix) LL Cool J",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 269-281. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ll-cool-j-lesson-01-origins-hollis-queens-teen-prodigy",
+      "number": 1,
+      "title": "Origins — Hollis, Queens; Teen Prodigy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach early hip-hop culture. “What does early hip-hop ENERGY feel like?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born James Todd Smith",
+            "wrote rhymes as a kid",
+            "sending demos everywhere",
+            "discovered by Rick Rubin & Russell Simmons → early Def Jam",
+            "dropped debut album at 17",
+            "“I Can’t Live Without My Radio”"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-around-the-way-girl",
+        "ll-cool-j-hey-lover"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Around the Way Girl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does early hip-hop ENERGY feel like?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ll-cool-j-lesson-02-ll-cool-j-as-def-jam-s-cornerstone",
+      "number": 2,
+      "title": "LL Cool J as Def Jam’s Cornerstone",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach business + cultural context. LL was: Tie in: LL = Def Jam’s LeBron rookie year."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "the FIRST Def Jam star",
+            "crucial to the label surviving",
+            "a crossover machine",
+            "young, charismatic, polished",
+            "early live performer who could rock arenas"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-i-can-t-live-without-my-radio"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Can’t Live Without My Radio” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of LL Cool J after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ll-cool-j-lesson-03-radio-hard-bars-raw-production",
+      "number": 3,
+      "title": "Radio — Hard Bars, Raw Production",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach old-school beat + flow. Production by Rick Rubin: Break down the old-school flow pattern."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "stripped drums",
+            "loud kicks",
+            "aggressive cadence",
+            "early rap delivery style",
+            "“Rock the Bells”",
+            "“I Can’t Live Without My Radio”"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-rock-the-bells",
+        "ll-cool-j-i-can-t-live-without-my-radio"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rock the Bells” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of LL Cool J after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the old-school flow pattern.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ll-cool-j-lesson-04-rap-ballads-ll-invented-the-hard-rapper-love",
+      "number": 4,
+      "title": "Rap Ballads — LL Invented the “Hard Rapper Love Song”",
+      "body": [
+        {
+          "type": "text",
+          "text": "Rapper Love Song” Goals: Teach emotional diversity. Songs: Explain: You can be tough AND romantic — LL made that okay for rappers. “How does a love song in rap change what the genre can be?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“I Need Love” (FIRST rap love ballad to go #1)",
+            "“Hey Lover”",
+            "“Doin’ It”",
+            "“Around the Way Girl”"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-i-can-t-live-without-my-radio"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Can’t Live Without My Radio” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does a love song in rap change what the genre can be?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ll-cool-j-lesson-05-battling-and-bravado-ll-as-a-competitive-mc",
+      "number": 5,
+      "title": "Battling & Bravado — LL as a Competitive MC",
+      "body": [
+        {
+          "type": "text",
+          "text": "MC Goals: Teach rap’s competitive nature. LL clashed with: Battles sharpened: Break down how THIS comeback track is pure battle energy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Kool Moe Dee",
+            "Canibus",
+            "Ice-T",
+            "Wyclef (technically through Canibus beef)",
+            "punchlines",
+            "ego bars",
+            "aggressive delivery",
+            "“Mama Said Knock You Out”"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-mama-said-knock-you-out"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Mama Said Knock You Out” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of LL Cool J after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ll-cool-j-lesson-06-mama-said-knock-you-out-reinvention-era",
+      "number": 6,
+      "title": "Mama Said Knock You Out — Reinvention Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Era Goals: Teach career longevity. After critics said he fell off, LL: Lesson: “Don’t call it a comeback” is more than a bar — it’s a mentality.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "reinvented his style",
+            "modernized his flow",
+            "produced a classic comeback album",
+            "showcased maturity + aggression",
+            "“Mama Said Knock You Out”",
+            "“The Boomin’ System”"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-mama-said-knock-you-out",
+        "ll-cool-j-the-boomin-system"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Mama Said Knock You Out” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of LL Cool J after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ll-cool-j-lesson-07-ll-s-flow-smooth-clear-charismatic",
+      "number": 7,
+      "title": "LL’s Flow — Smooth, Clear, Charismatic",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach delivery. LL’s vocal traits: Play “Around the Way Girl” → discuss his rhythmic charm."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "clear diction",
+            "playful bravado",
+            "smooth tone",
+            "confident pacing",
+            "“lip-licking charisma” energy",
+            "melodic hooks before melodic rap was a thing"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-around-the-way-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Around the Way Girl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of LL Cool J after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “Around the Way Girl” → discuss his rhythmic charm.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ll-cool-j-lesson-08-hollywood-ll-the-rapper-who-paved-the-acting",
+      "number": 8,
+      "title": "Hollywood LL — The Rapper Who Paved the Acting Lane",
+      "body": [
+        {
+          "type": "text",
+          "text": "Acting Lane Goals: Teach multi-discipline artistry. LL became: He proved: Rappers can be multimedia stars. This directly influences:"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "actor (TV + film)",
+            "host (Lip Sync Battle)",
+            "author",
+            "entrepreneur",
+            "fitness icon",
+            "Will Smith",
+            "Ice Cube",
+            "Queen Latifah",
+            "Method Man",
+            "Ludacris",
+            "50 Cent"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-i-can-t-live-without-my-radio"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Can’t Live Without My Radio” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of LL Cool J after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ll-cool-j-lesson-09-ll-cool-j-s-influence-tree",
+      "number": 9,
+      "title": "LL Cool J’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show generational impact. DIRECT Influence: CULTURAL Influence: Have your son compare LL → early Drake. He’ll see the connection IMMEDIATELY."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Nelly (melodic rap + romance songs)",
+            "Drake (soft song + hard song duality)",
+            "LL’s fingerprints ALL over Drake’s career model",
+            "LL is also part of Fabolous, Chingy, Ja Rule DNA",
+            "J. Cole (smooth charisma + clarity of flow)",
+            "Big Sean",
+            "Toddler-era romantic rap lane",
+            "shirtless rapper archetype",
+            "rapper-as-sex-symbol",
+            "rapper-to-actor pipeline",
+            "clean-but-street image",
+            "crossover megastar model"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-i-can-t-live-without-my-radio"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Can’t Live Without My Radio” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of LL Cool J after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son compare LL → early Drake. He’ll see the connection IMMEDIATELY.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ll-cool-j-lesson-10-longevity-40-years-of-relevant-art",
+      "number": 10,
+      "title": "Longevity — 40 Years of Relevant Art",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach adaptation. LL survived: He always: Lesson: Authenticity + reinvention = long career."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "old-school era",
+            "golden age",
+            "shiny suit era",
+            "early 2000s pop-rap",
+            "streaming era",
+            "TV takeover era",
+            "updates his sound",
+            "maintains charisma",
+            "stays professional",
+            "keeps a clean brand"
+          ]
+        }
+      ],
+      "listen": [
+        "ll-cool-j-i-can-t-live-without-my-radio"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Can’t Live Without My Radio” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of LL Cool J after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how LL Cool J combined battle rap, romantic rap, and crossover charisma to shape hip-hop. Compare ONE early track (‘Rock the Bells’) with ONE melodic classic (‘I Need Love’ or ‘Hey Lover’) and identify TWO modern artists influenced by LL.",
+    "earlyOptions": [
+      "ll-cool-j-i-can-t-live-without-my-radio"
+    ],
+    "laterOptions": [
+      "ll-cool-j-the-boomin-system"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 21, pages 269-281. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

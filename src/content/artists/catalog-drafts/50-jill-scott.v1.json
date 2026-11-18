@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 1,
+  "id": "jill-scott",
+  "number": 50,
+  "displayName": "Jill Scott",
+  "monogram": "JS",
+  "whyItMatters": "Jill Scott matters because the source catalog identifies this route with cornerstone of neo-soul, Grammy-winning singer, poet, and actress, master of sensual, emotional, everyday storytelling, vocalist with jazz technique + gospel depth.",
+  "passedDown": {
+    "trackId": "jill-scott-you-got-me",
+    "blurb": "Start with “You Got Me” and use the unit's checkpoints to hear how Jill Scott's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "jill-scott-the-way",
+      "jill-scott-a-long-walk",
+      "jill-scott-golden",
+      "jill-scott-blessed"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "cornerstone of neo-soul",
+      "Grammy-winning singer, poet, and actress",
+      "master of sensual, emotional, everyday storytelling",
+      "vocalist with jazz technique + gospel depth",
+      "writer with novelist-level imagery",
+      "performer who FEELS every word",
+      "body-positive, love-positive, Black woman-positive educator through art",
+      "how to respect women deeply"
+    ],
+    "closing": "This unit builds emotional literacy through music."
+  },
+  "learnOutcomes": [
+    "how to respect women deeply",
+    "how to identify emotional nuance",
+    "how jazz and poetry merge",
+    "how vulnerability becomes power"
+  ],
+  "tracks": [
+    {
+      "id": "jill-scott-you-got-me",
+      "title": "You Got Me",
+      "artist": "Jill Scott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "You Got Me Jill Scott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 601-614. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jill-scott-the-way",
+      "title": "The Way",
+      "artist": "Jill Scott",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "The Way Jill Scott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 601-614. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jill-scott-he-loves-me-lyzel-in-e-flat",
+      "title": "He Loves Me (Lyzel in E Flat)",
+      "artist": "Jill Scott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "He Loves Me (Lyzel in E Flat) Jill Scott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 601-614. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jill-scott-a-long-walk",
+      "title": "A Long Walk",
+      "artist": "Jill Scott",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "A Long Walk Jill Scott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 601-614. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jill-scott-he-loves-me",
+      "title": "He Loves Me",
+      "artist": "Jill Scott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "He Loves Me Jill Scott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 601-614. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jill-scott-getting-in-the-way",
+      "title": "Getting’ in the Way",
+      "artist": "Jill Scott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Getting’ in the Way Jill Scott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 601-614. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jill-scott-shea-butter-baby",
+      "title": "Shea Butter Baby.",
+      "artist": "Jill Scott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Shea Butter Baby. Jill Scott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 601-614. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jill-scott-golden",
+      "title": "Golden",
+      "artist": "Jill Scott",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Golden Jill Scott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 601-614. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jill-scott-blessed",
+      "title": "Blessed",
+      "artist": "Jill Scott",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Blessed Jill Scott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 601-614. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "jill-scott-lesson-01-roots-philly-poet-black-arts-tradition-spoken",
+      "number": 1,
+      "title": "Roots — Philly Poet, Black Arts Tradition, Spoken Word Origins",
+      "body": [
+        {
+          "type": "text",
+          "text": "Spoken Word Origins Goals: Connect Jill to the Black literary canon. “What makes her words FEEL like literature?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "started as a spoken-word poet in Philadelphia",
+            "mentored by the Roots (Questlove, Black Thought)",
+            "co-wrote “You Got Me” for Erykah Badu",
+            "part of the post-1990s Black arts renaissance",
+            "emerged as a writer FIRST, vocalist SECOND",
+            "“You Got Me” (with Jill’s original reference vocals if you can find them)"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-a-long-walk",
+        "jill-scott-the-way"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “A Long Walk” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes her words FEEL like literature?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jill-scott-lesson-02-voice-the-velvet-thunder",
+      "number": 2,
+      "title": "Voice — The Velvet Thunder",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal control & tone. Jill’s voice: Have your son identify the difference in TONE between the intimate verses and soaring choruses."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "warm, rich, round tone",
+            "jazz phrasing",
+            "precise breath control",
+            "dynamic range (whispers → belts)",
+            "emotional modulation (laughing, moaning, sighs)",
+            "conversational singing",
+            "“The Way”",
+            "“He Loves Me (Lyzel in E Flat)”"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-the-way",
+        "jill-scott-he-loves-me-lyzel-in-e-flat"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Way” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jill Scott after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son identify the difference in TONE between the intimate verses and soaring choruses.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jill-scott-lesson-03-who-is-jill-scott-the-debut-masterpiece",
+      "number": 3,
+      "title": "Who Is Jill Scott? — The Debut Masterpiece",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach everyday Black woman poetry. This album is: Jill writes DETAIL — she paints moments, not themes. Ask your son to point out images in “A Long Walk.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "love stories",
+            "sensual honesty",
+            "self-worth",
+            "romantic yearning",
+            "community scenes",
+            "detailed storytelling",
+            "“A Long Walk”",
+            "“The Way”",
+            "“He Loves Me”",
+            "“Getting’ in the Way”"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-a-long-walk",
+        "jill-scott-the-way",
+        "jill-scott-he-loves-me",
+        "jill-scott-getting-in-the-way"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “A Long Walk” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jill Scott after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, trauma, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jill-scott-lesson-04-neo-soul-context-jill-among-the-movement",
+      "number": 4,
+      "title": "Neo-Soul Context — Jill Among the Movement",
+      "body": [
+        {
+          "type": "text",
+          "text": "Movement Goals: Place her in cultural lineage. Neo-soul pillars: Neo-soul values: Play Jill → then Musiq → then D’Angelo. Let your son identify mood similarities."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Jill Scott",
+            "Erykah Badu",
+            "D’Angelo",
+            "Maxwell",
+            "Musiq Soulchild",
+            "India.Arie",
+            "Angie Stone",
+            "The Roots",
+            "live instruments",
+            "poetic lyrics",
+            "mellow groove",
+            "jazz + hip-hop integration",
+            "honesty",
+            "vulnerability"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-you-got-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Got Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jill Scott after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Jill → then Musiq → then D’Angelo. Let your son identify mood similarities.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jill-scott-lesson-05-sensuality-grown-respectful-emotional-human",
+      "number": 5,
+      "title": "Sensuality — Grown, Respectful, Emotional, Human",
+      "body": [
+        {
+          "type": "text",
+          "text": "Human Goals: Teach nuance, not raunch. Jill’s sensuality is: Songs: Teach your son: Real sensuality includes CARE, not just desire."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "tender",
+            "poetic",
+            "vulnerability-centered",
+            "loving",
+            "Black-woman centered",
+            "emotional BEFORE physical",
+            "respectful",
+            "artistic",
+            "“Crown Royal” (grown, save for older age)",
+            "“The Way”",
+            "“So In Love” (with Anthony Hamilton)"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-you-got-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Got Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jill Scott after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jill-scott-lesson-06-live-performance-storytelling-in-real-time",
+      "number": 6,
+      "title": "Live Performance — Storytelling in Real Time",
+      "body": [
+        {
+          "type": "text",
+          "text": "Time Goals: Teach stagecraft. Jill Scott live = Watch: She performs like she’s TALKING directly to you."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "monologues",
+            "improvised poetry",
+            "vocal riffs that feel like jazz solos",
+            "call-and-response",
+            "emotional narration",
+            "audience connection",
+            "humor",
+            "spiritual energy",
+            "“He Loves Me” live (the opera-level finale!)",
+            "“The Way” live versions",
+            "her 2001 Live in Washington, DC concert"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-you-got-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Got Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jill Scott after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jill-scott-lesson-07-the-actress-jill-scott-in-film-and-tv",
+      "number": 7,
+      "title": "The Actress — Jill Scott in Film & TV",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Expand her impact beyond music. Roles: Explain: Jill extends her storytelling into acting — same heart, new medium."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Why Did I Get Married?",
+            "The No. 1 Ladies’ Detective Agency",
+            "multiple roles centering Black womanhood with dignity"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-you-got-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Got Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "● Why Did I Get Married?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jill-scott-lesson-08-poetic-craft-imagery-personification-internal",
+      "number": 8,
+      "title": "Poetic Craft — Imagery, Personification, Internal Monologue",
+      "body": [
+        {
+          "type": "text",
+          "text": "Internal Monologue Goals: Teach literary technique. Jill uses: Break down: Have your son identify 2 mental pictures in each song."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sensory imagery (taste, smell, touch)",
+            "internal dialogue",
+            "word repetition for rhythm",
+            "playful metaphors",
+            "Black vernacular",
+            "jazz-like phrasing",
+            "narrative scenes",
+            "“A Long Walk” imagery",
+            "“The Fact Is (I Need You)” emotional writing",
+            "“Slowly Surely” metaphoric growth"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-you-got-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Got Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jill Scott after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son identify 2 mental pictures in each song.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jill-scott-lesson-09-jill-scott-s-cultural-importance-the-soft-pow",
+      "number": 9,
+      "title": "Jill Scott’s Cultural Importance — The Soft Power of Black Womanhood",
+      "body": [
+        {
+          "type": "text",
+          "text": "Power of Black Womanhood Goals: Teach respect for Black women. Jill represents: Jill Scott is an emotional education. Her music builds empathy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "softness as strength",
+            "emotional depth",
+            "body positivity",
+            "emotional boundaries",
+            "unapologetic sensuality",
+            "nurturing without self-erasure",
+            "a Black woman’s right to joy"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-you-got-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Got Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jill Scott after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jill-scott-lesson-10-jill-scott-s-influence-tree",
+      "number": 10,
+      "title": "Jill Scott’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show her lineage in modern R&B/neo-soul. DIRECT Influence: HIP-HOP Influence: CULTURAL Influence: Play “A Long Walk” → then Ari Lennox “Shea Butter Baby.” Ask your son what feels similar about the mood."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Jazmine Sullivan",
+            "H.E.R.",
+            "Ari Lennox",
+            "SZA",
+            "India.Arie",
+            "Lalah Hathaway",
+            "Erykah Badu (mutual influence loop)",
+            "Ledisi",
+            "Floetry / Marsha Ambrosius",
+            "Cleo Sol",
+            "Alex Isley",
+            "The Roots",
+            "Common",
+            "Kanye (College Dropout soul)",
+            "Drake (introspective R&B leanings)",
+            "Chance the Rapper (warmth + poetry)",
+            "the “soft Black woman” movement",
+            "the modern poetry renaissance",
+            "TEDTalk-style emotional storytelling",
+            "conversations about mental health in R&B"
+          ]
+        }
+      ],
+      "listen": [
+        "jill-scott-a-long-walk",
+        "jill-scott-shea-butter-baby"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “A Long Walk” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jill Scott after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “A Long Walk” → then Ari Lennox “Shea Butter Baby.” Ask your son what feels similar about the mood.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Jill Scott shaped neo-soul through poetic songwriting, emotional vulnerability, and jazz-influenced vocal performance. Compare ONE early track (‘A Long Walk’ or ‘He Loves Me’) with ONE later track (‘The Fact Is (I Need You)’ or ‘So In Love’). Identify TWO modern artists who clearly show Jill Scott’s influence.",
+    "earlyOptions": [
+      "jill-scott-you-got-me"
+    ],
+    "laterOptions": [
+      "jill-scott-shea-butter-baby"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "sexual-content",
+    "trauma",
+    "mature-themes"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 46, pages 601-614. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

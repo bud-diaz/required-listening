@@ -1,0 +1,662 @@
+{
+  "schemaVersion": 1,
+  "id": "ja-rule",
+  "number": 23,
+  "displayName": "Ja Rule",
+  "monogram": "JR",
+  "whyItMatters": "Ja Rule matters because the source catalog identifies this route with The blueprint for the early-2000s “thug-love” sound, The original melodic rapper before Drake/Future/Nelly/etc., A hook king with gravel tone + vulnerable energy, Key architect of Murder Inc.’s radio domination.",
+  "passedDown": {
+    "trackId": "ja-rule-holla-holla",
+    "blurb": "Start with “Holla Holla” and use the unit's checkpoints to hear how Ja Rule's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "ja-rule-always-on-time",
+      "ja-rule-mesmerize",
+      "ja-rule-livin-it-up",
+      "ja-rule-put-it-on-me"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The blueprint for the early-2000s “thug-love” sound",
+      "The original melodic rapper before Drake/Future/Nelly/etc.",
+      "A hook king with gravel tone + vulnerable energy",
+      "Key architect of Murder Inc.’s radio domination",
+      "A storyteller who blended street talk with romance",
+      "A rapper whose downfall teaches your son how beef + media + timing shape history",
+      "A misunderstood pioneer who helped invent a whole lane",
+      "Melody in rap"
+    ],
+    "closing": "Let’s get into these lessons."
+  },
+  "learnOutcomes": [
+    "Melody in rap",
+    "Duet architecture",
+    "Radio formula design",
+    "What “rap for the ladies” really meant",
+    "The 50 Cent era shift",
+    "Industry sustainability vs hype",
+    "Branding lessons",
+    "How public perception rewrites history"
+  ],
+  "tracks": [
+    {
+      "id": "ja-rule-holla-holla",
+      "title": "Holla Holla",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Holla Holla Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-always-on-time",
+      "title": "Always On Time",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Always On Time Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-mesmerize",
+      "title": "Mesmerize",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Mesmerize Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-wonderful",
+      "title": "Wonderful",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Wonderful Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-livin-it-up",
+      "title": "Livin’ It Up",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Livin’ It Up Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-between-me-and-you",
+      "title": "Between Me & You",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Between Me & You Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-i-cry",
+      "title": "I Cry",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Cry Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-rainy-dayz",
+      "title": "Rainy Dayz",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Rainy Dayz Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-daddy-s-little-baby",
+      "title": "Daddy’s Little Baby",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Daddy’s Little Baby Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-clap-back",
+      "title": "Clap Back",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Clap Back Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-find-your-love",
+      "title": "Find Your Love",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Find Your Love Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ja-rule-put-it-on-me",
+      "title": "Put It On Me",
+      "artist": "Ja Rule",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Put It On Me Ja Rule",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 229-241. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ja-rule-lesson-01-origins-queens-hustle-pain-and-murder",
+      "number": 1,
+      "title": "Origins — Queens, Hustle, Pain & Murder",
+      "body": [
+        {
+          "type": "text",
+          "text": "Inc. Goals: Show where Ja Rule came from. “How does his voice SOUND like the street?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Hollis, Queens upbringing",
+            "Started in Cash Money Click (pre-Murder Inc.)",
+            "Hunger mixed with vulnerability → unique energy",
+            "Linked up with Irv Gotti → Murder Inc. formed",
+            "Street + melody fusion became their secret weapon",
+            "Ja as the gravel-voiced heart of the label",
+            "“Holla Holla”"
+          ]
+        }
+      ],
+      "listen": [
+        "ja-rule-holla-holla"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Holla Holla” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does his voice SOUND like the street?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, trauma, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ja-rule-lesson-02-ja-s-voice-gravel-growl-and-melody",
+      "number": 2,
+      "title": "Ja’s Voice — Gravel, Growl & Melody",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Explain his vocal identity. His vocal tools: Teach your son: “People clown what they don’t realize is innovation.” Compare early Ja → early DMX → show similarities but DIFFERENT lane."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "raspy, husky tone",
+            "half-sung, half-rapped delivery",
+            "melodic growls",
+            "stretched vowels",
+            "emotional rasp",
+            "simple but catchy melodies"
+          ]
+        }
+      ],
+      "listen": [
+        "ja-rule-always-on-time",
+        "ja-rule-livin-it-up"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Always On Time” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ja Rule after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare early Ja → early DMX → show similarities but DIFFERENT lane.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ja-rule-lesson-03-the-thug-love-blueprint-ja-ashanti-era",
+      "number": 3,
+      "title": "The “Thug-Love” Blueprint — Ja + Ashanti Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Era Goals: Show how Ja reinvented rap radio. Break down “Always On Time” like a duet scene in a movie."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Ja Rule created the rap + R&B duet formula",
+            "Ashanti became the perfect soft contrast to his growl",
+            "Their chemistry made Murder Inc. unstoppable",
+            "Songs built like rom-coms: tension, passion, hooks",
+            "“Always On Time”",
+            "“Mesmerize”",
+            "“Wonderful” (with R. Kelly & Ashanti — skip R. Kelly convo until older)"
+          ]
+        }
+      ],
+      "listen": [
+        "ja-rule-always-on-time",
+        "ja-rule-mesmerize",
+        "ja-rule-wonderful"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Always On Time” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ja Rule after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Always On Time” like a duet scene in a movie.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ja-rule-lesson-04-hitmaking-101-ja-rule-s-formula",
+      "number": 4,
+      "title": "Hitmaking 101 — Ja Rule’s Formula",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach hit structure. The Murder Inc. hit formula: 1. Simple, relatable hook 2. Beat with warm synths or samples 3. Ja’s raspy melodic rap verse 4. R&B singer on the chorus 5. Love/relationship themes 6. Radio-friendly structure (3–4 minutes) This formula dominated the early 2000s. “What makes these songs EASY to remember?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Livin’ It Up”",
+            "“Between Me & You”"
+          ]
+        }
+      ],
+      "listen": [
+        "ja-rule-livin-it-up",
+        "ja-rule-between-me-and-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Livin’ It Up” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes these songs EASY to remember?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ja-rule-lesson-05-vulnerability-and-softness-in-male-rappers",
+      "number": 5,
+      "title": "Vulnerability & Softness in Male Rappers",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach emotional range in Black men. Ja Rule talked about: WITHOUT trying to act too hard. Teach your son: “It’s okay for men to be emotional AND still strong.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "love",
+            "heartbreak",
+            "loyalty",
+            "desire",
+            "conflict",
+            "affection",
+            "“I Cry”",
+            "“Rainy Dayz”"
+          ]
+        }
+      ],
+      "listen": [
+        "ja-rule-i-cry",
+        "ja-rule-rainy-dayz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Cry” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ja Rule after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ja-rule-lesson-06-storytelling-ja-as-narrator",
+      "number": 6,
+      "title": "Storytelling — Ja as Narrator",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach narrative rap. Ja Rule storytelling strengths: Have your son map the emotional beats of a Ja Rule story song."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "first-person confession",
+            "romantic storytelling",
+            "street loyalty narratives",
+            "cinematic structure",
+            "moral dilemmas",
+            "“Daddy’s Little Baby”",
+            "“Down 4 U”",
+            "“Clap Back”"
+          ]
+        }
+      ],
+      "listen": [
+        "ja-rule-daddy-s-little-baby",
+        "ja-rule-clap-back"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Daddy’s Little Baby” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ja Rule after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son map the emotional beats of a Ja Rule story song.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ja-rule-lesson-07-the-fall-50-cent-public-perception-and-indust",
+      "number": 7,
+      "title": "The Fall — 50 Cent, Public Perception & Industry Shifts",
+      "body": [
+        {
+          "type": "text",
+          "text": "Industry Shifts Goals: Teach critical thinking & media literacy. Explain (when your son’s older): Emphasize: “You can be great AND get overshadowed by timing.” Break down “Clap Back” to show Ja COULD spit hard."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "50 Cent came with the TOTAL opposite energy: cold, deadly, mocking",
+            "The beef was personal, strategic, and perfectly timed",
+            "Internet culture amplified the clowning",
+            "Industry + law enforcement pressure on Murder Inc. hurt momentum",
+            "The sound of hip-hop shifted to “street over soft”",
+            "Public opinion can rewrite legacies unfairly"
+          ]
+        }
+      ],
+      "listen": [
+        "ja-rule-holla-holla"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Holla Holla” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ja Rule after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ja-rule-lesson-08-reinvention-attempts-and-eldership",
+      "number": 8,
+      "title": "Reinvention Attempts & Eldership",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show resilience. Lesson: “Just ‘cause they clown you don’t mean you washed.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "later albums",
+            "independent era",
+            "business ventures",
+            "fitness dedication",
+            "Verzuz reappraisal (Ja smoked that, respectfully)",
+            "fans rediscovering how good the music actually was"
+          ]
+        }
+      ],
+      "listen": [
+        "ja-rule-holla-holla"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Holla Holla” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ja Rule after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ja-rule-lesson-09-ja-rule-s-influence-tree",
+      "number": 9,
+      "title": "Ja Rule’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his sonic children. Artists influenced by Ja: Play Drake’s “Find Your Love” → ask “Do you hear Ja?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Drake (melodic rap)",
+            "Future (pain-melody hybrid)",
+            "Nelly (melodic crossover lane)",
+            "50 Cent (ironically picked up the melodic formula later)",
+            "Tory Lanez",
+            "Rod Wave",
+            "Post Malone",
+            "Ty Dolla $ign",
+            "A Boogie wit da Hoodie",
+            "ANY rapper who sings their hook today"
+          ]
+        }
+      ],
+      "listen": [
+        "ja-rule-find-your-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Find Your Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Do you hear Ja?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Drake’s “Find Your Love” → ask “Do you hear Ja?”",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ja-rule-lesson-10-ja-rule-influence-legacy-and-close-listening",
+      "number": 10,
+      "title": "Ja Rule: Influence, Legacy, and Close Listening",
+      "body": [
+        {
+          "type": "text",
+          "text": "This adapted checkpoint brings the unit overview and influence threads together. JA RULE Unit Overview Ja Rule = ● The blueprint for the early-2000s “thug-love” sound ● The original melodic rapper before Drake/Future/Nelly/etc. ● A hook king with gravel tone + vulnerable energy ● Key architect of Murder Inc.’s radio domination ● A storyteller who blended street talk with romance ● A rapper whose downfall teaches your son how beef + media + timing shape history ● A misunderstood pioneer who helped invent a whole lane Your son gon’ learn: ● Melody in rap ● Duet architecture ● Radio formula design ● What “rap for the ladies” really meant ● The 50 Cent era shift ● Industry sustainability vs hype ● Branding lessons ● How public perception rewrites history Let’s get into these lessons."
+        }
+      ],
+      "listen": [
+        "ja-rule-holla-holla"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Holla Holla” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ja Rule after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Ja Rule created the modern melodic rap formula through vocals, storytelling, and R&B collaboration. Compare TWO of his duet songs and identify ONE modern artist influenced by him.",
+    "earlyOptions": [
+      "ja-rule-holla-holla"
+    ],
+    "laterOptions": [
+      "ja-rule-find-your-love"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "weapons",
+    "trauma",
+    "mature-themes"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 18, pages 229-241. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

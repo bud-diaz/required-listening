@@ -1,0 +1,791 @@
+{
+  "schemaVersion": 1,
+  "id": "tupac-shakur",
+  "number": 65,
+  "displayName": "Tupac Shakur",
+  "monogram": "TS",
+  "whyItMatters": "Tupac Shakur matters because the source catalog identifies this route with poet, actor, social critic, revolutionary thinker.",
+  "passedDown": {
+    "trackId": "tupac-shakur-keep-ya-head-up",
+    "blurb": "Start with “Keep Ya Head Up” and use the unit's checkpoints to hear how Tupac Shakur's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "tupac-shakur-tupac-shakur-instrumental-listening-option"
+    ],
+    "note": "The source did not provide a named younger-listener section; use the caregiver-selected instrumental search and preview the result."
+  },
+  "overview": {
+    "summary": [
+      "poet",
+      "actor",
+      "social critic",
+      "revolutionary thinker",
+      "passionate and flawed",
+      "prolific writer",
+      "street reporter",
+      "emotional conduit for a whole generation"
+    ],
+    "closing": "Pac is a LIFETIME lesson."
+  },
+  "learnOutcomes": [
+    "critical consciousness",
+    "emotional vulnerability",
+    "how anger, love, fear, and hope coexist",
+    "how art reflects community pain",
+    "cultural leadership",
+    "contradictions → complexity, not hypocrisy"
+  ],
+  "tracks": [
+    {
+      "id": "tupac-shakur-keep-ya-head-up",
+      "title": "Keep Ya Head Up",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Keep Ya Head Up Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-brenda-s-got-a-baby",
+      "title": "Brenda’s Got a Baby",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Brenda’s Got a Baby Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-trapped",
+      "title": "Trapped",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Trapped Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-violent",
+      "title": "Violent",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Violent Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-i-get-around",
+      "title": "I Get Around",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "I Get Around Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-holler-if-ya-hear-me",
+      "title": "Holler If Ya Hear Me",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Holler If Ya Hear Me Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-holler-if-ya-hear-me-2",
+      "title": "Holler If Ya Hear Me.",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Holler If Ya Hear Me. Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-dear-mama",
+      "title": "Dear Mama",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Dear Mama Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-so-many-tears",
+      "title": "So Many Tears",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "So Many Tears Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-temptations",
+      "title": "Temptations",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Temptations Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-ambitionz-az-a-ridah",
+      "title": "Ambitionz Az a Ridah",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Ambitionz Az a Ridah Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-california-love",
+      "title": "California Love",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "California Love Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-i-ain-t-mad-at-cha",
+      "title": "I Ain’t Mad at Cha",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "I Ain’t Mad at Cha Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-hail-mary",
+      "title": "Hail Mary",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Hail Mary Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-against-all-odds",
+      "title": "Against All Odds",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Against All Odds Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-to-live-and-die-in-l-a",
+      "title": "To Live & Die in L.A.",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "To Live & Die in L.A. Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-mortal-man",
+      "title": "Mortal Man",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Mortal Man Tupac Shakur",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 831-842. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tupac-shakur-tupac-shakur-instrumental-listening-option",
+      "title": "Tupac Shakur instrumental listening option",
+      "artist": "Tupac Shakur",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source did not name a Younger Listener selection. A grown-up must choose and preview an instrumental provider result before playing.",
+      "searchQuery": "Tupac Shakur instrumental",
+      "sourceNotes": "Adapted fallback because the source unit did not include a named Younger Listener selection.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "tupac-shakur-lesson-01-origins-black-panther-roots-activism-and-earl",
+      "number": 1,
+      "title": "Origins — Black Panther Roots, Activism, & Early Life",
+      "body": [
+        {
+          "type": "text",
+          "text": "Early Life Goals: Teach political + cultural background. “What pain is he talking about? And who is he protecting?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in NYC, raised by Afeni Shakur (Black Panther)",
+            "Grew up understanding oppression, community, struggle",
+            "Ballet, theater, poetry → artistic foundation",
+            "Homelessness + instability in youth",
+            "Baltimore School for the Arts (with Jada Pinkett)",
+            "Moves to Oakland → political awakening deepens",
+            "“Keep Ya Head Up”"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-keep-ya-head-up"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Keep Ya Head Up” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Tupac Shakur after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tupac-shakur-lesson-02-pac-the-poet-before-the-rapper",
+      "number": 2,
+      "title": "Pac the Poet — Before the Rapper",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach writing craft. Pac poems = Read from The Rose That Grew from Concrete. Have your son explain what a “rose in concrete” symbolizes."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "vivid imagery",
+            "tenderness",
+            "revolutionary anger",
+            "love for Black women",
+            "hope amid poverty",
+            "existential questions"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-keep-ya-head-up"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Keep Ya Head Up” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Tupac Shakur after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son explain what a “rose in concrete” symbolizes.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tupac-shakur-lesson-03-early-music-2pacalypse-now-and-social-comment",
+      "number": 3,
+      "title": "Early Music — 2Pacalypse Now & Social Commentary",
+      "body": [
+        {
+          "type": "text",
+          "text": "Commentary Goals: Teach political rap. Themes: “Why does Pac sound ANGRY? What is he responding to?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "police brutality",
+            "systemic racism",
+            "poverty",
+            "survival",
+            "frustration",
+            "youthful rage",
+            "“Brenda’s Got a Baby”",
+            "“Trapped”",
+            "“Violent”"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-brenda-s-got-a-baby",
+        "tupac-shakur-trapped",
+        "tupac-shakur-violent"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brenda’s Got a Baby” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Tupac Shakur after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, violence, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tupac-shakur-lesson-04-strictly-4-my-n-i-g-g-a-z-political-street-ba",
+      "number": 4,
+      "title": "Strictly 4 My N.I.G.G.A.Z. — Political + Street Balance",
+      "body": [
+        {
+          "type": "text",
+          "text": "Balance Goals: Show duality. Themes: Explain: Pac could go from party track → to social uplift → to street anthem. That RANGE matters."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "empowerment",
+            "injustice",
+            "street loyalty",
+            "pride",
+            "grief",
+            "young leadership",
+            "“I Get Around”",
+            "“Keep Ya Head Up”",
+            "“Holler If Ya Hear Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-i-get-around",
+        "tupac-shakur-keep-ya-head-up",
+        "tupac-shakur-holler-if-ya-hear-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Get Around” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Tupac Shakur after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tupac-shakur-lesson-05-the-acting-era-tupac-as-performer",
+      "number": 5,
+      "title": "The Acting Era — Tupac as Performer",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach multidisciplinary artistry. Films: Pac wasn’t just acting — he was studying humanity. Your son should see: Compare Pac’s performance in Juice vs “Holler If Ya Hear Me.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Juice (Bishop’s complexity)",
+            "Poetic Justice",
+            "Above the Rim",
+            "emotion control",
+            "facial storytelling",
+            "vulnerability"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-tupac-shakur-instrumental-listening-option"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tupac Shakur instrumental listening option” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Tupac Shakur after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare Pac’s performance in Juice vs “Holler If Ya Hear Me.”",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "tupac-shakur-lesson-06-me-against-the-world-vulnerability-masterpiec",
+      "number": 6,
+      "title": "Me Against the World — Vulnerability Masterpiece",
+      "body": [
+        {
+          "type": "text",
+          "text": "Masterpiece Goals: Teach emotional intelligence. This album = Pac at his softest, smartest, saddest. Themes: “Why is ‘Dear Mama’ so important?” Lesson: Black men deserve softness, even when life won’t let them."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "paranoia",
+            "depression",
+            "regret",
+            "loneliness",
+            "love for family",
+            "confusion about fame",
+            "“Dear Mama”",
+            "“So Many Tears”",
+            "“Temptations”"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-dear-mama",
+        "tupac-shakur-so-many-tears",
+        "tupac-shakur-temptations"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dear Mama” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why is ‘Dear Mama’ so important?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tupac-shakur-lesson-07-all-eyez-on-me-the-diamond-era",
+      "number": 7,
+      "title": "All Eyez on Me — The Diamond Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach confidence + survival. Pac fresh out of prison → signs with Death Row. Themes: “How does this Pac sound different from the Me Against the World Pac?” He’s harder, louder, defensive."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fame",
+            "paranoia",
+            "flexing",
+            "love",
+            "loyalty & betrayal",
+            "masculinity as armor",
+            "“Ambitionz Az a Ridah”",
+            "“California Love”",
+            "“I Ain’t Mad at Cha”",
+            "“How Do U Want It”"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-ambitionz-az-a-ridah",
+        "tupac-shakur-california-love",
+        "tupac-shakur-i-ain-t-mad-at-cha"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ambitionz Az a Ridah” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does this Pac sound different from the Me Against the World Pac?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask: “How does this Pac sound different from the Me Against the World Pac?”",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tupac-shakur-lesson-08-makaveli-the-prophet-s-voice",
+      "number": 8,
+      "title": "Makaveli — The Prophet’s Voice",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach urgency + fatalism. This album is eerie — Pac sounds like he KNOWS he’s running out of time. Themes: Lesson: Great artists often transmute fear into prophecy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "betrayal",
+            "political anger",
+            "spiritual conflict",
+            "desperation",
+            "clarity about enemies",
+            "“Hail Mary”",
+            "“Against All Odds”",
+            "“To Live & Die in L.A.”"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-hail-mary",
+        "tupac-shakur-against-all-odds",
+        "tupac-shakur-to-live-and-die-in-l-a"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hail Mary” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Tupac Shakur after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "tupac-shakur-lesson-09-tupac-s-contradictions-a-human-not-a-myth",
+      "number": 9,
+      "title": "Tupac’s Contradictions — A Human, Not a Myth",
+      "body": [
+        {
+          "type": "text",
+          "text": "Myth Goals: Teach nuance + complexity. Pac was: Help your son understand: Human beings are not binaries. Pac is EVERY emotion at once. This teaches empathy + critical thinking."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "compassionate AND reckless",
+            "political AND messy",
+            "soft-hearted AND violent",
+            "disciplined artist AND impulsive young man",
+            "deeply loving AND deeply angry"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-keep-ya-head-up"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Keep Ya Head Up” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Tupac Shakur after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tupac-shakur-lesson-10-tupac-s-influence-tree",
+      "number": 10,
+      "title": "Tupac’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show generational impact. Direct Influence: Cultural Influence: Play Kendrick’s “Mortal Man” conversation with Pac. “What does Pac symbolize to Kendrick?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Kendrick Lamar",
+            "J. Cole",
+            "Nipsey Hussle",
+            "YG",
+            "Joey Bada$$",
+            "21 Savage (political shift era)",
+            "Roddy Ricch",
+            "DMX (emotional rawness)",
+            "political rap revival",
+            "poetic rap",
+            "West Coast resurgence",
+            "“message rap”",
+            "Black masculinity explored in full spectrum"
+          ]
+        }
+      ],
+      "listen": [
+        "tupac-shakur-mortal-man"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Mortal Man” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does Pac symbolize to Kendrick?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Kendrick’s “Mortal Man” conversation with Pac. Ask:",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Tupac used poetry, political commentary, and emotional honesty to shape hip-hop. Compare ONE track from Me Against the World (‘Dear Mama’) with ONE track from All Eyez on Me (‘Ambitionz Az a Ridah’), and identify TWO modern artists influenced by Tupac.",
+    "earlyOptions": [
+      "tupac-shakur-keep-ya-head-up"
+    ],
+    "laterOptions": [
+      "tupac-shakur-mortal-man"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "trauma",
+    "mature-themes",
+    "explicit-language",
+    "violence"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 63, pages 831-842. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

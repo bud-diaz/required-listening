@@ -1,0 +1,789 @@
+{
+  "schemaVersion": 1,
+  "id": "outkast",
+  "number": 20,
+  "displayName": "OutKast",
+  "monogram": "OU",
+  "whyItMatters": "OutKast matters because the source catalog identifies this route with The architects of modern Southern rap, Renaissance men blending funk, soul, jazz, gospel, rap, and rock, The duo that taught hip-hop how to grow up AND get weird, The South’s first “weirdos” that everybody respected.",
+  "passedDown": {
+    "trackId": "outkast-player-s-ball",
+    "blurb": "Start with “Player’s Ball” and use the unit's checkpoints to hear how OutKast's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "outkast-ms-jackson",
+      "outkast-so-fresh-so-clean",
+      "outkast-hey-ya",
+      "outkast-the-way-you-move",
+      "outkast-prototype"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The architects of modern Southern rap",
+      "Renaissance men blending funk, soul, jazz, gospel, rap, and rock",
+      "The duo that taught hip-hop how to grow up AND get weird",
+      "The South’s first “weirdos” that everybody respected",
+      "Two geniuses with different styles that form one whole galaxy",
+      "Flow variety",
+      "Lyrical imagery",
+      "Regional identity"
+    ],
+    "closing": "This unit is a journey."
+  },
+  "learnOutcomes": [
+    "Flow variety",
+    "Lyrical imagery",
+    "Regional identity",
+    "Musical experimentation",
+    "Character development",
+    "Social commentary",
+    "The evolution of hip-hop itself"
+  ],
+  "tracks": [
+    {
+      "id": "outkast-player-s-ball",
+      "title": "Player’s Ball",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Player’s Ball OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-git-up-git-out",
+      "title": "Git Up, Git Out",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Git Up, Git Out OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-crumblin-erb",
+      "title": "Crumblin’ Erb",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Crumblin’ Erb OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-ain-t-no-thang",
+      "title": "Ain’t No Thang",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Ain’t No Thang OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-atliens",
+      "title": "ATLiens",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "ATLiens OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-elevators-me-and-you",
+      "title": "Elevators (Me & You)",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Elevators (Me & You) OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-wheelz-of-steel",
+      "title": "Wheelz of Steel",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Wheelz of Steel OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-aquemini",
+      "title": "Aquemini",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Aquemini OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-spottieottiedopaliscious",
+      "title": "SpottieOttieDopaliscious",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "SpottieOttieDopaliscious OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-rosa-parks",
+      "title": "Rosa Parks",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Rosa Parks OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-da-art-of-storytellin-pt-1",
+      "title": "Da Art of Storytellin’ Pt. 1",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Da Art of Storytellin’ Pt. 1 OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-b-o-b",
+      "title": "B.O.B.",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "B.O.B. OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-ms-jackson",
+      "title": "Ms. Jackson",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Ms. Jackson OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-so-fresh-so-clean",
+      "title": "So Fresh, So Clean",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "So Fresh, So Clean OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-hey-ya",
+      "title": "Hey Ya!",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hey Ya! OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-the-way-you-move",
+      "title": "The Way You Move",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "The Way You Move OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-prototype",
+      "title": "Prototype",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Prototype OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "outkast-roses",
+      "title": "Roses",
+      "artist": "OutKast",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Roses OutKast",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 190-202. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "outkast-lesson-01-atlanta-origins-the-dungeon-family",
+      "number": 1,
+      "title": "Atlanta Origins — The Dungeon Family",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach the soil OutKast grew from. That line alone changed hip-hop geography forever. “How does ATL SOUND in this music?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "East Point, ATL",
+            "Organized Noize production team",
+            "The Dungeon (actual basement studio — hot, cramped, legendary)",
+            "Goodie Mob, Witchdoctor, etc.",
+            "Southern rap before OutKast → largely dismissed",
+            "Source Awards 1995: “THE SOUTH GOT SOMETHIN’ TO SAY.”",
+            "“Player’s Ball”"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-so-fresh-so-clean",
+        "outkast-ms-jackson"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “So Fresh, So Clean” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does ATL SOUND in this music?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "outkast-lesson-02-big-boi-vs-andre-two-halves-one-whole",
+      "number": 2,
+      "title": "Big Boi vs Andre — Two Halves, One Whole",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach character pairing. Big Boi (the General): Andre 3000 (the Prophet): Play a verse from each — have your son describe the vibes."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Precision flow",
+            "Player/pimp talk",
+            "Tactical wordplay",
+            "The “grounded” one",
+            "Philosophical",
+            "Poetic",
+            "Weird as hell (in the best way)",
+            "Fashion innovator",
+            "The “skywalker” one"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-player-s-ball"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Player’s Ball” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of OutKast after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play a verse from each — have your son describe the vibes.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "outkast-lesson-03-southernplayalisticadillacmuzik-southern-iden",
+      "number": 3,
+      "title": "Southernplayalisticadillacmuzik — Southern Identity Defined",
+      "body": [
+        {
+          "type": "text",
+          "text": "Identity Defined Goals: Show how OutKast PUT THE SOUTH ON THE MAP. Discussion: “How do these songs feel different from NYC rap?” You building regional literacy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Funk guitars",
+            "Soul harmonies",
+            "Player storytelling",
+            "Coming-of-age energy",
+            "Pride in Southern slang, lifestyle & culture",
+            "“Git Up, Git Out”",
+            "“Crumblin’ Erb”",
+            "“Ain’t No Thang”"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-git-up-git-out",
+        "outkast-crumblin-erb",
+        "outkast-ain-t-no-thang"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Git Up, Git Out” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do these songs feel different from NYC rap?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "outkast-lesson-04-atliens-outkast-goes-outer-space",
+      "number": 4,
+      "title": "ATLiens — OutKast Goes Outer Space",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach artistic risk + evolution. Break down “Elevators” → the flow, the storytelling, the hook. “How does this feel like floating?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Darker, colder production",
+            "Spiritual questioning",
+            "Alien persona development",
+            "Andre’s shift toward introspection & lyricism",
+            "Themes of isolation, growth, elevation",
+            "“ATLiens”",
+            "“Elevators (Me & You)”",
+            "“Wheelz of Steel”"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-atliens",
+        "outkast-elevators-me-and-you",
+        "outkast-wheelz-of-steel"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “ATLiens” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does this feel like floating?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Break down “Elevators” → the flow, the storytelling, the hook. Ask:",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "outkast-lesson-05-aquemini-the-masterpiece",
+      "number": 5,
+      "title": "Aquemini — The MASTERPIECE",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach peak creativity. This is one of the greatest hip-hop albums ever created. Break down the spoken-word storytelling on “SpottieOttie.” That’s a whole literature class."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Perfect balance of Big Boi & 3000",
+            "Live instruments",
+            "Blues, gospel, funk, rap fusion",
+            "Generational themes",
+            "Black humanity",
+            "Social commentary",
+            "Vulnerability + swagger",
+            "“Aquemini”",
+            "“SpottieOttieDopaliscious”",
+            "“Rosa Parks”",
+            "“Da Art of Storytellin’ Pt. 1”"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-aquemini",
+        "outkast-spottieottiedopaliscious",
+        "outkast-rosa-parks",
+        "outkast-da-art-of-storytellin-pt-1"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Aquemini” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of OutKast after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the spoken-word storytelling on “SpottieOttie.” That’s a whole literature class.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "outkast-lesson-06-stankonia-afro-futurism-and-chaos-theory",
+      "number": 6,
+      "title": "Stankonia — Afro-Futurism & Chaos Theory",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach experimentation & artistic fearlessness. “B.O.B.” is important — it’s chaotic genius. Ask your son how the beat makes him feel."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Faster BPMs",
+            "Punk energy",
+            "Dirty funk",
+            "Racial commentary",
+            "Sex, politics, fear, joy",
+            "Andre going full alien",
+            "Big Boi going full general",
+            "“B.O.B.”",
+            "“Ms. Jackson”",
+            "“So Fresh, So Clean”"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-b-o-b",
+        "outkast-ms-jackson",
+        "outkast-so-fresh-so-clean"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “B.O.B.” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of OutKast after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "outkast-lesson-07-speakerboxxx-the-love-below-the-dual-solo-alb",
+      "number": 7,
+      "title": "Speakerboxxx/The Love Below — The Dual Solo Album",
+      "body": [
+        {
+          "type": "text",
+          "text": "Solo Album Goals: Show individuality within togetherness. Big Boi — Speakerboxxx Andre 3000 — The Love Below Have your son map out which songs “sound like Big Boi” vs “sound like Andre.” Teaches sonic identity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Hard-hitting ATL funk-rap",
+            "Precision technical flow",
+            "Southern energy",
+            "Grown-man talk",
+            "Neo-soul-funk",
+            "Sang more than rapped",
+            "Prince influence",
+            "Erotic, romantic, philosophical dreamscape",
+            "Genre-bending like nobody else",
+            "“Hey Ya!”",
+            "“The Way You Move”",
+            "“Prototype”",
+            "“Roses”"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-hey-ya",
+        "outkast-the-way-you-move",
+        "outkast-prototype",
+        "outkast-roses"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hey Ya!” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of OutKast after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son map out which songs “sound like Big Boi” vs “sound like Andre.” Teaches sonic identity.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "outkast-lesson-08-flows-techniques-and-lyrical-craft",
+      "number": 8,
+      "title": "Flows, Techniques, & Lyrical Craft",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach how OutKast RAP. Techniques: Pick any verse from “Aquemini” and have your son: That’s AP English."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "polyrhythmic flow",
+            "internal rhyme schemes",
+            "melodic rap",
+            "multi-character storytelling",
+            "Southern idioms as poetry",
+            "humor + pain woven together",
+            "circle internal rhymes",
+            "identify metaphors",
+            "explain imagery"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-player-s-ball"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Player’s Ball” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of OutKast after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Exercise: Pick any verse from “Aquemini” and have your son: ● circle internal rhymes",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "outkast-lesson-09-outkast-s-influence-tree",
+      "number": 9,
+      "title": "OutKast’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach legacy. They influenced: Pick a modern artist and list the OutKast DNA."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Kendrick Lamar",
+            "Childish Gambino",
+            "Tyler, The Creator",
+            "J. Cole",
+            "Big K.R.I.T.",
+            "Future (Dungeon Family lineage)",
+            "Young Thug",
+            "Anderson .Paak",
+            "EarthGang",
+            "SZA (Love Below influence)",
+            "Frank Ocean (genre-blur inspiration)"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-player-s-ball"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Player’s Ball” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of OutKast after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Pick a modern artist and list the OutKast DNA.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "outkast-lesson-10-the-south-grows-because-of-them",
+      "number": 10,
+      "title": "The South Grows Because of Them",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show their cultural impact. Your son gotta know: Hip-hop today is ATL because OutKast walked first."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Before OutKast, the South wasn’t “respected”",
+            "After OutKast → Atlanta becomes the CENTER of hip-hop",
+            "Their albums proved the South had lyricism, artistry, AND innovation",
+            "Southern slang, style, cadence normalized",
+            "ATL creativity becomes global inspiration"
+          ]
+        }
+      ],
+      "listen": [
+        "outkast-player-s-ball"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Player’s Ball” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of OutKast after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how OutKast reshaped hip-hop musically, regionally, and artistically using THREE albums, TWO flows, and ONE influence example.",
+    "earlyOptions": [
+      "outkast-player-s-ball"
+    ],
+    "laterOptions": [
+      "outkast-roses"
+    ],
+    "influencedCount": 3
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "sexual-content",
+    "trauma",
+    "violence"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 15, pages 190-202. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

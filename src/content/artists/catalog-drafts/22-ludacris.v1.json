@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 1,
+  "id": "ludacris",
+  "number": 22,
+  "displayName": "Ludacris",
+  "monogram": "LU",
+  "whyItMatters": "Ludacris matters because the source catalog identifies this route with The KING of animated flow, A punchline legend, One of the best enunciators in rap history, Southern mainstream breakthrough artist.",
+  "passedDown": {
+    "trackId": "ludacris-phat-rabbit",
+    "blurb": "Start with “Phat Rabbit” and use the unit's checkpoints to hear how Ludacris's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "ludacris-ludacris-instrumental-listening-option"
+    ],
+    "note": "The source did not provide a named younger-listener section; use the caregiver-selected instrumental search and preview the result."
+  },
+  "overview": {
+    "summary": [
+      "The KING of animated flow",
+      "A punchline legend",
+      "One of the best enunciators in rap history",
+      "Southern mainstream breakthrough artist",
+      "A pioneer in creative music videos",
+      "A rapper who balanced bars, comedy, and charisma without losing respect",
+      "How personality shapes flow",
+      "What cadence control really looks like"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "How personality shapes flow",
+    "What cadence control really looks like",
+    "How the South revolutionized mainstream rap",
+    "Why “fun” doesn’t mean “not serious”",
+    "How artists build multi-lane careers"
+  ],
+  "tracks": [
+    {
+      "id": "ludacris-phat-rabbit",
+      "title": "Phat Rabbit",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Phat Rabbit Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-ho",
+      "title": "Ho",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Ho Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-rollout-my-business",
+      "title": "Rollout (My Business)",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "Rollout (My Business) Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-area-codes",
+      "title": "Area Codes",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "Area Codes Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-saturday-oooh-oooh",
+      "title": "Saturday (Oooh! Oooh!)",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "Saturday (Oooh! Oooh!) Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-move-b-h",
+      "title": "Move B***h",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "Move B***h Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-stand-up",
+      "title": "Stand Up",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Stand Up Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-southern-hospitality",
+      "title": "Southern Hospitality",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Southern Hospitality Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-number-one-spot",
+      "title": "Number One Spot",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Number One Spot Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-get-back",
+      "title": "Get Back",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Get Back Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-diamond-in-the-back",
+      "title": "Diamond in the Back",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Diamond in the Back Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-splash-waterfalls",
+      "title": "Splash Waterfalls",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Splash Waterfalls Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-hip-hop-quotables",
+      "title": "Hip Hop Quotables",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Hip Hop Quotables Ludacris",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 216-228. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "ludacris-ludacris-instrumental-listening-option",
+      "title": "Ludacris instrumental listening option",
+      "artist": "Ludacris",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source did not name a Younger Listener selection. A grown-up must choose and preview an instrumental provider result before playing.",
+      "searchQuery": "Ludacris instrumental",
+      "sourceNotes": "Adapted fallback because the source unit did not include a named Younger Listener selection.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ludacris-lesson-01-origins-atlanta-before-trap-took-over",
+      "number": 1,
+      "title": "Origins — Atlanta Before Trap Took Over",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach ATL’s landscape pre–trap explosion. “What makes his voice pop compared to other rappers?” Teaches vocal timbre awareness."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Early ATL scene: OutKast, Goodie Mob, Eastside/Westside",
+            "Luda as a radio DJ (Chris Lova Lova) → understanding audience early",
+            "Independently dropping Incognegro",
+            "Fast recognition of his charisma & delivery",
+            "“What’s Your Fantasy”",
+            "“Phat Rabbit”",
+            "“Ho”"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-ludacris-instrumental-listening-option"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ludacris instrumental listening option” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes his voice pop compared to other rappers?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ludacris-lesson-02-word-of-mouf-the-animated-animal",
+      "number": 2,
+      "title": "Word of Mouf — The Animated Animal",
+      "body": [
+        {
+          "type": "text",
+          "text": "This the album that made Luda a superhero. Break down the cadence math in “Rollout.” Have him clap with the rhythm switches. It’s rap metronome practice."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Busta Rhymes influence + ATL swagger",
+            "The birth of “cartoon hyper-realism” in hip-hop delivery",
+            "Crisp diction + exaggerated vowels that make bars HIT",
+            "How humor became Luda’s secret weapon, not a gimmick",
+            "“Rollout (My Business)”",
+            "“Area Codes”",
+            "“Saturday (Oooh! Oooh!)”",
+            "“Move B***h”"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-rollout-my-business",
+        "ludacris-area-codes",
+        "ludacris-saturday-oooh-oooh",
+        "ludacris-move-b-h"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rollout (My Business)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ludacris after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the cadence math in “Rollout.” Have him clap with the rhythm switches.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ludacris-lesson-03-ludacris-the-flow-scientist",
+      "number": 3,
+      "title": "Ludacris the Flow Scientist",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach technical rap skills using Luda as a model. Teach these signature traits: “How does he use his VOICE as a special effect?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Enunciation mastery (your son gon’ learn why clarity matters)",
+            "Cartoon-like vowel stretching",
+            "Fast–slow–fast pattern switching",
+            "Stop-start flow",
+            "Boisterous delivery",
+            "Backloaded punchlines",
+            "Breath control mid–comedy bar",
+            "“Stand Up”",
+            "“Southern Hospitality”",
+            "“Number One Spot”",
+            "“Get Back”"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-stand-up",
+        "ludacris-southern-hospitality",
+        "ludacris-number-one-spot",
+        "ludacris-get-back"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stand Up” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does he use his VOICE as a special effect?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ludacris-lesson-04-music-videos-visual-creativity-and-branding",
+      "number": 4,
+      "title": "Music Videos — Visual Creativity & Branding",
+      "body": [
+        {
+          "type": "text",
+          "text": "Branding Goals: Show how Luda changed rap visuals. Watch Together: “How do visuals change how you hear the song?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Oversized heads, giant arms, surreal aesthetics",
+            "Hype Williams–level creativity without the budget",
+            "Humor as a branding tool",
+            "Luda videos feeling like cartoons come to life",
+            "How creativity increased mainstream appeal without softening the music",
+            "“Rollout”",
+            "“Get Back”",
+            "“Number One Spot” (Austin Powers theme)",
+            "“Stand Up”"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-phat-rabbit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Phat Rabbit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do visuals change how you hear the song?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ludacris-lesson-05-chicken-n-beer-southern-rap-fully-arrives",
+      "number": 5,
+      "title": "Chicken-N-Beer — Southern Rap Fully Arrives",
+      "body": [
+        {
+          "type": "text",
+          "text": "Arrives Goals: Understand this as a cultural pivot. Use “Hip Hop Quotables” as a crash course in bar science."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Southern rap gaining mainstream respect",
+            "Luda representing ATL energy: suave + wild + lyrical",
+            "Commentary on sex, politics, and Southern identity",
+            "Luda’s ability to go from silly → serious in the same album",
+            "“Diamond in the Back”",
+            "“Splash Waterfalls”",
+            "“Hip Hop Quotables”"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-diamond-in-the-back",
+        "ludacris-splash-waterfalls",
+        "ludacris-hip-hop-quotables"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Diamond in the Back” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ludacris after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ludacris-lesson-06-theater-of-mind-luda-the-storyteller",
+      "number": 6,
+      "title": "Theater of Mind — Luda the Storyteller",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his cinematic writing style. Have your son rewrite a simple story using Luda’s exaggerated style. This builds creativity + voice awareness."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Luda writing songs as scenes",
+            "Characters, settings, sound effects",
+            "Using comedy to enhance narrative",
+            "Using features (Chris Rock, Rick Ross) to create “movie roles”"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-phat-rabbit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Phat Rabbit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ludacris after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son rewrite a simple story using Luda’s exaggerated style. This builds creativity + voice awareness.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ludacris-lesson-07-features-the-feature-assassin-era",
+      "number": 7,
+      "title": "Features — The Feature Assassin Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Study how Luda stole every track he touched. Essential Feature Verses: Have your son identify what makes his verse the standout."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Why Luda was the most reliable feature in the 2000s",
+            "His ability to adapt his flow to ANY beat",
+            "Contrast between his humorous tone and razor-sharp execution",
+            "The art of the “scene-stealing verse”",
+            "“Yeah!” (Usher)",
+            "“Oh” (Ciara)",
+            "“Glamorous” (Fergie)",
+            "“Made You Look (Remix)”",
+            "“Break Ya Neck (Remix)” with Busta",
+            "“Runaway Love” (Mary J.)"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-phat-rabbit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Phat Rabbit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ludacris after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ludacris-lesson-08-luda-the-businessman-branding-and-diversifyin",
+      "number": 8,
+      "title": "Luda the Businessman — Branding & Diversifying",
+      "body": [
+        {
+          "type": "text",
+          "text": "Diversifying Goals: Teach long-term strategy. Discussion: “What can artists learn from diversifying early?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Acting career (Fast & Furious franchise)",
+            "Voice acting (Crash Bandicoot, etc.)",
+            "Restaurants (Chicken & Beer at ATL Airport)",
+            "Philanthropy (Ludacris Foundation)",
+            "Entrepreneurship in entertainment"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-phat-rabbit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Phat Rabbit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What can artists learn from diversifying early?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "ludacris-lesson-09-ludacris-influence-on-modern-artists",
+      "number": 9,
+      "title": "Ludacris’ Influence on Modern Artists",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Identify his legacy. Artists influenced by Luda: Pick a modern rapper. Have your son find one flow, one joke, and one punchline that sound Luda-inspired."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "DaBaby (bounce flow, humor, animated delivery)",
+            "Busta Rhymes (mutual inspiration, video creativity)",
+            "Missy Elliott (visuals + experimental spirit)",
+            "Tyler, The Creator (comedy + rap skill fusion)",
+            "Megan Thee Stallion (cadence precision)",
+            "Big Sean (punchline flips)",
+            "Cordae (clarity + flow control)"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-phat-rabbit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Phat Rabbit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Ludacris after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Pick a modern rapper. Have your son find one flow, one joke, and one punchline that sound Luda-inspired.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "ludacris-lesson-10-does-funny-goat-final-analysis",
+      "number": 10,
+      "title": "“Does Funny = GOAT?” — Final Analysis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach nuance in music respect. Prompt him to analyze: He’ll learn critical thinking, not just music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Why funny rappers get underrated",
+            "Luda’s actual technical greatness",
+            "Flow variety",
+            "Longevity",
+            "Impact on ATL sound",
+            "Visual legacy",
+            "Why he doesn’t get the same “serious” respect as Wayne, Jay, etc.",
+            "Why that’s a mistake"
+          ]
+        }
+      ],
+      "listen": [
+        "ludacris-phat-rabbit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Phat Rabbit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Does Funny = GOAT?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain Ludacris’ importance in shaping rap flow, music videos, Southern hip-hop, and feature culture — with three examples each.",
+    "earlyOptions": [
+      "ludacris-phat-rabbit"
+    ],
+    "laterOptions": [
+      "ludacris-hip-hop-quotables"
+    ],
+    "influencedCount": 3
+  },
+  "contentFlags": [
+    "violence",
+    "weapons",
+    "mature-themes",
+    "explicit-language",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 17, pages 216-228. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

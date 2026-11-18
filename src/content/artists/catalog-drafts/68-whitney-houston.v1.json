@@ -1,0 +1,712 @@
+{
+  "schemaVersion": 1,
+  "id": "whitney-houston",
+  "number": 68,
+  "displayName": "Whitney Houston",
+  "monogram": "WH",
+  "whyItMatters": "Whitney ain’t just a singer. She the template. Every vocalist since 1985 gotta answer the question: “Do you got the RANGE to stand next to Auntie Whitney?” Usually the answer is no. And that’s fine. Most humans don’t.",
+  "passedDown": {
+    "trackId": "whitney-houston-you-give-good-love",
+    "blurb": "Start with “You Give Good Love” and use the unit's checkpoints to hear how Whitney Houston's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "whitney-houston-i-wanna-dance-with-somebody",
+      "whitney-houston-so-emotional",
+      "whitney-houston-my-love-is-your-love"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "what tone really is",
+      "how pop + gospel + R&B merged",
+      "why technique matters",
+      "how one voice can change a whole industry",
+      "what “effortless power” sounds like",
+      "why Black excellence stays getting duplicated but never replaced"
+    ],
+    "closing": "Let’s lock in."
+  },
+  "learnOutcomes": [
+    "what tone really is",
+    "how pop + gospel + R&B merged",
+    "why technique matters",
+    "how one voice can change a whole industry",
+    "what “effortless power” sounds like",
+    "why Black excellence stays getting duplicated but never replaced"
+  ],
+  "tracks": [
+    {
+      "id": "whitney-houston-you-give-good-love",
+      "title": "You Give Good Love",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "You Give Good Love Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-guide-me-o-thou-great-jehovah",
+      "title": "Guide Me O Thou Great Jehovah",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Guide Me O Thou Great Jehovah Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-home",
+      "title": "Home",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Home Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-greatest-love-of-all",
+      "title": "Greatest Love of All",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Greatest Love of All Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-i-wanna-dance-with-somebody",
+      "title": "I Wanna Dance With Somebody",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Wanna Dance With Somebody Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-saving-all-my-love-for-you",
+      "title": "Saving All My Love For You",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Saving All My Love For You Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-so-emotional",
+      "title": "So Emotional",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "So Emotional Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-love-will-save-the-day",
+      "title": "Love Will Save the Day",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Love Will Save the Day Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-i-have-nothing",
+      "title": "I Have Nothing",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "I Have Nothing Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-vision-of-love",
+      "title": "Vision of Love",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Vision of Love Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-dangerously-in-love-2",
+      "title": "Dangerously in Love 2",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Dangerously in Love 2 Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-honeymoon-avenue",
+      "title": "Honeymoon Avenue",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Honeymoon Avenue Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-and-i-am-telling-you",
+      "title": "And I Am Telling You",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "And I Am Telling You Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "whitney-houston-my-love-is-your-love",
+      "title": "My Love Is Your Love",
+      "artist": "Whitney Houston",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "My Love Is Your Love Whitney Houston",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 868-881. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "whitney-houston-lesson-01-origins-jersey-choir-girl-to-global-stage",
+      "number": 1,
+      "title": "Origins — Jersey Choir Girl to Global Stage",
+      "body": [
+        {
+          "type": "text",
+          "text": "What your son should understand: Whitney wasn’t “lucky.” She was trained, rooted, supported, AND chosen. That combination is rare. gospel roots"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born into music royalty (Cissy Houston = legend, Dionne Warwick = cousin)",
+            "raised in the church (this is important… them vocals CHURCHY-churchy)",
+            "started as a teen model (fresh-faced, clean-cut image crafted early)",
+            "Clive Davis discovered her and basically said, “Yep, we got the one”",
+            "“You Give Good Love” — early Whitney maturity",
+            "“Guide Me O Thou Great Jehovah” (Whitney age 11 performance) — shows early",
+            "“Home” (from The Merv Griffin Show) — teenage Whitney’s clarity and control",
+            "What parts of her voice sound “church” even in pop settings?",
+            "How does young Whitney hold notes compared to other singers her age?"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-you-give-good-love",
+        "whitney-houston-guide-me-o-thou-great-jehovah",
+        "whitney-houston-home"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Give Good Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "● What parts of her voice sound “church” even in pop settings?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "whitney-houston-lesson-02-the-voice-technical-perfection-with-soul-on-t",
+      "number": 2,
+      "title": "The Voice — Technical Perfection with Soul on Top",
+      "body": [
+        {
+          "type": "text",
+          "text": "on Top Whitney’s voice is defined by: She is the Michael Jordan of vocal technique. Ain’t even up for debate. Can you hear her breath? (Trick question: barely.)"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "warm, rich mid-tones",
+            "bright upper register",
+            "clean, controlled vibrato",
+            "crisp diction",
+            "ridiculous breathing technique",
+            "gospel agility with pop clarity",
+            "power that sound like she not even trying",
+            "“Greatest Love of All” (control)",
+            "“I Wanna Dance With Somebody” (clarity + brightness)",
+            "“Saving All My Love For You” (phrasing)"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-i-wanna-dance-with-somebody",
+        "whitney-houston-my-love-is-your-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Wanna Dance With Somebody” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Whitney Houston after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "whitney-houston-lesson-03-the-whitney-formula-pop-sound-black-soul",
+      "number": 3,
+      "title": "The Whitney Formula — Pop Sound, Black Soul",
+      "body": [
+        {
+          "type": "text",
+          "text": "Soul This is where people get confused. Whitney made POP-R&B. But she didn’t “cross over.” The industry crossed over to HER. Key point: Whitney = global icon without dimming her Blackness."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Clive Davis packaged her for mainstream radio",
+            "she brought gospel runs into pop",
+            "she made white audiences comfortable with Black vocal styles",
+            "she opened the door for Mariah, Beyoncé, Ariana, all them powerhouse girls",
+            "“How Will I Know” — pop production with R&B ad-libs",
+            "“So Emotional” — rock-pop + soul delivery",
+            "“Love Will Save the Day” — Latin production with Black vocal stylings",
+            "Where do you hear gospel in a pop track?"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-so-emotional",
+        "whitney-houston-love-will-save-the-day"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “So Emotional” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "● Where do you hear gospel in a pop track?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "whitney-houston-lesson-04-the-big-80s-era-precision-pop",
+      "number": 4,
+      "title": "The Big ’80s Era — Precision Pop",
+      "body": [
+        {
+          "type": "text",
+          "text": "Her early albums hit different: This era shows how a voice can LIFT pop music into something soulful."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "perfect production",
+            "anthemic choruses",
+            "clean drums",
+            "bright synths",
+            "everything arranged around her voice",
+            "“How Will I Know”",
+            "“I Wanna Dance with Somebody”",
+            "“You Give Good Love”"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-i-wanna-dance-with-somebody",
+        "whitney-houston-you-give-good-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Wanna Dance with Somebody” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Whitney Houston after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "whitney-houston-lesson-05-the-ballad-era-power-pain-and-mastery",
+      "number": 5,
+      "title": "The Ballad Era — Power, Pain, and Mastery",
+      "body": [
+        {
+          "type": "text",
+          "text": "Whitney could murder a ballad without blinking. Ballad traits: Tracks: How does she build emotion without yelling? Where do you hear the “climb” in her vocal lines? Explain: This the “grown woman at 2am with the wine glass” music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "controlled long notes",
+            "emotional storytelling",
+            "strong breath support",
+            "precision runs",
+            "dynamic changes",
+            "gospel roots",
+            "“Where Do Broken Hearts Go”",
+            "“All the Man That I Need”"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-you-give-good-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Give Good Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does she build emotion without yelling?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, trauma, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "whitney-houston-lesson-06-the-bodyguard-the-global-nuclear-explosion",
+      "number": 6,
+      "title": "The Bodyguard — The Global Nuclear Explosion",
+      "body": [
+        {
+          "type": "text",
+          "text": "Explosion This is WHITNEY at DEITY LEVEL. “How can one note make a whole planet stop breathing?” Then replay that a cappella intro."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "her acting debut",
+            "soundtrack became the best-selling movie soundtrack EVER",
+            "the “I Will Always Love You” cover became the “National Anthem of Ballads”",
+            "Dolly Parton wrote it, but Whitney OWNED it spiritually"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-you-give-good-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Give Good Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How can one note make a whole planet stop breathing?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "whitney-houston-lesson-07-performance-power-vma-ama-super-bowl",
+      "number": 7,
+      "title": "Performance Power — VMA, AMA, Super Bowl",
+      "body": [
+        {
+          "type": "text",
+          "text": "Bowl Whitney on stage is: Show him: Explain: She don’t need smoke machines. She IS the smoke machine."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "effortless control",
+            "no gimmicks",
+            "no dancing needed",
+            "pure, raw vocal dominance",
+            "elegance + warmth",
+            "emotional resonance",
+            "the 1991 Super Bowl National Anthem",
+            "the 1994 AMA “I Will Always Love You” performance",
+            "How does her live voice compare to recordings?",
+            "Why does she sound even cleaner live?"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-you-give-good-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Give Good Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "● How does her live voice compare to recordings?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "whitney-houston-lesson-08-vocal-influence-tree-she-mothered-generations",
+      "number": 8,
+      "title": "Vocal Influence Tree — She Mothered Generations",
+      "body": [
+        {
+          "type": "text",
+          "text": "Whitney birthed: Listening Lab 8: Compare Whitney with artists she influenced: If your son hears a singer doing clean, bright belting… that’s Whitney’s DNA."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Mariah Carey",
+            "Beyoncé (full lineage)",
+            "Ariana Grande",
+            "Deborah Cox",
+            "Jennifer Hudson",
+            "Jazmine Sullivan (gospel precision)",
+            "Normani (tone + clarity)",
+            "pretty much every singing competition contestant EVER",
+            "Whitney: “I Have Nothing”",
+            "Mariah Carey: “Vision of Love” — whistle + melisma",
+            "Beyoncé: “Dangerously in Love 2” (live) — power + control",
+            "Ariana Grande: “Honeymoon Avenue (live)” — clarity + agility",
+            "Jennifer Hudson: “And I Am Telling You” — powerhouse emotion",
+            "Who sounds closest to Whitney in tone?",
+            "Who uses her runs?",
+            "Who copies her diction?"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-i-have-nothing",
+        "whitney-houston-vision-of-love",
+        "whitney-houston-dangerously-in-love-2",
+        "whitney-houston-honeymoon-avenue",
+        "whitney-houston-and-i-am-telling-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Have Nothing” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "● Who sounds closest to Whitney in tone?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "whitney-houston-lesson-09-the-humanity-pressure-perfection-and-compassi",
+      "number": 9,
+      "title": "The Humanity — Pressure, Perfection & Compassion",
+      "body": [
+        {
+          "type": "text",
+          "text": "Compassion Handle with care. Important lesson: Greatness does not erase humanity. Compassion matters."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fame + expectation weighed heavy",
+            "the pressure to maintain “perfect pop girl” image was unfair",
+            "addiction struggles were complex and shouldn’t define her",
+            "her talent never disappeared",
+            "she remained beloved until the end"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-you-give-good-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Give Good Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Whitney Houston after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "whitney-houston-lesson-10-legacy-why-whitney-houston-is-the-standard",
+      "number": 10,
+      "title": "Legacy — Why Whitney Houston is The Standard",
+      "body": [
+        {
+          "type": "text",
+          "text": "Standard Explain to your son: Whitney’s legacy = If the question is “Who’s the best singer ever?” the answer starts with Whitney. Anything after that is just debate."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "vocal excellence",
+            "interracial global superstardom",
+            "pop radio domination",
+            "Black woman at the center of mainstream culture",
+            "pure musical craftsmanship",
+            "infinite vocal descendants"
+          ]
+        }
+      ],
+      "listen": [
+        "whitney-houston-you-give-good-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “You Give Good Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Who’s the best singer ever?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Whitney Houston blended gospel technique with pop production to revolutionize vocal performance. Compare ONE early pop track (‘How Will I Know’ or ‘I Wanna Dance with Somebody’) with ONE ballad (‘I Will Always Love You’ or ‘All the Man That I Need’). Identify THREE modern singers who clearly carry Whitney’s influence.",
+    "earlyOptions": [
+      "whitney-houston-you-give-good-love"
+    ],
+    "laterOptions": [
+      "whitney-houston-and-i-am-telling-you"
+    ],
+    "influencedCount": 3
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "violence",
+    "trauma",
+    "substances"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 66, pages 868-881. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

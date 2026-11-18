@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "id": "teddy-riley",
+  "number": 55,
+  "displayName": "Teddy Riley",
+  "monogram": "TR",
+  "whyItMatters": "Teddy Riley matters because the source catalog identifies this route with the INVENTOR of New Jack Swing, one of the most influential producers in U.S. music, keyboard god, drum machine genius (SP-1200, MPC).",
+  "passedDown": {
+    "trackId": "teddy-riley-go-see-the-doctor",
+    "blurb": "Start with “Go See the Doctor” and use the unit's checkpoints to hear how Teddy Riley's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "teddy-riley-groove-me",
+      "teddy-riley-i-like",
+      "teddy-riley-before-i-let-you-go",
+      "teddy-riley-remember-the-time"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "the INVENTOR of New Jack Swing",
+      "one of the most influential producers in U.S. music",
+      "keyboard god",
+      "drum machine genius (SP-1200, MPC)",
+      "leader behind Guy and Blackstreet",
+      "co-producer of MICHAEL JACKSON’S Dangerous",
+      "blueprint for Timbaland, Pharrell, JD, Darkchild, etc.",
+      "a sound innovator who bridged hip-hop attitude + R&B smoothness + pop polish"
+    ],
+    "closing": "This unit is basically “Black Music Technology 101.”"
+  },
+  "learnOutcomes": [
+    "where modern R&B comes from",
+    "how production creates culture",
+    "how technology shapes sound",
+    "arranging live instruments + drum machines",
+    "groove science",
+    "teamwork inside a vocal group even if you’re the one behind the boards"
+  ],
+  "tracks": [
+    {
+      "id": "teddy-riley-go-see-the-doctor",
+      "title": "Go See the Doctor",
+      "artist": "Teddy Riley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Go See the Doctor Teddy Riley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 668-680. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-riley-groove-me",
+      "title": "Groove Me",
+      "artist": "Teddy Riley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Groove Me Teddy Riley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 668-680. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-riley-now-that-we-found-love",
+      "title": "Now That We Found Love",
+      "artist": "Teddy Riley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Now That We Found Love Teddy Riley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 668-680. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-riley-i-like",
+      "title": "I Like",
+      "artist": "Teddy Riley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Like Teddy Riley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 668-680. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-riley-teddy-s-jam",
+      "title": "Teddy’s Jam",
+      "artist": "Teddy Riley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Teddy’s Jam Teddy Riley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 668-680. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-riley-before-i-let-you-go",
+      "title": "Before I Let You Go",
+      "artist": "Teddy Riley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Before I Let You Go Teddy Riley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 668-680. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-riley-no-diggity",
+      "title": "No Diggity",
+      "artist": "Teddy Riley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "No Diggity Teddy Riley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 668-680. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-riley-happy",
+      "title": "Happy",
+      "artist": "Teddy Riley",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Happy Teddy Riley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 668-680. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "teddy-riley-remember-the-time",
+      "title": "Remember the Time",
+      "artist": "Teddy Riley",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Remember the Time Teddy Riley",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 668-680. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "teddy-riley-lesson-01-origins-harlem-prodigy-church-roots-early-stu",
+      "number": 1,
+      "title": "Origins — Harlem Prodigy, Church Roots, Early Studio Life",
+      "body": [
+        {
+          "type": "text",
+          "text": "Early Studio Life Goals: Show genius in the making. “How is this hip-hop, but also kinda…dancey?” That’s the seed of New Jack Swing."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "raised in Harlem",
+            "musical prodigy (playing instruments by age 5)",
+            "producing by age 14",
+            "learned engineering, arrangement, mixing EARLY",
+            "connected with hip-hop pioneers like Kool Moe Dee",
+            "obsessed with groove & rhythm",
+            "“Go See the Doctor” (Kool Moe Dee — early Teddy)"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-remember-the-time",
+        "teddy-riley-groove-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Remember the Time” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How is this hip-hop, but also kinda…dancey?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-riley-lesson-02-what-is-new-jack-swing",
+      "number": 2,
+      "title": "What IS New Jack Swing?",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Define the genre he invented. New Jack Swing = R&B vocals Key elements Teddy invented: “What makes this sound HAPPY but HARD at the same time?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "hip-hop drums",
+            "funk basslines",
+            "synth stabs",
+            "swinging groove",
+            "dance-floor energy",
+            "snappy snares",
+            "“swing” quantize feel",
+            "layered claps",
+            "talkbox & vocoder flourishes",
+            "bright keyboard chords",
+            "harmonies stacked tight",
+            "Guy’s “Groove Me”",
+            "Heavy D’s “Now That We Found Love” (Teddy remix era)"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-groove-me",
+        "teddy-riley-now-that-we-found-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Groove Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes this sound HAPPY but HARD at the same time?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-riley-lesson-03-guy-the-birth-of-a-new-era",
+      "number": 3,
+      "title": "Guy — The Birth of a New Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach group dynamics + Teddy’s leadership. Guy (Teddy, Aaron Hall, Damion Hall) = Let your son listen for layering: drums → keys → vocals → ad-libs → synths."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Teddy’s first major group",
+            "early hits defined New Jack Swing",
+            "Teddy handled production, arrangements, sound identity",
+            "“Groove Me”",
+            "“I Like”",
+            "“Teddy’s Jam”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-groove-me",
+        "teddy-riley-i-like",
+        "teddy-riley-teddy-s-jam"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Groove Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Riley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Let your son listen for layering: drums → keys → vocals → ad-libs → synths.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-riley-lesson-04-production-style-the-teddy-formula",
+      "number": 4,
+      "title": "Production Style — The Teddy Formula",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach technical craft. Teddy’s techniques: Your son will learn: Producers are musicians too — just with machines."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "heavy use of SP-1200 & MPC 60",
+            "compressed snare/clap combo",
+            "syncopated hi-hat patterns",
+            "bright, glassy synth chords",
+            "gospel-inspired vocal arrangements",
+            "funky basslines",
+            "“swing” drum quantization"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-go-see-the-doctor"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Go See the Doctor” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Riley after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-riley-lesson-05-blackstreet-mature-new-jack-modern-r-and-b",
+      "number": 5,
+      "title": "Blackstreet — Mature New Jack → Modern R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "R&B Goals: Teach evolution. Blackstreet era = “How does Teddy evolve from dance-floor New Jack to smooth 90s R&B?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "smoother, more mature sound",
+            "perfected male R&B harmonies",
+            "blended hip-hop choruses + soulful bridges",
+            "“Before I Let You Go”",
+            "“Don’t Leave Me”",
+            "“No Diggity” (with Dr. Dre!)"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-before-i-let-you-go",
+        "teddy-riley-no-diggity"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Before I Let You Go” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Teddy evolve from dance-floor New Jack to smooth 90s R&B?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "teddy-riley-lesson-06-the-michael-jackson-era-dangerous-production",
+      "number": 6,
+      "title": "The Michael Jackson Era — Dangerous Production",
+      "body": [
+        {
+          "type": "text",
+          "text": "Production Goals: Show mainstream takeover. Teddy produced: Lesson: A producer can shape a LEGEND. “What parts of these songs sound like New Jack Swing?” Your son will hear the connection clearly."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Remember the Time”",
+            "“In the Closet”",
+            "“Jam”",
+            "“She Drives Me Wild”"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-go-see-the-doctor"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Go See the Doctor” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What parts of these songs sound like New Jack Swing?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-riley-lesson-07-hip-hop-integration-dr-dre-heavy-d-big-daddy",
+      "number": 7,
+      "title": "Hip-Hop Integration — Dr. Dre, Heavy D, Big Daddy Kane",
+      "body": [
+        {
+          "type": "text",
+          "text": "Daddy Kane Goals: Teach cross-genre innovation. Teddy worked with: Teddy built a bridge → hip-hop became mainstream without watering it down."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Heavy D",
+            "Rap artists who wanted radio-friendly hits",
+            "Dr. Dre (collab on “No Diggity”)",
+            "Queen Latifah",
+            "Wreckx-N-Effect (“Rump Shaker”)"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-go-see-the-doctor"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Go See the Doctor” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Riley after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-riley-lesson-08-the-sonic-legacy-from-new-jack-to-neptunes-to",
+      "number": 8,
+      "title": "The Sonic Legacy — From New Jack to Neptunes to Today",
+      "body": [
+        {
+          "type": "text",
+          "text": "Neptunes to Today Goals: Trace the lineage. Teddy Riley’s children (musically): Play “No Diggity” → then “Happy” (Pharrell). Let your son hear the DNA."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Pharrell & The Neptunes (he literally mentored them)",
+            "Timbaland (drum swing influence)",
+            "Darkchild (stacked vocals, synth brightness)",
+            "Jermaine Dupri (So So Def = Atlanta’s New Jack)",
+            "Ryan Leslie",
+            "Bruno Mars (24K Magic lineage)",
+            "Beyoncé (Destiny’s Child early sound)"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-no-diggity",
+        "teddy-riley-happy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “No Diggity” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Riley after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “No Diggity” → then “Happy” (Pharrell). Let your son hear the DNA.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-riley-lesson-09-teddy-riley-s-influence-tree",
+      "number": 9,
+      "title": "Teddy Riley’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Make it visual & clear. DIRECT Influence: GENRE Impact: Your son gon’ see how ONE SOUND reshaped the WORLD."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Pharrell Williams",
+            "Timbaland",
+            "Darkchild (Rodney Jerkins)",
+            "Jermaine Dupri",
+            "Ne-Yo (melodic choices)",
+            "Bruno Mars (24K is New Jack revival)",
+            "Chris Brown (early career tone)",
+            "Usher (sound shaped by JD who was shaped by Teddy)",
+            "R&B’s 90s blueprint",
+            "early hip-hop/R&B collabs",
+            "boy band sound (NSYNC, New Edition 90s era)",
+            "K-pop production DNA (FACT)",
+            "modern dance/R&B crossover"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-go-see-the-doctor"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Go See the Doctor” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Riley after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "teddy-riley-lesson-10-teddy-riley-innovator-architect-humble-genius",
+      "number": 10,
+      "title": "Teddy Riley = Innovator, Architect, Humble Genius",
+      "body": [
+        {
+          "type": "text",
+          "text": "Genius Goals: Capture his essence. Teddy Riley is: Lesson: The producer is often the REAL engine behind a movement."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "a visionary",
+            "a musician who used machines like instruments",
+            "the father of New Jack Swing",
+            "a producer who could shape whole eras",
+            "a mentor to new legends",
+            "a creative force who bridged hood culture + pop success",
+            "proof that you don’t need to SING to change history",
+            "one of music’s most underrated geniuses"
+          ]
+        }
+      ],
+      "listen": [
+        "teddy-riley-go-see-the-doctor"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Go See the Doctor” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Teddy Riley after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Teddy Riley invented and shaped New Jack Swing through drum programming, synth-based arrangements, and R&B/hip-hop fusion. Compare ONE Guy-era track (‘Groove Me’) with ONE Blackstreet-era track (‘No Diggity’) and identify TWO modern producers or artists clearly influenced by Teddy Riley’s sound.",
+    "earlyOptions": [
+      "teddy-riley-go-see-the-doctor"
+    ],
+    "laterOptions": [
+      "teddy-riley-happy"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 51, pages 668-680. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

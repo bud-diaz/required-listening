@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "id": "babyface",
+  "number": 46,
+  "displayName": "Babyface",
+  "monogram": "BA",
+  "whyItMatters": "Babyface matters because the source catalog identifies this route with one of the greatest songwriters in music history, elite producer with immaculate arrangements, gentle, conversational vocal style, architect of 80s–90s R&B.",
+  "passedDown": {
+    "trackId": "babyface-two-occasions",
+    "blurb": "Start with “Two Occasions” and use the unit's checkpoints to hear how Babyface's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "babyface-every-time-i-close-my-eyes",
+      "babyface-when-can-i-see-you",
+      "babyface-change-the-world",
+      "babyface-never-keeping-secrets"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest songwriters in music history",
+      "elite producer with immaculate arrangements",
+      "gentle, conversational vocal style",
+      "architect of 80s–90s R&B",
+      "writer behind careers of TLC, Toni Braxton, Boyz II Men, Whitney, After 7, Karyn White,",
+      "master of heartbreak music AND celebration of love",
+      "founder of LaFace Records (with L.A. Reid)",
+      "phrasing"
+    ],
+    "closing": "This is required listening for ANY student of R&B."
+  },
+  "learnOutcomes": [
+    "phrasing",
+    "melody writing",
+    "storytelling",
+    "arrangement choices",
+    "emotional tone control",
+    "understanding love songs on a deeper cultural level"
+  ],
+  "tracks": [
+    {
+      "id": "babyface-two-occasions",
+      "title": "Two Occasions",
+      "artist": "Babyface",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Two Occasions Babyface",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 547-559. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "babyface-whip-appeal",
+      "title": "Whip Appeal",
+      "artist": "Babyface",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Whip Appeal Babyface",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 547-559. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "babyface-every-time-i-close-my-eyes",
+      "title": "Every Time I Close My Eyes",
+      "artist": "Babyface",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Every Time I Close My Eyes Babyface",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 547-559. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "babyface-soon-as-i-get-home",
+      "title": "Soon as I Get Home",
+      "artist": "Babyface",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Soon as I Get Home Babyface",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 547-559. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "babyface-so-sick",
+      "title": "So Sick",
+      "artist": "Babyface",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "So Sick Babyface",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 547-559. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "babyface-when-can-i-see-you",
+      "title": "When Can I See You",
+      "artist": "Babyface",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "When Can I See You Babyface",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 547-559. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "babyface-change-the-world",
+      "title": "Change the World",
+      "artist": "Babyface",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Change the World Babyface",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 547-559. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "babyface-never-keeping-secrets",
+      "title": "Never Keeping Secrets",
+      "artist": "Babyface",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Never Keeping Secrets Babyface",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 547-559. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "babyface-lesson-01-origins-indianapolis-roots-the-deele-early-pe",
+      "number": 1,
+      "title": "Origins — Indianapolis Roots, The Deele, Early Penmanship",
+      "body": [
+        {
+          "type": "text",
+          "text": "Early Penmanship Goals: Understand how he built his craft. “What makes this song feel timeless even though it’s old?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born Kenneth Edmonds",
+            "shy, soft-spoken kid who found confidence through songwriting",
+            "early band The Deele with L.A. Reid",
+            "discovered natural gift for melodies and emotional simplicity",
+            "began writing for others almost immediately",
+            "“Two Occasions” (The Deele)"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-when-can-i-see-you",
+        "babyface-every-time-i-close-my-eyes"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “When Can I See You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes this song feel timeless even though it’s old?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "babyface-lesson-02-the-voice-soft-warm-understated-conversationa",
+      "number": 2,
+      "title": "The Voice — Soft, Warm, Understated, Conversational",
+      "body": [
+        {
+          "type": "text",
+          "text": "Conversational Goals: Teach vocal identity. Babyface isn’t a belter — he’s a FEELING. Traits: “How does his voice sound calm but still powerful?” Lesson: You don’t have to shout to be strong."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "airy tone",
+            "controlled falsetto",
+            "intimate delivery",
+            "clear diction",
+            "emotional nuance",
+            "“whisper-croon” technique",
+            "“Whip Appeal”"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-whip-appeal"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Whip Appeal” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does his voice sound calm but still powerful?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "babyface-lesson-03-the-pen-melodies-structure-simplicity-done-pe",
+      "number": 3,
+      "title": "The Pen — Melodies, Structure, Simplicity Done PERFECTLY",
+      "body": [
+        {
+          "type": "text",
+          "text": "Done PERFECTLY Goals: Teach songwriting craft. Babyface is the KING of: Break down the chorus structure with your son."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "clean, catchy melodies",
+            "heartfelt but simple lyrics",
+            "conversational lines",
+            "bridges that elevate emotion",
+            "repetition used intentionally",
+            "chord progressions that feel familiar yet fresh",
+            "“Every Time I Close My Eyes”"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-every-time-i-close-my-eyes"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Every Time I Close My Eyes” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Babyface after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "babyface-lesson-04-production-style-90s-silk-texture",
+      "number": 4,
+      "title": "Production Style — 90s Silk Texture",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach arrangement + instrumentation. Babyface’s sound uses: “How does the PRODUCTION support the emotion?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "live bass",
+            "gentle percussion",
+            "soft piano chords",
+            "smooth electric guitar",
+            "layered background vocals",
+            "warm synth pads",
+            "clean arrangement with breathing room",
+            "“Soon as I Get Home” (Toni Braxton, written/produced by Babyface)"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-soon-as-i-get-home"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Soon as I Get Home” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does the PRODUCTION support the emotion?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "babyface-lesson-05-laface-records-building-legends",
+      "number": 5,
+      "title": "LaFace Records — Building Legends",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Understand industry leadership. Babyface & L.A. Reid founded LaFace → launched: Explain: Babyface didn’t just write songs — he built CAREERS."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "TLC",
+            "Toni Braxton",
+            "OutKast",
+            "Usher",
+            "Donell Jones",
+            "Pink (early era)",
+            "Ciara (indirect lineage)"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-two-occasions"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Two Occasions” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Babyface after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "babyface-lesson-06-the-pen-era-songs-he-wrote-for-other-artists",
+      "number": 6,
+      "title": "“The Pen” Era — Songs He Wrote for Other Artists",
+      "body": [
+        {
+          "type": "text",
+          "text": "Artists Goals: Show his deep influence. He wrote or co-wrote classics like: Play 3 songs he wrote for different artists. “How do they all sound different but still ‘Babyface’ underneath?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "TLC — “Red Light Special,” “Diggin’ on You,” “Baby-Baby-Baby”",
+            "Boyz II Men — “End of the Road,” “I’ll Make Love to You,” “Water Runs Dry”",
+            "Whitney Houston — “I’m Your Baby Tonight,” “Exhale (Shoop Shoop)”",
+            "Beyoncé — “Best Thing I Never Had”",
+            "Toni Braxton — “Unbreak My Heart” (yes, he produced it)",
+            "Madonna — “Take a Bow”",
+            "Mariah Carey — “Never Forget You”"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-two-occasions"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Two Occasions” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do they all sound different but still ‘Babyface’ underneath?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play 3 songs he wrote for different artists. Ask:",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "babyface-lesson-07-themes-love-hurt-healing-accountability",
+      "number": 7,
+      "title": "Themes — Love, Hurt, Healing, Accountability",
+      "body": [
+        {
+          "type": "text",
+          "text": "Accountability Goals: Teach emotional intelligence. Babyface writes about: “What does Babyface teach men about love?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "apology",
+            "yearning",
+            "respectful romance",
+            "emotional honesty",
+            "grown love",
+            "reconciliation",
+            "heartbreak you can feel in your chest"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-two-occasions"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Two Occasions” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does Babyface teach men about love?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: artist-conduct, mature-themes.",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "babyface-lesson-08-mtv-unplugged-versus-and-live-arrangement-mas",
+      "number": 8,
+      "title": "MTV Unplugged, Versus, & Live Arrangement Mastery",
+      "body": [
+        {
+          "type": "text",
+          "text": "Arrangement Mastery Goals: Teach musicianship. Babyface’s live arrangements: His Verzuz vs Teddy Riley = a masterclass in performance under pressure."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "highlight vocals",
+            "add strings",
+            "simplify percussion",
+            "emphasize romance",
+            "showcase musicianship over spectacle"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-two-occasions"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Two Occasions” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Babyface after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "babyface-lesson-09-babyface-s-influence-tree",
+      "number": 9,
+      "title": "Babyface’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his generational impact. DIRECT Influence: Songwriting Influence: Play Ne-Yo’s “So Sick” → ask: “What sounds like Babyface about this?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Ne-Yo",
+            "The-Dream",
+            "Usher (vocally + sonically)",
+            "Bruno Mars (ballad structure)",
+            "Chris Brown (early era)",
+            "Mary J. Blige (production)",
+            "Toni Braxton (entire sound shaped)",
+            "Beyoncé (ballad era)",
+            "Justin Bieber (early R&B phase)",
+            "H.E.R.",
+            "Jazmine Sullivan",
+            "Victoria Monét",
+            "Lucky Daye",
+            "Daniel Caesar",
+            "Giveon"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-so-sick"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “So Sick” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What sounds like Babyface about this?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Ne-Yo’s “So Sick” → ask: “What sounds like Babyface about this?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "babyface-lesson-10-legacy-the-master-craftsman-of-r-and-b",
+      "number": 10,
+      "title": "Legacy — The Master Craftsman of R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Summarize the legend. Babyface is: Lesson: Real artists age beautifully because craft never goes out of style."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "the greatest R&B songwriter of his era",
+            "a production icon",
+            "a voice representative of Black romance",
+            "behind dozens of #1 hits",
+            "mentor to multiple generations",
+            "STILL producing gems in his 60s"
+          ]
+        }
+      ],
+      "listen": [
+        "babyface-two-occasions"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Two Occasions” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Babyface after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Babyface shaped R&B through his soft vocal delivery, elite songwriting, and refined production style. Compare ONE of his own songs (‘Whip Appeal’) with ONE classic he wrote for someone else (‘End of the Road,’ ‘Unbreak My Heart,’ or ‘Exhale’) and identify TWO modern artists whose writing or sound reflects Babyface’s influence.",
+    "earlyOptions": [
+      "babyface-two-occasions"
+    ],
+    "laterOptions": [
+      "babyface-so-sick"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "artist-conduct"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 42, pages 547-559. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

@@ -44,12 +44,44 @@ passes validation and editorial review.
 6. Get author/editor approval. Update prompt sources and review metadata only after approval.
 7. Register the file in `src/content/index.ts` or `src/content/packs/index.ts` last.
 
+## Full-catalog PDF imports
+
+`scripts/import-unit-catalog.mjs` converts `docs/Unit-catalog.pdf` into one strict draft JSON file per
+new route under `src/content/artists/catalog-drafts/`. It skips overlaps with the existing 10 approved
+units, then regenerates the static TypeScript import index and appends new entries to the route catalog.
+The importer is intentionally conservative:
+
+- every generated lesson and unit review remains `draft`;
+- every provider version starts `unverified` unless the source explicitly names an instrumental;
+- app-written Notice/Talk language remains `adapted`;
+- source units with 9 or 11 numbered lessons are normalized to exactly 10 and called out in
+  `sourceNotes`;
+- routes with no named younger-listener selection receive a caregiver-selected instrumental search,
+  never an invented claim that a vocal track is safe.
+
+Run the importer only when the source PDF changes, then complete the normal editorial and safety
+review before changing any generated review object to `approved`.
+
+## Pack 1 bundle
+
+`npm run pack:build` rebuilds **Pack 01 — The Soul Foundation** from the five strict catalog units
+named in `docs/req_packs.md`, in this fixed order: Al Green, Teddy Pendergrass, Ronald Isley, Frankie
+Beverly & Maze, and Chaka Khan. The generator writes the 50-lesson manifest and its deployable
+catalog record under `src/content/packs/`, stabilizes the manifest's byte count, and calculates the
+catalog SHA-256 digest from the exact serialized artifact.
+
+The generator deliberately stops if a source unit is no longer `draft`. A review-status change means
+the pack itself must be reviewed and versioned explicitly; rebuilding must never silently turn five
+independently edited units into a production release. After any source edit, run `npm run pack:build`,
+review the generated diff, and run the required checks below.
+
 ## Required checks
 
 ```bash
 npm test
 npx tsc --noEmit
 npm run lint
+npm run pack:build
 ```
 
 The tests parse all three templates against the live schemas. If a schema changes, update the

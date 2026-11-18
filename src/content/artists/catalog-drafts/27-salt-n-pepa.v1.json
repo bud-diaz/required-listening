@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 1,
+  "id": "salt-n-pepa",
+  "number": 27,
+  "displayName": "Salt-N-Pepa",
+  "monogram": "SA",
+  "whyItMatters": "Salt-N-Pepa matters because the source catalog identifies this route with first female rap group to go platinum, pioneers of sexual agency in hip-hop, stylish, funny, bold lyricists, masters of crowd-friendly chants.",
+  "passedDown": {
+    "trackId": "salt-n-pepa-the-showstopper",
+    "blurb": "Start with “The Showstopper” and use the unit's checkpoints to hear how Salt-N-Pepa's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "salt-n-pepa-push-it",
+      "salt-n-pepa-twist-and-shout",
+      "salt-n-pepa-expression"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "first female rap group to go platinum",
+      "pioneers of sexual agency in hip-hop",
+      "stylish, funny, bold lyricists",
+      "masters of crowd-friendly chants",
+      "queens of crossover radio & club domination",
+      "early champions of women’s empowerment in rap",
+      "the blueprint for female rap duos and groups (City Girls, Flo Milli x others, etc.)",
+      "how they opened doors for women in rap"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "how they opened doors for women in rap",
+    "how image and message shape culture",
+    "how hip-hop evolved from the streets to MTV",
+    "how joy, sexuality, and humor are political"
+  ],
+  "tracks": [
+    {
+      "id": "salt-n-pepa-the-showstopper",
+      "title": "The Showstopper",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Showstopper Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "salt-n-pepa-push-it",
+      "title": "Push It",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Push It Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "salt-n-pepa-tramp",
+      "title": "Tramp",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Tramp Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "salt-n-pepa-i-ll-take-your-man",
+      "title": "I’ll Take Your Man",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "I’ll Take Your Man Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "salt-n-pepa-shoop",
+      "title": "Shoop",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Shoop Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "salt-n-pepa-none-of-your-business",
+      "title": "None of Your Business",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "None of Your Business Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "salt-n-pepa-ain-t-shit",
+      "title": "Ain’t Shit",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Ain’t Shit Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "salt-n-pepa-act-up",
+      "title": "Act Up.",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Act Up. Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "salt-n-pepa-twist-and-shout",
+      "title": "Twist and Shout",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Twist and Shout Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "salt-n-pepa-expression",
+      "title": "Expression",
+      "artist": "Salt-N-Pepa",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Expression Salt-N-Pepa",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 282-294. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "salt-n-pepa-lesson-01-origins-queens-women-nursing-students-and-a-h",
+      "number": 1,
+      "title": "Origins — Queens Women, Nursing Students, and a Halloween Rap Start",
+      "body": [
+        {
+          "type": "text",
+          "text": "Students, and a Halloween Rap Start Goals: Teach that greatness can come from anywhere. “What feels playful and fearless about their first track?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Cheryl “Salt” James & Sandra “Pepa” Denton met in nursing school",
+            "first rap as a DOOR-TO-DOOR HALLOWEEN SPOOK for a classmate's project",
+            "early local buzz → small label → big confidence",
+            "DJ Spinderella added later",
+            "“The Showstopper” (early Roxanne Shanté parody)"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-push-it",
+        "salt-n-pepa-twist-and-shout"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Push It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What feels playful and fearless about their first track?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "salt-n-pepa-lesson-02-their-style-fun-bold-flirty-loud-but-smart",
+      "number": 2,
+      "title": "Their Style — Fun, Bold, Flirty, Loud, But SMART",
+      "body": [
+        {
+          "type": "text",
+          "text": "SMART Goals: Teach artistic identity. Salt-N-Pepa’s signature style: Lesson: You can be silly AND powerful. Both/and."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "call-and-response hooks",
+            "catchy ad-libs",
+            "fun-loving attitude",
+            "bright, colorful fashion",
+            "dance-friendly production (thanks Hurby “Luv Bug”)",
+            "feminist messaging baked into party songs"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-the-showstopper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Showstopper” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Salt-N-Pepa after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "salt-n-pepa-lesson-03-hot-cool-and-vicious-the-breakthrough",
+      "number": 3,
+      "title": "Hot, Cool & Vicious — The Breakthrough",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Study early women-led rap success. Themes: Teach your son: “Push It” is one of the most important crossover hits in hip-hop. Made rap global."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Push It”",
+            "“Tramp”",
+            "“I’ll Take Your Man”",
+            "sexual confidence",
+            "humor",
+            "rivalry",
+            "dance-floor dominance"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-push-it",
+        "salt-n-pepa-tramp",
+        "salt-n-pepa-i-ll-take-your-man"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Push It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Salt-N-Pepa after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "salt-n-pepa-lesson-04-sexual-agency-women-talking-about-pleasure-lo",
+      "number": 4,
+      "title": "Sexual Agency — Women Talking About Pleasure LOUDLY",
+      "body": [
+        {
+          "type": "text",
+          "text": "Pleasure LOUDLY Goals: Teach sex-positivity + respect. Salt-N-Pepa normalized: Songs: Discuss with your son (age-appropriate): This is about women owning their bodies, not being objectified. And that’s POWER."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "women discussing desire",
+            "women setting boundaries",
+            "women initiating romance",
+            "women defining their OWN sexuality",
+            "“Shoop”",
+            "“Let’s Talk About Sex”"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-the-showstopper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Showstopper” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Salt-N-Pepa after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "salt-n-pepa-lesson-05-let-s-talk-about-sex-public-health-meets-pop",
+      "number": 5,
+      "title": "Let’s Talk About Sex — Public Health Meets Pop Culture",
+      "body": [
+        {
+          "type": "text",
+          "text": "Pop Culture Goals: Teach rap as education. Song addressed: Lesson: Rap music can save lives. This was activism with a beat."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "AIDS epidemic",
+            "safe sex",
+            "shame vs openness",
+            "women’s sexual health"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-the-showstopper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Showstopper” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Salt-N-Pepa after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "salt-n-pepa-lesson-06-dj-spinderella-the-underrated-third-member",
+      "number": 6,
+      "title": "DJ Spinderella — The Underrated Third Member",
+      "body": [
+        {
+          "type": "text",
+          "text": "Member Goals: Teach DJ culture. Spinderella brought: The DJ is the heartbeat."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "turntablism",
+            "live show energy",
+            "rhythmic creativity",
+            "image balance",
+            "a reminder: hip-hop is a DJ-led culture",
+            "live performance clips",
+            "Spinderella solo scratches"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-the-showstopper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Showstopper” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Salt-N-Pepa after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "salt-n-pepa-lesson-07-very-necessary-the-classic-album",
+      "number": 7,
+      "title": "Very Necessary — The Classic Album",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Study their peak era. Themes: Teaching your son: Men can support women’s empowerment — and be celebrated for being GOOD men."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Shoop”",
+            "“Whatta Man” (with En Vogue!)",
+            "“None of Your Business” (GRAMMY-WINNING FEMINISM)",
+            "sexual autonomy",
+            "rejecting slut-shaming",
+            "celebrating good men",
+            "women hyping other women",
+            "emotional honesty"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-shoop",
+        "salt-n-pepa-none-of-your-business"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Shoop” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Salt-N-Pepa after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "salt-n-pepa-lesson-08-fashion-door-knocker-earrings-leather-jackets",
+      "number": 8,
+      "title": "Fashion — Door-Knocker Earrings, Leather Jackets, Bold Colors",
+      "body": [
+        {
+          "type": "text",
+          "text": "Jackets, Bold Colors Goals: Teach style as self-expression. Salt-N-Pepa created iconic looks: Explain: Hip-hop fashion = identity, pride, attitude."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "asymmetrical haircuts",
+            "big jackets",
+            "leather",
+            "bright colors",
+            "boots",
+            "oversized gold jewelry"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-the-showstopper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Showstopper” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Salt-N-Pepa after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "salt-n-pepa-lesson-09-impact-pioneers-for-all-women-in-rap",
+      "number": 9,
+      "title": "Impact — Pioneers for All Women in Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show the evolution they made possible. Salt-N-Pepa paved the way for: Salt-N-Pepa = women claiming SPACE in hip-hop on their own terms."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Queen Latifah (feminist rap royalty)",
+            "Lil’ Kim (sexual liberation lineage)",
+            "Missy Elliott",
+            "Eve",
+            "Nicki Minaj",
+            "City Girls",
+            "Doja Cat",
+            "Megan Thee Stallion",
+            "Latto",
+            "Tierra Whack",
+            "Flo Milli"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-the-showstopper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Showstopper” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Salt-N-Pepa after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "salt-n-pepa-lesson-10-salt-n-pepa-s-influence-tree",
+      "number": 10,
+      "title": "Salt-N-Pepa’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Highlight multi-genre, multi-generation reach. DIRECT Musical Influence: CULTURAL Influence: Play “Shoop” → then play Doja Cat “Ain’t Shit” or City Girls “Act Up.” Ask what’s similar in tone and confidence."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Missy Elliott (fun + futuristic femininity)",
+            "Nicki Minaj (bold personality)",
+            "TLC (attitude & fashion)",
+            "Destiny’s Child (empowerment themes)",
+            "City Girls (sexual agency lineage)",
+            "sex education through music",
+            "female-led rap groups",
+            "Black girl party culture",
+            "rap becoming MTV-friendly",
+            "women being FUNNY in rap",
+            "the entire female rap industry"
+          ]
+        }
+      ],
+      "listen": [
+        "salt-n-pepa-shoop",
+        "salt-n-pepa-ain-t-shit",
+        "salt-n-pepa-act-up"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Shoop” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Salt-N-Pepa after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “Shoop” → then play Doja Cat “Ain’t Shit” or City Girls “Act Up.” Ask what’s similar in tone and confidence.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Salt-N-Pepa used humor, sexual agency, and catchy hooks to open doors for women in hip-hop. Compare ONE early song (‘Push It’ or ‘Tramp’) with ONE feminist-era anthem (‘Shoop’ or ‘None of Your Business’) and identify TWO modern artists who clearly reflect Salt-N-Pepa’s influence.",
+    "earlyOptions": [
+      "salt-n-pepa-the-showstopper"
+    ],
+    "laterOptions": [
+      "salt-n-pepa-act-up"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 22, pages 282-294. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

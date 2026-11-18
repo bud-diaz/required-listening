@@ -1,0 +1,662 @@
+{
+  "schemaVersion": 1,
+  "id": "sean-diddy-combs",
+  "number": 63,
+  "displayName": "Sean \"Diddy\" Combs",
+  "monogram": "SD",
+  "whyItMatters": "Diddy = the architect of hip-hop soul, the sample-flip king, the ultimate A&R, and the man who turned hip-hop from just a music genre into a full-blown luxury lifestyle. He ain’t just influence culture — he curated it, marketed it, packaged it, and sold it globally.",
+  "passedDown": {
+    "trackId": "sean-diddy-combs-juicy",
+    "blurb": "Start with “Juicy” and use the unit's checkpoints to hear how Sean \"Diddy\" Combs's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "sean-diddy-combs-mo-money-mo-problems",
+      "sean-diddy-combs-i-ll-be-missing-you",
+      "sean-diddy-combs-last-night",
+      "sean-diddy-combs-i-need-a-girl"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "how Diddy redefined hip-hop’s sound",
+      "how to build artists",
+      "how branding + image shape entire eras",
+      "how sampling becomes pop culture",
+      "the blueprint for mogulhood",
+      "the difference between a producer, an A&R, and a visionary"
+    ],
+    "closing": "Let’s rebuild this whole thing smooth."
+  },
+  "learnOutcomes": [
+    "how Diddy redefined hip-hop’s sound",
+    "how to build artists",
+    "how branding + image shape entire eras",
+    "how sampling becomes pop culture",
+    "the blueprint for mogulhood",
+    "the difference between a producer, an A&R, and a visionary",
+    "how hip-hop broke into luxury spaces",
+    "why half the 2000s existed because of Bad Boy’s impact"
+  ],
+  "tracks": [
+    {
+      "id": "sean-diddy-combs-juicy",
+      "title": "Juicy",
+      "artist": "Sean \"Diddy\" Combs",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Juicy Sean \"Diddy\" Combs",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 800-817. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "sean-diddy-combs-mo-money-mo-problems",
+      "title": "Mo Money Mo Problems",
+      "artist": "Sean \"Diddy\" Combs",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Mo Money Mo Problems Sean \"Diddy\" Combs",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 800-817. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "sean-diddy-combs-been-around-the-world",
+      "title": "Been Around the World",
+      "artist": "Sean \"Diddy\" Combs",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Been Around the World Sean \"Diddy\" Combs",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 800-817. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "sean-diddy-combs-i-ll-be-missing-you",
+      "title": "I’ll Be Missing You",
+      "artist": "Sean \"Diddy\" Combs",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I’ll Be Missing You Sean \"Diddy\" Combs",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 800-817. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "sean-diddy-combs-real-love",
+      "title": "Real Love",
+      "artist": "Sean \"Diddy\" Combs",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Real Love Sean \"Diddy\" Combs",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 800-817. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "sean-diddy-combs-be-happy",
+      "title": "Be Happy",
+      "artist": "Sean \"Diddy\" Combs",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Be Happy Sean \"Diddy\" Combs",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 800-817. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "sean-diddy-combs-you-bring-me-joy",
+      "title": "You Bring Me Joy",
+      "artist": "Sean \"Diddy\" Combs",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "You Bring Me Joy Sean \"Diddy\" Combs",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 800-817. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "sean-diddy-combs-last-night",
+      "title": "Last Night",
+      "artist": "Sean \"Diddy\" Combs",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Last Night Sean \"Diddy\" Combs",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 800-817. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "sean-diddy-combs-i-need-a-girl",
+      "title": "I Need a Girl",
+      "artist": "Sean \"Diddy\" Combs",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Need a Girl Sean \"Diddy\" Combs",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 800-817. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "sean-diddy-combs-lesson-01-origins-howard-university-vision-and-a-and-r",
+      "number": 1,
+      "title": "Origins — Howard University, Vision, and A&R Instinct",
+      "body": [
+        {
+          "type": "text",
+          "text": "A&R Instinct Explain: Diddy wasn’t the best musician in the room. He was the best at knowing what the world WANTED. That’s a superpower."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Diddy started at Uptown Records",
+            "built his name spotting raw talent",
+            "saw Mary J. Blige, Jodeci, and Biggie before anyone else",
+            "understood how to “package” artists into icons"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-i-ll-be-missing-you",
+        "sean-diddy-combs-mo-money-mo-problems"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’ll Be Missing You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Sean \"Diddy\" Combs after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "sean-diddy-combs-lesson-02-pioneering-hip-hop-soul-the-mary-j-blige-era",
+      "number": 2,
+      "title": "Pioneering “Hip-Hop Soul” — The Mary J. Blige Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Blige Era THIS is one of Diddy’s biggest contributions ever. Hip-hop soul = Key album: Diddy made R&B feel hood AND glamorous at the same time. Nobody did it like that before."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "R&B vocals",
+            "hip-hop drums",
+            "gospel emotion",
+            "street attitude",
+            "fashion + authenticity mixed in",
+            "Mary J. Blige What’s The 411?",
+            "My Life (top-tier)"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-juicy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "● Mary J. Blige What’s The 411?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "sean-diddy-combs-lesson-03-mastering-the-pop-sample-hit-records-by-desig",
+      "number": 3,
+      "title": "Mastering the Pop Sample — Hit Records by Design",
+      "body": [
+        {
+          "type": "text",
+          "text": "Design Diddy’s sample genius wasn’t musical — it was cultural. He used: Teach your son: The sample makes the song feel familiar AND fresh. Diddy mastered that trick before it was standard. Songs to study:"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Diana Ross",
+            "The Police",
+            "David Bowie",
+            "Kool & the Gang",
+            "Biggie flipped Mtume on “Juicy”",
+            "Mase glided over pop samples like silk",
+            "“Juicy”",
+            "“Mo Money Mo Problems”",
+            "“Been Around the World”",
+            "“I’ll Be Missing You”"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-juicy",
+        "sean-diddy-combs-mo-money-mo-problems",
+        "sean-diddy-combs-been-around-the-world",
+        "sean-diddy-combs-i-ll-be-missing-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Sean \"Diddy\" Combs after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "sean-diddy-combs-lesson-04-the-bad-boy-roster-diversity-power",
+      "number": 4,
+      "title": "The Bad Boy Roster — Diversity = Power",
+      "body": [
+        {
+          "type": "text",
+          "text": "Diddy built a roster that felt like a universe, not a label. Artists: Genres on one label: This man didn’t build ONE sound. He built an ecosystem. Artist-by-Artist Lessons) 4B: MARY J. BLIGE — “The Queen of Hip-Hop Soul” What Diddy did: He blended R&B vocals with hip-hop production in a way nobody dared to do before. Compare with modern R&B to show how ahead she was. Identify 3 hip-hop samples in Mary’s songs and explain how they shift the mood. 4C: THE NOTORIOUS B.I.G. — “The Crown Jewel of Bad Boy” What Diddy did: Marketed a street rapper like a luxury product. Street Biggie (“Warning,” “Gimme the Loot”) Crossover Biggie (“Juicy,” “Big Poppa”) Discussion: “How much of Biggie’s global impact was Puff’s marketing vs Biggie’s talent?” Let your son wrestle with the industry/art balance. 4D: 112 — “The Smooth Bad Boy Sound” What Diddy did: Branded them as romantic + hood-adjacent instead of choir kids. Compare album cuts vs remixes — talk about how remixes extended their careers. Have him sequence a “Bad Boy style” R&B mixtape. 4E: TOTAL — “The Bad Girl Blueprint” What Diddy did: Created the template for modern R&B girl groups with a hip-hop edge. “Can’t You See,” “Kissin’ You,” “What About Us” Teach your son how vocal “texture” matters as much as technique. 4F: MASE — “Pretty Boy Rap & Soft-Glow Bravado” What Diddy did: Created commercial rap swagger. Compare Mase’s flow to modern rappers (Fivio, Drake, Ladi, etc.). 4G: THE LOX — “The Rebellion Against Puffy’s Polish” What Diddy did: Signed the hardest rap group in NY… then clashed with their identity. Discussion: “When should artists push back against branding that doesn’t fit them?” Good industry-awareness lesson. 4H: FAITH EVANS — “The Vocal Heart of Bad Boy” What Diddy did: Positioned her as the emotional and vocal center. Compare Faith to modern vocalists like H.E.R., Ella Mai, Kehlani. 4I: DANITY KANE / DAY26 — “Reality TV Artist Development” What Diddy did: Rebranded artist development as television spectacle. Have your son analyze a performance clip and evaluate: Helps build analytical skills. 4J: FRENCH MONTANA — “The Longevity Play” What Diddy did: Help French transition from Coke Boys street DVDs to pop-rap hits. “Shot Caller,” “Pop That,” “Unforgettable” Discuss which of these feel “Diddy.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "The Notorious B.I.G.",
+            "Ma$e",
+            "Mary J. Blige (early)",
+            "Total",
+            "Faith Evans",
+            "112",
+            "Black Rob",
+            "The Lox",
+            "Cassie",
+            "Day26",
+            "Danity Kane",
+            "French Montana (later era)",
+            "hip-hop soul",
+            "shiny-suit pop-rap",
+            "street rap",
+            "R&B groups",
+            "girl groups",
+            "crooner R&B",
+            "“What’s the 411?” and “My Life” as foundational albums",
+            "How Diddy positioned Mary as the female voice of inner-city vulnerability",
+            "Sampling choices (Roy Ayers, Barry White, Curtis Mayfield)",
+            "The emotional realism — Mary wasn’t polished, she was relatable",
+            "How Mary + Puff created the sound modern R&B still uses",
+            "“Real Love”"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-real-love",
+        "sean-diddy-combs-be-happy",
+        "sean-diddy-combs-you-bring-me-joy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Real Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What’s the 411?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Identify 3 hip-hop samples in Mary’s songs and explain how they shift the mood. 4C: THE NOTORIOUS B.I.G. — “The Crown Jewel of",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, trauma, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "sean-diddy-combs-lesson-05-the-kingmaker-image-diddy-as-the-final-cosign",
+      "number": 5,
+      "title": "The Kingmaker Image — Diddy as the Final Cosign",
+      "body": [
+        {
+          "type": "text",
+          "text": "Cosign Diddy crafted an image where: Explain: Diddy became a character in the culture: the fly guy in the tux, champagne in hand, dancing in every video, controlling the room. Your son needs to know: Sometimes you don’t need to BE the star. You become the KINGMAKER."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "his presence = validation",
+            "his name = luxury",
+            "his stamp = credibility",
+            "his marketing = cultural dominance"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-juicy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Sean \"Diddy\" Combs after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "sean-diddy-combs-lesson-06-bridging-hip-hop-and-luxury-the-lifestyle-rev",
+      "number": 6,
+      "title": "Bridging Hip-Hop and Luxury — The Lifestyle Revolution",
+      "body": [
+        {
+          "type": "text",
+          "text": "Lifestyle Revolution Diddy brought hip-hop into: He made hip-hop: Rappers weren’t in luxury spaces before him. Diddy opened the door and held it open."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "white-glove NYC luxury spaces",
+            "high fashion",
+            "cologne ads",
+            "glamorous parties",
+            "champagne as a rap staple",
+            "velvet rope culture",
+            "MTV red carpets",
+            "white suits, furs, iconic looks",
+            "beautiful",
+            "expensive",
+            "glossy",
+            "aspirational",
+            "global"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-juicy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Sean \"Diddy\" Combs after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "sean-diddy-combs-lesson-07-mogul-blueprint-the-multi-hyphenate-model",
+      "number": 7,
+      "title": "Mogul Blueprint — The Multi-Hyphenate Model",
+      "body": [
+        {
+          "type": "text",
+          "text": "This is the most important part for your son. Diddy was: His success = the prototype for the artist-to-CEO pipeline. Without Diddy’s blueprint, there is no: Explain: Diddy taught hip-hop to think like a corporation."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "record executive",
+            "producer",
+            "artist",
+            "A&R",
+            "fashion executive",
+            "brand ambassador",
+            "party architect",
+            "liquor mogul",
+            "fragrance line owner",
+            "TV creator (Making the Band)",
+            "media company owner (Revolt)",
+            "Jay-Z the mogul",
+            "Kanye the fashion icon",
+            "50 Cent the TV mogul",
+            "Drake the brand",
+            "Rick Ross the businessman",
+            "Rihanna the fashion billionaire",
+            "DJ Khaled the personality-exec"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-juicy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Sean \"Diddy\" Combs after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "sean-diddy-combs-lesson-08-artist-development-behind-the-scenes-genius",
+      "number": 8,
+      "title": "Artist Development — Behind-the-Scenes Genius",
+      "body": [
+        {
+          "type": "text",
+          "text": "Genius Diddy discovered or helped develop: A&R is an art. Diddy knew how to transform talent into stardom."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Mary J. Blige",
+            "The Notorious B.I.G.",
+            "Ma$e",
+            "Total",
+            "112",
+            "Faith Evans",
+            "Janelle Monáe (via Bad Boy affiliate Wondaland)",
+            "Dirty Money (Dawn Richard especially)",
+            "Machine Gun Kelly",
+            "French Montana"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-juicy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Sean \"Diddy\" Combs after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "sean-diddy-combs-lesson-09-reinvention-every-era-got-a-new-puff",
+      "number": 9,
+      "title": "Reinvention — Every Era Got a New Puff",
+      "body": [
+        {
+          "type": "text",
+          "text": "Diddy shifted style every few years: The lesson: Reinvention is survival."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "streetwear",
+            "shiny suits",
+            "executive chic",
+            "luxury mogul",
+            "global brand",
+            "TV personality",
+            "Revolt CEO"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-juicy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Sean \"Diddy\" Combs after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "sean-diddy-combs-lesson-10-legacy-the-culture-engineer",
+      "number": 10,
+      "title": "Legacy — The Culture Engineer",
+      "body": [
+        {
+          "type": "text",
+          "text": "Diddy’s REAL legacy is: Diddy made hip-hop global culture. Not just music — a whole lifestyle. Even folks who don’t like him still gotta admit they copied his blueprint."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "hip-hop soul",
+            "the shiny suit era",
+            "merging hip-hop & mainstream pop",
+            "luxury branding",
+            "turning rap labels into empires",
+            "discovering generational stars",
+            "marketing genius",
+            "the mogul template"
+          ]
+        }
+      ],
+      "listen": [
+        "sean-diddy-combs-juicy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Sean \"Diddy\" Combs after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Diddy shaped hip-hop as a cultural lifestyle through hip-hop soul, pop sampling, artist development, and luxury branding. Compare ONE early influence-era track (Mary J. Blige or Biggie) with ONE shiny-suit era track (Ma$e or Puff Daddy). Identify how Diddy’s multi-hyphenate career created the blueprint for the modern hip-hop mogul.",
+    "earlyOptions": [
+      "sean-diddy-combs-juicy"
+    ],
+    "laterOptions": [
+      "sean-diddy-combs-you-bring-me-joy"
+    ],
+    "influencedCount": 1
+  },
+  "contentFlags": [
+    "violence",
+    "mature-themes",
+    "explicit-language",
+    "sexual-content",
+    "trauma",
+    "weapons"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 61, pages 800-817. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

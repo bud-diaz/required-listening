@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-18T00:00:00.000Z",
+  "packs": [
+    {
+      "packId": "pack-01-soul-foundation",
+      "version": 1,
+      "title": "The Soul Foundation",
+      "theme": "The Roots of Modern R&B",
+      "summary": "These artists helped establish the emotional and musical foundation that modern R&B and hip-hop continue to build upon. Their music emphasizes rich instrumentation, expressive vocals, romance, storytelling, and the connection between gospel, funk, and soul.",
+      "publisher": "Paperweight",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "minAppVersion": "0.1.0",
+      "downloadBytes": 110424,
+      "lessonCount": 50,
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes",
+        "trauma",
+        "explicit-language",
+        "substances",
+        "violence"
+      ],
+      "review": {
+        "status": "draft",
+        "reviewedAt": null,
+        "reviewedBy": null
+      },
+      "developmentOnly": true,
+      "sha256": "ed768a7afc3de8319228826bb4738fc461ab9509a5c04c5afad107a5e38ca5ef",
+      "manifestUrl": "https://paperweighthq.com/required-listening/packs/pack-01-soul-foundation/1/pack.json"
+    }
+  ]
+}

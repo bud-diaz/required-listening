@@ -44,12 +44,14 @@ describe('content contract', () => {
   });
 
   it('parses every content file', () => {
-    expect(catalog.units).toHaveLength(10);
+    expect(catalog.units).toHaveLength(70);
     expect(frontMatter.sections.length).toBeGreaterThan(0);
     expect(crateActivity.whyOptions.length).toBeGreaterThan(0);
     expect(units.length).toBe(RAW_UNITS.length);
-    expect(units).toHaveLength(10);
-    expect(units.flatMap((unit) => unit.lessons)).toHaveLength(100);
+    expect(units).toHaveLength(70);
+    expect(units.flatMap((unit) => unit.lessons)).toHaveLength(700);
+    expect(units.filter((unit) => unit.review.status === 'approved')).toHaveLength(10);
+    expect(units.filter((unit) => unit.review.status === 'draft')).toHaveLength(60);
   });
 
   it('shows no byline until authorship is confirmed', () => {
@@ -78,7 +80,7 @@ describe('content contract', () => {
   });
 
   it('keeps unit, lesson, and track IDs unique across the full guide', () => {
-    expect(new Set(units.map((unit) => unit.id)).size).toBe(10);
+    expect(new Set(units.map((unit) => unit.id)).size).toBe(70);
     const lessonIds = units.flatMap((unit) => unit.lessons.map((lesson) => lesson.id));
     const trackIds = units.flatMap((unit) => unit.tracks.map((track) => track.id));
     expect(new Set(lessonIds).size).toBe(lessonIds.length);
@@ -142,7 +144,12 @@ describe('content contract', () => {
         }
       });
 
-      it('records author approval for every lesson and app-adapted prompt', () => {
+      it('keeps review provenance aligned with publication status', () => {
+        if (unit.review.status !== 'approved') {
+          expect(unit.lessonReview).toEqual({ status: 'draft', reviewedAt: null, reviewedBy: null });
+          expect(unit.review).toEqual({ status: 'draft', reviewedAt: null, reviewedBy: null });
+          return;
+        }
         expect(unit.lessonReview).toEqual({
           status: 'approved',
           reviewedAt: unit.number === 1 ? '2026-11-07' : '2026-11-12',
@@ -249,11 +256,11 @@ describe('review gate', () => {
     expect(LessonPack.safeParse(invalid).success).toBe(false);
   });
 
-  it('publishes every author-approved unit and its tracks in production', () => {
-    const expected = new Set(units.map((unit) => unit.id));
-    expect(units.every((unit) => isPublishable(unit.review, false))).toBe(true);
+  it('publishes only author-approved units and their tracks in production', () => {
+    const expected = new Set(units.filter((unit) => unit.review.status === 'approved').map((unit) => unit.id));
+    expect(units.filter((unit) => unit.review.status !== 'approved').every((unit) => !isPublishable(unit.review, false))).toBe(true);
     expect(new Set(allTracks('full', false).map(({ unit }) => unit.id))).toEqual(expected);
-    expect(new Set(allTracks('full', true).map(({ unit }) => unit.id))).toEqual(expected);
+    expect(new Set(allTracks('full', true).map(({ unit }) => unit.id))).toEqual(new Set(units.map((unit) => unit.id)));
   });
 });
 
@@ -309,8 +316,9 @@ describe('unit progression', () => {
     expect(isRouteComplete(chiefKeef, 'full', guidedIds)).toBe(false);
   });
 
-  it('finds the next publishable route and stops after Beyoncé', () => {
+  it('preserves the existing publishable route order while skipping appended drafts', () => {
     expect(getNextUnit('chief-keef', false)?.id).toBe('rihanna');
+    expect(getNextUnit('mac-miller', false)?.id).toBe('frank-ocean');
     expect(getNextUnit('beyonce', false)).toBeUndefined();
     expect(getNextUnit('missing', false)).toBeUndefined();
   });

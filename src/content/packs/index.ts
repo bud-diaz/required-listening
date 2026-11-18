@@ -1,9 +1,19 @@
 import type { Lane } from '../schemas';
 import { isPublishable, laneAllows } from '..';
 import { demoFamilyAnthemsPack } from './demo-family-anthems.v1';
+import soulFoundationJson from './pack-01-soul-foundation.v1.json';
+import remoteCatalogJson from './catalog.remote.v1.json';
 import type { InstalledPack, LessonPack, PackLesson } from '../../domain/lesson-packs';
+import { LessonPack as LessonPackSchema } from '../../domain/lesson-packs';
+import { LessonPackCatalogDocument } from '../../domain/lesson-pack-catalog';
 
-const bundledPacks: LessonPack[] = [demoFamilyAnthemsPack];
+export const soulFoundationPack = LessonPackSchema.parse(soulFoundationJson);
+export const bundledPackCatalogDocument = LessonPackCatalogDocument.parse(remoteCatalogJson);
+const bundledPacks: LessonPack[] = [soulFoundationPack, demoFamilyAnthemsPack];
+
+export function getBundledPackCatalogEntry(packId: string) {
+  return bundledPackCatalogDocument.packs.find((entry) => entry.packId === packId);
+}
 
 export function availableLessonPacks(isDev: boolean): LessonPack[] {
   return bundledPacks.filter(

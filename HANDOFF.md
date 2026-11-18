@@ -10,11 +10,18 @@ Plan of record: [`docs/APP_PLAN.md`](docs/APP_PLAN.md) · Source guide: `docs/Re
 
 ## Current state
 
-**Phase:** Phase 2 (full-guide conversion). Installed and visually verified on a real iPhone; lesson
-content and overall publication status for all 10 units are author-approved. Unverified tracks publish
-with a repeated parent-preview requirement instead of blocking their units.
+**Phase:** Phase 2 (full-catalog conversion). Installed and visually verified on a real iPhone; lesson
+content and overall publication status for the original 10 routes are author-approved and unchanged.
+The new 909-page unit catalog is now represented by 60 additional strict draft routes, appended as
+units 11–70 after skipping eight overlaps with the existing curriculum. Development builds show all
+70 routes; production continues to expose the original 10 approved routes in their original order.
+Unverified tracks publish only behind a repeated
+parent-preview requirement.
 The app display name is **Listening Required**; the book/curriculum title remains *Required Listening*.
 Phase 0 (product, rights and safety decisions) and the byline are still open and need the author.
+Lesson Packs Phase 2 is implemented, and Pack 01 — The Soul Foundation is bundled from its five
+requested units. Pack 1 remains development-only until those imported units and the assembled pack
+complete editorial review; no draft pack is exposed in production.
 
 **Signed build installed and verified on-device**
 - Device "CJ's iPhone 2" (UDID `00008110-000974400A23A01E`) is registered on the Apple team
@@ -53,7 +60,8 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
   on This Guide,” and “We're not archiving careers.” Existing installs see it once after updating,
   completed families skip it thereafter, and protected routes prevent direct-link bypasses.
 - Home with a cross-unit route carousel and Family Replay; the card starts on the first unfinished
-  artist and supports horizontal swipes plus accessible previous/next controls across all 10 artists.
+  artist and supports horizontal swipes plus accessible previous/next controls across every
+  publishable route (10 in production, 70 in development while catalog drafts are reviewed).
 - All 10 unit hubs use a persistent three-step briefing gate: families explicitly check off the
   artist/why page, passed-down track + Younger Listener picks, and unit briefing before checkpoints
   unlock. Locked lesson deep links return to the briefing; unlocked hubs retain review links to all
@@ -83,17 +91,26 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 - Storage: Expo SQLite on iOS/Android; browser storage on the web preview. Unit briefing
   acknowledgements and Final Project responses persist, export, survive older snapshots, and clear
   with Delete All.
-- Lesson Packs Phase 1 is implemented end to end: a development-only draft fixture can be downloaded,
-  added whole or lesson-by-lesson to an ordered Lesson Plan, reordered, opened in the existing
-  five-stage lesson flow, removed, exported, and cleared with Delete All. Pack progress, reflections,
-  and crate provenance use namespaced content references; existing bare lesson progress migrates to
-  `core-v1` without losing completion. Production builds expose no pack until approved content is
-  added. The catalog is behind an adapter for the future verified network download layer.
+- Lesson Packs Phases 1 and 2 are implemented end to end. Pack 01 — The Soul Foundation is generated
+  from Al Green, Teddy Pendergrass, Ronald Isley, Frankie Beverly & Maze, and Chaka Khan as five
+  sections / 50 ordered lessons. The first-party catalog uses only `https://paperweighthq.com`, caches
+  successful checks for 24 hours, enforces size/app/editorial gates, downloads through a temporary
+  cache file on native, verifies SHA-256 before strict parsing, and atomically preserves the prior
+  installed version through failed updates. Browse/detail UI includes refresh, progress, retry,
+  update, offline fallback, storage, and removal states. Installed packs work fully offline and feed
+  the ordered Lesson Plan and existing five-stage lesson flow. Pack 1 and the short demo remain
+  development-only pending editorial approval and host deployment.
 - Canonical copy-ready content templates live in `docs/content-templates/` for standalone lesson
   blocks, 10-lesson core units, and flexible lesson packs. Their README is the required authoring and
   review checklist. Tests parse every template against the live strict schemas, which now reject
   undeclared fields, unsafe younger-lane tracks, missing caregiver context, duplicate IDs, broken
   references, misnumbered lessons, and approval records that still contain adapted draft prompts.
+- The full `docs/Unit-catalog.pdf` source and reproducible `scripts/import-unit-catalog.mjs` importer
+  produce one strict JSON file per new route under `src/content/artists/catalog-drafts/`, a static
+  import index, and a consecutive 70-route catalog without changing the existing 10 units. The import preserves source page ranges, keeps
+  new reviews in draft, marks provider versions unverified, normalizes the four 9/11-lesson
+  exceptions to 10 lessons, and gives six units without named younger picks an explicit caregiver-
+  selected instrumental fallback. `docs/UNIT_CATALOG_IMPORT.md` records the audit queue.
 - EAS project `29bd2171-ae38-4f5e-b974-cb451d0339ab` is linked to the `bud-diaz` account. `eas.json`
   defines an internal-distribution iOS development-client profile.
 - ESLint is configured (`eslint.config.js`); JSX copy and schema type/value declarations lint cleanly.
@@ -106,6 +123,8 @@ Phase 0 (product, rights and safety decisions) and the byline are still open and
 | --- | --- |
 | Unit 1 Chief Keef (`src/content/artists/01-chief-keef.v1.json`) | Approved 2026-11-07 by bud-diaz |
 | Units 2–10 (`src/content/artists/remaining-units.v1.ts`) | All 90 lessons and overall units approved 2026-11-12 by bud-diaz; unverified tracks require parent preview |
+| Full catalog import (`src/content/artists/catalog-drafts/`) | 60 units / 600 lessons in draft; strict-schema valid, editorial and safety review required |
+| Pack 01 — The Soul Foundation | 5 source units / 50 lessons bundled; strict-schema and digest valid; development-only pending source-unit and pack review |
 | Front matter, Build Your Crate | Draft: needs author review |
 
 All 10 units and their lane-appropriate tracks now appear in production. Units 2–10 record lesson
@@ -132,10 +151,13 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 - Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
   existing plan default.
 
-**Checks (last run on current content-template worktree, 2026-11-18)**
+**Checks (last run on current Pack 1 / Phase 2 worktree, 2026-11-18)**
 - `npm run lint`: pass
 - `npx tsc --noEmit`: pass
-- `npm test` (Vitest): 164/164 pass.
+- `npm test` (Vitest): 897/897 pass across 70 routes, 700 core lessons, Pack 1's 50 lessons, all
+  templates, catalog/digest guards, links, lane/review gates, and content references.
+- `npm run pack:build`: pass; reproducibly emits a 110,424-byte Pack 1 artifact and matching SHA-256
+  catalog digest.
 - `npx expo install --check`: pass against the local SDK compatibility map; network validation was
   unavailable in the sandbox, and dependencies are reported up to date.
 - `npx expo config --type public`: pass; new launcher, adaptive, monochrome and favicon paths resolve.
@@ -143,6 +165,10 @@ approval separately from their overall unit review; their app-specific Notice/Ta
   928 modules bundled, including the copied Paperweight brand-mark asset.
 - `npx expo export --platform web --output-dir /tmp/required-listening-lesson-packs-web-final`: pass;
   936 modules bundled, including the new pack, plan, and pack-lesson routes.
+- `npx expo export --platform web --output-dir /tmp/required-listening-pack-phase2-web`: pass; 1,028
+  modules bundled, including Pack 1 and the verified Phase 2 catalog/download flow.
+- `npx expo export --platform ios --output-dir /tmp/required-listening-pack-phase2-ios`: pass; 1,407
+  modules bundled, including the SDK 58 FileSystem and Crypto download-verification path.
 - `npx expo-doctor@latest` (`expo-doctor@1.21.8`): 20/20 checks pass.
 - `npx expo export --platform web --output-dir /tmp/required-listening-field-manual-web`: pass; 926
   modules bundled.
@@ -177,18 +203,27 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 ## Next step
 
-**Complete accessibility QA and the remaining nonblocking metadata audit.**
+**Editorially review Pack 1's five source units, deploy its immutable artifacts, then complete
+accessibility QA.**
 
-1. Run VoiceOver, Dynamic Type, provider hand-off (including separate YouTube and YouTube Music
+1. Start the catalog review with Al Green, Teddy Pendergrass, Ronald Isley, Frankie Beverly & Maze,
+   and Chaka Khan. Verify track titles/credited artists, factual claims, lanes, flags, source wording,
+   adapted prompts, and provider versions. Rebuild with `npm run pack:build`, then review and version
+   Pack 1 explicitly; never flip the generated draft manifest directly.
+2. After approval, deploy `src/content/packs/catalog.remote.v1.json` as
+   `/required-listening/packs/catalog.v1.json` and the exact generated Pack 1 JSON as
+   `/required-listening/packs/pack-01-soul-foundation/1/pack.json` on `paperweighthq.com`. Confirm
+   byte count and SHA-256 survive deployment, then test fresh install, interrupted retry, offline
+   launch, update replacement, and removal on the registered iPhone.
+3. Continue through the remaining routes in `docs/UNIT_CATALOG_IMPORT.md`; do not approve a unit until
+   its lesson prompts and provider-version notes are reviewed.
+4. Run VoiceOver, Dynamic Type, provider hand-off (including separate YouTube and YouTube Music
    choices), Home route swiping, the Field Manual and unit briefing gates, Final Project flow, Talk
    keyboard clearance, persistence, destructive-data checks, and the About icon-button rows at the
    320px minimum width on the registered iPhone.
-2. Review remaining track spelling, search metadata, and safety lanes. Keep unverified tracks under
+5. Review remaining track spelling, search metadata, and safety lanes. Keep unverified tracks under
    the caregiver-preview policy; this audit no longer blocks approved units from publishing.
-3. Decide the byline (see Open decisions) whenever convenient — it doesn't block curriculum use.
-4. Before Lesson Packs Phase 2, choose the Paperweight catalog/CDN host and approve the first real
-   pack; then add the allow-listed download, SHA-256 verification, retry/update states, and atomic
-   replacement pipeline described in `docs/LESSON_PACKS_PLAN.md`.
+6. Decide the byline (see Open decisions) whenever convenient — it doesn't block curriculum use.
 
 ---
 
@@ -196,6 +231,14 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-18: Bundled Pack 01 — The Soul Foundation from its five requested catalog units and
+  implemented Lesson Packs Phase 2: strict first-party catalog, 24-hour cache, capped temporary
+  downloads, SHA-256/app/editorial verification, safe updates, retry/progress/offline/storage UI,
+  reproducible artifacts, templates/docs, and failure-path tests.
+- 2026-11-18: Converted the 909-page, 68-route unit catalog into 60 new strict draft JSON units while
+  skipping eight approved overlaps and leaving the existing 10 units unchanged; appended the drafts
+  as routes 11–70, added a reproducible importer and audit guide, preserved review/safety gates,
+  and validated all 700 lessons against the live schemas.
 - 2026-11-18: Added mandatory lesson, core-unit, and lesson-pack authoring templates with a review
   checklist; tightened the live schemas and tests to enforce safety, references, numbering,
   provenance, review state, and strict declared fields.

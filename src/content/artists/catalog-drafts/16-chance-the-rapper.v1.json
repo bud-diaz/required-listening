@@ -1,0 +1,724 @@
+{
+  "schemaVersion": 1,
+  "id": "chance-the-rapper",
+  "number": 16,
+  "displayName": "Chance the Rapper",
+  "monogram": "CR",
+  "whyItMatters": "Chance the Rapper matters because the source catalog identifies this route with the patron saint of independent rap, a Chicago hybrid of church, jazz, drill-adjacency, and poetic whimsy, the first artist to win a Grammy without selling a physical album, a rapper centered on joy, family, spirituality, and community.",
+  "passedDown": {
+    "trackId": "chance-the-rapper-brain-cells",
+    "blurb": "Start with “Brain Cells” and use the unit's checkpoints to hear how Chance the Rapper's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "chance-the-rapper-all-we-got",
+      "chance-the-rapper-no-problem",
+      "chance-the-rapper-angels",
+      "chance-the-rapper-blessings-both-versions",
+      "chance-the-rapper-sunday-candy"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "the patron saint of independent rap",
+      "a Chicago hybrid of church, jazz, drill-adjacency, and poetic whimsy",
+      "the first artist to win a Grammy without selling a physical album",
+      "a rapper centered on joy, family, spirituality, and community",
+      "voice of the “good kid from the South Side”",
+      "storyteller of growth, innocence, faith, and temptation",
+      "jazz & gospel influence",
+      "spoken word flow"
+    ],
+    "closing": "This unit is HOPE with a beat."
+  },
+  "learnOutcomes": [
+    "jazz & gospel influence",
+    "spoken word flow",
+    "Chicago slang/history",
+    "creative independence",
+    "positive masculinity",
+    "emotional vulnerability",
+    "faith in hip-hop context"
+  ],
+  "tracks": [
+    {
+      "id": "chance-the-rapper-brain-cells",
+      "title": "Brain Cells",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Brain Cells Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-nostalgia",
+      "title": "Nostalgia",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Nostalgia Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-hey-ma",
+      "title": "Hey Ma",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Hey Ma Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-prom-night",
+      "title": "Prom Night",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Prom Night Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-cocoa-butter-kisses",
+      "title": "Cocoa Butter Kisses",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Cocoa Butter Kisses Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-juice",
+      "title": "Juice",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Juice Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-acid-rain",
+      "title": "Acid Rain",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Acid Rain Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-chain-smoker",
+      "title": "Chain Smoker",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Chain Smoker Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-favorite-song",
+      "title": "Favorite Song",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Favorite Song Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-blessings",
+      "title": "Blessings",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Blessings Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-all-we-got",
+      "title": "All We Got",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "All We Got Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-no-problem",
+      "title": "No Problem",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "No Problem Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-angels",
+      "title": "Angels",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Angels Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-blessings-both-versions",
+      "title": "Blessings (both versions)",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Blessings (both versions) Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "chance-the-rapper-sunday-candy",
+      "title": "Sunday Candy",
+      "artist": "Chance the Rapper",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Sunday Candy Chance the Rapper",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 124-136. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "chance-the-rapper-lesson-01-origins-south-side-chicago-arts-programs-fath",
+      "number": 1,
+      "title": "Origins — South Side Chicago, Arts Programs, Father Influence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Programs, Father Influence Goals: Give context to his worldview. “What do you hear about Chicago in his voice?” Chance = goofy/warm but CHI to the bone."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Chancelor Bennett",
+            "Grew up in South Side Chicago (NOT drill culture, but around it)",
+            "Dad in politics → early civic awareness",
+            "Inspired by Kanye West, Kids These Days, Lupe Fiasco",
+            "High school poetry & open-mic scene (Young Chicago Authors)",
+            "Suspension from school → wrote first mixtape",
+            "“Brain Cells”"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-blessings-both-versions",
+        "chance-the-rapper-angels"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Blessings (both versions)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What do you hear about Chicago in his voice?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chance-the-rapper-lesson-02-10-day-the-diy-spark",
+      "number": 2,
+      "title": "10 Day — The DIY Spark",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach his first creative voice. Themes: “How does Chance sound different from other rappers you’ve heard?” He’s playful, poetic, and bright."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "imagination",
+            "teen frustration",
+            "Chicago youth joy",
+            "early experimentation",
+            "whimsical beats",
+            "“Nostalgia”",
+            "“Hey Ma”",
+            "“Prom Night”"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-nostalgia",
+        "chance-the-rapper-hey-ma",
+        "chance-the-rapper-prom-night"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nostalgia” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Chance sound different from other rappers you’ve heard?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask: “How does Chance sound different from other rappers you’ve heard?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chance-the-rapper-lesson-03-acid-rap-the-cult-classic",
+      "number": 3,
+      "title": "Acid Rap — The Cult Classic",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his artistic breakthrough. This mixtape is legendary. Themes: Break down why “Acid Rain” is Chance’s lyrical masterpiece — introspection, vulnerability, poetic bars. Your son gon’ learn emotional honesty."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "drugs & escapism",
+            "Chicago summers",
+            "friendship",
+            "youthful chaos",
+            "early adulthood confusion",
+            "joy + pain duality",
+            "jazz horns",
+            "spoken-word cadences",
+            "“Cocoa Butter Kisses”",
+            "“Juice”",
+            "“Acid Rain”",
+            "“Chain Smoker”"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-cocoa-butter-kisses",
+        "chance-the-rapper-juice",
+        "chance-the-rapper-acid-rain",
+        "chance-the-rapper-chain-smoker"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Cocoa Butter Kisses” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chance the Rapper after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down why “Acid Rain” is Chance’s lyrical masterpiece — introspection, vulnerability, poetic bars.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, trauma, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "chance-the-rapper-lesson-04-flow-voice-and-delivery-chance-s-signature-ca",
+      "number": 4,
+      "title": "Flow, Voice & Delivery — Chance’s Signature Cadence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Signature Cadence Goals: Teach vocal identity. Traits: “How many rhythms can one rapper use in ONE verse?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "cartoonish ad-libs",
+            "raspy squeaks",
+            "jazz-influenced pockets",
+            "spoken-word phrasing",
+            "gospel yell-singing",
+            "whimsical vocal runs",
+            "expressive like a theater kid + preacher + poet",
+            "“Favorite Song”"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-favorite-song"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Favorite Song” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How many rhythms can one rapper use in ONE verse?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chance-the-rapper-lesson-05-coloring-book-gospel-revolution",
+      "number": 5,
+      "title": "Coloring Book — Gospel Revolution",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach spirituality in hip-hop. This mixtape changed everything. Themes: Tell your son to focus on the FEEL of “Blessings” — gospel warmth + rap cadence. This teaches that music can heal."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "faith",
+            "gratitude",
+            "Black joy",
+            "fatherhood",
+            "self-discovery",
+            "community uplift",
+            "gospel choir integration",
+            "“Blessings”",
+            "“All We Got”",
+            "“How Great”",
+            "“No Problem”"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-blessings",
+        "chance-the-rapper-all-we-got",
+        "chance-the-rapper-no-problem"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Blessings” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chance the Rapper after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Tell your son to focus on the FEEL of “Blessings” — gospel warmth + rap cadence. This teaches that music can heal.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chance-the-rapper-lesson-06-independence-streaming-and-industry-innovatio",
+      "number": 6,
+      "title": "Independence, Streaming & Industry Innovation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Innovation Goals: Teach business strategy. Chance: Lesson: “Ownership makes creativity safer.” Your son gon’ learn entrepreneurship from this."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "built career WITHOUT a label",
+            "partnered with Apple & Spotify deals",
+            "won 3 Grammys off a free mixtape",
+            "helped shift streaming-era rules",
+            "pioneered the “brand partnership as album rollout” strategy",
+            "built revenue through touring, merch, live shows, & deals"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-brain-cells"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brain Cells” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chance the Rapper after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chance-the-rapper-lesson-07-chicago-culture-footwork-gospel-drill-adjacen",
+      "number": 7,
+      "title": "Chicago Culture — Footwork, Gospel, Drill Adjacency",
+      "body": [
+        {
+          "type": "text",
+          "text": "Adjacency Goals: Show local influence. Talk: “This is Chicago JOY, not Chicago PAIN — both matter.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "footwork beats → fast, syncopated",
+            "Chicago gospel choir traditions",
+            "drill scene → shared city environment but different lane",
+            "community activism (Chance donated millions to CPS)",
+            "Chicago slang, neighborhoods, and art programs (YCA, Louder Than a Bomb)",
+            "“Angels”"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-angels"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Angels” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chance the Rapper after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "chance-the-rapper-lesson-08-chance-as-activist-and-community-leader",
+      "number": 8,
+      "title": "Chance as Activist & Community Leader",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach responsibility. Chance did: Lesson: “Use your platform to lift others.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fund CPS schools",
+            "advocate for Chicago youth safety",
+            "promote arts programs",
+            "integrate activism into his career",
+            "model positive Black fatherhood",
+            "run free festivals"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-brain-cells"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brain Cells” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chance the Rapper after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "chance-the-rapper-lesson-09-the-great-debate-artistic-growth-vs-public-ex",
+      "number": 9,
+      "title": "The Great Debate — Artistic Growth vs Public Expectation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Public Expectation Goals: Teach nuance & artistic pressure. Discuss (age appropriate): Lesson: “Artists grow. You don’t owe the world sadness to be taken seriously.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "backlash to The Big Day",
+            "online expectations",
+            "how fans treat artists changing direction",
+            "how artists age, evolve, marry, grow",
+            "Chance exploring happier themes vs darker ones"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-brain-cells"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brain Cells” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Chance the Rapper after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "chance-the-rapper-lesson-10-the-chance-influence-tree",
+      "number": 10,
+      "title": "The Chance Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his impact. Artists influenced by Chance: Cultural influence: Play Saba → then Chance → ask: “What emotional tones feel similar?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Saba",
+            "Noname",
+            "Mick Jenkins",
+            "Cordae",
+            "Amine",
+            "Chance’s own brother Ayo (Taylor Bennett)",
+            "Rex Orange County (soft-boy pop lane)",
+            "Kyle",
+            "Anderson .Paak (mutual influence)",
+            "Isaiah Rashad (some cadence overlap)",
+            "BROCKHAMPTON (joy-meets-chaos aesthetic)",
+            "gospel-rap fusion revival",
+            "positive rap wave",
+            "indie-rap touring model",
+            "“colorful aesthetic” revival",
+            "festival-friendly melodic rap"
+          ]
+        }
+      ],
+      "listen": [
+        "chance-the-rapper-brain-cells"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Brain Cells” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What emotional tones feel similar?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Saba → then Chance → ask: “What emotional tones feel similar?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Chance the Rapper blends spirituality, Chicago culture, and emotional vulnerability to create a unique musical voice. Compare ONE track from Acid Rap (like ‘Cocoa Butter Kisses’) with ONE track from Coloring Book (‘Blessings’), and identify TWO modern artists influenced by Chance.",
+    "earlyOptions": [
+      "chance-the-rapper-brain-cells"
+    ],
+    "laterOptions": [
+      "chance-the-rapper-blessings"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "substances",
+    "trauma",
+    "mature-themes",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 10, pages 124-136. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

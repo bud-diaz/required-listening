@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "id": "mf-doom",
+  "number": 66,
+  "displayName": "MF DOOM",
+  "monogram": "MD",
+  "whyItMatters": "MF DOOM matters because the source catalog identifies this route with “Changes”, “Dear Mama”, “Keep Ya Head Up”, “California Love (clean)”.",
+  "passedDown": {
+    "trackId": "mf-doom-potholderz",
+    "blurb": "Start with “Potholderz” and use the unit's checkpoints to hear how MF DOOM's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "mf-doom-rapp-snitch-knishes",
+      "mf-doom-accordion",
+      "mf-doom-one-beer",
+      "mf-doom-figaro"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "“Changes”",
+      "“Dear Mama”",
+      "“Keep Ya Head Up”",
+      "“California Love (clean)”",
+      "the most intricate lyricist of his era",
+      "king of underground hip-hop",
+      "inventor of multiple alter-egos (DOOM, Viktor Vaughn, King Geedorah)",
+      "magician with internal rhymes"
+    ],
+    "closing": "This unit the one that’ll turn your son into a WRITER, not just a listener."
+  },
+  "learnOutcomes": [
+    "rhyme density",
+    "narrative abstraction",
+    "independent artistry",
+    "myth-building",
+    "sampling as collage art",
+    "the power of anonymity"
+  ],
+  "tracks": [
+    {
+      "id": "mf-doom-rapp-snitch-knishes",
+      "title": "Rapp Snitch Knishes",
+      "artist": "MF DOOM",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Rapp Snitch Knishes MF DOOM",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 843-853. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mf-doom-accordion",
+      "title": "Accordion",
+      "artist": "MF DOOM",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Accordion MF DOOM",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 843-853. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mf-doom-potholderz",
+      "title": "Potholderz",
+      "artist": "MF DOOM",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Potholderz MF DOOM",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 843-853. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mf-doom-beef-rap",
+      "title": "Beef Rap",
+      "artist": "MF DOOM",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Beef Rap MF DOOM",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 843-853. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mf-doom-one-beer",
+      "title": "One Beer",
+      "artist": "MF DOOM",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "One Beer MF DOOM",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 843-853. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mf-doom-figaro",
+      "title": "Figaro",
+      "artist": "MF DOOM",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Figaro MF DOOM",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 843-853. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mf-doom-rhymes-like-dimes",
+      "title": "Rhymes Like Dimes",
+      "artist": "MF DOOM",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Rhymes Like Dimes MF DOOM",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 843-853. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "mf-doom-lesson-01-origins-zev-love-x-kmd-and-tragedy",
+      "number": 1,
+      "title": "Origins — Zev Love X, KMD, & Tragedy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach the man behind the metal mask. Play KMD → then DOOM. “How does someone’s pain change their voice?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born Daniel Dumile",
+            "early career as Zev Love X in KMD",
+            "conscious, playful group with political edge",
+            "brother DJ Subroc dies in car accident",
+            "label shelves their album (Black Bastards)",
+            "Dumile becomes homeless, disappears from the scene",
+            "returns years later with MASK + new identity → MF DOOM"
+          ]
+        }
+      ],
+      "listen": [
+        "mf-doom-potholderz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Potholderz” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does someone’s pain change their voice?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play KMD → then DOOM. Ask your son:",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "mf-doom-lesson-02-the-mask-mythology-identity-power",
+      "number": 2,
+      "title": "The Mask — Mythology, Identity, Power",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach persona construction. Mask inspired by Marvel’s Doctor Doom. Symbolizes: Teach your son: Sometimes a mask shows MORE truth than a face."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "anonymity",
+            "protection",
+            "anti-fame",
+            "performance art",
+            "villain archetype",
+            "commentary on celebrity masks"
+          ]
+        }
+      ],
+      "listen": [
+        "mf-doom-rapp-snitch-knishes",
+        "mf-doom-one-beer"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rapp Snitch Knishes” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of MF DOOM after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mf-doom-lesson-03-the-pen-doom-s-rhyme-density",
+      "number": 3,
+      "title": "The Pen — DOOM’s Rhyme Density",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach advanced lyric analysis. DOOM uses: “How many rhymes can you find INSIDE one line?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "internal rhymes",
+            "multi-syllabic schemes",
+            "alliteration",
+            "double/triple entendres",
+            "obscure references",
+            "enjambed bars",
+            "associative wordplay",
+            "punchlines hidden inside metaphors",
+            "“Rapp Snitch Knishes”",
+            "“Accordion”",
+            "“Potholderz”"
+          ]
+        }
+      ],
+      "listen": [
+        "mf-doom-rapp-snitch-knishes",
+        "mf-doom-accordion",
+        "mf-doom-potholderz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rapp Snitch Knishes” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How many rhymes can you find INSIDE one line?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mf-doom-lesson-04-flow-offbeat-conversational-jazzy-brainy",
+      "number": 4,
+      "title": "Flow — Offbeat, Conversational, Jazzy, Brainy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Brainy Goals: Teach rhythmic experimentation. His flow is: Clap a steady beat → have your son notice how DOOM sometimes chooses to ignore it."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "conversational, like reading a comic",
+            "jazz-like, unpredictable",
+            "sometimes offbeat on purpose",
+            "freeform but controlled",
+            "rhythmic misdirection",
+            "dense but playful",
+            "“Doomsday”",
+            "“Beef Rap”"
+          ]
+        }
+      ],
+      "listen": [
+        "mf-doom-beef-rap"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Beef Rap” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of MF DOOM after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Clap a steady beat → have your son notice how DOOM sometimes chooses to ignore it.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mf-doom-lesson-05-production-crate-digging-wizardry",
+      "number": 5,
+      "title": "Production — Crate-Digging Wizardry",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach sampling theory. DOOM’s beat elements: Listen to: Explain: Imperfection = personality."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "obscure 60s–80s samples",
+            "cartoon dialogue",
+            "Eastern European soundtracks",
+            "soul loops",
+            "static-heavy vinyl",
+            "dusty drums",
+            "imperfect timing",
+            "“One Beer” (classic Madlib x DOOM chaos)",
+            "“Figaro” (looped to hypnotic perfection)"
+          ]
+        }
+      ],
+      "listen": [
+        "mf-doom-one-beer",
+        "mf-doom-figaro"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “One Beer” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of MF DOOM after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mf-doom-lesson-06-operation-doomsday-the-rebirth-album",
+      "number": 6,
+      "title": "Operation: Doomsday — The Rebirth Album",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Study DOOM’s comeback. Themes: “What do you hear: pain, hope, or both?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "loneliness",
+            "grief",
+            "resilience",
+            "humor",
+            "comic-book escapism",
+            "DIY confidence",
+            "“Doomsday”",
+            "“Rhymes Like Dimes”"
+          ]
+        }
+      ],
+      "listen": [
+        "mf-doom-rhymes-like-dimes"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rhymes Like Dimes” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What do you hear: pain, hope, or both?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "mf-doom-lesson-07-madvillainy-hip-hop-s-avant-garde-classic",
+      "number": 7,
+      "title": "Madvillainy — Hip-Hop’s Avant-Garde Classic",
+      "body": [
+        {
+          "type": "text",
+          "text": "Classic Goals: Teach collaborative brilliance. Madlib + DOOM = Essential Cuts: Break down the rhyme scheme of “All Caps.” Teach why he says: “ALL CAPS when you spell the man name.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "no hooks",
+            "short songs",
+            "dense one-verse tracks",
+            "lo-fi, abstract beats",
+            "lyrical surrealism",
+            "“Accordion”",
+            "“All Caps”",
+            "“Strange Ways”"
+          ]
+        }
+      ],
+      "listen": [
+        "mf-doom-potholderz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Potholderz” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of MF DOOM after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the rhyme scheme of “All Caps.” Teach why he says:",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mf-doom-lesson-08-alter-egos-viktor-vaughn-king-geedorah-metal",
+      "number": 8,
+      "title": "Alter-Egos — Viktor Vaughn, King Geedorah, Metal Fingers",
+      "body": [
+        {
+          "type": "text",
+          "text": "Metal Fingers Goals: Teach storytelling variety. Viktor Vaughn = teenage villain, chaotic & witty King Geedorah = Godzilla-inspired alien overlord, detached narrator MF DOOM = the mastermind Lesson: Characters let artists explore different corners of themselves. This is writing class disguised as rap."
+        }
+      ],
+      "listen": [
+        "mf-doom-potholderz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Potholderz” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of MF DOOM after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mf-doom-lesson-09-anti-industry-philosophy-the-villain-as-prote",
+      "number": 9,
+      "title": "Anti-Industry Philosophy — The Villain as Protest",
+      "body": [
+        {
+          "type": "text",
+          "text": "Protest Goals: Teach rebellion + independence. DOOM rejected: His villain persona = critique of: He even sent imposters to perform at shows as meta-performance art. “What is DOOM saying about ‘authenticity’ by doing that?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fame",
+            "industry politics",
+            "expectations",
+            "mainstream pressure",
+            "capitalism",
+            "celebrity culture",
+            "exploitation of Black artists"
+          ]
+        }
+      ],
+      "listen": [
+        "mf-doom-potholderz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Potholderz” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What is DOOM saying about ‘authenticity’ by doing that?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "mf-doom-lesson-10-mf-doom-s-influence-tree-your-favorite-rapper",
+      "number": 10,
+      "title": "MF DOOM’s Influence Tree (“Your favorite rapper’s favorite rapper”)",
+      "body": [
+        {
+          "type": "text",
+          "text": "rapper’s favorite rapper”) Goals: Show his WIDE reach. DIRECT Influence: PRODUCTION Influence: CULTURAL Influence: Play Earl → then DOOM. Let your son hear the lineage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Tyler, The Creator",
+            "Earl Sweatshirt",
+            "Joey Bada$$",
+            "Kendrick Lamar (rhyme density)",
+            "Westside Gunn (ad-libs + DOOM cadence)",
+            "JPEGMAFIA",
+            "Open Mike Eagle",
+            "Bishop Nehru",
+            "Saba",
+            "lo-fi hip-hop",
+            "bedroom rap",
+            "SoundCloud rap aesthetic",
+            "Madlib’s successors",
+            "mask/character rappers",
+            "comic-book aesthetics",
+            "underground merch drops",
+            "anime/cartoon sampling culture"
+          ]
+        }
+      ],
+      "listen": [
+        "mf-doom-potholderz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Potholderz” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of MF DOOM after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Earl → then DOOM. Let your son hear the lineage.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, sexual-content, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "sexual-content",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how MF DOOM used persona, abstract lyricism, and unconventional production to reshape underground hip-hop. Compare ONE early track (‘Doomsday’) with ONE Madvillainy track (‘All Caps’ or ‘Accordion’), and identify TWO modern artists who clearly show DOOM’s influence in flow, imagery, or production style.",
+    "earlyOptions": [
+      "mf-doom-potholderz"
+    ],
+    "laterOptions": [
+      "mf-doom-rhymes-like-dimes"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "trauma",
+    "mature-themes",
+    "violence",
+    "weapons",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 64, pages 843-853. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

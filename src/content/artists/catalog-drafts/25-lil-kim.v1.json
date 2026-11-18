@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 1,
+  "id": "lil-kim",
+  "number": 25,
+  "displayName": "Lil' Kim",
+  "monogram": "LK",
+  "whyItMatters": "Lil' Kim matters because the source catalog identifies this route with the mother of mainstream “boss chick” rap, Notorious B.I.G.’s star pupil, pioneering explicit femininity in hip-hop, high-fashion hood icon.",
+  "passedDown": {
+    "trackId": "lil-kim-player-s-anthem",
+    "blurb": "Start with “Player’s Anthem” and use the unit's checkpoints to hear how Lil' Kim's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "lil-kim-no-time",
+      "lil-kim-crush-on-you",
+      "lil-kim-ladies-night",
+      "lil-kim-the-jump-off"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "the mother of mainstream “boss chick” rap",
+      "Notorious B.I.G.’s star pupil",
+      "pioneering explicit femininity in hip-hop",
+      "high-fashion hood icon",
+      "the foundation for Nicki, Cardi, Meg, City Girls, etc.",
+      "lyrical AND visual innovator",
+      "one of the most influential rappers of ALL sexes",
+      "female MC history"
+    ],
+    "closing": "Kim is ESSENTIAL hip-hop curriculum."
+  },
+  "learnOutcomes": [
+    "female MC history",
+    "ownership of sexuality",
+    "flow patterns",
+    "persona construction",
+    "fashion + branding",
+    "the 90s East Coast aesthetic",
+    "how representation evolves"
+  ],
+  "tracks": [
+    {
+      "id": "lil-kim-player-s-anthem",
+      "title": "Player’s Anthem",
+      "artist": "Lil' Kim",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Player’s Anthem Lil' Kim",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 256-268. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-kim-crush-on-you-remix",
+      "title": "Crush on You (remix)",
+      "artist": "Lil' Kim",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Crush on You (remix) Lil' Kim",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 256-268. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-kim-no-time",
+      "title": "No Time",
+      "artist": "Lil' Kim",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "No Time Lil' Kim",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 256-268. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-kim-queen-bitch",
+      "title": "Queen Bitch",
+      "artist": "Lil' Kim",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Queen Bitch Lil' Kim",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 256-268. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-kim-drugs",
+      "title": "Drugs",
+      "artist": "Lil' Kim",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Drugs Lil' Kim",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 256-268. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-kim-big-momma-thang",
+      "title": "Big Momma Thang",
+      "artist": "Lil' Kim",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Big Momma Thang Lil' Kim",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 256-268. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-kim-crush-on-you",
+      "title": "Crush on You",
+      "artist": "Lil' Kim",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Crush on You Lil' Kim",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 256-268. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-kim-ladies-night",
+      "title": "Ladies Night",
+      "artist": "Lil' Kim",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Ladies Night Lil' Kim",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 256-268. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-kim-the-jump-off",
+      "title": "The Jump Off",
+      "artist": "Lil' Kim",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "The Jump Off Lil' Kim",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 256-268. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lil-kim-lesson-01-origins-brooklyn-junior-m-a-f-i-a-and-biggie",
+      "number": 1,
+      "title": "Origins — Brooklyn, Junior M.A.F.I.A., & Biggie Mentorship",
+      "body": [
+        {
+          "type": "text",
+          "text": "Biggie Mentorship Goals: Teach how greatness gets shaped. “What makes her stand out from the male rappers on the same track?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born Kimberly Jones",
+            "from Bed-Stuy, tough upbringing",
+            "early exposure to hustlers, fashion, fast life",
+            "discovered by Biggie",
+            "joins Junior M.A.F.I.A.",
+            "stands out FAST with voice + raw delivery",
+            "“Player’s Anthem”"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-crush-on-you",
+        "lil-kim-no-time"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Crush on You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes her stand out from the male rappers on the same track?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lil-kim-lesson-02-the-voice-high-sharp-aggressive-sexy",
+      "number": 2,
+      "title": "The Voice — High, Sharp, Aggressive, Sexy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach delivery. Lil’ Kim’s vocal style: Her voice alone is a WEAPON."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "nasal-but-raspy aggression",
+            "playful sexiness",
+            "confident, loud articulation",
+            "comedic timing",
+            "punch-in-your-face energy",
+            "“Crush on You (remix)”"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-crush-on-you-remix"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Crush on You (remix)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil' Kim after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, sexual-content, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-kim-lesson-03-hard-core-one-of-the-top-debuts-in-hip-hop-hi",
+      "number": 3,
+      "title": "Hard Core — One of the Top Debuts in Hip-Hop History",
+      "body": [
+        {
+          "type": "text",
+          "text": "Hip-Hop History Goals: Teach era-defining albums. Hard Core impact: “What do you notice about how confidently she owns her power?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sexually explicit female rap becoming mainstream",
+            "cover shoot = legendary",
+            "high-fashion + gangster imagery",
+            "lyrical sharpness",
+            "gritty Biggie-inspired flows",
+            "“No Time”",
+            "“Queen Bitch”",
+            "“Drugs”",
+            "“Big Momma Thang”"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-no-time",
+        "lil-kim-queen-bitch",
+        "lil-kim-drugs",
+        "lil-kim-big-momma-thang"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “No Time” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What do you notice about how confidently she owns her power?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, violence, substances, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-kim-lesson-04-sexual-agency-kim-as-a-feminist-icon",
+      "number": 4,
+      "title": "Sexual Agency — Kim as a Feminist Icon",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach autonomy & gender politics. Break down: Lesson: Kim wasn’t being “trashy” — she was being LIBERATED."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Kim flipping the male gaze",
+            "being explicit WITHOUT shame",
+            "control of her image",
+            "turning taboo into empowerment",
+            "redefining what a “female rapper” could DO or SAY",
+            "making femininity a source of dominance, not weakness"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-player-s-anthem"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Player’s Anthem” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil' Kim after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-kim-lesson-05-fashion-god-the-blueprint-for-rap-girl-iconog",
+      "number": 5,
+      "title": "Fashion God — The Blueprint for Rap Girl Iconography",
+      "body": [
+        {
+          "type": "text",
+          "text": "Iconography Goals: Teach visual culture. Lil’ Kim’s fashion influence spans: Show her iconic photoshoot images → ask: “How does she use fashion to communicate POWER?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "colored wigs",
+            "luxury lingerie looks",
+            "the one-boob pasty outfit (1999 VMA legend)",
+            "mink coats",
+            "matching hair + outfit color schemes",
+            "designer brand flexing",
+            "bold makeup + futuristic couture"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-player-s-anthem"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Player’s Anthem” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does she use fashion to communicate POWER?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Show her iconic photoshoot images → ask: “How does she use fashion to communicate POWER?”",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-kim-lesson-06-flow-and-delivery-kim-s-lyrical-dna",
+      "number": 6,
+      "title": "Flow & Delivery — Kim’s Lyrical DNA",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach rap technique. Kim’s flow characteristics: Break down her rhyme pattern."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Biggie-style cadence",
+            "sharp internal rhymes",
+            "humorous punchlines",
+            "aggressive ad-libs",
+            "sexual bars with punch-level confidence",
+            "mafia/mobster narrative style",
+            "“Queen Bitch”"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-queen-bitch"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Queen Bitch” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil' Kim after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-kim-lesson-07-the-collaborator-era-ladies-night-missy-mary",
+      "number": 7,
+      "title": "The Collaborator Era — Ladies’ Night, Missy, Mary J, Puffy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Mary J, Puffy Goals: Teach unity + crossover moves. Key Collabs: Lesson: When women link up in rap, the whole culture rises."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Not Tonight (Ladies Night Remix)” (culture RESET)",
+            "“Lady Marmalade” (Grammy-winning)",
+            "Puffy/Bad Boy remixes",
+            "Missy Elliott collaborations",
+            "Mary J Blige sisterhood energy"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-player-s-anthem"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Player’s Anthem” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil' Kim after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lil-kim-lesson-08-legal-trouble-lockdown-and-the-comeback",
+      "number": 8,
+      "title": "Legal Trouble, Lockdown, & The Comeback",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach resilience. Kim: Teach your son: Life knocks you down, but talent + heart carry you back."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "went to prison for perjury",
+            "came back with The Naked Truth",
+            "earned 5 mics in The Source",
+            "proved longevity & skill"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-player-s-anthem"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Player’s Anthem” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil' Kim after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lil-kim-lesson-09-lil-kim-s-influence-tree",
+      "number": 9,
+      "title": "Lil’ Kim’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show her TITANIC impact. DIRECT Influence: CULTURAL Influence: Compare Kim’s “Crush on You” look → Nicki’s colorful icon era. The DNA is OBVIOUS."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Nicki Minaj",
+            "Cardi B",
+            "Megan Thee Stallion",
+            "City Girls",
+            "Doja Cat (visual identity)",
+            "Kash Doll",
+            "Foxy Brown (mutual era influence)",
+            "Saweetie",
+            "Latto",
+            "Remy Ma (partially)",
+            "wigs in rap culture",
+            "high-fashion aesthetics",
+            "sexy braggadocio rap",
+            "explicit female lyricism",
+            "rap girls as mainstream pop stars"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-crush-on-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Crush on You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil' Kim after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare Kim’s “Crush on You” look → Nicki’s colorful icon era. The DNA is OBVIOUS.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-kim-lesson-10-lil-kim-as-cultural-blueprint",
+      "number": 10,
+      "title": "Lil’ Kim as Cultural Blueprint",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Summarize impact. Lil’ Kim = Lesson: The culture literally does not look or sound the same without her."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "rapper",
+            "fashion innovator",
+            "hood feminist",
+            "sex-positive icon",
+            "90s East Coast royalty",
+            "trendsetter",
+            "visual pioneer",
+            "THE archetype for modern women in hip-hop"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-kim-player-s-anthem"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Player’s Anthem” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil' Kim after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Lil’ Kim reshaped hip-hop through fashion, explicit female empowerment, and sharp lyrical delivery. Compare ONE early track (‘Queen Bitch’) with ONE later career moment (‘Lady Marmalade’ or The Naked Truth), and identify TWO modern artists clearly influenced by Lil’ Kim.",
+    "earlyOptions": [
+      "lil-kim-player-s-anthem"
+    ],
+    "laterOptions": [
+      "lil-kim-big-momma-thang"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "weapons",
+    "sexual-content",
+    "mature-themes",
+    "explicit-language",
+    "substances"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 20, pages 256-268. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

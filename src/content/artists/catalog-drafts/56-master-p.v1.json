@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "id": "master-p",
+  "number": 56,
+  "displayName": "Master P",
+  "monogram": "MP",
+  "whyItMatters": "Master P matters because the source catalog identifies this route with founder of No Limit Records, independent label GOAT, blueprint for DIY distribution, music executive, rapper, investor, community builder.",
+  "passedDown": {
+    "trackId": "master-p-bout-it-bout-it",
+    "blurb": "Start with “Bout It, Bout It” and use the unit's checkpoints to hear how Master P's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "master-p-i-miss-my-homies",
+      "master-p-make-em-say-uhh",
+      "master-p-bout-it-bout-it-2"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "founder of No Limit Records",
+      "independent label GOAT",
+      "blueprint for DIY distribution",
+      "music executive, rapper, investor, community builder",
+      "champion of Southern culture",
+      "hustler turned mogul",
+      "father of the modern “rapper-CEO” model",
+      "what it means to OWN your art"
+    ],
+    "closing": "This unit is basically an ENTREPRENEURSHIP course wrapped in beats."
+  },
+  "learnOutcomes": [
+    "what it means to OWN your art",
+    "how business + creativity intersect",
+    "how the South took over hip-hop",
+    "generational wealth lessons",
+    "leadership & branding",
+    "staying true to your region"
+  ],
+  "tracks": [
+    {
+      "id": "master-p-bout-it-bout-it",
+      "title": "Bout It, Bout It",
+      "artist": "Master P",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Bout It, Bout It Master P",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 681-693. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "master-p-i-miss-my-homies",
+      "title": "I Miss My Homies",
+      "artist": "Master P",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Miss My Homies Master P",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 681-693. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "master-p-make-em-say-uhh",
+      "title": "Make Em Say Uhh!",
+      "artist": "Master P",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Make Em Say Uhh! Master P",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 681-693. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "master-p-mr-ice-cream-man",
+      "title": "Mr. Ice Cream Man",
+      "artist": "Master P",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Mr. Ice Cream Man Master P",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 681-693. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "master-p-if-i-could-change",
+      "title": "If I Could Change",
+      "artist": "Master P",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "If I Could Change Master P",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 681-693. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "master-p-ghetto-d",
+      "title": "Ghetto D",
+      "artist": "Master P",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Ghetto D Master P",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 681-693. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "master-p-bout-it-bout-it-2",
+      "title": "Bout It Bout It",
+      "artist": "Master P",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Bout It Bout It Master P",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 681-693. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "master-p-lesson-01-origins-new-orleans-roots-family-hustle-minds",
+      "number": 1,
+      "title": "Origins — New Orleans Roots, Family, Hustle Mindset",
+      "body": [
+        {
+          "type": "text",
+          "text": "Hustle Mindset Goals: Teach the environment that shaped him. “What does this sound like? Confidence? Community? Hometown pride?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Percy Miller",
+            "grew up in Calliope Projects, New Orleans",
+            "moved to Richmond, CA → early business mind",
+            "opened No Limit record store at 19",
+            "blended Louisiana + Bay Area street culture",
+            "invested early in real estate, tapes, distribution",
+            "“Bout It, Bout It”"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-make-em-say-uhh",
+        "master-p-bout-it-bout-it-2"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Make Em Say Uhh!” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Master P after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "master-p-lesson-02-the-no-limit-model-diy-ownership-and-distribu",
+      "number": 2,
+      "title": "The No Limit Model — DIY, Ownership, & Distribution Genius",
+      "body": [
+        {
+          "type": "text",
+          "text": "Distribution Genius Goals: Teach business strategy. Master P was WAAAAAAY ahead of the game. He: Lesson: “Don’t wait to be chosen — build your own and let THEM come to you.” Show old No Limit album art to your son — ask: “What makes this look like a BRAND, not just music?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "started No Limit Records independently",
+            "controlled masters",
+            "cut a 80/20 distribution deal with Priority Records (unheard of!)",
+            "did his own marketing",
+            "promoted artists like a sports team",
+            "built a recognizable brand (tanks, camo covers, dramatic fonts)"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-bout-it-bout-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bout It, Bout It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes this look like a BRAND, not just music?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Show old No Limit album art to your son — ask: “What makes this look like a BRAND, not just music?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "master-p-lesson-03-regional-culture-new-orleans-bounce-grit-and",
+      "number": 3,
+      "title": "Regional Culture — New Orleans Bounce, Grit & Soul",
+      "body": [
+        {
+          "type": "text",
+          "text": "Grit & Soul Goals: Teach local sound identity. Master P brought: Explain: “This is Louisiana storytelling — raw, communal, proud.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "bounce influence",
+            "Gulf Coast slang",
+            "military-style chants",
+            "gritty, brassy production",
+            "community-centered stories",
+            "“I Miss My Homies”",
+            "“Make Em Say Uhh!”"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-i-miss-my-homies",
+        "master-p-make-em-say-uhh"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Miss My Homies” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Master P after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "master-p-lesson-04-no-limit-soldiers-the-roster-and-the-movement",
+      "number": 4,
+      "title": "No Limit Soldiers — The Roster & the Movement",
+      "body": [
+        {
+          "type": "text",
+          "text": "Movement Goals: Teach infrastructure. Artists: Listen to a posse cut → analyze group energy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Silkk The Shocker",
+            "C-Murder",
+            "Mia X (VERY important!)",
+            "Mystikal",
+            "Fiend",
+            "Mac",
+            "Kane & Abel",
+            "Beats by the Pound (production backbone)",
+            "how a label can be a FAMILY",
+            "how infrastructure supports creativity",
+            "how leadership elevates others"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-bout-it-bout-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bout It, Bout It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Master P after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Listen to a posse cut → analyze group energy.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "master-p-lesson-05-branding-through-excess-album-covers-merch-th",
+      "number": 5,
+      "title": "Branding Through Excess — Album Covers, Merch, The Tank",
+      "body": [
+        {
+          "type": "text",
+          "text": "Merch, The Tank Goals: Teach marketing psychology. No Limit’s branding was wild ON PURPOSE: This is how you dominate attention. “How do these covers make the music FEEL before you hear it?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "shiny 3D text",
+            "tanks",
+            "fire",
+            "diamonds",
+            "100 albums dropping in one year",
+            "massive posters, VHS, merch",
+            "consistency across ALL products"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-bout-it-bout-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bout It, Bout It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do these covers make the music FEEL before you hear it?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "master-p-lesson-06-master-p-as-an-artist-the-voice-of-hustle-the",
+      "number": 6,
+      "title": "Master P as an Artist — The Voice of Hustle Theology",
+      "body": [
+        {
+          "type": "text",
+          "text": "Theology Goals: Teach lyrical themes. P’s lyrical themes: Tell your son: “Some folks rap from imagination. P rapped from EXPERIENCE.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "survival",
+            "loyalty",
+            "ambition",
+            "grief (lost family & friends)",
+            "generational wealth",
+            "anti-exploitation",
+            "no-nonsense leadership",
+            "heavy NOLA pride",
+            "“Mr. Ice Cream Man”",
+            "“If I Could Change”",
+            "“Ghetto D”"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-mr-ice-cream-man",
+        "master-p-if-i-could-change",
+        "master-p-ghetto-d"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Mr. Ice Cream Man” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Master P after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "master-p-lesson-07-entrepreneurship-beyond-music-movies-sports-t",
+      "number": 7,
+      "title": "Entrepreneurship Beyond Music — Movies, Sports, TV, Cereal",
+      "body": [
+        {
+          "type": "text",
+          "text": "Sports, TV, Cereal Goals: Teach diversification. Master P invested in: Lesson: “Rapping is ONE income stream — not the ONLY one.” Your son gon’ learn multi-hustle mentality early."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "films (I’m Bout It)",
+            "sports (brief NBA tryout)",
+            "management (TLC, Snoop Dogg era)",
+            "clothing lines",
+            "shoes",
+            "food brands",
+            "TV deals",
+            "real estate",
+            "Rap Snacks"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-bout-it-bout-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bout It, Bout It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Master P after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "master-p-lesson-08-snoop-dogg-signing-strategic-genius",
+      "number": 8,
+      "title": "Snoop Dogg Signing — Strategic Genius",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach negotiation & vision. When Snoop needed a fresh start after Death Row… Master P swooped in. Why this matters: Compare Snoop’s Death Row sound → No Limit sound."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "showed he could take a West Coast legend and rebuild him",
+            "proved No Limit wasn’t local — it was NATIONAL",
+            "elevated the entire brand",
+            "gave Snoop financial stability and artistic freedom"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-bout-it-bout-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bout It, Bout It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Master P after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare Snoop’s Death Row sound → No Limit sound.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "master-p-lesson-09-legacy-how-master-p-changed-the-industry",
+      "number": 9,
+      "title": "Legacy — How Master P Changed the Industry",
+      "body": [
+        {
+          "type": "text",
+          "text": "Industry Goals: Show long-term impact. Master P influenced: Master P’s blueprint = OWNERSHIP FIRST."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Cash Money Records (Birdman ADMITS this)",
+            "TDE business model",
+            "QC’s structure (Coach K + P built labels LIKE No Limit)",
+            "50 Cent’s mixtape & business diversification",
+            "Jay-Z’s ownership philosophy",
+            "Rick Ross's MMG structure",
+            "Nipsey Hussle’s independent grind",
+            "Every rapper selling merch, doing films, owning product lines"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-bout-it-bout-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bout It, Bout It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Master P after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "master-p-lesson-10-master-p-s-influence-tree",
+      "number": 10,
+      "title": "Master P’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map the dynasty. DIRECT Influence: CULTURAL Influence: Have your son compare No Limit → Cash Money → QC → today’s trap labels. It’s the SAME blueprint."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Birdman",
+            "Lil Wayne (indirect via Cash Money)",
+            "Snoop (career rebirth)",
+            "Rick Ross",
+            "Yo Gotti",
+            "Young Dolph (independent hustle)",
+            "Nipsey Hussle",
+            "21 Savage (business mentality)",
+            "Master P literally fathered Romeo, who continued generational wealth",
+            "independent labels",
+            "“drop music consistently” model",
+            "flashy album covers",
+            "artist-as-mogul identity",
+            "Southern takeover"
+          ]
+        }
+      ],
+      "listen": [
+        "master-p-bout-it-bout-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bout It, Bout It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Master P after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son compare No Limit → Cash Money → QC → today’s trap labels. It’s the SAME blueprint.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Master P revolutionized hip-hop through ownership, branding, and entrepreneurship. Compare ONE early track (Mr. Ice Cream Man) with ONE major No Limit anthem (Make ‘Em Say Uhh), and identify TWO modern artists or labels influenced by Master P’s business blueprint.",
+    "earlyOptions": [
+      "master-p-bout-it-bout-it"
+    ],
+    "laterOptions": [
+      "master-p-ghetto-d"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "mature-themes",
+    "trauma"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 52, pages 681-693. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

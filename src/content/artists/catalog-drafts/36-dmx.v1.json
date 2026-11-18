@@ -1,0 +1,728 @@
+{
+  "schemaVersion": 1,
+  "id": "dmx",
+  "number": 36,
+  "displayName": "DMX",
+  "monogram": "DM",
+  "whyItMatters": "DMX matters because the source catalog identifies this route with The rawest emotional delivery in rap, A storyteller who made pain BEAUTIFUL, A man wrestling with demons, addiction, abandonment, faith, Street realism without glamor.",
+  "passedDown": {
+    "trackId": "dmx-get-at-me-dog",
+    "blurb": "Start with “Get At Me Dog” and use the unit's checkpoints to hear how DMX's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "dmx-slippin",
+      "dmx-ruff-ryders-anthem",
+      "dmx-x-gon-give-it-to-ya",
+      "dmx-party-up"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The rawest emotional delivery in rap",
+      "A storyteller who made pain BEAUTIFUL",
+      "A man wrestling with demons, addiction, abandonment, faith",
+      "Street realism without glamor",
+      "A performer with sermon-level presence",
+      "A cultural icon with two #1 albums in the SAME YEAR (historic)",
+      "A symbol of how trauma shapes art — and how community can’t always save you",
+      "Vocal expression"
+    ],
+    "closing": "This unit builds empathy, not just musical taste."
+  },
+  "learnOutcomes": [
+    "Vocal expression",
+    "Emotional honesty",
+    "Flow patterns",
+    "Prayer as art",
+    "How artists carry wounds",
+    "Why the streets love him",
+    "How charisma and vulnerability coexist",
+    "Why “hurt people” doesn’t mean “evil people”"
+  ],
+  "tracks": [
+    {
+      "id": "dmx-slippin",
+      "title": "Slippin’",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Slippin’ DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-ruff-ryders-anthem",
+      "title": "Ruff Ryders’ Anthem",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Ruff Ryders’ Anthem DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-get-at-me-dog",
+      "title": "Get At Me Dog",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Get At Me Dog DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-stop-being-greedy",
+      "title": "Stop Being Greedy",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Stop Being Greedy DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-damien",
+      "title": "Damien",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Damien DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-no-love-for-me",
+      "title": "No Love for Me",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "No Love for Me DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-coming-from",
+      "title": "Coming From",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Coming From DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-party-up-up-in-here",
+      "title": "Party Up (Up in Here)",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Party Up (Up in Here) DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-x-gon-give-it-to-ya",
+      "title": "X Gon’ Give It To Ya",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "X Gon’ Give It To Ya DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-crime-story",
+      "title": "Crime Story",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Crime Story DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-a-minute-for-your-son",
+      "title": "A Minute for Your Son",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "A Minute for Your Son DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-who-we-be",
+      "title": "Who We Be",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Who We Be DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "dmx-party-up",
+      "title": "Party Up",
+      "artist": "DMX",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Party Up DMX",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 404-416. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "dmx-lesson-01-origins-yonkers-abuse-neglect-survival",
+      "number": 1,
+      "title": "Origins — Yonkers, Abuse, Neglect, Survival",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach context without glamorizing pain. “What pain do you hear in his voice, not just his words?” Build emotional awareness."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Earl Simmons → abusive childhood",
+            "Dyslexia, institutionalization, homelessness",
+            "Finding stray dogs as family → the “Dog” persona",
+            "Rap as survival, not fame",
+            "Loyalty to Yonkers",
+            "Meeting Ruff Ryders → family structure he never had",
+            "DMX as a broken kid who became a warrior",
+            "“Slippin’”"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-slippin"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Slippin’” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What pain do you hear in his voice, not just his words?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, trauma, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "dmx-lesson-02-voice-and-delivery-the-growl-the-cry-the-bark",
+      "number": 2,
+      "title": "Voice & Delivery — The Growl, the Cry, the Bark",
+      "body": [
+        {
+          "type": "text",
+          "text": "Bark Goals: Teach vocal emotion. DMX’s delivery style: Explain to your son: “He didn’t rap like he was performing. He rapped like he was SURVIVING.” Compare DMX to monotone rappers → teach expressive vocals."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "growling intensity",
+            "sharp barks",
+            "mid-verse screams",
+            "whispers",
+            "borderline crying",
+            "raw breath noises"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-ruff-ryders-anthem",
+        "dmx-x-gon-give-it-to-ya"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ruff Ryders’ Anthem” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of DMX after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare DMX to monotone rappers → teach expressive vocals.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "dmx-lesson-03-it-s-dark-and-hell-is-hot-the-spiritual-war-b",
+      "number": 3,
+      "title": "It’s Dark and Hell Is Hot — The Spiritual War Begins",
+      "body": [
+        {
+          "type": "text",
+          "text": "Begins Goals: Understand one of the greatest debuts in rap. Break down “Damien” like a play. Characters: X, Damien, conscience."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Dark, gritty production",
+            "Religious conflict (God vs demons)",
+            "Street narratives",
+            "Loyalty, betrayal, pain",
+            "Standout storytelling",
+            "The famous PRAYER interludes",
+            "“Ruff Ryders’ Anthem”",
+            "“Get At Me Dog”",
+            "“Stop Being Greedy”",
+            "“Damien” (devil-on-your-shoulder narrative)"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-ruff-ryders-anthem",
+        "dmx-get-at-me-dog",
+        "dmx-stop-being-greedy",
+        "dmx-damien"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ruff Ryders’ Anthem” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of DMX after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Damien” like a play. Characters: X, Damien, conscience.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "dmx-lesson-04-flesh-of-my-flesh-blood-of-my-blood-the-fire",
+      "number": 4,
+      "title": "Flesh of My Flesh, Blood of My Blood — The Fire Continues",
+      "body": [
+        {
+          "type": "text",
+          "text": "Fire Continues Goals: Show emotional conflict & momentum. Discussion: “How do you hear a man trying not to drown?” Teach emotional literacy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Whole album made in under a month",
+            "DMX riding a wave of hunger and momentum",
+            "Themes of loyalty, survival, violence, brotherhood",
+            "Continued spiritual conflict",
+            "“Slippin’”",
+            "“No Love for Me”",
+            "“Coming From”"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-slippin",
+        "dmx-no-love-for-me",
+        "dmx-coming-from"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Slippin’” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do you hear a man trying not to drown?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, violence, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "dmx-lesson-05-and-then-there-was-x-the-superstar-era",
+      "number": 5,
+      "title": "…And Then There Was X — The Superstar Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Era Goals: Show X at global fame but personal collapse. Compare early DMX to superstar DMX — teach fame’s impact on spirit."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Multi-platinum success",
+            "Arena-level anthems",
+            "But also increasing addiction, stress, paranoia",
+            "DMX dealing with fame very differently from other stars",
+            "“Party Up (Up in Here)”",
+            "“What These B****** Want”",
+            "“X Gon’ Give It To Ya”",
+            "“What’s My Name?”"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-party-up-up-in-here",
+        "dmx-x-gon-give-it-to-ya"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Party Up (Up in Here)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What’s My Name?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Compare early DMX to superstar DMX — teach fame’s impact on spirit.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "dmx-lesson-06-storytelling-mastery",
+      "number": 6,
+      "title": "Storytelling Mastery",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach narrative rap literacy. DMX storytelling techniques: “What do these stories teach? What pain do they reveal?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "2nd-person narration",
+            "Dialogues with God, demons, himself",
+            "Scenes described like movies",
+            "Clear moral codes (even in chaos)",
+            "Emotion over clever wordplay",
+            "“Crime Story”",
+            "“A Minute for Your Son”",
+            "“Who We Be”"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-crime-story",
+        "dmx-a-minute-for-your-son",
+        "dmx-who-we-be"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Crime Story” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of DMX after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "dmx-lesson-07-dmx-and-the-ruff-ryders-brotherhood-loyalty-f",
+      "number": 7,
+      "title": "DMX & The Ruff Ryders — Brotherhood, Loyalty, Family",
+      "body": [
+        {
+          "type": "text",
+          "text": "Loyalty, Family Goals: Explain collective identity in rap. Watch Ruff Ryders videos — teach how branding works."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Swizz Beatz → signature production style",
+            "Eve, Drag-On, The Lox",
+            "Biker culture",
+            "Hood family structure",
+            "Loyalty themes",
+            "DMX as a “leader” with a broken heart"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-get-at-me-dog"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Get At Me Dog” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of DMX after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Watch Ruff Ryders videos — teach how branding works.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "dmx-lesson-08-faith-and-prayer-the-most-spiritual-man-in-hi",
+      "number": 8,
+      "title": "Faith & Prayer — The Most Spiritual Man in Hip-Hop",
+      "body": [
+        {
+          "type": "text",
+          "text": "Hip-Hop Goals: Teach spiritual duality. DMX prayed like: Prayer tracks: Teach your son: “Faith doesn’t mean perfection. Sometimes it means fighting your demons every day.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "a preacher",
+            "a sinner",
+            "a broken child",
+            "a man begging for forgiveness",
+            "a man asking for strength",
+            "Every “Prayer” interlude",
+            "“The Convo”",
+            "“Lord Give Me a Sign”"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-get-at-me-dog"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Get At Me Dog” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of DMX after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "dmx-lesson-09-dmx-and-mental-health",
+      "number": 9,
+      "title": "DMX & Mental Health",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach compassion. Discuss (when he’s older): This teaches empathy, not judgment."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "addiction",
+            "trauma",
+            "self-medication",
+            "cycles of pain",
+            "incarceration",
+            "industry pressure",
+            "how talent can’t heal trauma alone",
+            "why community + support matter"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-get-at-me-dog"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Get At Me Dog” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of DMX after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, substances, trauma, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "dmx-lesson-10-dmx-s-influence-tree",
+      "number": 10,
+      "title": "DMX's Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his legacy. Influenced: Compare DMX to Pop Smoke — same DARK charisma energy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Pop Smoke",
+            "50 Cent (aggression, growl cadence)",
+            "Meek Mill",
+            "Rod Wave (emotional pain)",
+            "YoungBoy NBA",
+            "DaBaby (bark cadence)",
+            "Denzel Curry",
+            "Rico Nasty",
+            "Every rapper using rage + pain combo"
+          ]
+        }
+      ],
+      "listen": [
+        "dmx-get-at-me-dog"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Get At Me Dog” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of DMX after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare DMX to Pop Smoke — same DARK charisma energy.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how DMX used vulnerability, pain, faith, and vocal expression to reshape hip-hop. Include TWO songs, ONE prayer, and ONE influence example.",
+    "earlyOptions": [
+      "dmx-get-at-me-dog"
+    ],
+    "laterOptions": [
+      "dmx-who-we-be"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "trauma",
+    "mature-themes",
+    "explicit-language",
+    "substances"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 31, pages 404-416. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

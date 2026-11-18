@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 1,
+  "id": "michael-jackson",
+  "number": 70,
+  "displayName": "Michael Jackson",
+  "monogram": "MJ",
+  "whyItMatters": "Michael Jackson matters because the source catalog identifies this route with the greatest entertainer in modern history, the blueprint for pop superstardom, the prototype for stadium-scale performance, the most dominant music video artist of all time.",
+  "passedDown": {
+    "trackId": "michael-jackson-i-want-you-back",
+    "blurb": "Start with “I Want You Back” and use the unit's checkpoints to hear how Michael Jackson's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "michael-jackson-michael-jackson-instrumental-listening-option"
+    ],
+    "note": "The source did not provide a named younger-listener section; use the caregiver-selected instrumental search and preview the result."
+  },
+  "overview": {
+    "summary": [
+      "the greatest entertainer in modern history",
+      "the blueprint for pop superstardom",
+      "the prototype for stadium-scale performance",
+      "the most dominant music video artist of all time",
+      "world-class vocalist",
+      "innovator in fashion, dance, and visual storytelling",
+      "a child star who redefined longevity",
+      "a tragic figure shaped by pressure, expectations, and trauma"
+    ],
+    "closing": "This is the deepest unit we’ve made so far."
+  },
+  "learnOutcomes": [
+    "music theory",
+    "choreography analysis",
+    "media literacy",
+    "Black cultural history",
+    "global pop economics",
+    "how artists can uplift AND carry the weight of the world"
+  ],
+  "tracks": [
+    {
+      "id": "michael-jackson-i-want-you-back",
+      "title": "I Want You Back",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Want You Back Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-abc",
+      "title": "ABC",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "ABC Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-who-s-loving-you",
+      "title": "Who’s Loving You",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Who’s Loving You Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-human-nature",
+      "title": "Human Nature",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Human Nature Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-rock-with-you",
+      "title": "Rock With You",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Rock With You Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-beat-it",
+      "title": "Beat It",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Beat It Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-billie-jean-motown-25-performance",
+      "title": "Billie Jean (Motown 25 performance)",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Billie Jean (Motown 25 performance) Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-smooth-criminal-lean-gangster-lean-style",
+      "title": "Smooth Criminal (lean + gangster lean style)",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Smooth Criminal (lean + gangster lean style) Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-bad",
+      "title": "Bad",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Bad Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-working-day-and-night",
+      "title": "Working Day and Night",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Working Day and Night Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-jam",
+      "title": "Jam",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Jam Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-black-or-white",
+      "title": "Black or White",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Black or White Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-they-don-t-care-about-us",
+      "title": "They Don’t Care About Us",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "They Don’t Care About Us Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-earth-song",
+      "title": "Earth Song",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Earth Song Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-heal-the-world",
+      "title": "Heal the World",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Heal the World Michael Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 896-910. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "michael-jackson-michael-jackson-instrumental-listening-option",
+      "title": "Michael Jackson instrumental listening option",
+      "artist": "Michael Jackson",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source did not name a Younger Listener selection. A grown-up must choose and preview an instrumental provider result before playing.",
+      "searchQuery": "Michael Jackson instrumental",
+      "sourceNotes": "Adapted fallback because the source unit did not include a named Younger Listener selection.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "michael-jackson-lesson-01-the-jackson-5-era-child-prodigy-motown-discip",
+      "number": 1,
+      "title": "The Jackson 5 Era — Child Prodigy, Motown Discipline, Black Excellence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Discipline, Black Excellence Goals: Foundation = genius + training + family dynamics. “What makes young Michael sound more emotionally intelligent than adults?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Gary, Indiana → Motown audition",
+            "Joe Jackson’s strict discipline",
+            "Michael as a CHILD outperforming adults",
+            "Motown choreography + vocal tightness",
+            "Black American perfectionism under white gaze",
+            "“I Want You Back”",
+            "“ABC”",
+            "“Who’s Loving You” (the CHILD vocal that shook grown men)"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-michael-jackson-instrumental-listening-option"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Michael Jackson instrumental listening option” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes young Michael sound more emotionally intelligent than adults?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "michael-jackson-lesson-02-vocal-technique-the-most-adaptable-pop-voice",
+      "number": 2,
+      "title": "Vocal Technique — The Most Adaptable Pop Voice Ever",
+      "body": [
+        {
+          "type": "text",
+          "text": "Voice Ever Goals: Treat MJ as a vocal scientist. MJ’s tools: Listen to: Teach your son: MJ uses his voice like a drum, a synth, and a human heart all at once."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "airy head voice",
+            "percussive ad-libs (“shamone,” grunts, gasps)",
+            "perfect pitch",
+            "breath-as-rhythm technique",
+            "emotional sliding falsetto",
+            "immaculate vibrato",
+            "multi-layered self-harmonies",
+            "“vocal beatboxing” on demos",
+            "“Human Nature”",
+            "“Rock With You”",
+            "a cappella demo of “Beat It”"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-human-nature",
+        "michael-jackson-rock-with-you",
+        "michael-jackson-beat-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Human Nature” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Michael Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "michael-jackson-lesson-03-the-quincy-jones-trilogy-off-the-wall-thrille",
+      "number": 3,
+      "title": "The Quincy Jones Trilogy — Off the Wall, Thriller, Bad",
+      "body": [
+        {
+          "type": "text",
+          "text": "Thriller, Bad Goals: Study three perfect albums in a row. Off the Wall (1979) — Adult Michael Emerges Themes: Tracks: “Rock With You,” “Off the Wall,” “Don’t Stop Til You Get Enough” Thriller (1982) — The Global Blueprint Tracks: Bad (1987) — Aggressive, rebellious Michael Have your son compare production differences between the three eras (horns → synths → sharper drum machines)."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "joy",
+            "love",
+            "groove",
+            "disco → R&B transition",
+            "66 million sold",
+            "7 top-10 singles",
+            "music videos become FILM",
+            "“Billie Jean”",
+            "“Thriller”",
+            "“Beat It”",
+            "first album with heavy MJ involvement in writing",
+            "image transformation",
+            "fashion icon era"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-i-want-you-back"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Want You Back” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Michael Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son compare production differences between the three eras (horns → synths → sharper drum machines).",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "michael-jackson-lesson-04-choreography-mj-as-movement-architect",
+      "number": 4,
+      "title": "Choreography — MJ as Movement Architect",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach dance vocabulary. Michael mastered: MJ choreographed EMOTIONS, not just steps."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "locking",
+            "popping",
+            "moonwalk",
+            "glides",
+            "spins",
+            "toe stands",
+            "military precision",
+            "narrative choreography",
+            "“Billie Jean (Motown 25 performance)”",
+            "“Smooth Criminal (lean + gangster lean style)”",
+            "“Bad” (Martin Scorsese-directed)"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-billie-jean-motown-25-performance",
+        "michael-jackson-smooth-criminal-lean-gangster-lean-style",
+        "michael-jackson-bad"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Billie Jean (Motown 25 performance)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Michael Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "michael-jackson-lesson-05-music-videos-the-birth-of-the-visual-album-er",
+      "number": 5,
+      "title": "Music Videos — The Birth of the Visual Album Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Album Era Goals: MJ created MTV as we know it. Music videos = Key Films: “What makes these videos FEEL like movies?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "movie-level budgets",
+            "narrative storytelling",
+            "special effects",
+            "costume design",
+            "choreography as cinematic language",
+            "“Thriller”",
+            "“Smooth Criminal”",
+            "“Black or White”",
+            "“Remember the Time” (an ALL-Black Egyptian cast!)"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-i-want-you-back"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Want You Back” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes these videos FEEL like movies?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask your son: “What makes these videos FEEL like movies?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "michael-jackson-lesson-06-production-genius-mj-the-musician-not-just-a",
+      "number": 6,
+      "title": "Production Genius — MJ the Musician, Not Just a Performer",
+      "body": [
+        {
+          "type": "text",
+          "text": "Just a Performer Goals: Teach that MJ wrote, arranged, and demoed deeply. MJ demos show: Teach your son: Most “pop stars” wait for a producer. MJ BUILT songs from scratch."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "vocal percussion",
+            "guitar-like mouth sounds",
+            "arrangement ideas fully mapped out",
+            "rhythmic intelligence off the charts",
+            "“Beat It” demo",
+            "“Don’t Stop Til You Get Enough” home demo",
+            "“Working Day and Night” demo"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-beat-it",
+        "michael-jackson-working-day-and-night"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Beat It” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Michael Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "michael-jackson-lesson-07-social-justice-era-dangerous-history",
+      "number": 7,
+      "title": "Social Justice Era — Dangerous + HIStory",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach activist M.J. Themes: Lesson: Michael used pop to talk about pain, systems, and the world’s soul."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "racism",
+            "police brutality",
+            "environmental collapse",
+            "children’s safety",
+            "media corruption",
+            "global healing",
+            "“Jam”",
+            "“Black or White”",
+            "“They Don’t Care About Us”",
+            "“Earth Song”",
+            "“Heal the World”"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-jam",
+        "michael-jackson-black-or-white",
+        "michael-jackson-they-don-t-care-about-us",
+        "michael-jackson-earth-song",
+        "michael-jackson-heal-the-world"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Jam” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Michael Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "michael-jackson-lesson-08-image-fashion-and-persona-mj-as-iconographer",
+      "number": 8,
+      "title": "Image, Fashion, & Persona — MJ as Iconographer",
+      "body": [
+        {
+          "type": "text",
+          "text": "Iconographer Goals: Teach visual symbolism. Signature looks: Teach your son: Michael used clothing as an argument about identity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "military jackets",
+            "fedora + loafers",
+            "sequined glove",
+            "red Thriller jacket",
+            "black-and-white contrast",
+            "armbands (symbolizing global suffering)"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-i-want-you-back"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Want You Back” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Michael Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "michael-jackson-lesson-09-media-myth-and-trauma-understanding-the-human",
+      "number": 9,
+      "title": "Media, Myth, & Trauma — Understanding the Human Being",
+      "body": [
+        {
+          "type": "text",
+          "text": "Human Being Goals: Teach empathy + media literacy. Topics: Talk about: How trauma and genius complicated each other. This fosters compassion, not idolization."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "abusive childhood",
+            "fame at age 5",
+            "parasocial relationships",
+            "loneliness",
+            "media exploitation",
+            "racialized scrutiny",
+            "tabloid sensationalism"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-i-want-you-back"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Want You Back” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Michael Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "michael-jackson-lesson-10-michael-jackson-s-monumental-influence-tree",
+      "number": 10,
+      "title": "Michael Jackson’s Monumental Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Tree Goals: Show his global scale. Direct musical influence: Dance influence: Visual influence: Social influence: Your son gon’ see: There is PRE-MJ and POST-MJ. Period."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Usher",
+            "Chris Brown",
+            "Ne-Yo",
+            "The Weeknd",
+            "Bruno Mars",
+            "Beyoncé",
+            "Justin Bieber",
+            "Janelle Monáe",
+            "Pharrell",
+            "Timberlake",
+            "Dawn Richard",
+            "Ciara",
+            "Omarion",
+            "Miguel",
+            "every modern pop performer",
+            "K-pop choreography standards",
+            "TikTok dance culture roots trace to MJ",
+            "concept albums",
+            "visual albums",
+            "tour staging",
+            "fashion in pop/R&B",
+            "global charity concerts",
+            "humanitarian activism",
+            "multicultural artistic identity"
+          ]
+        }
+      ],
+      "listen": [
+        "michael-jackson-i-want-you-back"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Want You Back” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Michael Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Michael Jackson revolutionized global pop music through his vocal innovations, choreography language, and cinematic storytelling. Compare ONE Quincy-era track (‘Billie Jean,’ ‘Human Nature,’ or ‘Smooth Criminal’) with ONE post-Quincy social commentary track (‘Earth Song,’ ‘They Don’t Care About Us’). Identify THREE modern artists whose entire careers or performance styles are directly built on MJ’s blueprint.",
+    "earlyOptions": [
+      "michael-jackson-i-want-you-back"
+    ],
+    "laterOptions": [
+      "michael-jackson-heal-the-world"
+    ],
+    "influencedCount": 3
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "violence",
+    "trauma"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 68, pages 896-910. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

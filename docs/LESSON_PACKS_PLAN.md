@@ -9,10 +9,18 @@ through the existing five-stage lesson flow. A clearly labeled draft demo pack i
 development builds so the complete flow can be exercised offline without publishing unapproved
 editorial content.
 
-Phase 2 remains intentionally unimplemented until Paperweight has an approved pack and catalog host.
-The bundled catalog already sits behind a `LessonPackCatalog` interface; the next adapter can add the
-allow-listed HTTPS catalog, temporary downloads, SHA-256 verification, compatibility checks, retry
-states, and atomic updates described below without changing the screen or repository contracts.
+Phase 2 infrastructure is implemented. The app now reads a strict first-party catalog from the exact
+HTTPS host `paperweighthq.com`, caches successful catalog checks for 24 hours, downloads native
+artifacts through an Expo FileSystem cache file (and through capped Fetch streaming on web), verifies
+their exact byte count and SHA-256 digest before parsing, enforces app-version and editorial gates,
+and replaces an installed version only after every check passes. Browse/detail screens expose refresh,
+progress, retry, update, storage, offline fallback, and removal states.
+
+Pack 01 — **The Soul Foundation** is reproducibly bundled from the five units named in
+[`docs/req_packs.md`](req_packs.md). It remains development-only because every imported source unit is
+still draft. Production release is therefore intentionally blocked until those units and the pack are
+editorially approved and the generated catalog/manifest artifacts are deployed at the configured
+Paperweight paths.
 
 All new pack content must begin with
 [`docs/content-templates/lesson-pack.v1.template.json`](content-templates/lesson-pack.v1.template.json)
@@ -173,6 +181,10 @@ Exit: the entire flow works offline with one fixture pack and survives app resta
 Exit: a production-approved Paperweight pack can be installed, used fully offline, updated safely, and
 removed without corrupting family data.
 
+**Status: implementation complete; publishing exit pending.** The verified pipeline and Pack 1
+artifact are in place, but the exit criterion cannot be claimed until Pack 1 is approved, hosted, and
+tested from the production endpoint.
+
 ### Phase 3 — commerce or outside publishers (only if needed)
 
 - Decide entitlement/account model, restore purchases, refund behavior, and family sharing.
@@ -185,5 +197,6 @@ removed without corrupting family data.
 2. Does “Add pack” mean add every lesson or open a selection screen? **Recommended: offer both.**
 3. Should a plan be a queue or calendar? **Recommended: queue first.**
 4. Can packs include images? **Recommended: text and track metadata first; add compressed images later.**
-5. Where will the catalog be hosted? **Recommended: the existing Paperweight domain/CDN on one
-   exactly allow-listed HTTPS host.**
+5. Where will the catalog be hosted? **Selected in code: `paperweighthq.com` only.** Deploy the
+   generated catalog to `/required-listening/packs/catalog.v1.json` and each immutable manifest to
+   `/required-listening/packs/{packId}/{version}/pack.json`.

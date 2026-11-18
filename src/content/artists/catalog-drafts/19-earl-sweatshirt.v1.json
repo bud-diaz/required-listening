@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "id": "earl-sweatshirt",
+  "number": 19,
+  "displayName": "Earl Sweatshirt",
+  "monogram": "ES",
+  "whyItMatters": "Earl Sweatshirt matters because the source catalog identifies this route with The son of a poet + activist & the musical heir of rap experimentation, The cryptic prince of underground lyricism, The master of anti-flow, anti-pop structure, anti-hook writing, A philosopher who hides meaning beneath layers.",
+  "passedDown": {
+    "trackId": "earl-sweatshirt-earl",
+    "blurb": "Start with “Earl” and use the unit's checkpoints to hear how Earl Sweatshirt's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "earl-sweatshirt-ontheway",
+      "earl-sweatshirt-45"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The son of a poet + activist & the musical heir of rap experimentation",
+      "The cryptic prince of underground lyricism",
+      "The master of anti-flow, anti-pop structure, anti-hook writing",
+      "A philosopher who hides meaning beneath layers",
+      "A man who turned trauma and exile into artistic depth",
+      "A blueprint for “anti-commercial” rap that still moves culture",
+      "Metaphor layering",
+      "Internal rhyme density"
+    ],
+    "closing": "This unit gone sharpen his MIND."
+  },
+  "learnOutcomes": [
+    "Metaphor layering",
+    "Internal rhyme density",
+    "Abstraction & oblique storytelling",
+    "Trauma literacy",
+    "The evolution of the underground",
+    "Jazz-influenced production",
+    "Experimental beat structures",
+    "How odd cadence CAN be musical",
+    "Art as therapy and resistance"
+  ],
+  "tracks": [
+    {
+      "id": "earl-sweatshirt-earl",
+      "title": "Earl",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Earl Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-chum",
+      "title": "Chum",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Chum Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-hive",
+      "title": "Hive",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Hive Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-burgundy",
+      "title": "Burgundy",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Burgundy Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-sunday",
+      "title": "Sunday",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Sunday Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-grief",
+      "title": "Grief",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Grief Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-off-top",
+      "title": "Off Top",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Off Top Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-am-radio",
+      "title": "AM // Radio",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "AM // Radio Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-peanut",
+      "title": "Peanut",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Peanut Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-dna",
+      "title": "DNA",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "DNA Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-nowhere2go",
+      "title": "Nowhere2go",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Nowhere2go Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-shattered-dreams",
+      "title": "Shattered Dreams",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Shattered Dreams Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-cold-summers",
+      "title": "Cold Summers",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Cold Summers Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-ontheway",
+      "title": "Ontheway!",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Ontheway! Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-azucar",
+      "title": "Azucar",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Azucar Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-tabula-rasa",
+      "title": "Tabula Rasa",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Tabula Rasa Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-2010",
+      "title": "2010",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "2010 Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-titanic",
+      "title": "Titanic",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Titanic Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-weight-of-the-world",
+      "title": "Weight of the World.",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Weight of the World. Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "earl-sweatshirt-45",
+      "title": "45",
+      "artist": "Earl Sweatshirt",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "45 Earl Sweatshirt",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 164-176. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "earl-sweatshirt-lesson-01-origins-poetry-south-africa-and-odd-future",
+      "number": 1,
+      "title": "Origins — Poetry, South Africa, & Odd Future",
+      "body": [
+        {
+          "type": "text",
+          "text": "Future Goals: Teach Earl’s intellectual & cultural foundation. “How does a teenager write THIS complex?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Thebe Kgositsile",
+            "Son of South African poet Keorapetse Kgositsile",
+            "Household rooted in literature, activism, African identity",
+            "Early writing talent at 14–15",
+            "Joining Odd Future → shock rap era, rebellion, teenage angst",
+            "The “Free Earl” era + boarding school in Samoa",
+            "Trauma, isolation, and artistic shift",
+            "“Earl” (the shock rap one — for when he's older)"
+          ]
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-earl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Earl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does a teenager write THIS complex?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "earl-sweatshirt-lesson-02-technical-lyricism-rhyme-density-and-line-pac",
+      "number": 2,
+      "title": "Technical Lyricism — Rhyme Density & Line Packing",
+      "body": [
+        {
+          "type": "text",
+          "text": "Packing Goals: Build rap literacy. Teach Earl’s tools: Take the first verse of “Chum.” Have your son highlight: That’s a whole English lesson."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Internal rhymes stacked inside every bar",
+            "Multi-syllable rhyme chains",
+            "Phrasing with no breath breaks",
+            "Vocab-heavy lines",
+            "Double/triple meanings",
+            "Bars folding back on each other",
+            "internal rhymes",
+            "multisyllabic patterns",
+            "emotional keywords"
+          ]
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-ontheway",
+        "earl-sweatshirt-45"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ontheway!” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Earl Sweatshirt after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Take the first verse of “Chum.” Have your son highlight:",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "earl-sweatshirt-lesson-03-doris-the-dark-confessional-era",
+      "number": 3,
+      "title": "Doris — The Dark Confessional Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Explain depression-era Earl. Break down “Chum.” “How do you hear sadness WITHOUT loud emotion?” Teaches emotional nuance."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Post-Samoa trauma",
+            "Confusion, guilt, resentment",
+            "Abnormal time signatures",
+            "Murky beats",
+            "Earl learning “deadpan delivery”",
+            "Detached emotional tone",
+            "The beginnings of minimalist-aggressive aesthetic",
+            "“Chum”",
+            "“Hive”",
+            "“Burgundy”",
+            "“Sunday”"
+          ]
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-chum",
+        "earl-sweatshirt-hive",
+        "earl-sweatshirt-burgundy",
+        "earl-sweatshirt-sunday"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Chum” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do you hear sadness WITHOUT loud emotion?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Break down “Chum.” Ask:",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, trauma, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "earl-sweatshirt-lesson-04-flow-mechanics-anti-flow-as-intent",
+      "number": 4,
+      "title": "Flow Mechanics — Anti-Flow as Intent",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach that rap ain’t only about smoothness. Earl uses: This teaches your son: “Rhythm can be broken ON PURPOSE.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "deliberately off-kilter delivery",
+            "run-on sentences",
+            "odd bar lengths",
+            "sudden stops",
+            "mumbled syllables used as texture",
+            "phrases you must replay 3x to decode",
+            "jazz-like spoken cadence",
+            "conversational-but-poetic tone"
+          ]
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-earl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Earl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Earl Sweatshirt after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "earl-sweatshirt-lesson-05-i-don-t-like-shit-i-don-t-go-outside-minimali",
+      "number": 5,
+      "title": "I Don’t Like Shit, I Don’t Go Outside — Minimalism as Form",
+      "body": [
+        {
+          "type": "text",
+          "text": "Minimalism as Form Goals: Teach space, mood, and claustrophobia. Have your son describe the FEELING of “Grief.” It’s a sonic panic attack."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Short songs",
+            "Murky, muddy mixes ON PURPOSE",
+            "Depression, isolation, mistrust",
+            "Sparse drums",
+            "Tight low-end loops",
+            "Earl producing himself",
+            "Writing like diary entries",
+            "“Grief”",
+            "“Off Top”",
+            "“AM // Radio”"
+          ]
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-grief",
+        "earl-sweatshirt-off-top",
+        "earl-sweatshirt-am-radio"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Grief” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Earl Sweatshirt after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son describe the FEELING of “Grief.” It’s a sonic panic attack.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "earl-sweatshirt-lesson-06-earl-the-producer-loops-dust-and-jazz",
+      "number": 6,
+      "title": "Earl the Producer — Loops, Dust, & Jazz",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach sampling + experimental production. “Why does this beat sound like it’s falling apart on purpose?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Earl uses loops like Dilla…but SLOWER & grimmer",
+            "Vinyl dust + dirt as texture",
+            "Less drums → more mood",
+            "Jazz harmony shapes",
+            "Dissonant chords",
+            "Vocal samples chopped into eerie ambience",
+            "Beats that sound like abandoned rooms",
+            "“Peanut”",
+            "“DNA”",
+            "“Nowhere2go”"
+          ]
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-peanut",
+        "earl-sweatshirt-dna",
+        "earl-sweatshirt-nowhere2go"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Peanut” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does this beat sound like it’s falling apart on purpose?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "earl-sweatshirt-lesson-07-some-rap-songs-abstract-mastery-and-grief-pro",
+      "number": 7,
+      "title": "Some Rap Songs — Abstract Mastery & Grief Processing",
+      "body": [
+        {
+          "type": "text",
+          "text": "Grief Processing Goals: Teach avant-garde rap. Explain album as: This is abstract art, not typical music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Death of Earl’s father",
+            "Chaotic loops & no drums style",
+            "15-second ideas → puzzle-piece structure",
+            "Avant-garde jazz influence (Ornette Coleman energy)",
+            "Recording techniques mimicking broken memories",
+            "Short songs → fleeting thoughts",
+            "The album is grief in collage form",
+            "“Shattered Dreams”",
+            "“Cold Summers”",
+            "“Ontheway!”",
+            "“Azucar”",
+            "memory fragments",
+            "emotional snapshots",
+            "nonlinear narrative"
+          ]
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-shattered-dreams",
+        "earl-sweatshirt-cold-summers",
+        "earl-sweatshirt-ontheway",
+        "earl-sweatshirt-azucar"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Shattered Dreams” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Earl Sweatshirt after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain album as: ● memory fragments",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "earl-sweatshirt-lesson-08-sick-and-recent-work-equilibrium-and-maturity",
+      "number": 8,
+      "title": "SICK! & Recent Work — Equilibrium & Maturity",
+      "body": [
+        {
+          "type": "text",
+          "text": "Maturity Goals: Show Earl evolving emotionally. “How does Earl sound older but still Earl?” Let your son hear evolution."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Fatherhood",
+            "Therapy influence",
+            "Cleaner production (but still dusty)",
+            "Self-awareness",
+            "Survivor’s wisdom",
+            "Still cryptic, but less self-destructive tone",
+            "Controlled introspection",
+            "“Tabula Rasa”",
+            "“2010”",
+            "“Titanic”"
+          ]
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-tabula-rasa",
+        "earl-sweatshirt-2010",
+        "earl-sweatshirt-titanic"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tabula Rasa” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Earl sound older but still Earl?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask: “How does Earl sound older but still Earl?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "earl-sweatshirt-lesson-09-earl-s-influence-on-modern-rap",
+      "number": 9,
+      "title": "Earl’s Influence on Modern Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show Earl’s cultural reach. Direct descendants: AND the entire “lo-fi abstract/underground” movement. Play MIKE’s “Weight of the World.” Ask your son to identify Earl’s fingerprints (low drums, loopy feel, introspection)."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "MIKE",
+            "Navy Blue",
+            "Mavi",
+            "Pink Siifu",
+            "Slauson Malone",
+            "Boldy James (pacing influence)",
+            "Armand Hammer",
+            "JPEGMAFIA (chaos influence)",
+            "Tyler, The Creator (mutual, evolution influence)"
+          ]
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-weight-of-the-world"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Weight of the World.” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Earl Sweatshirt after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play MIKE’s “Weight of the World.” Ask your son to identify Earl’s fingerprints (low drums, loopy feel, introspection).",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "earl-sweatshirt-lesson-10-why-earl-matters-final-synthesis",
+      "number": 10,
+      "title": "Why Earl Matters — Final Synthesis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Make your son articulate Earl’s artistic place. Have him evaluate: 1. Lyric density 2. Flow experimentation 3. Minimalism vs complexity 4. Jazz influence 5. Emotional honesty 6. Spiritual influence (African diasporic identity) 7. Trauma + healing arcs 8. Underground-to-mainstream bridge 9. Production philosophy 10. Influence on the 2020s rap landscape This builds critical & emotional intelligence."
+        }
+      ],
+      "listen": [
+        "earl-sweatshirt-earl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Earl” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Earl Sweatshirt after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Earl Sweatshirt reshaped underground rap through lyricism, experimental production, and emotional vulnerability. Use ONE album analysis (Some Rap Songs or Doris) and TWO influence comparisons.",
+    "earlyOptions": [
+      "earl-sweatshirt-earl"
+    ],
+    "laterOptions": [
+      "earl-sweatshirt-weight-of-the-world"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "trauma",
+    "mature-themes",
+    "violence",
+    "weapons"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 13, pages 164-176. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "id": "keith-sweat",
+  "number": 38,
+  "displayName": "Keith Sweat",
+  "monogram": "KS",
+  "whyItMatters": "the whine king, the New Jack Swing narrator, the master of “I messed up, please come home” energy. He created a whole R&B archetype: the emotionally messy, vocally pleading, drama-fueled lover man.",
+  "passedDown": {
+    "trackId": "keith-sweat-something-just-ain-t-right",
+    "blurb": "Start with “Something Just Ain’t Right” and use the unit's checkpoints to hear how Keith Sweat's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "keith-sweat-make-it-last-forever",
+      "keith-sweat-i-want-her",
+      "keith-sweat-right-and-a-wrong-way"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "vulnerability in male R&B",
+      "confession-style songwriting",
+      "early New Jack Swing production",
+      "begging-as-artform (yes it’s a skill)",
+      "how Keith influenced 30 YEARS of R&B men",
+      "how attitude + tone make a signature sound"
+    ],
+    "closing": "This one smooth, toxic, honest… all at the same time."
+  },
+  "learnOutcomes": [
+    "vulnerability in male R&B",
+    "confession-style songwriting",
+    "early New Jack Swing production",
+    "begging-as-artform (yes it’s a skill)",
+    "how Keith influenced 30 YEARS of R&B men",
+    "how attitude + tone make a signature sound"
+  ],
+  "tracks": [
+    {
+      "id": "keith-sweat-make-it-last-forever",
+      "title": "Make It Last Forever",
+      "artist": "Keith Sweat",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Make It Last Forever Keith Sweat",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 444-456. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "keith-sweat-i-want-her",
+      "title": "I Want Her",
+      "artist": "Keith Sweat",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Want Her Keith Sweat",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 444-456. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "keith-sweat-something-just-ain-t-right",
+      "title": "Something Just Ain’t Right",
+      "artist": "Keith Sweat",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Something Just Ain’t Right Keith Sweat",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 444-456. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "keith-sweat-right-and-a-wrong-way",
+      "title": "Right and a Wrong Way",
+      "artist": "Keith Sweat",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Right and a Wrong Way Keith Sweat",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 444-456. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "keith-sweat-nobody",
+      "title": "Nobody",
+      "artist": "Keith Sweat",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Nobody Keith Sweat",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 444-456. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "keith-sweat-my-body",
+      "title": "My Body",
+      "artist": "Keith Sweat",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "My Body Keith Sweat",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 444-456. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "keith-sweat-sweet-lady",
+      "title": "Sweet Lady.",
+      "artist": "Keith Sweat",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Sweet Lady. Keith Sweat",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 444-456. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "keith-sweat-lesson-01-origins-harlem-hustle-wall-street-job-r-and-b",
+      "number": 1,
+      "title": "Origins — Harlem Hustle, Wall Street Job, R&B Calling",
+      "body": [
+        {
+          "type": "text",
+          "text": "R&B Calling Teach him Keith’s backstory: “What makes this sound older but still cool?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born in Harlem",
+            "worked a whole Wall Street job before blowing up",
+            "started with a local band (Jamilah)",
+            "that Harlem slick-talk + 80s R&B = perfect stew",
+            "“Don’t Stop Your Love”"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-make-it-last-forever",
+        "keith-sweat-right-and-a-wrong-way"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Make It Last Forever” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes this sound older but still cool?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "keith-sweat-lesson-02-voice-the-trademark-whine",
+      "number": 2,
+      "title": "Voice — The Trademark “Whine”",
+      "body": [
+        {
+          "type": "text",
+          "text": "Keith’s signature tone: Explain: Keith ain't tryna out-sing nobody. He talkin’ his way into winning. That’s a skill."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "nasal whine",
+            "raspy edges",
+            "talk-singing",
+            "emotional pleading",
+            "conversational ad-libs (“YEAH… baby…”)",
+            "cadence that feels like arguing at midnight",
+            "“Make It Last Forever”",
+            "“I Want Her”"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-make-it-last-forever",
+        "keith-sweat-i-want-her"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Make It Last Forever” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Keith Sweat after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "keith-sweat-lesson-03-new-jack-swing-keith-teddy-riley-tag-team",
+      "number": 3,
+      "title": "New Jack Swing — Keith + Teddy Riley Tag Team",
+      "body": [
+        {
+          "type": "text",
+          "text": "Team Keith Sweat is one of the dudes who MADE New Jack Swing mainstream. Key collaborations: Let your son hear the swing, not just the beat."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "created by Teddy Riley",
+            "fusion of R&B melodies + hip-hop drums",
+            "uptempo but emotional",
+            "danceable but dramatic",
+            "“I Want Her”",
+            "“Don’t Stop Your Love”",
+            "“Make It Last Forever”"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-something-just-ain-t-right"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Something Just Ain’t Right” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Keith Sweat after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "keith-sweat-lesson-04-make-it-last-forever-debut-album-that-shifted",
+      "number": 4,
+      "title": "Make It Last Forever — Debut Album That Shifted The Whole R&B Landscape",
+      "body": [
+        {
+          "type": "text",
+          "text": "Shifted The Whole R&B Landscape This album is: Teach your son: Men being soft and messy on record? Keith opened that door WIDE."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "80s R&B core",
+            "begging anthem central",
+            "slow jam heaven",
+            "one of the best male debut R&B albums ever",
+            "“Make It Last Forever” ft. Jacci McGhee",
+            "“Something Just Ain’t Right”",
+            "“Right and a Wrong Way”"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-make-it-last-forever",
+        "keith-sweat-something-just-ain-t-right",
+        "keith-sweat-right-and-a-wrong-way"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Make It Last Forever” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Men being soft and messy on record?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "keith-sweat-lesson-05-relationship-themes-emotional-honesty-toxic-c",
+      "number": 5,
+      "title": "Relationship Themes — Emotional Honesty + Toxic Confession",
+      "body": [
+        {
+          "type": "text",
+          "text": "+ Toxic Confession Keith writes about: Explain: This the blueprint for grown R&B drama."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "regret",
+            "begging",
+            "apologizing",
+            "wanting better",
+            "messing up",
+            "trying again",
+            "adult relationships",
+            "messy love",
+            "“Nobody” (the duet version is required education)"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-nobody"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nobody” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Keith Sweat after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "keith-sweat-lesson-06-slow-jams-king-bedroom-playlist-architect",
+      "number": 6,
+      "title": "Slow Jams King — Bedroom Playlist Architect",
+      "body": [
+        {
+          "type": "text",
+          "text": "Architect Essential tracks: Explain to your son: Slow jams teach pacing, tone, patience, and intimacy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "90s bedroom R&B was BUILT on Keith Sweat’s energy",
+            "he mastered mid-tempo + slow grooves",
+            "production always left SPACE for emotion",
+            "“Twisted” (one of his biggest records)",
+            "“Nobody”",
+            "“Come and Get With Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-something-just-ain-t-right"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Something Just Ain’t Right” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Keith Sweat after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "keith-sweat-lesson-07-lsg-supergroup-era",
+      "number": 7,
+      "title": "LSG — Supergroup Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "His group with Gerald Levert & Johnny Gill = three powerhouse male R&B styles forming Voltron. “How does Keith sound DIFFERENT when he’s next to stronger vocalists?” → teaches vocal identity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "vocal layering",
+            "male harmony",
+            "90s R&B collaboration culture",
+            "“My Body”"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-my-body"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “My Body” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Keith sound DIFFERENT when he’s next to stronger vocalists?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "keith-sweat-lesson-08-keith-s-influence-on-modern-r-and-b-men",
+      "number": 8,
+      "title": "Keith’s Influence On Modern R&B Men",
+      "body": [
+        {
+          "type": "text",
+          "text": "His DNA is everywhere. DIRECT Influence: INDIRECT Influence: Play Keith’s “Right and a Wrong Way” → then Tyrese “Sweet Lady.” Your son will HEAR the lineage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Tyrese",
+            "Tank",
+            "Jaheim",
+            "Joe",
+            "Avant",
+            "Donell Jones",
+            "Weeknd (emotional pleading)",
+            "Brent Faiyaz (toxic whisper talk)",
+            "Chris Brown (confessional tone)",
+            "PartyNextDoor (moody talk-singing)"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-right-and-a-wrong-way",
+        "keith-sweat-sweet-lady"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Right and a Wrong Way” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Keith Sweat after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Keith’s “Right and a Wrong Way” → then Tyrese “Sweet Lady.” Your son will HEAR the lineage.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "keith-sweat-lesson-09-performance-style-sweat-drama-and-stage-prese",
+      "number": 9,
+      "title": "Performance Style — Sweat, Drama, and Stage Presence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Stage Presence Keith on stage: Watch: Explain: Emotional delivery, not dancing, made Keith iconic."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "emotional runs",
+            "dramatic gestures",
+            "“I’m fighting for this woman” energy",
+            "performance as begging",
+            "charisma without choreography",
+            "old live performances of “Make It Last Forever”",
+            "LSG shows"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-something-just-ain-t-right"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Something Just Ain’t Right” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Keith Sweat after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "keith-sweat-lesson-10-legacy-the-blueprint-for-begging-and-grown-fo",
+      "number": 10,
+      "title": "Legacy — The Blueprint for Begging & Grown Folk R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Grown Folk R&B Keith Sweat stands for: He made men ADMIT their feelings on wax. That alone earns him a whole unit."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "vulnerability in Black men",
+            "owning your flaws",
+            "direct emotional communication",
+            "the soundtrack of adult relationships",
+            "New Jack Swing foundation",
+            "intergenerational slow jams"
+          ]
+        }
+      ],
+      "listen": [
+        "keith-sweat-something-just-ain-t-right"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Something Just Ain’t Right” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Keith Sweat after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Keith Sweat shaped New Jack Swing and male R&B through emotional honesty, talk-singing, and slow-jam craftsmanship. Compare ONE early Teddy Riley collab (‘I Want Her’ or ‘Make It Last Forever’) with ONE 90s hit (‘Twisted’ or ‘Nobody’). Identify TWO modern artists who clearly carry Keith Sweat’s influence.",
+    "earlyOptions": [
+      "keith-sweat-something-just-ain-t-right"
+    ],
+    "laterOptions": [
+      "keith-sweat-sweet-lady"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 34, pages 444-456. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

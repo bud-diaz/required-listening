@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "id": "future",
+  "number": 12,
+  "displayName": "Future",
+  "monogram": "FU",
+  "whyItMatters": "Future matters because the source catalog identifies this route with One of the most influential rap artists of the last 15 years, Pioneer of melodic trap + auto-tuned pain music, Street poet who hides emotional rawness behind swagger, Flow innovator with dozens of pockets.",
+  "passedDown": {
+    "trackId": "future-tony-montana",
+    "blurb": "Start with “Tony Montana” and use the unit's checkpoints to hear how Future's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "future-where-ya-at",
+      "future-mask-off",
+      "future-low-life",
+      "future-life-is-good",
+      "future-selfish"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "One of the most influential rap artists of the last 15 years",
+      "Pioneer of melodic trap + auto-tuned pain music",
+      "Street poet who hides emotional rawness behind swagger",
+      "Flow innovator with dozens of pockets",
+      "Creator of “toxic R&B” before it was a phrase",
+      "The blueprint for modern Atlanta sound",
+      "Prolific, consistent, culturally omnipresent",
+      "cadence flexibility"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "cadence flexibility",
+    "mood-driven music",
+    "trap production structures",
+    "Atlanta music history",
+    "emotional reading between the lines",
+    "artistic reinvention"
+  ],
+  "tracks": [
+    {
+      "id": "future-tony-montana",
+      "title": "Tony Montana",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Tony Montana Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-codeine-crazy",
+      "title": "Codeine Crazy",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes",
+        "substances"
+      ],
+      "searchQuery": "Codeine Crazy Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-magic",
+      "title": "Magic",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Magic Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-same-damn-time",
+      "title": "Same Damn Time",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Same Damn Time Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-turn-on-the-lights",
+      "title": "Turn On the Lights.",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Turn On the Lights. Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-throw-away",
+      "title": "Throw Away",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Throw Away Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-march-madness",
+      "title": "March Madness",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "March Madness Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-thought-it-was-a-drought",
+      "title": "Thought It Was a Drought",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Thought It Was a Drought Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-where-ya-at",
+      "title": "Where Ya At",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Where Ya At Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-f-up-some-commas",
+      "title": "F*** Up Some Commas",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "F*** Up Some Commas Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-real-sisters",
+      "title": "Real Sisters",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Real Sisters Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-mask-off",
+      "title": "Mask Off",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Mask Off Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-jumpman",
+      "title": "Jumpman",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Jumpman Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-my-collection",
+      "title": "My Collection",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "My Collection Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-low-life",
+      "title": "Low Life",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Low Life Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-incredible",
+      "title": "Incredible",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Incredible Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-extra-luv",
+      "title": "Extra Luv",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Extra Luv Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-life-is-good",
+      "title": "Life Is Good",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Life Is Good Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-selfish",
+      "title": "Selfish",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Selfish Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "future-lesson-01-origins-dungeon-family-atlanta-roots-and-melo",
+      "number": 1,
+      "title": "Origins — Dungeon Family, Atlanta Roots & Melodic DNA",
+      "body": [
+        {
+          "type": "text",
+          "text": "Melodic DNA Goals: Teach lineage. “How does his voice blend melody + rapping?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Nayvadius Wilburn in Atlanta (Kirkwood)",
+            "Named “Future” by his cousin Rico Wade (Dungeon Family / Organized Noize)",
+            "Grew up around legends: OutKast, Goodie Mob",
+            "OG ATL lineage → futurist sound",
+            "Early days: writing for others, mixtape grinding",
+            "“Tony Montana”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-mask-off",
+        "future-life-is-good"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Mask Off” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does his voice blend melody + rapping?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "future-lesson-02-auto-tune-as-emotion-not-correction",
+      "number": 2,
+      "title": "Auto-Tune as Emotion — Not Correction",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal style. Future uses Auto-Tune to: “Why does he sound hurt even when he bragging?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "express numbness",
+            "hide pain",
+            "stretch syllables",
+            "create robotic sadness",
+            "turn voice into an instrument",
+            "channel gospel-like wails through trap filters",
+            "“Codeine Crazy” (later lesson, but important)"
+          ]
+        }
+      ],
+      "listen": [
+        "future-codeine-crazy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Codeine Crazy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does he sound hurt even when he bragging?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-03-early-mixtape-run-dirty-sprite-astronaut-stat",
+      "number": 3,
+      "title": "Early Mixtape Run — Dirty Sprite, Astronaut Status, True Story",
+      "body": [
+        {
+          "type": "text",
+          "text": "Status, True Story Goals: Show the slow build. Traits: Your son learns the POWER of a simple, sticky hook."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "hypnotic flows",
+            "catchy hook patterns",
+            "heavy 808s",
+            "sci-fi ad-libs (“pluto!”)",
+            "“Magic”",
+            "“Same Damn Time”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-magic",
+        "future-same-damn-time"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Magic” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "future-lesson-04-pluto-and-honest-emotional-experimentation",
+      "number": 4,
+      "title": "Pluto & Honest — Emotional Experimentation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Experimentation Goals: Show range & vulnerability. Explain: Tracks: Compare “Magic” → “Turn On the Lights.” Two different men, same artist."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Turn On the Lights” — romantic anthem",
+            "Future can toggle between:",
+            "tender",
+            "cold",
+            "braggy",
+            "depressed",
+            "“Turn On the Lights”",
+            "“Honest”",
+            "“I Won”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-magic",
+        "future-turn-on-the-lights"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Magic” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare “Magic” → “Turn On the Lights.” Two different men, same artist.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-05-the-monster-era-dark-pain-drug-confessions-ca",
+      "number": 5,
+      "title": "The Monster Era — Dark Pain, Drug Confessions, Catharsis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Confessions, Catharsis Goals: Teach emotional subtext. This run is historic: Themes: Break down “Throw Away” — two songs in one, mood shift is CRAZY."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Monster",
+            "Beast Mode",
+            "56 Nights",
+            "heartbreak (Ciara breakup)",
+            "addiction",
+            "numbness",
+            "regret",
+            "nihilism",
+            "loneliness masked by flexing",
+            "“Codeine Crazy”",
+            "“Throw Away”",
+            "“March Madness”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-codeine-crazy",
+        "future-throw-away",
+        "future-march-madness"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Codeine Crazy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Throw Away” — two songs in one, mood shift is CRAZY.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, trauma, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-06-ds2-the-trap-bible",
+      "number": 6,
+      "title": "DS2 — The Trap Bible",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach trap perfection. This is Future at FULL power. Traits: “What’s the MOOD of this album?” Answer: Addicted but unstoppable. Hurt but hardened."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "unstoppable flow",
+            "murky, muddy beats",
+            "toxicity + sadness interwoven",
+            "nihilistic swagger",
+            "legendary production from Metro Boomin, Southside",
+            "“Thought It Was a Drought”",
+            "“Where Ya At”",
+            "“F*** Up Some Commas”",
+            "“Real Sisters”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-thought-it-was-a-drought",
+        "future-where-ya-at",
+        "future-f-up-some-commas",
+        "future-real-sisters"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Thought It Was a Drought” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What’s the MOOD of this album?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-07-future-x-metro-chemistry-of-a-generation",
+      "number": 7,
+      "title": "Future x Metro: Chemistry of a Generation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach producer–artist synergy. Metro Boomin = Future’s voice sits PERFECT on his production. Explain synergy and trust in creative partnerships."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "brooding tones",
+            "cinematic tension",
+            "spacey pads",
+            "rattling drums",
+            "dark minimalism",
+            "“Mask Off”",
+            "“Jumpman”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-mask-off",
+        "future-jumpman"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Mask Off” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "future-lesson-08-future-the-toxic-lover-r-and-b-via-trap",
+      "number": 8,
+      "title": "Future the Toxic Lover — R&B via Trap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach masculinity duality. Future songs often show: Lesson: Black men deserve space to explore emotional contradictions."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fear of intimacy",
+            "deep attachment",
+            "self-sabotage",
+            "addiction metaphors",
+            "longing",
+            "but expressed through bravado",
+            "“My Collection”",
+            "“Low Life”",
+            "“Incredible”",
+            "“Extra Luv”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-my-collection",
+        "future-low-life",
+        "future-incredible",
+        "future-extra-luv"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “My Collection” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, sexual-content, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-09-reinvention-the-wizrd-hndrxx-high-off-life",
+      "number": 9,
+      "title": "Reinvention — The WIZRD, HNDRXX, High Off Life",
+      "body": [
+        {
+          "type": "text",
+          "text": "Off Life Goals: Teach longevity. Explain: Tracks: Your son sees how an artist keeps evolving without losing identity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "HNDRXX = his pure R&B album",
+            "Future (self-titled) = trap anthem machine",
+            "The WIZRD = mythology + healing attempt",
+            "High Off Life = reflective boss era",
+            "“Selfish” (feat. Rihanna)",
+            "“Mask Off”",
+            "“Life Is Good”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-tony-montana"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tony Montana” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "future-lesson-10-future-s-influence-tree",
+      "number": 10,
+      "title": "Future’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his MASSIVE cultural footprint. DIRECT influence: INDIRECT: Play Uzi, Gunna, or Don Toliver. “Where do you hear Future in this?” He’s EVERYWHERE."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Young Thug (mutual cycle)",
+            "Gunna",
+            "Lil Baby",
+            "Travis Scott",
+            "Don Toliver",
+            "NAV",
+            "Lil Uzi Vert",
+            "YNW Melly",
+            "Juice WRLD",
+            "Playboi Carti",
+            "21 Savage (cadence + cool)",
+            "Metro Boomin’s producer empire",
+            "emo-trap wave",
+            "toxic R&B trend",
+            "mumble rap era",
+            "“melody-first” trap",
+            "half the Billboard Hot 100 from 2016–2024"
+          ]
+        }
+      ],
+      "listen": [
+        "future-tony-montana"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tony Montana” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Where do you hear Future in this?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Uzi, Gunna, or Don Toliver. Ask your son:",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Future reshaped modern trap music by blending emotional detachment, vocal experimentation, and dark atmospheric production. Compare ONE track from Monster (‘Codeine Crazy’) with ONE track from DS2 (‘Thought It Was a Drought’), and identify TWO modern artists influenced by Future.",
+    "earlyOptions": [
+      "future-tony-montana"
+    ],
+    "laterOptions": [
+      "future-extra-luv"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "trauma",
+    "mature-themes",
+    "substances",
+    "sexual-content",
+    "violence",
+    "weapons"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 4, pages 41-54. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

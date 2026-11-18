@@ -3,6 +3,7 @@ import frontMatterJson from './front-matter.v1.json';
 import crateActivityJson from './crate-activity.v1.json';
 import chiefKeefJson from './artists/01-chief-keef.v1.json';
 import { remainingUnits } from './artists/remaining-units.v1';
+import { catalogDraftUnits } from './artists/catalog-drafts.v1';
 import {
   Catalog,
   CrateActivity,
@@ -16,12 +17,12 @@ import {
 } from './schemas';
 
 /** Structured unit files. Add each newly converted unit here. */
-export const RAW_UNITS: unknown[] = [chiefKeefJson, ...remainingUnits];
+export const RAW_UNITS: unknown[] = [chiefKeefJson, ...remainingUnits, ...catalogDraftUnits];
 
 export const catalog = Catalog.parse(catalogJson);
 export const frontMatter = FrontMatter.parse(frontMatterJson);
 export const crateActivity = CrateActivity.parse(crateActivityJson);
-export const units: Unit[] = RAW_UNITS.map((u) => Unit.parse(u));
+export const units: Unit[] = RAW_UNITS.map((u) => Unit.parse(u)).sort((a, b) => a.number - b.number);
 
 /**
  * Unreviewed content is blocked in production builds and shown with a DRAFT

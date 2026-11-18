@@ -1,0 +1,658 @@
+{
+  "schemaVersion": 1,
+  "id": "tlc",
+  "number": 43,
+  "displayName": "TLC",
+  "monogram": "TL",
+  "whyItMatters": "TLC matters because the source catalog identifies this route with One of the best-selling girl groups EVER, Style icons who blended tomboy swagger with soft femininity, A perfect 3-role structure:, T-Boz – the husky-voiced leader.",
+  "passedDown": {
+    "trackId": "tlc-ain-t-2-proud-2-beg",
+    "blurb": "Start with “Ain’t 2 Proud 2 Beg” and use the unit's checkpoints to hear how TLC's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "tlc-baby-baby-baby",
+      "tlc-creep",
+      "tlc-waterfalls",
+      "tlc-diggin-on-you",
+      "tlc-no-scrubs"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "One of the best-selling girl groups EVER",
+      "Style icons who blended tomboy swagger with soft femininity",
+      "A perfect 3-role structure:",
+      "T-Boz – the husky-voiced leader",
+      "Chilli – the smooth, emotional soprano",
+      "Left Eye – the eccentric rapper/poet firecracker",
+      "Masters of message-driven R&B/pop",
+      "Innovators of streetwear, condoms-as-fashion, and safe sex advocacy"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "vocal texture differences",
+    "group identity building",
+    "90s production choices",
+    "social commentary",
+    "feminism + empowerment",
+    "artistic resilience and reinvention"
+  ],
+  "tracks": [
+    {
+      "id": "tlc-ain-t-2-proud-2-beg",
+      "title": "Ain’t 2 Proud 2 Beg",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Ain’t 2 Proud 2 Beg TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tlc-baby-baby-baby",
+      "title": "Baby-Baby-Baby",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Baby-Baby-Baby TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tlc-creep",
+      "title": "Creep",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Creep TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tlc-waterfalls",
+      "title": "Waterfalls",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Waterfalls TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tlc-red-light-special",
+      "title": "Red Light Special",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Red Light Special TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tlc-diggin-on-you",
+      "title": "Diggin’ on You",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Diggin’ on You TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tlc-no-scrubs",
+      "title": "No Scrubs",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "No Scrubs TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tlc-unpretty",
+      "title": "Unpretty",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Unpretty TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tlc-silly-ho",
+      "title": "Silly Ho",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Silly Ho TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "tlc-fanmail",
+      "title": "FanMail",
+      "artist": "TLC",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "FanMail TLC",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 508-520. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "tlc-lesson-01-origins-atlanta-laface-records-and-three-dist",
+      "number": 1,
+      "title": "Origins — Atlanta, LaFace Records & Three Distinct Energies",
+      "body": [
+        {
+          "type": "text",
+          "text": "Distinct Energies Goals: Teach how TLC formed. “How do 3 different personalities create ONE vibe?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Formed by Pebbles and L.A. Reid",
+            "Atlanta rising scene",
+            "Early 90s formula: hip-hop swagger + R&B heart",
+            "Unique mixture of energies:",
+            "T-Boz = cool, low-tone leader",
+            "Chilli = polished, sweet, emotive",
+            "Left Eye = rebellious, playful, prophetic",
+            "“Ain’t 2 Proud 2 Beg”"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-waterfalls",
+        "tlc-creep"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Waterfalls” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do 3 different personalities create ONE vibe?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "tlc-lesson-02-image-innovation-tomboy-swag-and-social-messa",
+      "number": 2,
+      "title": "Image Innovation — Tomboy Swag & Social Messaging",
+      "body": [
+        {
+          "type": "text",
+          "text": "Messaging Goals: Teach branding + identity. TLC pioneered: They taught: “You can be cute, goofy, sexy, AND socially aware all at once.” Have him compare TLC’s style to modern girl groups like Chloe x Halle, Tinashe, Destiny’s Child era — the DNA is THERE."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "baggy pants + crop tops",
+            "condoms on clothes (safe sex activism)",
+            "fun, youthful, confident visuals",
+            "balancing sexy with goofy",
+            "group identity through COLOR and ATTITUDE",
+            "empowering young girls without being preachy"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-ain-t-2-proud-2-beg"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ain’t 2 Proud 2 Beg” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of TLC after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have him compare TLC’s style to modern girl groups like Chloe x Halle, Tinashe, Destiny’s Child era — the DNA is THERE.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tlc-lesson-03-ooooooohhh-on-the-tlc-tip-fun-youthful-hip-ho",
+      "number": 3,
+      "title": "Ooooooohhh… on the TLC Tip — Fun, Youthful, Hip-Hop R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Youthful, Hip-Hop R&B Goals: Teach early sound. This debut album = Analyze how Left Eye’s verses add spice to each track."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "playful",
+            "energetic",
+            "rap × R&B fusion",
+            "teen-friendly activism",
+            "90s New Jack Swing influence",
+            "“What About Your Friends”",
+            "“Ain’t 2 Proud 2 Beg”",
+            "“Baby-Baby-Baby”"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-ain-t-2-proud-2-beg",
+        "tlc-baby-baby-baby"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ain’t 2 Proud 2 Beg” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of TLC after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Analyze how Left Eye’s verses add spice to each track.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "tlc-lesson-04-crazysexycool-sexy-grown-and-timeless",
+      "number": 4,
+      "title": "CrazySexyCool — SEXY, GROWN & TIMELESS",
+      "body": [
+        {
+          "type": "text",
+          "text": "TIMELESS Goals: Teach their mature breakthrough. One of the best R&B albums EVER. Themes: Talking points: Break down “Waterfalls” lyric themes: drugs, HIV, family, consequences. Your son gon’ learn empathy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "emotional vulnerability",
+            "intimacy",
+            "heartbreak",
+            "empowerment",
+            "sensuality",
+            "reflection",
+            "hip-hop soul production (Dallas Austin, Organized Noize)",
+            "“Creep”",
+            "“Waterfalls”",
+            "“Red Light Special”",
+            "“Diggin’ on You”",
+            "T-Boz’s husky tone = signature vibe",
+            "Chilli carries emotional smoothness",
+            "Left Eye’s rap = balance + contrast"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-creep",
+        "tlc-waterfalls",
+        "tlc-red-light-special",
+        "tlc-diggin-on-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Creep” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of TLC after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Waterfalls” lyric themes: drugs, HIV, family, consequences. Your son gon’ learn empathy.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, sexual-content, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tlc-lesson-05-left-eye-the-artistic-firestorm",
+      "number": 5,
+      "title": "Left Eye — The Artistic Firestorm",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach poetic rap, creativity & depth. Left Eye’s role: Have your son listen to: “How do her words SHIFT the whole song?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "eccentric rap breaks",
+            "philosophical metaphors",
+            "creative visions (concepts, visuals)",
+            "firecracker energy",
+            "spiritual themes in later work",
+            "rebellious but brilliant artistry",
+            "“Waterfalls” rap verse",
+            "“No Scrubs” remix verse"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-waterfalls",
+        "tlc-no-scrubs"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Waterfalls” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do her words SHIFT the whole song?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, substances, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tlc-lesson-06-fanmail-futurism-technology-and-independent-w",
+      "number": 6,
+      "title": "FanMail — Futurism, Technology & “Independent Woman” Energy",
+      "body": [
+        {
+          "type": "text",
+          "text": "“Independent Woman” Energy Goals: Teach Y2K aesthetic & empowerment. Themes: Talk to your son: “What is a ‘scrub’ and why do standards matter?” Let him learn about self-respect from women’s POV too."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "digital love",
+            "self-worth",
+            "boundaries",
+            "futuristic production",
+            "female empowerment",
+            "self-care",
+            "respecting your time & standards",
+            "“No Scrubs” (cultural reset)",
+            "“Unpretty” (body positivity anthem)",
+            "“Silly Ho”",
+            "“FanMail”"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-no-scrubs",
+        "tlc-unpretty",
+        "tlc-silly-ho",
+        "tlc-fanmail"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “No Scrubs” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What is a ‘scrub’ and why do standards matter?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Talk to your son: “What is a ‘scrub’ and why do standards matter?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "tlc-lesson-07-visuals-and-choreography-iconic-music-videos",
+      "number": 7,
+      "title": "Visuals & Choreography — Iconic Music Videos",
+      "body": [
+        {
+          "type": "text",
+          "text": "Videos Goals: Teach visual storytelling. Must-watch videos: “What story is this video telling WITHOUT words?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Waterfalls” (message + CGI innovation)",
+            "“Creep” (silk pajamas + cool swagger)",
+            "“No Scrubs” (Y2K futurism)",
+            "“Unpretty” (anti-body-shame narrative)"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-ain-t-2-proud-2-beg"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ain’t 2 Proud 2 Beg” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What story is this video telling WITHOUT words?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "tlc-lesson-08-industry-exploitation-bankruptcy-and-survivor",
+      "number": 8,
+      "title": "Industry Exploitation, Bankruptcy & Survivor Mentality",
+      "body": [
+        {
+          "type": "text",
+          "text": "Mentality Goals: Teach real-world financial literacy. Explain (when older): Lesson: “Talent ain’t enough. Learn the BUSINESS.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "TLC sold millions but were broke due to:",
+            "greedy management",
+            "bad contracts",
+            "huge recoup costs",
+            "They filed bankruptcy despite massive success",
+            "Kept fighting for ownership",
+            "Became advocates for artist rights"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-ain-t-2-proud-2-beg"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ain’t 2 Proud 2 Beg” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of TLC after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "tlc-lesson-09-loss-of-left-eye-grief-legacy-and-reinvention",
+      "number": 9,
+      "title": "Loss of Left Eye — Grief, Legacy & Reinvention",
+      "body": [
+        {
+          "type": "text",
+          "text": "Reinvention Goals: Teach resilience and the impact of loss. “What makes a group stay a family even after tragedy?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Left Eye passed in a car crash in Honduras (2002)",
+            "Massive emotional toll on fans & group",
+            "T-Boz & Chilli continued to honor her",
+            "TLC stayed active through new music, shows, nostalgia tours",
+            "Left Eye’s spiritual energy still felt in hip-hop"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-ain-t-2-proud-2-beg"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ain’t 2 Proud 2 Beg” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes a group stay a family even after tragedy?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask your son: “What makes a group stay a family even after tragedy?”",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "tlc-lesson-10-tlc-s-influence-tree",
+      "number": 10,
+      "title": "TLC’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map their cultural lineage. Artists influenced by TLC: Ask him to pick ANY girl group → identify the TLC DNA."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Destiny’s Child",
+            "Rihanna (early era)",
+            "Tinashe",
+            "Ariana Grande (visual inspo)",
+            "Doja Cat (Left Eye energy)",
+            "Chloe x Halle",
+            "Jazmine Sullivan (T-Boz influence on tone)",
+            "Ciara (tomboy/athletic vibe)",
+            "SZA (emotional themes)",
+            "Normani (visual style)",
+            "The entire “cool-girl R&B” lane"
+          ]
+        }
+      ],
+      "listen": [
+        "tlc-ain-t-2-proud-2-beg"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ain’t 2 Proud 2 Beg” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of TLC after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Ask him to pick ANY girl group → identify the TLC DNA.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how TLC combined emotional vulnerability, social messaging, and hip-hop swagger to shape 90s R&B. Compare ONE early track (Ain’t 2 Proud 2 Beg) with ONE mature track (Waterfalls) and identify TWO modern artists influenced by TLC.",
+    "earlyOptions": [
+      "tlc-ain-t-2-proud-2-beg"
+    ],
+    "laterOptions": [
+      "tlc-fanmail"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes",
+    "substances",
+    "explicit-language",
+    "trauma"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 39, pages 508-520. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

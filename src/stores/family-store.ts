@@ -18,6 +18,7 @@ import {
 import type { FamilyRepository } from '../data/FamilyRepository';
 import { CORE_COLLECTION_ID, contentKey, normalizeContentKey, type ContentRef } from '../domain/content-ref';
 import {
+  assertSafePackUpdate,
   createInstalledPack,
   LessonPlanItem,
   normalizeLessonPlan,
@@ -48,7 +49,10 @@ export interface FamilyState {
   setExplored(ref: ContentRef | string, explored: boolean): Promise<void>;
   acknowledgeUnitOverview(unitId: string, section: UnitOverviewSection): Promise<UnitOverviewAcknowledgementType>;
   saveFinalProjectResponse(input: Omit<FinalProjectResponseType, 'updatedAt'>): Promise<FinalProjectResponseType>;
-  installPack(pack: LessonPack): Promise<InstalledPack>;
+  installPack(
+    pack: LessonPack,
+    metadata?: { sha256?: string | null; downloadBytes?: number }
+  ): Promise<InstalledPack>;
   removePack(packId: string): Promise<void>;
   addPackToLessonPlan(packId: string, lessonIds?: string[]): Promise<number>;
   removeFromLessonPlan(id: string): Promise<void>;
@@ -175,9 +179,10 @@ export const useFamilyStore = create<FamilyState>()((set, get) => ({
     return response;
   },
 
-  async installPack(pack) {
+  async installPack(pack, metadata) {
     const current = get().installedPacks.find((item) => item.packId === pack.packId);
-    const next = createInstalledPack(pack);
+    if (current) assertSafePackUpdate(current.manifest, pack);
+    const next = createInstalledPack(pack, metadata);
     const installed = current ? { ...next, installedAt: current.installedAt } : next;
     await requireRepo().saveInstalledPack(installed);
     set({ installedPacks: [...get().installedPacks.filter((item) => item.packId !== pack.packId), installed] });

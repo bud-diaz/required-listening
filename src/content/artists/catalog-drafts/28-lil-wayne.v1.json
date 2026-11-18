@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "id": "lil-wayne",
+  "number": 28,
+  "displayName": "Lil Wayne",
+  "monogram": "LW",
+  "whyItMatters": "Lil Wayne matters because the source catalog identifies this route with The evolution of Southern rap from regional → global, The birth of the mixtape monster era, The invention of modern punchline rap, The blueprint for every melodic rapper afterward.",
+  "passedDown": {
+    "trackId": "lil-wayne-tha-block-is-hot",
+    "blurb": "Start with “Tha Block Is Hot” and use the unit's checkpoints to hear how Lil Wayne's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "lil-wayne-lil-wayne-instrumental-listening-option"
+    ],
+    "note": "The source did not provide a named younger-listener section; use the caregiver-selected instrumental search and preview the result."
+  },
+  "overview": {
+    "summary": [
+      "The evolution of Southern rap from regional → global",
+      "The birth of the mixtape monster era",
+      "The invention of modern punchline rap",
+      "The blueprint for every melodic rapper afterward",
+      "A generational feeder tree (Drake, Nicki, Young Thug, etc.)",
+      "Insane work ethic + innovation"
+    ],
+    "closing": "Your son will learn:"
+  },
+  "learnOutcomes": [
+    "The evolution of Southern rap from regional → global",
+    "The birth of the mixtape monster era",
+    "The invention of modern punchline rap",
+    "The blueprint for every melodic rapper afterward",
+    "A generational feeder tree (Drake, Nicki, Young Thug, etc.)",
+    "Insane work ethic + innovation",
+    "Skill development: breath control, cadence, metaphor stacking",
+    "How flow works"
+  ],
+  "tracks": [
+    {
+      "id": "lil-wayne-tha-block-is-hot",
+      "title": "Tha Block Is Hot",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Tha Block Is Hot Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-we-on-fire",
+      "title": "We On Fire",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "We On Fire Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-go-dj",
+      "title": "Go DJ",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Go DJ Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-bring-it-back",
+      "title": "Bring It Back",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Bring It Back Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-fireman",
+      "title": "Fireman",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Fireman Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-hustler-musik",
+      "title": "Hustler Musik",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Hustler Musik Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-sky-s-the-limit",
+      "title": "Sky’s the Limit",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Sky’s the Limit Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-georgia-bush",
+      "title": "Georgia…Bush",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Georgia…Bush Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-i-feel-like-dying",
+      "title": "I Feel Like Dying",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I Feel Like Dying Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-upgrade-u",
+      "title": "Upgrade U",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Upgrade U Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-a-milli",
+      "title": "A Milli",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "A Milli Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-lollipop",
+      "title": "Lollipop",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Lollipop Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-got-money",
+      "title": "Got Money",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Got Money Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-mr-carter",
+      "title": "Mr. Carter",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Mr. Carter Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-mrs-officer",
+      "title": "Mrs. Officer",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Mrs. Officer Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-bedrock",
+      "title": "BedRock",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "BedRock Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-every-girl",
+      "title": "Every Girl",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Every Girl Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-successful",
+      "title": "Successful",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Successful Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-roman-s-revenge",
+      "title": "Roman’s Revenge",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Roman’s Revenge Lil Wayne",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 295-307. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lil-wayne-lil-wayne-instrumental-listening-option",
+      "title": "Lil Wayne instrumental listening option",
+      "artist": "Lil Wayne",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source did not name a Younger Listener selection. A grown-up must choose and preview an instrumental provider result before playing.",
+      "searchQuery": "Lil Wayne instrumental",
+      "sourceNotes": "Adapted fallback because the source unit did not include a named Younger Listener selection.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lil-wayne-lesson-01-young-wayne-cash-money-foundations",
+      "number": 1,
+      "title": "Young Wayne — Cash Money Foundations",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show where Wayne comes from & how the South was viewed. “How does young Wayne sound compared to older Wayne?” Teaches evolution."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "New Orleans bounce roots",
+            "Hot Boys era with Juvenile, B.G., and Turk",
+            "Baby & Slim molding Wayne as a franchise player",
+            "Why “Tha Block Is Hot” mattered for a teenage rapper",
+            "Southern rap’s stigma in the late 90s → early 2000s",
+            "“Tha Block Is Hot”",
+            "Hot Boys – “We On Fire”"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-wayne-lil-wayne-instrumental-listening-option"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lil Wayne instrumental listening option” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does young Wayne sound compared to older Wayne?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lil-wayne-lesson-02-tha-carter-i-and-ii-the-rap-technician-emerge",
+      "number": 2,
+      "title": "Tha Carter I & II — The Rap Technician Emerges",
+      "body": [
+        {
+          "type": "text",
+          "text": "Emerges Goals: Show Wayne turning himself into a lyricist. Discussion: “What technical skills is Wayne showing here?” Flow? Breath control? Wordplay? Cadence switching?"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Tha Carter I = new persona, new confidence",
+            "Tha Carter II = sharpened punchlines + grown-man cadence",
+            "Wayne out-rapping East Coast rappers on their own beats",
+            "Dedication to the craft, not just the image",
+            "“Go DJ”",
+            "“Bring It Back”",
+            "“Fireman”",
+            "“Hustler Musik”"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-wayne-go-dj",
+        "lil-wayne-bring-it-back",
+        "lil-wayne-fireman",
+        "lil-wayne-hustler-musik"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Go DJ” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What technical skills is Wayne showing here?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-wayne-lesson-03-the-mixtape-god-era-dedication-1-3-da-drought",
+      "number": 3,
+      "title": "The Mixtape God Era — Dedication 1–3, Da Drought 3, S.Q. Series",
+      "body": [
+        {
+          "type": "text",
+          "text": "Drought 3, S.Q. Series Goals: Teach the why behind Wayne’s dominance. Ask him (when older): “Why did Wayne call himself the best rapper alive? Do you hear it?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Wayne fundamentally changed the mixtape ecosystem",
+            "He treated mixtapes like albums",
+            "Rapped over EVERYBODY’S beats",
+            "Outperformed the original artists",
+            "Flooded the market to starve competition",
+            "Built a mythology around his pen",
+            "Taught rap fans to chase bars, not singles",
+            "“Cannon (AMG)”",
+            "“Sky’s the Limit”",
+            "“Georgia…Bush”",
+            "“I Feel Like Dying”",
+            "“Upgrade U” freestyle"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-wayne-sky-s-the-limit",
+        "lil-wayne-georgia-bush",
+        "lil-wayne-i-feel-like-dying",
+        "lil-wayne-upgrade-u"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Sky’s the Limit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil Wayne after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lil-wayne-lesson-04-tha-carter-iii-the-crown-moment",
+      "number": 4,
+      "title": "Tha Carter III — The Crown Moment",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Understand Wayne’s mainstream takeover. Break down each flow: Helps your son understand versatility."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "T-Pain collaboration era",
+            "Auto-Tune experimentation",
+            "Iconic singles with weird-but-genius flows",
+            "Pop crossover without sacrificing bars",
+            "Industry acknowledging the South as the center",
+            "“A Milli”",
+            "“Lollipop”",
+            "“Got Money”",
+            "“Mr. Carter”",
+            "The stutter flow (“A Milli”)",
+            "The crooning flow (“Lollipop”)",
+            "The traditional flow (“Mrs. Officer”)",
+            "The breathless run-on flow (various freestyles)"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-wayne-a-milli",
+        "lil-wayne-lollipop",
+        "lil-wayne-got-money",
+        "lil-wayne-mr-carter",
+        "lil-wayne-mrs-officer"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “A Milli” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil Wayne after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down each flow: ● The stutter flow (“A Milli”)",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-wayne-lesson-05-young-money-era-wayne-the-architect-of-other",
+      "number": 5,
+      "title": "Young Money Era — Wayne the Architect of Other Legends",
+      "body": [
+        {
+          "type": "text",
+          "text": "Other Legends Goals: Show Wayne’s influence through the tree he grew. Teach his role in launching: Teach the concept of artist incubation: Discussion: “How does building other artists add to someone’s legacy?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Drake (melodic rap + emotional vulnerability)",
+            "Nicki Minaj (character voices, punchlines, theatrics)",
+            "Tyga (club hits and West Coast hybrid sound)",
+            "Wayne brought them on the tour bus",
+            "Let them rap beside him daily",
+            "Forced them to sharpen their pens",
+            "Used his cosign to give them legitimacy",
+            "“BedRock”",
+            "“Every Girl”",
+            "Drake – “Successful” (Wayne verse)",
+            "Nicki – “Roman’s Revenge” (Wayne fingerprints in her approach)"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-wayne-bedrock",
+        "lil-wayne-every-girl",
+        "lil-wayne-successful",
+        "lil-wayne-roman-s-revenge"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “BedRock” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does building other artists add to someone’s legacy?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-wayne-lesson-06-flow-evolution-wayne-the-rap-scientist",
+      "number": 6,
+      "title": "Flow Evolution — Wayne the Rap Scientist",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach flow mechanics using Wayne. Teach these Wayne trademarks: Have your son take three Wayne bars and identify: That’s rap literacy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Punchline + twist (“real Gs move in silence like lasagna”)",
+            "Simile stacking",
+            "Pattern repetition",
+            "Rhyme density",
+            "Weird pockets — rapping “against” the beat on purpose",
+            "Frog-in-the-throat croak flow (signature vocal rasp)",
+            "Multi-syllable rhyming",
+            "Auto-Tune experiments that shaped Travis, Thug, Uzi",
+            "setup",
+            "flip",
+            "payoff"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-wayne-tha-block-is-hot"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tha Block Is Hot” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil Wayne after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son take three Wayne bars and identify: ● setup",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lil-wayne-lesson-07-wayne-x-rock-wayne-x-weird",
+      "number": 7,
+      "title": "Wayne x Rock / Wayne x Weird",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show Wayne’s risk-taking. This teaches the value of creative risk."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Rebirth (rock experiment)",
+            "“Prom Queen” as early emo-trap precursor",
+            "Wayne refusing to stay in a box",
+            "Influence on punk-rap (Trippie, Lil Peep, XXXTentacion)"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-wayne-tha-block-is-hot"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tha Block Is Hot” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil Wayne after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lil-wayne-lesson-08-the-decline-return-and-longevity-lessons",
+      "number": 8,
+      "title": "The Decline, Return, and Longevity Lessons",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach the real storyline — highs AND lows. Touch on: Discussion: “What does Wayne teach about resilience?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Lean addiction era",
+            "Label wars with Birdman",
+            "Lost tapes, shelved albums",
+            "How Wayne STILL came back (“No Ceilings 3,” “Tha Carter V”)",
+            "How to maintain greatness over decades",
+            "Reinvention vs repetition",
+            "Why Wayne is a GOAT even with dips in output"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-wayne-tha-block-is-hot"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tha Block Is Hot” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does Wayne teach about resilience?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, substances, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-wayne-lesson-09-wayne-s-influence-tree-a-map",
+      "number": 9,
+      "title": "Wayne’s Influence Tree — A Map",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show how deeply he shaped modern rap. Direct descendants: Draw a FAMILY TREE of Wayne’s influence. Let him see Wayne’s fingerprints across the entire culture."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Drake",
+            "Nicki",
+            "Thug",
+            "Uzi",
+            "Trippie",
+            "Juice WRLD",
+            "Future (stylistically adjacent)",
+            "Gunna",
+            "Kodak",
+            "Don Toliver",
+            "A Boogie",
+            "Wayne’s kids → your son’s era of rap"
+          ]
+        }
+      ],
+      "listen": [
+        "lil-wayne-tha-block-is-hot"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tha Block Is Hot” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil Wayne after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Draw a FAMILY TREE of Wayne’s influence. Let him see Wayne’s fingerprints across the entire culture.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lil-wayne-lesson-10-final-wayne-analysis-goat-metrics",
+      "number": 10,
+      "title": "Final Wayne Analysis — “GOAT Metrics”",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Wrap it all together. Have your son evaluate Wayne on: 1. Lyricism 2. Flow variety 3. Influence 4. Longevity 5. Catalog depth 6. Technical innovation 7. Cultural impact 8. Mixtape legacy 9. Artist development 10. Live performance energy This teaches analytical thinking + music criticism."
+        }
+      ],
+      "listen": [
+        "lil-wayne-tha-block-is-hot"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tha Block Is Hot” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lil Wayne after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain Lil Wayne’s importance in shaping modern rap, using examples from his mixtapes, albums, and influence tree.",
+    "earlyOptions": [
+      "lil-wayne-tha-block-is-hot"
+    ],
+    "laterOptions": [
+      "lil-wayne-roman-s-revenge"
+    ],
+    "influencedCount": 1
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "trauma",
+    "substances",
+    "violence",
+    "weapons"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 23, pages 295-307. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

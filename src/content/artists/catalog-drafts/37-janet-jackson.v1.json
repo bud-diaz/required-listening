@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "id": "janet-jackson",
+  "number": 37,
+  "displayName": "Janet Jackson",
+  "monogram": "JJ",
+  "whyItMatters": "Janet Jackson matters because the source catalog identifies this route with Queen of choreography-led pop, The architect of the modern pop star formula, The Control / Rhythm Nation era innovator, The original “whisper-singing” trendsetter.",
+  "passedDown": {
+    "trackId": "janet-jackson-nasty",
+    "blurb": "Start with “Nasty” and use the unit's checkpoints to hear how Janet Jackson's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "janet-jackson-escapade",
+      "janet-jackson-alright",
+      "janet-jackson-together-again",
+      "janet-jackson-runaway",
+      "janet-jackson-black-cat"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "Queen of choreography-led pop",
+      "The architect of the modern pop star formula",
+      "The Control / Rhythm Nation era innovator",
+      "The original “whisper-singing” trendsetter",
+      "A fashion & visual icon",
+      "One of the most boundary-pushing artists in Black feminist expression",
+      "The mother of ALL choreography-heavy pop divas after her",
+      "Rhythm-led singing"
+    ],
+    "closing": "Janet = discipline + softness + activism + groove."
+  },
+  "learnOutcomes": [
+    "Rhythm-led singing",
+    "Movement-driven musicality",
+    "Concept albums",
+    "Visual branding",
+    "Feminist & political themes",
+    "Vulnerability as strength",
+    "Black futurism in pop",
+    "How precision and softness can coexist"
+  ],
+  "tracks": [
+    {
+      "id": "janet-jackson-nasty",
+      "title": "Nasty",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Nasty Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-control",
+      "title": "Control",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Control Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-rhythm-nation",
+      "title": "Rhythm Nation",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Rhythm Nation Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-miss-you-much",
+      "title": "Miss You Much",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Miss You Much Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-escapade",
+      "title": "Escapade",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Escapade Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-alright",
+      "title": "Alright",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Alright Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-that-s-the-way-love-goes",
+      "title": "That’s the Way Love Goes",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "That’s the Way Love Goes Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-any-time-any-place",
+      "title": "Any Time, Any Place",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Any Time, Any Place Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-if",
+      "title": "If",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "If Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-i-get-lonely",
+      "title": "I Get Lonely",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes",
+        "explicit-language",
+        "trauma"
+      ],
+      "searchQuery": "I Get Lonely Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-come-back-to-me",
+      "title": "Come Back to Me",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Come Back to Me Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-got-til-it-s-gone",
+      "title": "Got ’Til It’s Gone",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Got ’Til It’s Gone Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-empty",
+      "title": "Empty",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Empty Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-together-again",
+      "title": "Together Again",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Together Again Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-runaway",
+      "title": "Runaway",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Runaway Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "janet-jackson-black-cat",
+      "title": "Black Cat",
+      "artist": "Janet Jackson",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Black Cat Janet Jackson",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 431-443. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "janet-jackson-lesson-01-origins-the-jackson-legacy-and-finding",
+      "number": 1,
+      "title": "Origins — The Jackson Legacy & Finding",
+      "body": [
+        {
+          "type": "text",
+          "text": "Her Own Voice Goals: Teach independence & identity. Play early Janet. Then “Nasty.” Let your son hear the difference between being controlled vs taking control."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Growing up in the Jackson family’s shadow",
+            "Performing from childhood (Good Times, Fame)",
+            "First two albums → label-driven, didn’t reflect her voice",
+            "Janet deciding to RECLAIM her artistry",
+            "Teaming with Jimmy Jam & Terry Lewis (legendary production duo)"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-together-again",
+        "janet-jackson-escapade"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Together Again” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Janet Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play early Janet. Then “Nasty.”",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "janet-jackson-lesson-02-control-the-birth-of-janet-the-icon",
+      "number": 2,
+      "title": "Control — The Birth of Janet, The Icon",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show personal liberation & creative ownership. Have your son clap the rhythm patterns — this teaches tight timing."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Janet firing her father as manager",
+            "“My name is Janet. Miss Jackson if you’re nasty.”",
+            "New Jack Swing energy",
+            "Crisp choreography",
+            "Empowerment themes",
+            "“Nasty”",
+            "“What Have You Done for Me Lately”",
+            "“Control”"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-nasty",
+        "janet-jackson-control"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nasty” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Janet Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son clap the rhythm patterns — this teaches tight timing.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "janet-jackson-lesson-03-rhythm-nation-1814-political-pop-masterpiece",
+      "number": 3,
+      "title": "Rhythm Nation 1814 — Political Pop Masterpiece",
+      "body": [
+        {
+          "type": "text",
+          "text": "Masterpiece Goals: Teach activism in art. Watch Together: The “Rhythm Nation” video. “How can dance deliver a message?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Social commentary on racism, education gaps, poverty",
+            "Military-inspired choreography",
+            "Black futurism + dystopian aesthetics",
+            "Concept album structure",
+            "Blending pop, R&B, industrial sounds",
+            "One of the best music videos of all time (“Rhythm Nation”)",
+            "“Rhythm Nation”",
+            "“Miss You Much”",
+            "“Escapade”",
+            "“Alright”"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-rhythm-nation",
+        "janet-jackson-miss-you-much",
+        "janet-jackson-escapade",
+        "janet-jackson-alright"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rhythm Nation” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How can dance deliver a message?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "janet-jackson-lesson-04-janet-the-dancer-precision-groove",
+      "number": 4,
+      "title": "Janet the Dancer — Precision + Groove",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach movement as musicality. Janet’s choreography style: Her dancers (TINA LANDON!): Compare her choreo to Beyoncé or Ciara — show her influence."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Sharp isolations",
+            "Military precision",
+            "Clean lines",
+            "Group synchronicity",
+            "Dance as rhythm, not accessory",
+            "Soft face, sharp body",
+            "Created movement language still used today"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-nasty"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nasty” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Janet Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare her choreo to Beyoncé or Ciara — show her influence.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "janet-jackson-lesson-05-janet-sensuality-womanhood-and-boundaries",
+      "number": 5,
+      "title": "janet. — Sensuality, Womanhood & Boundaries",
+      "body": [
+        {
+          "type": "text",
+          "text": "Boundaries Goals: Teach sexual autonomy & emotional maturity. Break down the “If” choreography — architecture of modern dance-pop."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Janet claiming her sexuality HER way",
+            "Soft vocal tone → whisper-singing revolution",
+            "Songs about love, intimacy, desire",
+            "Body positivity & confidence",
+            "Iconic visuals in “That’s the Way Love Goes”",
+            "“That’s the Way Love Goes”",
+            "“Any Time, Any Place”",
+            "“If”"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-that-s-the-way-love-goes",
+        "janet-jackson-any-time-any-place",
+        "janet-jackson-if"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “That’s the Way Love Goes” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Janet Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the “If” choreography — architecture of modern dance-pop.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "janet-jackson-lesson-06-vocal-style-breath-whisper-tone-and-intimacy",
+      "number": 6,
+      "title": "Vocal Style — Breath, Whisper-Tone, & Intimacy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Intimacy Goals: Teach vocal subtlety. Janet’s voice is: She made it okay for singers NOT to belt. Your son will learn: “Soft is powerful too.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "breathy",
+            "soft",
+            "close-mic’d",
+            "rhythmic, not belting",
+            "intimate",
+            "warm",
+            "“I Get Lonely”",
+            "“Come Back to Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-i-get-lonely",
+        "janet-jackson-come-back-to-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Get Lonely” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Janet Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "janet-jackson-lesson-07-the-velvet-rope-vulnerability-trauma-and-libe",
+      "number": 7,
+      "title": "The Velvet Rope — Vulnerability, Trauma, & Liberation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Liberation Goals: Teach emotional depth. Talk to your son (when he’s older): “Art can help you face your pain and feel less alone.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Janet discussing depression, identity, queerness, self-worth",
+            "One of the most psychologically honest R&B albums ever",
+            "Electronic, trip-hop, R&B fusion",
+            "Boundary-pushing visuals",
+            "Healing themes",
+            "“Got ’Til It’s Gone”",
+            "“I Get Lonely”",
+            "“Empty”",
+            "“Together Again”"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-got-til-it-s-gone",
+        "janet-jackson-i-get-lonely",
+        "janet-jackson-empty",
+        "janet-jackson-together-again"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Got ’Til It’s Gone” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Janet Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Talk to your son (when he’s older): “Art can help you face your pain and feel less alone.”",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, trauma, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "janet-jackson-lesson-08-janet-s-visual-world-aesthetic-legacy",
+      "number": 8,
+      "title": "Janet’s Visual World — Aesthetic Legacy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach visual storytelling. Janet’s visuals shaped: Show: Discuss how she uses color, form, motion."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fashion (military jackets, midriff tops, braids, futuristic fits)",
+            "music videos as mini-films",
+            "stage design",
+            "lighting + symmetry",
+            "group-identity choreography",
+            "“Scream” (with Michael)",
+            "“Rhythm Nation”",
+            "“If”",
+            "“Got ’Til It’s Gone”"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-nasty"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nasty” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Janet Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "janet-jackson-lesson-09-janet-s-influence-tree",
+      "number": 9,
+      "title": "Janet’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show her massive cultural shadow. Direct descendants: Janet built the female pop-R&B blueprint the entire industry uses. Let your son pick any modern pop star → find the Janet DNA."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Beyoncé",
+            "Aaliyah",
+            "Ciara",
+            "Tinashe",
+            "Normani",
+            "Rihanna (visual & fashion influence)",
+            "Britney Spears",
+            "Usher (choreo vocabulary)",
+            "Omarion",
+            "Mya",
+            "Teyana Taylor (visually + choreographically)"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-nasty"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nasty” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Janet Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Let your son pick any modern pop star → find the Janet DNA.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "janet-jackson-lesson-10-legacy-backlash-and-resilience",
+      "number": 10,
+      "title": "Legacy, Backlash & Resilience",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach perseverance & media literacy. Life lesson: Black women’s contributions get erased unless we protect them."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Super Bowl 2004 incident + misogyny + racism",
+            "Career fallout vs Justin Timberlake’s rise",
+            "How Black women face harsher consequences",
+            "Janet STILL touring, STILL inspiring",
+            "Cultural reevaluation → Janet celebrated now",
+            "Importance of giving women their flowers"
+          ]
+        }
+      ],
+      "listen": [
+        "janet-jackson-nasty"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nasty” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Janet Jackson after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Janet Jackson shaped modern pop and R&B through performance, rhythm, feminist expression, and visual innovation using TWO albums and ONE choreography breakdown.",
+    "earlyOptions": [
+      "janet-jackson-nasty"
+    ],
+    "laterOptions": [
+      "janet-jackson-empty"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "mature-themes",
+    "sexual-content",
+    "explicit-language",
+    "trauma"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 33, pages 431-443. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

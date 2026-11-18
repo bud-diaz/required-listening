@@ -1,0 +1,1015 @@
+{
+  "schemaVersion": 1,
+  "id": "kanye-west",
+  "number": 54,
+  "displayName": "Kanye West",
+  "monogram": "KW",
+  "whyItMatters": "Kanye West matters because the source catalog identifies this route with A producer who forced rap to evolve, A rapper who made vulnerability cool, A fashion innovator who changed silhouettes across a whole generation, An album architect who reinvented himself every era.",
+  "passedDown": {
+    "trackId": "kanye-west-through-the-wire",
+    "blurb": "Start with “Through the Wire” and use the unit's checkpoints to hear how Kanye West's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "kanye-west-stronger",
+      "kanye-west-good-morning",
+      "kanye-west-champion",
+      "kanye-west-hey-mama",
+      "kanye-west-homecoming"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "A producer who forced rap to evolve",
+      "A rapper who made vulnerability cool",
+      "A fashion innovator who changed silhouettes across a whole generation",
+      "An album architect who reinvented himself every era",
+      "A deeply flawed, deeply influential figure whose life teaches artistry AND accountability",
+      "A bridge between soul, electronic music, gospel, punk energy & luxury branding",
+      "Innovation theory",
+      "Sampling as storytelling"
+    ],
+    "closing": "This one’s heavy AND brilliant."
+  },
+  "learnOutcomes": [
+    "Innovation theory",
+    "Sampling as storytelling",
+    "Emotion in rap",
+    "Ambition vs consequence",
+    "Artistic reinvention",
+    "Cultural pattern shifts",
+    "How power can warp identity",
+    "How community lifts or loses people"
+  ],
+  "tracks": [
+    {
+      "id": "kanye-west-through-the-wire",
+      "title": "Through the Wire",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Through the Wire Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-jesus-walks",
+      "title": "Jesus Walks",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Jesus Walks Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-spaceship",
+      "title": "Spaceship",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Spaceship Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-family-business",
+      "title": "Family Business",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Family Business Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-all-falls-down",
+      "title": "All Falls Down",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "All Falls Down Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-heard-em-say",
+      "title": "Heard ’Em Say",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Heard ’Em Say Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-diamonds-from-sierra-leone",
+      "title": "Diamonds from Sierra Leone",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Diamonds from Sierra Leone Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-gold-digger",
+      "title": "Gold Digger",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Gold Digger Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-stronger",
+      "title": "Stronger",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Stronger Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-flashing-lights",
+      "title": "Flashing Lights",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Flashing Lights Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-good-life",
+      "title": "Good Life",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Good Life Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-heartless",
+      "title": "Heartless",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Heartless Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-street-lights",
+      "title": "Street Lights",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Street Lights Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-say-you-will",
+      "title": "Say You Will",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Say You Will Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-welcome-to-heartbreak",
+      "title": "Welcome to Heartbreak",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Welcome to Heartbreak Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-power",
+      "title": "Power",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Power Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-runaway",
+      "title": "Runaway",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Runaway Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-devil-in-a-new-dress",
+      "title": "Devil in a New Dress",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "Devil in a New Dress Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-all-of-the-lights",
+      "title": "All of the Lights",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ],
+      "searchQuery": "All of the Lights Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-black-skinhead",
+      "title": "Black Skinhead",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Black Skinhead Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-new-slaves",
+      "title": "New Slaves",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "New Slaves Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-blood-on-the-leaves",
+      "title": "Blood on the Leaves",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Blood on the Leaves Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-ultralight-beam",
+      "title": "Ultralight Beam",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Ultralight Beam Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-father-stretch-my-hands-pt-1",
+      "title": "Father Stretch My Hands Pt. 1",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Father Stretch My Hands Pt. 1 Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-waves",
+      "title": "Waves",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Waves Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-good-morning",
+      "title": "Good Morning",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Good Morning Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-champion",
+      "title": "Champion",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Champion Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-hey-mama",
+      "title": "Hey Mama",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hey Mama Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "kanye-west-homecoming",
+      "title": "Homecoming",
+      "artist": "Kanye West",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Homecoming Kanye West",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 654-667. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "kanye-west-lesson-01-origins-chi-town-soul-backpacker-rap-and-the",
+      "number": 1,
+      "title": "Origins — Chi-Town Soul, Backpacker Rap, & The Roc",
+      "body": [
+        {
+          "type": "text",
+          "text": "& The Roc Goals: Show the soil Kanye came from. “How does struggle turn into creativity?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Chicago — duality of Black middle-class + city grit",
+            "Mom (Donda) = backbone + confidence source",
+            "Beats for local acts → eventually for Jay-Z",
+            "Chipmunk soul samples (sped-up soul loops)",
+            "Why Roc-A-Fella didn’t want to sign him as a rapper",
+            "Accident → jaw wired shut → “Through the Wire” (pure willpower)",
+            "“Through the Wire”"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-good-morning",
+        "kanye-west-champion"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Good Morning” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does struggle turn into creativity?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "kanye-west-lesson-02-the-college-dropout-the-vulnerable-everyman",
+      "number": 2,
+      "title": "The College Dropout — The Vulnerable Everyman",
+      "body": [
+        {
+          "type": "text",
+          "text": "Everyman Goals: Teach personality-driven rap. Break down “All Falls Down” for economic commentary. Your son gon’ learn sociology through music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "No gangster persona",
+            "Humor + honesty",
+            "Faith + insecurity + ambition",
+            "Soul samples everywhere",
+            "Commentary on student debt, religion, family, systemic issues",
+            "Why Kanye felt relatable to a whole generation",
+            "“Jesus Walks”",
+            "“Spaceship”",
+            "“Family Business”",
+            "“All Falls Down”"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-jesus-walks",
+        "kanye-west-spaceship",
+        "kanye-west-family-business",
+        "kanye-west-all-falls-down"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Jesus Walks” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Kanye West after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “All Falls Down” for economic commentary. Your son gon’ learn sociology through music.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kanye-west-lesson-03-late-registration-baroque-rap",
+      "number": 3,
+      "title": "Late Registration — Baroque Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show orchestration + arrangement. “What makes these beats FEEL expensive?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Jon Brion → strings, live instrumentation",
+            "Cinematic sound",
+            "Darker themes",
+            "Ambition swelling",
+            "Kanye realizing he can break ANY rule",
+            "“Heard ’Em Say”",
+            "“Diamonds from Sierra Leone”",
+            "“Gold Digger”"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-heard-em-say",
+        "kanye-west-diamonds-from-sierra-leone",
+        "kanye-west-gold-digger"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Heard ’Em Say” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes these beats FEEL expensive?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kanye-west-lesson-04-graduation-electronic-glow-and-arena-rap",
+      "number": 4,
+      "title": "Graduation — Electronic Glow & Arena Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show how Kanye shifted the whole soundscape. Have your son explain how “Flashing Lights” FEELS cinematic — synths, pacing, spacing."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Synths, stadium energy",
+            "European electronic influence",
+            "Simplified lyrics → emphasis on melody",
+            "Fashion + color palettes shifting culture",
+            "The “Throne Era” foundations",
+            "“Stronger”",
+            "“Flashing Lights”",
+            "“Good Life”",
+            "“Can’t Tell Me Nothing”"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-stronger",
+        "kanye-west-flashing-lights",
+        "kanye-west-good-life"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stronger” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Kanye West after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son explain how “Flashing Lights” FEELS cinematic — synths, pacing, spacing.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "kanye-west-lesson-05-808s-and-heartbreak-the-blueprint-for-modern",
+      "number": 5,
+      "title": "808s & Heartbreak — The Blueprint for Modern Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show emotional innovation. “How does sadness sound electronic?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Death of his mother → emotional collapse",
+            "Breakup → vulnerability",
+            "Auto-tune as an EMOTIONAL instrument",
+            "Minimalist drums",
+            "Cold textures",
+            "Direct ancestor of:",
+            "Drake",
+            "Travis Scott",
+            "Future",
+            "Uzi",
+            "Juice WRLD",
+            "Rod Wave",
+            "EVERY melodic rapper today",
+            "“Heartless”",
+            "“Street Lights”",
+            "“Say You Will”",
+            "“Welcome to Heartbreak”"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-heartless",
+        "kanye-west-street-lights",
+        "kanye-west-say-you-will",
+        "kanye-west-welcome-to-heartbreak"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Heartless” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does sadness sound electronic?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask: “How does sadness sound electronic?”",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kanye-west-lesson-06-my-beautiful-dark-twisted-fantasy-maximalism",
+      "number": 6,
+      "title": "My Beautiful Dark Twisted Fantasy — Maximalism & Perfection",
+      "body": [
+        {
+          "type": "text",
+          "text": "Maximalism & Perfection Goals: Teach scale and ambition. Break down “Runaway” → why 9 minutes of vulnerability WORKS."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Kanye retreating after public controversy",
+            "Artistic rehab → making a masterpiece",
+            "Orchestral arrangements",
+            "Layered production",
+            "Rap, pop, rock, opera, soul hybrid",
+            "Guest curation excellence",
+            "“Art as apology” concept",
+            "“Power”",
+            "“Runaway”",
+            "“Devil in a New Dress”",
+            "“All of the Lights”"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-power",
+        "kanye-west-runaway",
+        "kanye-west-devil-in-a-new-dress",
+        "kanye-west-all-of-the-lights"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Power” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Kanye West after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Runaway” → why 9 minutes of vulnerability WORKS.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: artist-conduct, mature-themes.",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kanye-west-lesson-07-yeezus-industrial-punk-rap",
+      "number": 7,
+      "title": "Yeezus — Industrial Punk Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach discomfort + risk-taking. “How does chaos become art?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Minimal, metallic beats",
+            "Screaming synths",
+            "Anti-pop structure",
+            "Political rage",
+            "Boundaries pushed to near unlistenable (on purpose)",
+            "Influence on:",
+            "Travis Scott",
+            "Death Grips fans",
+            "Experimental rap",
+            "“Black Skinhead”",
+            "“New Slaves”",
+            "“Blood on the Leaves”"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-black-skinhead",
+        "kanye-west-new-slaves",
+        "kanye-west-blood-on-the-leaves"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Black Skinhead” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does chaos become art?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kanye-west-lesson-08-the-life-of-pablo-gospel-party-chaos-stream-c",
+      "number": 8,
+      "title": "The Life of Pablo — Gospel, Party, Chaos, Stream Culture",
+      "body": [
+        {
+          "type": "text",
+          "text": "Stream Culture Goals: Teach hybridity. “How does gospel collide with trap?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Gospel roots",
+            "Chicago house influence",
+            "Multiple versions of the same album → streaming-era experiment",
+            "Messy brilliance",
+            "“Ultralight Beam”",
+            "“Father Stretch My Hands Pt. 1”",
+            "“Waves”"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-ultralight-beam",
+        "kanye-west-father-stretch-my-hands-pt-1",
+        "kanye-west-waves"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ultralight Beam” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does gospel collide with trap?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "kanye-west-lesson-09-fashion-design-and-aesthetic-culture",
+      "number": 9,
+      "title": "Fashion, Design, & Aesthetic Culture",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his non-musical influence. Compare hip-hop clothes 2005 vs 2015. Kanye’s fingerprints everywhere."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Louis Vuitton collabs",
+            "Yeezy sneakers → changed shoe silhouette globally",
+            "Monochrome minimalism",
+            "Utility fashion",
+            "Why aesthetics = identity in modern music",
+            "How Kanye moved hip-hop into high fashion"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-through-the-wire"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Through the Wire” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Kanye West after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare hip-hop clothes 2005 vs 2015. Kanye’s fingerprints everywhere.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "kanye-west-lesson-10-the-complicated-legacy-genius-harm-and-accoun",
+      "number": 10,
+      "title": "The Complicated Legacy — Genius, Harm, and Accountability + Kanye’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "and Accountability Goals: Teach your son to navigate nuance maturely. This unit speaks to both sides: Discussion: “How do we love art and still hold artists accountable?” This right here grows character. Lesson 11: Kanye’s Influence Tree Goals: Map the next-generation lineage. Direct musical descendants: Cultural influence: Pick ANY 2010s rapper → identify the Kanye influence."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Visionary artist",
+            "Mental health struggles",
+            "Public breakdowns",
+            "Hurtful rhetoric",
+            "Impacts on the community",
+            "Responsibility vs illness",
+            "Separating admiration from blindness",
+            "Understanding harm without erasing contributions",
+            "Compassion WITH boundaries",
+            "Drake",
+            "Travis Scott",
+            "Kid Cudi (mutual)",
+            "Chance the Rapper",
+            "Tyler, The Creator",
+            "Frank Ocean (production ethos)",
+            "The Weeknd (808s energy)",
+            "Playboi Carti (Yeezus DNA)",
+            "Metro Boomin (Graduation/TLOP sensibility)",
+            "Fashion",
+            "Visual storytelling",
+            "Album rollout strategies",
+            "Cross-genre fluidity",
+            "Producer-led artistry"
+          ]
+        }
+      ],
+      "listen": [
+        "kanye-west-through-the-wire"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Through the Wire” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do we love art and still hold artists accountable?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Pick ANY 2010s rapper → identify the Kanye influence.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, trauma, artist-conduct, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "artist-conduct",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Kanye West shaped hip-hop across production, vulnerability, fashion, and genre experimentation using THREE albums, ONE controversy analysis, and ONE influence connection.",
+    "earlyOptions": [
+      "kanye-west-through-the-wire"
+    ],
+    "laterOptions": [
+      "kanye-west-waves"
+    ],
+    "influencedCount": 3
+  },
+  "contentFlags": [
+    "violence",
+    "mature-themes",
+    "explicit-language",
+    "trauma",
+    "artist-conduct"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 50, pages 654-667. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "id": "maxwell",
+  "number": 47,
+  "displayName": "Maxwell",
+  "monogram": "MA",
+  "whyItMatters": "Maxwell matters because the source catalog identifies this route with pillar of the neo-soul movement (with D’Angelo + Erykah), master of falsetto & breathy tone, meticulous producer of dreamy soundscapes, masculinity redefined through softness & elegance.",
+  "passedDown": {
+    "trackId": "maxwell-til-the-cops-come-knockin",
+    "blurb": "Start with “Til the Cops Come Knockin’” and use the unit's checkpoints to hear how Maxwell's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "maxwell-ascension",
+      "maxwell-lifetime",
+      "maxwell-lake-by-the-ocean",
+      "maxwell-whenever-wherever-whatever"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "pillar of the neo-soul movement (with D’Angelo + Erykah)",
+      "master of falsetto & breathy tone",
+      "meticulous producer of dreamy soundscapes",
+      "masculinity redefined through softness & elegance",
+      "album artist (not singles-driven)",
+      "performer with church-level control but jazz-level subtlety",
+      "vocal control",
+      "emotional intelligence"
+    ],
+    "closing": "This unit is grown-folk academia."
+  },
+  "learnOutcomes": [
+    "vocal control",
+    "emotional intelligence",
+    "album cohesion",
+    "neo-soul’s intentions",
+    "Black romantic traditions",
+    "music as mood + atmosphere"
+  ],
+  "tracks": [
+    {
+      "id": "maxwell-til-the-cops-come-knockin",
+      "title": "Til the Cops Come Knockin’",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Til the Cops Come Knockin’ Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-ascension-don-t-ever-wonder",
+      "title": "Ascension (Don’t Ever Wonder)",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Ascension (Don’t Ever Wonder) Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-pretty-wings",
+      "title": "Pretty Wings",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes",
+        "sexual-content"
+      ],
+      "searchQuery": "Pretty Wings Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-ascension",
+      "title": "Ascension",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Ascension Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-suitelady-the-proposal-jam",
+      "title": "Suitelady (The Proposal Jam)",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Suitelady (The Proposal Jam) Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-luxury-cococure",
+      "title": "Luxury: Cococure",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Luxury: Cococure Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-matrimony-maybe-you",
+      "title": "Matrimony: Maybe You",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Matrimony: Maybe You Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-submerge-til-we-become-the-sun",
+      "title": "Submerge: Til We Become the Sun",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Submerge: Til We Become the Sun Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-lady",
+      "title": "Lady",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Lady Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-on-and-on",
+      "title": "On & On.",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "On & On. Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-lifetime",
+      "title": "Lifetime",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Lifetime Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-this-woman-s-work",
+      "title": "This Woman’s Work",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "This Woman’s Work Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-fistful-of-tears",
+      "title": "Fistful of Tears",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Fistful of Tears Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-lake-by-the-ocean",
+      "title": "Lake by the Ocean",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Lake by the Ocean Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-thinkin-bout-you",
+      "title": "Thinkin Bout You.",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Thinkin Bout You. Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "maxwell-whenever-wherever-whatever",
+      "title": "Whenever Wherever Whatever",
+      "artist": "Maxwell",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Whenever Wherever Whatever Maxwell",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 560-572. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "maxwell-lesson-01-origins-brooklyn-roots-introversion-and-diy-m",
+      "number": 1,
+      "title": "Origins — Brooklyn Roots, Introversion, & DIY Musical Training",
+      "body": [
+        {
+          "type": "text",
+          "text": "DIY Musical Training Goals: Understand where the softness comes from. “What vibe do you feel? Slow? Intimate? Luxurious?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born in Brooklyn to Caribbean parents",
+            "introverted, sensitive, music-obsessed kid",
+            "taught himself instruments",
+            "emerged quietly but confidently into a loud R&B era",
+            "came in as the anti-Bad Boy/R&B Thug wave",
+            "“Til the Cops Come Knockin’”"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-ascension",
+        "maxwell-lifetime"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ascension” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Maxwell after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "maxwell-lesson-02-maxwell-s-voice-falsetto-masterclass",
+      "number": 2,
+      "title": "Maxwell’s Voice — Falsetto Masterclass",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal technique. Maxwell’s signature voice uses: Explain the difference between falsetto and head voice → Maxwell uses BOTH."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "angelic falsetto",
+            "feather-light vibrato",
+            "soft consonants",
+            "breathy tone",
+            "impeccable pitch",
+            "controlled glides between registers",
+            "“Ascension (Don’t Ever Wonder)”",
+            "“Pretty Wings”"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-ascension-don-t-ever-wonder",
+        "maxwell-pretty-wings"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ascension (Don’t Ever Wonder)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Maxwell after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain the difference between falsetto and head voice → Maxwell uses BOTH.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "maxwell-lesson-03-urban-hang-suite-neo-soul-s-quiet-masterpiece",
+      "number": 3,
+      "title": "Urban Hang Suite — Neo-Soul's Quiet Masterpiece",
+      "body": [
+        {
+          "type": "text",
+          "text": "Masterpiece Goals: Teach atmosphere-building and album cohesion. This album = bedroom jazz + soul sophistication. Themes: Every song transitions like one long night. Let your son hear continuity → this is ART-building."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sensual romance",
+            "emotional connection",
+            "elegance",
+            "tenderness",
+            "subtle storytelling",
+            "“Ascension”",
+            "“Suitelady (The Proposal Jam)”",
+            "“Til the Cops Come Knockin’”"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-ascension",
+        "maxwell-suitelady-the-proposal-jam",
+        "maxwell-til-the-cops-come-knockin"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ascension” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Maxwell after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "maxwell-lesson-04-embrya-the-experimental-abstract-era",
+      "number": 4,
+      "title": "Embrya — The Experimental, Abstract Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach artistic risk-taking. Embrya was: Lesson: Sometimes being ahead of your time means people don’t get it yet. Use this to teach your son creative courage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "misunderstood at release",
+            "avant-garde",
+            "ambient",
+            "heavily layered",
+            "dreamy and atmospheric",
+            "“Luxury: Cococure”",
+            "“Matrimony: Maybe You”",
+            "“Submerge: Til We Become the Sun”"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-luxury-cococure",
+        "maxwell-matrimony-maybe-you",
+        "maxwell-submerge-til-we-become-the-sun"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Luxury: Cococure” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Maxwell after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "maxwell-lesson-05-the-neo-soul-movement-maxwell-d-angelo-erykah",
+      "number": 5,
+      "title": "The Neo-Soul Movement (Maxwell, D’Angelo, Erykah)",
+      "body": [
+        {
+          "type": "text",
+          "text": "Erykah) Goals: Teach cultural context. Neo-soul = Maxwell’s lane: Let him feel the vibe similarity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "live instruments",
+            "spirituality",
+            "intimacy",
+            "warm analog sound",
+            "jazz influence",
+            "poetry",
+            "anti-commercial aesthetic",
+            "the romantic mystic",
+            "the soft-spoken sensualist",
+            "the gentleman eroticist",
+            "“Ascension” → then D’Angelo “Lady” → then Badu “On & On.”"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-ascension",
+        "maxwell-lady",
+        "maxwell-on-and-on"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ascension” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Maxwell after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "maxwell-lesson-06-maxwell-live-a-performer-who-doesn-t-need-fla",
+      "number": 6,
+      "title": "Maxwell Live — A Performer Who Doesn’t Need Flash",
+      "body": [
+        {
+          "type": "text",
+          "text": "Need Flash Goals: Show performance psychology. Maxwell on stage = “What makes his performance powerful WITHOUT dancing?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "bare feet",
+            "mic stand mastery",
+            "church vocal runs",
+            "emotional presence",
+            "falsetto control under pressure",
+            "“Pretty Wings” live BET Awards",
+            "“Lifetime” live MTV Unplugged (LEGENDARY)"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-pretty-wings",
+        "maxwell-lifetime"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Pretty Wings” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes his performance powerful WITHOUT dancing?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "maxwell-lesson-07-now-maturity-warmth-and-soul-comfort",
+      "number": 7,
+      "title": "Now — Maturity, Warmth, and Soul Comfort",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach evolution. Themes: Lesson: Maxwell respects women deeply in his music — teach your son THAT."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "reflection",
+            "domestic intimacy",
+            "longing",
+            "emotional growth",
+            "“Lifetime”",
+            "“This Woman’s Work” (Kate Bush cover → he MADE it his own)"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-lifetime",
+        "maxwell-this-woman-s-work"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lifetime” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Maxwell after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "maxwell-lesson-08-the-blacksummers-night-trilogy-decade-spannin",
+      "number": 8,
+      "title": "The BLACKsummers’night Trilogy — Decade-Spanning Epic",
+      "body": [
+        {
+          "type": "text",
+          "text": "Decade-Spanning Epic Goals: Teach longform artistry. Three albums: Themes: Maxwell is patient. Art takes YEARS to cook."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "BLACKsummer’snight (2009)",
+            "blackSUMMERS’ night (2016)",
+            "blacksummers’NIGHT (forthcoming)",
+            "heartbreak",
+            "healing",
+            "rebirth",
+            "spiritual love",
+            "emotional maturity",
+            "“Pretty Wings”",
+            "“Fistful of Tears”",
+            "“Lake by the Ocean”"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-pretty-wings",
+        "maxwell-fistful-of-tears",
+        "maxwell-lake-by-the-ocean"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Pretty Wings” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Maxwell after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "maxwell-lesson-09-maxwell-s-place-as-a-masculinity-blueprint",
+      "number": 9,
+      "title": "Maxwell’s Place as a Masculinity Blueprint",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach emotional intelligence. Maxwell models: Message for your son: You can be gentle AND powerful."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "softness",
+            "sensuality",
+            "vulnerability",
+            "artistic introspection",
+            "respect",
+            "emotional literacy",
+            "no need for macho posturing"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-til-the-cops-come-knockin"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Til the Cops Come Knockin’” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Maxwell after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "maxwell-lesson-10-maxwell-s-influence-tree",
+      "number": 10,
+      "title": "Maxwell’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show how deep his imprint goes. DIRECT Influence: SONIC Influence: Play “Pretty Wings” → then Frank Ocean “Thinkin Bout You.” Let your son hear the vocal lineage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "The Weeknd (early Trilogy era tone)",
+            "Frank Ocean (emotional intimacy)",
+            "Miguel (falsetto + romantic tone)",
+            "Daniel Caesar (minimalist intimacy)",
+            "Brent Faiyaz (atmospheric sensuality)",
+            "Giveon (vocal emotional depth)",
+            "D’Angelo (mutual lineage)",
+            "Elijah Blake",
+            "dvsn",
+            "Snoh Aalegra (tone + arrangement lineage)",
+            "modern alt-R&B",
+            "bedroom R&B",
+            "live-instrument resurgence",
+            "moody, atmospheric R&B"
+          ]
+        }
+      ],
+      "listen": [
+        "maxwell-pretty-wings",
+        "maxwell-thinkin-bout-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Pretty Wings” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Maxwell after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “Pretty Wings” → then Frank Ocean “Thinkin Bout You.” Let your son hear the vocal lineage.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Maxwell shaped neo-soul through vocal elegance, atmospheric production, and emotional vulnerability. Compare ONE Urban Hang Suite track (‘Ascension’ or ‘Til the Cops Come Knockin’",
+    "earlyOptions": [
+      "maxwell-til-the-cops-come-knockin"
+    ],
+    "laterOptions": [
+      "maxwell-thinkin-bout-you"
+    ],
+    "influencedCount": 1
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 43, pages 560-572. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

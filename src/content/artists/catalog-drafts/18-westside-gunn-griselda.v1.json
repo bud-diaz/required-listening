@@ -1,0 +1,741 @@
+{
+  "schemaVersion": 1,
+  "id": "westside-gunn-griselda",
+  "number": 18,
+  "displayName": "Westside Gunn & Griselda",
+  "monogram": "WG",
+  "whyItMatters": "Westside Gunn & Griselda matters because the source catalog identifies this route with The resurrection of grimy, 90s New York rap — but through a high fashion, avant-garde, A trio with perfectly balanced powers:, Westside Gunn — curator, visionary, ad-lib deity, luxury/street duality, Conway the Machine — pain technician, bar god.",
+  "passedDown": {
+    "trackId": "westside-gunn-griselda-hall-and-nash",
+    "blurb": "Start with “Hall & Nash” and use the unit's checkpoints to hear how Westside Gunn & Griselda's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "westside-gunn-griselda-dr-birds",
+      "westside-gunn-griselda-elizabeth",
+      "westside-gunn-griselda-french-toast"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The resurrection of grimy, 90s New York rap — but through a high fashion, avant-garde",
+      "A trio with perfectly balanced powers:",
+      "Westside Gunn — curator, visionary, ad-lib deity, luxury/street duality",
+      "Conway the Machine — pain technician, bar god",
+      "Benny the Butcher — hustler poet, the blade of the group",
+      "Art meets drug tales meets wrestling meets couture",
+      "Independent empire (WSG’s marketing genius should be TAUGHT in schools)",
+      "The new standard for underground rap branding"
+    ],
+    "closing": "Griselda teaches taste, discipline, and edge."
+  },
+  "learnOutcomes": [
+    "Flow minimalism",
+    "Delivery as texture",
+    "Ad-libs as instruments",
+    "Cover art curation",
+    "The power of aesthetics",
+    "How independent artists build SCENES",
+    "Grit without glorification",
+    "Buffalo’s cultural context",
+    "Street storytelling at its highest level",
+    "High art references as armor"
+  ],
+  "tracks": [
+    {
+      "id": "westside-gunn-griselda-hall-and-nash",
+      "title": "Hall & Nash",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Hall & Nash Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-the-cow",
+      "title": "The Cow",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "The Cow Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-lemon",
+      "title": "Lemon",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Lemon Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-bang",
+      "title": "Bang",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Bang Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-10-more-commandments",
+      "title": "10 More Commandments",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "10 More Commandments Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-johnny-p-s-caddy",
+      "title": "Johnny P’s Caddy",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Johnny P’s Caddy Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-broken-bottles",
+      "title": "Broken Bottles",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Broken Bottles Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-dr-birds",
+      "title": "Dr. Birds",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Dr. Birds Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-mr-t",
+      "title": "Mr. T",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Mr. T Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-allah-sent-me",
+      "title": "Allah Sent Me",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Allah Sent Me Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-reasonable-drought",
+      "title": "Reasonable Drought",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Reasonable Drought Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-price-of-tea-in-china",
+      "title": "Price of Tea in China",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Price of Tea in China Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-elizabeth",
+      "title": "Elizabeth",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Elizabeth Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "westside-gunn-griselda-french-toast",
+      "title": "French Toast",
+      "artist": "Westside Gunn & Griselda",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "French Toast Westside Gunn & Griselda",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 150-163. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "westside-gunn-griselda-lesson-01-origins-buffalo-pain-suffering-and-survival",
+      "number": 1,
+      "title": "Origins — Buffalo Pain, Suffering, and Survival",
+      "body": [
+        {
+          "type": "text",
+          "text": "Survival Goals: Show the soil they grew from. “How does environment shape sound?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Buffalo, NY = overlooked, economically depressed, no industry machine",
+            "Conway & Westside Gunn are brothers",
+            "Conway getting shot in the head → facial paralysis → still rap god",
+            "Benny coming up hustling, surviving trauma",
+            "RAW authenticity, no gimmicks",
+            "“Hall & Nash” era tracks"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-hall-and-nash"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hall & Nash” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does environment shape sound?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, trauma, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "westside-gunn-griselda-lesson-02-westside-gunn-the-art-director-of-rap",
+      "number": 2,
+      "title": "Westside Gunn — The Art Director of Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach curation, taste, minimalism. WSG’s signature: Show your son the FlyGod cover → ask “What do you FEEL?” Teach aesthetics."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "high-pitched, nasally delivery",
+            "sparse flows",
+            "ad-libs as weapons (“Brrrrt!” “BOOM BOOM BOOM BOOM BOOM!”)",
+            "fashion (Margiela, Off-White, Hermès)",
+            "wrestling references",
+            "album covers as museum pieces (real art commissioned)",
+            "sequencing mastery",
+            "A&R talents (Mach-Hommy, Stove God Cooks, Boldy James, Rome Streetz)"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-hall-and-nash"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hall & Nash” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What do you FEEL?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Show your son the FlyGod cover → ask “What do you FEEL?” Teach aesthetics.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "westside-gunn-griselda-lesson-03-conway-the-machine-the-pain-technician",
+      "number": 3,
+      "title": "Conway the Machine — The Pain Technician",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach lyrical craftsmanship + vulnerability. Conway’s tools: Break down “The Cow” like poetry — teach emotional honesty in street rap."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "emotional bar layering",
+            "vivid pain imagery",
+            "survivor’s perspective",
+            "elite rhyme density",
+            "deliberate, heavy delivery",
+            "courage through imperfection (post-shooting paralysis)",
+            "“The Cow”",
+            "“Lemon”",
+            "“ Bang”"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-the-cow",
+        "westside-gunn-griselda-lemon",
+        "westside-gunn-griselda-bang"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Cow” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Westside Gunn & Griselda after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “The Cow” like poetry — teach emotional honesty in street rap.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, trauma, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "westside-gunn-griselda-lesson-04-benny-the-butcher-hustle-logic-and-precision",
+      "number": 4,
+      "title": "Benny the Butcher — Hustle Logic & Precision",
+      "body": [
+        {
+          "type": "text",
+          "text": "Precision Goals: Teach narrative clarity and technical consistency. Benny’s strengths: “What decision-making lessons is Benny teaching here?” Street ethics = logic under pressure."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "straight-line storytelling",
+            "crisp delivery",
+            "the “every bar is a quotable” structure",
+            "street economics",
+            "discipline themes",
+            "hunger + clarity",
+            "“10 More Commandments”",
+            "“Johnny P’s Caddy”",
+            "“Broken Bottles”"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-10-more-commandments",
+        "westside-gunn-griselda-johnny-p-s-caddy",
+        "westside-gunn-griselda-broken-bottles"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “10 More Commandments” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What decision-making lessons is Benny teaching here?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask your son: “What decision-making lessons is Benny teaching here?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "westside-gunn-griselda-lesson-05-griselda-sound-the-minimalist-drug-opera",
+      "number": 5,
+      "title": "Griselda Sound — The Minimalist Drug Opera",
+      "body": [
+        {
+          "type": "text",
+          "text": "Opera Goals: Teach production aesthetics. Production traits: Your son gon’ learn: “Less can be more — emptiness creates tension.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "dusty loops",
+            "no drums (sometimes)",
+            "soul/jazz/murder-scene samples",
+            "raw textures",
+            "slow BPM",
+            "cinematic feel",
+            "Alchemist → Derringer → Camoflauge Monk",
+            "“Dr. Birds”",
+            "“Mr. T”",
+            "“Allah Sent Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-dr-birds",
+        "westside-gunn-griselda-mr-t",
+        "westside-gunn-griselda-allah-sent-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dr. Birds” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Westside Gunn & Griselda after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, substances, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "westside-gunn-griselda-lesson-06-wrestling-couture-and-crime-the-aesthetic-fus",
+      "number": 6,
+      "title": "Wrestling, Couture, & Crime — The Aesthetic Fusion",
+      "body": [
+        {
+          "type": "text",
+          "text": "Aesthetic Fusion Goals: Explain their WORLD-BUILDING. WSG merges: Have your son identify what’s “street” vs what’s “artsy” in one WSG verse."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "wrestling references (Ric Flair, Kevin Nash)",
+            "mafia iconography",
+            "Paris Fashion Week",
+            "West African & Haitian cultural ties",
+            "street survival stories",
+            "high art curation",
+            "vintage soul"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-elizabeth",
+        "westside-gunn-griselda-dr-birds"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Elizabeth” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Westside Gunn & Griselda after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son identify what’s “street” vs what’s “artsy” in one WSG verse.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "westside-gunn-griselda-lesson-07-branding-and-marketing-the-flygod-blueprint",
+      "number": 7,
+      "title": "Branding & Marketing — The FlyGod Blueprint",
+      "body": [
+        {
+          "type": "text",
+          "text": "Blueprint Goals: Teach independent business strategy. Explain how Gunn: Lesson: “Your vision is more valuable than your budget.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "reinvested profits",
+            "built a visual brand",
+            "controlled album art aesthetics",
+            "treated albums like fashion drops",
+            "used scarcity (limited vinyl, merch)",
+            "built Griselda as a LUXURY underground brand",
+            "created culture, not just music"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-hall-and-nash"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hall & Nash” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Westside Gunn & Griselda after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "westside-gunn-griselda-lesson-08-the-crew-expansion-boldy-james-mach-hommy-sto",
+      "number": 8,
+      "title": "The Crew Expansion — Boldy James, Mach-Hommy, Stove God Cooks",
+      "body": [
+        {
+          "type": "text",
+          "text": "Mach-Hommy, Stove God Cooks Goals: Teach how collectives scale. Break down: Teach how a crew can level up the whole genre."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Boldy James = cold Detroit poetry",
+            "Mach-Hommy = mask-wearing Haitian-Baldwin mystic",
+            "Stove God Cooks = the NEW era’s best coke-rapper alive",
+            "Rome Streetz = sharp UK/NY hybrid flow",
+            "Stove God Cooks “Reasonable Drought”",
+            "Boldy James x Alchemist “Price of Tea in China”"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-reasonable-drought",
+        "westside-gunn-griselda-price-of-tea-in-china"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Reasonable Drought” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Westside Gunn & Griselda after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "westside-gunn-griselda-lesson-09-griselda-philosophy-art-over-algorithms",
+      "number": 9,
+      "title": "Griselda Philosophy — Art Over Algorithms",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach artistic discipline. Teach your son: This is RESPECT."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "no chase for radio",
+            "no pandering",
+            "minimal social media",
+            "cohesive album experiences",
+            "hand-curated collaborators",
+            "quality over hype",
+            "timeless over trendy"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-hall-and-nash"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hall & Nash” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Westside Gunn & Griselda after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "westside-gunn-griselda-lesson-10-griselda-s-influence-tree",
+      "number": 10,
+      "title": "Griselda’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map the new school that follows them. Artists influenced by Griselda: Have your son compare a 90s boom-bap beat vs a Griselda loop — subtle but deep differences."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Roc Marciano (mutual influence)",
+            "Stove God Cooks",
+            "Boldy James (synergy)",
+            "Rome Streetz",
+            "Jay Worthy",
+            "Ransom (new era resurgence)",
+            "JID (flow experiments)",
+            "Kendrick Lamar (album sequencing aesthetics)",
+            "Armani Caesar (female Griselda lane)",
+            "Freddie Gibbs (mutual level-up)",
+            "Your favorite “underground” 2020s rappers"
+          ]
+        }
+      ],
+      "listen": [
+        "westside-gunn-griselda-hall-and-nash"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hall & Nash” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Westside Gunn & Griselda after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son compare a 90s boom-bap beat vs a Griselda loop — subtle but deep differences.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Westside Gunn, Conway the Machine, and Benny the Butcher rebuilt underground rap through minimalism, storytelling, luxury aesthetics, and independent branding. Analyze TWO songs (each by a different member) and identify ONE modern artist influenced by Griselda.",
+    "earlyOptions": [
+      "westside-gunn-griselda-hall-and-nash"
+    ],
+    "laterOptions": [
+      "westside-gunn-griselda-price-of-tea-in-china"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "weapons",
+    "trauma",
+    "mature-themes",
+    "substances"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 12, pages 150-163. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

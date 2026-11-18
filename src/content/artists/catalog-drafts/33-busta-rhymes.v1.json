@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 1,
+  "id": "busta-rhymes",
+  "number": 33,
+  "displayName": "Busta Rhymes",
+  "monogram": "BR",
+  "whyItMatters": "Busta Rhymes matters because the source catalog identifies this route with THE master of fast rap (but actually on beat), God-tier breath control, One of the best music video performers in history, A flow shapeshifter with cartoon-level charisma.",
+  "passedDown": {
+    "trackId": "busta-rhymes-scenario-remix",
+    "blurb": "Start with “Scenario – Remix” and use the unit's checkpoints to hear how Busta Rhymes's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "busta-rhymes-put-your-hands-where-my-eyes-could-see",
+      "busta-rhymes-woo-hah",
+      "busta-rhymes-make-it-clap",
+      "busta-rhymes-turn-it-up",
+      "busta-rhymes-i-know-what-you-want"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "THE master of fast rap (but actually on beat)",
+      "God-tier breath control",
+      "One of the best music video performers in history",
+      "A flow shapeshifter with cartoon-level charisma",
+      "A hip-hop elder statesman with Jamaican roots, patois influence, and cultural depth",
+      "A leader of Flipmode Squad",
+      "A rapper who made FUN a weapon",
+      "A visual pioneer with Hype Williams AND his own imagination"
+    ],
+    "closing": "Busta is FUN + TECHNIQUE."
+  },
+  "learnOutcomes": [
+    "Flow switching",
+    "Breath control",
+    "Vocal projection",
+    "Animation + persona",
+    "Patois cadence",
+    "Visual innovation",
+    "How to own a beat with pure ENERGY",
+    "How to be weird AND elite at the same time"
+  ],
+  "tracks": [
+    {
+      "id": "busta-rhymes-scenario-remix",
+      "title": "Scenario – Remix",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Scenario – Remix Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-break-ya-neck",
+      "title": "Break Ya Neck.",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Break Ya Neck. Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-woo-hah-got-you-all-in-check",
+      "title": "Woo-Hah!! Got You All in Check",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Woo-Hah!! Got You All in Check Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-put-your-hands-where-my-eyes-could-see",
+      "title": "Put Your Hands Where My Eyes Could See",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Put Your Hands Where My Eyes Could See Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-dangerous",
+      "title": "Dangerous",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Dangerous Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-gimme-some-more",
+      "title": "Gimme Some More",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Gimme Some More Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-woo-hah",
+      "title": "Woo-Hah!!",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Woo-Hah!! Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-everybody-rise",
+      "title": "Everybody Rise",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Everybody Rise Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-look-at-me-now",
+      "title": "Look At Me Now",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Look At Me Now Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-touch-it-remix",
+      "title": "Touch It (Remix)",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Touch It (Remix) Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-scenario",
+      "title": "Scenario",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Scenario Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-make-it-clap",
+      "title": "Make It Clap",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Make It Clap Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-bounce",
+      "title": "Bounce",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Bounce Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-turn-it-up",
+      "title": "Turn It Up",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Turn It Up Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "busta-rhymes-i-know-what-you-want",
+      "title": "I Know What You Want",
+      "artist": "Busta Rhymes",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Know What You Want Busta Rhymes",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 363-376. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "busta-rhymes-lesson-01-origins-leaders-of-the-new-school-and-the-bir",
+      "number": 1,
+      "title": "Origins — Leaders of the New School & The Birth of Chaos",
+      "body": [
+        {
+          "type": "text",
+          "text": "Birth of Chaos Goals: Teach how Busta entered the game. “Why does his verse feel like a cartoon explosion compared to the others?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "NYC → Jamaican household",
+            "Early exposure to dancehall + patois cadences",
+            "Leaders of the New School (LONS) → youthful energy",
+            "Early standout moments on posse cuts",
+            "The legendary “Scenario” verse where the world first said “oh yeah, HE different”",
+            "“Scenario – Remix”"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-put-your-hands-where-my-eyes-could-see",
+        "busta-rhymes-woo-hah"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Put Your Hands Where My Eyes Could See” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does his verse feel like a cartoon explosion compared to the others?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "busta-rhymes-lesson-02-busta-s-flow-mechanics-the-technical-mastercl",
+      "number": 2,
+      "title": "Busta’s Flow Mechanics — The Technical Masterclass",
+      "body": [
+        {
+          "type": "text",
+          "text": "Masterclass Goals: Teach real rap technique. Teach his tools: Play “Break Ya Neck.” Pause it. Ask: “How is he rapping THIS fast and staying ON beat?” Teach: breath + muscle memory + clarity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "rapid-fire delivery",
+            "deep diaphragm breathing",
+            "perfect pocket control",
+            "syllable stacking",
+            "elastic vowel stretching",
+            "patois flips",
+            "grunts, growls, ad-libs as PERCUSSION",
+            "sudden pace changes mid-bar",
+            "staccato vs legato flow switching"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-break-ya-neck"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Break Ya Neck.” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How is he rapping THIS fast and staying ON beat?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play “Break Ya Neck.” Pause it.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "busta-rhymes-lesson-03-the-coming-and-when-disaster-strikes-solo-sta",
+      "number": 3,
+      "title": "The Coming & When Disaster Strikes… — Solo Stardom Begins",
+      "body": [
+        {
+          "type": "text",
+          "text": "Solo Stardom Begins Goals: Show how Busta created his OWN world. Show the “Put Your Hands…” video → groundbreaking visual language."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Mythical, apocalyptic imagery (“the world ending” themes)",
+            "Animated delivery vs grimy beats",
+            "New York grit",
+            "Dancehall influence FLAVORING everything",
+            "Performance-first approach",
+            "“Woo-Hah!! Got You All in Check”",
+            "“Put Your Hands Where My Eyes Could See”",
+            "“Dangerous”"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-woo-hah-got-you-all-in-check",
+        "busta-rhymes-put-your-hands-where-my-eyes-could-see",
+        "busta-rhymes-dangerous"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Woo-Hah!! Got You All in Check” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Busta Rhymes after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Show the “Put Your Hands…” video → groundbreaking visual language.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "busta-rhymes-lesson-04-busta-the-actor-voice-acting-inside-rap",
+      "number": 4,
+      "title": "Busta the Actor — Voice Acting Inside Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach character & tone control. Explain how Busta uses: All in ONE verse sometimes. “How many CHARACTERS is he playing in one song?” This teaches your son vocal acting."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "whisper voices",
+            "monster growls",
+            "cartoon characters",
+            "preacher tones",
+            "hysterical yelling",
+            "“Gimme Some More”"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-gimme-some-more"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Gimme Some More” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How many CHARACTERS is he playing in one song?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "busta-rhymes-lesson-05-busta-s-music-videos-afrofuturism-sci-fi-surr",
+      "number": 5,
+      "title": "Busta’s Music Videos — Afrofuturism, Sci-Fi, Surrealism",
+      "body": [
+        {
+          "type": "text",
+          "text": "Sci-Fi, Surrealism Goals: Study visual innovation. Busta’s videos: Watch together: “What makes Busta’s videos feel ALIVE?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fish-eye lenses",
+            "bright colors",
+            "heavy costuming",
+            "sci-fi horror elements",
+            "fast editing",
+            "cartoon motion",
+            "Hype Williams collabs",
+            "Black surrealism",
+            "“Gimme Some More”",
+            "“Put Your Hands Where My Eyes Could See”",
+            "“Woo-Hah!!”",
+            "“Dangerous”"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-gimme-some-more",
+        "busta-rhymes-put-your-hands-where-my-eyes-could-see",
+        "busta-rhymes-woo-hah",
+        "busta-rhymes-dangerous"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Gimme Some More” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes Busta’s videos feel ALIVE?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "busta-rhymes-lesson-06-extinction-level-event-concept-albums-and-wor",
+      "number": 6,
+      "title": "Extinction Level Event — Concept Albums & World-Building",
+      "body": [
+        {
+          "type": "text",
+          "text": "World-Building Goals: Teach apocalyptic themes. Break down how this era used FEAR + humor."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Y2K-era fear",
+            "End-of-world narration",
+            "Conceptual storytelling",
+            "Horror aesthetics",
+            "Theatricality in rap",
+            "Busta voicing both prophet + clown + warrior",
+            "“Gimme Some More”",
+            "“Everybody Rise”",
+            "“What’s It Gonna Be?!” (with Janet — MASTERPIECE)"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-gimme-some-more",
+        "busta-rhymes-everybody-rise"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Gimme Some More” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Busta Rhymes after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down how this era used FEAR + humor.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "busta-rhymes-lesson-07-busta-and-collaboration-verses-that-steal-the",
+      "number": 7,
+      "title": "Busta & Collaboration — Verses That Steal the Whole Song",
+      "body": [
+        {
+          "type": "text",
+          "text": "the Whole Song Goals: Teach dominance as a guest. Study his legendary features: Explain how Busta ALWAYS leaves a mark. Compare his verse on “Look At Me Now” to the others. Discuss pacing & clarity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Look At Me Now” (he smoked everybody)",
+            "“Touch It (Remix)”",
+            "Tribe Called Quest “Scenario”",
+            "Chris Brown “Why Stop Now”",
+            "Janet Jackson “What’s It Gonna Be?!”"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-look-at-me-now",
+        "busta-rhymes-touch-it-remix",
+        "busta-rhymes-scenario"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Look At Me Now” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Busta Rhymes after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare his verse on “Look At Me Now” to the others. Discuss pacing & clarity.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "busta-rhymes-lesson-08-jamaican-roots-patois-dancehall-and-caribbean",
+      "number": 8,
+      "title": "Jamaican Roots — Patois, Dancehall, & Caribbean Flow",
+      "body": [
+        {
+          "type": "text",
+          "text": "Caribbean Flow Goals: Bring in cultural & linguistic literacy. Highlight how Caribbean culture shaped NYC hip-hop."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "patois-inflected phrasing",
+            "syncopated island rhythms",
+            "aggressive staccato flow from dancehall",
+            "shout-style delivery",
+            "carnival energy in his cadence",
+            "“Make It Clap”",
+            "“Bounce”",
+            "Various dancehall collabs"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-make-it-clap",
+        "busta-rhymes-bounce"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Make It Clap” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Busta Rhymes after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "busta-rhymes-lesson-09-breath-control-the-forgotten-superpower",
+      "number": 9,
+      "title": "Breath Control — The Forgotten Superpower",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach the physical side of rapping. Explain: Let your son TRY (clean parts only) a slow Busta verse. He’ll learn humility real quick"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "diaphragm technique",
+            "projection",
+            "silly-long phrases",
+            "almost no breaths in fast sections",
+            "controlling tone while spitting rapid-fire"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-scenario-remix"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Scenario – Remix” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Busta Rhymes after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Let your son TRY (clean parts only) a slow Busta verse. He’ll learn humility real quick",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "busta-rhymes-lesson-10-busta-s-influence-tree",
+      "number": 10,
+      "title": "Busta’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his generational reach. Who he influenced: Have your son pick a modern rapper → find the Busta DNA."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Kendrick Lamar (voice switching)",
+            "Missy Elliott (mutual influence)",
+            "Nicki Minaj (animation + speed)",
+            "Eminem (technical precision)",
+            "DaBaby (staccato flow)",
+            "Ludacris (video style)",
+            "Megan Thee Stallion (aggressive cadences)",
+            "Anderson .Paak (funk energy)",
+            "Joyner Lucas (speed + clarity)",
+            "Doja Cat (elastic cadence)"
+          ]
+        }
+      ],
+      "listen": [
+        "busta-rhymes-scenario-remix"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Scenario – Remix” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Busta Rhymes after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son pick a modern rapper → find the Busta DNA.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Busta Rhymes shaped hip-hop through flow innovation, breath control, Jamaican influence, and visual artistry. Use TWO songs and ONE music video as evidence.",
+    "earlyOptions": [
+      "busta-rhymes-scenario-remix"
+    ],
+    "laterOptions": [
+      "busta-rhymes-bounce"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 28, pages 363-376. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

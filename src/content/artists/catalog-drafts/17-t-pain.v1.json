@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 1,
+  "id": "t-pain",
+  "number": 17,
+  "displayName": "T-Pain",
+  "monogram": "T-",
+  "whyItMatters": "T-Pain matters because the source catalog identifies this route with The man who turned Auto-Tune from a fix into an instrument, A harmonic genius with real, RAW singing voice, The architect of modern melodic rap, A hook machine who changed the entire sound of the radio.",
+  "passedDown": {
+    "trackId": "t-pain-i-m-n-luv-wit-a-stripper",
+    "blurb": "Start with “I’m N Luv (Wit a Stripper)” and use the unit's checkpoints to hear how T-Pain's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "t-pain-i-m-sprung",
+      "t-pain-buy-u-a-drank",
+      "t-pain-bartender",
+      "t-pain-take-your-shirt-off"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The man who turned Auto-Tune from a fix into an instrument",
+      "A harmonic genius with real, RAW singing voice",
+      "The architect of modern melodic rap",
+      "A hook machine who changed the entire sound of the radio",
+      "A beat-selection savant",
+      "A songwriter who made simplicity addictive",
+      "A pioneer who got hated on… then vindicated publicly",
+      "The father of half of Gen Z’s sound"
+    ],
+    "closing": "This unit is FUN but it’s also scholarly."
+  },
+  "learnOutcomes": [
+    "Music tech literacy",
+    "Vocal harmony stacking",
+    "Songwriting simplicity",
+    "Innovation under ridicule",
+    "Black tech creativity",
+    "Melodic flow building",
+    "Performance skill",
+    "Industry politics",
+    "Artistic resilience"
+  ],
+  "tracks": [
+    {
+      "id": "t-pain-i-m-sprung",
+      "title": "I’m Sprung",
+      "artist": "T-Pain",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I’m Sprung T-Pain",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 137-149. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-pain-i-m-n-luv-wit-a-stripper",
+      "title": "I’m N Luv (Wit a Stripper)",
+      "artist": "T-Pain",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "I’m N Luv (Wit a Stripper) T-Pain",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 137-149. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-pain-studio-luv",
+      "title": "Studio Luv",
+      "artist": "T-Pain",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Studio Luv T-Pain",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 137-149. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-pain-buy-u-a-drank",
+      "title": "Buy U A Drank",
+      "artist": "T-Pain",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Buy U A Drank T-Pain",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 137-149. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-pain-chopped-n-skrewed",
+      "title": "Chopped N Skrewed",
+      "artist": "T-Pain",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Chopped N Skrewed T-Pain",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 137-149. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-pain-drankin-patna",
+      "title": "Drankin’ Patna",
+      "artist": "T-Pain",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Drankin’ Patna T-Pain",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 137-149. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-pain-bartender",
+      "title": "Bartender",
+      "artist": "T-Pain",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Bartender T-Pain",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 137-149. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "t-pain-take-your-shirt-off",
+      "title": "Take Your Shirt Off",
+      "artist": "T-Pain",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Take Your Shirt Off T-Pain",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 137-149. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "t-pain-lesson-01-origins-tallahassee-pain-church-and-napster-e",
+      "number": 1,
+      "title": "Origins — Tallahassee, Pain, Church & Napster Era DIY",
+      "body": [
+        {
+          "type": "text",
+          "text": "Napster Era DIY Goals: Teach humility + roots. “How does his voice FEEL playful AND emotional?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Faheem Najm in Tallahassee, Florida",
+            "Musical family + church influence",
+            "Discovered computer recording early → built a home studio as a kid",
+            "Part of Nappy Headz before going solo",
+            "Early covers & remixes online (Napster era)",
+            "Found Auto-Tune while experimenting with digital tools",
+            "“I’m Sprung”"
+          ]
+        }
+      ],
+      "listen": [
+        "t-pain-i-m-sprung"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m Sprung” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does his voice FEEL playful AND emotional?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "t-pain-lesson-02-t-pain-the-inventor-auto-tune-as-a-creative-i",
+      "number": 2,
+      "title": "T-Pain the Inventor — Auto-Tune as a Creative Instrument",
+      "body": [
+        {
+          "type": "text",
+          "text": "Creative Instrument Goals: Teach technology-as-art. Explain: Show your son T-Pain singing WITHOUT Auto-Tune on Tiny Desk. Open his mind."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Auto-Tune originally a pitch-correction tool",
+            "T-Pain cranked settings to extremes → robotic, futuristic voice",
+            "He wasn’t hiding bad singing — he can SANG for real",
+            "Auto-Tune became his signature sound",
+            "He fused:",
+            "R&B melody",
+            "rap cadences",
+            "digital futurism",
+            "Southern bounce"
+          ]
+        }
+      ],
+      "listen": [
+        "t-pain-i-m-n-luv-wit-a-stripper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m N Luv (Wit a Stripper)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T-Pain after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Show your son T-Pain singing WITHOUT Auto-Tune on Tiny Desk. Open his mind.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "t-pain-lesson-03-rappa-ternt-sanga-the-blueprint",
+      "number": 3,
+      "title": "Rappa Ternt Sanga — The Blueprint",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show how he invented a new lane. Break down “I’m Sprung” chord progression. Teach basic harmony."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "A rapper who sings like an R&B artist",
+            "A singer who flows like a rapper",
+            "Harmonies stacked like a choir",
+            "Hooks catchy enough to break the radio",
+            "The “simplicity = genius” songwriting concept",
+            "“I’m Sprung”",
+            "“I’m N Luv (Wit a Stripper)”",
+            "“Studio Luv”"
+          ]
+        }
+      ],
+      "listen": [
+        "t-pain-buy-u-a-drank",
+        "t-pain-bartender"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Buy U A Drank” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T-Pain after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “I’m Sprung” chord progression. Teach basic harmony.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "t-pain-lesson-04-the-t-pain-hook-era-dominating-the-radio",
+      "number": 4,
+      "title": "The “T-Pain Hook Era” — Dominating the Radio",
+      "body": [
+        {
+          "type": "text",
+          "text": "Radio Goals: Teach cultural dominance. Explain: Key Features: “Why does he make EVERYTHING sound like a hit?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "2006–2010 = The T-Pain Era",
+            "Every rapper needed a T-Pain hook",
+            "He pioneered the “feature king” model before Future/Thug/Travis",
+            "His hooks made SONGS go platinum",
+            "Auto-Tune became aspirational",
+            "“Shawty” (Plies)",
+            "“Good Life” (Kanye)",
+            "“Low” (Flo Rida)",
+            "“Got Money” (Lil Wayne)"
+          ]
+        }
+      ],
+      "listen": [
+        "t-pain-i-m-n-luv-wit-a-stripper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m N Luv (Wit a Stripper)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does he make EVERYTHING sound like a hit?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "t-pain-lesson-05-melody-architecture-how-t-pain-builds-hooks",
+      "number": 5,
+      "title": "Melody Architecture — How T-Pain Builds Hooks",
+      "body": [
+        {
+          "type": "text",
+          "text": "Hooks Goals: Teach the math behind catchiness. Teach his formula: 1. Simple, repeating melodic line 2. Bounce-first rhythm 3. Clean rhyme scheme 4. Harmony stacks (3–6 layers) 5. Auto-Tune for texture, not correction 6. Beat panning to create space Let your son identify how many layers he hears in “Buy U a Drank.”"
+        }
+      ],
+      "listen": [
+        "t-pain-i-m-n-luv-wit-a-stripper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m N Luv (Wit a Stripper)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T-Pain after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "t-pain-lesson-06-epiphany-and-thr33-ringz-peak-creativity",
+      "number": 6,
+      "title": "Epiphany & Thr33 Ringz — Peak Creativity",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show artistic expansion. Break “Chopped N Skrewed” into: Your son gon’ learn theme music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Circus-themed branding (Thr33 Ringz)",
+            "Confidence + theatricality",
+            "Experimentation beyond “stripper anthems”",
+            "Consistency in melody",
+            "Visual creativity",
+            "“Buy U A Drank”",
+            "“Can’t Believe It”",
+            "“Chopped N Skrewed”",
+            "structure",
+            "beat manipulation",
+            "concept execution"
+          ]
+        }
+      ],
+      "listen": [
+        "t-pain-buy-u-a-drank",
+        "t-pain-chopped-n-skrewed"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Buy U A Drank” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T-Pain after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break “Chopped N Skrewed” into: ● structure",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "t-pain-lesson-07-industry-backlash-the-anti-auto-tune-movement",
+      "number": 7,
+      "title": "Industry Backlash — The Anti-Auto-Tune Movement",
+      "body": [
+        {
+          "type": "text",
+          "text": "Movement Goals: Teach media literacy + resilience. Break down: Teach your son: “Being too ahead of your time comes with haters.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Jay-Z dropping “D.O.A. (Death of Auto-Tune)”",
+            "Critics clowning the sound",
+            "People claiming T-Pain “ruined music”",
+            "Labels starting to distance from him",
+            "But everyone secretly kept using the style he made popular"
+          ]
+        }
+      ],
+      "listen": [
+        "t-pain-i-m-n-luv-wit-a-stripper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m N Luv (Wit a Stripper)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T-Pain after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "t-pain-lesson-08-the-fall-the-comeback-the-flowers",
+      "number": 8,
+      "title": "The Fall → The Comeback → The Flowers",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach comeback arcs. Explain: Lesson: “Don’t let folks define you. Reinvent yourself.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "T-Pain went through depression",
+            "Struggled financially despite hits",
+            "Industry politics pushed him aside",
+            "Fans rediscovered him",
+            "Tiny Desk performance went viral",
+            "Everyone realized he REALLY can sing",
+            "Now respected as a pioneer AND meme legend",
+            "Twitch + gaming + authenticity → new era"
+          ]
+        }
+      ],
+      "listen": [
+        "t-pain-i-m-n-luv-wit-a-stripper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m N Luv (Wit a Stripper)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T-Pain after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "t-pain-lesson-09-t-pain-the-vocalist-raw-talent",
+      "number": 9,
+      "title": "T-Pain the Vocalist — RAW Talent",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach technical singing. Break down: Your son gon’ understand REAL vocals."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "His natural pitch",
+            "Breath control",
+            "Harmony ability",
+            "Vibrato",
+            "Soul influence",
+            "Gospel runs",
+            "His actual singing tone (smooth, warm)",
+            "Tiny Desk “Buy U A Drank”",
+            "NPR “Drankin’ Patna” (live)"
+          ]
+        }
+      ],
+      "listen": [
+        "t-pain-buy-u-a-drank",
+        "t-pain-drankin-patna"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Buy U A Drank” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T-Pain after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "t-pain-lesson-10-t-pain-s-influence-tree",
+      "number": 10,
+      "title": "T-Pain’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Track his cultural children. Artists influenced by T-Pain (directly or indirectly): Ask your son to pick ANY melodic rapper → find the T-Pain DNA."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Future (Auto-Tune sadness)",
+            "Travis Scott (Auto-Tune as texture)",
+            "Young Thug (melody freedom)",
+            "Lil Uzi Vert",
+            "A Boogie",
+            "Post Malone",
+            "Tory Lanez",
+            "Swae Lee",
+            "Drake (melodic rap blueprint)",
+            "Roddy Ricch",
+            "Don Toliver",
+            "EVERY melodic rapper 2010–2025+"
+          ]
+        }
+      ],
+      "listen": [
+        "t-pain-i-m-n-luv-wit-a-stripper"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I’m N Luv (Wit a Stripper)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of T-Pain after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Ask your son to pick ANY melodic rapper → find the T-Pain DNA.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how T-Pain revolutionized modern music through Auto-Tune innovation, melody architecture, and hook writing. Compare ONE early track (I’m Sprung) to ONE peak-era track (Buy U A Drank) and identify TWO modern artists influenced by him.",
+    "earlyOptions": [
+      "t-pain-i-m-n-luv-wit-a-stripper"
+    ],
+    "laterOptions": [
+      "t-pain-drankin-patna"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "trauma",
+    "mature-themes"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 11, pages 137-149. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

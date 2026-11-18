@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 1,
+  "id": "mariah-carey",
+  "number": 59,
+  "displayName": "Mariah Carey",
+  "monogram": "MC",
+  "whyItMatters": "Mariah Carey matters because the source catalog identifies this route with one of the greatest vocalists in recorded history, songwriter of almost all her hits, whistle note queen, pioneer of hip-hop/pop collaborations.",
+  "passedDown": {
+    "trackId": "mariah-carey-vision-of-love",
+    "blurb": "Start with “Vision of Love” and use the unit's checkpoints to hear how Mariah Carey's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "mariah-carey-we-belong-together",
+      "mariah-carey-hero",
+      "mariah-carey-dreamlover",
+      "mariah-carey-always-be-my-baby",
+      "mariah-carey-all-i-want-for-christmas-is-you"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest vocalists in recorded history",
+      "songwriter of almost all her hits",
+      "whistle note queen",
+      "pioneer of hip-hop/pop collaborations",
+      "Christmas domination legend",
+      "multi-octave monster",
+      "biracial icon navigating identity in the spotlight",
+      "unmatched chart consistency"
+    ],
+    "closing": "This unit is a MASTERCLASS in talent + strategy."
+  },
+  "learnOutcomes": [
+    "how vocals actually work",
+    "how R&B and pop merged in the 90s",
+    "how Black/pop culture smashed together",
+    "the power of identity and owning your narrative"
+  ],
+  "tracks": [
+    {
+      "id": "mariah-carey-vision-of-love",
+      "title": "Vision of Love",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Vision of Love Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-emotions",
+      "title": "Emotions",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Emotions Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-someday",
+      "title": "Someday",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Someday Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-all-in-your-mind",
+      "title": "All in Your Mind",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "All in Your Mind Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-we-belong-together",
+      "title": "We Belong Together",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "We Belong Together Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-hero",
+      "title": "Hero",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hero Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-without-you",
+      "title": "Without You",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Without You Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-dreamlover",
+      "title": "Dreamlover",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Dreamlover Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-always-be-my-baby",
+      "title": "Always Be My Baby",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Always Be My Baby Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-fantasy-remix-feat-odb",
+      "title": "Fantasy (Remix) feat. ODB",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Fantasy (Remix) feat. ODB Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-honey",
+      "title": "Honey",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Honey Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-my-all",
+      "title": "My All",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "My All Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-breakdown",
+      "title": "Breakdown",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Breakdown Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-shake-it-off",
+      "title": "Shake It Off",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Shake It Off Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-it-s-like-that",
+      "title": "It’s Like That",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "It’s Like That Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "mariah-carey-all-i-want-for-christmas-is-you",
+      "title": "All I Want for Christmas Is You",
+      "artist": "Mariah Carey",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "All I Want for Christmas Is You Mariah Carey",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 733-746. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "mariah-carey-lesson-01-origins-long-island-childhood-biracial-identi",
+      "number": 1,
+      "title": "Origins — Long Island Childhood, Biracial Identity, Gospel Roots",
+      "body": [
+        {
+          "type": "text",
+          "text": "Identity, Gospel Roots Goals: Teach foundation. “What emotions do you hear in her voice even when the lyrics sound positive?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Mariah = Black Venezuelan father + Irish mother",
+            "grew up dealing with identity struggles + racism",
+            "insane natural vocal ability",
+            "whistle register developed young",
+            "wrote SONGS before getting signed",
+            "early industry politics tried to mold her sound",
+            "“Vision of Love”"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-always-be-my-baby",
+        "mariah-carey-hero"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Always Be My Baby” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What emotions do you hear in her voice even when the lyrics sound positive?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mariah-carey-lesson-02-the-voice-5-octave-range-whistle-register-bib",
+      "number": 2,
+      "title": "The Voice — 5-Octave Range, Whistle Register Bible",
+      "body": [
+        {
+          "type": "text",
+          "text": "Register Bible Goals: Teach vocal anatomy. Mariah’s tools: Songs to study: Explain melisma — show how one word turns into 4–7 notes."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "melisma (multiple notes on one syllable)",
+            "whistle register (notes above high C)",
+            "chest/head mix",
+            "immaculate breath control",
+            "phrasing elegance",
+            "soft, airy tone blended with power",
+            "“Emotions”",
+            "“Someday”",
+            "“All in Your Mind”"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-emotions",
+        "mariah-carey-someday",
+        "mariah-carey-all-in-your-mind"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Emotions” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mariah Carey after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain melisma — show how one word turns into 4–7 notes.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mariah-carey-lesson-03-songwriting-genius-melodies-chords-and-poetry",
+      "number": 3,
+      "title": "Songwriting Genius — Melodies, Chords, & Poetry",
+      "body": [
+        {
+          "type": "text",
+          "text": "Poetry Goals: Show craft. Mariah co-wrote: Break down: Break down structure: verse, pre-chorus, chorus, bridge, climax."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Fantasy”",
+            "“Hero”",
+            "“We Belong Together”",
+            "“Always Be My Baby”",
+            "“Honey”",
+            "etc. (basically everything)",
+            "her bridge brilliance",
+            "emotional detail",
+            "romantic metaphors",
+            "unexpected chord shifts"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-we-belong-together"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “We Belong Together” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mariah Carey after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mariah-carey-lesson-04-90s-pop-reinvention-mariah-carey-music-box-da",
+      "number": 4,
+      "title": "90s Pop Reinvention — Mariah Carey, Music Box, Daydream Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Box, Daydream Era Goals: Learn pop ballad mastery. Themes: Compare early Mariah to Whitney → study differences in approach."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Hero”",
+            "“Without You”",
+            "“Dreamlover”",
+            "“Always Be My Baby”",
+            "love",
+            "yearning",
+            "innocence",
+            "vocal purity"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-hero",
+        "mariah-carey-without-you",
+        "mariah-carey-dreamlover",
+        "mariah-carey-always-be-my-baby"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hero” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mariah Carey after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare early Mariah to Whitney → study differences in approach.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mariah-carey-lesson-05-hip-hop-fusion-the-true-pioneer-of-r-and-b-ra",
+      "number": 5,
+      "title": "Hip-Hop Fusion — The TRUE Pioneer of R&B-Rap Collabs",
+      "body": [
+        {
+          "type": "text",
+          "text": "R&B-Rap Collabs Goals: Teach cultural innovation. Mariah was the FIRST huge pop star who: Tell your son: “This is the blueprint for every rapper/singer collab after 1995.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "demanded hip-hop remixes",
+            "worked with ODB, Mobb Deep, Da Brat, Missy",
+            "brought hip-hop into mainstream pop",
+            "changed radio forever",
+            "“Fantasy (Remix) feat. ODB”"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-fantasy-remix-feat-odb"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Fantasy (Remix) feat. ODB” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mariah Carey after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mariah-carey-lesson-06-butterfly-era-her-artistic-liberation",
+      "number": 6,
+      "title": "Butterfly Era — Her Artistic Liberation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show autonomy. Butterfly = her Magnum Opus. Themes: “How does an artist sound when they finally get FREE?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "liberation",
+            "sensuality",
+            "heartbreak",
+            "healing",
+            "R&B purity",
+            "hip-hop realism",
+            "“Honey”",
+            "“My All”",
+            "“Breakdown” (feat. Bone Thugs)"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-honey",
+        "mariah-carey-my-all",
+        "mariah-carey-breakdown"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Honey” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does an artist sound when they finally get FREE?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "mariah-carey-lesson-07-reinvention-through-the-2000s-the-emancipatio",
+      "number": 7,
+      "title": "Reinvention Through the 2000s — The Emancipation of Mimi",
+      "body": [
+        {
+          "type": "text",
+          "text": "Emancipation of Mimi Goals: Show comeback + evolution. This album = MEGA return. Traits: Break down “We Belong Together” → the songwriting is insane."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "confident tone",
+            "richer vocal maturity",
+            "hip-hop + gospel + pop mix",
+            "emotional clarity",
+            "“Shake It Off”",
+            "“We Belong Together”",
+            "“It’s Like That”"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-shake-it-off",
+        "mariah-carey-we-belong-together",
+        "mariah-carey-it-s-like-that"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Shake It Off” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mariah Carey after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “We Belong Together” → the songwriting is insane.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mariah-carey-lesson-08-holiday-domination-christmas-queen-era",
+      "number": 8,
+      "title": "Holiday Domination — Christmas Queen Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach brand building. “All I Want for Christmas Is You” = Lesson: “Write one timeless song and your great-grandkids eating forever.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "biggest holiday song ever",
+            "modern classic",
+            "global cultural reset",
+            "a MONEY PRINTER"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-vision-of-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Vision of Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mariah Carey after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "mariah-carey-lesson-09-mariah-the-icon-fashion-glamour-diva-persona",
+      "number": 9,
+      "title": "Mariah the Icon — Fashion, Glamour, Diva Persona",
+      "body": [
+        {
+          "type": "text",
+          "text": "Persona Goals: Teach self-presentation as empowerment. Show her interviews — she is HILARIOUS and intentional."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "diva persona as protection from misogyny",
+            "glamor as agency",
+            "femininity as power",
+            "humor + shade + camp",
+            "unique celebrity voice"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-vision-of-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Vision of Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Mariah Carey after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Show her interviews — she is HILARIOUS and intentional.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "mariah-carey-lesson-10-mariah-carey-s-influence-tree",
+      "number": 10,
+      "title": "Mariah Carey’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show cultural impact. Direct influence: Hip-Hop Influence: Play Ariana → then Mariah → ask your son: “What parts sound related?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Ariana Grande (melisma + whistle tone)",
+            "Beyoncé (vocal runs, pop-R&B fusion)",
+            "Rihanna (attitude + genre blending)",
+            "SZA (airy tone, emotional phrasing)",
+            "Tinashe",
+            "JoJo",
+            "Normani",
+            "Kehlani",
+            "Victoria Monét",
+            "Christina Aguilera (run-heavy style)",
+            "EVERY rapper-singer collab traces back to her",
+            "R&B remixes standard because of Mariah"
+          ]
+        }
+      ],
+      "listen": [
+        "mariah-carey-vision-of-love"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Vision of Love” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What parts sound related?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Ariana → then Mariah → ask your son: “What parts sound related?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Mariah Carey used vocal mastery, songwriting, and hip-hop/R&B fusion to shape modern pop music. Compare ONE early track (Vision of Love) with ONE later track (We Belong Together), and name TWO modern artists influenced by Mariah.",
+    "earlyOptions": [
+      "mariah-carey-vision-of-love"
+    ],
+    "laterOptions": [
+      "mariah-carey-it-s-like-that"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 56, pages 733-746. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

@@ -1,0 +1,675 @@
+{
+  "schemaVersion": 1,
+  "id": "lauryn-hill",
+  "number": 34,
+  "displayName": "Lauryn Hill",
+  "monogram": "LH",
+  "whyItMatters": "Lauryn Hill matters because the source catalog identifies this route with one of the greatest MCs to ever breathe, a once-in-a-generation singer-songwriter, the architect of hip-hop soul, the first woman to win Album of the Year in rap/R&B.",
+  "passedDown": {
+    "trackId": "lauryn-hill-nappy-heads-remix",
+    "blurb": "Start with “Nappy Heads (Remix)” and use the unit's checkpoints to hear how Lauryn Hill's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "lauryn-hill-killing-me-softly",
+      "lauryn-hill-nothing-even-matters",
+      "lauryn-hill-tell-him",
+      "lauryn-hill-to-zion"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest MCs to ever breathe",
+      "a once-in-a-generation singer-songwriter",
+      "the architect of hip-hop soul",
+      "the first woman to win Album of the Year in rap/R&B",
+      "a griot whose words feel Biblical",
+      "a feminist, spiritual, philosophical force",
+      "the poet laureate of the Fugees",
+      "the gold standard for “one album that changed the world”"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "that genius doesn’t require volume",
+    "that bars can be sacred",
+    "that pain + principle = power",
+    "that a Black woman’s truth can shake the whole world"
+  ],
+  "tracks": [
+    {
+      "id": "lauryn-hill-nappy-heads-remix",
+      "title": "Nappy Heads (Remix)",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Nappy Heads (Remix) Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-ready-or-not",
+      "title": "Ready or Not",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Ready or Not Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-fu-gee-la",
+      "title": "Fu-Gee-La",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Fu-Gee-La Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-killing-me-softly",
+      "title": "Killing Me Softly",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Killing Me Softly Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-lost-ones",
+      "title": "Lost Ones",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Lost Ones Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-final-hour",
+      "title": "Final Hour",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Final Hour Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-forgive-them-father",
+      "title": "Forgive Them Father",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Forgive Them Father Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-ex-factor",
+      "title": "Ex-Factor",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Ex-Factor Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-nothing-even-matters",
+      "title": "Nothing Even Matters",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Nothing Even Matters Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-me-myself-and-i",
+      "title": "Me, Myself & I.",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Me, Myself & I. Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-tell-him",
+      "title": "Tell Him",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Tell Him Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "lauryn-hill-to-zion",
+      "title": "To Zion",
+      "artist": "Lauryn Hill",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "To Zion Lauryn Hill",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 377-389. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lauryn-hill-lesson-01-origins-jersey-girl-baptist-choir-gifted-prod",
+      "number": 1,
+      "title": "Origins — Jersey Girl, Baptist Choir, Gifted Prodigy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Prodigy Goals: Show her early grasp of music & language. “How do you hear both soul AND sharpness in her flow?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born in South Orange, NJ",
+            "choir upbringing → soul roots",
+            "violin + poetry as a kid",
+            "high academic achiever",
+            "formed a band with Pras in high school → eventually became Fugees",
+            "Early Fugees era “Nappy Heads (Remix)”"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-tell-him",
+        "lauryn-hill-nothing-even-matters"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tell Him” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do you hear both soul AND sharpness in her flow?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lauryn-hill-lesson-02-the-fugees-era-lyricist-supreme",
+      "number": 2,
+      "title": "The Fugees Era — Lyricist Supreme",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Establish her as the best rapper in the group. In The Score (1996), Lauryn: Lauryn wasn’t “good for a girl.” She was the BEST in the room."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "out-rapped EVERYBODY",
+            "brought melody into rap before it was mainstream",
+            "balanced aggression & compassion",
+            "gave the album its emotional core",
+            "“Ready or Not”",
+            "“Fu-Gee-La”",
+            "“Killing Me Softly” (vocal GOD-mode)"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-ready-or-not",
+        "lauryn-hill-fu-gee-la",
+        "lauryn-hill-killing-me-softly"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ready or Not” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lauryn Hill after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lauryn-hill-lesson-03-the-miseducation-of-lauryn-hill-the-sacred-te",
+      "number": 3,
+      "title": "The Miseducation of Lauryn Hill — The Sacred Text",
+      "body": [
+        {
+          "type": "text",
+          "text": "Sacred Text Goals: Break down the most important R&B/hip-hop album ever. Themes: Core Tracks for analysis: Teach your son: This album is a syllabus about the heart."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "love",
+            "heartbreak",
+            "motherhood",
+            "self-worth",
+            "spirituality",
+            "racial identity",
+            "healing",
+            "community wisdom",
+            "misogyny + patriarchy survival",
+            "purpose",
+            "“Doo Wop (That Thing)”",
+            "“Ex-Factor”",
+            "“To Zion”",
+            "“Superstar”",
+            "“Nothing Even Matters”",
+            "“Lost Ones”"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-nappy-heads-remix"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nappy Heads (Remix)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lauryn Hill after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lauryn-hill-lesson-04-the-pen-bars-like-scripture",
+      "number": 4,
+      "title": "The Pen — Bars Like Scripture",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach lyrical technique. Lauryn uses: Count how many warnings + life lessons are hidden in 16 bars."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "layered metaphors",
+            "Biblical allusions",
+            "internal rhyme",
+            "womanist critique",
+            "double meanings",
+            "emotional honesty",
+            "philosophical questions",
+            "“Lost Ones” (rap masterclass)",
+            "“Final Hour”",
+            "“Forgive Them Father”"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-lost-ones",
+        "lauryn-hill-final-hour",
+        "lauryn-hill-forgive-them-father"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lost Ones” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lauryn Hill after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Count how many warnings + life lessons are hidden in 16 bars.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lauryn-hill-lesson-05-the-voice-effortless-soul-pain",
+      "number": 5,
+      "title": "The Voice — Effortless Soul + Pain",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Understand dual talent: she’s TWO legends in one. Lauryn’s vocal traits: “How does she make sadness sound beautiful instead of hopeless?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "warm contralto",
+            "rasp on command",
+            "gospel-rooted phrasing",
+            "emotional quiver",
+            "ability to sound ancient + young at once",
+            "natural melisma",
+            "“Ex-Factor”",
+            "“Nothing Even Matters”"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-ex-factor",
+        "lauryn-hill-nothing-even-matters"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ex-Factor” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does she make sadness sound beautiful instead of hopeless?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lauryn-hill-lesson-06-black-womanhood-strength-love-and-self-protec",
+      "number": 6,
+      "title": "Black Womanhood — Strength, Love, and Self-Protection",
+      "body": [
+        {
+          "type": "text",
+          "text": "Self-Protection Goals: Teach empathy and respect. Lauryn writes from: Teach your son: Lauryn is required learning to understand Black women. Her songs are emotional literacy tools."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "the exhaustion of being overlooked",
+            "the frustration of carrying others",
+            "the pain of love gone wrong",
+            "the power of self-healing",
+            "the necessity of boundaries"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-nappy-heads-remix"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nappy Heads (Remix)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lauryn Hill after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lauryn-hill-lesson-07-spirituality-the-biblical-the-ancestral-the-i",
+      "number": 7,
+      "title": "Spirituality — The Biblical, The Ancestral, The Intuitive",
+      "body": [
+        {
+          "type": "text",
+          "text": "The Intuitive Goals: Show Lauryn’s prophetic voice. Tracks like: Themes: Lesson: Lauryn teaches that spirituality is personal and transformative."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“To Zion”",
+            "“Forgive Them Father”",
+            "“The Miseducation of Lauryn Hill”",
+            "divine purpose",
+            "motherhood as sacred",
+            "blessing + burden",
+            "identity struggle",
+            "self-repair through faith"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-nappy-heads-remix"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nappy Heads (Remix)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lauryn Hill after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "lauryn-hill-lesson-08-the-unfinished-legacy-scarcity-as-power",
+      "number": 8,
+      "title": "The Unfinished Legacy — Scarcity as Power",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach that output ≠ importance. Despite only one proper studio album: Discuss how one great work can outweigh fifty mediocre ones."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Lauryn changed R&B",
+            "Lauryn changed rap",
+            "Lauryn changed neo-soul",
+            "Lauryn changed hip-hop feminism",
+            "Lauryn changed the GRAMMYs"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-nappy-heads-remix"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nappy Heads (Remix)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lauryn Hill after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Discuss how one great work can outweigh fifty mediocre ones.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lauryn-hill-lesson-09-the-unplugged-sessions-raw-truth",
+      "number": 9,
+      "title": "The Unplugged Sessions — Raw Truth",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show vulnerability as artistry. Her MTV Unplugged performance: Perfection is not the point — truth is."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "her voice cracks",
+            "she cries",
+            "she talks through songs",
+            "she shares spiritual fears",
+            "she strips everything down"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-nappy-heads-remix"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nappy Heads (Remix)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lauryn Hill after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "lauryn-hill-lesson-10-lauryn-hill-influence-tree",
+      "number": 10,
+      "title": "Lauryn Hill Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show her HUGE lineage. DIRECT Influence: GENRE Influence: Play Lauryn’s “Doo Wop” → then Beyoncé’s “Me, Myself & I.” Have your son notice the empowerment lineage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Beyoncé",
+            "J. Cole (philosophy)",
+            "Kendrick Lamar (moral framing)",
+            "Drake (melodic rap)",
+            "SZA (emotional honesty)",
+            "Adele (vocal tone inspiration)",
+            "Jhene Aiko",
+            "Ari Lennox",
+            "H.E.R.",
+            "Rapsody",
+            "Nicki Minaj (lyrical confidence)",
+            "neo-soul",
+            "conscious hip-hop",
+            "melodic rap",
+            "confessional R&B"
+          ]
+        }
+      ],
+      "listen": [
+        "lauryn-hill-me-myself-and-i"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Me, Myself & I.” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Lauryn Hill after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Lauryn’s “Doo Wop” → then Beyoncé’s “Me, Myself & I.” Have your son notice the empowerment lineage.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Lauryn Hill blended rap, soul, spirituality, and emotional truth to create one of the most influential albums in music history. Compare ONE Fugees-era track (‘Ready or Not’) with ONE Miseducation track (‘Ex-Factor’ or ‘Lost Ones’) and identify TWO modern artists who clearly show Lauryn Hill’s influence.",
+    "earlyOptions": [
+      "lauryn-hill-nappy-heads-remix"
+    ],
+    "laterOptions": [
+      "lauryn-hill-me-myself-and-i"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "mature-themes",
+    "trauma",
+    "explicit-language",
+    "substances"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 29, pages 377-389. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

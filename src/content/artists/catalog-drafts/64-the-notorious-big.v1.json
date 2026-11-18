@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 1,
+  "id": "the-notorious-big",
+  "number": 64,
+  "displayName": "The Notorious B.I.G.",
+  "monogram": "NB",
+  "whyItMatters": "The Notorious B.I.G. matters because the source catalog identifies this route with one of the greatest rappers to ever live, master storyteller, unmatched flow precision, voice like a velvet bulldozer.",
+  "passedDown": {
+    "trackId": "the-notorious-big-party-and-bullshit",
+    "blurb": "Start with “Party and Bullshit” and use the unit's checkpoints to hear how The Notorious B.I.G.'s technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "the-notorious-big-big-poppa",
+      "the-notorious-big-juicy",
+      "the-notorious-big-one-more-chance-remix",
+      "the-notorious-big-hypnotize"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest rappers to ever live",
+      "master storyteller",
+      "unmatched flow precision",
+      "voice like a velvet bulldozer",
+      "architect of East Coast mafioso rap",
+      "the standard for cadence, punchlines, and cool",
+      "breath control",
+      "multi-syllabic rhyme"
+    ],
+    "closing": "Biggie = a writing workshop and a flow clinic."
+  },
+  "learnOutcomes": [
+    "breath control",
+    "multi-syllabic rhyme",
+    "imagery",
+    "pacing",
+    "character-driven rap",
+    "Brooklyn culture",
+    "hip-hop evolution from the streets to mainstream"
+  ],
+  "tracks": [
+    {
+      "id": "the-notorious-big-party-and-bullshit",
+      "title": "Party and Bullshit",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Party and Bullshit The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-big-poppa",
+      "title": "Big Poppa",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Big Poppa The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-machine-gun-funk",
+      "title": "Machine Gun Funk",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "Machine Gun Funk The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-kick-in-the-door",
+      "title": "Kick in the Door",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "Kick in the Door The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-things-done-changed",
+      "title": "Things Done Changed",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Things Done Changed The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-gimme-the-loot",
+      "title": "Gimme the Loot",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Gimme the Loot The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-juicy",
+      "title": "Juicy",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Juicy The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-warning",
+      "title": "Warning",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Warning The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-one-more-chance-remix",
+      "title": "One More Chance (Remix)",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "One More Chance (Remix) The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-hypnotize",
+      "title": "Hypnotize",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hypnotize The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-mo-money-mo-problems",
+      "title": "Mo Money Mo Problems",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Mo Money Mo Problems The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-notorious-big-ten-crack-commandments",
+      "title": "Ten Crack Commandments",
+      "artist": "The Notorious B.I.G.",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Ten Crack Commandments The Notorious B.I.G.",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 818-830. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "the-notorious-big-lesson-01-origins-brooklyn-dancehall-influence-and-stre",
+      "number": 1,
+      "title": "Origins — Brooklyn, Dancehall Influence, & Street Storytelling",
+      "body": [
+        {
+          "type": "text",
+          "text": "Street Storytelling Goals: Teach the environment that shaped the voice. “What makes Biggie sound confident even before he made it big?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Christopher Wallace in Bed-Stuy",
+            "Jamaican household → cadence + rhythm influence",
+            "early freestyle legend",
+            "hustling background shapes authenticity",
+            "demo tapes → discovered by Puff",
+            "Bad Boy Records becomes his empire",
+            "“Party and Bullshit”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-juicy",
+        "the-notorious-big-big-poppa"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes Biggie sound confident even before he made it big?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-notorious-big-lesson-02-the-voice-deep-warm-heavy-smooth",
+      "number": 2,
+      "title": "The Voice — Deep, Warm, Heavy, Smooth",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal identity. Biggie’s vocal traits: “How does a deep voice make the flow sound calm AND powerful?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "baritone resonance",
+            "relaxed delivery",
+            "conversational pacing",
+            "perfect enunciation",
+            "“effortlessly cool” tone",
+            "rhythmic whisper bars → explosive switches",
+            "“Big Poppa”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-big-poppa"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Big Poppa” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does a deep voice make the flow sound calm AND powerful?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-notorious-big-lesson-03-flow-science-biggie-s-pocket-control",
+      "number": 3,
+      "title": "Flow Science — Biggie’s Pocket Control",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach rhythm & technique. Biggie’s flow = Have your son clap a beat while Biggie raps — he’ll feel the bounce."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "jazz-inspired",
+            "off-beat to on-beat transitions",
+            "internal rhymes",
+            "rhythm-layering",
+            "effortless breath control",
+            "swinging cadence",
+            "“Machine Gun Funk”",
+            "“Kick in the Door”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-machine-gun-funk",
+        "the-notorious-big-kick-in-the-door"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Machine Gun Funk” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Notorious B.I.G. after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son clap a beat while Biggie raps — he’ll feel the bounce.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-notorious-big-lesson-04-ready-to-die-the-masterpiece-of-raw-storytell",
+      "number": 4,
+      "title": "Ready to Die — The Masterpiece of Raw Storytelling",
+      "body": [
+        {
+          "type": "text",
+          "text": "Storytelling Goals: Teach narrative writing. Themes: Break down “Warning” — it’s a full crime movie in 3 minutes."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "depression",
+            "poverty",
+            "crime",
+            "ambition",
+            "fear",
+            "bravado",
+            "survival",
+            "dark humor",
+            "“Things Done Changed”",
+            "“Gimme the Loot”",
+            "“Juicy”",
+            "“Warning”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-things-done-changed",
+        "the-notorious-big-gimme-the-loot",
+        "the-notorious-big-juicy",
+        "the-notorious-big-warning"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Things Done Changed” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Notorious B.I.G. after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “Warning” — it’s a full crime movie in 3 minutes.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-notorious-big-lesson-05-imagery-and-descriptive-writing-biggie-the-no",
+      "number": 5,
+      "title": "Imagery & Descriptive Writing — Biggie the Novelist",
+      "body": [
+        {
+          "type": "text",
+          "text": "Novelist Goals: Teach literary technique. Biggie uses: Example: “Birthdays was the worst days / now we sip champagne when we thirsty” “How does Biggie make you SEE the scene in your head?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sensory detail",
+            "character dialogue",
+            "cinematic pacing",
+            "perspective switching",
+            "emotional realism",
+            "humor amid danger"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-party-and-bullshit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Party and Bullshit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Biggie make you SEE the scene in your head?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-notorious-big-lesson-06-biggie-x-bad-boy-the-puff-daddy-era",
+      "number": 6,
+      "title": "Biggie x Bad Boy — The Puff Daddy Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach branding + crossover. Puff’s role: Lesson: “Marketing + talent = cultural takeover.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "polished production",
+            "sample-heavy hits",
+            "blending hardcore rap with R&B",
+            "reinvented NYC sound",
+            "built Biggie as a street-poet-meets-pop-icon",
+            "“Juicy”",
+            "“One More Chance (Remix)”",
+            "“Warning”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-juicy",
+        "the-notorious-big-one-more-chance-remix",
+        "the-notorious-big-warning"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Juicy” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Notorious B.I.G. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-notorious-big-lesson-07-life-after-death-mafioso-rap-mastery",
+      "number": 7,
+      "title": "Life After Death — Mafioso Rap Mastery",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach evolution & creativity. This album = cinematic universe. Themes: Break down “Ten Crack Commandments” → structure + clarity + rules format."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "luxury",
+            "paranoia",
+            "fame tension",
+            "dark comedy",
+            "violence with consequence",
+            "confidence at maximum",
+            "“Hypnotize”",
+            "“Mo Money Mo Problems”",
+            "“What’s Beef?”",
+            "“Ten Crack Commandments”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-hypnotize",
+        "the-notorious-big-mo-money-mo-problems",
+        "the-notorious-big-ten-crack-commandments"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hypnotize” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What’s Beef?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Break down “Ten Crack Commandments” → structure + clarity + rules format.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, substances, trauma, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "substances",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-notorious-big-lesson-08-vulnerability-the-emotion-beneath-the-bariton",
+      "number": 8,
+      "title": "Vulnerability — The Emotion Beneath the Baritone",
+      "body": [
+        {
+          "type": "text",
+          "text": "Baritone Goals: Show his depth. Biggie wasn’t just bravado — he had layers: Discussion: “Why is vulnerability important in storytelling?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "depression (“Suicidal Thoughts”)",
+            "pressure of fatherhood",
+            "fear of failure",
+            "insecurity about weight",
+            "longing for peace"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-party-and-bullshit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Party and Bullshit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why is vulnerability important in storytelling?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, trauma, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-notorious-big-lesson-09-biggie-s-influence-tree",
+      "number": 9,
+      "title": "Biggie’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his HUGE cultural imprint. Direct Influence: Indirect Influence: Play Pop Smoke → then Biggie → spot similarities."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Jay-Z (flow, mafioso style)",
+            "Rick Ross (luxury rap cadence)",
+            "Fabolous",
+            "Lloyd Banks",
+            "J. Cole (storytelling methods)",
+            "Nicki Minaj (multi-character voices)",
+            "Pop Smoke (Brooklyn tone + flow patterns)",
+            "narrative rap",
+            "luxury rap",
+            "NYC drill swagger",
+            "rap’s emphasis on flow precision"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-party-and-bullshit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Party and Bullshit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Notorious B.I.G. after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Pop Smoke → then Biggie → spot similarities.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-notorious-big-lesson-10-legacy-a-short-life-a-long-shadow",
+      "number": 10,
+      "title": "Legacy — A Short Life, A Long Shadow",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach lifespan vs impact. Topics: Lesson: “Impact ain’t measured in years — it’s measured in influence.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Biggie’s murder",
+            "East vs West Coast tension (age appropriate)",
+            "how art can outlive tragedy",
+            "how one album can change everything",
+            "why he’s still studied 30 years later"
+          ]
+        }
+      ],
+      "listen": [
+        "the-notorious-big-party-and-bullshit"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Party and Bullshit” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Notorious B.I.G. after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how The Notorious B.I.G. used storytelling, flow mastery, and emotional depth to shape hip-hop. Compare ONE track from Ready to Die (‘Warning’) with ONE track from Life After Death (‘Hypnotize’) and identify TWO modern artists influenced by Biggie.",
+    "earlyOptions": [
+      "the-notorious-big-party-and-bullshit"
+    ],
+    "laterOptions": [
+      "the-notorious-big-ten-crack-commandments"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "weapons",
+    "mature-themes",
+    "trauma",
+    "substances",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 62, pages 818-830. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

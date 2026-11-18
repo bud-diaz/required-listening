@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 1,
+  "id": "wu-tang-clan",
+  "number": 24,
+  "displayName": "Wu-Tang Clan",
+  "monogram": "WC",
+  "whyItMatters": "Wu-Tang Clan matters because the source catalog identifies this route with nine-man supergroup from Staten Island, deeply lyrical, gritty, abstract, and comedic, kung-fu sampling geniuses, pioneers of the “crew album → solo deals” business model.",
+  "passedDown": {
+    "trackId": "wu-tang-clan-protect-ya-neck",
+    "blurb": "Start with “Protect Ya Neck” and use the unit's checkpoints to hear how Wu-Tang Clan's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "wu-tang-clan-method-man",
+      "wu-tang-clan-all-that-i-got-is-you",
+      "wu-tang-clan-tearz"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "nine-man supergroup from Staten Island",
+      "deeply lyrical, gritty, abstract, and comedic",
+      "kung-fu sampling geniuses",
+      "pioneers of the “crew album → solo deals” business model",
+      "each member with a unique persona & style",
+      "architects of 90s underground renaissance",
+      "lyrical density",
+      "creative identity"
+    ],
+    "closing": "Wu-Tang = CULTURE."
+  },
+  "learnOutcomes": [
+    "lyrical density",
+    "creative identity",
+    "how art can uplift neighborhoods",
+    "independent business strategy",
+    "sampling from global media",
+    "crew synergy"
+  ],
+  "tracks": [
+    {
+      "id": "wu-tang-clan-protect-ya-neck",
+      "title": "Protect Ya Neck",
+      "artist": "Wu-Tang Clan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Protect Ya Neck Wu-Tang Clan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 242-255. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wu-tang-clan-da-mystery-of-chessboxin",
+      "title": "Da Mystery of Chessboxin’",
+      "artist": "Wu-Tang Clan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Da Mystery of Chessboxin’ Wu-Tang Clan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 242-255. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wu-tang-clan-bring-da-ruckus",
+      "title": "Bring da Ruckus",
+      "artist": "Wu-Tang Clan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Bring da Ruckus Wu-Tang Clan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 242-255. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wu-tang-clan-method-man",
+      "title": "Method Man",
+      "artist": "Wu-Tang Clan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Method Man Wu-Tang Clan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 242-255. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wu-tang-clan-cream",
+      "title": "CREAM",
+      "artist": "Wu-Tang Clan",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "CREAM Wu-Tang Clan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 242-255. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wu-tang-clan-all-that-i-got-is-you",
+      "title": "All That I Got Is You",
+      "artist": "Wu-Tang Clan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "All That I Got Is You Wu-Tang Clan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 242-255. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wu-tang-clan-tearz",
+      "title": "Tearz",
+      "artist": "Wu-Tang Clan",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Tearz Wu-Tang Clan",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 242-255. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "wu-tang-clan-lesson-01-origins-staten-island-poverty-kung-fu-vhs-sur",
+      "number": 1,
+      "title": "Origins - Staten Island, Poverty, Kung Fu VHS, Surviving the 90s",
+      "body": [
+        {
+          "type": "text",
+          "text": "VHS, Surviving the 90s Goals: Teach raw environment + out-the-mud creativity. “What does it sound like when 9 hungry dudes fight for the mic?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Shaolin = Staten Island",
+            "kids raised on kung fu flicks → identity becomes myth",
+            "poverty, violence, housing projects",
+            "rap battles as sport",
+            "RZA, GZA, and Ol’ Dirty = original core",
+            "rest join from neighborhood alliances",
+            "“Protect Ya Neck”"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-protect-ya-neck"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Protect Ya Neck” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does it sound like when 9 hungry dudes fight for the mic?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wu-tang-clan-lesson-02-the-wu-tang-business-model-independence-innov",
+      "number": 2,
+      "title": "The Wu-Tang Business Model — Independence + Innovation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Independence + Innovation Goals: Teach entrepreneurship. RZA designed: Lesson: OWN your brand. Spread your art. Don’t limit yourself."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "group signed as a unit",
+            "members FREE to sign solo deals with any label",
+            "“Wu-Tang” becomes a brand, not just a group",
+            "the 360 BEFORE 360s — but empowering, not exploitative",
+            "merch, movies, video games"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-method-man",
+        "wu-tang-clan-tearz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Method Man” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wu-Tang Clan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wu-tang-clan-lesson-03-the-wu-aesthetic-kung-fu-grit-and-mysticism",
+      "number": 3,
+      "title": "The Wu Aesthetic — Kung Fu, Grit, and Mysticism",
+      "body": [
+        {
+          "type": "text",
+          "text": "Mysticism Goals: Teach world-building. Elements: “What does this SOUND like visually?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Shaw Brothers samples",
+            "5% Nation philosophy",
+            "gritty NYC street stories",
+            "dusty drums + vinyl crackle",
+            "coded slang",
+            "comic-book-level nicknames",
+            "“Da Mystery of Chessboxin’”"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-da-mystery-of-chessboxin"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Da Mystery of Chessboxin’” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does this SOUND like visually?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wu-tang-clan-lesson-04-rza-the-architect",
+      "number": 4,
+      "title": "RZA — The Architect",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach production genius. RZA’s production style: Tracks: Explain: This is Hip-Hop Minimalism 101."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "detuned pianos",
+            "sharp snares",
+            "messy drums ON PURPOSE",
+            "low-fi grit",
+            "kung fu samples",
+            "eerie soul loops",
+            "unpredictable timing",
+            "“Clan in da Front”",
+            "“Wu-Tang Clan Ain’t Nuthing ta F*** Wit”"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-protect-ya-neck"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Protect Ya Neck” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wu-Tang Clan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wu-tang-clan-lesson-05-enter-the-wu-tang-36-chambers-the-earthquake",
+      "number": 5,
+      "title": "Enter the Wu-Tang (36 Chambers) — The Earthquake",
+      "body": [
+        {
+          "type": "text",
+          "text": "Earthquake Goals: Learn their debut masterpiece. Themes: Break down “CREAM” — discuss capital, poverty, survival."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "brotherhood",
+            "hunger",
+            "martial arts mythology",
+            "raw NY street corner energy",
+            "skill competition",
+            "no polished mixing — pure grit",
+            "“Bring da Ruckus”",
+            "“Method Man”",
+            "“Can It Be All So Simple”",
+            "“CREAM”"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-bring-da-ruckus",
+        "wu-tang-clan-method-man",
+        "wu-tang-clan-cream"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bring da Ruckus” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wu-Tang Clan after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down “CREAM” — discuss capital, poverty, survival.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wu-tang-clan-lesson-06-individual-member-styles-the-superhero-team-b",
+      "number": 6,
+      "title": "Individual Member Styles — The Superhero Team Breakdown",
+      "body": [
+        {
+          "type": "text",
+          "text": "Team Breakdown Goals: Teach individuality inside unity. Breakdown: “Which voice stands out to you? Why?” This teaches individuality."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Method Man",
+            "smoky voice",
+            "charismatic, smooth",
+            "crowd favorite",
+            "Raekwon",
+            "crime/noir novelist",
+            "slang king",
+            "mafioso rap pioneer",
+            "Ghostface Killah",
+            "emotional, surreal, abstract genius",
+            "most expressive voice",
+            "GZA",
+            "the scientist",
+            "dense metaphors",
+            "philosophical bars",
+            "Inspectah Deck",
+            "precise punchlines",
+            "best technical opening verses",
+            "Ol’ Dirty Bastard (ODB)",
+            "wild, melodic, unpredictable",
+            "blend of soul, drunken kung fu, and pure chaos",
+            "RZA",
+            "the mastermind",
+            "U-God"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-protect-ya-neck"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Protect Ya Neck” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wu-Tang Clan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wu-tang-clan-lesson-07-the-solo-era-the-greatest-5-year-run-in-hip-h",
+      "number": 7,
+      "title": "The Solo Era — The Greatest 5-Year Run in Hip-Hop History",
+      "body": [
+        {
+          "type": "text",
+          "text": "Hip-Hop History Goals: Show synergy & expansion. RZA produced classics like: Compare Raekwon’s storytelling → GZA’s metaphysics. Two geniuses, one clan."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Method Man – Tical",
+            "Ol’ Dirty Bastard – Return to the 36 Chambers",
+            "Raekwon – Only Built 4 Cuban Linx",
+            "GZA – Liquid Swords",
+            "Ghostface – Ironman"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-protect-ya-neck"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Protect Ya Neck” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wu-Tang Clan after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare Raekwon’s storytelling → GZA’s metaphysics. Two geniuses, one clan.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wu-tang-clan-lesson-08-wu-tang-philosophy-knowledge-of-self-communit",
+      "number": 8,
+      "title": "Wu-Tang Philosophy — Knowledge of Self, Community & Discipline",
+      "body": [
+        {
+          "type": "text",
+          "text": "Community & Discipline Goals: Teach meaning behind the chaos. Key ideas: Ghostface’s childhood story teaches empathy + perspective."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "5% Nation teachings",
+            "self-knowledge",
+            "unity",
+            "mental discipline",
+            "survival with intelligence",
+            "creativity as rebellion",
+            "reclaiming identity",
+            "“All That I Got Is You”"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-all-that-i-got-is-you"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “All That I Got Is You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wu-Tang Clan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wu-tang-clan-lesson-09-wu-tang-s-influence-tree",
+      "number": 9,
+      "title": "Wu-Tang’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show their monstrous impact. DIRECT Influence: CULTURAL Influence: Your son gon’ learn how Wu-Tang shaped whole GENERATIONS."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Joey Bada$$ / Pro Era",
+            "Logic (flow patterns)",
+            "Odd Future (group chaos)",
+            "Tyler, The Creator (sampling + world-building)",
+            "Earl Sweatshirt (abstract lyricism)",
+            "Griselda (raw, grimy production style)",
+            "A$AP Mob (crew structure)",
+            "Kendrick Lamar (conceptual kung-fu nods)",
+            "brand expansion",
+            "martial arts influence in hip-hop",
+            "grimy low-fi production",
+            "crew albums",
+            "extended universe world-building"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-protect-ya-neck"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Protect Ya Neck” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wu-Tang Clan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wu-tang-clan-lesson-10-legacy-wu-tang-as-myth-brand-and-cultural-tim",
+      "number": 10,
+      "title": "Legacy — Wu-Tang as Myth, Brand & Cultural Time Capsule",
+      "body": [
+        {
+          "type": "text",
+          "text": "Cultural Time Capsule Goals: Teach myth-making & impact. Wu-Tang = Lesson: “When you build a universe instead of a moment, you last forever.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "global symbols",
+            "fashion (Wu-Wear)",
+            "TV series (Wu-Tang: An American Saga)",
+            "video games (Shaolin Style)",
+            "museums, books, documentaries",
+            "generational touring",
+            "the rare group still beloved 30 years later"
+          ]
+        }
+      ],
+      "listen": [
+        "wu-tang-clan-protect-ya-neck"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Protect Ya Neck” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wu-Tang Clan after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Wu-Tang Clan used raw lyricism, kung-fu mythology, and innovative business strategies to reshape hip-hop. Compare ONE early group track (‘CREAM’) with ONE solo classic (like ‘Liquid Swords’ or ‘Ice Cream’), and identify TWO modern artists or collectives clearly influenced by Wu-Tang.",
+    "earlyOptions": [
+      "wu-tang-clan-protect-ya-neck"
+    ],
+    "laterOptions": [
+      "wu-tang-clan-cream"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "mature-themes",
+    "substances",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 19, pages 242-255. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

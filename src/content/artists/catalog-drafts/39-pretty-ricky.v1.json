@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 1,
+  "id": "pretty-ricky",
+  "number": 39,
+  "displayName": "Pretty Ricky",
+  "monogram": "PR",
+  "whyItMatters": "Pretty Ricky matters because the source catalog identifies this route with One of the last big male R&B groups of the 2000s, A perfect blend of silky singers + one hype man rapper, Masters of slow-grind anthems, Miami bass + R&B fusion innovators.",
+  "passedDown": {
+    "trackId": "pretty-ricky-your-body",
+    "blurb": "Start with “Your Body” and use the unit's checkpoints to hear how Pretty Ricky's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "pretty-ricky-grind-on-me",
+      "pretty-ricky-hotline",
+      "pretty-ricky-on-the-hotline",
+      "pretty-ricky-call-me"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "One of the last big male R&B groups of the 2000s",
+      "A perfect blend of silky singers + one hype man rapper",
+      "Masters of slow-grind anthems",
+      "Miami bass + R&B fusion innovators",
+      "Blueprint for “explicit but emotional” R&B",
+      "A group that understood vibe better than musical complexity",
+      "Vocal arrangement",
+      "Group roles"
+    ],
+    "closing": "This unit is spicy when he’s older — but musically, it’s gold."
+  },
+  "learnOutcomes": [
+    "Vocal arrangement",
+    "Group roles",
+    "R&B performance structure",
+    "Sensual songwriting (when he’s OLDER )",
+    "How region shapes sound",
+    "2000s production aesthetics"
+  ],
+  "tracks": [
+    {
+      "id": "pretty-ricky-grind-on-me",
+      "title": "Grind On Me",
+      "artist": "Pretty Ricky",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Grind On Me Pretty Ricky",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 457-468. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "pretty-ricky-your-body",
+      "title": "Your Body",
+      "artist": "Pretty Ricky",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Your Body Pretty Ricky",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 457-468. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "pretty-ricky-juicy",
+      "title": "Juicy",
+      "artist": "Pretty Ricky",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Juicy Pretty Ricky",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 457-468. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "pretty-ricky-nothing-but-a-number",
+      "title": "Nothing But a Number",
+      "artist": "Pretty Ricky",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Nothing But a Number Pretty Ricky",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 457-468. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "pretty-ricky-love-like-honey",
+      "title": "Love Like Honey",
+      "artist": "Pretty Ricky",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Love Like Honey Pretty Ricky",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 457-468. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "pretty-ricky-hotline",
+      "title": "Hotline",
+      "artist": "Pretty Ricky",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hotline Pretty Ricky",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 457-468. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "pretty-ricky-on-the-hotline",
+      "title": "On the Hotline",
+      "artist": "Pretty Ricky",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "On the Hotline Pretty Ricky",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 457-468. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "pretty-ricky-call-me",
+      "title": "Call Me",
+      "artist": "Pretty Ricky",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Call Me Pretty Ricky",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 457-468. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "pretty-ricky-lesson-01-origins-miami-roots-family-ties-and-hood-roma",
+      "number": 1,
+      "title": "Origins — Miami Roots, Family Ties, and Hood Romance",
+      "body": [
+        {
+          "type": "text",
+          "text": "Hood Romance Goals: Show the soil they grew out of. “Why does this sound ‘slow’ but still feel like Miami?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Group from Miami: Pleasure P, Spectacular, Baby Blue, Slick’Em",
+            "Three brothers + one main vocalist",
+            "Miami bass influence (up-tempo, booty-shake DNA)",
+            "Local grind before national breakout",
+            "They blended:",
+            "hood swagger",
+            "bedroom R&B",
+            "bass-heavy production",
+            "teenage fantasy writing",
+            "“Grind On Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "pretty-ricky-grind-on-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Grind On Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does this sound ‘slow’ but still feel like Miami?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "pretty-ricky-lesson-02-group-roles-why-pretty-ricky-worked",
+      "number": 2,
+      "title": "Group Roles — Why Pretty Ricky Worked",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach group architecture. Break it down: Pleasure P – the true vocalist Smooth tone, real R&B chops, emotional center. Spectacular – the hype-man dancer Persona, performance energy. Baby Blue – the rapper/MC Gave the group that hood-stamp authenticity. Slick’Em – ad-libs + flavor Light bars, comedic timing. Teach your son: “Every group needs balance — voices, energy, flavor, and identity.” Have him identify who’s singing vs talking vs rapping in each song."
+        }
+      ],
+      "listen": [
+        "pretty-ricky-grind-on-me",
+        "pretty-ricky-hotline"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Grind On Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Pretty Ricky after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have him identify who’s singing vs talking vs rapping in each song.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "pretty-ricky-lesson-03-blue-stars-their-debut-and-the-teenage-r-and",
+      "number": 3,
+      "title": "Blue Stars — Their Debut & The Teenage R&B Blueprint",
+      "body": [
+        {
+          "type": "text",
+          "text": "R&B Blueprint Goals: Break down the monster debut. This album = Explain how “Your Body” mixes rap + slow jam in one track."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "raw",
+            "sensual",
+            "meme-able",
+            "perfectly 2005",
+            "still undefeated for what it was",
+            "“Grind On Me”",
+            "“Your Body”",
+            "“Juicy”",
+            "“Nothing But a Number”",
+            "slow tempos",
+            "whispered harmonies",
+            "808 basslines",
+            "explicit-yet-melodic writing",
+            "Pleasure P’s emotional runs",
+            "Baby Blue’s signature raspy rap verses"
+          ]
+        }
+      ],
+      "listen": [
+        "pretty-ricky-grind-on-me",
+        "pretty-ricky-your-body",
+        "pretty-ricky-juicy",
+        "pretty-ricky-nothing-but-a-number"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Grind On Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Pretty Ricky after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain how “Your Body” mixes rap + slow jam in one track.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "pretty-ricky-lesson-04-vocal-arrangement-the-secret-sauce",
+      "number": 4,
+      "title": "Vocal Arrangement — The Secret Sauce",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach how groups layer sound. Pretty Ricky uses: Have your son pick out:"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "3-part harmonies",
+            "Pleasure P on leads",
+            "Backgrounds sung like whispers",
+            "Raps placed as “breaks” in the song",
+            "Repetitive hooks → hypnotic effect",
+            "Breathy vocal tone → sensory experience",
+            "“Love Like Honey”",
+            "lead vocal",
+            "harmony",
+            "ad-libs",
+            "rap inserts",
+            "beat drop moments"
+          ]
+        }
+      ],
+      "listen": [
+        "pretty-ricky-love-like-honey"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Love Like Honey” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Pretty Ricky after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "pretty-ricky-lesson-05-miami-sound-bass-bounce-and-bedroom-r-and-b",
+      "number": 5,
+      "title": "Miami Sound — Bass, Bounce, & Bedroom R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "R&B Goals: Teach regional influence. Explain: “What part of the beat tells you this is a SOUTHERN R&B group?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Miami bass = heavy 808s, booty-shake tempo",
+            "Pretty Ricky slowed it down but kept the thump",
+            "Their beats feel like:",
+            "2am car rides",
+            "strip club slow grind",
+            "neon-lit Florida nights",
+            "“Hotline”",
+            "“On the Hotline”"
+          ]
+        }
+      ],
+      "listen": [
+        "pretty-ricky-hotline",
+        "pretty-ricky-on-the-hotline"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hotline” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What part of the beat tells you this is a SOUTHERN R&B group?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "pretty-ricky-lesson-06-sensuality-in-black-male-r-and-b",
+      "number": 6,
+      "title": "Sensuality in Black Male R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach theme literacy (for older age). Important lessons: Play (when older): Discuss maturity vs immaturity in love themes."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Black male sensuality often judged harsher",
+            "Pretty Ricky leaned into playfulness + romance",
+            "Sensual does NOT equal disrespectful — many songs express intimacy & desire",
+            "They made sex conversations normal for R&B of the 2000s",
+            "Vulnerability under raunchiness: wanting connection, not just lust",
+            "“Nothing But a Number”"
+          ]
+        }
+      ],
+      "listen": [
+        "pretty-ricky-nothing-but-a-number"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Nothing But a Number” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Pretty Ricky after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "pretty-ricky-lesson-07-group-tension-breakups-and-solo-careers",
+      "number": 7,
+      "title": "Group Tension, Breakups, & Solo Careers",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach industry reality. Explain: Lesson: “Talent ain’t enough — teamwork, contracts, and money management matter.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Pleasure P left the group → solo success",
+            "Group fell apart → internal tension",
+            "Reunion attempts",
+            "Reality TV era",
+            "Financial/legal issues"
+          ]
+        }
+      ],
+      "listen": [
+        "pretty-ricky-your-body"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Your Body” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Pretty Ricky after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: artist-conduct, mature-themes.",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "pretty-ricky-lesson-08-pretty-ricky-s-second-wave-social-media-nosta",
+      "number": 8,
+      "title": "Pretty Ricky’s Second Wave — Social Media Nostalgia",
+      "body": [
+        {
+          "type": "text",
+          "text": "Nostalgia Goals: Teach longevity. Explain: Compare Pretty Ricky to: Show the lineage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Millennials rediscovered them",
+            "Verzuz–era respect",
+            "TikTok reboots of “Grind On Me”",
+            "Pretty Ricky = nostalgia icons",
+            "Their sound still influences bedroom R&B today",
+            "Jacquees",
+            "Bryson Tiller",
+            "Tory Lanez",
+            "Vedo",
+            "Summer Walker (production vibes overlap)"
+          ]
+        }
+      ],
+      "listen": [
+        "pretty-ricky-your-body"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Your Body” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Pretty Ricky after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare Pretty Ricky to: ● Jacquees",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "pretty-ricky-lesson-09-pretty-ricky-s-influence-tree",
+      "number": 9,
+      "title": "Pretty Ricky’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map who they inspired. Artists influenced by Pretty Ricky: Your son gon’ learn that “low-budget bedroom R&B” today? Pretty Ricky blueprint."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Jacquees",
+            "August Alsina",
+            "Tory Lanez",
+            "Bryson Tiller",
+            "PARTYNEXTDOOR",
+            "Chris Brown (early sensual era)",
+            "The whole 2010s “trap-soul” movement",
+            "“whisper R&B” movement",
+            "TikTok slow-grind edits",
+            "Raedio (Issa Rae’s label aesthetics)"
+          ]
+        }
+      ],
+      "listen": [
+        "pretty-ricky-your-body"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Your Body” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Your son gon’ learn that “low-budget bedroom R&B” today?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "pretty-ricky-lesson-10-pretty-ricky-influence-legacy-and-close-liste",
+      "number": 10,
+      "title": "Pretty Ricky: Influence, Legacy, and Close Listening",
+      "body": [
+        {
+          "type": "text",
+          "text": "This adapted checkpoint brings the unit overview and influence threads together. PRETTY RICKY Unit Overview Pretty Ricky = ● One of the last big male R&B groups of the 2000s ● A perfect blend of silky singers + one hype man rapper ● Masters of slow-grind anthems ● Miami bass + R&B fusion innovators ● Blueprint for “explicit but emotional” R&B ● A group that understood vibe better than musical complexity Your son gon’ learn: ● Vocal arrangement ● Group roles ● R&B performance structure ● Sensual songwriting (when he’s OLDER ) ● How region shapes sound ● 2000s production aesthetics This unit is spicy when he’s older — but musically, it’s gold."
+        }
+      ],
+      "listen": [
+        "pretty-ricky-your-body"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Your Body” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Pretty Ricky after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Pretty Ricky blended Miami bass, sensual R&B, group dynamics, and melodic rap to create their signature sound. Compare TWO songs from Blue Stars and identify TWO modern artists influenced by their style.",
+    "earlyOptions": [
+      "pretty-ricky-your-body"
+    ],
+    "laterOptions": [
+      "pretty-ricky-love-like-honey"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes",
+    "explicit-language",
+    "artist-conduct"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 35, pages 457-468. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

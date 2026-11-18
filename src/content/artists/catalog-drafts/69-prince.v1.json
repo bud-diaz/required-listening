@@ -1,0 +1,787 @@
+{
+  "schemaVersion": 1,
+  "id": "prince",
+  "number": 69,
+  "displayName": "Prince",
+  "monogram": "PR",
+  "whyItMatters": "Prince matters because the source catalog identifies this route with a once-in-a-century musical genius, played 27+ instruments fluently, wrote, produced, arranged, engineered his own music, gender-bending fashion icon.",
+  "passedDown": {
+    "trackId": "prince-soft-and-wet",
+    "blurb": "Start with “Soft and Wet” and use the unit's checkpoints to hear how Prince's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "prince-raspberry-beret",
+      "prince-take-me-with-u",
+      "prince-the-most-beautiful-girl-in-the-world",
+      "prince-starfish-and-coffee",
+      "prince-musicology"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "a once-in-a-century musical genius",
+      "played 27+ instruments fluently",
+      "wrote, produced, arranged, engineered his own music",
+      "gender-bending fashion icon",
+      "pioneer of artist rights",
+      "spiritual eroticist",
+      "inventor of the Minneapolis Sound",
+      "mentor to whole bands, movements, protégés"
+    ],
+    "closing": "This is the deepest unit so far."
+  },
+  "learnOutcomes": [
+    "why genre is fake",
+    "how individuality becomes genius",
+    "how to master craft without losing soul",
+    "how Black creativity creates entire worlds"
+  ],
+  "tracks": [
+    {
+      "id": "prince-soft-and-wet",
+      "title": "Soft and Wet",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Soft and Wet Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-purple-rain",
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Purple Rain Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-while-my-guitar-gently-weeps-rock-hall-performance",
+      "title": "While My Guitar Gently Weeps (Rock Hall performance)",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "While My Guitar Gently Weeps (Rock Hall performance) Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-1999",
+      "title": "1999",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "1999 Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-delirious",
+      "title": "Delirious",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Delirious Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-let-s-go-crazy",
+      "title": "Let’s Go Crazy",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes",
+        "explicit-language"
+      ],
+      "searchQuery": "Let’s Go Crazy Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-darling-nikki",
+      "title": "Darling Nikki",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Darling Nikki Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-the-beautiful-ones",
+      "title": "The Beautiful Ones",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "The Beautiful Ones Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-baby-i-m-a-star",
+      "title": "Baby I’m a Star",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Baby I’m a Star Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-when-doves-cry",
+      "title": "When Doves Cry",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "When Doves Cry Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-the-glamorous-life",
+      "title": "The Glamorous Life",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Glamorous Life Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-prince-coded",
+      "title": "Prince-coded.",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Prince-coded. Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-p-y-t-demo-by-prince",
+      "title": "P.Y.T. (Demo by Prince)",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "P.Y.T. (Demo by Prince) Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-raspberry-beret",
+      "title": "Raspberry Beret",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Raspberry Beret Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-take-me-with-u",
+      "title": "Take Me With U",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Take Me With U Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-the-most-beautiful-girl-in-the-world",
+      "title": "The Most Beautiful Girl in the World",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "The Most Beautiful Girl in the World Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-starfish-and-coffee",
+      "title": "Starfish & Coffee",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Starfish & Coffee Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "prince-musicology",
+      "title": "Musicology",
+      "artist": "Prince",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Musicology Prince",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 882-895. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "prince-lesson-01-origins-minneapolis-isolation-and-prodigy-beg",
+      "number": 1,
+      "title": "Origins — Minneapolis, Isolation, and Prodigy Beginnings",
+      "body": [
+        {
+          "type": "text",
+          "text": "Prodigy Beginnings Goals: Show early genius & unusual environment. “What does it sound like when a TEENAGER already knows who he is?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born Prince Rogers Nelson",
+            "grew up in a cold, isolated city → developed sound in a vacuum",
+            "parents = musicians → funk + jazz influence",
+            "taught himself piano, guitar, bass, drums as a CHILD",
+            "perfectionist from day one",
+            "“Soft and Wet”"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-raspberry-beret",
+        "prince-take-me-with-u"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Raspberry Beret” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What does it sound like when a TEENAGER already knows who he is?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "prince-lesson-02-multi-instrument-mastery-the-one-man-band",
+      "number": 2,
+      "title": "Multi-Instrument Mastery — The One-Man Band",
+      "body": [
+        {
+          "type": "text",
+          "text": "Band Goals: Teach deep musicianship. Prince played everything on many albums: Play an isolated guitar solo (YouTube has them), especially from: Teach your son: This is what mastery sounds like."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "drums",
+            "bass",
+            "guitar (top 5 guitarist EVER)",
+            "keys",
+            "synths",
+            "background vocals",
+            "percussion",
+            "orchestration",
+            "“Purple Rain”",
+            "“While My Guitar Gently Weeps (Rock Hall performance)”"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-purple-rain",
+        "prince-while-my-guitar-gently-weeps-rock-hall-performance"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Purple Rain” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Prince after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "prince-lesson-03-the-minneapolis-sound-funk-synth-rock-pop-hyb",
+      "number": 3,
+      "title": "The Minneapolis Sound — Funk + Synth + Rock + Pop Hybrid",
+      "body": [
+        {
+          "type": "text",
+          "text": "Rock + Pop Hybrid Goals: Teach genre fusion. Elements: “What GENRE is this?” Answer: ALL of them."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "funky bass",
+            "sharp drum machines (Linn LM-1)",
+            "bright synth stabs",
+            "rock guitar leads",
+            "gospel-influenced harmonies",
+            "pop-ready hooks",
+            "R&B sensuality",
+            "punk attitude",
+            "funk orchestration",
+            "“1999”",
+            "“Delirious”",
+            "“Let’s Go Crazy”"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-1999",
+        "prince-delirious",
+        "prince-let-s-go-crazy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “1999” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What GENRE is this?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "prince-lesson-04-era-of-sexual-liberation-prince-as-erotic-phi",
+      "number": 4,
+      "title": "Era of Sexual Liberation — Prince as Erotic Philosopher",
+      "body": [
+        {
+          "type": "text",
+          "text": "Philosopher Goals: Teach sexuality + autonomy + politics. Prince wasn’t “nasty” for shock value. He was: “What emotions (not just sensuality) come through here?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "challenging Puritan ideas about Black desire",
+            "blending spiritual awakening and sensuality",
+            "giving Black men permission to be soft, flamboyant, expressive",
+            "freeing women through his imagery & songwriting",
+            "using sexuality as metaphysics, not porn",
+            "“Do Me, Baby”",
+            "“Darling Nikki”",
+            "“The Beautiful Ones”"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-darling-nikki",
+        "prince-the-beautiful-ones"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Darling Nikki” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What emotions (not just sensuality) come through here?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "prince-lesson-05-the-revolution-band-leadership-and-performanc",
+      "number": 5,
+      "title": "The Revolution — Band Leadership & Performance Identity",
+      "body": [
+        {
+          "type": "text",
+          "text": "Performance Identity Goals: Teach collaboration + theatricality. The Revolution: Clips to study: Lesson: Genius elevates everyone around it."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "multi-racial",
+            "multi-gender",
+            "genre-bending",
+            "fashion-forward",
+            "tightest band of the 80s",
+            "“Baby I’m a Star” live",
+            "Purple Rain concert footage",
+            "2007 Super Bowl halftime show (RAIN included)"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-baby-i-m-a-star"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Baby I’m a Star” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Prince after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "prince-lesson-06-purple-rain-the-cultural-supernova",
+      "number": 6,
+      "title": "Purple Rain — The Cultural Supernova",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Study a multimedia masterpiece. Break down “When Doves Cry.” “How does a song with NO BASS still feel full?” This teaches arrangement genius."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "semi-autobiographical film",
+            "fashion revolution",
+            "pop + rock + soul + funk fusion",
+            "iconic solos",
+            "emotional vulnerability",
+            "performance magic",
+            "“Purple Rain”",
+            "“When Doves Cry” (no bass line! intentional!)",
+            "“Let’s Go Crazy”"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-purple-rain",
+        "prince-when-doves-cry",
+        "prince-let-s-go-crazy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Purple Rain” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does a song with NO BASS still feel full?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Break down “When Doves Cry.” Ask your son:",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "prince-lesson-07-the-business-revolutionary-artist-formerly-kn",
+      "number": 7,
+      "title": "The Business Revolutionary — “Artist Formerly Known As” Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Formerly Known As” Era Goals: Teach ownership + industry politics. Prince’s battles: Lesson: Knowing your worth changes everything. This unit alone is life-changing for a Black kid."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "changed his name to a symbol as protest",
+            "fought Warner Bros for master ownership",
+            "wrote “slave” on his cheek",
+            "pioneered independent releases",
+            "made direct artist-to-fan models before the internet",
+            "mentored others about ownership (Beyoncé, Alicia Keys)"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-soft-and-wet"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Soft and Wet” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Prince after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "prince-lesson-08-proteges-and-extended-universe-the-prince-tre",
+      "number": 8,
+      "title": "Protegés & Extended Universe — The Prince Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Tree Goals: Teach mentorship. Prince crafted whole careers: Play Sheila E’s “The Glamorous Life” → ask how it sounds “Prince-coded.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Sheila E",
+            "The Time (Morris Day & Jimmy Jam/Terry Lewis origins)",
+            "Vanity 6 / Apollonia 6",
+            "Wendy & Lisa",
+            "André Cymone",
+            "Sheena Easton",
+            "Janelle Monáe (spiritual successor)",
+            "Lenny Kravitz (inspired)"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-the-glamorous-life",
+        "prince-prince-coded"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Glamorous Life” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Prince after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Sheila E’s “The Glamorous Life” → ask how it sounds “Prince-coded.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "prince-lesson-09-prince-as-a-cultural-icon-fashion-gender-flui",
+      "number": 9,
+      "title": "Prince as a Cultural Icon — Fashion, Gender Fluidity, Spirituality",
+      "body": [
+        {
+          "type": "text",
+          "text": "Fluidity, Spirituality Goals: Teach self-expression. Prince expanded Black masculinity: Teach your son: Confidence comes from self-definition, not conformity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "heels",
+            "lace",
+            "eyeliner",
+            "crop tops",
+            "flamboyance",
+            "erotic confidence",
+            "spirituality + sensuality combined",
+            "and STILL the most feared man in any guitar battle"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-soft-and-wet"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Soft and Wet” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Prince after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "prince-lesson-10-prince-s-influence-tree-massive",
+      "number": 10,
+      "title": "Prince’s Influence Tree (Massive)",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show generational reach. DIRECT Influence: PRODUCTION Influence: NON-MUSICAL Influence: Play “P.Y.T. (Demo by Prince)” → then compare to MJ version. Your son will SEE how artists cross-pollinate."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Beyoncé",
+            "Janelle Monáe",
+            "Bruno Mars",
+            "D’Angelo",
+            "Miguel",
+            "Lenny Kravitz",
+            "The Weeknd",
+            "Frank Ocean",
+            "Usher",
+            "Maxwell",
+            "Childish Gambino",
+            "The Internet (band)",
+            "Kelis",
+            "Pharrell",
+            "Alicia Keys",
+            "Anderson .Paak",
+            "Timbaland",
+            "Jam & Lewis (original Prince camp!)",
+            "Babyface (mutual era influence)",
+            "fashion designers",
+            "performance artists",
+            "independent musicians",
+            "gender-nonconforming creatives"
+          ]
+        }
+      ],
+      "listen": [
+        "prince-p-y-t-demo-by-prince"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “P.Y.T. (Demo by Prince)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Prince after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “P.Y.T. (Demo by Prince)” → then compare to MJ version. Your son will SEE how artists cross-pollinate.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Prince revolutionized music through multi-instrument musicianship, genre fusion, and fearless self-expression. Compare When Doves Cry to a live performance (Purple Rain Super Bowl or ‘Baby I’m a Star’) and identify THREE modern artists who clearly carry Prince’s influence in either sound, visuals, or performance.",
+    "earlyOptions": [
+      "prince-soft-and-wet"
+    ],
+    "laterOptions": [
+      "prince-p-y-t-demo-by-prince"
+    ],
+    "influencedCount": 3
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 67, pages 882-895. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

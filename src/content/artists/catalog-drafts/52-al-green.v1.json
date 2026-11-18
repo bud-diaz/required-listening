@@ -1,0 +1,683 @@
+{
+  "schemaVersion": 1,
+  "id": "al-green",
+  "number": 52,
+  "displayName": "Al Green",
+  "monogram": "AG",
+  "whyItMatters": "Toddler-Friendly Teddy Gentle, soulful picks: Keep the “Turn Off the Lights” era for grown-folk time",
+  "passedDown": {
+    "trackId": "al-green-take-me-to-the-river",
+    "blurb": "Start with “Take Me to the River” and use the unit's checkpoints to hear how Al Green's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "al-green-tired-of-being-alone",
+      "al-green-let-s-stay-together",
+      "al-green-i-m-still-in-love-with-you",
+      "al-green-love-and-happiness",
+      "al-green-simply-beautiful-2"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "“Wake Up Everybody”",
+      "“The Love I Lost”",
+      "“If You Don’t Know Me by Now”",
+      "“When Somebody Loves You Back”",
+      "“Believe in Love”",
+      "one of the greatest soul vocalists in history",
+      "architect of sensual, tender, intimate R&B",
+      "voice softer than Teddy, but just as deadly"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "the ORIGINAL slow-jam blueprint",
+    "gospel → soul → R&B lineage",
+    "emotional gentleness",
+    "how production frames a voice",
+    "the Memphis sound"
+  ],
+  "tracks": [
+    {
+      "id": "al-green-tired-of-being-alone",
+      "title": "Tired of Being Alone",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Tired of Being Alone Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-take-me-to-the-river",
+      "title": "Take Me to the River",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Take Me to the River Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-let-s-stay-together",
+      "title": "Let’s Stay Together",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Let’s Stay Together Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-i-m-still-in-love-with-you",
+      "title": "I’m Still in Love with You",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I’m Still in Love with You Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-here-i-am-come-and-take-me",
+      "title": "Here I Am (Come and Take Me)",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Here I Am (Come and Take Me) Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-love-and-happiness",
+      "title": "Love and Happiness",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Love and Happiness Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-call-me-come-back-home",
+      "title": "Call Me (Come Back Home)",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Call Me (Come Back Home) Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-funny-how-time-slips-away",
+      "title": "Funny How Time Slips Away",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Funny How Time Slips Away Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-you-ought-to-be-with-me",
+      "title": "You Ought to Be With Me",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "You Ought to Be With Me Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-everything-s-gonna-be-alright",
+      "title": "Everything’s Gonna Be Alright.",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Everything’s Gonna Be Alright. Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-lifetime",
+      "title": "Lifetime",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Lifetime Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-simply-beautiful",
+      "title": "Simply Beautiful.",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Simply Beautiful. Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "al-green-simply-beautiful-2",
+      "title": "Simply Beautiful",
+      "artist": "Al Green",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Simply Beautiful Al Green",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 627-640. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "al-green-lesson-01-origins-arkansas-roots-church-choir-memphis-s",
+      "number": 1,
+      "title": "Origins — Arkansas Roots, Church Choir, Memphis Sound",
+      "body": [
+        {
+          "type": "text",
+          "text": "Memphis Sound Goals: Teach background + foundation. “What does his voice feel like — warm? close? soft?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in Arkansas, raised in a religious household",
+            "Sang gospel as a kid → vocal control & emotion learned early",
+            "Moved to Grand Rapids, then discovered by Willie Mitchell",
+            "Signed to Hi Records → the “Memphis Sound” becomes his signature",
+            "Guitar + strings + organ = the Al Green formula",
+            "“Tired of Being Alone”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-let-s-stay-together",
+        "al-green-love-and-happiness"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let’s Stay Together” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-02-gospel-influence-the-foundation-of-his-style",
+      "number": 2,
+      "title": "Gospel Influence — The Foundation of His Style",
+      "body": [
+        {
+          "type": "text",
+          "text": "Style Goals: Teach vocal technique. Al Green’s gospel imprint: Explain how he blends church soul with bedroom intimacy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "emotional tremble in his falsetto",
+            "preacher-like phrasing",
+            "call-and-response",
+            "subtle melisma",
+            "spiritual longing embedded in love songs",
+            "moans, sighs, and breath-based emotion",
+            "“Take Me to the River”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-take-me-to-the-river"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Me to the River” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "al-green-lesson-03-the-hi-records-era-the-golden-sound",
+      "number": 3,
+      "title": "The Hi Records Era — The Golden Sound",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach production & arrangement. Willie Mitchell’s production = This is the REAL “quiet storm” foundation. Ask your son what instruments he hears — bass, organ, strings."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "soft drums",
+            "mellow bass",
+            "sweet strings",
+            "subtle horns",
+            "warm Fender amps",
+            "gentle grooves",
+            "space for vocals to shine",
+            "“Let’s Stay Together”",
+            "“I’m Still in Love with You”",
+            "“Here I Am (Come and Take Me)”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-let-s-stay-together",
+        "al-green-i-m-still-in-love-with-you",
+        "al-green-here-i-am-come-and-take-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let’s Stay Together” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Ask your son what instruments he hears — bass, organ, strings.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-04-al-green-the-vocal-technician-whisper-falsett",
+      "number": 4,
+      "title": "Al Green the Vocal Technician — Whisper, Falsetto, Cry",
+      "body": [
+        {
+          "type": "text",
+          "text": "Falsetto, Cry Goals: Teach vocal anatomy in a fun way. Al Green’s voice toolkit: “How does the song build from calm to passionate?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Falsetto float (“Simply Beautiful”)",
+            "Conversational whispers (“Let’s Stay Together”)",
+            "Sudden shouts (“Love and Happiness”)",
+            "Cry-catch tone → voice breaks like he’s emotional",
+            "Soft vibrato",
+            "Breath control that sounds effortless",
+            "“Love and Happiness”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-love-and-happiness"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Love and Happiness” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does the song build from calm to passionate?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-05-let-s-stay-together-the-masterpiece",
+      "number": 5,
+      "title": "Let’s Stay Together — The Masterpiece",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach the construction of a universal love song. Break down: Use “Let’s Stay Together” to teach emotional maturity and commitment."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "lyrics = simple, sincere, grown",
+            "arrangement = warm, patient",
+            "vibe = long-term relationship energy",
+            "vocal = gentle, persuasive, trustworthy",
+            "message = stability in love"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-take-me-to-the-river"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Me to the River” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Use “Let’s Stay Together” to teach emotional maturity and commitment.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-06-i-m-still-in-love-with-you-call-me-the-romant",
+      "number": 6,
+      "title": "I’m Still in Love With You + Call Me — The Romantic Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Romantic Era Goals: Teach consistency + theme exploration. Themes: Lesson: “Love requires softness, not just strength.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "deep love",
+            "forgiveness",
+            "tenderness",
+            "self-reflection",
+            "vulnerability",
+            "soft masculinity",
+            "“Call Me (Come Back Home)”",
+            "“Funny How Time Slips Away”",
+            "“You Ought to Be With Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-call-me-come-back-home",
+        "al-green-funny-how-time-slips-away",
+        "al-green-you-ought-to-be-with-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Call Me (Come Back Home)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-07-the-tragedy-and-the-transformation",
+      "number": 7,
+      "title": "The Tragedy & The Transformation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach resilience + life change. Explain (when he’s older): This teaches your son: People can change their path for healing, not for perfection."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "1974 incident → scalding + trauma",
+            "emotional breakdown",
+            "Al Green becomes a minister",
+            "shifts to gospel music",
+            "performs both sacred and secular music later"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-take-me-to-the-river"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Me to the River” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "al-green-lesson-08-al-green-s-gospel-era-renewal-and-spiritual-s",
+      "number": 8,
+      "title": "Al Green’s Gospel Era — Renewal & Spiritual Soul",
+      "body": [
+        {
+          "type": "text",
+          "text": "Spiritual Soul Goals: Show evolution. Albums like: Compare “Let’s Stay Together” with “Everything’s Gonna Be Alright.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "The Lord Will Make a Way",
+            "Higher Plane",
+            "He Is the Light",
+            "soulful worship",
+            "the same voice, different purpose",
+            "emotional delivery becomes sacred, not romantic",
+            "artistry turns inward"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-let-s-stay-together",
+        "al-green-everything-s-gonna-be-alright"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Let’s Stay Together” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare “Let’s Stay Together” with “Everything’s Gonna Be Alright.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "al-green-lesson-09-al-green-s-influence-tree",
+      "number": 9,
+      "title": "Al Green’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map legacy. Direct influence: Production influence: Play Maxwell “Lifetime” → then Al Green “Simply Beautiful.” Let your son hear the lineage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "D’Angelo",
+            "Maxwell",
+            "Prince (falsetto + sensuality)",
+            "Usher",
+            "Anthony Hamilton",
+            "John Legend",
+            "Leon Bridges",
+            "The Weeknd (emotional falsetto + vulnerability)",
+            "Charlie Wilson (romantic phrasing lineage)",
+            "Hi Records sound → Neo-soul warmth",
+            "90s quiet-storm revival",
+            "modern R&B soft-percussion style"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-lifetime",
+        "al-green-simply-beautiful"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lifetime” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play Maxwell “Lifetime” → then Al Green “Simply Beautiful.” Let your son hear the lineage.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "al-green-lesson-10-themes-love-patience-tenderness-faith",
+      "number": 10,
+      "title": "Themes — Love, Patience, Tenderness, Faith",
+      "body": [
+        {
+          "type": "text",
+          "text": "Faith Goals: Teach emotional language. Al Green centered: This unit helps your son learn: being gentle is powerful."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "softness",
+            "patience",
+            "devotion",
+            "heartbreak without bitterness",
+            "intimacy as emotional dialogue",
+            "spiritual hope"
+          ]
+        }
+      ],
+      "listen": [
+        "al-green-take-me-to-the-river"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Me to the River” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Al Green after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Al Green blended gospel technique, emotional vulnerability, and Memphis soul production to create his timeless style. Compare ONE classic love song (‘Let’s Stay Together’) with ONE spiritual song (‘Everything’s Gonna Be Alright’) and identify TWO modern artists influenced by Al Green.",
+    "earlyOptions": [
+      "al-green-take-me-to-the-river"
+    ],
+    "laterOptions": [
+      "al-green-simply-beautiful"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "sexual-content",
+    "mature-themes",
+    "trauma",
+    "explicit-language"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 48, pages 627-640. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

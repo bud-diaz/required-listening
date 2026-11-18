@@ -1,0 +1,729 @@
+{
+  "schemaVersion": 1,
+  "id": "nas",
+  "number": 29,
+  "displayName": "Nas",
+  "monogram": "NA",
+  "whyItMatters": "Nas matters because the source catalog identifies this route with one of the greatest writers in music history, master storyteller, architect of East Coast poetic rap, philosopher, historian, street reporter.",
+  "passedDown": {
+    "trackId": "nas-halftime",
+    "blurb": "Start with “Halftime” and use the unit's checkpoints to hear how Nas's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "nas-life-s-a-b",
+      "nas-the-world-is-yours",
+      "nas-if-i-ruled-the-world",
+      "nas-i-can"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the greatest writers in music history",
+      "master storyteller",
+      "architect of East Coast poetic rap",
+      "philosopher, historian, street reporter",
+      "MC who made hip-hop literature",
+      "aging gracefully and dropping classics for 30 years",
+      "imagery",
+      "metaphor"
+    ],
+    "closing": "This unit is DEEP."
+  },
+  "learnOutcomes": [
+    "imagery",
+    "metaphor",
+    "rhyme structure",
+    "perspective shifting",
+    "street sociology",
+    "history through art",
+    "how a Black man’s interior world got put on wax"
+  ],
+  "tracks": [
+    {
+      "id": "nas-halftime",
+      "title": "Halftime",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Halftime Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-n-y-state-of-mind",
+      "title": "N.Y. State of Mind",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "N.Y. State of Mind Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-life-s-a-b",
+      "title": "Life’s a B****",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Life’s a B**** Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-the-world-is-yours",
+      "title": "The World Is Yours",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "The World Is Yours Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-memory-lane",
+      "title": "Memory Lane",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ],
+      "searchQuery": "Memory Lane Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-if-i-ruled-the-world",
+      "title": "If I Ruled the World",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "If I Ruled the World Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-street-dreams",
+      "title": "Street Dreams",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "Street Dreams Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-i-gave-you-power",
+      "title": "I Gave You Power",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ],
+      "searchQuery": "I Gave You Power Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-ether",
+      "title": "Ether",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Ether Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-one-mic",
+      "title": "One Mic",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "One Mic Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-got-ur-self-a",
+      "title": "Got Ur Self A…",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Got Ur Self A… Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-ultra-black",
+      "title": "Ultra Black",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Ultra Black Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-kd-iii-intro",
+      "title": "KD III Intro",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "KD III Intro Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-speechless",
+      "title": "Speechless",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Speechless Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "nas-i-can",
+      "title": "I Can",
+      "artist": "Nas",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Can Nas",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 308-321. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "nas-lesson-01-origins-queensbridge-family-and-jazz-poetry-r",
+      "number": 1,
+      "title": "Origins — Queensbridge, Family, and Jazz Poetry Roots",
+      "body": [
+        {
+          "type": "text",
+          "text": "Poetry Roots Goals: Show where the voice comes from. “How does Nas sound wise AND young at the same time?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Nasir Jones in Queensbridge",
+            "Father Ol’ Man Jones = jazz cornetist → rhythm in his DNA",
+            "Dropped out at 13 → studied “the streets” AND libraries",
+            "early partner = the brilliant (and doomed) Ill Will",
+            "discovered by MC Serch",
+            "“Halftime”"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-i-can",
+        "nas-the-world-is-yours"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “I Can” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Nas sound wise AND young at the same time?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "nas-lesson-02-the-pen-imagery-rhyme-technique-internal-rhym",
+      "number": 2,
+      "title": "The Pen — Imagery, Rhyme Technique, Internal Rhymes",
+      "body": [
+        {
+          "type": "text",
+          "text": "Internal Rhymes Goals: Teach writing craft. Nas’s pen uses: Break down the first verse → talk about how it FEELS like a movie."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "dense imagery",
+            "multisyllabic rhyme",
+            "inner rhymes inside bars",
+            "sensory detail",
+            "novelistic description",
+            "socio-political context",
+            "double entendres everywhere",
+            "“N.Y. State of Mind”"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-n-y-state-of-mind"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “N.Y. State of Mind” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Nas after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Break down the first verse → talk about how it FEELS like a movie.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "nas-lesson-03-illmatic-hip-hop-s-holy-scripture",
+      "number": 3,
+      "title": "Illmatic — Hip-Hop’s Holy Scripture",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach world-building + execution. This album = PERFECT 10. Producers: Themes: “What’s the difference between describing a place and MAKING someone feel it?” Nas = world-builder."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "DJ Premier",
+            "Pete Rock",
+            "Large Professor",
+            "Q-Tip",
+            "L.E.S.",
+            "poverty",
+            "hope",
+            "violence",
+            "dreams",
+            "environmental observation",
+            "childhood vs danger",
+            "survival",
+            "“Life’s a B****”",
+            "“The World Is Yours”",
+            "“Memory Lane”"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-life-s-a-b",
+        "nas-the-world-is-yours",
+        "nas-memory-lane"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Life’s a B****” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What’s the difference between describing a place and MAKING someone feel it?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "nas-lesson-04-perspective-shifting-the-rapping-projects-gun",
+      "number": 4,
+      "title": "Perspective Shifting — The Rapping Projects, Guns, Letters",
+      "body": [
+        {
+          "type": "text",
+          "text": "Projects, Guns, Letters Goals: Teach creativity. Nas wrote from: This teaches your son: You ain’t gotta just rap as “you.” You can rap as ANYTHING."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "a gun’s perspective (“I Gave You Power”)",
+            "a fetus’s perspective (“Fetus”)",
+            "a project building (“Project Roach”)",
+            "a letter format (“One Love”)",
+            "a prophetic elder (“If I Ruled the World”)"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-halftime"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Halftime” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Nas after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "nas-lesson-05-it-was-written-the-mafioso-evolution",
+      "number": 5,
+      "title": "It Was Written — The Mafioso Evolution",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach reinvention. Themes: Listen to “I Gave You Power” → ask: “How does a gun ‘feel’ in this story?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "wealth fantasies",
+            "power",
+            "racism",
+            "global perspective",
+            "philosophical thinking",
+            "crime-noir storytelling",
+            "“If I Ruled the World”",
+            "“Street Dreams”",
+            "“I Gave You Power”"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-if-i-ruled-the-world",
+        "nas-street-dreams",
+        "nas-i-gave-you-power"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “If I Ruled the World” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does a gun ‘feel’ in this story?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Listen to “I Gave You Power” → ask: “How does a gun ‘feel’ in this story?”",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "nas-lesson-06-the-jay-z-beef-iron-sharpening-iron",
+      "number": 6,
+      "title": "The Jay-Z Beef — Iron Sharpening Iron",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach competition & artistry. Explain: Lesson: Healthy competition pushes art forward — beef doesn’t gotta end ugly."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "early 2000s tension",
+            "Jay releases “Takeover”",
+            "Nas drops “Ether” — arguably greatest diss ever",
+            "battle raised BOTH their artistry",
+            "later reconciliation → grown man energy"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-halftime"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Halftime” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Nas after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "nas-lesson-07-stillmatic-the-resurrection",
+      "number": 7,
+      "title": "Stillmatic — The Resurrection",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show resilience. Themes: Talk through “One Mic” → how he builds from whisper to explosion."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "rebirth",
+            "political commentary",
+            "spiritual growth",
+            "self-evaluation",
+            "hip-hop’s direction",
+            "“Ether”",
+            "“One Mic”",
+            "“Got Ur Self A…”"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-ether",
+        "nas-one-mic",
+        "nas-got-ur-self-a"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ether” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Nas after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "nas-lesson-08-nas-the-historian-blackness-diaspora-and-cons",
+      "number": 8,
+      "title": "Nas the Historian — Blackness, Diaspora, & Conscious Rap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Conscious Rap Goals: Teach cultural literacy through rap. Nas often addresses: Tracks: Your son gon’ learn Black history THROUGH the music."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "anti-Black racism",
+            "political corruption",
+            "poverty cycles",
+            "police brutality",
+            "Africa & diaspora identity",
+            "systemic critique",
+            "“I Can”",
+            "“Black Zombies”",
+            "“Sly Fox”",
+            "“Daughters”"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-halftime"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Halftime” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Nas after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "nas-lesson-09-mature-nas-legacy-fatherhood-self-reflection",
+      "number": 9,
+      "title": "Mature Nas — Legacy, Fatherhood, Self-Reflection",
+      "body": [
+        {
+          "type": "text",
+          "text": "Self-Reflection Goals: Show growth. Recent albums (King’s Disease I–III, Magic I–III) include: Lesson: Great artists grow without abandoning their roots."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "self-awareness",
+            "vulnerability",
+            "OG wisdom",
+            "industry reflection",
+            "love for art over hype",
+            "maturity without losing skill",
+            "“Ultra Black”",
+            "“KD III Intro”",
+            "“Speechless”"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-ultra-black",
+        "nas-kd-iii-intro",
+        "nas-speechless"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ultra Black” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Nas after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "nas-lesson-10-nas-s-influence-tree",
+      "number": 10,
+      "title": "Nas’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his massive impact. DIRECT Influence: STYLE Influence: Play J. Cole → then Nas → your son spots the resemblance."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "J. Cole",
+            "Kendrick Lamar",
+            "Joey Bada$$",
+            "Logic (pen structure)",
+            "Dave East",
+            "Lupe Fiasco",
+            "Ab-Soul",
+            "Cordae",
+            "Vince Staples",
+            "introspective rap",
+            "poetic street reporting",
+            "conversational flow",
+            "cinematic writing"
+          ]
+        }
+      ],
+      "listen": [
+        "nas-halftime"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Halftime” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Nas after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play J. Cole → then Nas → your son spots the resemblance.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Nas used poetic lyricism, vivid storytelling, and political consciousness to shape hip-hop. Compare ONE track from Illmatic (‘N.Y. State of Mind’) with ONE track from his mature era (‘One Mic’ or something from King’s Disease), and identify TWO modern artists clearly influenced by Nas.",
+    "earlyOptions": [
+      "nas-halftime"
+    ],
+    "laterOptions": [
+      "nas-speechless"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "mature-themes",
+    "weapons"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 24, pages 308-321. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

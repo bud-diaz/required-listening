@@ -1,0 +1,698 @@
+{
+  "schemaVersion": 1,
+  "id": "jodeci",
+  "number": 40,
+  "displayName": "Jodeci",
+  "monogram": "JO",
+  "whyItMatters": "Jodeci matters because the source catalog identifies this route with The bad boys of 90s R&B, A fusion of church vocals + street image, Harmonies built like gospel quartets, Songs that turned bedrooms into sanctuaries.",
+  "passedDown": {
+    "trackId": "jodeci-stay",
+    "blurb": "Start with “Stay” and use the unit's checkpoints to hear how Jodeci's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "jodeci-come-and-talk-to-me",
+      "jodeci-forever-my-lady",
+      "jodeci-love-u-4-life",
+      "jodeci-all-my-life",
+      "jodeci-tell-me-it-s-real"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The bad boys of 90s R&B",
+      "A fusion of church vocals + street image",
+      "Harmonies built like gospel quartets",
+      "Songs that turned bedrooms into sanctuaries",
+      "Timbre, emotion, ad-libs, RUNS, you name it — they shaped it",
+      "They reset tone: R&B could be masculine, edgy, seductive, AND spiritual"
+    ],
+    "closing": "Your son will learn:"
+  },
+  "learnOutcomes": [
+    "The bad boys of 90s R&B",
+    "A fusion of church vocals + street image",
+    "Harmonies built like gospel quartets",
+    "Songs that turned bedrooms into sanctuaries",
+    "Timbre, emotion, ad-libs, RUNS, you name it — they shaped it",
+    "They reset tone: R&B could be masculine, edgy, seductive, AND spiritual",
+    "After the group era, K-Ci & JoJo carried the torch into a polished, soulful, adult",
+    "vocal texture"
+  ],
+  "tracks": [
+    {
+      "id": "jodeci-stay",
+      "title": "Stay",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Stay Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-come-and-talk-to-me",
+      "title": "Come & Talk to Me",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Come & Talk to Me Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-forever-my-lady",
+      "title": "Forever My Lady",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Forever My Lady Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-lately",
+      "title": "Lately",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Lately Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-cry-for-you",
+      "title": "Cry for You",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Cry for You Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-feenin",
+      "title": "Feenin’",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Feenin’ Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-freek-n-you",
+      "title": "Freek’n You",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Freek’n You Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-love-u-4-life",
+      "title": "Love U 4 Life",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Love U 4 Life Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-all-my-life",
+      "title": "All My Life",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "All My Life Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-crazy",
+      "title": "Crazy",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Crazy Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-tell-me-it-s-real",
+      "title": "Tell Me It’s Real",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Tell Me It’s Real Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-wicked-games",
+      "title": "Wicked Games",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Wicked Games Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "jodeci-freek-n-you-2",
+      "title": "Freek’n You.",
+      "artist": "Jodeci",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Freek’n You. Jodeci",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 469-481. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "jodeci-lesson-01-origins-north-carolina-choir-boys-turned-r-an",
+      "number": 1,
+      "title": "Origins — North Carolina Choir Boys Turned R&B Rebels",
+      "body": [
+        {
+          "type": "text",
+          "text": "R&B Rebels Goals: Teach gospel influence + image building. “How does this sound like church but also… not church at ALL?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Members: K-Ci, JoJo, DeVante Swing, Mr. Dalvin",
+            "All raised in church, heavy gospel training",
+            "Moved to NYC with demo tapes → signed by Uptown Records",
+            "Diddy helped shape early style",
+            "Brought leather, boots, and bad-boy swagger into R&B",
+            "Gospel fire over hip-hop beats",
+            "“Stay”"
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-all-my-life",
+        "jodeci-tell-me-it-s-real"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “All My Life” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does this sound like church but also… not church at ALL?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jodeci-lesson-02-devante-swing-the-secret-weapon",
+      "number": 2,
+      "title": "DeVante Swing — The Secret Weapon",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach production + arrangement. DeVante’s impact: Teach your son: “Behind every great group is a visionary producer.” Break down the layered harmonies."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "wrote/produced majority of Jodeci material",
+            "dark chords",
+            "heavy drums",
+            "moody keys",
+            "cinematic intros",
+            "atmospheric sensuality",
+            "MENTOR to Timbaland, Missy Elliott, Ginuwine, Playa, and the whole “Swing Mob” family",
+            "\"Come & Talk to Me\""
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-come-and-talk-to-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Come & Talk to Me” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jodeci after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, sexual-content, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jodeci-lesson-03-forever-my-lady-new-school-r-and-b-is-born",
+      "number": 3,
+      "title": "Forever My Lady — NEW SCHOOL R&B IS BORN",
+      "body": [
+        {
+          "type": "text",
+          "text": "BORN Goals: Teach genre evolution. Themes: Explain the “Beggin’ Man Trope” — Jodeci made it COOL."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "devotion",
+            "begging songs with soul",
+            "emotional vulnerability",
+            "love as worship",
+            "unapologetic sensuality",
+            "“Forever My Lady”",
+            "“Stay”",
+            "“Come & Talk to Me”"
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-forever-my-lady",
+        "jodeci-stay",
+        "jodeci-come-and-talk-to-me"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Forever My Lady” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jodeci after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Explain the “Beggin’ Man Trope” — Jodeci made it COOL.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jodeci-lesson-04-k-ci-s-voice-the-wild-church-running-tenor",
+      "number": 4,
+      "title": "K-Ci’s Voice — The Wild, Church-Running Tenor",
+      "body": [
+        {
+          "type": "text",
+          "text": "Tenor Goals: Vocal study. Traits: Have your son listen to: “How do emotions change a vocal color?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "raspy gospel tone",
+            "explosive ad-libs",
+            "runs that sound like he wrestling God",
+            "chest voice for DAYS",
+            "pure emotion over technical perfection",
+            "raw, gritty vibrato",
+            "“Lately” (MTV Unplugged)"
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-lately"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lately” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How do emotions change a vocal color?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jodeci-lesson-05-jojo-s-voice-the-smooth-emotional-balance",
+      "number": 5,
+      "title": "JoJo’s Voice — The Smooth, Emotional Balance",
+      "body": [
+        {
+          "type": "text",
+          "text": "Balance Goals: Teach vocal layering. Traits: Compare K-Ci vs JoJo on any duet moment → explain contrast. Your son gon’ learn vocal chemistry."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "clean tone",
+            "classic gospel clarity",
+            "perfect blend to K-Ci’s grit",
+            "beautiful upper register",
+            "emotional control"
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-stay"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stay” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jodeci after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Compare K-Ci vs JoJo on any duet moment → explain contrast. Your son gon’ learn vocal chemistry.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jodeci-lesson-06-diary-of-a-mad-band-sensuality-street-influen",
+      "number": 6,
+      "title": "Diary of a Mad Band — Sensuality, Street Influence & Maturity",
+      "body": [
+        {
+          "type": "text",
+          "text": "Influence & Maturity Goals: Teach artistic risk. Themes: “What’s the difference between romantic and sensual tone?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "lust",
+            "heartbreak",
+            "obsession",
+            "vulnerability",
+            "tension",
+            "sensual highs and emotional lows",
+            "“Cry for You”",
+            "“Feenin’”",
+            "“What About Us”"
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-cry-for-you",
+        "jodeci-feenin"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Cry for You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What’s the difference between romantic and sensual tone?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jodeci-lesson-07-the-show-the-after-party-the-hotel-cinematic",
+      "number": 7,
+      "title": "The Show, The After Party, The Hotel — Cinematic R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Cinematic R&B Goals: Teach concept album structure. Explain: Have him map the “movie arc” of the album."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "This album was built like a night out → after party → hotel experience",
+            "Production more atmospheric",
+            "Features from the Swing Mob",
+            "Expansion into experimental sound",
+            "“Freek’n You”",
+            "“Love U 4 Life”"
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-freek-n-you",
+        "jodeci-love-u-4-life"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Freek’n You” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jodeci after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have him map the “movie arc” of the album.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jodeci-lesson-08-k-ci-and-jojo-era-mainstream-soul-ballads",
+      "number": 8,
+      "title": "K-Ci & JoJo Era — Mainstream Soul Ballads",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show vocal refinement & adult contemporary lane. After Jodeci’s hiatus, K-Ci & JoJo pivoted to: Lesson: “Artists can reinvent themselves without losing their roots.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "emotional ballads",
+            "polished arrangements",
+            "wedding/bookstore soundtracks",
+            "tender, grown love themes",
+            "“All My Life”",
+            "“Crazy”",
+            "“Tell Me It’s Real”"
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-all-my-life",
+        "jodeci-crazy",
+        "jodeci-tell-me-it-s-real"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “All My Life” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Jodeci after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "jodeci-lesson-09-image-fashion-and-cultural-impact",
+      "number": 9,
+      "title": "Image, Fashion & Cultural Impact",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach aesthetic influence. Jodeci created: Show videos: “How did image help define the SOUND?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "shirtless leather fits",
+            "chokers & boots",
+            "wet look + warehouse visuals",
+            "the “sexy-but-hood” archetype",
+            "blueprint for groups like Jagged Edge, Dru Hill",
+            "crossover appeal into hip-hop culture",
+            "“Feenin’”",
+            "“Freek’n You”"
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-stay"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stay” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How did image help define the SOUND?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "jodeci-lesson-10-jodeci-s-influence-tree",
+      "number": 10,
+      "title": "Jodeci’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show their MASSIVE impact. Direct influence: Production lineage (via DeVante): Play The Weeknd “Wicked Games” → then “Freek’n You.” “How did the mood evolve but stay similar?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Usher",
+            "Chris Brown",
+            "Tyrese",
+            "Tank",
+            "Jagged Edge",
+            "Dru Hill / Sisqó",
+            "Ginuwine",
+            "The Weeknd (moody sensuality)",
+            "Bryson Tiller (trap-soul tone)",
+            "PARTYNEXTDOOR (dark R&B aesthetic)",
+            "Timbaland",
+            "Missy Elliott",
+            "Playa (Static Major)"
+          ]
+        }
+      ],
+      "listen": [
+        "jodeci-wicked-games",
+        "jodeci-freek-n-you-2"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Wicked Games” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How did the mood evolve but stay similar?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play The Weeknd “Wicked Games” → then “Freek’n You.” Ask:",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Jodeci blended gospel-rooted vocals with hip-hop aesthetics to redefine 90s R&B. Compare ONE Jodeci song (Forever My Lady) with ONE K-Ci & JoJo song (All My Life) and analyze how the tone and themes evolved. Name TWO modern artists influenced by Jodeci’s sound.",
+    "earlyOptions": [
+      "jodeci-stay"
+    ],
+    "laterOptions": [
+      "jodeci-freek-n-you-2"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "violence",
+    "weapons",
+    "sexual-content",
+    "mature-themes"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 36, pages 469-481. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

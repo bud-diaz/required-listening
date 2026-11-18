@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "id": "missy-elliott",
+  "number": 31,
+  "displayName": "Missy Elliott",
+  "monogram": "ME",
+  "whyItMatters": "Missy Elliott matters because the source catalog identifies this route with The greatest woman rapper-producer ever (arguably top 5 producers PERIOD), A visual pioneer whose videos changed the whole medium, A flow chameleon, The architect of futuristic hip-hop aesthetics.",
+  "passedDown": {
+    "trackId": "missy-elliott-the-rain-supa-dupa-fly",
+    "blurb": "Start with “The Rain (Supa Dupa Fly)” and use the unit's checkpoints to hear how Missy Elliott's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "missy-elliott-lose-control",
+      "missy-elliott-gossip-folks",
+      "missy-elliott-get-ur-freak-on"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "The greatest woman rapper-producer ever (arguably top 5 producers PERIOD)",
+      "A visual pioneer whose videos changed the whole medium",
+      "A flow chameleon",
+      "The architect of futuristic hip-hop aesthetics",
+      "A songwriter for half your favorite artists",
+      "A blueprint for creativity without compromise",
+      "Why originality matters",
+      "How hip-hop can be weird, playful, AND elite"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "Why originality matters",
+    "How hip-hop can be weird, playful, AND elite",
+    "How visuals shape sound",
+    "How producers craft worlds",
+    "How women innovators get erased — and why we correct that"
+  ],
+  "tracks": [
+    {
+      "id": "missy-elliott-the-rain-supa-dupa-fly",
+      "title": "The Rain (Supa Dupa Fly)",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Rain (Supa Dupa Fly) Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "missy-elliott-sock-it-2-me",
+      "title": "Sock It 2 Me",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Sock It 2 Me Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "missy-elliott-beep-me-911",
+      "title": "Beep Me 911",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Beep Me 911 Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "missy-elliott-bip-me-beep-me",
+      "title": "Bip me, beep me…",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Bip me, beep me… Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "missy-elliott-work-it",
+      "title": "Work It",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Work It Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "missy-elliott-pass-that-dutch",
+      "title": "Pass That Dutch",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Pass That Dutch Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "missy-elliott-lose-control",
+      "title": "Lose Control",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Lose Control Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "missy-elliott-hot-boyz",
+      "title": "Hot Boyz",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Hot Boyz Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "missy-elliott-gossip-folks",
+      "title": "Gossip Folks",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Gossip Folks Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "missy-elliott-get-ur-freak-on",
+      "title": "Get Ur Freak On",
+      "artist": "Missy Elliott",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Get Ur Freak On Missy Elliott",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 336-348. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "missy-elliott-lesson-01-early-life-devante-swing-and-the-basement-cre",
+      "number": 1,
+      "title": "Early Life, DeVante Swing, & The Basement Crew",
+      "body": [
+        {
+          "type": "text",
+          "text": "Crew Goals: Show Missy’s foundation before she blew up. Early Sista material Aaliyah’s “One in a Million” (Missy wrote, Tim produced) “How does Missy’s pen show up even when she’s not the one rapping?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Portsmouth, Virginia → tight-knit Black musical communities",
+            "Starting in R&B group Sista",
+            "Working with DeVante and Jodeci in “Da Bassment”",
+            "Missy discovering her songwriting/rap hybrid",
+            "Timbaland + Missy partnership beginning (historic moment)"
+          ]
+        }
+      ],
+      "listen": [
+        "missy-elliott-lose-control",
+        "missy-elliott-gossip-folks"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lose Control” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Missy’s pen show up even when she’s not the one rapping?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "missy-elliott-lesson-02-supa-dupa-fly-the-arrival-of-a-visionary",
+      "number": 2,
+      "title": "Supa Dupa Fly — The Arrival of a Visionary",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Understand the cultural explosion of her debut. Have your son clap along to the beat of “The Rain.” (He gon’ look confused — that’s the point. Missy breaks patterns.)"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Missy + Timbaland inventing a whole new sonic language",
+            "Off-beat cadences",
+            "Space-age instrumentals",
+            "Breath-play & vocal textures",
+            "Missy’s off-center rhyme schemes",
+            "“The Rain (Supa Dupa Fly)”",
+            "“Sock It 2 Me”",
+            "“Beep Me 911”"
+          ]
+        }
+      ],
+      "listen": [
+        "missy-elliott-the-rain-supa-dupa-fly",
+        "missy-elliott-sock-it-2-me",
+        "missy-elliott-beep-me-911"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Rain (Supa Dupa Fly)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Missy Elliott after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son clap along to the beat of “The Rain.” (He gon’ look confused — that’s the point. Missy breaks patterns.)",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "missy-elliott-lesson-03-music-videos-missy-the-visual-revolutionary",
+      "number": 3,
+      "title": "Music Videos — Missy the Visual Revolutionary",
+      "body": [
+        {
+          "type": "text",
+          "text": "Revolutionary Goals: Teach visual storytelling & aesthetic innovation. Watch Together: Discussion: “What makes these videos feel like worlds — not just visuals?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Hype Williams era, but Missy went beyond his style",
+            "Surrealism, sci-fi, Afrofuturism",
+            "The inflatable suit, the fisheye lens dominance",
+            "How Missy treated videos as PERFORMANCE ART, not promo",
+            "The direct influence on Busta, Tyler, Tierra Whack, Doja Cat",
+            "“The Rain”",
+            "“Get Ur Freak On”",
+            "“One Minute Man”",
+            "“Work It”",
+            "“Lose Control”"
+          ]
+        }
+      ],
+      "listen": [
+        "missy-elliott-the-rain-supa-dupa-fly"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Rain (Supa Dupa Fly)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What makes these videos feel like worlds — not just visuals?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "missy-elliott-lesson-04-missy-s-flow-elasticity-humor-and-cadence-pla",
+      "number": 4,
+      "title": "Missy’s Flow — Elasticity, Humor, & Cadence Play",
+      "body": [
+        {
+          "type": "text",
+          "text": "Cadence Play Goals: Teach rap technique through Missy’s versatility. Teach these flow signatures: Have him identify what makes Missy sound DIFFERENT from every other rapper."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Nonsense syllables as rhythm (“Bip me, beep me…”)",
+            "Reverse bars (“Work It” iconic reversal trick)",
+            "Breath manipulation",
+            "Call-and-response rap",
+            "Chant flow mixed with R&B melodic hints",
+            "Beat-riding in unexpected pockets",
+            "“Work It”",
+            "“Pass That Dutch”",
+            "“Lose Control”",
+            "“Hot Boyz”"
+          ]
+        }
+      ],
+      "listen": [
+        "missy-elliott-bip-me-beep-me",
+        "missy-elliott-work-it",
+        "missy-elliott-pass-that-dutch",
+        "missy-elliott-lose-control",
+        "missy-elliott-hot-boyz"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Bip me, beep me…” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Missy Elliott after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "missy-elliott-lesson-05-production-genius-timbaland-missy-a-movement",
+      "number": 5,
+      "title": "Production Genius — Timbaland + Missy = A Movement",
+      "body": [
+        {
+          "type": "text",
+          "text": "Movement Goals: Explain production as world-building. Show him how Missy shapes beats with SOUND EFFECTS (baby cries, clicks, whistles, stutters). Teaches sonic imagination."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Call notes & melodies that hit like percussion",
+            "Syncopated drum patterns",
+            "Global influences in Missy’s sound (Indian, Japanese, Caribbean)",
+            "Layered vocal stacks",
+            "Minimalist beats with maximalist energy",
+            "Missy’s involvement in songwriting structure"
+          ]
+        }
+      ],
+      "listen": [
+        "missy-elliott-the-rain-supa-dupa-fly"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Rain (Supa Dupa Fly)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Missy Elliott after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Show him how Missy shapes beats with SOUND EFFECTS (baby cries, clicks, whistles, stutters).",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "missy-elliott-lesson-06-missy-the-songwriter-pen-game-for-the-icons",
+      "number": 6,
+      "title": "Missy the Songwriter — Pen Game for the Icons",
+      "body": [
+        {
+          "type": "text",
+          "text": "Icons Goals: Highlight her catalog behind the scenes. Missy wrote/produced for: Teach him how being a behind-the-scenes legend multiplies her influence. Play songs Missy wrote but didn’t perform. Ask your son to guess which parts “sound like her.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Aaliyah (“One in a Million,” “If Your Girl Only Knew”)",
+            "SWV",
+            "702",
+            "Total",
+            "Beyoncé (“Signs”)",
+            "Ciara (“1, 2 Step”)",
+            "Monica",
+            "Tweet",
+            "Fantasia"
+          ]
+        }
+      ],
+      "listen": [
+        "missy-elliott-the-rain-supa-dupa-fly"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Rain (Supa Dupa Fly)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Missy Elliott after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play songs Missy wrote but didn’t perform. Ask your son to guess which parts “sound like her.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "missy-elliott-lesson-07-missy-s-albums-evolution-across-eras-da-real",
+      "number": 7,
+      "title": "Missy’s Albums — Evolution Across Eras Da Real World",
+      "body": [
+        {
+          "type": "text",
+          "text": "Da Real World Darker, more aggressive. Teach: range of tone. Miss E… So Addictive Peak experimentation. Teach: global rhythm influence. Under Construction Homage to old-school hip-hop AND pushing it forward. Teach: hip-hop lineage. This Is Not a Test! High-energy, danceable. Teach: cross-genre impact. Break down how each album has a completely different universe — Missy don’t repeat herself."
+        }
+      ],
+      "listen": [
+        "missy-elliott-the-rain-supa-dupa-fly"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Rain (Supa Dupa Fly)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Missy Elliott after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "missy-elliott-lesson-08-representation-black-women-weirdness-and-futu",
+      "number": 8,
+      "title": "Representation — Black Women, Weirdness & Futurism",
+      "body": [
+        {
+          "type": "text",
+          "text": "& Futurism Goals: Teach why Missy is culturally essential. Discussion: “How does Missy show that originality > fitting in?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "She made it normal for Black women to be weird, bold, experimental",
+            "No hypersexualization to “earn” visibility",
+            "Self-love & body-positivity BEFORE it was mainstream",
+            "Afrofuturism in hip-hop",
+            "Creating a lane where Black girls aren’t boxed in",
+            "Missy uplifting other women artists consistently"
+          ]
+        }
+      ],
+      "listen": [
+        "missy-elliott-the-rain-supa-dupa-fly"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Rain (Supa Dupa Fly)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does Missy show that originality > fitting in?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, sexual-content, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "missy-elliott-lesson-09-missy-s-legacy-and-the-children-of-her-impact",
+      "number": 9,
+      "title": "Missy's Legacy & The Children of Her Impact",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map out her influence tree. Direct Inspiration: Have your son compare one Missy video to one modern video influenced by her."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Tierra Whack",
+            "Doja Cat",
+            "Tyler, The Creator",
+            "Nicki Minaj (visual + flow)",
+            "Megan Thee Stallion",
+            "FKA Twigs",
+            "Tinashe",
+            "Ciara (literally developed by Missy)",
+            "Busta Rhymes (mutual influence)"
+          ]
+        }
+      ],
+      "listen": [
+        "missy-elliott-the-rain-supa-dupa-fly"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Rain (Supa Dupa Fly)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Missy Elliott after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Have your son compare one Missy video to one modern video influenced by her.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "missy-elliott-lesson-10-why-missy-is-a-goat-final-critical-analysis",
+      "number": 10,
+      "title": "Why Missy Is a GOAT — Final Critical Analysis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Analysis Goals: Tie it all together. Your son evaluates: 1. Flow 2. Visuals 3. Production 4. Innovation 5. Influence 6. Songwriting 7. Longevity 8. Performance 9. Impact on women in hip-hop 10. Risk-taking Prompt: “Does innovation matter more than popularity? Why?” Let him think like a critic."
+        }
+      ],
+      "listen": [
+        "missy-elliott-the-rain-supa-dupa-fly"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Rain (Supa Dupa Fly)” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Missy Elliott after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Missy Elliott changed rap visually, sonically, and culturally using THREE songs, TWO videos, and ONE example of her songwriting for another artist.",
+    "earlyOptions": [
+      "missy-elliott-the-rain-supa-dupa-fly"
+    ],
+    "laterOptions": [
+      "missy-elliott-hot-boyz"
+    ],
+    "influencedCount": 3
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "substances",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 26, pages 336-348. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}

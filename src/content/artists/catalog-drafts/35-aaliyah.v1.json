@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "id": "aaliyah",
+  "number": 35,
+  "displayName": "Aaliyah",
+  "monogram": "AA",
+  "whyItMatters": "Aaliyah matters because the source catalog identifies this route with one of the most influential R&B artists of the 90s/2000s, pioneer of futuristic, minimalist “cool” R&B, muse + collaborator for Timbaland & Missy, a fashion/style icon.",
+  "passedDown": {
+    "trackId": "aaliyah-back-and-forth",
+    "blurb": "Start with “Back & Forth” and use the unit's checkpoints to hear how Aaliyah's technique and influence develop."
+  },
+  "youngerListener": {
+    "trackIds": [
+      "aaliyah-rock-the-boat",
+      "aaliyah-4-page-letter",
+      "aaliyah-at-your-best-you-are-loved",
+      "aaliyah-journey-to-the-past"
+    ],
+    "note": "These selections come from the source catalog’s younger-listener section. Preview the exact provider result before playing."
+  },
+  "overview": {
+    "summary": [
+      "one of the most influential R&B artists of the 90s/2000s",
+      "pioneer of futuristic, minimalist “cool” R&B",
+      "muse + collaborator for Timbaland & Missy",
+      "a fashion/style icon",
+      "actress, dancer, all-around performer",
+      "blueprint for modern “alternative R&B”",
+      "how subtleness can be powerful",
+      "how a TEAM (Aaliyah + Missy + Timbaland) changed an entire sound"
+    ],
+    "closing": "Your son gon’ learn:"
+  },
+  "learnOutcomes": [
+    "how subtleness can be powerful",
+    "how a TEAM (Aaliyah + Missy + Timbaland) changed an entire sound",
+    "how style + identity intertwine",
+    "that R&B can be delicate, smooth, and STILL innovative"
+  ],
+  "tracks": [
+    {
+      "id": "aaliyah-back-and-forth",
+      "title": "Back & Forth",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Back & Forth Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-one-in-a-million",
+      "title": "One in a Million",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "One in a Million Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-rock-the-boat",
+      "title": "Rock the Boat",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Rock the Boat Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-4-page-letter",
+      "title": "4 Page Letter",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "4 Page Letter Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-hot-like-fire",
+      "title": "Hot Like Fire",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Hot Like Fire Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-we-need-a-resolution",
+      "title": "We Need a Resolution",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "We Need a Resolution Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-more-than-a-woman",
+      "title": "More Than a Woman",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "More Than a Woman Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-i-care-4-u",
+      "title": "I Care 4 U",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "I Care 4 U Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-spotless-mind",
+      "title": "Spotless Mind.",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Spotless Mind. Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-at-your-best-you-are-loved",
+      "title": "At Your Best (You Are Loved)",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "At Your Best (You Are Loved) Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "aaliyah-journey-to-the-past",
+      "title": "Journey to the Past",
+      "artist": "Aaliyah",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Journey to the Past Aaliyah",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 390-403. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "aaliyah-lesson-01-origins-detroit-stage-training-and-a-natural",
+      "number": 1,
+      "title": "Origins — Detroit, Stage Training, and a Natural Star",
+      "body": [
+        {
+          "type": "text",
+          "text": "Natural Star Goals: Show early grooming and discipline. “How does a TEENAGER sound this calm and confident?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "born in Brooklyn, raised in Detroit",
+            "trained heavily in dance & performance",
+            "performed on Star Search as a kid",
+            "early voice: warm, airy, controlled",
+            "debuted at 14 with Age Ain’t Nothing But a Number",
+            "“Back & Forth”"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-rock-the-boat",
+        "aaliyah-4-page-letter"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Rock the Boat” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does a TEENAGER sound this calm and confident?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "aaliyah-lesson-02-the-voice-airy-cool-effortless",
+      "number": 2,
+      "title": "The Voice — Airy, Cool, Effortless",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal tone as identity. Aaliyah’s tone: Explain: Not every legend belts. Some hypnotize."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "light but steady",
+            "airy head voice",
+            "controlled vibrato",
+            "whispery delivery",
+            "emotionally subtle but precise",
+            "“One in a Million”",
+            "“Rock the Boat”"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-one-in-a-million",
+        "aaliyah-rock-the-boat"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “One in a Million” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Aaliyah after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "aaliyah-lesson-03-the-holy-trinity-aaliyah-missy-elliott-timbal",
+      "number": 3,
+      "title": "The Holy Trinity — Aaliyah + Missy Elliott + Timbaland",
+      "body": [
+        {
+          "type": "text",
+          "text": "Timbaland Goals: Show how collaboration creates revolution. Timbaland: Missy: Aaliyah: Teach your son: They invented a whole NEW lane for R&B."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "stuttering beats",
+            "syncopation",
+            "digital percussion",
+            "futuristic textures",
+            "playful pen",
+            "melodic writing",
+            "girl power themes",
+            "flirtation + confidence",
+            "rhythm-driven hooks",
+            "the calm center",
+            "the mood-setting presence",
+            "the coolness that grounded the weirdness",
+            "“One in a Million”",
+            "“4 Page Letter”",
+            "“Hot Like Fire”"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-one-in-a-million",
+        "aaliyah-4-page-letter",
+        "aaliyah-hot-like-fire"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “One in a Million” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Aaliyah after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "aaliyah-lesson-04-one-in-a-million-the-futurist-r-and-b-classic",
+      "number": 4,
+      "title": "One in a Million — The Futurist R&B Classic",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Break down the album that changed everything. Themes: Sounds: “Why does this STILL sound modern?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "longing",
+            "secret love",
+            "feminine confidence",
+            "late-night mood",
+            "softness + strength",
+            "airy vocals + punchy beats",
+            "futuristic textures",
+            "hypnotic pacing",
+            "“One in a Million”",
+            "“4 Page Letter”"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-one-in-a-million",
+        "aaliyah-4-page-letter"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “One in a Million” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Why does this STILL sound modern?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "aaliyah-lesson-05-cinematic-aaliyah-videos-visuals-vibe",
+      "number": 5,
+      "title": "Cinematic Aaliyah — Videos, Visuals, VIBE",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach multimedia artistry. Aaliyah’s videos: Watch: Her cool was intentional — she made mystery a brand."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "choreographed elegance",
+            "clean lines",
+            "futuristic fashion (leather, metallics, all-black fits)",
+            "underwater/gliding aesthetics",
+            "attitude in stillness, not excess",
+            "“Are You That Somebody?”",
+            "“Try Again”"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-back-and-forth"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Back & Forth” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "Are You That Somebody?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "aaliyah-lesson-06-choreography-precision-flow",
+      "number": 6,
+      "title": "Choreography — Precision + Flow",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Appreciate performance craft. Her movement: Watch: “How does she command the room without being loud?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "tight, syncopated",
+            "sharp edges with soft transitions",
+            "hip-hop + contemporary fusion",
+            "controlled sensuality",
+            "storytelling through dance",
+            "“More Than a Woman” (motorcycle scene = ICONIC)",
+            "“Try Again” (laser room choreography)"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-back-and-forth"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Back & Forth” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "How does she command the room without being loud?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "aaliyah-lesson-07-aaliyah-2001-the-masterpiece",
+      "number": 7,
+      "title": "Aaliyah (2001) — The Masterpiece",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Study her artistic peak. Themes: Teach your son: This album was the blueprint for 2000s–2020s “alt R&B” before it had a name."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "sensuality",
+            "maturity",
+            "introspection",
+            "divine/ethereal energy",
+            "“We Need a Resolution”",
+            "“Rock the Boat”",
+            "“More Than a Woman”",
+            "“I Care 4 U”"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-we-need-a-resolution",
+        "aaliyah-rock-the-boat",
+        "aaliyah-more-than-a-woman",
+        "aaliyah-i-care-4-u"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “We Need a Resolution” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Aaliyah after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "aaliyah-lesson-08-acting-her-broader-artistic-legacy",
+      "number": 8,
+      "title": "Acting — Her Broader Artistic Legacy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach career versatility. Films: Skills: Aaliyah was built for multi-medium superstardom."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Romeo Must Die",
+            "Queen of the Damned",
+            "emotional presence",
+            "physicality",
+            "charisma",
+            "supernatural roles"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-back-and-forth"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Back & Forth” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Aaliyah after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "aaliyah-lesson-09-the-tragedy-legacy-through-loss",
+      "number": 9,
+      "title": "The Tragedy — Legacy Through Loss",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Handle with care & honesty. Aaliyah passed at 22 in a plane crash. Teach gently: Explain: Impact isn’t about quantity — it’s about resonance."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "her career was short but seismic",
+            "sometimes greatness is felt, not measured in volume",
+            "her influence outlived her lifespan"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-back-and-forth"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Back & Forth” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Aaliyah after this checkpoint?",
+        "source": "adapted"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "aaliyah-lesson-10-influence-tree-everyone-s-big-sister",
+      "number": 10,
+      "title": "Influence Tree — Everyone’s Big Sister",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show her IMMENSE generational shadow. DIRECT Influence: GENRE Impact: Play “One in a Million” → then Jhene Aiko “Spotless Mind.” Your son will hear the DNA."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Beyoncé (cool poise era)",
+            "Rihanna (mood + minimalism)",
+            "Ciara (dance + vocal tone)",
+            "Normani (movement precision)",
+            "Tinashe (alt-R&B vibe)",
+            "Kehlani",
+            "Aaliyah-inspired aesthetics in SZA & Jhene Aiko",
+            "Summer Walker (emotional softness)",
+            "alternative R&B",
+            "atmospheric production",
+            "whisper-singing era",
+            "futuristic visuals"
+          ]
+        }
+      ],
+      "listen": [
+        "aaliyah-one-in-a-million",
+        "aaliyah-spotless-mind"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “One in a Million” support this lesson's central idea.",
+        "source": "adapted"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Aaliyah after this checkpoint?",
+        "source": "adapted"
+      },
+      "activity": {
+        "text": "Play “One in a Million” → then Jhene Aiko “Spotless Mind.” Your son will hear the DNA.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    }
+  ],
+  "finalProject": {
+    "prompt": "Explain how Aaliyah revolutionized R&B through minimalist vocals, futuristic production (Timbaland/Missy), and style-driven identity. Compare ONE mid-90s track (‘One in a Million’) with ONE 2001-era track (‘More Than a Woman’ or ‘Rock the Boat’). Identify TWO modern artists who clearly reflect Aaliyah’s influence.",
+    "earlyOptions": [
+      "aaliyah-back-and-forth"
+    ],
+    "laterOptions": [
+      "aaliyah-spotless-mind"
+    ],
+    "influencedCount": 2
+  },
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "sexual-content",
+    "trauma"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "sourceNotes": "Draft conversion from Unit-catalog.pdf, source route 30, pages 390-403. Imported 2026-11-18 using the strict unit template. Track versions, safety lanes, adapted prompts, nine/eleven-lesson normalization, and factual claims require editorial review before publication.",
+  "lessonReview": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  },
+  "review": {
+    "status": "draft",
+    "reviewedAt": null,
+    "reviewedBy": null
+  }
+}
