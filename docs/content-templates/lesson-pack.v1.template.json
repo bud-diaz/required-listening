@@ -85,6 +85,8 @@
   "sections": [
     {
       "unitId": "replace-source-unit-id",
+      "number": 1,
+      "monogram": "RU",
       "title": "Replace with source unit or section title",
       "summary": "Replace with a short explanation of this section's role in the pack.",
       "lessonIds": [

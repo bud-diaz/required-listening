@@ -17,10 +17,31 @@ and replaces an installed version only after every check passes. Browse/detail s
 progress, retry, update, storage, offline fallback, and removal states.
 
 Pack 01 — **The Soul Foundation** is reproducibly bundled from the five units named in
-[`docs/req_packs.md`](req_packs.md). It remains development-only because every imported source unit is
-still draft. Production release is therefore intentionally blocked until those units and the pack are
-editorially approved and the generated catalog/manifest artifacts are deployed at the configured
-Paperweight paths.
+[`docs/req_packs.md`](req_packs.md). Pack 02 — **The New Wave** is reproducibly bundled from
+catalog-drafts units 11–15 in their existing catalog order (Drake, Future, The Weeknd, Young Thug,
+Wale); its title, theme, summary, educational connections, and central lesson are drafted copy, since
+this grouping doesn't come from `docs/req_packs.md` (whose Pack 02 and Pack 06 use a different artist
+lineup).
+
+**bud-diaz reviewed and approved all 10 source units across both packs on 2026-11-18** — every
+adapted Notice/Talk/Activity prompt was moved to `approved-adaptation`, and each pack's own
+`review.status` is `approved` (`reviewedBy: bud-diaz`). Both packs still ship with
+`developmentOnly: true` and so remain invisible in production; that flag is reserved for after the
+generated catalog/manifest artifacts are actually deployed to `paperweighthq.com` (see HANDOFF.md's
+Next step), which is now the only remaining production blocker. Track clean-version status was left
+`unverified` throughout by design — the schema permits `unverified` + `requiresCaregiverPreview` on
+every lane including younger, so this is a valid steady state, not something approval needed to
+resolve.
+
+The app's main unit seed (`src/content/index.ts`) includes only the 10 author-approved core units in
+both development and production; the remaining catalog-drafts units stay unseeded source material
+(their own per-unit `review.status` stays `draft` permanently — that field is only a build-time
+sanity check, not a publication gate), validated by a standalone schema test, until an editor bundles
+them into further packs the same way.
+
+`npm run pack:build` now rebuilds every pack (`pack:build:01`, `pack:build:02` run it individually) and
+upserts each pack's `src/content/packs/catalog.remote.v1.json` entry by `packId` without disturbing the
+others.
 
 All new pack content must begin with
 [`docs/content-templates/lesson-pack.v1.template.json`](content-templates/lesson-pack.v1.template.json)
@@ -181,9 +202,9 @@ Exit: the entire flow works offline with one fixture pack and survives app resta
 Exit: a production-approved Paperweight pack can be installed, used fully offline, updated safely, and
 removed without corrupting family data.
 
-**Status: implementation complete; publishing exit pending.** The verified pipeline and Pack 1
-artifact are in place, but the exit criterion cannot be claimed until Pack 1 is approved, hosted, and
-tested from the production endpoint.
+**Status: implementation complete; publishing exit pending.** The verified pipeline and both Pack 1
+and Pack 2 artifacts are in place and editorially approved, but the exit criterion cannot be claimed
+until a pack is hosted and tested from the production endpoint.
 
 ### Phase 3 — commerce or outside publishers (only if needed)
 

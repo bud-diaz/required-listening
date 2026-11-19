@@ -73,6 +73,8 @@ export const demoFamilyAnthemsPack = LessonPack.parse({
   sections: [
     {
       unitId: 'family-anthems-demo',
+      number: 1,
+      monogram: 'FA',
       title: 'Family Anthems',
       summary: 'Choose, compare, and pass forward songs that belong to your family story.',
       lessonIds: ['pick-a-family-anthem', 'compare-two-generations', 'pass-one-forward'],

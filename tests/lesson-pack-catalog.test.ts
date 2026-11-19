@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import packJson from '../src/content/packs/pack-01-soul-foundation.v1.json';
+import pack2Json from '../src/content/packs/pack-02-the-new-wave.v1.json';
 import catalogJson from '../src/content/packs/catalog.remote.v1.json';
 import {
   LessonPackCatalogDocument,
@@ -13,10 +14,14 @@ import {
 import { assertSafePackUpdate, InstalledPack, LessonPack } from '../src/domain/lesson-packs';
 
 const pack = LessonPack.parse(packJson);
+const pack2 = LessonPack.parse(pack2Json);
 const catalog = LessonPackCatalogDocument.parse(catalogJson);
 const entry = catalog.packs[0];
+const entry2 = catalog.packs[1];
 const artifact = readFileSync(new URL('../src/content/packs/pack-01-soul-foundation.v1.json', import.meta.url));
 const digest = createHash('sha256').update(artifact).digest('hex');
+const artifact2 = readFileSync(new URL('../src/content/packs/pack-02-the-new-wave.v1.json', import.meta.url));
+const digest2 = createHash('sha256').update(artifact2).digest('hex');
 
 function expectDownloadError(run: () => unknown, code: LessonPackDownloadError['code']) {
   try {
@@ -52,8 +57,9 @@ describe('Pack 1 bundle', () => {
     expect(pack.sections.flatMap((section) => section.lessonIds)).toEqual(pack.lessons.map((lesson) => lesson.id));
   });
 
-  it('keeps draft source material development-only', () => {
-    expect(pack.review.status).toBe('draft');
+  it('is editorially approved but stays development-only pending deployment', () => {
+    expect(pack.review.status).toBe('approved');
+    expect(pack.review.reviewedBy).toBe('bud-diaz');
     expect(pack.developmentOnly).toBe(true);
   });
 
@@ -62,6 +68,37 @@ describe('Pack 1 bundle', () => {
     expect(entry.downloadBytes).toBe(artifact.byteLength);
     expect(entry.sha256).toBe(digest);
     expect(entry.lessonCount).toBe(50);
+  });
+});
+
+describe('Pack 2 bundle', () => {
+  it('bundles units 11–15 in catalog order', () => {
+    expect(pack2.title).toBe('The New Wave');
+    expect(pack2.sections.map((section) => section.unitId)).toEqual([
+      'drake',
+      'future',
+      'the-weeknd',
+      'young-thug',
+      'wale',
+    ]);
+    expect(pack2.lessons).toHaveLength(50);
+    expect(pack2.lessons.map((lesson) => lesson.number)).toEqual(Array.from({ length: 50 }, (_, index) => index + 1));
+    expect(pack2.sections.flatMap((section) => section.lessonIds)).toEqual(pack2.lessons.map((lesson) => lesson.id));
+  });
+
+  it('is editorially approved but stays development-only pending deployment', () => {
+    expect(pack2.review.status).toBe('approved');
+    expect(pack2.review.reviewedBy).toBe('bud-diaz');
+    expect(pack2.developmentOnly).toBe(true);
+  });
+
+  it('emits a byte-accurate, SHA-256-addressed catalog artifact alongside Pack 1', () => {
+    expect(artifact2.byteLength).toBe(pack2.downloadBytes);
+    expect(entry2.packId).toBe('pack-02-the-new-wave');
+    expect(entry2.downloadBytes).toBe(artifact2.byteLength);
+    expect(entry2.sha256).toBe(digest2);
+    expect(entry2.lessonCount).toBe(50);
+    expect(entry.packId).toBe('pack-01-soul-foundation');
   });
 });
 
@@ -139,7 +176,7 @@ describe('verified first-party downloads', () => {
     }), 'invalid');
   });
 
-  it('never exposes the draft pack in production', () => {
+  it('never exposes the development-only pack in production', () => {
     expectDownloadError(() => validateDownloadedPack({
       entry,
       payload: packJson,

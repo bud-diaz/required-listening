@@ -8,6 +8,8 @@ const packId = z
 
 export const PackSection = z.object({
   unitId: packId,
+  number: z.number().int().positive(),
+  monogram: z.string().min(1).max(3),
   title: z.string().min(1),
   summary: z.string().min(1),
   lessonIds: z.array(packId).min(1).max(10),

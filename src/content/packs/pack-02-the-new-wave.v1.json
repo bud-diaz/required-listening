@@ -1,0 +1,3826 @@
+{
+  "schemaVersion": 1,
+  "packId": "pack-02-the-new-wave",
+  "version": 1,
+  "title": "The New Wave",
+  "theme": "Melody Takes Over Hip-Hop",
+  "summary": "These artists blurred the line between rapping and singing, bringing Auto-Tune, atmospheric production, and emotional vulnerability into the center of mainstream hip-hop and R&B.",
+  "educationalConnections": [
+    "Understanding how melody and rap blend into one style.",
+    "Exploring Auto-Tune and vocal effects as creative tools.",
+    "Recognizing atmospheric and moody production choices.",
+    "Comparing different artists’ approaches to emotional storytelling."
+  ],
+  "centralLesson": "Hip-hop didn’t stop evolving. It just learned to sing.",
+  "publisher": "Paperweight",
+  "publishedAt": "2026-11-18T00:00:00.000Z",
+  "minAppVersion": "0.1.0",
+  "downloadBytes": 131118,
+  "contentFlags": [
+    "explicit-language",
+    "mature-themes",
+    "artist-conduct",
+    "violence",
+    "weapons",
+    "trauma",
+    "substances",
+    "sexual-content"
+  ],
+  "estimatedMinutesPerLesson": 10,
+  "tracks": [
+    {
+      "id": "drake-replacement-girl",
+      "title": "Replacement Girl",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Replacement Girl Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-best-i-ever-had",
+      "title": "Best I Ever Had",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Best I Ever Had Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-successful",
+      "title": "Successful",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Successful Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-houstatlantavegas",
+      "title": "Houstatlantavegas",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Houstatlantavegas Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-say-what-s-real",
+      "title": "Say What’s Real",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Say What’s Real Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-marvins-room",
+      "title": "Marvins Room",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Marvins Room Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-take-care",
+      "title": "Take Care",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Take Care Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-crew-love",
+      "title": "Crew Love",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Crew Love Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-headlines",
+      "title": "Headlines",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Headlines Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-the-motto",
+      "title": "The Motto",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "The Motto Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-versace-remix",
+      "title": "Versace (Remix)",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Versace (Remix) Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-hyfr",
+      "title": "HYFR",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "HYFR Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-6-god",
+      "title": "6 God",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "6 God Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-nonstop",
+      "title": "Nonstop",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Nonstop Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-lemon-pepper-freestyle",
+      "title": "Lemon Pepper Freestyle",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Lemon Pepper Freestyle Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-tuscan-leather",
+      "title": "Tuscan Leather",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Tuscan Leather Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-worst-behavior",
+      "title": "Worst Behavior",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Worst Behavior Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-hold-on-we-re-going-home",
+      "title": "Hold On, We’re Going Home",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hold On, We’re Going Home Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-started-from-the-bottom",
+      "title": "Started From the Bottom",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Started From the Bottom Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-one-dance",
+      "title": "One Dance",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "One Dance Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-find-your-love",
+      "title": "Find Your Love",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Find Your Love Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-passionfruit",
+      "title": "Passionfruit",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Passionfruit Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-god-s-plan",
+      "title": "God’s Plan",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "God’s Plan Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "drake-hotline-bling",
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Hotline Bling Drake",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 27-40. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-tony-montana",
+      "title": "Tony Montana",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Tony Montana Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-codeine-crazy",
+      "title": "Codeine Crazy",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes",
+        "substances"
+      ],
+      "searchQuery": "Codeine Crazy Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-magic",
+      "title": "Magic",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Magic Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-same-damn-time",
+      "title": "Same Damn Time",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Same Damn Time Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-turn-on-the-lights",
+      "title": "Turn On the Lights.",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Turn On the Lights. Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-throw-away",
+      "title": "Throw Away",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Throw Away Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-march-madness",
+      "title": "March Madness",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "March Madness Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-thought-it-was-a-drought",
+      "title": "Thought It Was a Drought",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Thought It Was a Drought Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-where-ya-at",
+      "title": "Where Ya At",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Where Ya At Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-f-up-some-commas",
+      "title": "F*** Up Some Commas",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "F*** Up Some Commas Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-real-sisters",
+      "title": "Real Sisters",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Real Sisters Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-mask-off",
+      "title": "Mask Off",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Mask Off Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-jumpman",
+      "title": "Jumpman",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Jumpman Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-my-collection",
+      "title": "My Collection",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "My Collection Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-low-life",
+      "title": "Low Life",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Low Life Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-incredible",
+      "title": "Incredible",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Incredible Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-extra-luv",
+      "title": "Extra Luv",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ],
+      "searchQuery": "Extra Luv Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-life-is-good",
+      "title": "Life Is Good",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Life Is Good Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "future-selfish",
+      "title": "Selfish",
+      "artist": "Future",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Selfish Future",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 41-54. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-the-morning",
+      "title": "The Morning",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "The Morning The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-high-for-this",
+      "title": "High for This",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "High for This The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-wicked-games",
+      "title": "Wicked Games",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "Wicked Games The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-the-party-and-the-after-party",
+      "title": "The Party & the After Party",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ],
+      "searchQuery": "The Party & the After Party The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-kiss-land",
+      "title": "Kiss Land",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Kiss Land The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-adaptation",
+      "title": "Adaptation",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Adaptation The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-belong-to-the-world",
+      "title": "Belong to the World",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Belong to the World The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-the-hills",
+      "title": "The Hills",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Hills The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-earned-it",
+      "title": "Earned It",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Earned It The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-often",
+      "title": "Often",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Often The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-starboy",
+      "title": "Starboy",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Starboy The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-reminder",
+      "title": "Reminder",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Reminder The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-die-for-you",
+      "title": "Die For You",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Die For You The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-i-feel-it-coming",
+      "title": "I Feel It Coming",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "I Feel It Coming The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-blinding-lights",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Blinding Lights The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-save-your-tears",
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Save Your Tears The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-after-hours",
+      "title": "After Hours",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "After Hours The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-take-my-breath",
+      "title": "Take My Breath",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Take My Breath The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-out-of-time",
+      "title": "Out of Time",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Out of Time The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-gasoline",
+      "title": "Gasoline",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Gasoline The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "the-weeknd-call-out-my-name",
+      "title": "Call Out My Name",
+      "artist": "The Weeknd",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Call Out My Name The Weeknd",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 70-82. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-stoner",
+      "title": "Stoner",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Stoner Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-check",
+      "title": "Check",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Check Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-digits",
+      "title": "Digits",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Digits Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-halftime",
+      "title": "Halftime",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Halftime Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-with-that-feat-duke",
+      "title": "With That (feat. Duke)",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "With That (feat. Duke) Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-never-had-it",
+      "title": "Never Had It",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ],
+      "searchQuery": "Never Had It Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-havana",
+      "title": "Havana",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Havana Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-wyclef-jean",
+      "title": "Wyclef Jean",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Wyclef Jean Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-pick-up-the-phone",
+      "title": "Pick Up the Phone",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Pick Up the Phone Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-harambe",
+      "title": "Harambe",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Harambe Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-relationship",
+      "title": "Relationship",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Relationship Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-family-don-t-matter",
+      "title": "Family Don’t Matter",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Family Don’t Matter Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-take-care",
+      "title": "Take Care",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Take Care Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-you-said",
+      "title": "You Said",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "You Said Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-love-me-forever",
+      "title": "Love Me Forever",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Love Me Forever Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "young-thug-power",
+      "title": "Power",
+      "artist": "Young Thug",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Power Young Thug",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 96-110. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-dig-dug-shake-it",
+      "title": "Dig Dug (Shake It)",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Dig Dug (Shake It) Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-pretty-girls",
+      "title": "Pretty Girls",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Pretty Girls Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-chillin",
+      "title": "Chillin’",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Chillin’ Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-diary",
+      "title": "Diary",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Diary Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-the-breakup-song",
+      "title": "The Breakup Song",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Breakup Song Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-the-mc",
+      "title": "The MC",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The MC Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-the-friends-n-strangers",
+      "title": "The Friends N Strangers",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "The Friends N Strangers Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-ambition",
+      "title": "Ambition",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Ambition Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-lotus-flower-bomb",
+      "title": "Lotus Flower Bomb",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "Lotus Flower Bomb Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-sabotage",
+      "title": "Sabotage",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "mature-themes"
+      ],
+      "searchQuery": "Sabotage Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-bad",
+      "title": "Bad",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Bad Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-the-need-to-know",
+      "title": "The Need to Know",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "The Need to Know Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-cosmopolitan-love",
+      "title": "Cosmopolitan Love",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "searchQuery": "Cosmopolitan Love Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-on-chill",
+      "title": "On Chill",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "On Chill Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-clappers",
+      "title": "Clappers",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "guided",
+      "youngerListener": false,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ],
+      "searchQuery": "Clappers Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-lovehate-thing",
+      "title": "LoveHate Thing",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "LoveHate Thing Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    },
+    {
+      "id": "wale-white-shoes",
+      "title": "White Shoes",
+      "artist": "Wale",
+      "type": "song",
+      "minLane": "younger",
+      "youngerListener": true,
+      "cleanVersionStatus": "unverified",
+      "contentFlags": [],
+      "caregiverNote": "The source catalog recommends this as a younger-listener option. Preview the exact provider result before playing.",
+      "searchQuery": "White Shoes Wale",
+      "sourceNotes": "Named in Unit-catalog.pdf, pages 111-123. Provider version not verified.",
+      "requiresCaregiverPreview": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "drake-lesson-01-origins-degrassi-jewish-black-identity-and-to",
+      "number": 1,
+      "title": "Origins — Degrassi, Jewish/Black Identity & Toronto’s Multicultural Soup",
+      "body": [
+        {
+          "type": "text",
+          "text": "Toronto’s Multicultural Soup Goals: Teach identity complexity. “How do all these cultures show up in his sound?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born in Toronto to a Black American father (musician) & Jewish Canadian mother",
+            "Mixed identity influences his perspective in rap",
+            "Early acting career on Degrassi",
+            "Used TV money to fund music",
+            "Toronto’s Caribbean/Afro-diasporic culture shaped his slang, flows, melody choices",
+            "Early collaborations with Trey Songz, Lil Wayne, Bun B",
+            "“Replacement Girl”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-hold-on-we-re-going-home",
+        "drake-one-dance"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Hold On, We’re Going Home” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "How do all these cultures show up in his sound?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-02-so-far-gone-birth-of-the-modern-rap-singer-hy",
+      "number": 2,
+      "title": "So Far Gone — Birth of the Modern Rap-Singer Hybrid",
+      "body": [
+        {
+          "type": "text",
+          "text": "Rap-Singer Hybrid Goals: Teach emotional vulnerability + atmospheric sound. This mixtape = a LANDMARK. Traits: Discuss how Drake made sadness sound cool instead of “weak.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "moody beats",
+            "atmospheric 40-style production",
+            "introspective lyrics",
+            "sing-rap hybrid",
+            "heartbreak themes",
+            "soft-spoken confidence",
+            "“Best I Ever Had”",
+            "“Successful”",
+            "“Houstatlantavegas”",
+            "“Say What’s Real”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-best-i-ever-had",
+        "drake-successful",
+        "drake-houstatlantavegas",
+        "drake-say-what-s-real"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Best I Ever Had” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Discuss how Drake made sadness sound cool instead of “weak.”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "drake-lesson-03-noah-40-shebib-the-sound-architect",
+      "number": 3,
+      "title": "Noah “40” Shebib — The Sound Architect",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach production identity. 40 = Tell your son: “Drake + 40 is like Snoop + Dre or Missy + Timbaland — chemistry is everything.” Break down the production space."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "underwater EQ",
+            "low-pass filters",
+            "muted drums",
+            "ambient pads",
+            "melancholy chords",
+            "moody headphone atmospherics",
+            "“Marvins Room”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-marvins-room"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Marvins Room” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-04-take-care-the-modern-r-and-b-rap-bible",
+      "number": 4,
+      "title": "Take Care — The Modern R&B/Rap Bible",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach genre-blending at high level. Themes: Discuss how Drake took influences (The Weeknd, UK bass, Houston chopped & screwed, dancehall, etc.) and blended them into ONE aesthetic."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "love",
+            "loneliness",
+            "toxic tendencies",
+            "fame fatigue",
+            "emotional honesty",
+            "desire + detachment",
+            "vulnerability",
+            "“Take Care”",
+            "“Crew Love”",
+            "“Headlines”",
+            "“The Motto”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-take-care",
+        "drake-crew-love",
+        "drake-headlines",
+        "drake-the-motto"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take Care” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "drake-lesson-05-flow-evolution-cadence-mastery",
+      "number": 5,
+      "title": "Flow Evolution — Cadence Mastery",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach rap technique. Drake is: Study flows on: Explain how he adapts flows from regional or underground scenes (Migos triplets, Memphis lingo, UK flows, dancehall phrasing). Teach your son: “Be inspired, don’t steal. Respect the roots.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "a chameleon",
+            "a flow mimic",
+            "a cadence collector",
+            "extremely intentional in delivery",
+            "“Versace (Remix)”",
+            "“HYFR”",
+            "“6 God”",
+            "“Nonstop”",
+            "“Lemon Pepper Freestyle”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-versace-remix",
+        "drake-hyfr",
+        "drake-6-god",
+        "drake-nonstop",
+        "drake-lemon-pepper-freestyle"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Versace (Remix)” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Explain how he adapts flows from regional or underground scenes (Migos triplets, Memphis lingo, UK flows, dancehall phrasing).",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-06-hitmaking-hooks-captions-and-meme-awareness",
+      "number": 6,
+      "title": "Hitmaking — Hooks, Captions & Meme Awareness",
+      "body": [
+        {
+          "type": "text",
+          "text": "Awareness Goals: Teach pop instincts. Drake makes: Examples: “What makes a hook FEEL good?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "simple, sticky hooks",
+            "quotable lines",
+            "meme-ready punchlines",
+            "Instagram caption bars",
+            "rhythmic patterns easy for casual listeners",
+            "“Hotline Bling”",
+            "“Started From the Bottom”",
+            "“One Dance”",
+            "“God’s Plan”",
+            "“In My Feelings”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-replacement-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Replacement Girl” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What makes a hook FEEL good?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask your son: “What makes a hook FEEL good?”",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-07-nothing-was-the-same-the-confidence-era",
+      "number": 7,
+      "title": "Nothing Was the Same — The Confidence Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Era Goals: Teach self-definition. Key Themes: Break down “Tuscan Leather” — 6 minutes, no hook, he spazzed."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "persona-building",
+            "success",
+            "trust issues",
+            "family",
+            "identity clarification",
+            "“Tuscan Leather”",
+            "“Worst Behavior”",
+            "“Hold On, We’re Going Home”",
+            "“Started From the Bottom”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-tuscan-leather",
+        "drake-worst-behavior",
+        "drake-hold-on-we-re-going-home",
+        "drake-started-from-the-bottom"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tuscan Leather” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Break down “Tuscan Leather” — 6 minutes, no hook, he spazzed.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-08-global-influence-dancehall-afrobeats-uk-rap-c",
+      "number": 8,
+      "title": "Global Influence — Dancehall, Afrobeats, UK Rap, Caribbean Flows",
+      "body": [
+        {
+          "type": "text",
+          "text": "Rap, Caribbean Flows Goals: Teach cultural fusion. Drake helped popularize globally: “What’s the difference between appreciation and appropriation?” Important lesson."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "dancehall pop",
+            "UK drill",
+            "Afrobeats crossover",
+            "Caribbean slang in mainstream rap",
+            "UK artists (Skepta, Giggs) introduced to US audience"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-replacement-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Replacement Girl” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What’s the difference between appreciation and appropriation?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "drake-lesson-09-controversies-ghostwriting-beef-competition-p",
+      "number": 9,
+      "title": "Controversies — Ghostwriting, Beef, Competition, Persona Management",
+      "body": [
+        {
+          "type": "text",
+          "text": "Competition, Persona Management Goals: Teach industry nuance. When older, explain: Lesson: Greatness includes criticism. Learn from BOTH sides."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Quentin Miller ghostwriting allegations",
+            "Meek Mill beef (“Back to Back”)",
+            "Pusha T beef (“Story of Adidon”)",
+            "Accusations of borrowing flows",
+            "Drake as both innovator + opportunist",
+            "Persona vs reality"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-replacement-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Replacement Girl” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Drake after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: artist-conduct, mature-themes.",
+      "contentFlags": [
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "drake-lesson-10-drake-s-influence-tree",
+      "number": 10,
+      "title": "Drake’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his overwhelming impact. DIRECT Influence: INDIRECT: Play early Drake → then play modern melodic artists. “Where do you hear Drake’s fingerprints?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Tory Lanez",
+            "Bryson Tiller",
+            "PartyNextDoor",
+            "The Weeknd (mutual influence)",
+            "Future (synergy, mutual waves)",
+            "Lil Baby",
+            "Gunna",
+            "Yeat",
+            "Swae Lee",
+            "Nav",
+            "Rod Wave",
+            "Toosii",
+            "Giveon (via Toronto R&B lane)",
+            "Every emo-trap artist",
+            "Every rap-singer",
+            "Every TikTok melodic rapper",
+            "Every “caption rapper”"
+          ]
+        }
+      ],
+      "listen": [
+        "drake-replacement-girl"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Replacement Girl” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "Where do you hear Drake’s fingerprints?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play early Drake → then play modern melodic artists. Ask:",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-01-origins-dungeon-family-atlanta-roots-and-melo",
+      "number": 11,
+      "title": "Origins — Dungeon Family, Atlanta Roots & Melodic DNA",
+      "body": [
+        {
+          "type": "text",
+          "text": "Melodic DNA Goals: Teach lineage. “How does his voice blend melody + rapping?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Nayvadius Wilburn in Atlanta (Kirkwood)",
+            "Named “Future” by his cousin Rico Wade (Dungeon Family / Organized Noize)",
+            "Grew up around legends: OutKast, Goodie Mob",
+            "OG ATL lineage → futurist sound",
+            "Early days: writing for others, mixtape grinding",
+            "“Tony Montana”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-mask-off",
+        "future-life-is-good"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Mask Off” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "How does his voice blend melody + rapping?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "future-lesson-02-auto-tune-as-emotion-not-correction",
+      "number": 12,
+      "title": "Auto-Tune as Emotion — Not Correction",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal style. Future uses Auto-Tune to: “Why does he sound hurt even when he bragging?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "express numbness",
+            "hide pain",
+            "stretch syllables",
+            "create robotic sadness",
+            "turn voice into an instrument",
+            "channel gospel-like wails through trap filters",
+            "“Codeine Crazy” (later lesson, but important)"
+          ]
+        }
+      ],
+      "listen": [
+        "future-codeine-crazy"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Codeine Crazy” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "Why does he sound hurt even when he bragging?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-03-early-mixtape-run-dirty-sprite-astronaut-stat",
+      "number": 13,
+      "title": "Early Mixtape Run — Dirty Sprite, Astronaut Status, True Story",
+      "body": [
+        {
+          "type": "text",
+          "text": "Status, True Story Goals: Show the slow build. Traits: Your son learns the POWER of a simple, sticky hook."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "hypnotic flows",
+            "catchy hook patterns",
+            "heavy 808s",
+            "sci-fi ad-libs (“pluto!”)",
+            "“Magic”",
+            "“Same Damn Time”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-magic",
+        "future-same-damn-time"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Magic” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "future-lesson-04-pluto-and-honest-emotional-experimentation",
+      "number": 14,
+      "title": "Pluto & Honest — Emotional Experimentation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Experimentation Goals: Show range & vulnerability. Explain: Tracks: Compare “Magic” → “Turn On the Lights.” Two different men, same artist."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Turn On the Lights” — romantic anthem",
+            "Future can toggle between:",
+            "tender",
+            "cold",
+            "braggy",
+            "depressed",
+            "“Turn On the Lights”",
+            "“Honest”",
+            "“I Won”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-magic",
+        "future-turn-on-the-lights"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Magic” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Compare “Magic” → “Turn On the Lights.” Two different men, same artist.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-05-the-monster-era-dark-pain-drug-confessions-ca",
+      "number": 15,
+      "title": "The Monster Era — Dark Pain, Drug Confessions, Catharsis",
+      "body": [
+        {
+          "type": "text",
+          "text": "Confessions, Catharsis Goals: Teach emotional subtext. This run is historic: Themes: Break down “Throw Away” — two songs in one, mood shift is CRAZY."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Monster",
+            "Beast Mode",
+            "56 Nights",
+            "heartbreak (Ciara breakup)",
+            "addiction",
+            "numbness",
+            "regret",
+            "nihilism",
+            "loneliness masked by flexing",
+            "“Codeine Crazy”",
+            "“Throw Away”",
+            "“March Madness”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-codeine-crazy",
+        "future-throw-away",
+        "future-march-madness"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Codeine Crazy” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Break down “Throw Away” — two songs in one, mood shift is CRAZY.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, trauma, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-06-ds2-the-trap-bible",
+      "number": 16,
+      "title": "DS2 — The Trap Bible",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach trap perfection. This is Future at FULL power. Traits: “What’s the MOOD of this album?” Answer: Addicted but unstoppable. Hurt but hardened."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "unstoppable flow",
+            "murky, muddy beats",
+            "toxicity + sadness interwoven",
+            "nihilistic swagger",
+            "legendary production from Metro Boomin, Southside",
+            "“Thought It Was a Drought”",
+            "“Where Ya At”",
+            "“F*** Up Some Commas”",
+            "“Real Sisters”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-thought-it-was-a-drought",
+        "future-where-ya-at",
+        "future-f-up-some-commas",
+        "future-real-sisters"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Thought It Was a Drought” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What’s the MOOD of this album?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-07-future-x-metro-chemistry-of-a-generation",
+      "number": 17,
+      "title": "Future x Metro: Chemistry of a Generation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach producer–artist synergy. Metro Boomin = Future’s voice sits PERFECT on his production. Explain synergy and trust in creative partnerships."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "brooding tones",
+            "cinematic tension",
+            "spacey pads",
+            "rattling drums",
+            "dark minimalism",
+            "“Mask Off”",
+            "“Jumpman”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-mask-off",
+        "future-jumpman"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Mask Off” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "future-lesson-08-future-the-toxic-lover-r-and-b-via-trap",
+      "number": 18,
+      "title": "Future the Toxic Lover — R&B via Trap",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach masculinity duality. Future songs often show: Lesson: Black men deserve space to explore emotional contradictions."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fear of intimacy",
+            "deep attachment",
+            "self-sabotage",
+            "addiction metaphors",
+            "longing",
+            "but expressed through bravado",
+            "“My Collection”",
+            "“Low Life”",
+            "“Incredible”",
+            "“Extra Luv”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-my-collection",
+        "future-low-life",
+        "future-incredible",
+        "future-extra-luv"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “My Collection” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, sexual-content, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "sexual-content",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "future-lesson-09-reinvention-the-wizrd-hndrxx-high-off-life",
+      "number": 19,
+      "title": "Reinvention — The WIZRD, HNDRXX, High Off Life",
+      "body": [
+        {
+          "type": "text",
+          "text": "Off Life Goals: Teach longevity. Explain: Tracks: Your son sees how an artist keeps evolving without losing identity."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "HNDRXX = his pure R&B album",
+            "Future (self-titled) = trap anthem machine",
+            "The WIZRD = mythology + healing attempt",
+            "High Off Life = reflective boss era",
+            "“Selfish” (feat. Rihanna)",
+            "“Mask Off”",
+            "“Life Is Good”"
+          ]
+        }
+      ],
+      "listen": [
+        "future-tony-montana"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tony Montana” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Future after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "future-lesson-10-future-s-influence-tree",
+      "number": 20,
+      "title": "Future’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his MASSIVE cultural footprint. DIRECT influence: INDIRECT: Play Uzi, Gunna, or Don Toliver. “Where do you hear Future in this?” He’s EVERYWHERE."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Young Thug (mutual cycle)",
+            "Gunna",
+            "Lil Baby",
+            "Travis Scott",
+            "Don Toliver",
+            "NAV",
+            "Lil Uzi Vert",
+            "YNW Melly",
+            "Juice WRLD",
+            "Playboi Carti",
+            "21 Savage (cadence + cool)",
+            "Metro Boomin’s producer empire",
+            "emo-trap wave",
+            "toxic R&B trend",
+            "mumble rap era",
+            "“melody-first” trap",
+            "half the Billboard Hot 100 from 2016–2024"
+          ]
+        }
+      ],
+      "listen": [
+        "future-tony-montana"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Tony Montana” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "Where do you hear Future in this?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Play Uzi, Gunna, or Don Toliver. Ask your son:",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-01-origins-toronto-shadows-ethiopian-roots-inter",
+      "number": 21,
+      "title": "Origins — Toronto Shadows, Ethiopian Roots, Internet Anonymity",
+      "body": [
+        {
+          "type": "text",
+          "text": "Roots, Internet Anonymity Goals: Explain his foundation. “What does this SOUND like emotionally? Cold? Lonely? Dreamy?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Abel Tesfaye, Ethiopian parents, raised in Scarborough",
+            "Dropped out of high school → homeless phase",
+            "Early life = drugs, partying, escapism",
+            "Uploaded music anonymously to YouTube (2010)",
+            "No interviews, no face, no identity = NEW MYSTERY",
+            "Drake co-sign defined early buzz",
+            "Toronto’s dark, icy sound shaped him",
+            "“The Morning”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-the-morning"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Morning” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-02-house-of-balloons-the-birth-of-dark-r-and-b",
+      "number": 22,
+      "title": "House of Balloons — The Birth of Dark R&B",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach atmosphere & vulnerability. This mixtape launched a WHOLE subgenre. Traits: Describe the FEEL of the production — foggy, blurry, detached."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "reverb-heavy vocals",
+            "drug-laced lyrics",
+            "sadness wrapped in beauty",
+            "indie samples + R&B vocals",
+            "shadowy production",
+            "emotionally numb storytelling",
+            "“High for This”",
+            "“Wicked Games”",
+            "“The Party & the After Party”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-high-for-this",
+        "the-weeknd-wicked-games",
+        "the-weeknd-the-party-and-the-after-party"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “High for This” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Describe the FEEL of the production — foggy, blurry, detached.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-03-the-trilogy-era-mood-over-melody",
+      "number": 23,
+      "title": "The Trilogy Era — Mood Over Melody",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach world-building. House of Balloons Thursday Echoes of Silence Themes: Break down his vocal tools: “How can someone sound confident AND broken?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "addiction",
+            "heartbreak",
+            "emotional dissociation",
+            "toxic relationships",
+            "introspection",
+            "ego vs vulnerability",
+            "whisper falsetto",
+            "layered harmonies",
+            "breathy delivery",
+            "pain disguised as detachment"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-the-morning"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Morning” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "How can someone sound confident AND broken?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: substances, trauma, mature-themes.",
+      "contentFlags": [
+        "substances",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-04-kiss-land-tour-life-isolation",
+      "number": 24,
+      "title": "Kiss Land — Tour Life Isolation",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach concept albums. Themes: Connect real life → art. This album is the “culture shock” diary."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "fame loneliness",
+            "emotional numbness",
+            "touring depression",
+            "hypersexuality masking trauma",
+            "isolation in foreign countries",
+            "“Kiss Land”",
+            "“Adaptation”",
+            "“Belong to the World”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-kiss-land",
+        "the-weeknd-adaptation",
+        "the-weeknd-belong-to-the-world"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Kiss Land” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Connect real life → art. This album is the “culture shock” diary.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: sexual-content, trauma, mature-themes.",
+      "contentFlags": [
+        "sexual-content",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-05-beauty-behind-the-madness-the-pop-takeover",
+      "number": 25,
+      "title": "Beauty Behind the Madness — The Pop Takeover",
+      "body": [
+        {
+          "type": "text",
+          "text": "Takeover Goals: Teach crossover mastery. This is the album that turned him into a global superstar WITHOUT losing darkness. Teach your son: “You can stay weird AND still go mainstream.” Compare “The Hills” and “Earned It” → two TOTALLY different sides of him."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "“Can’t Feel My Face”",
+            "“The Hills”",
+            "“Earned It”",
+            "“Often”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-save-your-tears",
+        "the-weeknd-blinding-lights"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Save Your Tears” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Compare “The Hills” and “Earned It” → two TOTALLY different sides of him.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-weeknd-lesson-06-starboy-reinvention-and-persona-building",
+      "number": 26,
+      "title": "Starboy — Reinvention & Persona Building",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach character creation. Features: “What is the Starboy persona representing?” Answer:"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Daft Punk collaboration (HUGE pivot)",
+            "neon-futuristic aesthetic",
+            "alter ego “Starboy”",
+            "darker ego themes (materialism vs emptiness)",
+            "“Starboy”",
+            "“Reminder”",
+            "“Die For You”",
+            "“I Feel It Coming”",
+            "fame",
+            "ego",
+            "image",
+            "the mask he wears"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-starboy",
+        "the-weeknd-reminder",
+        "the-weeknd-die-for-you",
+        "the-weeknd-i-feel-it-coming"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Starboy” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What is the Starboy persona representing?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-weeknd-lesson-07-after-hours-80s-synthwave-cinema",
+      "number": 27,
+      "title": "After Hours — 80s Synthwave Cinema",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach maximal pop + visual storytelling. This era = Sound: Have your son connect: Teach the concept of aesthetic commitment."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "red suit",
+            "bruised face",
+            "neon lights",
+            "horror film imagery",
+            "heartbreak → descent into madness",
+            "80s synth-pop",
+            "Miami Vice aesthetics",
+            "cinematic strings",
+            "pounding bass",
+            "“Blinding Lights”",
+            "“Save Your Tears”",
+            "“After Hours”",
+            "Visuals",
+            "Cinematic references",
+            "Song themes"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-blinding-lights",
+        "the-weeknd-save-your-tears",
+        "the-weeknd-after-hours"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Blinding Lights” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Have your son connect: ● Visuals",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-weeknd-lesson-08-dawn-fm-mortality-purification-and-radio-purg",
+      "number": 28,
+      "title": "Dawn FM — Mortality, Purification & Radio Purgatory",
+      "body": [
+        {
+          "type": "text",
+          "text": "Purgatory Goals: Teach conceptual boldness. Themes: Jim Carrey narrates the “radio station of the afterlife.” “What is he trying to purge here?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "purgatory",
+            "enlightenment",
+            "death",
+            "forgiveness",
+            "rebirth",
+            "healing",
+            "disco/electronic sound palette",
+            "“Take My Breath”",
+            "“Out of Time”",
+            "“Gasoline”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-take-my-breath",
+        "the-weeknd-out-of-time",
+        "the-weeknd-gasoline"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Take My Breath” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What is he trying to purge here?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "the-weeknd-lesson-09-the-weeknd-as-vocalist-modern-mj-dna",
+      "number": 29,
+      "title": "The Weeknd as Vocalist — Modern MJ DNA",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach vocal analysis. Traits: “How does he express sadness with TONE instead of WORDS?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "pure falsetto",
+            "emotional whine tone",
+            "breathy whisper singing",
+            "angelic upper register",
+            "MJ-inspired phrasing",
+            "controlled vibrato",
+            "layered harmonies like a choir of… himself",
+            "“Die For You”",
+            "“Call Out My Name”"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-die-for-you",
+        "the-weeknd-call-out-my-name"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Die For You” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "How does he express sadness with TONE instead of WORDS?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "the-weeknd-lesson-10-the-weeknd-s-influence-tree",
+      "number": 30,
+      "title": "The Weeknd’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Map his HUGE cultural impact. Direct Influence (Alt-R&B Descendants): Pop Influence: Sonic Influence: Play Brent Faiyaz → compare to early Weeknd."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Bryson Tiller",
+            "Tory Lanez (R&B side)",
+            "Black Atlass",
+            "Brent Faiyaz",
+            "PARTYNEXTDOOR",
+            "6LACK",
+            "dvsn",
+            "Majid Jordan",
+            "Post Malone",
+            "Dua Lipa (80s revival)",
+            "The Kid LAROI",
+            "Troye Sivan",
+            "Trap&B wave",
+            "Sad boy R&B",
+            "atmospheric R&B",
+            "modern pop synth revival"
+          ]
+        }
+      ],
+      "listen": [
+        "the-weeknd-the-morning"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Morning” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of The Weeknd after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Play Brent Faiyaz → compare to early Weeknd.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "young-thug-lesson-01-origins-sylvan-hills-struggle-and-survival-cr",
+      "number": 31,
+      "title": "Origins — Sylvan Hills, Struggle, & Survival Creativity",
+      "body": [
+        {
+          "type": "text",
+          "text": "Creativity Goals: Show the roots of his eccentric genius. “Why does this feel chaotic AND catchy at the same time?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Born Jeffery Lamar Williams",
+            "SE Atlanta upbringing",
+            "Large family, rough environment",
+            "Mixtape rise (1017 Thug era)",
+            "Early sound: shrieks, whispers, alien tones",
+            "People laughed at first — then copied everything",
+            "“Stoner”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-relationship",
+        "young-thug-digits"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Relationship” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "Why does this feel chaotic AND catchy at the same time?",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "young-thug-lesson-02-flow-mutations-thug-as-a-vocal-instrument",
+      "number": 32,
+      "title": "Flow Mutations — Thug as a Vocal Instrument",
+      "body": [
+        {
+          "type": "text",
+          "text": "Instrument Goals: Teach voice-as-creation-tool. Thug uses: Lesson: “You ain’t gotta sound ‘normal’ to be musical.” “How many versions of his voice can you hear?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "squeaks",
+            "yelps",
+            "croons",
+            "whisper singing",
+            "falsetto glides",
+            "raspy belts",
+            "tongue-rolling",
+            "off-key → on-beat bending",
+            "pockets inside pockets",
+            "jazz-like scatting",
+            "“Check”",
+            "“Digits”",
+            "“Halftime”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-check",
+        "young-thug-digits",
+        "young-thug-halftime"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Check” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "How many versions of his voice can you hear?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "young-thug-lesson-03-barter-6-the-weaponizing-of-melody",
+      "number": 33,
+      "title": "Barter 6 — The Weaponizing of Melody",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach the album that made him unavoidable. Themes: Break down the chorus of “Check” → it’s minimalist genius."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "experimental swagger",
+            "sonic layering",
+            "pain behind slurred tones",
+            "coded emotional vulnerability",
+            "melodic trap foundation",
+            "“With That (feat. Duke)”",
+            "“Check”",
+            "“Never Had It”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-with-that-feat-duke",
+        "young-thug-check",
+        "young-thug-never-had-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “With That (feat. Duke)” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Break down the chorus of “Check” → it’s minimalist genius.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, violence, weapons, trauma, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "violence",
+        "weapons",
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-04-thug-as-a-writer-pen-behind-the-scenes",
+      "number": 34,
+      "title": "Thug as a Writer — Pen Behind the Scenes",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach songwriting craft. Thug wrote or co-wrote for: Show your son: “Even experimental artists can write GLOBAL hits.” Discuss contrast."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Camila Cabello (“Havana”)",
+            "Post Malone",
+            "Usher",
+            "Childish Gambino",
+            "Travis Scott",
+            "Future",
+            "“Havana” (then play Thug’s verse)"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-havana"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Havana” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-05-jeffery-fashion-gender-and-artistic-courage",
+      "number": 35,
+      "title": "Jeffery — Fashion, Gender, & Artistic Courage",
+      "body": [
+        {
+          "type": "text",
+          "text": "Courage Goals: Teach expression beyond norms. Explain: “What’s brave about being different in front of millions?” Lesson: Freedom is art."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "the dress on the cover shook the world",
+            "challenged toxic masculinity in rap",
+            "flamboyant, couture-inspired",
+            "album explored persona multiplicity (songs named after inspirations)",
+            "“Wyclef Jean”",
+            "“Pick Up the Phone”",
+            "“Harambe”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-wyclef-jean",
+        "young-thug-pick-up-the-phone",
+        "young-thug-harambe"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Wyclef Jean” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What’s brave about being different in front of millions?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "young-thug-lesson-06-beautiful-thugger-girls-country-r-and-b-and-v",
+      "number": 36,
+      "title": "Beautiful Thugger Girls — Country, R&B & Vocal Mastery",
+      "body": [
+        {
+          "type": "text",
+          "text": "Vocal Mastery Goals: Teach genre-blending. Themes: Discuss how he blends trap drums with country chord progressions."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "romance",
+            "acoustic guitars",
+            "pop melodies",
+            "country twang",
+            "heartbreak",
+            "vocal glide experimentation",
+            "“Relationship”",
+            "“Family Don’t Matter”",
+            "“Take Care”"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-relationship",
+        "young-thug-family-don-t-matter",
+        "young-thug-take-care"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Relationship” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Discuss how he blends trap drums with country chord progressions.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-07-thug-as-mentor-ysl-family-trees-and-leadershi",
+      "number": 37,
+      "title": "Thug as Mentor — YSL, Family Trees & Leadership",
+      "body": [
+        {
+          "type": "text",
+          "text": "Leadership Goals: Show his influence system. Thug = big brother figure. “What does it mean to invest in younger talent?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Gunna",
+            "Lil Baby (coached early flow)",
+            "Lil Keed",
+            "HiDoraah",
+            "Strick",
+            "Karlae",
+            "Uzi synergy",
+            "Atlanta collaborative network"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-stoner"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stoner” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What does it mean to invest in younger talent?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-08-legal-troubles-and-the-complex-legacy",
+      "number": 38,
+      "title": "Legal Troubles & The Complex Legacy",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach nuance + real-world consequences. When older, teach: Lesson: “Talented people can still make dangerous choices. Learn from both.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "YSL RICO case",
+            "blurring of art & reality",
+            "increased scrutiny on rap lyrics",
+            "debates about fairness vs responsibility",
+            "separating art brilliance from complicated life decisions"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-stoner"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stoner” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "young-thug-lesson-09-sound-architecture-how-thug-built-the-2015-20",
+      "number": 39,
+      "title": "Sound Architecture — How Thug Built the 2015–2023 Blueprint",
+      "body": [
+        {
+          "type": "text",
+          "text": "2015–2023 Blueprint Goals: Teach how he shaped the whole era. Thug’s sonic DNA shows up in: Your son gon’ understand: Thug birthed half the new wave. Play Uzi → Carti → Thug. See the lineage."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Travis Scott",
+            "Lil Uzi Vert",
+            "Playboi Carti",
+            "Gunna",
+            "Lil Baby",
+            "Don Toliver",
+            "YNW Melly",
+            "Trippie Redd",
+            "YoungBoy (melodic runs)",
+            "Future (mutual influence)"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-stoner"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stoner” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Play Uzi → Carti → Thug. See the lineage.",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "young-thug-lesson-10-thug-s-influence-tree",
+      "number": 40,
+      "title": "Thug’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show depth of his legacy. Direct influence: Sonic descendants: Cultural descendants: Thug = modern Miles Davis energy."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Gunna",
+            "Lil Baby",
+            "Lil Keed",
+            "YNW Melly",
+            "Don Toliver",
+            "Trippie Redd",
+            "SahBabii",
+            "Sheck Wes",
+            "Destroy Lonely",
+            "Playboi Carti’s baby talk",
+            "Uzi’s melodic runs",
+            "Travis Scott’s auto-crooning",
+            "Future’s layered harmonies (mutual influence)",
+            "Young artists using gender-fluid fashion",
+            "Experimental vocalists",
+            "Rappers who treat their voice like a synthesizer"
+          ]
+        }
+      ],
+      "listen": [
+        "young-thug-stoner"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Stoner” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Young Thug after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, weapons, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "weapons",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-01-origins-d-c-go-go-and-immigrant-household-roo",
+      "number": 41,
+      "title": "Origins — D.C., Go-Go & Immigrant Household Roots",
+      "body": [
+        {
+          "type": "text",
+          "text": "Household Roots Goals: Teach how region shapes cadences. “What do these drums FEEL like? What city does this sound like?” Go-go = culture."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Nigerian parents → dual identity",
+            "D.C. culture = go-go percussion, bounce, call-and-response",
+            "Athletic background (football)",
+            "Early mixtape grind",
+            "Unique blend: intellectual AND street-adjacent",
+            "His early rise through blogs + poetic singles",
+            "“Dig Dug (Shake It)”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-dig-dug-shake-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dig Dug (Shake It)” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-02-the-poet-rapper-wordplay-books-and-metaphors",
+      "number": 42,
+      "title": "The Poet-Rapper — Wordplay, Books & Metaphors",
+      "body": [
+        {
+          "type": "text",
+          "text": "Metaphors Goals: Teach literary rap. Wale uses: Analyze “Ambitious Girl” like a poem. Your son gon’ understand metaphor EARLY."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "extended metaphor (women as seasons, love as war)",
+            "personification",
+            "layered references (sports, anime, Greek mythology, fashion)",
+            "spoken-word cadences",
+            "clever punchlines",
+            "emotional honesty",
+            "intellectualism without snobbery"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-lovehate-thing",
+        "wale-white-shoes"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “LoveHate Thing” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Analyze “Ambitious Girl” like a poem. Your son gon’ understand metaphor EARLY.",
+        "source": "guide"
+      },
+      "minLane": "younger",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wale-lesson-03-attention-deficit-the-underrated-debut",
+      "number": 43,
+      "title": "Attention Deficit — The Underrated Debut",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his early identity formation. Themes: Have him compare “Pretty Girls” (party) to “Diary” (soul) → duality."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "being misunderstood",
+            "playful flows",
+            "go-go influence",
+            "intellectual humor",
+            "chasing dreams vs chasing acceptance",
+            "“Pretty Girls”",
+            "“Chillin’”",
+            "“Diary” (feat. Marsha Ambrosius)"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-pretty-girls",
+        "wale-chillin",
+        "wale-diary"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Pretty Girls” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Have him compare “Pretty Girls” (party) to “Diary” (soul) → duality.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wale-lesson-04-more-about-nothing-the-cult-classic",
+      "number": 44,
+      "title": "More About Nothing — The Cult Classic",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach concept albums + humor. Explain: “How does Wale mix sadness with jokes?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "built around Seinfeld samples",
+            "playful skits",
+            "introspective verses",
+            "perfect blend of comedy + wisdom",
+            "fan-beloved, critically important",
+            "“The Breakup Song”",
+            "“The MC”",
+            "“The Friends N Strangers”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-the-breakup-song",
+        "wale-the-mc",
+        "wale-the-friends-n-strangers"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “The Breakup Song” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "How does Wale mix sadness with jokes?",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wale-lesson-05-ambition-the-breakthrough",
+      "number": 45,
+      "title": "Ambition — The Breakthrough",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach hunger + vulnerability. Themes: Break down “Ambition” lyric-by-lyric for motivational messaging."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "self-belief despite industry dismissiveness",
+            "romance",
+            "pressure",
+            "ambition vs exhaustion",
+            "uplifting messages",
+            "“Ambition”",
+            "“Lotus Flower Bomb”",
+            "“Sabotage”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-ambition",
+        "wale-lotus-flower-bomb",
+        "wale-sabotage"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Ambition” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "activity": {
+        "text": "Break down “Ambition” lyric-by-lyric for motivational messaging.",
+        "source": "guide"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: mature-themes.",
+      "contentFlags": [
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-06-wale-the-romantic-love-and-black-women-center",
+      "number": 46,
+      "title": "Wale the Romantic — Love & Black Women Centered",
+      "body": [
+        {
+          "type": "text",
+          "text": "Centered Goals: Teach respect + emotional expression. Wale’s love songs are: Lesson: “Romance requires honesty and vulnerability.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "tender",
+            "expressive",
+            "appreciative",
+            "complex",
+            "insecure at times",
+            "grown-man affectionate",
+            "intentionally centering Black women’s beauty & resilience",
+            "“Lotus Flower Bomb”",
+            "“Bad” (both versions)",
+            "“The Need to Know”",
+            "“Cosmopolitan Love”",
+            "“On Chill”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-lotus-flower-bomb",
+        "wale-bad",
+        "wale-the-need-to-know",
+        "wale-cosmopolitan-love",
+        "wale-on-chill"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Lotus Flower Bomb” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": false,
+      "contentFlags": []
+    },
+    {
+      "id": "wale-lesson-07-the-gifted-and-the-album-about-nothing-maturi",
+      "number": 47,
+      "title": "The Gifted & The Album About Nothing Maturity Era",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach thematic evolution. The Gifted themes: Tracks: The Album About Nothing themes: Tracks: “How does Wale talk about mental health compared to Kendrick or Cole?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Black empowerment",
+            "self-worth",
+            "artistic pride",
+            "cultural consciousness",
+            "self-doubt",
+            "“Bad (Remix)”",
+            "“LoveHate Thing”",
+            "therapy",
+            "anxiety",
+            "insecurity",
+            "fame fatigue",
+            "accountability",
+            "“The White Shoes”",
+            "“The Bloom (AG3)”",
+            "“The Pessimist”"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-dig-dug-shake-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dig Dug (Shake It)” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "How does Wale talk about mental health compared to Kendrick or Cole?",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, artist-conduct, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "artist-conduct",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-08-go-go-fusion-a-whole-cultural-lesson",
+      "number": 48,
+      "title": "Go-Go Fusion — A Whole Cultural Lesson",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Teach regional sound identity. Explain: Your son will learn how local sounds shape national trends."
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Wale proudly incorporates D.C. go-go",
+            "live percussion, heavy conga, call-and-response, crowd energy",
+            "keeps D.C. musical tradition alive in mainstream hip-hop",
+            "“Clappers”",
+            "“Pretty Girls” (w/ Backyard Band)"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-clappers",
+        "wale-pretty-girls"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Clappers” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "guided",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: explicit-language, mature-themes.",
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-09-the-underrated-narrative-pain-perception-and",
+      "number": 49,
+      "title": "The “Underrated” Narrative — Pain, Perception & Persistence",
+      "body": [
+        {
+          "type": "text",
+          "text": "Perception & Persistence Goals: Teach resilience. Explain: Lesson: “You don’t need universal praise to be impactful.”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "Wale frequently feels overlooked",
+            "struggles with industry validation",
+            "emotional transparency about criticism",
+            "uses pain to fuel creativity",
+            "proves consistency over hype",
+            "one of the strongest discographies of the 2010s"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-dig-dug-shake-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dig Dug (Shake It)” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "What changed in your understanding of Wale after this checkpoint?",
+        "source": "approved-adaptation"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: trauma, mature-themes.",
+      "contentFlags": [
+        "trauma",
+        "mature-themes"
+      ]
+    },
+    {
+      "id": "wale-lesson-10-wale-s-influence-tree",
+      "number": 50,
+      "title": "Wale’s Influence Tree",
+      "body": [
+        {
+          "type": "text",
+          "text": "Goals: Show his cultural imprint. Artists influenced by Wale: And every rapper who: “How do modern romantic rap songs trace back to Wale?”"
+        },
+        {
+          "type": "list",
+          "label": "Key points",
+          "items": [
+            "GoldLink (D.C. cultural pride)",
+            "Smino (melodic poetry)",
+            "Mick Jenkins (literary style)",
+            "Isaiah Rashad (mellow emotional writing)",
+            "EARTHGANG (playful metaphors)",
+            "Tobi Lou (romantic introspection)",
+            "JID (some cadences)",
+            "blends R&B & poetry",
+            "centers Black women",
+            "uses literature references",
+            "mixes humor with heartache"
+          ]
+        }
+      ],
+      "listen": [
+        "wale-dig-dug-shake-it"
+      ],
+      "notice": {
+        "text": "Listen for the musical choices that make “Dig Dug (Shake It)” support this lesson's central idea.",
+        "source": "approved-adaptation"
+      },
+      "talk": {
+        "text": "How do modern romantic rap songs trace back to Wale?",
+        "source": "guide"
+      },
+      "activity": {
+        "text": "Ask your son: “How do modern romantic rap songs trace back to Wale?”",
+        "source": "guide"
+      },
+      "minLane": "full",
+      "requiresCaregiverContext": true,
+      "caregiverNote": "Preview this lesson and its provider results. The source discusses: violence, mature-themes.",
+      "contentFlags": [
+        "violence",
+        "mature-themes"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "unitId": "drake",
+      "number": 11,
+      "monogram": "DR",
+      "title": "Drake",
+      "summary": "Drake matters because the source catalog identifies this route with arguably the most influential artist of the 2010s & early 2020s, a rapper who sings, a singer who raps, master of cadence mimicry + stylistic world-building, Toronto ambassador.",
+      "lessonIds": [
+        "drake-lesson-01-origins-degrassi-jewish-black-identity-and-to",
+        "drake-lesson-02-so-far-gone-birth-of-the-modern-rap-singer-hy",
+        "drake-lesson-03-noah-40-shebib-the-sound-architect",
+        "drake-lesson-04-take-care-the-modern-r-and-b-rap-bible",
+        "drake-lesson-05-flow-evolution-cadence-mastery",
+        "drake-lesson-06-hitmaking-hooks-captions-and-meme-awareness",
+        "drake-lesson-07-nothing-was-the-same-the-confidence-era",
+        "drake-lesson-08-global-influence-dancehall-afrobeats-uk-rap-c",
+        "drake-lesson-09-controversies-ghostwriting-beef-competition-p",
+        "drake-lesson-10-drake-s-influence-tree"
+      ]
+    },
+    {
+      "unitId": "future",
+      "number": 12,
+      "monogram": "FU",
+      "title": "Future",
+      "summary": "Future matters because the source catalog identifies this route with One of the most influential rap artists of the last 15 years, Pioneer of melodic trap + auto-tuned pain music, Street poet who hides emotional rawness behind swagger, Flow innovator with dozens of pockets.",
+      "lessonIds": [
+        "future-lesson-01-origins-dungeon-family-atlanta-roots-and-melo",
+        "future-lesson-02-auto-tune-as-emotion-not-correction",
+        "future-lesson-03-early-mixtape-run-dirty-sprite-astronaut-stat",
+        "future-lesson-04-pluto-and-honest-emotional-experimentation",
+        "future-lesson-05-the-monster-era-dark-pain-drug-confessions-ca",
+        "future-lesson-06-ds2-the-trap-bible",
+        "future-lesson-07-future-x-metro-chemistry-of-a-generation",
+        "future-lesson-08-future-the-toxic-lover-r-and-b-via-trap",
+        "future-lesson-09-reinvention-the-wizrd-hndrxx-high-off-life",
+        "future-lesson-10-future-s-influence-tree"
+      ]
+    },
+    {
+      "unitId": "the-weeknd",
+      "number": 13,
+      "monogram": "WE",
+      "title": "The Weeknd",
+      "summary": "The Weeknd matters because the source catalog identifies this route with pioneer of alt-R&B, master of atmosphere, mood, and cinematic sound, storyteller of lust, addiction, heartbreak, ego, and self-hate, vocal descendant of Michael Jackson with DARKER emotional palette.",
+      "lessonIds": [
+        "the-weeknd-lesson-01-origins-toronto-shadows-ethiopian-roots-inter",
+        "the-weeknd-lesson-02-house-of-balloons-the-birth-of-dark-r-and-b",
+        "the-weeknd-lesson-03-the-trilogy-era-mood-over-melody",
+        "the-weeknd-lesson-04-kiss-land-tour-life-isolation",
+        "the-weeknd-lesson-05-beauty-behind-the-madness-the-pop-takeover",
+        "the-weeknd-lesson-06-starboy-reinvention-and-persona-building",
+        "the-weeknd-lesson-07-after-hours-80s-synthwave-cinema",
+        "the-weeknd-lesson-08-dawn-fm-mortality-purification-and-radio-purg",
+        "the-weeknd-lesson-09-the-weeknd-as-vocalist-modern-mj-dna",
+        "the-weeknd-lesson-10-the-weeknd-s-influence-tree"
+      ]
+    },
+    {
+      "unitId": "young-thug",
+      "number": 14,
+      "monogram": "YT",
+      "title": "Young Thug",
+      "summary": "Young Thug matters because the source catalog identifies this route with Father of the “melodic trap” wave, Flow contortionist, Tone-shapeshifter, Fashion rebel + gender-norm breaker.",
+      "lessonIds": [
+        "young-thug-lesson-01-origins-sylvan-hills-struggle-and-survival-cr",
+        "young-thug-lesson-02-flow-mutations-thug-as-a-vocal-instrument",
+        "young-thug-lesson-03-barter-6-the-weaponizing-of-melody",
+        "young-thug-lesson-04-thug-as-a-writer-pen-behind-the-scenes",
+        "young-thug-lesson-05-jeffery-fashion-gender-and-artistic-courage",
+        "young-thug-lesson-06-beautiful-thugger-girls-country-r-and-b-and-v",
+        "young-thug-lesson-07-thug-as-mentor-ysl-family-trees-and-leadershi",
+        "young-thug-lesson-08-legal-troubles-and-the-complex-legacy",
+        "young-thug-lesson-09-sound-architecture-how-thug-built-the-2015-20",
+        "young-thug-lesson-10-thug-s-influence-tree"
+      ]
+    },
+    {
+      "unitId": "wale",
+      "number": 15,
+      "monogram": "WA",
+      "title": "Wale",
+      "summary": "Wale matters because the source catalog identifies this route with One of the most literary rappers of his generation, Master of wordplay, metaphor, and double meaning, Deeply tied to Washington D.C. go-go culture, A pioneer of poetic rap blended with R&B hooks.",
+      "lessonIds": [
+        "wale-lesson-01-origins-d-c-go-go-and-immigrant-household-roo",
+        "wale-lesson-02-the-poet-rapper-wordplay-books-and-metaphors",
+        "wale-lesson-03-attention-deficit-the-underrated-debut",
+        "wale-lesson-04-more-about-nothing-the-cult-classic",
+        "wale-lesson-05-ambition-the-breakthrough",
+        "wale-lesson-06-wale-the-romantic-love-and-black-women-center",
+        "wale-lesson-07-the-gifted-and-the-album-about-nothing-maturi",
+        "wale-lesson-08-go-go-fusion-a-whole-cultural-lesson",
+        "wale-lesson-09-the-underrated-narrative-pain-perception-and",
+        "wale-lesson-10-wale-s-influence-tree"
+      ]
+    }
+  ],
+  "review": {
+    "status": "approved",
+    "reviewedAt": "2026-11-18T00:00:00.000Z",
+    "reviewedBy": "bud-diaz"
+  },
+  "developmentOnly": true
+}

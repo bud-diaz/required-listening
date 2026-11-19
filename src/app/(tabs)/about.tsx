@@ -1,8 +1,11 @@
 import { useState } from 'react';
 import { Image, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import * as Linking from 'expo-linking';
+import { router } from 'expo-router';
 import { catalog, frontMatter } from '../../content';
 import { ABOUT_LINKS } from '../../lib/about-links';
+import { plannedUnitCount } from '../../domain/routes';
+import { useFamilyStore } from '../../stores/family-store';
 import { Blocks, DraftBanner, Kicker, Screen } from '../../ui/primitives';
 import { RoadDivider, SignPanel } from '../../ui/signage';
 import { colors, geometry, space, TOUCH, type } from '../../ui/theme';
@@ -20,6 +23,9 @@ function BookIcon() {
 export default function About() {
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [linkError, setLinkError] = useState<string | null>(null);
+  const lessonPlan = useFamilyStore((s) => s.lessonPlan);
+  const installedPacks = useFamilyStore((s) => s.installedPacks);
+  const plannedUnits = plannedUnitCount(installedPacks, lessonPlan);
 
   const openLink = async (url: string) => {
     try {
@@ -89,7 +95,16 @@ export default function About() {
           ))}
         </View>
         <View style={styles.placeholderRow}>
-          {[1, 2, 3].map((slot) => (
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel={`Lesson Plan, ${plannedUnits} artist${plannedUnits === 1 ? '' : 's'} saved`}
+            onPress={() => router.push('/plan')}
+            style={({ pressed }) => [styles.placeholderButton, styles.lessonPlanButton, pressed && styles.pressed]}
+          >
+            <Text style={styles.lessonPlanCount}>{plannedUnits}</Text>
+            <Text style={styles.lessonPlanLabel}>PLAN</Text>
+          </Pressable>
+          {[2, 3].map((slot) => (
             <Pressable
               key={slot}
               accessibilityRole="button"
@@ -151,6 +166,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   placeholderPlus: { color: colors.ink, fontSize: 30, lineHeight: 32, fontWeight: '700' },
+  lessonPlanButton: { backgroundColor: colors.ink, gap: 2 },
+  lessonPlanCount: { color: colors.paper, fontSize: 20, lineHeight: 22, fontWeight: '900' },
+  lessonPlanLabel: { color: colors.paper, fontSize: 10, lineHeight: 12, fontWeight: '900', letterSpacing: 1 },
   linkError: { color: colors.danger, fontWeight: '700' },
   pressed: { opacity: 0.7 },
 });

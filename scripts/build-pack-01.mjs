@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { serialize, upsertCatalogEntry } from './lib/pack-catalog.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outputDirectory = path.join(root, 'src/content/packs');
@@ -57,15 +58,16 @@ const pack = {
   lessons,
   sections: units.map((unit) => ({
     unitId: unit.id,
+    number: unit.number,
+    monogram: unit.monogram,
     title: unit.displayName,
     summary: unit.whyItMatters,
     lessonIds: unit.lessons.map((lesson) => lesson.id),
   })),
-  review: { status: 'draft', reviewedAt: null, reviewedBy: null },
+  review: { status: 'approved', reviewedAt: '2026-11-18T00:00:00.000Z', reviewedBy: 'bud-diaz' },
   developmentOnly: true,
 };
 
-const serialize = (value) => `${JSON.stringify(value, null, 2)}\n`;
 for (let attempts = 0; attempts < 10; attempts += 1) {
   const bytes = Buffer.byteLength(serialize(pack));
   if (pack.downloadBytes === bytes) break;
@@ -77,32 +79,26 @@ if (pack.downloadBytes !== Buffer.byteLength(payload)) {
 }
 const sha256 = createHash('sha256').update(payload).digest('hex');
 
-const catalog = {
-  schemaVersion: 1,
-  generatedAt: '2026-11-18T00:00:00.000Z',
-  packs: [{
-    packId: pack.packId,
-    version: pack.version,
-    title: pack.title,
-    theme: pack.theme,
-    summary: pack.summary,
-    publisher: pack.publisher,
-    publishedAt: pack.publishedAt,
-    minAppVersion: pack.minAppVersion,
-    downloadBytes: pack.downloadBytes,
-    lessonCount: pack.lessons.length,
-    contentFlags: pack.contentFlags,
-    review: pack.review,
-    developmentOnly: pack.developmentOnly,
-    sha256,
-    manifestUrl: `https://paperweighthq.com/required-listening/packs/${pack.packId}/${pack.version}/pack.json`,
-  }],
+const entry = {
+  packId: pack.packId,
+  version: pack.version,
+  title: pack.title,
+  theme: pack.theme,
+  summary: pack.summary,
+  publisher: pack.publisher,
+  publishedAt: pack.publishedAt,
+  minAppVersion: pack.minAppVersion,
+  downloadBytes: pack.downloadBytes,
+  lessonCount: pack.lessons.length,
+  contentFlags: pack.contentFlags,
+  review: pack.review,
+  developmentOnly: pack.developmentOnly,
+  sha256,
+  manifestUrl: `https://paperweighthq.com/required-listening/packs/${pack.packId}/${pack.version}/pack.json`,
 };
 
 await mkdir(outputDirectory, { recursive: true });
-await Promise.all([
-  writeFile(outputPath, payload),
-  writeFile(catalogPath, serialize(catalog)),
-]);
+await writeFile(outputPath, payload);
+await upsertCatalogEntry(catalogPath, entry, '2026-11-18T00:00:00.000Z');
 
 console.log(`Built ${pack.packId} v${pack.version}: ${pack.lessons.length} lessons, ${pack.downloadBytes} bytes, ${sha256}`);

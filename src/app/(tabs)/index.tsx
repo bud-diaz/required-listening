@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import {
   Pressable,
   ScrollView,
@@ -10,10 +10,11 @@ import {
   type ScrollViewInstance,
 } from 'react-native';
 import { Link, router } from 'expo-router';
-import { getUnit, units, visibleLessons } from '../../content';
+import { units } from '../../content';
 import { Monogram } from '../../components/Monogram';
-import { coreContentRef, isContentExplored } from '../../domain/content-ref';
+import { isContentExplored } from '../../domain/content-ref';
 import { isUnitOverviewComplete } from '../../domain/progress';
+import { activatedPackRoutes, coreRoutes } from '../../domain/routes';
 import { useFamilyStore } from '../../stores/family-store';
 import { Body, Kicker } from '../../ui/primitives';
 import { RoadDivider, RouteBadge, SignButton, SignPanel, StageScreen } from '../../ui/signage';
@@ -33,11 +34,15 @@ export default function Home() {
   const replayY = useRef(0);
   const [carouselWidth, setCarouselWidth] = useState(0);
 
-  // Current unit: the first converted unit with a lesson still to explore.
-  const available = units.map((u) => getUnit(u.id, __DEV__)).filter((u) => !!u);
+  // Every explorable route: the 10 core units, then any pack artist with a planned lesson.
+  const available = useMemo(
+    () => [...coreRoutes(units, settings.lane), ...activatedPackRoutes(installedPacks, lessonPlan, settings.lane)],
+    [installedPacks, lessonPlan, settings.lane]
+  );
+  // Current route: the first one with a lesson still to explore.
   const current =
-    available.find((u) => visibleLessons(u, settings.lane).some((l) => !isContentExplored(explored, coreContentRef(l.id)))) ?? available[0];
-  const [startingRouteIndex] = useState(() => Math.max(0, available.findIndex((unit) => unit.id === current?.id)));
+    available.find((route) => route.lessonIds.some((id) => !isContentExplored(explored, route.contentRef(id)))) ?? available[0];
+  const [startingRouteIndex] = useState(() => Math.max(0, available.findIndex((route) => route.id === current?.id)));
   const [activeRouteIndex, setActiveRouteIndex] = useState(startingRouteIndex);
 
   const showRoute = (index: number) => {
@@ -93,31 +98,31 @@ export default function Home() {
               accessibilityLabel="Artist routes"
               accessibilityHint="Swipe left or right to browse artists"
             >
-              {available.map((unit) => {
-                const lessons = visibleLessons(unit, settings.lane);
-                const done = lessons.filter((lesson) => isContentExplored(explored, coreContentRef(lesson.id))).length;
-                const next = lessons.find((lesson) => !isContentExplored(explored, coreContentRef(lesson.id)));
-                const overviewComplete = isUnitOverviewComplete(acknowledgements, unit.id);
+              {available.map((route) => {
+                const lessons = route.lessonIds;
+                const done = lessons.filter((id) => isContentExplored(explored, route.contentRef(id))).length;
+                const next = lessons.find((id) => !isContentExplored(explored, route.contentRef(id)));
+                const overviewComplete = route.requiresOverview ? isUnitOverviewComplete(acknowledgements, route.id) : true;
                 return (
-                  <View key={unit.id} style={[styles.routePage, { width: carouselWidth }]}>
+                  <View key={route.id} style={[styles.routePage, { width: carouselWidth }]}>
                     <SignPanel>
                       <View style={[styles.routeHeading, carouselWidth < 350 && styles.routeHeadingCompact]}>
-                        <RouteBadge unitNumber={unit.number} />
+                        <RouteBadge unitNumber={route.number} />
                         <View style={styles.routeTitle}>
                           <Text style={[type.h1, { color: colors.ink }, carouselWidth < 350 && styles.routeNameCompact]}>
-                            {unit.displayName}
+                            {route.displayName}
                           </Text>
                           <Text style={[type.small, { color: colors.ink, fontWeight: '800' }]}>
                             {done} of {lessons.length} lessons explored
                           </Text>
                         </View>
-                        {carouselWidth >= 350 ? <Monogram text={unit.monogram} size={56} /> : null}
+                        {carouselWidth >= 350 ? <Monogram text={route.monogram} size={56} /> : null}
                       </View>
                       <View style={styles.progress} accessibilityLabel={`${done} of ${lessons.length} lessons explored`}>
-                        {lessons.map((lesson) => (
+                        {lessons.map((id) => (
                           <View
-                            key={lesson.id}
-                            style={[styles.segment, isContentExplored(explored, coreContentRef(lesson.id)) && styles.segmentDone]}
+                            key={id}
+                            style={[styles.segment, isContentExplored(explored, route.contentRef(id)) && styles.segmentDone]}
                           />
                         ))}
                       </View>
@@ -126,13 +131,17 @@ export default function Home() {
                           label={overviewComplete ? 'Continue your route →' : 'Start route briefing →'}
                           variant="ink"
                           onPress={() => overviewComplete
-                            ? router.push(`/lesson/${unit.id}/${next.id}`)
-                            : router.push(`/unit/${unit.id}`)}
+                            ? router.push(route.lessonHref(next))
+                            : router.push(route.unitHref)}
                         />
                       ) : (
                         <SignButton label="Route explored ✓" variant="ink" disabled onPress={() => {}} />
                       )}
-                      <SignButton label="Open unit" variant="outline" onPress={() => router.push(`/unit/${unit.id}`)} />
+                      <SignButton
+                        label={route.requiresOverview ? 'Open unit' : 'Open pack'}
+                        variant="outline"
+                        onPress={() => router.push(route.unitHref)}
+                      />
                     </SignPanel>
                   </View>
                 );
@@ -170,8 +179,6 @@ export default function Home() {
       )}
 
       <View style={styles.actions}>
-        <SignButton label={`Lesson Plan · ${lessonPlan.length} →`} variant="ink" onPress={() => router.push('/plan')} />
-        <SignButton label={`Lesson packs · ${installedPacks.length} saved →`} variant="paper" onPress={() => router.push('/packs')} />
         <SignButton label="Artist directory →" variant="paper" onPress={() => router.push('/units')} />
         <SignButton label={`My crate · ${crate.length} →`} variant="paper" onPress={() => router.push('/crate')} />
         <SignButton label="Family replay ↓" variant="paper" onPress={() => scrollRef.current?.scrollTo({ y: replayY.current, animated: true })} />

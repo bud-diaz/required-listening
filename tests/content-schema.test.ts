@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { Lesson, Track, Unit } from '../src/content/schemas';
+import { catalogDraftUnits } from '../src/content/artists/catalog-drafts.v1';
 import {
   RAW_UNITS,
   allTracks,
@@ -44,14 +45,22 @@ describe('content contract', () => {
   });
 
   it('parses every content file', () => {
-    expect(catalog.units).toHaveLength(70);
+    expect(catalog.units).toHaveLength(10);
     expect(frontMatter.sections.length).toBeGreaterThan(0);
     expect(crateActivity.whyOptions.length).toBeGreaterThan(0);
     expect(units.length).toBe(RAW_UNITS.length);
-    expect(units).toHaveLength(70);
-    expect(units.flatMap((unit) => unit.lessons)).toHaveLength(700);
+    expect(units).toHaveLength(10);
+    expect(units.flatMap((unit) => unit.lessons)).toHaveLength(100);
     expect(units.filter((unit) => unit.review.status === 'approved')).toHaveLength(10);
-    expect(units.filter((unit) => unit.review.status === 'draft')).toHaveLength(60);
+    expect(units.filter((unit) => unit.review.status === 'draft')).toHaveLength(0);
+  });
+
+  it('keeps unseeded catalog-drafts units strict-schema valid as Lesson Pack source material', () => {
+    expect(catalogDraftUnits).toHaveLength(60);
+    const parsed = catalogDraftUnits.map((raw) => Unit.parse(raw));
+    expect(parsed.every((unit) => unit.review.status === 'draft')).toBe(true);
+    expect(new Set(parsed.map((unit) => unit.id)).size).toBe(60);
+    expect(new Set(units.map((unit) => unit.id)).size + 60).toBe(70);
   });
 
   it('shows no byline until authorship is confirmed', () => {
@@ -80,7 +89,7 @@ describe('content contract', () => {
   });
 
   it('keeps unit, lesson, and track IDs unique across the full guide', () => {
-    expect(new Set(units.map((unit) => unit.id)).size).toBe(70);
+    expect(new Set(units.map((unit) => unit.id)).size).toBe(10);
     const lessonIds = units.flatMap((unit) => unit.lessons.map((lesson) => lesson.id));
     const trackIds = units.flatMap((unit) => unit.tracks.map((track) => track.id));
     expect(new Set(lessonIds).size).toBe(lessonIds.length);

@@ -11,7 +11,9 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "content:audit": "vitest run tests/content-schema.test.ts",
-    "pack:build": "node scripts/build-pack-01.mjs",
+    "pack:build": "node scripts/build-pack-01.mjs && node scripts/build-pack-02.mjs",
+    "pack:build:01": "node scripts/build-pack-01.mjs",
+    "pack:build:02": "node scripts/build-pack-02.mjs",
     "extract:draft": "node scripts/extract-pdf.mjs",
     "lint": "expo lint"
   },

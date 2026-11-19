@@ -12,16 +12,26 @@ Plan of record: [`docs/APP_PLAN.md`](docs/APP_PLAN.md) · Source guide: `docs/Re
 
 **Phase:** Phase 2 (full-catalog conversion). Installed and visually verified on a real iPhone; lesson
 content and overall publication status for the original 10 routes are author-approved and unchanged.
-The new 909-page unit catalog is now represented by 60 additional strict draft routes, appended as
-units 11–70 after skipping eight overlaps with the existing curriculum. Development builds show all
-70 routes; production continues to expose the original 10 approved routes in their original order.
-Unverified tracks publish only behind a repeated
-parent-preview requirement.
+The 909-page unit catalog import still produced 60 additional strict draft routes (skipping eight
+overlaps with the existing curriculum), but as of 2026-11-18 those routes are **no longer seeded into
+the app** in either development or production — `src/content/index.ts`'s `RAW_UNITS` seeds only the
+10 approved units, and the route directory/Home carousel show exactly those 10. The 60 catalog-drafts
+files remain on disk as unseeded, strict-schema-valid source material for Lesson Packs (covered by a
+standalone test), to be bundled into further packs the same way Pack 01 and Pack 02 were.
+Unverified tracks publish only behind a repeated parent-preview requirement.
 The app display name is **Listening Required**; the book/curriculum title remains *Required Listening*.
 Phase 0 (product, rights and safety decisions) and the byline are still open and need the author.
-Lesson Packs Phase 2 is implemented, and Pack 01 — The Soul Foundation is bundled from its five
-requested units. Pack 1 remains development-only until those imported units and the assembled pack
-complete editorial review; no draft pack is exposed in production.
+Lesson Packs Phase 2 is implemented. Pack 01 — The Soul Foundation bundles its five requested units
+(per `docs/req_packs.md`); Pack 02 — The New Wave bundles catalog-drafts units 11–15 (Drake, Future,
+The Weeknd, Young Thug, Wale) in their existing catalog order — its title/theme/summary were drafted
+copy since this grouping doesn't match any `docs/req_packs.md` pack. **bud-diaz reviewed and approved
+all 10 source units across both packs on 2026-11-18**: every adapted Notice/Talk/Activity prompt
+moved to `approved-adaptation`, and each pack's own `review.status` is now `approved` (reviewedBy
+`bud-diaz`). Track clean-version status was intentionally left `unverified` throughout — that's a
+valid, schema-legal steady state (caregiver preview required before every provider search), not an
+approval blocker. Both packs remain `developmentOnly: true` and therefore hidden in production until
+deployed to `paperweighthq.com` (see Next step); `npm run pack:build` rebuilds every pack and upserts
+each one's entry in `src/content/packs/catalog.remote.v1.json` by `packId` without disturbing others.
 Native lesson-pack modules are loaded on demand so the previously installed development client can
 still boot and use bundled content; remote pack downloads require a fresh native build containing
 Expo Crypto and Expo FileSystem.
@@ -66,8 +76,11 @@ Expo Crypto and Expo FileSystem.
   on This Guide,” and “We're not archiving careers.” Existing installs see it once after updating,
   completed families skip it thereafter, and protected routes prevent direct-link bypasses.
 - Home with a cross-unit route carousel and Family Replay; the card starts on the first unfinished
-  artist and supports horizontal swipes plus accessible previous/next controls across every
-  publishable route (10 in production, 70 in development while catalog drafts are reviewed).
+  artist and supports horizontal swipes plus accessible previous/next controls across the 10 core
+  routes plus any installed-pack artist with at least one lesson in the family's Lesson Plan (see
+  `src/domain/routes.ts`). Artist Directory shows the same combined route list. Home's action row is
+  Artist directory / My crate / Family replay; Lesson Plan and Lesson Packs entry points moved to
+  About (see below).
 - All 10 unit hubs use a persistent three-step briefing gate: families explicitly check off the
   artist/why page, passed-down track + Younger Listener picks, and unit briefing before checkpoints
   unlock. Locked lesson deep links return to the briefing; unlocked hubs retain review links to all
@@ -89,7 +102,10 @@ Expo Crypto and Expo FileSystem.
   independently collapsible accordion that starts closed. Sections follow Intro → A Note on This
   Guide → We're not archiving careers → To my son. The Get the Guide panel follows the accordions;
   its side-by-side Paperweight-logo and book-icon buttons link to the Paperweight Required Listening
-  page and requested Amazon search, with three disabled plus-button placeholders beneath them.
+  page and requested Amazon search. Of the three placeholder slots beneath them, the first is now a
+  live Lesson Plan button (shows the count of distinct artists with a planned lesson, not lesson
+  count) linking to `/plan`; the other two remain disabled future-link placeholders. Lesson Packs
+  stays reachable from the Lesson Plan screen's "Browse lesson packs" button.
 - Grown-up settings: change lane/providers, export data, delete all.
 - Outbound links open a provider *search* after a confirmation sheet; hosts are exactly allow-listed.
   Every unverified track is labeled “Parent preview required,” and that warning repeats before every
@@ -129,8 +145,9 @@ Expo Crypto and Expo FileSystem.
 | --- | --- |
 | Unit 1 Chief Keef (`src/content/artists/01-chief-keef.v1.json`) | Approved 2026-11-07 by bud-diaz |
 | Units 2–10 (`src/content/artists/remaining-units.v1.ts`) | All 90 lessons and overall units approved 2026-11-12 by bud-diaz; unverified tracks require parent preview |
-| Full catalog import (`src/content/artists/catalog-drafts/`) | 60 units / 600 lessons in draft; strict-schema valid, editorial and safety review required |
-| Pack 01 — The Soul Foundation | 5 source units / 50 lessons bundled; strict-schema and digest valid; development-only pending source-unit and pack review |
+| Full catalog import (`src/content/artists/catalog-drafts/`) | 60 units / 600 lessons; strict-schema valid; unseeded (not part of the live app). 10 (Al Green, Teddy Pendergrass, Ronald Isley, Frankie Beverly & Maze, Chaka Khan, Drake, Future, The Weeknd, Young Thug, Wale) reviewed/approved via Packs 01–02; their own `review.status` field stays `draft` by design (a build-time tripwire, not a publication gate — see Pack build pipeline). 50 remain draft, awaiting further packs |
+| Pack 01 — The Soul Foundation | 5 source units / 50 lessons bundled; strict-schema and digest valid; reviewed and approved 2026-11-18 by bud-diaz; development-only pending deployment |
+| Pack 02 — The New Wave | 5 source units (units 11–15) / 50 lessons bundled; strict-schema and digest valid; reviewed and approved 2026-11-18 by bud-diaz; development-only pending deployment |
 | Front matter, Build Your Crate | Draft: needs author review |
 
 All 10 units and their lane-appropriate tracks now appear in production. Units 2–10 record lesson
@@ -157,13 +174,25 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 - Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
   existing plan default.
 
-**Checks (last run on current Pack 1 / Phase 2 worktree, 2026-11-18)**
+**Checks (last run after approving both packs' source units, 2026-11-18)**
 - `npm run lint`: pass
 - `npx tsc --noEmit`: pass
-- `npm test` (Vitest): 897/897 pass across 70 routes, 700 core lessons, Pack 1's 50 lessons, all
-  templates, catalog/digest guards, links, lane/review gates, and content references.
-- `npm run pack:build`: pass; reproducibly emits a 110,424-byte Pack 1 artifact and matching SHA-256
-  catalog digest.
+- `npm test` (Vitest): 187/187 pass, including updated Pack 1/Pack 2 assertions for `review.status:
+  approved` while `developmentOnly: true`, a standalone strict-schema check of the 60 unseeded
+  catalog-drafts units, `tests/routes.test.ts` coverage for core/pack route activation and
+  planned-unit counting, all templates, catalog/digest guards, links, lane/review gates, and content
+  references.
+- `npm run pack:build`: pass; reproducibly (and idempotently — reruns produce byte-identical output)
+  emits a 111,767-byte Pack 1 artifact and a 131,118-byte Pack 2 artifact (sizes grew after approval:
+  `approved-adaptation` is one character longer than `adapted`, plus the recorded `reviewedAt`/
+  `reviewedBy`), each with a matching SHA-256 catalog digest upserted into `catalog.remote.v1.json`
+  by `packId`.
+- `npx expo export --platform web --output-dir /tmp/required-listening-routes-web`: pass; web bundles
+  confirming Home, Artist Directory, and About still bundle cleanly with the new route logic.
+- Browser-based visual verification was not possible this session: the connected Claude-in-Chrome
+  browser is on a different host than this sandbox and cannot reach its localhost dev server. Typecheck,
+  lint, tests, and export are the verification that ran; an on-device or same-host browser pass is
+  still owed before shipping this UI change.
 - `npx expo install --check`: pass against the local SDK compatibility map; network validation was
   unavailable in the sandbox, and dependencies are reported up to date.
 - `npx expo config --type public`: pass; new launcher, adaptive, monochrome and favicon paths resolve.
@@ -209,20 +238,22 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 ## Next step
 
-**Editorially review Pack 1's five source units, deploy its immutable artifacts, then complete
-accessibility QA.**
+**Deploy Pack 1 and Pack 2's approved artifacts, then complete accessibility QA.**
 
-1. Start the catalog review with Al Green, Teddy Pendergrass, Ronald Isley, Frankie Beverly & Maze,
-   and Chaka Khan. Verify track titles/credited artists, factual claims, lanes, flags, source wording,
-   adapted prompts, and provider versions. Rebuild with `npm run pack:build`, then review and version
-   Pack 1 explicitly; never flip the generated draft manifest directly.
-2. After approval, deploy `src/content/packs/catalog.remote.v1.json` as
-   `/required-listening/packs/catalog.v1.json` and the exact generated Pack 1 JSON as
-   `/required-listening/packs/pack-01-soul-foundation/1/pack.json` on `paperweighthq.com`. Confirm
-   byte count and SHA-256 survive deployment, then test fresh install, interrupted retry, offline
-   launch, update replacement, and removal on the registered iPhone.
-3. Continue through the remaining routes in `docs/UNIT_CATALOG_IMPORT.md`; do not approve a unit until
-   its lesson prompts and provider-version notes are reviewed.
+1. ~~Editorially review Pack 1 and Pack 2's source units~~ — done 2026-11-18: bud-diaz approved all
+   10 source units (Al Green, Teddy Pendergrass, Ronald Isley, Frankie Beverly & Maze, Chaka Khan,
+   Drake, Future, The Weeknd, Young Thug, Wale). Both packs' own `review.status` is `approved`.
+   Pack 2's drafted title/theme/summary/educational connections/central lesson ("The New Wave")
+   were part of that approval and need no further confirmation unless the author wants to revise the
+   copy later.
+2. Deploy `src/content/packs/catalog.remote.v1.json` as
+   `/required-listening/packs/catalog.v1.json` and each pack's exact generated JSON as
+   `/required-listening/packs/{packId}/{version}/pack.json` on `paperweighthq.com`. Confirm byte count
+   and SHA-256 survive deployment, then test fresh install, interrupted retry, offline launch, update
+   replacement, and removal on the registered iPhone for both packs.
+3. Continue bundling the remaining 50 catalog-drafts units (`docs/UNIT_CATALOG_IMPORT.md`) into further
+   packs the same way, rather than re-adding them to `RAW_UNITS`; do not approve a unit until its
+   lesson prompts and provider-version notes are reviewed.
 4. Run VoiceOver, Dynamic Type, provider hand-off (including separate YouTube and YouTube Music
    choices), Home route swiping, the Field Manual and unit briefing gates, Final Project flow, Talk
    keyboard clearance, persistence, destructive-data checks, and the About icon-button rows at the
@@ -237,6 +268,27 @@ accessibility QA.**
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-18: bud-diaz reviewed and approved all 10 source units across Pack 1 (Al Green, Teddy
+  Pendergrass, Ronald Isley, Frankie Beverly & Maze, Chaka Khan) and Pack 2 (Drake, Future, The
+  Weeknd, Young Thug, Wale). Every adapted Notice/Talk/Activity prompt moved to
+  `approved-adaptation`; both packs' `review.status` is now `approved` (`reviewedBy: bud-diaz`),
+  while `developmentOnly` stays `true` pending deployment to `paperweighthq.com`. Track
+  clean-version status was deliberately left `unverified` — a valid, schema-legal state requiring
+  caregiver preview, not an approval blocker.
+- 2026-11-18: Gave pack content its own artist routes: once a family adds any lesson from a pack
+  section to their Lesson Plan, that artist now appears as a full route on Home's carousel and in
+  the Artist Directory (`src/domain/routes.ts` unifies core units and activated pack sections).
+  `PackSection` gained stable `number`/`monogram` fields (propagated from the source catalog-drafts
+  unit) to support this. The About tab's Lesson Plan button now shows the count of distinct artists
+  with a planned lesson instead of the raw lesson count. Added `tests/routes.test.ts`.
+- 2026-11-18: Moved the Lesson Plan entry point from Home to the first of About's three placeholder
+  slots (now a live button showing the plan's artist count) and removed the Lesson Packs button from
+  Home; Lesson Packs stays reachable from the Lesson Plan screen's "Browse lesson packs" button.
+- 2026-11-18: Unseeded the 60 catalog-drafts units from the live app (now only the 10 approved units
+  appear in development and production), bundled catalog-drafts units 11–15 (Drake, Future, The
+  Weeknd, Young Thug, Wale) as Pack 02 — The New Wave, generalized `npm run pack:build` and the
+  catalog-entry writer to support multiple packs without clobbering each other, and added a
+  standalone schema-validity test preserving regression coverage for the now-unseeded draft units.
 - 2026-11-18: Deferred Expo Crypto loading until a remote pack is verified so older development
   clients no longer crash during route discovery; missing native pack modules now produce an
   actionable compatibility error while bundled content remains usable.

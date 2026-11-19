@@ -1,5 +1,14 @@
 # Full unit catalog import
 
+## Status update (2026-11-18)
+
+The 60 generated routes described below are no longer seeded into the app as units 11–70 in either
+development or production; `src/content/index.ts`'s `RAW_UNITS` now seeds only the 10 approved units.
+The generated files stay in place as unseeded, strict-schema-valid source material (covered by a
+standalone test in `tests/content-schema.test.ts`) for [Lesson Packs](LESSON_PACKS_PLAN.md) — see Pack
+01 (`docs/req_packs.md` units) and Pack 02 (catalog-drafts units 11–15). Bundle further routes into
+packs the same way rather than re-adding them to `RAW_UNITS`.
+
 ## Result
 
 The 909-page `Unit-catalog.pdf` contains 68 artist routes. The strict import skips the eight routes

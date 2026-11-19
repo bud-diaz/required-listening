@@ -3,7 +3,6 @@ import frontMatterJson from './front-matter.v1.json';
 import crateActivityJson from './crate-activity.v1.json';
 import chiefKeefJson from './artists/01-chief-keef.v1.json';
 import { remainingUnits } from './artists/remaining-units.v1';
-import { catalogDraftUnits } from './artists/catalog-drafts.v1';
 import {
   Catalog,
   CrateActivity,
@@ -16,8 +15,12 @@ import {
   type Track,
 } from './schemas';
 
-/** Structured unit files. Add each newly converted unit here. */
-export const RAW_UNITS: unknown[] = [chiefKeefJson, ...remainingUnits, ...catalogDraftUnits];
+/**
+ * Structured unit files. Only the 10 author-approved units are seeded into the app; the
+ * remaining catalog-drafts units (src/content/artists/catalog-drafts.v1.ts) stay unseeded
+ * source material for Lesson Packs until an editor bundles and reviews them.
+ */
+export const RAW_UNITS: unknown[] = [chiefKeefJson, ...remainingUnits];
 
 export const catalog = Catalog.parse(catalogJson);
 export const frontMatter = FrontMatter.parse(frontMatterJson);

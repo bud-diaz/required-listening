@@ -11,7 +11,7 @@
       "publisher": "Paperweight",
       "publishedAt": "2026-11-18T00:00:00.000Z",
       "minAppVersion": "0.1.0",
-      "downloadBytes": 110424,
+      "downloadBytes": 111767,
       "lessonCount": 50,
       "contentFlags": [
         "sexual-content",
@@ -22,13 +22,43 @@
         "violence"
       ],
       "review": {
-        "status": "draft",
-        "reviewedAt": null,
-        "reviewedBy": null
+        "status": "approved",
+        "reviewedAt": "2026-11-18T00:00:00.000Z",
+        "reviewedBy": "bud-diaz"
       },
       "developmentOnly": true,
-      "sha256": "ed768a7afc3de8319228826bb4738fc461ab9509a5c04c5afad107a5e38ca5ef",
+      "sha256": "50ca3d57636aac90b17f64cdb031c209f9d7132c06fabc4e64bf8b64e7ea2f89",
       "manifestUrl": "https://paperweighthq.com/required-listening/packs/pack-01-soul-foundation/1/pack.json"
+    },
+    {
+      "packId": "pack-02-the-new-wave",
+      "version": 1,
+      "title": "The New Wave",
+      "theme": "Melody Takes Over Hip-Hop",
+      "summary": "These artists blurred the line between rapping and singing, bringing Auto-Tune, atmospheric production, and emotional vulnerability into the center of mainstream hip-hop and R&B.",
+      "publisher": "Paperweight",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "minAppVersion": "0.1.0",
+      "downloadBytes": 131118,
+      "lessonCount": 50,
+      "contentFlags": [
+        "explicit-language",
+        "mature-themes",
+        "artist-conduct",
+        "violence",
+        "weapons",
+        "trauma",
+        "substances",
+        "sexual-content"
+      ],
+      "review": {
+        "status": "approved",
+        "reviewedAt": "2026-11-18T00:00:00.000Z",
+        "reviewedBy": "bud-diaz"
+      },
+      "developmentOnly": true,
+      "sha256": "ac032161ad8491e56fc5468c86e860b7c6575cc6dc82be6162185b43d07e8227",
+      "manifestUrl": "https://paperweighthq.com/required-listening/packs/pack-02-the-new-wave/1/pack.json"
     }
   ]
 }
