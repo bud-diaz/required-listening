@@ -25,13 +25,17 @@ lineup).
 
 **bud-diaz reviewed and approved all 10 source units across both packs on 2026-11-18** — every
 adapted Notice/Talk/Activity prompt was moved to `approved-adaptation`, and each pack's own
-`review.status` is `approved` (`reviewedBy: bud-diaz`). Both packs still ship with
-`developmentOnly: true` and so remain invisible in production; that flag is reserved for after the
-generated catalog/manifest artifacts are actually deployed to `paperweighthq.com` (see HANDOFF.md's
-Next step), which is now the only remaining production blocker. Track clean-version status was left
-`unverified` throughout by design — the schema permits `unverified` + `requiresCaregiverPreview` on
-every lane including younger, so this is a valid steady state, not something approval needed to
-resolve.
+`review.status` is `approved` (`reviewedBy: bud-diaz`). **Both packs are now released to production**:
+`developmentOnly: false`, and `catalog.v1.json` plus both pack manifests are deployed and live at
+`paperweighthq.com` (hosted on the `paperweight-systems-web` Vercel project; see
+[PR #17](https://github.com/bud-diaz/paperweight-systems-web/pull/17) and
+[#18](https://github.com/bud-diaz/paperweight-systems-web/pull/18)). Byte count and SHA-256 were
+verified directly against the production domain, not just a preview deployment. Track clean-version
+status was left `unverified` throughout by design — the schema permits `unverified` +
+`requiresCaregiverPreview` on every lane including younger, so this is a valid steady state, not
+something approval needed to resolve. What remains before the Phase 2 exit criterion is fully closed:
+on-device testing of the production download path itself (fresh install, interrupted retry, offline
+launch, update, removal) — see HANDOFF.md's Next step.
 
 The app's main unit seed (`src/content/index.ts`) includes only the 10 author-approved core units in
 both development and production; the remaining catalog-drafts units stay unseeded source material
@@ -202,9 +206,10 @@ Exit: the entire flow works offline with one fixture pack and survives app resta
 Exit: a production-approved Paperweight pack can be installed, used fully offline, updated safely, and
 removed without corrupting family data.
 
-**Status: implementation complete; publishing exit pending.** The verified pipeline and both Pack 1
-and Pack 2 artifacts are in place and editorially approved, but the exit criterion cannot be claimed
-until a pack is hosted and tested from the production endpoint.
+**Status: implementation complete; hosted; on-device testing pending.** Both Pack 1 and Pack 2 are
+editorially approved and live on the production endpoint (byte/SHA-256 verified against
+`paperweighthq.com` directly). The exit criterion cannot be fully claimed until a pack has also been
+installed, updated, and removed on the registered iPhone via the real production download path.
 
 ### Phase 3 — commerce or outside publishers (only if needed)
 

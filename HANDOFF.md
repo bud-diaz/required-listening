@@ -21,17 +21,23 @@ standalone test), to be bundled into further packs the same way Pack 01 and Pack
 Unverified tracks publish only behind a repeated parent-preview requirement.
 The app display name is **Listening Required**; the book/curriculum title remains *Required Listening*.
 Phase 0 (product, rights and safety decisions) and the byline are still open and need the author.
-Lesson Packs Phase 2 is implemented. Pack 01 — The Soul Foundation bundles its five requested units
-(per `docs/req_packs.md`); Pack 02 — The New Wave bundles catalog-drafts units 11–15 (Drake, Future,
-The Weeknd, Young Thug, Wale) in their existing catalog order — its title/theme/summary were drafted
-copy since this grouping doesn't match any `docs/req_packs.md` pack. **bud-diaz reviewed and approved
-all 10 source units across both packs on 2026-11-18**: every adapted Notice/Talk/Activity prompt
-moved to `approved-adaptation`, and each pack's own `review.status` is now `approved` (reviewedBy
-`bud-diaz`). Track clean-version status was intentionally left `unverified` throughout — that's a
-valid, schema-legal steady state (caregiver preview required before every provider search), not an
-approval blocker. Both packs remain `developmentOnly: true` and therefore hidden in production until
-deployed to `paperweighthq.com` (see Next step); `npm run pack:build` rebuilds every pack and upserts
-each one's entry in `src/content/packs/catalog.remote.v1.json` by `packId` without disturbing others.
+**Lesson Packs Phase 2 is complete and live in production.** Pack 01 — The Soul Foundation bundles
+its five requested units (per `docs/req_packs.md`); Pack 02 — The New Wave bundles catalog-drafts
+units 11–15 (Drake, Future, The Weeknd, Young Thug, Wale) in their existing catalog order — its
+title/theme/summary were drafted copy since this grouping doesn't match any `docs/req_packs.md`
+pack. bud-diaz reviewed and approved all 10 source units across both packs on 2026-11-18: every
+adapted Notice/Talk/Activity prompt moved to `approved-adaptation`, and each pack's own
+`review.status` is `approved` (reviewedBy `bud-diaz`). Track clean-version status was intentionally
+left `unverified` throughout — that's a valid, schema-legal steady state (caregiver preview required
+before every provider search), not an approval blocker. **Both packs now ship with
+`developmentOnly: false`** and are deployed to `paperweighthq.com` — `catalog.v1.json` and both
+`pack.json` manifests are live and verified byte-exact/SHA-256-exact against production (via
+[paperweight-systems-web#17](https://github.com/bud-diaz/paperweight-systems-web/pull/17) and
+[#18](https://github.com/bud-diaz/paperweight-systems-web/pull/18), the latter re-publishing both
+manifests after the `developmentOnly` flip changed their bytes/hash). `npm run pack:build` rebuilds
+every pack and upserts each one's entry in `src/content/packs/catalog.remote.v1.json` by `packId`
+without disturbing others. Remaining before full exit: on-device fresh-install/update/removal testing
+against the production endpoint on the registered iPhone (see Next step).
 Native lesson-pack modules are loaded on demand so the previously installed development client can
 still boot and use bundled content; remote pack downloads require a fresh native build containing
 Expo Crypto and Expo FileSystem.
@@ -146,8 +152,8 @@ Expo Crypto and Expo FileSystem.
 | Unit 1 Chief Keef (`src/content/artists/01-chief-keef.v1.json`) | Approved 2026-11-07 by bud-diaz |
 | Units 2–10 (`src/content/artists/remaining-units.v1.ts`) | All 90 lessons and overall units approved 2026-11-12 by bud-diaz; unverified tracks require parent preview |
 | Full catalog import (`src/content/artists/catalog-drafts/`) | 60 units / 600 lessons; strict-schema valid; unseeded (not part of the live app). 10 (Al Green, Teddy Pendergrass, Ronald Isley, Frankie Beverly & Maze, Chaka Khan, Drake, Future, The Weeknd, Young Thug, Wale) reviewed/approved via Packs 01–02; their own `review.status` field stays `draft` by design (a build-time tripwire, not a publication gate — see Pack build pipeline). 50 remain draft, awaiting further packs |
-| Pack 01 — The Soul Foundation | 5 source units / 50 lessons bundled; strict-schema and digest valid; reviewed and approved 2026-11-18 by bud-diaz; development-only pending deployment |
-| Pack 02 — The New Wave | 5 source units (units 11–15) / 50 lessons bundled; strict-schema and digest valid; reviewed and approved 2026-11-18 by bud-diaz; development-only pending deployment |
+| Pack 01 — The Soul Foundation | 5 source units / 50 lessons bundled; strict-schema and digest valid; reviewed and approved 2026-11-18 by bud-diaz; **live in production** at paperweighthq.com |
+| Pack 02 — The New Wave | 5 source units (units 11–15) / 50 lessons bundled; strict-schema and digest valid; reviewed and approved 2026-11-18 by bud-diaz; **live in production** at paperweighthq.com |
 | Front matter, Build Your Crate | Draft: needs author review |
 
 All 10 units and their lane-appropriate tracks now appear in production. Units 2–10 record lesson
@@ -174,19 +180,22 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 - Byline was **not** decided — `catalog.v1.json`'s `byline` stays `null`, unattributed, per the
   existing plan default.
 
-**Checks (last run after approving both packs' source units, 2026-11-18)**
+**Checks (last run after deploying both packs to production, 2026-11-18)**
 - `npm run lint`: pass
 - `npx tsc --noEmit`: pass
-- `npm test` (Vitest): 187/187 pass, including updated Pack 1/Pack 2 assertions for `review.status:
-  approved` while `developmentOnly: true`, a standalone strict-schema check of the 60 unseeded
-  catalog-drafts units, `tests/routes.test.ts` coverage for core/pack route activation and
-  planned-unit counting, all templates, catalog/digest guards, links, lane/review gates, and content
-  references.
+- `npm test` (Vitest): 189/189 pass, including Pack 1/Pack 2 assertions for `review.status: approved`
+  and `developmentOnly: false`, a production-acceptance test for `validateDownloadedPack` (plus a
+  test that a pack whose own manifest is still development-only/unapproved is still rejected even in
+  production), a standalone strict-schema check of the 60 unseeded catalog-drafts units,
+  `tests/routes.test.ts` coverage for core/pack route activation and planned-unit counting, all
+  templates, catalog/digest guards, links, lane/review gates, and content references.
 - `npm run pack:build`: pass; reproducibly (and idempotently — reruns produce byte-identical output)
-  emits a 111,767-byte Pack 1 artifact and a 131,118-byte Pack 2 artifact (sizes grew after approval:
-  `approved-adaptation` is one character longer than `adapted`, plus the recorded `reviewedAt`/
-  `reviewedBy`), each with a matching SHA-256 catalog digest upserted into `catalog.remote.v1.json`
-  by `packId`.
+  emits a 111,768-byte Pack 1 artifact and a 131,119-byte Pack 2 artifact, each with a matching
+  SHA-256 catalog digest upserted into `catalog.remote.v1.json` by `packId`.
+- **Production deployment verified directly against `paperweighthq.com`** (not just a Vercel preview):
+  fetched `catalog.v1.json` and both `pack.json` manifests over HTTPS and confirmed byte count and
+  SHA-256 match the generated artifacts exactly, with `developmentOnly: false` and
+  `review.status: approved` in the live catalog.
 - `npx expo export --platform web --output-dir /tmp/required-listening-routes-web`: pass; web bundles
   confirming Home, Artist Directory, and About still bundle cleanly with the new route logic.
 - Browser-based visual verification was not possible this session: the connected Claude-in-Chrome
@@ -238,7 +247,7 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 ## Next step
 
-**Deploy Pack 1 and Pack 2's approved artifacts, then complete accessibility QA.**
+**Test Pack 1 and Pack 2's production install on-device, then complete accessibility QA.**
 
 1. ~~Editorially review Pack 1 and Pack 2's source units~~ — done 2026-11-18: bud-diaz approved all
    10 source units (Al Green, Teddy Pendergrass, Ronald Isley, Frankie Beverly & Maze, Chaka Khan,
@@ -246,11 +255,14 @@ approval separately from their overall unit review; their app-specific Notice/Ta
    Pack 2's drafted title/theme/summary/educational connections/central lesson ("The New Wave")
    were part of that approval and need no further confirmation unless the author wants to revise the
    copy later.
-2. Deploy `src/content/packs/catalog.remote.v1.json` as
-   `/required-listening/packs/catalog.v1.json` and each pack's exact generated JSON as
-   `/required-listening/packs/{packId}/{version}/pack.json` on `paperweighthq.com`. Confirm byte count
-   and SHA-256 survive deployment, then test fresh install, interrupted retry, offline launch, update
-   replacement, and removal on the registered iPhone for both packs.
+2. ~~Deploy to paperweighthq.com~~ — done 2026-11-18: `catalog.v1.json` and both pack manifests are
+   live at `/required-listening/packs/...` (hosted on the `paperweight-systems-web` Vercel project via
+   [PR #17](https://github.com/bud-diaz/paperweight-systems-web/pull/17) and
+   [PR #18](https://github.com/bud-diaz/paperweight-systems-web/pull/18)), with `developmentOnly:
+   false` and `review.status: approved`. Byte count and SHA-256 verified directly against production.
+   **Still needed:** test fresh install, interrupted retry, offline launch, update replacement, and
+   removal of both packs on the registered iPhone, confirming the production download path (not just
+   the bundled-local install path) works end to end with the live Expo Crypto/FileSystem build.
 3. Continue bundling the remaining 50 catalog-drafts units (`docs/UNIT_CATALOG_IMPORT.md`) into further
    packs the same way, rather than re-adding them to `RAW_UNITS`; do not approve a unit until its
    lesson prompts and provider-version notes are reviewed.
@@ -268,6 +280,18 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-18: Deployed Pack 1 and Pack 2 to production. Found the site's Vercel project
+  (`paperweight-systems-web`, Next.js, Git-connected to `bud-diaz/paperweight-systems-web`) and added
+  `catalog.v1.json` plus both pack manifests under `public/required-listening/packs/` via
+  [PR #17](https://github.com/bud-diaz/paperweight-systems-web/pull/17) (a direct push to `main` was
+  blocked by the permission system as an unreviewed production deploy, so this went through a branch
+  + PR instead); verified byte-exact/SHA-256-exact against the live production domain after merge.
+  Flipped `developmentOnly: false` on both packs locally, which changes their hashed content (bytes/
+  SHA-256), so rebuilt and re-published the updated manifests via
+  [PR #18](https://github.com/bud-diaz/paperweight-systems-web/pull/18); verified again against
+  production after that merge. Updated tests to match: the development-only-pack production gate is
+  now tested with a mutated payload fixture instead of Pack 1/2, since those are genuinely
+  production-approved now.
 - 2026-11-18: bud-diaz reviewed and approved all 10 source units across Pack 1 (Al Green, Teddy
   Pendergrass, Ronald Isley, Frankie Beverly & Maze, Chaka Khan) and Pack 2 (Drake, Future, The
   Weeknd, Young Thug, Wale). Every adapted Notice/Talk/Activity prompt moved to

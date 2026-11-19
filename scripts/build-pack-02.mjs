@@ -65,7 +65,7 @@ const pack = {
     lessonIds: unit.lessons.map((lesson) => lesson.id),
   })),
   review: { status: 'approved', reviewedAt: '2026-11-18T00:00:00.000Z', reviewedBy: 'bud-diaz' },
-  developmentOnly: true,
+  developmentOnly: false,
 };
 
 for (let attempts = 0; attempts < 10; attempts += 1) {

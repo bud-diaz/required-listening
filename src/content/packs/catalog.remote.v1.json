@@ -11,7 +11,7 @@
       "publisher": "Paperweight",
       "publishedAt": "2026-11-18T00:00:00.000Z",
       "minAppVersion": "0.1.0",
-      "downloadBytes": 111767,
+      "downloadBytes": 111768,
       "lessonCount": 50,
       "contentFlags": [
         "sexual-content",
@@ -26,8 +26,8 @@
         "reviewedAt": "2026-11-18T00:00:00.000Z",
         "reviewedBy": "bud-diaz"
       },
-      "developmentOnly": true,
-      "sha256": "50ca3d57636aac90b17f64cdb031c209f9d7132c06fabc4e64bf8b64e7ea2f89",
+      "developmentOnly": false,
+      "sha256": "0052d444819a33c8415be62fbd2c60de3ef36da6e18f1ad2620fd58ac8e9b197",
       "manifestUrl": "https://paperweighthq.com/required-listening/packs/pack-01-soul-foundation/1/pack.json"
     },
     {
@@ -39,7 +39,7 @@
       "publisher": "Paperweight",
       "publishedAt": "2026-11-18T00:00:00.000Z",
       "minAppVersion": "0.1.0",
-      "downloadBytes": 131118,
+      "downloadBytes": 131119,
       "lessonCount": 50,
       "contentFlags": [
         "explicit-language",
@@ -56,8 +56,8 @@
         "reviewedAt": "2026-11-18T00:00:00.000Z",
         "reviewedBy": "bud-diaz"
       },
-      "developmentOnly": true,
-      "sha256": "ac032161ad8491e56fc5468c86e860b7c6575cc6dc82be6162185b43d07e8227",
+      "developmentOnly": false,
+      "sha256": "1a1c57f867de4e103b6e9f3cf36651ef1ad63f98c867e7fbfe8009aaa01918af",
       "manifestUrl": "https://paperweighthq.com/required-listening/packs/pack-02-the-new-wave/1/pack.json"
     }
   ]

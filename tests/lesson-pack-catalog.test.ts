@@ -57,10 +57,10 @@ describe('Pack 1 bundle', () => {
     expect(pack.sections.flatMap((section) => section.lessonIds)).toEqual(pack.lessons.map((lesson) => lesson.id));
   });
 
-  it('is editorially approved but stays development-only pending deployment', () => {
+  it('is editorially approved and released to production', () => {
     expect(pack.review.status).toBe('approved');
     expect(pack.review.reviewedBy).toBe('bud-diaz');
-    expect(pack.developmentOnly).toBe(true);
+    expect(pack.developmentOnly).toBe(false);
   });
 
   it('emits a byte-accurate, SHA-256-addressed catalog artifact', () => {
@@ -86,10 +86,10 @@ describe('Pack 2 bundle', () => {
     expect(pack2.sections.flatMap((section) => section.lessonIds)).toEqual(pack2.lessons.map((lesson) => lesson.id));
   });
 
-  it('is editorially approved but stays development-only pending deployment', () => {
+  it('is editorially approved and released to production', () => {
     expect(pack2.review.status).toBe('approved');
     expect(pack2.review.reviewedBy).toBe('bud-diaz');
-    expect(pack2.developmentOnly).toBe(true);
+    expect(pack2.developmentOnly).toBe(false);
   });
 
   it('emits a byte-accurate, SHA-256-addressed catalog artifact alongside Pack 1', () => {
@@ -176,10 +176,30 @@ describe('verified first-party downloads', () => {
     }), 'invalid');
   });
 
-  it('never exposes the development-only pack in production', () => {
-    expectDownloadError(() => validateDownloadedPack({
+  it('accepts an approved, non-development-only pack in production', () => {
+    expect(valid().packId).toBe(pack.packId);
+    expect(validateDownloadedPack({
       entry,
       payload: packJson,
+      byteLength: artifact.byteLength,
+      sha256: digest,
+      appVersion: '0.1.0',
+      isDev: false,
+    }).packId).toBe(pack.packId);
+  });
+
+  it('still rejects a pack whose own manifest is development-only or unapproved, even in production', () => {
+    expectDownloadError(() => validateDownloadedPack({
+      entry,
+      payload: { ...packJson, developmentOnly: true },
+      byteLength: artifact.byteLength,
+      sha256: digest,
+      appVersion: '0.1.0',
+      isDev: false,
+    }), 'unapproved');
+    expectDownloadError(() => validateDownloadedPack({
+      entry,
+      payload: { ...packJson, review: { status: 'draft', reviewedAt: null, reviewedBy: null } },
       byteLength: artifact.byteLength,
       sha256: digest,
       appVersion: '0.1.0',

@@ -254,7 +254,13 @@ describe('review gate', () => {
 
   it('keeps the draft demo pack in development and out of production', () => {
     expect(availableLessonPacks(true).map((pack) => pack.packId)).toContain(demoFamilyAnthemsPack.packId);
-    expect(availableLessonPacks(false)).toEqual([]);
+    expect(availableLessonPacks(false).map((pack) => pack.packId)).not.toContain(demoFamilyAnthemsPack.packId);
+  });
+
+  it('shows the two approved, production-released packs in both development and production', () => {
+    const prodPackIds = availableLessonPacks(false).map((pack) => pack.packId);
+    expect(prodPackIds).toEqual(expect.arrayContaining(['pack-01-soul-foundation', 'pack-02-the-new-wave']));
+    expect(availableLessonPacks(true).map((pack) => pack.packId)).toEqual(expect.arrayContaining(prodPackIds));
   });
 
   it('rejects pack lessons that reference a missing track', () => {

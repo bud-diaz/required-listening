@@ -15,7 +15,7 @@
   "publisher": "Paperweight",
   "publishedAt": "2026-11-18T00:00:00.000Z",
   "minAppVersion": "0.1.0",
-  "downloadBytes": 111767,
+  "downloadBytes": 111768,
   "contentFlags": [
     "sexual-content",
     "mature-themes",
@@ -2992,5 +2992,5 @@
     "reviewedAt": "2026-11-18T00:00:00.000Z",
     "reviewedBy": "bud-diaz"
   },
-  "developmentOnly": true
+  "developmentOnly": false
 }
