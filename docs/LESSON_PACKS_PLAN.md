@@ -33,9 +33,16 @@ adapted Notice/Talk/Activity prompt was moved to `approved-adaptation`, and each
 verified directly against the production domain, not just a preview deployment. Track clean-version
 status was left `unverified` throughout by design — the schema permits `unverified` +
 `requiresCaregiverPreview` on every lane including younger, so this is a valid steady state, not
-something approval needed to resolve. What remains before the Phase 2 exit criterion is fully closed:
-on-device testing of the production download path itself (fresh install, interrupted retry, offline
-launch, update, removal) — see HANDOFF.md's Next step.
+something approval needed to resolve.
+
+**On-device verification against the production endpoint is complete (2026-11-20)**, on the
+registered iPhone ("CJ's iPhone 2") running a fresh EAS development build with `expo-crypto` and
+`expo-file-system` compiled in: fresh install of both Pack 01 and Pack 02, offline launch of an
+installed pack's lessons, a failed download classified as retryable and recovered via Retry, and
+removal followed by reinstall reconnecting prior explored/reflection state by stable content
+reference. Pack-activated routes (the artists from an installed, planned pack appearing on Home and
+in the Artist Directory) were also confirmed live. Update-replacement wasn't exercised since neither
+pack has a published v2 yet. This closes the Phase 2 exit criterion.
 
 The app's main unit seed (`src/content/index.ts`) includes only the 10 author-approved core units in
 both development and production; the remaining catalog-drafts units stay unseeded source material
@@ -206,10 +213,12 @@ Exit: the entire flow works offline with one fixture pack and survives app resta
 Exit: a production-approved Paperweight pack can be installed, used fully offline, updated safely, and
 removed without corrupting family data.
 
-**Status: implementation complete; hosted; on-device testing pending.** Both Pack 1 and Pack 2 are
-editorially approved and live on the production endpoint (byte/SHA-256 verified against
-`paperweighthq.com` directly). The exit criterion cannot be fully claimed until a pack has also been
-installed, updated, and removed on the registered iPhone via the real production download path.
+**Status: complete.** Both Pack 1 and Pack 2 are editorially approved and live on the production
+endpoint (byte/SHA-256 verified against `paperweighthq.com` directly), and both have been installed,
+used offline, retried after a failed download, and removed/reinstalled on the registered iPhone via
+the real production download path (2026-11-20). Update-replacement is implemented and covered by
+`assertSafePackUpdate`/tests but hasn't been exercised on-device yet, since neither pack has shipped a
+v2 — the first real pack update will be the first chance to verify that specific path live.
 
 ### Phase 3 — commerce or outside publishers (only if needed)
 

@@ -36,8 +36,12 @@ before every provider search), not an approval blocker. **Both packs now ship wi
 [#18](https://github.com/bud-diaz/paperweight-systems-web/pull/18), the latter re-publishing both
 manifests after the `developmentOnly` flip changed their bytes/hash). `npm run pack:build` rebuilds
 every pack and upserts each one's entry in `src/content/packs/catalog.remote.v1.json` by `packId`
-without disturbing others. Remaining before full exit: on-device fresh-install/update/removal testing
-against the production endpoint on the registered iPhone (see Next step).
+without disturbing others. **On-device verification against production is complete** (2026-11-20, on
+"CJ's iPhone 2" running a fresh EAS development build with `expo-crypto`/`expo-file-system`
+compiled in): fresh install of both packs, offline launch, a failed download cleanly retried, and
+removal/reinstall reconnecting prior explored/reflection state. Pack-activated routes were also
+confirmed live on Home and the Artist Directory. Lesson Packs Phase 2 is fully closed; Phase 3 is not
+planned yet.
 Native lesson-pack modules are loaded on demand so the previously installed development client can
 still boot and use bundled content; remote pack downloads require a fresh native build containing
 Expo Crypto and Expo FileSystem.
@@ -247,32 +251,36 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 ## Next step
 
-**Test Pack 1 and Pack 2's production install on-device, then complete accessibility QA.**
+**Lesson Packs Phase 2 is fully closed. Next: broader accessibility QA, then continue the catalog.**
 
 1. ~~Editorially review Pack 1 and Pack 2's source units~~ — done 2026-11-18: bud-diaz approved all
    10 source units (Al Green, Teddy Pendergrass, Ronald Isley, Frankie Beverly & Maze, Chaka Khan,
    Drake, Future, The Weeknd, Young Thug, Wale). Both packs' own `review.status` is `approved`.
-   Pack 2's drafted title/theme/summary/educational connections/central lesson ("The New Wave")
-   were part of that approval and need no further confirmation unless the author wants to revise the
-   copy later.
 2. ~~Deploy to paperweighthq.com~~ — done 2026-11-18: `catalog.v1.json` and both pack manifests are
    live at `/required-listening/packs/...` (hosted on the `paperweight-systems-web` Vercel project via
    [PR #17](https://github.com/bud-diaz/paperweight-systems-web/pull/17) and
    [PR #18](https://github.com/bud-diaz/paperweight-systems-web/pull/18)), with `developmentOnly:
-   false` and `review.status: approved`. Byte count and SHA-256 verified directly against production.
-   **Still needed:** test fresh install, interrupted retry, offline launch, update replacement, and
-   removal of both packs on the registered iPhone, confirming the production download path (not just
-   the bundled-local install path) works end to end with the live Expo Crypto/FileSystem build.
-3. Continue bundling the remaining 50 catalog-drafts units (`docs/UNIT_CATALOG_IMPORT.md`) into further
+   false` and `review.status: approved`.
+3. ~~Test both packs' production download path on-device~~ — done 2026-11-20 on "CJ's iPhone 2" with
+   a fresh EAS development build containing `expo-crypto`/`expo-file-system`: fresh install (both
+   packs), offline launch, a failed download classified retryable and recovered via Retry, and
+   removal/reinstall reconnecting prior explored/reflection state. Update-replacement wasn't
+   exercised (neither pack has a v2 yet) — verify it the first time either pack actually ships one.
+4. Continue bundling the remaining 50 catalog-drafts units (`docs/UNIT_CATALOG_IMPORT.md`) into further
    packs the same way, rather than re-adding them to `RAW_UNITS`; do not approve a unit until its
    lesson prompts and provider-version notes are reviewed.
-4. Run VoiceOver, Dynamic Type, provider hand-off (including separate YouTube and YouTube Music
+5. Run VoiceOver, Dynamic Type, provider hand-off (including separate YouTube and YouTube Music
    choices), Home route swiping, the Field Manual and unit briefing gates, Final Project flow, Talk
    keyboard clearance, persistence, destructive-data checks, and the About icon-button rows at the
    320px minimum width on the registered iPhone.
-5. Review remaining track spelling, search metadata, and safety lanes. Keep unverified tracks under
+6. Review remaining track spelling, search metadata, and safety lanes. Keep unverified tracks under
    the caregiver-preview policy; this audit no longer blocks approved units from publishing.
-6. Decide the byline (see Open decisions) whenever convenient — it doesn't block curriculum use.
+7. Decide the byline (see Open decisions) whenever convenient — it doesn't block curriculum use.
+8. A `.github/workflows/release-app-store.yml` (EAS Build + Submit, modeled on modebi's App Store
+   release action) was added 2026-11-20 but hasn't been run — it needs `EXPO_TOKEN`,
+   `ASC_API_KEY_ID`, `ASC_API_ISSUER_ID`, and `ASC_API_KEY_P8_BASE64` set as repo secrets first (the
+   last three may be reusable from modebi's, since both apps share Apple team `6PA43G2WVX`), and an
+   App Store Connect app record must already exist for `com.requiredlistening.app` under that team.
 
 ---
 
@@ -280,6 +288,18 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-20: Added `.github/workflows/release-app-store.yml` (manual-dispatch EAS Build + Submit to
+  App Store Connect), modeled on modebi's release-app-store.yml but adapted for a managed Expo
+  project: no xcodegen/xcodebuild/altool, since EAS Build already code-signs on Expo's own
+  infrastructure — the workflow only needs Node + eas-cli and an App Store Connect API key for EAS
+  Submit (written to a temp file and validated the same way modebi's does, then patched into
+  `eas.json`'s submit profile at runtime rather than committed). Not yet run; needs repo secrets.
+- 2026-11-20: Verified Pack 1 and Pack 2's full production download path on-device on "CJ's iPhone 2"
+  using a fresh EAS development build with `expo-crypto`/`expo-file-system` compiled in: fresh
+  install of both packs, offline launch, a failed download recovered via Retry, and removal/reinstall
+  reconnecting prior explored/reflection state by stable content reference. Also confirmed
+  pack-activated routes appear live on Home and the Artist Directory once a pack's lesson is added to
+  the Lesson Plan. This closes the Lesson Packs Phase 2 exit criterion.
 - 2026-11-18: Deployed Pack 1 and Pack 2 to production. Found the site's Vercel project
   (`paperweight-systems-web`, Next.js, Git-connected to `bud-diaz/paperweight-systems-web`) and added
   `catalog.v1.json` plus both pack manifests under `public/required-listening/packs/` via
