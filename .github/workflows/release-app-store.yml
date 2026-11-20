@@ -93,7 +93,14 @@ jobs:
           "
 
       - name: Build and submit to App Store Connect
-        run: npx eas-cli build --platform ios --profile production --non-interactive --auto-submit --wait 2>&1 | tee "$RUNNER_TEMP/eas-build-submit.log"
+        # GH Actions runs `run:` steps with `bash -e` but not `pipefail`, so
+        # piping into `tee` would make this step report success even when
+        # `eas-cli` fails (the pipeline's exit code is tee's, which is
+        # always 0). Set pipefail explicitly so a real failure here fails
+        # the job instead of silently passing.
+        run: |
+          set -o pipefail
+          npx eas-cli build --platform ios --profile production --non-interactive --auto-submit --wait 2>&1 | tee "$RUNNER_TEMP/eas-build-submit.log"
 
       - name: Remove API key from disk
         if: always()
