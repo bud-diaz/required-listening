@@ -76,7 +76,7 @@ Expo Crypto and Expo FileSystem.
 - Sound Traffic System visual identity across Home, route directory, unit hub, lesson stages, crate,
   onboarding, settings and About. Briefing is yellow; Listen blue; Notice orange; Talk green; Crate red.
 - Launcher, Android adaptive/themed, and web favicon assets now use the supplied yellow-and-black
-  Listening Required railroad sign; the original 1254px source is preserved under `docs/`.
+  hand-and-cassette artwork; the original 1254px source is preserved under `docs/`.
 - Reusable signage components live in `src/ui/signage/`, including the accessible four-way lesson
   placard, route badges, sign panels/buttons, record signs, context notes and stage-safe screens.
 - Setup for grown-ups (nickname, emoji avatar, listening lane, allowed music services, content note).
@@ -185,6 +185,9 @@ approval separately from their overall unit review; their app-specific Notice/Ta
   existing plan default.
 
 **Checks (last run after deploying both packs to production, 2026-11-18)**
+- 2026-11-20 icon refresh: `npm run lint` and `npx tsc --noEmit` pass; `npx expo config --type
+  public` resolves the new 1024px launcher icon, safely inset Android adaptive foreground, 432px
+  themed-icon mask, and 48px web favicon.
 - `npm run lint`: pass
 - `npx tsc --noEmit`: pass
 - `npm test` (Vitest): 189/189 pass, including Pack 1/Pack 2 assertions for `review.status: approved`
@@ -288,6 +291,9 @@ approval separately from their overall unit review; their app-specific Notice/Ta
 
 Newest first. One line per commit: date, short hash once known, what changed.
 
+- 2026-11-20: Replaced the railroad-sign app icon with the supplied yellow-and-black hand-and-
+  cassette artwork across the 1024px launcher icon, Android adaptive and themed icon layers, and web
+  favicon; preserved the original 1254px JPEG in `docs/`.
 - 2026-11-20: Added `.github/workflows/release-app-store.yml` (manual-dispatch EAS Build + Submit to
   App Store Connect), modeled on modebi's release-app-store.yml but adapted for a managed Expo
   project: no xcodegen/xcodebuild/altool, since EAS Build already code-signs on Expo's own
