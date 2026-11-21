@@ -72,11 +72,11 @@ jobs:
           echo "ASC_API_KEY_PATH=$KEY_PATH" >> "$GITHUB_ENV"
 
       - name: Point eas.json's submit profile at the key for this run
-        # eas.json ships with an empty submit.production placeholder (no
-        # Apple identifiers committed to the repo). EAS Submit reads
-        # ascApiKeyPath/Id/IssuerId from eas.json, so this run's values are
-        # patched in here rather than hardcoded, then discarded with the
-        # rest of the checkout when the job ends.
+        # eas.json commits non-secret submit config (e.g. ascAppId) directly;
+        # only the API key identifiers are patched in here at runtime rather
+        # than committed, then discarded with the rest of the checkout when
+        # the job ends. Merge into submit.production.ios rather than
+        # replacing it, so committed fields like ascAppId survive.
         run: |
           set -euo pipefail
           node -e "
@@ -84,11 +84,12 @@ jobs:
             const easJson = JSON.parse(fs.readFileSync('eas.json', 'utf8'));
             easJson.submit ??= {};
             easJson.submit.production ??= {};
-            easJson.submit.production.ios = {
+            easJson.submit.production.ios ??= {};
+            Object.assign(easJson.submit.production.ios, {
               ascApiKeyPath: process.env.ASC_API_KEY_PATH,
               ascApiKeyIssuerId: process.env.ASC_API_ISSUER_ID,
               ascApiKeyId: process.env.ASC_API_KEY_ID,
-            };
+            });
             fs.writeFileSync('eas.json', JSON.stringify(easJson, null, 2) + '\n');
           "
 
