@@ -1,4 +1,5 @@
 export * from './ApprovalStamp';
+export * from './CollapsibleSection';
 export * from './ContextStopSign';
 export * from './LessonPlacard';
 export * from './RecordSign';

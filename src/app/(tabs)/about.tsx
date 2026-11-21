@@ -7,15 +7,15 @@ import { ABOUT_LINKS } from '../../lib/about-links';
 import { plannedUnitCount } from '../../domain/routes';
 import { useFamilyStore } from '../../stores/family-store';
 import { Blocks, DraftBanner, Kicker, Screen } from '../../ui/primitives';
-import { RoadDivider, SignPanel } from '../../ui/signage';
+import { CollapsibleSection, RoadDivider, SignButton, SignPanel } from '../../ui/signage';
 import { colors, geometry, space, TOUCH, type } from '../../ui/theme';
 
 function BookIcon() {
   return (
     <View aria-hidden style={styles.bookIcon}>
-      <View style={[styles.bookPage, styles.bookPageLeft]} />
-      <View style={[styles.bookPage, styles.bookPageRight]} />
-      <View style={styles.bookSpine} />
+      <View style={styles.bookCover} />
+      <View style={styles.bookPages} />
+      <View style={styles.bookBookmark} />
     </View>
   );
 }
@@ -23,9 +23,16 @@ function BookIcon() {
 export default function About() {
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});
   const [linkError, setLinkError] = useState<string | null>(null);
+  const [confirmingWipe, setConfirmingWipe] = useState(false);
   const lessonPlan = useFamilyStore((s) => s.lessonPlan);
   const installedPacks = useFamilyStore((s) => s.installedPacks);
+  const deleteAll = useFamilyStore((s) => s.deleteAll);
   const plannedUnits = plannedUnitCount(installedPacks, lessonPlan);
+
+  const onWipe = async () => {
+    await deleteAll();
+    router.replace('/welcome');
+  };
 
   const openLink = async (url: string) => {
     try {
@@ -51,22 +58,56 @@ export default function About() {
         const isExpanded = !!expanded[section.id];
         return (
           <SignPanel key={section.id}>
-            <Pressable
-              accessibilityRole="button"
+            <CollapsibleSection
+              title={section.heading}
+              isExpanded={isExpanded}
               accessibilityLabel={section.heading}
-              accessibilityHint={isExpanded ? 'Collapses this Field Manual section' : 'Expands this Field Manual section'}
-              accessibilityState={{ expanded: isExpanded }}
-              onPress={() => setExpanded((current) => ({ ...current, [section.id]: !isExpanded }))}
-              style={({ pressed }) => [styles.accordionHeader, pressed && styles.pressed]}
+              onToggle={() => setExpanded((current) => ({ ...current, [section.id]: !isExpanded }))}
             >
-              <Text style={[type.h1, styles.heading]}>{section.heading}</Text>
-              <Text aria-hidden style={styles.symbol}>{isExpanded ? '−' : '+'}</Text>
-            </Pressable>
-            {isExpanded ? <Blocks blocks={section.blocks} /> : null}
+              <Blocks blocks={section.blocks} />
+            </CollapsibleSection>
           </SignPanel>
         );
       })}
       <SignPanel title="Get the guide">
+        <View style={styles.quickActionsRow}>
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel={`Lesson Plan, ${plannedUnits} artist${plannedUnits === 1 ? '' : 's'} saved`}
+            onPress={() => router.push('/plan')}
+            style={({ pressed }) => [styles.quickActionButton, styles.lessonPlanButton, pressed && styles.pressed]}
+          >
+            <Text style={styles.lessonPlanCount}>{plannedUnits}</Text>
+            <Text style={styles.lessonPlanLabel}>PLAN</Text>
+          </Pressable>
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel="Browse lesson packs"
+            accessibilityHint="Opens the lesson pack catalog"
+            onPress={() => router.push('/packs')}
+            style={({ pressed }) => [styles.quickActionButton, styles.quickActionInk, pressed && styles.pressed]}
+          >
+            <Text aria-hidden style={[styles.quickActionGlyph, styles.quickActionGlyphInk]}>+</Text>
+          </Pressable>
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel="Remove downloaded packs and clear family data"
+            accessibilityHint="Opens a confirmation before deleting local data"
+            onPress={() => setConfirmingWipe(true)}
+            style={({ pressed }) => [styles.quickActionButton, styles.quickActionDanger, pressed && styles.pressed]}
+          >
+            <Text aria-hidden style={[styles.quickActionGlyph, styles.quickActionGlyphDanger]}>−</Text>
+          </Pressable>
+        </View>
+        {confirmingWipe ? (
+          <SignPanel tone="warning" title="Delete family data">
+            <Text style={[type.body, { color: colors.ink, fontWeight: '700' }]}>
+              Remove every downloaded pack and clear everything saved on this device? This can’t be undone.
+            </Text>
+            <SignButton label="Yes, delete everything" variant="danger" onPress={() => void onWipe()} />
+            <SignButton label="Cancel" variant="ghost" onPress={() => setConfirmingWipe(false)} />
+          </SignPanel>
+        ) : null}
         <View style={styles.guideLinksRow}>
           {ABOUT_LINKS.map((link, index) => (
             <Pressable
@@ -94,29 +135,6 @@ export default function About() {
             </Pressable>
           ))}
         </View>
-        <View style={styles.placeholderRow}>
-          <Pressable
-            accessibilityRole="button"
-            accessibilityLabel={`Lesson Plan, ${plannedUnits} artist${plannedUnits === 1 ? '' : 's'} saved`}
-            onPress={() => router.push('/plan')}
-            style={({ pressed }) => [styles.placeholderButton, styles.lessonPlanButton, pressed && styles.pressed]}
-          >
-            <Text style={styles.lessonPlanCount}>{plannedUnits}</Text>
-            <Text style={styles.lessonPlanLabel}>PLAN</Text>
-          </Pressable>
-          {[2, 3].map((slot) => (
-            <Pressable
-              key={slot}
-              accessibilityRole="button"
-              accessibilityLabel={`Future guide link ${slot}`}
-              accessibilityState={{ disabled: true }}
-              disabled
-              style={styles.placeholderButton}
-            >
-              <Text aria-hidden style={styles.placeholderPlus}>+</Text>
-            </Pressable>
-          ))}
-        </View>
         {linkError ? (
           <Text accessibilityRole="alert" style={[type.small, styles.linkError]}>
             {linkError}
@@ -128,15 +146,6 @@ export default function About() {
 }
 
 const styles = StyleSheet.create({
-  accordionHeader: {
-    minHeight: 48,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    gap: space.md,
-  },
-  heading: { flex: 1, color: colors.ink, fontSize: 22 },
-  symbol: { color: colors.ink, fontSize: 32, lineHeight: 32, fontWeight: '700' },
   guideLinksRow: { flexDirection: 'row', gap: space.sm },
   guideLinkButton: {
     flex: 1,
@@ -149,13 +158,12 @@ const styles = StyleSheet.create({
   guideLinkInk: { backgroundColor: colors.ink, borderColor: colors.ink },
   guideLinkPaper: { backgroundColor: colors.paper, borderColor: colors.ink },
   paperweightLogo: { width: 56, height: 56 },
-  bookIcon: { width: 52, height: 40, flexDirection: 'row', position: 'relative', alignItems: 'flex-start' },
-  bookPage: { width: 26, height: 36, backgroundColor: colors.yellow, borderColor: colors.ink, borderWidth: 3 },
-  bookPageLeft: { borderTopLeftRadius: 7, borderBottomLeftRadius: 5, borderRightWidth: 1, transform: [{ rotate: '-4deg' }] },
-  bookPageRight: { borderTopRightRadius: 7, borderBottomRightRadius: 5, borderLeftWidth: 1, transform: [{ rotate: '4deg' }] },
-  bookSpine: { position: 'absolute', left: 24.5, top: 3, width: 3, height: 34, borderRadius: 2, backgroundColor: colors.ink },
-  placeholderRow: { flexDirection: 'row', gap: space.sm, marginTop: space.xs },
-  placeholderButton: {
+  bookIcon: { width: 44, height: 42, position: 'relative', alignItems: 'center', justifyContent: 'flex-end' },
+  bookCover: { width: 32, height: 36, backgroundColor: colors.yellow, borderColor: colors.ink, borderWidth: 3, borderRadius: 5 },
+  bookPages: { position: 'absolute', left: 13, top: 3, bottom: 3, width: 3, borderRadius: 1, backgroundColor: colors.ink },
+  bookBookmark: { position: 'absolute', top: -8, right: 9, width: 7, height: 16, backgroundColor: colors.ink },
+  quickActionsRow: { flexDirection: 'row', gap: space.sm, marginBottom: space.xs },
+  quickActionButton: {
     flex: 1,
     minHeight: TOUCH,
     borderWidth: geometry.border,
@@ -165,7 +173,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  placeholderPlus: { color: colors.ink, fontSize: 30, lineHeight: 32, fontWeight: '700' },
+  quickActionInk: { backgroundColor: colors.ink, borderColor: colors.ink },
+  quickActionDanger: { backgroundColor: colors.paper, borderColor: colors.danger },
+  quickActionGlyph: { color: colors.ink, fontSize: 30, lineHeight: 32, fontWeight: '700' },
+  quickActionGlyphInk: { color: colors.paper },
+  quickActionGlyphDanger: { color: colors.danger },
   lessonPlanButton: { backgroundColor: colors.ink, gap: 2 },
   lessonPlanCount: { color: colors.paper, fontSize: 20, lineHeight: 22, fontWeight: '900' },
   lessonPlanLabel: { color: colors.paper, fontSize: 10, lineHeight: 12, fontWeight: '900', letterSpacing: 1 },
